@@ -1,0 +1,2235 @@
+{
+	id: "58B2FCB6A7C1320D"
+	group: "638FC427456F902B"
+	order_index: 7
+	filename: "misc"
+	title: "杂质[--Misc--]"
+	icon: {
+		id: "buildinggadgets:gadget_copy_paste"
+		Count: 1b
+		tag: {
+			mode: 0b
+			template_id: [I;
+				-706370051
+				-677756061
+				-1878632327
+				-1161966628
+			]
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			dependencies: ["0D1B669F0D4E09BE"]
+			id: "5C1F3C366E52F0BF"
+			tasks: [
+				{
+					id: "5A25AA9FB181F640"
+					type: "item"
+					item: {
+						id: "tiab:timeinabottle"
+						Count: 1b
+						tag: {
+							timeData: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D5BEBE48651F563"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+				{
+					id: "65E103F7B7E4269D"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -4.0d
+			shape: "octagon"
+			description: ["建筑小帮手允许你使用一组不同的建筑模式来建造结构.[--The Building Gadget allows you to build structures using a set of different Building Modes.--]"]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "0BB86AD42F37B36D"
+			tasks: [
+				{
+					id: "5C554DF2C3A6D6A6"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_building"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5389F213A83F9EBF"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			shape: "octagon"
+			description: ["更替小帮手使用一组不同的更替模式提供了基本的更替能力.[--The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes.--]"]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "6CEE7B961076326E"
+			tasks: [
+				{
+					id: "4A74E3CB2883A360"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_exchanging"
+						Count: 1b
+						tag: {
+							state: {
+								serializer: "buildinggadgets:dummy_serializer"
+								state: {
+									Name: "minecraft:air"
+								}
+								data: { }
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "61D6C99CFF7C09DC"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -2.0d
+			shape: "octagon"
+			description: ["复制粘膏小帮手允许你选择一个大半径来复制和粘贴在不同的位置.[--The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location.--]"]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "37E7A7B9989E3C83"
+			tasks: [
+				{
+					id: "2A4E1EEF9A0BCD9D"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_copy_paste"
+						Count: 1b
+						tag: {
+							mode: 0b
+							template_id: [I;
+								-706370051
+								-677756061
+								-1878632327
+								-1161966628
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "44E30938B3600FC7"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			shape: "octagon"
+			description: ["破坏小帮手可以让你虚空大区域.[--The Destruction Gadget allows you to void a large area.--]"]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "620D2DCE038B259E"
+			tasks: [
+				{
+					id: "17E42AC23C58C148"
+					type: "item"
+					item: {
+						id: "buildinggadgets:gadget_destruction"
+						Count: 1b
+						tag: {
+							overlay: 1b
+							fuzzy: 1b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2A3ED12171D4E630"
+					type: "item"
+					item: "minecraft:ender_pearl"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			dependencies: ["39DB67EE674F41A4"]
+			id: "462A030FB9640053"
+			tasks: [
+				{
+					id: "09A4B92A987A54CB"
+					type: "item"
+					item: "cagedmobs:mobcage"
+				}
+			]
+			rewards: [
+				{
+					id: "470AD737EEF5BB33"
+					type: "item"
+					item: "supplementaries:cage"
+				}
+				{
+					id: "5E2B850F1CCEF999"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["462A030FB9640053"]
+			id: "4EE4C8827A0D8A12"
+			tasks: [
+				{
+					id: "590875D8B33D8D42"
+					type: "item"
+					item: "cagedmobs:hoppingmobcage"
+				}
+			]
+			rewards: [
+				{
+					id: "5846E5AF8DD26253"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk3"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			dependencies: ["3F05D033EBD0710D"]
+			id: "7BAEA669F08E6D8C"
+			tasks: [
+				{
+					id: "2A7797FD2B40636F"
+					type: "item"
+					item: "cagedmobs:dnasampler"
+				}
+			]
+			rewards: [
+				{
+					id: "5EB84B4957FD6C81"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "296792C170EC1D6B"
+			tasks: [
+				{
+					id: "24F7B9853B8FBA8C"
+					type: "item"
+					item: "cagedmobs:dnasamplerdiamond"
+				}
+			]
+			rewards: [
+				{
+					id: "6959AC890D9249B3"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["296792C170EC1D6B"]
+			id: "419BA67AC730DEEE"
+			tasks: [
+				{
+					id: "28E96CFA7A3DEF3D"
+					type: "item"
+					item: "cagedmobs:dnasamplernetherite"
+				}
+			]
+			rewards: [
+				{
+					id: "258DADEC7E168518"
+					type: "item"
+					item: "cagedmobs:star_infused_netherite_ingot"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			dependencies: [
+				"088D692E25F62BFD"
+				"7177A157E31F65A9"
+			]
+			id: "519EBA91C39CFAB1"
+			tasks: [
+				{
+					id: "3940FFA64E92D8F7"
+					type: "item"
+					item: "cagedmobs:cookingupgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "210EB3B73A844260"
+					type: "item"
+					item: "minecraft:cooked_mutton"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "1FAF131138CDC09A"
+			tasks: [
+				{
+					id: "7CEF3A6A09CAC056"
+					type: "item"
+					item: "cagedmobs:lightningupgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "3493C60939D86479"
+					type: "item"
+					item: "minecraft:wither_skeleton_skull"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["088D692E25F62BFD"]
+			id: "4D7519CBAA057211"
+			tasks: [
+				{
+					id: "6BBF64049DC50979"
+					type: "item"
+					item: "cagedmobs:arrowupgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "4B43213DA81A9E71"
+					type: "item"
+					item: {
+						id: "minecraft:tipped_arrow"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_harming"
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "380E9CB925E92F25"
+			tasks: [
+				{
+					id: "6BDFF1FE68279B77"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "153FD01CCE7EB871"
+					type: "item"
+					item: "pipez:item_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+				"3B8B6059CD724BD3"
+			]
+			id: "3D2E3D9DCF93B206"
+			tasks: [
+				{
+					id: "4C4098B24D3EC5E4"
+					type: "item"
+					item: "pipez:fluid_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "2D9310A227265FC9"
+					type: "item"
+					item: "pipez:fluid_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+				"505915AA1C542C01"
+			]
+			id: "550F76A37A2D6A81"
+			tasks: [
+				{
+					id: "539ECE75BC31C123"
+					type: "item"
+					item: "pipez:energy_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "6F49B5F4EBE792C3"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+				"7C096F70E21229EC"
+			]
+			id: "0BC5CF7D0AB007C8"
+			tasks: [
+				{
+					id: "0936D86F19E3CB83"
+					type: "item"
+					item: "pipez:gas_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "6EFD3B98D96B9AEF"
+					type: "item"
+					item: "pipez:gas_pipe"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.0d
+			shape: "hexagon"
+			dependencies: [
+				"550F76A37A2D6A81"
+				"3D2E3D9DCF93B206"
+				"380E9CB925E92F25"
+			]
+			id: "6424AAF1A11798C8"
+			tasks: [
+				{
+					id: "695454DE20BECF82"
+					type: "item"
+					item: "pipez:universal_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "54907ADFE9AA392C"
+					type: "item"
+					item: "pipez:universal_pipe"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["47A4D81697C274A3"]
+			id: "1ECC23A92C612D2A"
+			tasks: [
+				{
+					id: "4DB6D73DE99B03B3"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [
+				{
+					id: "51F208E30409036A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: [
+				"47A4D81697C274A3"
+				"321AFD3A1679E8E0"
+			]
+			id: "6B676EB98B41BA22"
+			tasks: [
+				{
+					id: "750155E057F6E296"
+					type: "item"
+					item: "pipez:filter_destination_tool"
+				}
+			]
+			rewards: [
+				{
+					id: "53E84842C46C836E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			shape: "hexagon"
+			description: ["每 15 ticks 转移 8 个物品.[--Transfert 8 items every 15 ticks.--]"]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "47FD87C40EF62ABB"
+			tasks: [
+				{
+					id: "2959AD38A2627DD4"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "3EBA6E6638981370"
+					type: "item"
+					item: "pipez:basic_upgrade"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -2.0d
+			shape: "hexagon"
+			description: ["每 10 ticks 转移 16 个物品.[--Transfert 16 items every 10 ticks.--]"]
+			dependencies: ["47FD87C40EF62ABB"]
+			id: "7D7D7DC63E4C2F0A"
+			tasks: [
+				{
+					id: "38C4CD7DA42A5C26"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "44935754F0918F0D"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -1.0d
+			shape: "hexagon"
+			description: ["每 5 ticks 转移 32 个物品.[--Transfert 32 items every 5 ticks.--]"]
+			dependencies: ["7D7D7DC63E4C2F0A"]
+			id: "08C40E34FE7E24CE"
+			tasks: [
+				{
+					id: "5BD161CD4D177397"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "3BA362A8648D7596"
+					type: "item"
+					item: "pipez:advanced_upgrade"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["每次转64个物品.[--Transfert 64 items every tick.--]"]
+			dependencies: ["08C40E34FE7E24CE"]
+			id: "3390851CC346F5F5"
+			tasks: [
+				{
+					id: "5A2B5ED8F2226882"
+					type: "item"
+					item: "pipez:ultimate_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "4645A32D17F7B275"
+					type: "item"
+					item: "pipez:ultimate_upgrade"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			shape: "rsquare"
+			description: [
+				"&l绑定纠缠方块&r[--&lBinding an Entangled Block&r--]"
+				"1. 制作一个纠缠方块和一个纠缠绑定器[--1. Craft an Entangled Block and an Entangled Binder--]"
+				"2. 放下纠缠方块[--2. Place down your Entangled Block--]"
+				"3. 右键单击要用纠缠绑定器绑定的方块[--3. Right-Click on the block you want to bind with the Entangled Binder--]"
+				"4. 用纠缠绑定器右键单击你的纠缠方块[--4. Right-Click on your Entangled Block with the Entangled Binder--]"
+				""
+				"&l解锁纠缠方块&r[--&lUnbinding an Entangled Block&r--]"
+				"1. 选择快捷栏上的空槽[--1. Select an empty slot on your hotbar--]"
+				"2. 开始蹲下[--2. Start crouching--]"
+				"3. 右击纠缠方块[--3. Right-Click on the Entangled Block--]"
+			]
+			dependencies: [
+				"39DB67EE674F41A4"
+				"2C8FDC0987A55F71"
+			]
+			id: "4121C4B3289FE87D"
+			tasks: [
+				{
+					id: "4319FBB0AE21CF05"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "13DBC223B224299C"
+					type: "item"
+					item: {
+						id: "entangled:block"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "305AFEBFC900CCBE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			shape: "rsquare"
+			description: ["纠缠绑定器可以让你控制什么方块绑定在一起![--Entangled Binder Allows you to control what blocks bind together!--]"]
+			dependencies: [
+				"243FA1E08B56689C"
+				"088D692E25F62BFD"
+			]
+			id: "3D2BB0556215FF69"
+			tasks: [
+				{
+					id: "7B33778C7B41B22F"
+					type: "item"
+					item: {
+						id: "entangled:item"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "308F3EE28EF8EB3B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -4.0d
+			shape: "square"
+			description: ["一个 3x3x3 的箱子。[--A 3x3x3 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "2EEC166F47EEB059"
+			tasks: [
+				{
+					id: "5440EFEEDAB0B775"
+					type: "item"
+					item: "compactmachines:machine_tiny"
+				}
+			]
+			rewards: [
+				{
+					id: "7180715781F11B2E"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			shape: "square"
+			description: ["一个 5x5x5 的箱子。[--A 5x5x5 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "32DB131E9B2EFB23"
+			tasks: [
+				{
+					id: "09710AF66772D38E"
+					type: "item"
+					item: "compactmachines:machine_small"
+				}
+			]
+			rewards: [
+				{
+					id: "35393D8B4858DD03"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.0d
+			shape: "square"
+			description: ["一个 7x7x7 的箱子.[--A 7x7x7 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "52441E36529D495A"
+			tasks: [
+				{
+					id: "02F9B261E6A372AF"
+					type: "item"
+					item: "compactmachines:machine_normal"
+				}
+			]
+			rewards: [
+				{
+					id: "2193BEF23D812FF3"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			shape: "square"
+			description: ["9x9x9的箱子。[--A 9x9x9 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "5BB13D343C544F64"
+			tasks: [
+				{
+					id: "078389A73971990A"
+					type: "item"
+					item: "compactmachines:machine_large"
+				}
+			]
+			rewards: [
+				{
+					id: "260C6E0E2009286E"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			shape: "square"
+			description: ["一个 11x11x11 的箱子.[--A 11x11x11 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "3E838C03FE839160"
+			tasks: [
+				{
+					id: "50E0C50DD7545011"
+					type: "item"
+					item: "compactmachines:machine_giant"
+				}
+			]
+			rewards: [
+				{
+					id: "32059B5BE0B34732"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			shape: "square"
+			description: ["一个 13x13x13 的箱子.[--A 13x13x13 box.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6705F141D138C325"
+				"0DFB491BD9E57A34"
+			]
+			id: "15457161BC469A01"
+			tasks: [
+				{
+					id: "6AC4BAF6CCF4BBE7"
+					type: "item"
+					item: "compactmachines:machine_maximum"
+				}
+			]
+			rewards: [
+				{
+					id: "63799E1D8B7D1D4B"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.0d
+			shape: "square"
+			description: ["此工具允许您进入您的压缩机器.[--This tool allows you to enter your Compact Machines.--]"]
+			dependencies: [
+				"1B69AF5509A2B907"
+				"47A4D81697C274A3"
+				"0DBCCDC1A9287229"
+			]
+			id: "6B9DF754ABB193CD"
+			tasks: [
+				{
+					id: "533F3CBC7A42EF12"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+			]
+			rewards: [
+				{
+					id: "591779BBA11F453C"
+					type: "item"
+					item: "immersiveengineering:component_steel"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			shape: "square"
+			dependencies: [
+				"6705F141D138C325"
+				"1B69AF5509A2B907"
+			]
+			id: "0DFB491BD9E57A34"
+			tasks: [
+				{
+					id: "0C2528F83CE8CE9E"
+					type: "item"
+					item: "compactmachines:wall"
+				}
+			]
+			rewards: [
+				{
+					id: "357D46AF28EDA4E2"
+					type: "item"
+					item: "compactmachines:wall"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			shape: "square"
+			dependencies: ["0DFB491BD9E57A34"]
+			id: "6B4F5192FF1FF990"
+			tasks: [
+				{
+					id: "49CD121A2DDD5398"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5898CBB21C2256A0"
+					type: "item"
+					item: "expandedstorage:netherite_chest"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -2.0d
+			shape: "square"
+			dependencies: [
+				"0DFB491BD9E57A34"
+				"321AFD3A1679E8E0"
+			]
+			id: "2A7954D1A6045440"
+			tasks: [
+				{
+					id: "7EE681DF686F1EFA"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:redstone_in"
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6C36A0B98AFEFAB4"
+					type: "item"
+					item: "extendedcrafting:redstone_ingot_block"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			shape: "square"
+			dependencies: [
+				"1B9AFBFD62DBF237"
+				"3EAB488E2A6BC29A"
+			]
+			id: "6705F141D138C325"
+			tasks: [
+				{
+					id: "36CA26F91CD6AD0C"
+					type: "item"
+					item: "compactcrafting:field_projector"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "1D37A38D3534F275"
+					type: "item"
+					item: "thermal:redstone_servo"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.0d
+			shape: "diamond"
+			description: ["你可以扔掉物品![--You can trash Items !--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "7E47E2F9A6FF7C47"
+			tasks: [
+				{
+					id: "666BA0045B11885D"
+					type: "item"
+					item: "trashcans:item_trash_can"
+				}
+			]
+			rewards: [
+				{
+					id: "4DE13E10E19B3A53"
+					type: "item"
+					item: "chromasky:1x_compressed_cobblestone"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			shape: "diamond"
+			description: ["你可以扔掉流体![--You can trash Fluids !--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "6FAD8088FF55A204"
+			tasks: [
+				{
+					id: "27873DDD983E02B6"
+					type: "item"
+					item: "trashcans:liquid_trash_can"
+				}
+			]
+			rewards: [
+				{
+					id: "18FC8B7253C24652"
+					type: "item"
+					item: "minecraft:pufferfish_bucket"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			shape: "diamond"
+			description: ["你可以把能量扔掉![--You can trash Energy !--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "24AA54314A035049"
+			tasks: [
+				{
+					id: "7F7E7ED0644C4A05"
+					type: "item"
+					item: "trashcans:energy_trash_can"
+				}
+			]
+			rewards: [
+				{
+					id: "57D79391407F8A4C"
+					type: "item"
+					item: "minecraft:redstone"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			shape: "diamond"
+			description: ["你可以扔掉所有东西.[--You can trash everything.--]"]
+			dependencies: [
+				"7E47E2F9A6FF7C47"
+				"6FAD8088FF55A204"
+				"24AA54314A035049"
+			]
+			id: "59F48016581F70E0"
+			tasks: [
+				{
+					id: "5FF52C569C868557"
+					type: "item"
+					item: "trashcans:ultimate_trash_can"
+				}
+			]
+			rewards: [
+				{
+					id: "0B8FAF68E489FDE4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			shape: "octagon"
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "5EE635DB437B6ACE"
+			tasks: [
+				{
+					id: "082AE524E78D37A9"
+					type: "item"
+					item: {
+						id: "charginggadgets:charging_station"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "57FE994E7AEBA966"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			shape: "octagon"
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "6AE7A9622E87841E"
+			tasks: [
+				{
+					id: "7033F3D53C61C88B"
+					type: "item"
+					item: "buildinggadgets:template_manager"
+				}
+			]
+			rewards: [
+				{
+					id: "16D7553282D0BA75"
+					type: "item"
+					item: "minecraft:paper"
+				}
+				{
+					id: "7538FE71CEA2CBC9"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -4.0d
+			description: ["一次最多可以放置 9 个方块![--Can place up to 9 blocks at once!--]"]
+			dependencies: ["793F6D3707268AFB"]
+			id: "6ED11CD6BDBD5ABF"
+			tasks: [
+				{
+					id: "6755443A8EC3DE1A"
+					type: "item"
+					item: {
+						id: "constructionwand:stone_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "20377BA62A408203"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -3.0d
+			description: ["一次最多可以放置 27 个方块![--Can place up to 27 blocks at once!--]"]
+			dependencies: ["3F05D033EBD0710D"]
+			id: "3E26238C4EBD0434"
+			tasks: [
+				{
+					id: "5CAB6E282F8DBE4A"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "34CA84799FF6FC00"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -2.0d
+			description: ["一次最多可以放置128个方块![--Can place up to 128 blocks at once!--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "0BA4B694D58CFBFD"
+			tasks: [
+				{
+					id: "7CE1E33081F85E4B"
+					type: "item"
+					item: {
+						id: "constructionwand:diamond_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "674158B8DC7B33E3"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -1.0d
+			description: ["一次最多可以放置 1024 个方块![--Can place up to 1024 blocks at once!--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "29C488DD8A1CF337"
+			tasks: [
+				{
+					id: "514EC55A2B362E07"
+					type: "item"
+					item: {
+						id: "constructionwand:infinity_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "10E9AEBAEB7DF31C"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "gear"
+			description: ["防止敌对怪物在火把周围大半径范围内自然生成.[--Prevents natural spawning of hostile monsters in a big radius around the torch.--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "33D43AA047132058"
+			tasks: [
+				{
+					id: "50242FC327846515"
+					type: "item"
+					item: "torchmaster:megatorch"
+				}
+			]
+			rewards: [
+				{
+					id: "7347542317EF7DD2"
+					type: "item"
+					item: "torchmaster:megatorch"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "gear"
+			description: ["在灯周围半径内放置隐形灯光。[--Places invisible lights in a radius around the lamp.--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "0B95BC9066A3A231"
+			tasks: [
+				{
+					id: "3D9A1468B8738BAE"
+					type: "item"
+					item: "torchmaster:feral_flare_lantern"
+				}
+			]
+			rewards: [
+				{
+					id: "54EFF42B9AAAC46D"
+					type: "item"
+					item: "torchmaster:frozen_pearl"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "gear"
+			description: ["防止在灯周围大半径范围内自然生成鱿鱼、蝙蝠或豹等被动动物.[--Prevents natural spawning of passive animals like squids, bats or ocelots in a big radius around the lamp.--]"]
+			dependencies: ["088D692E25F62BFD"]
+			id: "2B1112222E55E109"
+			tasks: [
+				{
+					id: "5BEC3303B1A67879"
+					type: "item"
+					item: "torchmaster:dreadlamp"
+				}
+			]
+			rewards: [
+				{
+					id: "29CA5953EDDDE9CA"
+					type: "item"
+					item: "supplementaries:copper_lantern"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			shape: "octagon"
+			dependencies: ["3F05D033EBD0710D"]
+			id: "1FE43A6E2FB98AA1"
+			tasks: [
+				{
+					id: "4FBD62B9210BF5D0"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk1"
+				}
+			]
+			rewards: [
+				{
+					id: "17FC86E12293D470"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			shape: "octagon"
+			dependencies: ["1FE43A6E2FB98AA1"]
+			id: "32E1C48C781FA640"
+			tasks: [
+				{
+					id: "5932D70BCF3903F3"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk2"
+				}
+			]
+			rewards: [
+				{
+					id: "370ECF18FA17CBA6"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk1"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			shape: "octagon"
+			dependencies: ["32E1C48C781FA640"]
+			id: "00FA1EE97159B342"
+			tasks: [
+				{
+					id: "24D6FDFD742FF3F8"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk3"
+				}
+			]
+			rewards: [
+				{
+					id: "468E23B36F101078"
+					type: "item"
+					item: "speedyhoppers:speedyhopper_mk2"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			shape: "diamond"
+			dependencies: ["054C13431F464EC6"]
+			id: "77AF5AF7BD27BFAD"
+			tasks: [
+				{
+					id: "2BFF7E28F8E2F80E"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "37FC05473F8EA3BA"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"77AF5AF7BD27BFAD"
+				"780732EFA526050A"
+			]
+			id: "0FC578B7FD3FF48D"
+			tasks: [
+				{
+					id: "589665C8832EC13A"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+			]
+			rewards: [
+				{
+					id: "472386DE1ABB1545"
+					type: "item"
+					item: "fluxnetworks:flux_block"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"780732EFA526050A"
+				"0FC578B7FD3FF48D"
+			]
+			id: "1D8AE33E20BFBCB4"
+			tasks: [
+				{
+					id: "082C8B8E503FA9E5"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+			rewards: [
+				{
+					id: "0241DCA690181CE7"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["780732EFA526050A"]
+			id: "696E514DDE3AF653"
+			tasks: [
+				{
+					id: "7D310EDA3BF8A748"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+			]
+			rewards: [
+				{
+					id: "6A80265A4E8EF849"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"780732EFA526050A"
+				"77AF5AF7BD27BFAD"
+				"0FC578B7FD3FF48D"
+			]
+			id: "0E79214C63CFC260"
+			tasks: [
+				{
+					id: "7F055D7ACBE976F2"
+					type: "item"
+					item: "fluxnetworks:flux_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "458D7B98764066EC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0FC578B7FD3FF48D"]
+			id: "5090B1F64CD6C162"
+			tasks: [
+				{
+					id: "480894B71FF42298"
+					type: "item"
+					item: "fluxnetworks:basic_flux_storage"
+				}
+			]
+			rewards: [
+				{
+					id: "0F849AE3D8943B0A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["5090B1F64CD6C162"]
+			id: "1689AB65E9E9D2A4"
+			tasks: [
+				{
+					id: "0C44930F8CF1F234"
+					type: "item"
+					item: "fluxnetworks:herculean_flux_storage"
+				}
+			]
+			rewards: [
+				{
+					id: "433C0AC61C8EE918"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["1689AB65E9E9D2A4"]
+			id: "07DCE0650BD06116"
+			tasks: [
+				{
+					id: "698F398AE6E87C31"
+					type: "item"
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+			]
+			rewards: [
+				{
+					id: "1A0BD9A7F657C1D8"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: [
+				"77AF5AF7BD27BFAD"
+				"243FA1E08B56689C"
+			]
+			id: "780732EFA526050A"
+			tasks: [
+				{
+					id: "2B28373FAAB86CCE"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "35C19DBA9D3B6C2D"
+					type: "item"
+					item: "fluxnetworks:flux_core"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["77AF5AF7BD27BFAD"]
+			id: "6AC15CD094127B1B"
+			tasks: [
+				{
+					id: "56B6C926E9BA95FF"
+					type: "item"
+					item: "fluxnetworks:flux_configurator"
+				}
+			]
+			rewards: [
+				{
+					id: "7106992508037651"
+					type: "item"
+					item: "fluxnetworks:flux_dust"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "56875A475D14434A"
+			tasks: [
+				{
+					id: "5765D63AEBD74668"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "6FDE16B9448E8920"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "1F34494915EAE5BC"
+			tasks: [
+				{
+					id: "3A0D22BC1F265D10"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+			]
+			rewards: [
+				{
+					id: "5311D35E9AC5B9F6"
+					type: "item"
+					item: "minecraft:glass"
+					count: 64
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "3191E64323A356C0"
+			tasks: [
+				{
+					id: "330A0929EEA61282"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+			]
+			rewards: [
+				{
+					id: "252780248C83D223"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "62B3A9E256453AA4"
+			tasks: [
+				{
+					id: "49A18DED2ED3EFEA"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+			]
+			rewards: [
+				{
+					id: "6321934C1631D80A"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "726D27170C82C636"
+			tasks: [
+				{
+					id: "2CF3EB95058E805F"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+			]
+			rewards: [
+				{
+					id: "6229617619A0B8F7"
+					type: "item"
+					item: "minecraft:stone"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "7281DAEB6EC0308A"
+			tasks: [
+				{
+					id: "4782C7F55209D997"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+			]
+			rewards: [
+				{
+					id: "68E944EB1BA362E1"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "diamond"
+			dependencies: ["53FCCB40B318331E"]
+			id: "2C9AA7E3E13F6C2A"
+			tasks: [
+				{
+					id: "2EBEEBDE0429F54F"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "0DAECFF77E649A21"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			shape: "diamond"
+			description: [
+				"&e磨制&r扩展了您在游戏中使用的方块类型.[--&eChipped&r expands on the variety of blocks you can use in-game.--]"
+				""
+				"该模组提供2000多个独特的建筑方块.[--The mod offers over 2000 unique building blocks.--]"
+				""
+				"破碎和切石机的工作方式相同.[--Chipped works in the same way as the stone cutter.--]"
+			]
+			id: "53FCCB40B318331E"
+			tasks: [
+				{
+					id: "0B7775A6507C0BF0"
+					type: "checkmark"
+					title: "破碎的[--Chipped--]"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			shape: "diamond"
+			dependencies: ["0218CABFAB5059B3"]
+			id: "125F24645FA1A1EC"
+			tasks: [
+				{
+					id: "29ED14D88D3E891F"
+					type: "item"
+					item: "ironfurnaces:iron_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "3B07F8E4F86DDE84"
+					type: "item"
+					item: "chromasky:iron_cluster"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["125F24645FA1A1EC"]
+			id: "0F7C8A9454D8BDE6"
+			tasks: [
+				{
+					id: "0C3FD9BBD1DD7674"
+					type: "item"
+					item: "ironfurnaces:gold_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "20D81FC361F61B57"
+					type: "item"
+					item: "chromasky:gold_cluster"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["0F7C8A9454D8BDE6"]
+			id: "5733CD5AF8B622CC"
+			tasks: [
+				{
+					id: "35415F7C4F754B40"
+					type: "item"
+					item: "ironfurnaces:diamond_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "6DE9FC864101C289"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "3F7B39CC01678D82"
+			tasks: [
+				{
+					id: "14179ED522FFE660"
+					type: "item"
+					item: "ironfurnaces:emerald_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "5BC4CDE3323928EA"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "74776E70DC308B12"
+			tasks: [
+				{
+					id: "601DFB9D66FDA62F"
+					type: "item"
+					item: "ironfurnaces:obsidian_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "3C9BB4211FDB09C1"
+					type: "item"
+					item: "minecraft:blaze_rod"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["5733CD5AF8B622CC"]
+			id: "516604376B219C87"
+			tasks: [
+				{
+					id: "57361FFB8A1C6461"
+					type: "item"
+					item: "ironfurnaces:crystal_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "5C73721ECC082719"
+					type: "item"
+					item: "minecraft:glass"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["74776E70DC308B12"]
+			id: "6400C07B22F6B16E"
+			tasks: [
+				{
+					id: "4ACBAF33D17ACBD7"
+					type: "item"
+					item: "ironfurnaces:netherite_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "22C096A25E9AA76A"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
+		}
+		{
+			title: "无线热量[--Wireless Heat--]"
+			x: 2.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "4053EB85A913C1E5"
+			tasks: [
+				{
+					id: "573347DC4F5F4D3A"
+					type: "item"
+					item: "ironfurnaces:heater"
+				}
+				{
+					id: "77CE0360D2E9F65C"
+					type: "item"
+					item: "ironfurnaces:item_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "4E9BEAE9023177C1"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: [
+				"0218CABFAB5059B3"
+				"088D692E25F62BFD"
+			]
+			id: "58D25DDAFC452615"
+			tasks: [
+				{
+					id: "3B9ABB6305907873"
+					type: "item"
+					item: "ironfurnaces:augment_blasting"
+				}
+			]
+			rewards: [
+				{
+					id: "098266CD7B634458"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.0d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "18B50120979E9761"
+			tasks: [
+				{
+					id: "317CC49AC796ED3E"
+					type: "item"
+					item: "ironfurnaces:augment_smoking"
+				}
+			]
+			rewards: [
+				{
+					id: "02A0FA4A434504D6"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "6487800FC44EED29"
+			tasks: [
+				{
+					id: "5F24BDA5366C42E6"
+					type: "item"
+					item: "ironfurnaces:augment_speed"
+				}
+			]
+			rewards: [
+				{
+					id: "020D79815570AA94"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["088D692E25F62BFD"]
+			id: "4C3A4D03ACF82A80"
+			tasks: [
+				{
+					id: "16A7591469A42723"
+					type: "item"
+					item: "ironfurnaces:augment_fuel"
+				}
+			]
+			rewards: [
+				{
+					id: "65A4782B05847F3D"
+					type: "item"
+					item: "minecraft:coal"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: ["6400C07B22F6B16E"]
+			id: "1B8BB3D2D10F76DE"
+			tasks: [
+				{
+					id: "4EBC830C9250486D"
+					type: "item"
+					item: "ironfurnaces:rainbow_core"
+				}
+			]
+			rewards: [
+				{
+					id: "4AF4D4D0505A7F68"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			shape: "diamond"
+			hide_dependency_lines: true
+			dependencies: [
+				"125F24645FA1A1EC"
+				"0F7C8A9454D8BDE6"
+				"5733CD5AF8B622CC"
+				"74776E70DC308B12"
+				"516604376B219C87"
+				"3F7B39CC01678D82"
+			]
+			id: "24CDCDA1F19C08F7"
+			tasks: [
+				{
+					id: "2E0DA0FE0CCA7544"
+					type: "item"
+					item: "ironfurnaces:rainbow_plating"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "16A03DD787650DD8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			shape: "diamond"
+			dependencies: [
+				"1B8BB3D2D10F76DE"
+				"24CDCDA1F19C08F7"
+			]
+			id: "135A6CF8BE3A3DA0"
+			tasks: [
+				{
+					id: "1DC4E4DA5C9585E4"
+					type: "item"
+					item: "ironfurnaces:million_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "62762417EEE0117A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["243FA1E08B56689C"]
+			id: "66484C32B3CA754A"
+			tasks: [
+				{
+					id: "0593419C9CD2FD50"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "6AC5BDADFDEEDDF5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 3.5d
+			shape: "diamond"
+			dependencies: ["243FA1E08B56689C"]
+			id: "1B31F1D239548AF6"
+			tasks: [
+				{
+					id: "4C34F603EAA66B2B"
+					type: "item"
+					item: "enderstorage:ender_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "2FC329B7EC3CFEA7"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			shape: "diamond"
+			id: "610974D44CC67886"
+			tasks: [
+				{
+					id: "6D3DA4A4E73015F9"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+				}
+			]
+			rewards: [
+				{
+					id: "5B0BB169970E49D8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,912 @@
+{
+	id: "109529D227503DC3"
+	group: "638FC427456F902B"
+	order_index: 4
+	filename: "integrated_dynamics"
+	title: "集成动力[--Integrated Dynamics--]"
+	icon: "integrateddynamics:on_the_dynamics_of_integration"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 7.5d
+			y: -7.5d
+			dependencies: ["1364BC9D46E89B79"]
+			id: "71F00867FCD80380"
+			tasks: [
+				{
+					id: "1BEB0C583DA25737"
+					type: "item"
+					item: "integrateddynamics:menril_sapling"
+				}
+			]
+			rewards: [
+				{
+					id: "5552B55A709BD347"
+					type: "item"
+					item: "integrateddynamics:menril_torch"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"64022C765DB7BA44"
+				"0CE03C2648BD9948"
+				"71F00867FCD80380"
+			]
+			id: "08030E2DAC25D1B7"
+			tasks: [
+				{
+					id: "7D35CCF2ADB14DB3"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_block"
+				}
+			]
+			rewards: [
+				{
+					id: "1151DB401A2693E0"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_block"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -1.0d
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "148A86A18A62924F"
+			tasks: [
+				{
+					id: "0914723A1338280E"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "21AF9EEAD4B68716"
+					type: "item"
+					item: "integrateddynamics:cable"
+					count: 16
+				}
+			]
+		}
+		{
+			title: "阅读方块[--Reading blocks--]"
+			x: 3.5d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "1720A119FB153603"
+			tasks: [
+				{
+					id: "02D254BF8B963543"
+					type: "item"
+					item: "integrateddynamics:part_block_reader"
+				}
+				{
+					id: "185CC6A7A6EEDB90"
+					type: "item"
+					item: "integrateddynamics:part_inventory_reader"
+				}
+				{
+					id: "7248C29D2442E742"
+					type: "item"
+					item: "integrateddynamics:part_machine_reader"
+				}
+			]
+			rewards: [
+				{
+					id: "490F0E9A259CA93E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "阅读其他的东西[--Reading other things--]"
+			x: 3.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "1E403A5E9388C9E7"
+			tasks: [
+				{
+					id: "605FEAAC72770DC5"
+					type: "item"
+					item: "integrateddynamics:part_entity_reader"
+				}
+				{
+					id: "06BCD7A3795BDA7C"
+					type: "item"
+					item: "integrateddynamics:part_world_reader"
+				}
+			]
+			rewards: [
+				{
+					id: "5AF47E195AAA0FA6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "红石逻辑[--Redstone logic--]"
+			x: 3.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "7A5FD0937937264F"
+			tasks: [
+				{
+					id: "6AE91B3B8C565B81"
+					type: "item"
+					item: "integrateddynamics:part_redstone_reader"
+				}
+				{
+					id: "1FEC1D52F78ECA68"
+					type: "item"
+					item: "integrateddynamics:part_redstone_writer"
+				}
+			]
+			rewards: [
+				{
+					id: "5202358C0E9A81DD"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "能源物流[--Energy logistics--]"
+			x: 6.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "7BA49648ADDE7424"
+			tasks: [
+				{
+					id: "005105B427043EA6"
+					type: "item"
+					item: "integratedtunnels:part_interface_energy"
+				}
+				{
+					id: "73F98571A10D698F"
+					type: "item"
+					item: "integratedtunnels:part_importer_energy"
+				}
+				{
+					id: "0D0FA99AF69CD0B5"
+					type: "item"
+					item: "integratedtunnels:part_exporter_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "4A473A49724258C1"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "世界上的能量[--Energy in the world--]"
+			x: 6.0d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"7BA49648ADDE7424"
+			]
+			id: "231B32FB7E367404"
+			tasks: [
+				{
+					id: "6B1BAB395FB0A8D1"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_energy"
+				}
+				{
+					id: "4CF46889CC959AB3"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "04CF0521F3F7ACCF"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "流体物流[--Fluid logistics--]"
+			x: 7.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "78779C0CD4360979"
+			tasks: [
+				{
+					id: "705793B51A27E54E"
+					type: "item"
+					item: "integratedtunnels:part_interface_fluid"
+				}
+				{
+					id: "42AAB61A3DF99044"
+					type: "item"
+					item: "integratedtunnels:part_importer_fluid"
+				}
+				{
+					id: "53A50DFB1603D317"
+					type: "item"
+					item: "integratedtunnels:part_exporter_fluid"
+				}
+			]
+			rewards: [
+				{
+					id: "486A02A8FD79558D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "世界中的流体[--Fluid in the world--]"
+			x: 7.5d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"78779C0CD4360979"
+			]
+			id: "544B2084C465A145"
+			tasks: [
+				{
+					id: "53C657EAD4399576"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_fluid"
+				}
+				{
+					id: "60F2CEE0FBD606DA"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_fluid"
+				}
+			]
+			rewards: [
+				{
+					id: "46F5D0DB41C85F97"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "物品物流[--Item logistics--]"
+			x: 9.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "4F217273CE80A7D7"
+			tasks: [
+				{
+					id: "0CA109BB1CAB642D"
+					type: "item"
+					item: "integratedtunnels:part_interface_item"
+				}
+				{
+					id: "19C21BC08D637E82"
+					type: "item"
+					item: "integratedtunnels:part_importer_item"
+				}
+				{
+					id: "5BCE38146D72181F"
+					type: "item"
+					item: "integratedtunnels:part_exporter_item"
+				}
+			]
+			rewards: [
+				{
+					id: "75D856F8856EF570"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "世界中的物品[--Item in the world--]"
+			x: 9.0d
+			y: 1.5d
+			dependencies: [
+				"6891D7CAA482B258"
+				"4F217273CE80A7D7"
+			]
+			id: "5BA14CBCC45A12A1"
+			tasks: [
+				{
+					id: "37DFB98BA3AB96BC"
+					type: "item"
+					item: "integratedtunnels:part_importer_world_item"
+				}
+				{
+					id: "3D27472E30BABF5B"
+					type: "item"
+					item: "integratedtunnels:part_exporter_world_item"
+				}
+			]
+			rewards: [
+				{
+					id: "20464C32744818FC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			subtitle: "制作一个存储终端[--Make a Storage Terminal--]"
+			description: ["所有&b存储物品&f、&b流体&f和&b能量&f都可以在同一个地方看到,并且可以使用&b存储终端&f和&b制作工作&f从&b合成终端&f管理.[--All &bstored items&f, &bfluids &fand &benergy &fbecome visible and interactable from a single place using the &bStorage Terminal&f, and &bcrafting jobs &fbecome manageable from the &bCrafting Job Terminal&f.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"71F00867FCD80380"
+				"08030E2DAC25D1B7"
+			]
+			id: "22E48889C36049E9"
+			tasks: [
+				{
+					id: "640280DAA0771254"
+					type: "item"
+					item: "integratedterminals:part_terminal_storage"
+				}
+			]
+			rewards: [
+				{
+					id: "1076B5B327DF3A97"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: ["您必须使用全向连接器访问您的远程存储系统![--You must use the Omni-Directional Connector to access your remote storage system !--]"]
+			dependencies: ["22E48889C36049E9"]
+			id: "01A95C71F1AE6645"
+			tasks: [
+				{
+					id: "4D76250025748EB7"
+					type: "item"
+					item: "integratedterminals:terminal_storage_portable"
+				}
+			]
+			rewards: [
+				{
+					id: "002CA84E5354F057"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "344AF4A7C54D9658"
+			tasks: [
+				{
+					id: "459F99CE5498379C"
+					type: "item"
+					item: "integrateddynamics:portable_logic_programmer"
+				}
+			]
+			rewards: [
+				{
+					id: "1E966C9E86ECD677"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["远程网络.[--Long range networks.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"148A86A18A62924F"
+				"08030E2DAC25D1B7"
+			]
+			id: "28AE7992778C4123"
+			tasks: [
+				{
+					id: "3FB672E2C22AD18A"
+					type: "item"
+					item: "integrateddynamics:part_connector_mono_directional"
+				}
+			]
+			rewards: [
+				{
+					id: "124A95561EC5D047"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["真正的远程网络.[--Really long range networks.--]"]
+			hide_dependency_lines: true
+			dependencies: ["6891D7CAA482B258"]
+			id: "1C75E084C62E31A9"
+			tasks: [
+				{
+					id: "1A45A387E6A264BD"
+					type: "item"
+					item: "integrateddynamics:part_connector_omni_directional"
+				}
+			]
+			rewards: [
+				{
+					id: "6EE6549DD18AA794"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			description: ["得到你正在查看的方块.[--Get the Block you are looking at.--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "3E0102CF4E76CE82"
+			tasks: [
+				{
+					id: "14DBCA8CAE9BE59D"
+					type: "advancement"
+					advancement: "integrateddynamics:advanced_operations/what_would_i_be_looking_at"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "4AB9EBB001015281"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["使用变量动态过滤存储终端中的附魔物品[--Dynamically filter enchantable items in the Storage Terminal using Variable--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "51E256D601D5900E"
+			tasks: [
+				{
+					id: "3F8F34E42E0ED90E"
+					type: "advancement"
+					advancement: "integratedterminals:storage_terminal_filtering/filter_enchantable"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2651F58F1D80DC6C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -1.5d
+			description: ["检查石镐是否可以破坏黑曜石,并在显示器中显示结果.[--Check if a Stone Pickaxe can break an Obsidian block, and show the result in a Display Panel.--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "4F3FBABA90B54AFF"
+			tasks: [
+				{
+					id: "35E16F63A199557C"
+					type: "advancement"
+					advancement: "integrateddynamics:challenges/tool_for_obsidian"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "1627DCE9C1D0446A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			description: ["播放湿海绵块的脚步声.[--Play the step sound of a Wet Sponge block.--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "603796112345983E"
+			tasks: [
+				{
+					id: "04B605FE1DE7F159"
+					type: "advancement"
+					advancement: "integrateddynamics:challenges/sponge_step_sound"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "5A6C9C65E512EA08"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -0.5d
+			description: [
+				"创建一个系统，当您经过实体读取器时，该系统会根据实体名称匹配自动打开门，使用红石输出器直接指向门.[--Create a system that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door.--]"
+				"提示:将实体名称作为第一个参数传递给等于运算符.[--Hint : Pass an entity name as first argument into the equals operator.--]"
+			]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "65DF2EDD54F16B22"
+			tasks: [
+				{
+					id: "4186A5F67A859DEB"
+					type: "advancement"
+					advancement: "integrateddynamics:challenges/smart_pressure_plate"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "47981D2D03ADCC6B"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			description: ["使用世界方块输入器破坏方块.[--Break Stone blocks using a World Block Importer.--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "764FDCA51D6A228B"
+			tasks: [
+				{
+					id: "56209FE74B644628"
+					type: "advancement"
+					advancement: "integratedtunnels:break_stone/break_stone"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "0AD320247D94977A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			description: ["用玩家模拟器单击钻石剑.[--Click with a Diamond Sword using a Player Simulator.--]"]
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "5539D44A512E0843"
+			tasks: [
+				{
+					id: "7B429A33716FA224"
+					type: "advancement"
+					advancement: "integratedtunnels:click_sword/click_sword"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "77D072394FB35CAB"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			subtitle: "制作一个烘干池[--Make a Drying Basin--]"
+			description: [
+				"&b烘干池&r将干燥插入其中的物品/流体。某些配方可能需要物品&o和&r流体才能工作;在 JEI 中查看它的用途.[--The &bDrying Basin&r will dry items/fluids inserted into it. Some recipes may require both items &oand&r fluids to work; see its uses in JEI.--]"
+				"它最重要的用途是&6将门瑞欧树脂变成一个结晶门瑞欧&r块.[--Its most important use is to &6convert Menril Resin into a Block of Crystallized Menril&r.--]"
+			]
+			dependencies: [
+				"3F97D03C2402B70D"
+				"3F05D033EBD0710D"
+			]
+			id: "0CE03C2648BD9948"
+			tasks: [
+				{
+					id: "5AB4033B13308002"
+					type: "item"
+					item: "integrateddynamics:drying_basin"
+				}
+			]
+			rewards: [
+				{
+					id: "6D8576DCB0DCEAF5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			subtitle: "制作一个电动烘干池[--Make a Mechanical Drying Basin--]"
+			description: ["&b电动烘干池&r和烘干池一样工作,但会消耗能量.[--The &bMechanical Drying Basin&r works just like the Drying Basin, but uses energy.--]"]
+			dependencies: [
+				"0CE03C2648BD9948"
+				"019F24CC72ACD58E"
+			]
+			id: "1B26D90A4DA22414"
+			tasks: [
+				{
+					id: "6B4A2B2E18DFEA81"
+					type: "item"
+					item: "integrateddynamics:mechanical_drying_basin"
+				}
+			]
+			rewards: [
+				{
+					id: "65FA780302B8D60C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "合成动力挤压机[--Make a Mechanical Squeezer--]"
+			description: [
+				"&b电动挤压机&r使用能量&r将门瑞欧木转成门瑞欧树脂,同时产生门瑞欧结晶块.[--The &bMechanical Squeezer&r &6uses energy&r to convert Menril Wood into Menril Resin, at the same time as producing Crystallized Menril Chunks.--]"
+				"你也可以用它作为&b研磨机&r.[--You can also use it as &ba grinder&r.--]"
+			]
+			dependencies: [
+				"64022C765DB7BA44"
+				"019F24CC72ACD58E"
+			]
+			id: "1A89AEC8DAC884C5"
+			tasks: [
+				{
+					id: "259E1A9E3E0CF834"
+					type: "item"
+					item: "integrateddynamics:mechanical_squeezer"
+				}
+			]
+			rewards: [
+				{
+					id: "1C7CC632ACB9B7E2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"0CE03C2648BD9948"
+				"71F00867FCD80380"
+			]
+			id: "3D6378E8B91C9436"
+			tasks: [
+				{
+					id: "7A73F33BA1631829"
+					type: "item"
+					item: "integratedterminals:menril_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "4AB0D00F4793E3BC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1B26D90A4DA22414"]
+			id: "4E0F477B942667FE"
+			tasks: [
+				{
+					id: "28AF8F558FB8277A"
+					type: "item"
+					item: "integrateddynamics:crystalized_chorus_block"
+				}
+			]
+			rewards: [
+				{
+					id: "595D0AB9317973A2"
+					type: "item"
+					item: "integrateddynamics:crystalized_chorus_block"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1B26D90A4DA22414"]
+			id: "5E75F1DB2EE8484B"
+			tasks: [
+				{
+					id: "71DF2FF030864DD1"
+					type: "item"
+					item: "integratedterminals:chorus_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "26984BEE91279C2F"
+					type: "item"
+					item: "integratedterminals:chorus_glass"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"376158C957B192C7"
+				"08030E2DAC25D1B7"
+			]
+			id: "6891D7CAA482B258"
+			tasks: [
+				{
+					id: "7B335303EA44EB00"
+					type: "item"
+					item: "integrateddynamics:logic_director"
+				}
+			]
+			rewards: [
+				{
+					id: "29A8374150130755"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["1A89AEC8DAC884C5"]
+			id: "376158C957B192C7"
+			tasks: [
+				{
+					id: "6AF8FB0B9298B0DD"
+					type: "item"
+					item: "integrateddynamics:crystalized_chorus_chunk"
+				}
+			]
+			rewards: [
+				{
+					id: "41573B27400A29AB"
+					type: "item"
+					item: "integrateddynamics:crystalized_chorus_chunk"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			dependencies: ["08030E2DAC25D1B7"]
+			id: "019F24CC72ACD58E"
+			tasks: [
+				{
+					id: "7E2CF39AE6E0FE95"
+					type: "item"
+					item: {
+						id: "integrateddynamics:energy_battery"
+						Count: 1b
+						tag: {
+							energy: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3094533EA9ED10B6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -3.5d
+			dependencies: ["019F24CC72ACD58E"]
+			id: "30E6A9B910CD3D04"
+			tasks: [
+				{
+					id: "63D5AA5503ABA102"
+					type: "item"
+					item: "integrateddynamics:coal_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "4B6F563334BFA6D3"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "知识果汁[--Knowledge Juice--]"
+			x: 6.5d
+			y: -5.5d
+			subtitle: "做一个挤压机[--Make a Squeezer--]"
+			description: [
+				"右键单击门瑞欧原木到&b挤压机&r中来放入它,然后跳上跳下来压低它,这会产生&6门瑞欧树脂&r.[--Right-click Menril Wood into a &bSqueezer&r to insert it, then jump up and down on top of it to squish it down, this produce &6Menril Resin&r.--]"
+				"门瑞欧树脂将会自动输出到&6两边各两个&r流体容器中.[--The Menril Resin will automatically be output to a fluid container on &6two if its sides&r.--]"
+				"给挤压机一个&6红石信号&r来重置它.[--Give the Squeezer a &6redstone signal&r to reset it.--]"
+			]
+			dependencies: ["3F97D03C2402B70D"]
+			min_width: 250
+			id: "64022C765DB7BA44"
+			tasks: [
+				{
+					id: "5B59E09ABE0527C8"
+					type: "item"
+					item: "integrateddynamics:squeezer"
+				}
+			]
+			rewards: [
+				{
+					id: "5394ECB84461B4CA"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -6.5d
+			dependencies: ["71F00867FCD80380"]
+			id: "6997990786B3DCF9"
+			tasks: [
+				{
+					id: "185EC19D30CBEA28"
+					type: "item"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+				}
+			]
+			rewards: [
+				{
+					id: "3F40184EF1DB2A30"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,65 @@
+{
+	id: "667193135C24B9B2"
+	order_index: 0
+	title: "&a通用奖励[--&aCommon Rewards--]"
+	icon: "losttrinkets:treasure_bag"
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: "expandedstorage:wood_to_gold_conversion_kit"
+			count: 4}
+		}
+		{
+			item: {
+				id: "tconstruct:pickaxe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:rose_gold"
+				}
+			}
+			count: 16}
+		}
+		{
+			item: {
+				id: "tconstruct:tough_handle"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:invar"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tool_binding"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:pig_iron"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:bone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_axe_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:seared_stone"
+				}
+			}
+		}
+		{
+			item: "pamhc2crops:huckleberryitem"
+			count: 16}
+		}
+	]
+}

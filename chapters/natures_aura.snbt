@@ -1,0 +1,2919 @@
+{
+	id: "6A6A0E26F7D468C9"
+	group: "638FC427456F902B"
+	order_index: 6
+	filename: "natures_aura"
+	title: "自然灵气[--Nature's aura--]"
+	icon: "naturesaura:eye_improved"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -2.0d
+			y: -13.5d
+			width: 15.0d
+			height: 15.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/block/ancient_sapling.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -12.0d
+			y: -15.5d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/item/effect_powder.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 14.38095238095238d
+			y: -16.214285714285715d
+			width: 9.0d
+			height: 9.0d
+			rotation: 0.0d
+			image: "naturesaura:textures/particles/magic_round.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			x: -4.5d
+			y: -6.0d
+			description: [
+				"要开始接触该物质的力量,需要有一个来创建一个&d闪耀的树&r,它会在收获时掉落&d黄金叶&r - 一种纤细但强大的材料.[--To get into first contact with the substance's powers, one is required to create a &dBrilliant Tree&r that will, when harvested, shed &dGold Leaf&r - a delicate, yet powerful material.--]"
+				""
+				"要制作这种树,只需制作一些&d闪耀纤维&r,然后把它放在树的树冠上.[--To create such a tree, simply craft bit of &dBrilliant Fiber&r and place it into the crown of a tree.--]"
+				""
+				"然后,时间会带来闪耀。[--Time will then bring brilliance.--]"
+			]
+			dependencies: ["3856D13B148693FD"]
+			id: "2B4192D90D8DB5E6"
+			tasks: [
+				{
+					id: "231382C62C215717"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+			]
+			rewards: [
+				{
+					id: "55F06712767D50BF"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -6.0d
+			dependencies: ["73C3630F0ACAEFB9"]
+			id: "3856D13B148693FD"
+			tasks: [
+				{
+					id: "414CC5BFE8D7AB55"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+				}
+			]
+			rewards: [
+				{
+					id: "5E8E992E0747C2D3"
+					type: "item"
+					item: "naturesaura:gold_fiber"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			dependencies: ["2B4192D90D8DB5E6"]
+			id: "59CBA1EEB96626D5"
+			tasks: [
+				{
+					id: "216B792E0FE08C1F"
+					type: "item"
+					item: "naturesaura:gold_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "191E1117868F8DAD"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			id: "73C3630F0ACAEFB9"
+			tasks: [
+				{
+					id: "6400FC83CD8CEBDC"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0A4A911C57AFCB92"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "森林仪式[--Ritual of The Forest--]"
+			icon: "naturesaura:ancient_sapling"
+			x: -2.0d
+			y: -8.0d
+			description: ["森林仪式是使用自然力制作神奇物品的一种方式.[--The Ritual of the Forest is a way of creating magical items using the power of nature.--]"]
+			dependencies: ["59CBA1EEB96626D5"]
+			id: "67BC8A5CBAF363F8"
+			tasks: [
+				{
+					id: "2D11277D74D346C0"
+					type: "item"
+					item: "naturesaura:gold_powder"
+					count: 16L
+				}
+				{
+					id: "4749B5A7C92A3BD8"
+					type: "item"
+					item: "naturesaura:wood_stand"
+					count: 8L
+				}
+				{
+					id: "4A6E5D8B4BE8FF64"
+					type: "item"
+					item: "minecraft:oak_sapling"
+				}
+			]
+			rewards: [
+				{
+					id: "088D39897E4B15CB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "自然祭坛[--The Natural Altar--]"
+			icon: "naturesaura:nature_altar"
+			x: -1.0d
+			y: -15.5d
+			description: ["自然祭坛从环境中收集灵气,用于制作新的材料.[--The Natural Altar collects Aura from the environment to use for the creation of new materials.--]"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7591DDDBE81D6790"
+			tasks: [
+				{
+					id: "468BD555A45CA77E"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "0722D93EE8A5A674"
+					type: "item"
+					item: "naturesaura:gold_brick"
+					count: 8L
+				}
+				{
+					id: "131E4A01EFAA0F9D"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 20L
+				}
+				{
+					id: "4D7334D8249FDEB4"
+					type: "item"
+					item: "minecraft:chiseled_stone_bricks"
+					count: 4L
+				}
+				{
+					id: "3F9F11FE12CDF414"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "1F3E25789E716B5B"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+				{
+					id: "4522699D1C3834BE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "红红祭坛[--The Crimson Altar--]"
+			icon: "naturesaura:gold_nether_brick"
+			x: -4.0d
+			y: -17.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "111FCE085D6AC550"
+			tasks: [
+				{
+					id: "052E0AEF90115A41"
+					type: "item"
+					item: "naturesaura:nature_altar"
+				}
+				{
+					id: "55FC227A163B5143"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 4L
+				}
+				{
+					id: "203E5CB69CF41A06"
+					type: "item"
+					item: "minecraft:crimson_planks"
+					count: 20L
+				}
+				{
+					id: "4B40890AD2CDE2C1"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 16L
+				}
+				{
+					id: "71394E24696C0A84"
+					type: "item"
+					item: "naturesaura:gold_nether_brick"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "2B8AD8DFC8E69394"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -15.5d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "62453989EC0762EA"
+			tasks: [
+				{
+					id: "71DABF9B62AC327C"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+			]
+			rewards: [
+				{
+					id: "13333F92B8F58661"
+					type: "item"
+					item: "naturesaura:infused_iron"
+					count: 2
+				}
+				{
+					id: "6D945FDBB27F5864"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "53D3FA9A00A66B9C"
+			tasks: [
+				{
+					id: "7E0543F8D112953C"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4FD4590C093F9520"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "39E01B90528B1DD6"
+			tasks: [
+				{
+					id: "48E8682C2FE9487E"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "30A842C7A123ED46"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "37B2CF01CA0AE16A"
+			tasks: [
+				{
+					id: "2B275BF4BC2C67DB"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "21416E28924B90B5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "6060E305921B33EC"
+			tasks: [
+				{
+					id: "36451D11D708B483"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3035EB08F2D89677"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "77A71004C6664333"
+			tasks: [
+				{
+					id: "4C12D1CE3501F619"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "68907E2FCD0209A0"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "378C3546ECB05226"
+			tasks: [
+				{
+					id: "7A8464138A4D11E5"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0A6705E0B7347441"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "55E71D71A6701ACC"
+			tasks: [
+				{
+					id: "1310B500F3D8F622"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0C91EEA9E4685568"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "655FC4EC9EC410EE"
+			tasks: [
+				{
+					id: "34CCCB311F6358AE"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7BB4C07F8FC8430B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "7DB2895A34968593"
+			tasks: [
+				{
+					id: "11D51D4C11A6BB17"
+					type: "item"
+					item: {
+						id: "naturesaura:infused_iron_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "40A53D8F6D6E03C4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -11.5d
+			description: ["探索和美.[--Exploration and beauty.--]"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "606BD6F121A796AF"
+			tasks: [
+				{
+					id: "59D28EAFD3D85440"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+			]
+			rewards: [
+				{
+					id: "2C5EB7D83F0C3A3F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -12.5d
+			description: ["此物品代表反转和坠落.[--This item represent the transience and falling.--]"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "13D134D9CECC9EFA"
+			tasks: [
+				{
+					id: "0ED66F326BC35F8C"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+			]
+			rewards: [
+				{
+					id: "649BB351713BE884"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -13.0d
+			description: ["爆炸性、火和黑暗.[--Explosiveness, Fire and Dark.--]"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "30905843166E7619"
+			tasks: [
+				{
+					id: "6ECF9C23775DAD6F"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+			]
+			rewards: [
+				{
+					id: "33090556F872FEB9"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+				{
+					id: "0D05CC7F84D226E3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -11.5d
+			description: ["虚弱与死亡.[--Fragility and Death.--]"]
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "1074EAA509CF1984"
+			tasks: [
+				{
+					id: "1F98B07A69E7C00B"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+			rewards: [
+				{
+					id: "1D5DA1275B55EF5C"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+				{
+					id: "6DB6CF85D90FCE57"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -12.0d
+			dependencies: ["48433427C278FD14"]
+			id: "7620EE9990A9DFB4"
+			tasks: [
+				{
+					id: "4FD869F1FBCC2593"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+			]
+			rewards: [
+				{
+					id: "6F10206029CCB545"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -10.0d
+			dependencies: ["48433427C278FD14"]
+			id: "1D61F379646FA8C8"
+			tasks: [
+				{
+					id: "73A1135008FFBA70"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+			]
+			rewards: [
+				{
+					id: "3580939D24594BAC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -8.0d
+			dependencies: ["48433427C278FD14"]
+			id: "271AE89B1CA86C01"
+			tasks: [
+				{
+					id: "68549754CBE6A313"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+			]
+			rewards: [
+				{
+					id: "56ECA9BA8C88396C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -10.0d
+			description: [""]
+			dependencies: ["48433427C278FD14"]
+			id: "264E33238FD5C2AC"
+			tasks: [
+				{
+					id: "5DF4A9A3449E800C"
+					type: "item"
+					item: "naturesaura:token_grief"
+				}
+			]
+			rewards: [
+				{
+					id: "2ABE94CF8CDE27C8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:offering_table"
+			x: 5.5d
+			y: -10.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"13D134D9CECC9EFA"
+				"1074EAA509CF1984"
+			]
+			id: "48433427C278FD14"
+			tasks: [
+				{
+					id: "2C4E9FA9F85A52FA"
+					type: "item"
+					item: "naturesaura:offering_table"
+				}
+				{
+					id: "5D5846CF6A3DF986"
+					type: "item"
+					item: "minecraft:poppy"
+					count: 36L
+				}
+			]
+			rewards: [
+				{
+					id: "7E46B6303DF4CD37"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "077B65B53B3D2BEB"
+					type: "item"
+					item: "naturesaura:token_sorrow"
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "2FEE6A814CD633B6"
+			tasks: [
+				{
+					id: "5FE5670A9DDFF67D"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:nether_grass"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7C404C52B76EBCE7"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -15.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "3BDC93352153B7AA"
+			tasks: [
+				{
+					id: "42FC85565C758D55"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:animal"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "18A2E67B6F25BCDC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7475C319E3975C38"
+			tasks: [
+				{
+					id: "3019756208364FE5"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:cache_recharge"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "632804CB3BBB709D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -14.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "5742AAFBA251D543"
+			tasks: [
+				{
+					id: "63D1B7618CA878E2"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesstarlight:starlight_increase"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "413D8CC27D83ECC1"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -16.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "23F73647DDF8A8D5"
+			tasks: [
+				{
+					id: "7220CA3321CF1507"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:plant_boost"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "5CF6CDF7531E7F24"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -16.0d
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "4DB40ADB100F3064"
+			tasks: [
+				{
+					id: "495EA697FDCAAC3D"
+					type: "item"
+					item: {
+						id: "naturesaura:effect_powder"
+						Count: 1b
+						tag: {
+							effect: "naturesaura:ore_spawn"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6C37DEF1848A45FC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -13.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"1C8E72FDD4811D75"
+			]
+			id: "1FA531FE75961B5C"
+			tasks: [
+				{
+					id: "1B1E9829639F59A2"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+			rewards: [
+				{
+					id: "4DF4B5BC1C995ABD"
+					type: "item"
+					item: "naturesaura:calling_spirit"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -12.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"48433427C278FD14"
+				"1FA531FE75961B5C"
+			]
+			id: "4E340C8BF251D2E5"
+			tasks: [
+				{
+					id: "332732B85BD1942C"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "0F2BF656CFC84F04"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -18.5d
+			dependencies: ["111FCE085D6AC550"]
+			id: "2626A2F3A1782F83"
+			tasks: [
+				{
+					id: "334BA7F1ED0B12A9"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+				}
+			]
+			rewards: [
+				{
+					id: "1FBE7EDBE5873C0D"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+					count: 2
+				}
+				{
+					id: "59CD769528E07875"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -8.5d
+			dependencies: ["73C3630F0ACAEFB9"]
+			id: "7786E772571081E4"
+			tasks: [
+				{
+					id: "3A0EBEEED2CD7F97"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+				}
+			]
+			rewards: [
+				{
+					id: "774761C2876AD615"
+					type: "item"
+					item: "naturesaura:bottle_two_the_rebottling"
+					count: 4
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -10.5d
+			description: ["末地右键单击[--Right click in the end--]"]
+			dependencies: ["7786E772571081E4"]
+			id: "6FA1B1D053C2C065"
+			tasks: [
+				{
+					id: "034CB9C3FC533156"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7FA68A4C3015A662"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -10.5d
+			description: ["在下界右键单击[--Right click in the nether--]"]
+			dependencies: ["7786E772571081E4"]
+			id: "47A262541C6569CA"
+			tasks: [
+				{
+					id: "3729951548E9BC14"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "31C8898160D5AE8A"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -10.5d
+			description: ["在主世界右键单击[--Right click in the overworld--]"]
+			dependencies: ["7786E772571081E4"]
+			id: "1C8E72FDD4811D75"
+			tasks: [
+				{
+					id: "555C4A69EBD18DB5"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "536EC2D60CDF7EEF"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -12.0d
+			dependencies: ["48433427C278FD14"]
+			id: "0D1B669F0D4E09BE"
+			tasks: [
+				{
+					id: "0AB0336322781E6E"
+					type: "item"
+					item: "naturesaura:clock_hand"
+				}
+			]
+			rewards: [
+				{
+					id: "4974540EC8CBB0AA"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -14.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "6CD23AE0395296EC"
+			tasks: [
+				{
+					id: "0B29FE8E209B7989"
+					type: "item"
+					item: "naturesaura:conversion_catalyst"
+				}
+			]
+			rewards: [
+				{
+					id: "310308597F443000"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+				{
+					id: "27C1A0B6CCEB89B8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -17.5d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "7702FD3B4A46C4BE"
+			tasks: [
+				{
+					id: "58DAA9B4E0DF041F"
+					type: "item"
+					item: "naturesaura:crushing_catalyst"
+				}
+			]
+			rewards: [
+				{
+					id: "28F842C4033981D5"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+				{
+					id: "4120C396BC2A633A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:rf_converter"
+			x: 13.0d
+			y: -17.5d
+			shape: "circle"
+			description: ["&5能量灵气锻造炉&r直接将&2灵气&r转化为大多数人所了解的&6红石通量&r.[--The &5Energetic Aura Forge&r directly converts &2Aura&r into what is known to most people as &6Redstone Flux&r.--]"]
+			hide_dependency_lines: true
+			dependencies: ["6CD23AE0395296EC"]
+			id: "1AC29AFD6A527BFC"
+			tasks: [
+				{
+					id: "4F04D2654F520B1F"
+					type: "item"
+					item: "naturesaura:rf_converter"
+				}
+				{
+					id: "535EC3E5CFF21F43"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 18L
+				}
+			]
+			rewards: [
+				{
+					id: "0FE22D169671578F"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"正如&9一个创造灵气&r章节所述,大多数&6机械动力&r都无法在一定范围内制作&2灵气&r.[--As described in the &9One Creating Aura&r section, most &6creational devices&r lack the ability to create &2Aura&r beyond a certain point.--]"
+				""
+				"&d机械动力(机械动力)&r轻松地解决这个问题:将其直接放在任何机械动力设备下方会导致其限制被移除,使其可以生成远超过前所述点的&2灵气&r.[--The &dCreational Catalyst&r easily solves this problem: Placing it directly below any creational device will cause its limit to be lifted, making it able to generate &2Aura&r far beyond the previously mentioned point.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7620EE9990A9DFB4"
+				"271AE89B1CA86C01"
+				"264E33238FD5C2AC"
+				"1D61F379646FA8C8"
+			]
+			id: "5C5EE1F700AFF13A"
+			tasks: [
+				{
+					id: "53FDEE2C07C8C92C"
+					type: "item"
+					item: "naturesaura:generator_limit_remover"
+				}
+			]
+			rewards: [
+				{
+					id: "20DC5F03C133DD01"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "40AB33E5D85954CF"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -16.0d
+			shape: "circle"
+			description: [
+				"随着时间的推移,神奇植物学家一直试图找到一种方法来控制&6时间&r本身以重新获得个人.[--Over the years, magical botanists have tried to find a way to manipulate &6time&r itself for personal again.--]"
+				""
+				"要设置它,需要的就是&d潜行日落&r上有一个&d物品框架&r,它包含一个&d时间之手&r.[--To set it up, all that is required is for the &dShifting Sundial&r to have an &dItem Frame&r on it containg a &dHand of Time&r.--]"
+				""
+				"然后,框架中的&6转动&r将决定跳过的时间,手指向顶部与午夜对应.[--The &6rotation&r of the hand in the frame will then determine the time that will be skipped to, with the hand pointing to the top corresponding to midnight.--]"
+				""
+				"要激活时间跳跃,必须把普通的&d时钟&r掉在非常靠近日落的地方.[--To activate a time skip, a regular &dClock&r has to be dropped very close to the sundial.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"7620EE9990A9DFB4"
+				"1D61F379646FA8C8"
+			]
+			id: "741A9BB38F47B06A"
+			tasks: [
+				{
+					id: "3C157EF2B36C2C0D"
+					type: "item"
+					item: "naturesaura:time_changer"
+				}
+			]
+			rewards: [
+				{
+					id: "394BC7B92CFEA785"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+				{
+					id: "0E3D65CFD987F43A"
+					type: "item"
+					item: "naturesaura:token_terror"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -15.5d
+			shape: "circle"
+			description: [
+				"当这些水晶&6生长器&r中有一个格外重要时,会释放出强大的&6魔法能量&r.[--The latent &6magical energy&r that is released when one of these crystal &6grows&r is especially of importance.--]"
+				"使用&5水晶提取器&r,可以捕捉到这种能量,并变成&2灵气&r的结晶.[--Using the &5Crystalline Extractor&r, this energy can be captured and turned into impressive amouts of &2Aura&r.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "6950AB39E56A859D"
+			tasks: [
+				{
+					id: "7FFB11385FBCF966"
+					type: "item"
+					item: "naturesstarlight:crystal_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "4FAE6F2E23B54F58"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			shape: "rsquare"
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "072BF88D65C7F365"
+			tasks: [
+				{
+					id: "01C9A420267B7C91"
+					type: "item"
+					item: "naturesaura:ancient_sapling"
+				}
+			]
+			rewards: [
+				{
+					id: "6D3D5E46FCDD2944"
+					type: "item"
+					item: "naturesaura:ancient_sapling"
+				}
+			]
+		}
+		{
+			icon: "naturesaura:projectile_generator"
+			x: 13.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"任何弹射物&r的强度有时足以穿透生物,甚至可以通过传送将它们移动.[--The strength of any shot &6projectiles&r is, in some instances, strong enough to pierce living beings and even move them around by way of teleportation.--]"
+				""
+				"为此,不同种类的子弹会产生不同的烈焰人——&d雪球&r比&d末影珍珠&r更富能量.[--For this, different kinds of projectiles produce different amouts - a &dsnowball&r is much less riche in energy than, say, an &dender pearl&r.--]"
+				""
+				"然而,这种能量也可以用来制造&a灵气&r:&d潜行标记&r将其发射的弹丸的能量转化为它散布到环境的&a灵气&r.[--However, this power can be used to create &aAura&r as well: The &dShooting Mark&r converts the energy of any projectiles shot at it into &aAura&r that it spreads into the environment.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"30905843166E7619"
+				"2626A2F3A1782F83"
+			]
+			id: "2B6D5FE833D6E5FE"
+			tasks: [
+				{
+					id: "6FEE4732C24DE7C2"
+					type: "item"
+					item: "naturesaura:projectile_generator"
+				}
+				{
+					id: "431C87546BED81D5"
+					type: "item"
+					item: "minecraft:arrow"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "47D1DC6282330AA7"
+					type: "item"
+					item: "naturesaura:token_anger"
+				}
+			]
+		}
+		{
+			icon: "naturesaura:moss_generator"
+			x: 15.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"自然&2灵气&r的重要来源是任何类型的苔s块上的&6模具&r。 这种属性可以使用&5荧光 Homi&r 的形式:它将需要它周围任何被苔s覆盖的方块并移除,将纯净方块放在后面.[--A great source of natural &2Aura&r is the &6moss&r on any type of mossy block. this property can be made use of in the form of the &5Swamp Homi&r: It will take any block around it that are covered in moss and remove it, leaving the clean block behind.--]"
+				""
+				"对于它使用的每个方块,它会产生一些&2灵气&r并将其散布到环境中.[--For each block that it does this with, it generates a bit of &2Aura&r and spreads it into the environment.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "2EC32E46525E3E08"
+			tasks: [
+				{
+					id: "478CEF0EEA30548D"
+					type: "item"
+					item: "naturesaura:moss_generator"
+				}
+				{
+					id: "7660050C963D311C"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "5A7C76509C704FF3"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -17.5d
+			shape: "circle"
+			description: [
+				"&6史莱姆&r和&6魔法立方&r是特殊的生物.[--&6Slimes&r and &6Magma Cubes&r are peculiar beings.--]"
+				""
+				"受到足够伤害后,&6碎片&r变成自己的小版本,类似于单元在身上的生长方式[--Upon being hurt enough, the &6split&r into smaller version of themselves, similarly to how cells multiply in the body--]"
+				""
+				"还需要注意的是,当&d爆破器&r处于溶解&a灵气&r的阶段时,让另一个生物分解不会造成更多的&a灵气&r.[--It should also be noted that, while the &dOffshoot Observer&r is in the process of dispering &aAura&r, causing an additional creature to split will not cause any more &aAura&r to be created.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"1074EAA509CF1984"
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"606BD6F121A796AF"
+			]
+			id: "408BEB52388254EB"
+			tasks: [
+				{
+					id: "242409E0E0F9DA10"
+					type: "item"
+					item: "naturesaura:slime_split_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "7EFDBE9734096FF5"
+					type: "item"
+					item: "naturesaura:tainted_gold"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "naturesaura:potion_generator"
+			x: 13.0d
+			y: -15.5d
+			shape: "circle"
+			description: [
+				"当灰烬变成粉,粉变成粉时,可以用&a灵气&r和相同的魔法药水&r来获得相似的自然转动.[--As Ashes turn to ashes, and dust to dust, a similar natural converstion can be achieved with &aAura&r and equally magic &dPotions&r.--]"
+				""
+				"具体来说,&d烈焰药水&r具有某些神奇的能力,可以提取效果并将其高效地转化为&a灵气&r.[--Specifically, &dLingering Potions&r have certain magical abilities that allow on to extract the effect and convert them into &aAura&r efficiently.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"13D134D9CECC9EFA"
+			]
+			id: "6D9986288861DD33"
+			tasks: [
+				{
+					id: "40C6CC853DAE4C74"
+					type: "item"
+					item: "naturesaura:potion_generator"
+				}
+				{
+					id: "2B27C60900D7543C"
+					type: "item"
+					item: "minecraft:red_nether_bricks"
+					count: 12L
+				}
+				{
+					id: "702A072170C6AA6B"
+					type: "item"
+					item: "minecraft:nether_bricks"
+					count: 28L
+				}
+			]
+			rewards: [
+				{
+					id: "3109B120AF301CAC"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			icon: "naturesaura:chorus_generator"
+			x: 16.0d
+			y: -17.5d
+			shape: "circle"
+			description: [
+				"首先,一个&6紫颂花&r最多必须在距离它两个方块的地方生长.[--First of all, a &6chorus flower&r has to be grown at most about two blocks away from it.--]"
+				"一旦它变得足够高,向&5末影高原的死神&r提供&6红石信号&r将会导致它开始收获整个植物,并在这个过程中移除&2灵气&r.[--Once it has grown high enough, supplying the &5Reaper of Ender Heights&r with a &6redstone signal&r will cause it to start harvesting the entire plant, dispersing &2Aura&r in the process.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"606BD6F121A796AF"
+				"271AE89B1CA86C01"
+			]
+			id: "4A950435627703B1"
+			tasks: [
+				{
+					id: "0DF9AAB475C32E6E"
+					type: "item"
+					item: "naturesaura:chorus_generator"
+				}
+				{
+					id: "62608F035D4F70A5"
+					type: "item"
+					item: "minecraft:chorus_flower"
+				}
+			]
+			rewards: [
+				{
+					id: "2BCE99E33AEE7E31"
+					type: "item"
+					item: "naturesaura:token_rage"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -14.5d
+			shape: "circle"
+			description: [
+				"&5火化炉 Gaze&r 似乎特别支持这个想法:在它周围的地面上放置任何被&4掉落的烟花&r,它会将它们向空中发射.[--The &5Firecracker Gaze&r seemingly shares this opinion especially: Consuming any fireworks that are &4dropped&r on the ground around it, it will shoot them up into the air.--]"
+				""
+				"这意味着为自动化设置一些&4计时器&r是明智的.[--This implies that it would be wise to set up some sort of &4timer&r for its automation.--]"
+				""
+				"由于复杂,特别是在制作烟花时使用的物品的&6值&r至关重要,但是,&6火之星&r的合金、&6彩色&r的合金和从每发子弹中制作的&2灵气&r的合金中的一些其他变数.[--For the complexity, especially the &6value&r of the items used in the firework's creation is of importance, but also, the amout of &6firework stars&r, the amout of &6colors&r and some other variables factor into the amout of &2Aura&r created from each shot.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"271AE89B1CA86C01"
+				"606BD6F121A796AF"
+			]
+			id: "526CDE91E43E448B"
+			tasks: [
+				{
+					id: "4D755B39FE720E29"
+					type: "item"
+					item: "naturesaura:firework_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "7624A2853D813B07"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: -16.5d
+			shape: "circle"
+			description: ["当然,在他们生命的某个地方,任何处理树木的人都会受到这个值得了解的问题:一个&d橡木树苗&r长成一棵&6大树&r,这很难观察、处理和砍倒.[--Surely, at one point in their lives, any person dealing with trees was faced with this wellknow issue: An &dOak Sapling&r grows into a &6Big tree&r which is hard to look at, to manage and to chop down.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"13D134D9CECC9EFA"
+				"1C8E72FDD4811D75"
+				"62453989EC0762EA"
+			]
+			id: "48933BEAA6C06E1A"
+			tasks: [
+				{
+					id: "530FFBACF3EEAC82"
+					type: "item"
+					item: "naturesaura:oak_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "3F9090F9D0BCEAD3"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 13.0d
+			y: -16.5d
+			shape: "circle"
+			description: ["把&5末影之眼&r掉到它附近的地面上会让玫瑰吃掉它,然后开始将其&2灵气&r分解成环境.[--Dropping an &5Ender Eye&r on the ground close to it will cause the rose to consume it and start dispersing its &2Aura&r into the environment.--]"]
+			hide_dependency_lines: true
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "25DD5E2E07E4EB1A"
+			tasks: [
+				{
+					id: "111248D0377BE8E2"
+					type: "item"
+					item: "naturesaura:end_flower"
+				}
+				{
+					id: "3073A17E9F80E85C"
+					type: "kill"
+					entity: "minecraft:ender_dragon"
+					value: 1L
+				}
+				{
+					id: "14A345A07182A0C1"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
+			rewards: [
+				{
+					id: "63F0D2C5C109C2C0"
+					type: "item"
+					item: "naturesaura:end_flower"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: -17.5d
+			shape: "circle"
+			description: ["这可以使用&5异能吸收器&r,当放置在世界中时,它会消耗附近任何小花并将它们的能量转化为&2灵气&r.[--This can be made use of using the &5Herbivorous Absorber&r that will, when placed in the world, consume any small flower in the close vicinity and convert their energy into &2Aura&r.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"606BD6F121A796AF"
+			]
+			id: "7762800EB1C60718"
+			tasks: [
+				{
+					id: "067D485A4D94AA87"
+					type: "item"
+					item: "naturesaura:flower_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "54CD56B2986F0020"
+					type: "item"
+					item: "naturesaura:token_joy"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -13.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "23FBED7C0340EA45"
+			tasks: [
+				{
+					id: "32A3BA9BAA49A5EA"
+					type: "item"
+					item: "naturesaura:eye"
+				}
+			]
+			rewards: [
+				{
+					id: "1401BF4100FF6905"
+					type: "item"
+					item: "naturesaura:gold_leaf"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -17.0d
+			dependencies: ["23FBED7C0340EA45"]
+			id: "10527B01265A0F44"
+			tasks: [
+				{
+					id: "0F68011D42B19B25"
+					type: "item"
+					item: "naturesaura:eye_improved"
+				}
+			]
+			rewards: [
+				{
+					id: "3ABA0DC363141241"
+					type: "item"
+					item: "naturesaura:end_flower"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "4D62C8BB702E6069"
+			tasks: [
+				{
+					id: "2BA2E2B13E3B48FC"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0AD1707FCFBFB9B6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "03A2DF20BB1193D0"
+			tasks: [
+				{
+					id: "15D6C1AC17012578"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7717A2612AAB9FCA"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "547BBD1C0F92A072"
+			tasks: [
+				{
+					id: "69F9FF05D7B0E15B"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "113421058197E68F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "0B5125D4B5EE6057"
+			tasks: [
+				{
+					id: "7574F39363BC09C1"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_shoes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7A6E072104227C3C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "02CD9EFEE68CBA0A"
+			tasks: [
+				{
+					id: "26986598E30B4570"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "602F73884886A05C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "3C0154D8A459BF91"
+			tasks: [
+				{
+					id: "3DCA61105753379B"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-2095430484
+								-1558492576
+								-1614487248
+								188700128
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "50780C7ABFB4DDA5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "061BE8DDF1D1DAA9"
+			tasks: [
+				{
+					id: "01DFB0CF7FE61D3F"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7B7CF6B836CFE540"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "583674AB153794BB"
+			tasks: [
+				{
+					id: "5C1F4684A9834C12"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "23DAA38761E421E6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "59A1D6AAFFD38119"
+			tasks: [
+				{
+					id: "6F6CB06C0C32A1C7"
+					type: "item"
+					item: {
+						id: "naturesaura:sky_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "45B52DD55081AEAF"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -17.0d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "0C09995550F3CE0F"
+			tasks: [
+				{
+					id: "5B727BF8031CBE2E"
+					type: "item"
+					item: "naturesaura:infused_stone"
+				}
+			]
+			rewards: [
+				{
+					id: "009A3425B6A599E9"
+					type: "item"
+					item: "minecraft:stone"
+					count: 4
+				}
+				{
+					id: "0B0A91EDC9254AC4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:animal_spawner"
+			x: 2.5d
+			y: -21.0d
+			description: [
+				"有的时候,某些生物的&6创造&r会用到任何略为可怕的植物学家[--Sometimes, the &6creation&r of certain living creatures would be of use any slightly gruesome botanist--]"
+				""
+				"为此,可以使用&5出生祭坛&r:[--For this, the &5Altar of Birthing&r can be used:--]"
+				""
+				"它可以制造并生成几乎所有&6生物&r,代价是一些与该生物相关的材料,以及一些来自能量的&2灵气&r.[--It can create and spawn almost any &6living creature&r at the cost of some ingredients that are related to that very creature and a bit of &2Aura&r from the environement.--]"
+				""
+				"要它工作,需要组装正确的结构以及使用以下&5出生精华&r:[--For it to work, it requires the right structure to be assembled as well as the usage of a &5Spririt of Birthing&r as follow:--]"
+				""
+				"所有材料,包括&5出生之魂&r,都需要扔在&5出生之祭坛&r附近的地上,并且这个过程将自动开始.[--All ingredients, including the &5Spirit of Birthing&r, are required to be thrown down on the ground close to the &5Altar of Birthing&r and the process will begin automatically.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"7620EE9990A9DFB4"
+			]
+			id: "04CD419F2D4AB1D0"
+			tasks: [
+				{
+					id: "6E0E4DD4120E3A81"
+					type: "item"
+					item: "naturesaura:animal_spawner"
+				}
+				{
+					id: "6F60329AA5737CA1"
+					type: "item"
+					item: "naturesaura:infused_brick"
+					count: 16L
+				}
+				{
+					id: "13A1AEE6383B3BB7"
+					type: "item"
+					item: "naturesaura:ancient_planks"
+					count: 4L
+				}
+				{
+					id: "35B6A4876A6FDB0C"
+					type: "item"
+					item: "minecraft:hay_block"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "6E00EB8030AE4704"
+					type: "item"
+					item: "naturesaura:token_euphoria"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -21.0d
+			description: [
+				"当周围区域有&2灵气&r的(光线)显示时,一个&6呼吸&r两个被动动物一起可以轻松获得所需的&5繁殖之魂&r.[--The required &5Spirit of Birthing&r can be obtained easily by a person &6breeding&r two passive animals together while there is a(slight) exess of &2Aura&r present in the surrounding area.--]"
+				""
+				"对于每个新出生的婴儿,都有几条&5出生之魂&r的几率在这个过程中被创造出来.[--For each new baby born, there is a chance of a few &5Spirits of Birthing&r to be created in the process.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["04CD419F2D4AB1D0"]
+			id: "2708CCE704A1ECC0"
+			tasks: [
+				{
+					id: "387C607741C2CE9B"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+				}
+			]
+			rewards: [
+				{
+					id: "59C97406DE7129FB"
+					type: "item"
+					item: "naturesaura:birth_spirit"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -18.0d
+			dependencies: ["0C09995550F3CE0F"]
+			id: "50BE4323CEF3E376"
+			tasks: [
+				{
+					id: "08FE2CC464B56688"
+					type: "item"
+					item: "naturesaura:infused_brick"
+				}
+			]
+			rewards: [
+				{
+					id: "6B9D392E9635EEC3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -16.5d
+			dependencies: ["62453989EC0762EA"]
+			id: "313DA4A93BD8D422"
+			tasks: [
+				{
+					id: "6BDE2E7ED36273FB"
+					type: "item"
+					item: "naturesaura:aura_cache"
+				}
+			]
+			rewards: [
+				{
+					id: "35BBD15AB9504018"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -17.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"4E340C8BF251D2E5"
+				"313DA4A93BD8D422"
+				"0C09995550F3CE0F"
+			]
+			id: "5EF9FD8680E66DE4"
+			tasks: [
+				{
+					id: "4DF78828F3438713"
+					type: "item"
+					item: "naturesaura:aura_trove"
+				}
+			]
+			rewards: [
+				{
+					id: "2E520AE2F9B5293D"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -11.0d
+			dependencies: ["4E340C8BF251D2E5"]
+			id: "3F195334C57E2029"
+			tasks: [
+				{
+					id: "5CF78EF1F1BE8807"
+					type: "item"
+					item: "naturesaura:netherite_finder"
+				}
+			]
+			rewards: [
+				{
+					id: "1FC6F38655366368"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"264E33238FD5C2AC"
+				"606BD6F121A796AF"
+				"4E340C8BF251D2E5"
+			]
+			id: "47815E8CF5E984A9"
+			tasks: [
+				{
+					id: "0F5C920EA374E2F5"
+					type: "item"
+					item: "naturesaura:pet_reviver"
+				}
+			]
+			rewards: [
+				{
+					id: "5370DA3AD5C6D6B5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -13.0d
+			dependencies: ["67BC8A5CBAF363F8"]
+			id: "4359D4E42416A597"
+			tasks: [
+				{
+					id: "7281B46C467DCEC3"
+					type: "item"
+					item: "naturesaura:break_prevention"
+				}
+			]
+			rewards: [
+				{
+					id: "500F46FB00CE22BB"
+					type: "item"
+					item: "naturesaura:sky_ingot"
+				}
+				{
+					id: "1BE842CF6B12208C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -12.0d
+			description: ["找到末地城。[--Locate End City.--]"]
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "340EE143C784BA64"
+			tasks: [
+				{
+					id: "0CBC1911CEE0BCB3"
+					type: "item"
+					item: "naturesaura:end_city_finder"
+				}
+			]
+			rewards: [
+				{
+					id: "4576974A0FDED9AB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -15.5d
+			description: [
+				"当&5暴风球&r在背包中的任何位置保留时,它允许穿戴者专注他们的力量,让他们在&6潜行&r和&6跳跃&r放置时,可以坚硬地潜行到地上,以制造一个&5电容&r,伤害靠近的任何其他生物.[--The &5Amulet of Wrath&r, when held anywhere in the inventory, allows its wearer to focus their power, giving them the ability to, when &6sneaking&r and &6jumping&r in place, stomp down on the ground hard enough to create a &5shockwave&r that hurts any other living creatures close by. --]"
+				""
+				"当然,这需要消耗一些&2灵气&r,例如存储在&1灵气箱子&r中.[--This, of course, come at the cost of some &2Aura&r, stored in the form of, say, an &1Aura Cache&r.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C09995550F3CE0F"
+				"2626A2F3A1782F83"
+				"271AE89B1CA86C01"
+			]
+			id: "2C1E7F68611F16D6"
+			tasks: [
+				{
+					id: "07F91ED068BA1540"
+					type: "item"
+					item: {
+						id: "naturesaura:shockwave_creator"
+						Count: 1b
+						tag: {
+							x: 44.74506183179455d
+							y: 83.74293160172489d
+							z: -102.66041006271752d
+							air: 0b
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "22E5A3306943B887"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -12.0d
+			description: ["找到下界要塞.[--Locate Nether Fortress.--]"]
+			dependencies: ["47A262541C6569CA"]
+			id: "3C94B10599956154"
+			tasks: [
+				{
+					id: "3A923216BF2E6E2E"
+					type: "item"
+					item: "naturesaura:fortress_finder"
+				}
+			]
+			rewards: [
+				{
+					id: "479E34B829590238"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -15.5d
+			description: ["将&5最后机会指环&r放置在用户物品栏中,会通过治疗他们并在过程中消失&6类似于&5不死图腾&r来防止他们死亡.[--The &5Ring of Last Chance&r, when placed anuwhere in the user's inventory, will prevent their death by healing them and &6disappearing&r in the process, similary to the &5Totem of Undying&r.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"6FA1B1D053C2C065"
+				"4E340C8BF251D2E5"
+				"7620EE9990A9DFB4"
+				"1D61F379646FA8C8"
+			]
+			id: "625A280D9BAB39E5"
+			tasks: [
+				{
+					id: "677159248B128DDC"
+					type: "item"
+					item: "naturesaura:death_ring"
+				}
+			]
+			rewards: [
+				{
+					id: "18A5C716602C4B61"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			icon: "naturesaura:furnace_heater"
+			x: 10.0d
+			y: -14.5d
+			description: ["&6火之激活器&r是使用灵气为您增益的一种方式。它从世界收集它,并为熔炉提供动力而不需要燃料.[--The &6Extraneous Firestarter&r is a way of using Aura to your benefit: It collects it from the world and powers a furnace without needing any fuel.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C09995550F3CE0F"
+				"62453989EC0762EA"
+				"2626A2F3A1782F83"
+				"13D134D9CECC9EFA"
+			]
+			id: "2FAA582C635713A7"
+			tasks: [
+				{
+					id: "1D502199FC403024"
+					type: "item"
+					item: "naturesaura:furnace_heater"
+				}
+				{
+					id: "0A627955547AAD18"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "5770D771A07FA72B"
+					type: "item"
+					item: "naturesaura:token_fear"
+				}
+				{
+					id: "46C25CA76AF8BE81"
+					type: "item"
+					item: "naturesaura:infused_iron"
+				}
+				{
+					id: "740B729DAFD14DFE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -15.5d
+			description: [
+				"它们发现&a灵气&r可能能够净化任何类型的&6矿石&r,使它们有机会生产&6两个锭&r而不是一个.[--They have found that &aAura&r might be capable of purifying any kind of &6ore&r to a point where it has a chance of producing &6two ingots&r rather than one.--]"
+				""
+				"&5装甲号的护盾&r,只需放在&5高炉&r的顶部.[--&5Armorer's Aid&r, which simply has to be placed on top of a &5Blast Furnace&r.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"2FAA582C635713A7"
+				"62453989EC0762EA"
+				"13D134D9CECC9EFA"
+			]
+			id: "268ABD1643F1BEC5"
+			tasks: [
+				{
+					id: "7A3C7FC8C0F4BDA3"
+					type: "item"
+					item: "naturesaura:blast_furnace_booster"
+				}
+			]
+			rewards: [
+				{
+					id: "07EFC335C3E8A0AD"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "冒险轨道[--The adventure rails--]"
+			x: 9.0d
+			y: -15.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"62453989EC0762EA"
+				"4E340C8BF251D2E5"
+				"2626A2F3A1782F83"
+				"47A262541C6569CA"
+				"6FA1B1D053C2C065"
+				"1C8E72FDD4811D75"
+				"1D61F379646FA8C8"
+				"271AE89B1CA86C01"
+				"7620EE9990A9DFB4"
+			]
+			id: "541EB42A3502F747"
+			tasks: [
+				{
+					id: "122D3A3A8C968789"
+					type: "item"
+					item: "naturesaura:dimension_rail_nether"
+				}
+				{
+					id: "39E7DC8FE6535781"
+					type: "item"
+					item: "naturesaura:dimension_rail_end"
+				}
+				{
+					id: "7260DD0DAA8FB84C"
+					type: "item"
+					item: "naturesaura:dimension_rail_overworld"
+				}
+			]
+			rewards: [
+				{
+					id: "283C0CC090C5FD2A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -15.5d
+			description: [
+				"小心,它会用很多灵气![--Be careful, it uses a lot of aura!--]"
+				""
+				"无限水![--Infinite water !--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7620EE9990A9DFB4"]
+			id: "305EE90B1032BA75"
+			tasks: [
+				{
+					id: "1F2A7B451E9C6699"
+					type: "item"
+					item: "naturesaura:spring"
+				}
+			]
+			rewards: [
+				{
+					id: "756D50AD3D6F588B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -14.5d
+			description: [
+				"&5末影箱子&r是任何尝试安全存储物品者都可以使用的重要技术,但是它们不会为所述物品提供轻松的&6移动&r方式.[--&5Ender Chests&r are great technology for anyone trying to store items safely, however, they don't provide easy means of &6transportation&r for said items.--]"
+				""
+				"为此,&5末影板条箱&r非常适合:[--For this, the &5Ender Crate&r is perfect:--]"
+				"将两个或多个板条箱连接在一起的箱子可以跨维度共享同一个库存,这意味着它们会产生轻松运输物品的可能性.[--Two or more of these crates which are linked together share the same inventory, event interdimensionally, meaning that they create the possibility of easily transporting items around.--]"
+				""
+				"要连接一个或一个以上的板条箱,必须给它们一个&5末影名称&r,方法是将它们放入带有&5末影之眼&r的&6铁砧&r中,然后将所需的名称记下.[--To link one or more crates, they have to be given an &5Ender Name&r by placing them in an &6anvil&r with an &5Ender Eye&r and then writing down the desired name.--]"
+				""
+				"如果担心其他人会给他们的箱子取相同的名字,则可以通过在带有该名称的箱子中放置一个&1恶魂之身&r来给它命名&6锁住&r.[--If the worry exists that other people might call their crates the same name, any name can be &6locked&r from being given simply by placing a &1Token of Terror&r inside a crate with that name.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "3A1F57CF67C4DBFE"
+			tasks: [
+				{
+					id: "21AE8F3AE914E8E5"
+					type: "item"
+					item: "naturesaura:ender_crate"
+				}
+			]
+			rewards: [
+				{
+					id: "33B1184713DEB911"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -14.5d
+			description: [
+				"简单地说,&5末影镜&r是&1末影板条箱&r的手持版本.[--The &5Ender Ocular&r is, to put it simply, a handheld version of the &1Ender Crate&r.--]"
+				""
+				"在给它一个&6末影名称&r精准的沙子方式之后,在拿着它时与它交互会打开存储空间.[--After giving it an &6Ender Name&r the exact sam way, interacting with it while holding it in one's hand will open the storage then and there.--]"
+				""
+				"为此,需要一个&1灵气箱子&r来消耗一些&2灵气&r.[--For this, an &1Aura Cache&r is required that some &2Aura&r will be drained from.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["6FA1B1D053C2C065"]
+			id: "3912755F95BE2CDF"
+			tasks: [
+				{
+					id: "2ABDFA2A144A1520"
+					type: "item"
+					item: "naturesaura:ender_access"
+				}
+			]
+			rewards: [
+				{
+					id: "51B9F3504481BE8B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "灵气花[--Aura Flower--]"
+			x: 9.0d
+			y: -14.5d
+			description: ["在&4下界&r中找到。[--Found in the &4nether&r.--]"]
+			hide_dependency_lines: true
+			dependencies: ["111FCE085D6AC550"]
+			id: "4BCA238C4EE0BD35"
+			tasks: [
+				{
+					id: "4A2D44DA6B1BC450"
+					type: "item"
+					item: "naturesaura:warped_aura_mushroom"
+				}
+				{
+					id: "103F9A61508D43E5"
+					type: "item"
+					item: "naturesaura:crimson_aura_mushroom"
+				}
+			]
+			rewards: [
+				{
+					id: "6681E5E0BDD386C1"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -14.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"6FA1B1D053C2C065"
+				"4E340C8BF251D2E5"
+				"62453989EC0762EA"
+			]
+			id: "377D9C46FA725AB1"
+			tasks: [
+				{
+					id: "32107BAA2F50DA7A"
+					type: "item"
+					item: "naturesaura:mover_cart"
+				}
+			]
+			rewards: [
+				{
+					id: "436C1B15AD9C36CB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"1D61F379646FA8C8"
+				"6FA1B1D053C2C065"
+			]
+			id: "0AC9519AF20DDAAD"
+			tasks: [
+				{
+					id: "0C0A023B932A6EC4"
+					type: "item"
+					item: "naturesaura:spawn_lamp"
+				}
+			]
+			rewards: [
+				{
+					id: "27272A60BDB9CAAC"
+					type: "item"
+					item: {
+						id: "naturesaura:aura_bottle"
+						Count: 1b
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+				}
+				{
+					id: "44DED32325D7F106"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -16.5d
+			description: [
+				"有的时候,作为一个农夫,想把它们的&6动物&r容纳在小区域内,以防止它们消失.[--Sometimes, as a farmer, one wants their &6animals&r to be contained in a small area as to prevent them from running away.--]"
+				""
+				"&5工厂之眼&r可以防止任何动物离开其效果区域,而不需要周围的任何方块.[--The &5Corporeal Eye&r prevents any animals frome exiting its area of effect without needing any blocks around it.--]"
+				""
+				"它用于这个控制装置的&6范围&r由应用于它的&6红石信号&r决定——它越强大,区域就越大.[--Its &6range&r for this containment is determined by the &6redstone signal&r applied to it - the stronger it is, the bigger the area.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["23FBED7C0340EA45"]
+			id: "66CBFD4C91CFC831"
+			tasks: [
+				{
+					id: "65664CBC8F09831E"
+					type: "item"
+					item: "naturesaura:animal_container"
+				}
+			]
+			rewards: [
+				{
+					id: "482E3E36B6DB8C31"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "657E5AFF8D96E41F"
+			tasks: [
+				{
+					id: "70B8C361900E38CD"
+					type: "item"
+					item: "naturesaura:placer"
+				}
+			]
+			rewards: [
+				{
+					id: "0F8BF4C6C5C576DE"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -16.5d
+			description: [
+				"&5寒雪召唤&r通过在其周围的大范围内造成雪落下,提供了一些&a灵气&r来使这种发生.[--The &5Winter's Calling&r brings this occurence back by causing snow to fall in a vast area around it, provided a little bit of &aAura&r.--]"
+				""
+				"此外,水会冻成冰,并且非常偶尔会生成雪之魔符,帮助覆盖地面.[--Additionally, water will freeze into ice and very occasionally, snow golems will spawn to help with covering the lands.--]"
+				""
+				"要开始这个过程,需要提供&6红石信号&r.[--To get this process going, a &6redstone signal&r needs to be supplied.--]"
+				""
+				"信号强度越高,雪要掉落的区域就越大.[--The higher the strength of the signal, the biger the area in which snow will fall.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"50BE4323CEF3E376"
+				"4E340C8BF251D2E5"
+			]
+			id: "187855ECC5C66261"
+			tasks: [
+				{
+					id: "1FD31C1AFC91CCF8"
+					type: "item"
+					item: "naturesaura:snow_creator"
+				}
+			]
+			rewards: [
+				{
+					id: "684C7680F4113F7E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -16.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "0CF6166954E1FD7C"
+			tasks: [
+				{
+					id: "0F269E542753C366"
+					type: "item"
+					item: "naturesaura:pickup_stopper"
+				}
+			]
+			rewards: [
+				{
+					id: "583B3588CA541CBA"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -17.5d
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "555C1574F2D6716B"
+			tasks: [
+				{
+					id: "655DAD092E43363E"
+					type: "item"
+					item: "naturesaura:aura_timer"
+				}
+			]
+			rewards: [
+				{
+					id: "10BBDEE9605FDAB1"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -17.5d
+			description: [
+				"使用&5漏斗&r收集物品是有用的,但有时会不方便,特别是如果给它一个大区域,则必须收集物品.[--Collecting items using &5Hoppers&r is useful, but sometimes, it can be inconvenient, especially if given a big area that one has to collect items in.--]"
+				""
+				"为此,&5漏斗增强&r将是一种帮助:[--For that, the &5Hopper Enhancement&r will be a help:--]"
+				"只需将其放置在任何&5漏斗&r上方,它就会通过增加&67&r方块的物品拾取范围.[--By simply placing it on top of any &5Hopper&r, it will increase its range of picking up items drastically by about &6seven&r blocks.--]"
+				""
+				"在收集物品时,它会使用少量&2灵气&r.[--When collecting an item, it then uses a small amount of &2Aura&r.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "377381E839A4C259"
+			tasks: [
+				{
+					id: "649284ACA58E392A"
+					type: "item"
+					item: "naturesaura:hopper_upgrade"
+				}
+			]
+			rewards: [
+				{
+					id: "567603CC00A8A8C2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -16.5d
+			description: [
+				"人类的两种行为之一就是&6破坏&r方块.[--One of the two activities mosly done by humans is &6breaking&r blocks.--]"
+				""
+				"这需要相当一点果汁和力气,如果持续了很长的时间,会变得非常疲劳.[--This requires quite a bit of strengh and effort, and, if done for long amounts of time, can become quite tiring.--]"
+				""
+				"&5灵气场生成器&r可以创建一个强大的移动&2灵气&r的地方,它足够强大,可以&6破坏其中的方块&r.[--The &5Aura Field Creator&r creates a dense field of moving &2Aura&r that is strong enough for it &6destroy blocks&r within it.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"271AE89B1CA86C01"
+				"4E340C8BF251D2E5"
+			]
+			id: "5480836D0540C2F4"
+			tasks: [
+				{
+					id: "295E87D3C2ACA476"
+					type: "item"
+					item: "naturesaura:field_creator"
+				}
+			]
+			rewards: [
+				{
+					id: "2F48A302B2734822"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -14.5d
+			description: [
+				"当与&2灵气&r一起工作时,有时了解一个区域内的灵气水平会很有用,而不需要人检查.[--When working with &2Aura&r, sometimes it can be beneficial to know about its levels in an area without having to be there to check in person.--]"
+				""
+				"&5灵气检测器&r根据周围附近的&2灵气&r的信号发出&6红石&r信号,只要你将&5合成器&r连接到它上.[--The &5Aura Detector&r gives out a &6redstone&r signal based on the amout of &2Aura&r in the close vicinity around it, so long as you attach a &5Comparator&r to it.--]"
+				""
+				"为此,其展示范围类似于&1环境之眼&r.[--For that, its range of display is similar to that of the &1Environmental Eye&r.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["23FBED7C0340EA45"]
+			id: "3E46BFE9CD66C880"
+			tasks: [
+				{
+					id: "405679C1E28E80B8"
+					type: "item"
+					item: "naturesaura:aura_detector"
+				}
+			]
+			rewards: [
+				{
+					id: "16811A780841950D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -17.5d
+			description: [
+				"&5神秘放大器&r是任何魔法植物学家使用机械的精美装置.[--The &5Mystical Magnifier&r is a neat device for any magical botanist working with machinery.--]"
+				""
+				"装备在任意手中,并使用兼容的装置进行交互时,其&6操作范围&r将显示在它周围,允许轻松、准确地检查用它建造的任何装置.[--When equipped in either hand, and interacting with a compatible device, its &6range of operation&r will be displayed around it, allowing any contraptions built with it to be inspected easily and precisely.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["62453989EC0762EA"]
+			id: "4774E5DBE97FEB16"
+			tasks: [
+				{
+					id: "51953550A6DB5628"
+					type: "item"
+					item: "naturesaura:range_visualizer"
+				}
+			]
+			rewards: [
+				{
+					id: "360546D53AD14353"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -17.5d
+			dependencies: ["7591DDDBE81D6790"]
+			id: "7455494CC9E4DF8B"
+			tasks: [
+				{
+					id: "50805B8B5DB1BD25"
+					type: "item"
+					item: "chromasky:magiccrystal"
+				}
+			]
+			rewards: [
+				{
+					id: "1831047635A5486A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -15.0d
+			dependencies: [
+				"67BC8A5CBAF363F8"
+				"74083D9E4671E933"
+			]
+			id: "09E50257121C71FB"
+			tasks: [
+				{
+					id: "21A2C50B686B8351"
+					type: "item"
+					item: {
+						id: "matc:inferium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "365CA5D73BD6ED7E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -15.0d
+			dependencies: ["62453989EC0762EA"]
+			id: "610C21CEF23BA86B"
+			tasks: [
+				{
+					id: "5EF126715A2640D1"
+					type: "item"
+					item: "naturesaura:grated_chute"
+				}
+			]
+			rewards: [
+				{
+					id: "1A293BB1CB65F55C"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+				{
+					id: "7549D320C2598648"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+	]
+}

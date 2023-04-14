@@ -1,0 +1,15 @@
+{
+	id: "65801046CDFAECA4"
+	order_index: 6
+	title: "&6神秘精华等级 3[--&6Mystical Essence Tier 3--]"
+	icon: "mysticalagriculture:tertium_essence"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: "mysticalagriculture:spider_essence"
+			count: 16
+			random_bonus: 4}
+		}
+	]
+}

@@ -1,0 +1,1946 @@
+{
+	id: "2C3B3233CE95C551"
+	group: "638FC427456F902B"
+	order_index: 5
+	filename: "immersive_engineering"
+	title: "沉浸工程[--Immersive Engineering--]"
+	icon: "immersivepetroleum:pumpjack"
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 7.0d
+			y: 0.5d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.5d
+			y: 0.5d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: 12.0d
+			width: 13.0d
+			height: 13.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/blueprint.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_resources.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 18.5d
+			y: -3.0d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_energy.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			width: 7.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "chromasky2:textures/quest/ie_machinery.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "建造一个&6焦炉[--Build a &6Coke Oven--]"
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["0DC6C504C33132CA"]
+			id: "32B0711F8E58C7C3"
+			tasks: [
+				{
+					id: "59C7A66A8C3C9A5D"
+					type: "observation"
+					title: "查看一个完整的&6焦炉[--Look at a complete &6Coke Oven--]"
+					icon: "immersiveengineering:coke_oven"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:coke_oven"
+				}
+			]
+			rewards: [
+				{
+					id: "1E7D5D50FC309D54"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6高炉[--Build a &6Blast Furnace--]"
+			x: 8.0d
+			y: 0.5d
+			description: ["高炉粗制合金铁,带有焦煤来产生钢.[--The Crude Blast Furnace alloys Iron with Coal Cokes to produce Steel.--]"]
+			dependencies: ["17089E72E359D3DC"]
+			id: "64F1156BDE5B5686"
+			tasks: [
+				{
+					id: "65BFF525410E261E"
+					type: "observation"
+					title: "查看一个完整的&6高炉[--Look at a complete &6Blast Furnace--]"
+					icon: "immersiveengineering:blast_furnace"
+					timer: 20L
+					observe_type: 0
+					to_observe: "immersiveengineering:blast_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "26853666AFF01F81"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6合金炉[--Build an &6Alloy Kiln--]"
+			x: 4.0d
+			y: 0.5d
+			description: ["合金炉用于制造合金.[--The Alloy Kiln is used to create alloys.--]"]
+			dependencies: ["15292CDBE90169DD"]
+			id: "76F3D860B8C7FA5E"
+			tasks: [
+				{
+					id: "70CB79014092E8C2"
+					type: "observation"
+					title: "查看一个完整的&6合金kirn[--Look at a complete &6Alloy Kiln--]"
+					icon: "immersiveengineering:alloy_smelter"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:alloy_smelter"
+				}
+			]
+			rewards: [
+				{
+					id: "408889EBB802C641"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6自动化工作台[--Build an &6Automated Workbench--]"
+			x: 9.0d
+			y: 12.0d
+			description: [
+				"自动化工作台是工程师工作台的自动化版本.[--The Automated Workbench is an automated version of the Engineer's Workbench.--]"
+				""
+				"5x 钢质脚手架[--5x Steel Scaffolding--]"
+				"4x 轻型工程块[--4x Light Engineering Block--]"
+				"4x 传送带[--4x Conveyor Belt--]"
+				"2x 防腐木台阶[--2x Treated Wood Slab--]"
+				"2x 重型工程块[--2x Heavy Engineering Block--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "05779F68EBA1F83C"
+			tasks: [
+				{
+					id: "6B50510363834506"
+					type: "observation"
+					title: "查看一个完整的&6自动工作台[--Look a complete &6Auto Workbench--]"
+					icon: "immersiveengineering:auto_workbench"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:auto_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "21BE70C1F4C0FFB3"
+					type: "item"
+					item: "thermal:obsidian_glass"
+					count: 8
+				}
+				{
+					id: "76D5F9D123A4A80A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			dependencies: ["64F1156BDE5B5686"]
+			id: "47A4D81697C274A3"
+			tasks: [
+				{
+					id: "41D53C9198042415"
+					type: "item"
+					item: "mekanism:ingot_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "1FDA0662FA09ACBD"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["32B0711F8E58C7C3"]
+			id: "4053153C0E72EB77"
+			tasks: [
+				{
+					id: "3DF66306898B8768"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+				}
+			]
+			rewards: [
+				{
+					id: "69C69F41578E5E7B"
+					type: "item"
+					item: "immersiveengineering:coke"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["32B0711F8E58C7C3"]
+			id: "20C7BB0FB260AC6A"
+			tasks: [
+				{
+					id: "0FF814C3B8525BFA"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "1083372588C47386"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			dependencies: ["64F1156BDE5B5686"]
+			id: "0507BB01DF49C38B"
+			tasks: [
+				{
+					id: "04A2E2351269246E"
+					type: "item"
+					item: "immersiveengineering:slag"
+				}
+			]
+			rewards: [
+				{
+					id: "25608851860B260F"
+					type: "item"
+					item: "immersiveengineering:slag"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "321AFD3A1679E8E0"
+			tasks: [
+				{
+					id: "2242573249C557AA"
+					type: "item"
+					item: "extendedcrafting:redstone_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "7B278ACD3A9E66FF"
+					type: "item"
+					item: "ftbjarmod:cast_iron_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "505915AA1C542C01"
+			tasks: [
+				{
+					id: "3C5CB955D2A68A45"
+					type: "item"
+					item: "thermal:electrum_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "62C4B6CEC9CBA6FA"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "22B0E29207751423"
+			tasks: [
+				{
+					id: "1992EF8CEC6F7326"
+					type: "item"
+					item: "thermal:invar_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "1E778151A979633C"
+					type: "item"
+					item: "thermal:nickel_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "106B89A7A018AD2D"
+			tasks: [
+				{
+					id: "7E8B128EE1A3B653"
+					type: "item"
+					item: "thermal:bronze_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "2186A75AE6196A3E"
+					type: "item"
+					item: "thermal:tin_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "建造一个&6电弧炉[--Build an &6Arc Furnace--]"
+			x: 17.0d
+			y: 14.0d
+			description: [
+				"电弧炉用于将矿石和磨粉熔成锭,制造合金(包括钢),并回收某些工具和盔甲.[--The Arc Furnace is used for smelting ores and grits into ingots, creating alloys including steel, and recycling certain tools and armor.--]"
+				"电弧炉要运行,需要能量和三个工作使用的石墨电极.[--For it to operate, the Arc Furnace needs power and three working Graphite Electrodes.--]"
+				""
+				"27x 强化高炉砖[--27x Reinforced Blast Brick--]"
+				"15x 钢板金属台阶[--14x Steel Sheetmetal Slab--]"
+				"10x 轻型工程块[--10x Light Engineering Block--]"
+				"08x 钢板金属[--08x Steel Sheetmetal--]"
+				"06x 钢块[--06x Steel Block--]"
+				"05x 钢脚手架[--05x Steel Scaffolding--]"
+				"05x 重型工程块[--05x Heavy Engineering Block--]"
+				"01x 炼药锅[--01x Cauldron--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"4BDFE24CE49F32A0"
+				"47A4D81697C274A3"
+			]
+			id: "3A3033BD83C58D7C"
+			tasks: [
+				{
+					id: "3343F867D0215AA2"
+					type: "observation"
+					title: "查看一个完整的&6电弧炉[--Look at a complete &6Arc Furnace--]"
+					icon: "immersiveengineering:arc_furnace"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:arc_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "07A68EA028E4AA87"
+					type: "item"
+					item: "mekanism:ingot_steel"
+					count: 16
+				}
+				{
+					id: "1AAD0114B421032A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6装配机[--Build an &6Assembler--]"
+			x: 17.0d
+			y: 10.0d
+			description: [
+				"装配机用于自动制作物品.[--The Assembler is used to automatically craft items.--]"
+				"配方可以设置在装配机内.[--Recipes can be set inside of the Assembler.--]"
+				"装配机中的储液罐将自动填充合成表中使用的液体容器,例如水桶.[--The fluid tanks in the Assembler will automatically fill liquid containers used in recipes, such as Water Buckets.--]"
+				"如果装配机有正确的材料,它会自动制作套装配方.[--The Assembler will automatically craft the set recipes if it has the correct materials.--]"
+				""
+				"6x 钢质脚手架[--6x Steel Scaffolding--]"
+				"2x 红石工程块[--2x Redstone Engineering Block--]"
+				"2x 轻型工程块[--2x Light Engineering Block--]"
+				"9x 铁板金属[--9x Iron Sheetmetal--]"
+				"6x 铁板金属台阶[--6x Iron Sheetmetal Slab--]"
+				"2x 传送带[--2x Conveyor Belt--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1ACE3B9D0233F6E5"
+			tasks: [
+				{
+					id: "454EA27892467FE1"
+					type: "observation"
+					title: "查看一个完整的&6装配机[--Look at a complete &6Assembler--]"
+					icon: "immersiveengineering:assembler"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:assembler"
+				}
+			]
+			rewards: [
+				{
+					id: "4E8624946FBDE5D8"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8
+				}
+				{
+					id: "28EAD8F3B968447D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一台&6装瓶机[--Build a &6Bottling Machine--]"
+			x: 17.0d
+			y: 12.0d
+			description: [
+				"装瓶机用于装满液体容器.[--The Bottling Machine is used to fill liquid containers.--]"
+				""
+				"3x 钢脚手架[--3x Steel Scaffoldings--]"
+				"2x 铁板金属[--2x Iron Sheetmetal--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+				"2x 轻型工程方块[--2x Light Engineering Blocks--]"
+				"3x 传送带[--3x Conveyor Belts--]"
+				"2x 流体泵[--2x Fluid Pump--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"341411D6BC7E2F0C"
+			]
+			id: "271DC553520729A6"
+			tasks: [
+				{
+					id: "020BE90D9CCD193D"
+					type: "observation"
+					title: "查看一个完整的&6装瓶机[--Look at a complete &6Bottling Machine--]"
+					icon: "immersiveengineering:bottling_machine"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:bottling_machine"
+				}
+			]
+			rewards: [
+				{
+					id: "6A7898D42CBDF98B"
+					type: "item"
+					item: "minecraft:glass_bottle"
+					count: 8
+				}
+				{
+					id: "74BE7FBE167B2FA4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6粉碎机[--Build a &6Crusher--]"
+			x: 11.0d
+			y: 10.0d
+			description: [
+				"粉碎机可以让你粉碎材料.[--The crusher allows you to crush materials.--]"
+				""
+				"10x 钢脚手架[--10x Steel Scaffolding--]"
+				"10x 轻型工程块[--10x Light Engineering Block--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+				"08x 钢栅栏[--08x Steel Fence--]"
+				"09x 漏斗[--09x Hopper--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1BA5653D4E507226"
+			tasks: [
+				{
+					id: "251A14BBF227514C"
+					type: "observation"
+					title: "查看一个完整的&6粉碎机[--Look at a complete &6Crusher--]"
+					icon: "immersiveengineering:crusher"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:crusher"
+				}
+			]
+			rewards: [
+				{
+					id: "1C17098D1AD6484E"
+					type: "item"
+					item: "thermal:iron_dust"
+					count: 8
+				}
+				{
+					id: "4FB4547DA4FBDFE8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6柴油发电机[--Build a &6Diesel Generator--]"
+			x: 20.5d
+			y: 2.5d
+			description: [
+				"柴油发电机通过燃烧生物柴油或其他变形燃料产生能量.[--The Diesel Generator generates energy by burning Biodiesel or other modded fuels.--]"
+				""
+				"13x 重型工程块[--13x Heavy Engineering Block--]"
+				"09x 散射器块[--09x Radiator Block--]"
+				"06x 钢脚手架[--06x Steel Scaffolding--]"
+				"05x 流体管道[--05x Fluid Pipe--]"
+				"04x 发电机模块[--04x Generator Block--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
+			id: "2FA1D09F8788E613"
+			tasks: [
+				{
+					id: "00BAB278979BBE16"
+					type: "observation"
+					title: "查看一个完整的&6Disel(发电机)发电机[--Look at a complete &6Diesel Generator--]"
+					icon: "immersiveengineering:diesel_generator"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:diesel_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "3F25E59D435DEB80"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "72DDAF8348F0CAFD"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6精炼塔[--Build a &6Distillation Tower--]"
+			x: 15.0d
+			y: 14.0d
+			description: [
+				"精炼塔主要用于将原油转化为有用的柴油、燃气燃料和润滑油,将沥青作为副产物.[--The Distillation Tower is primarily used to convert Crude Oil into usable Diesel and Gasoline fuels and Lubricant, creating Bitumen as a byproduct.--]"
+				""
+				"25x 钢脚手架[--25x Steel Scaffolding--]"
+				"30x 钢脚手架台阶[--30x Steel Scaffolding Slab--]"
+				"17x 流体管道[--17x Fluid Pipe--]"
+				"60x 铁板金属[--60x Iron Sheetmetal--]"
+				"04x 重型工程块[--04x Heavy Engineering Block--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "1C5CC1150D9EC872"
+			tasks: [
+				{
+					id: "6EE4C86325582300"
+					type: "observation"
+					title: "查看一个完整的&6精炼塔[--Look at a complete &6Distillation Tower--]"
+					icon: "immersivepetroleum:distillationtower"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersivepetroleum:distillationtower"
+				}
+			]
+			rewards: [
+				{
+					id: "6681115A0C8051AB"
+					type: "item"
+					item: "immersivepetroleum:auto_lubricator"
+				}
+				{
+					id: "51110725210108EC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6工业发酵机[--Build an &6Industrial Fermenter--]"
+			x: 15.0d
+			y: 12.0d
+			description: [
+				"发酵机用来制造乙醇.[--The Fermenter is used to make Ethanol.--]"
+				""
+				"6x 钢质脚手架[--6x Steel Scaffolding--]"
+				"4x 炼药锅[--4x Cauldron--]"
+				"4x 铁板金属[--4x Iron Sheetmetal--]"
+				"2x 流体管道[--2x Fluid Pipes--]"
+				"2x 轻型工程方块[--2x Light Engineering Blocks--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "382C824778767E59"
+			tasks: [
+				{
+					id: "3CDB9BE3EEEEA695"
+					type: "observation"
+					title: "查看一个完整的&6工业发酵机[--Look at a complete &6Industrial Fermenter--]"
+					icon: "immersiveengineering:fermenter"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:fermenter"
+				}
+			]
+			rewards: [
+				{
+					id: "289F778245ADA400"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+				}
+				{
+					id: "094CE18C738A1962"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6强化高炉[--Build an &6Improved Blast Furnace--]"
+			x: 10.0d
+			y: 0.5d
+			description: [
+				"强化高炉,用焦煤合金铁来产生钢.[--The Improved Blast Furnace that alloys Iron with Coal Cokes to produce Steel.--]"
+				""
+				"它是焦炉的升级版,一旦添加了高炉预热器,它就能够自动化并具有更高的速度.[--It is the upgraded tier of the Crude Blast Furnace, capable of automation and also of greater speeds once Blast Furnace Preheaters are added.--]"
+			]
+			dependencies: ["4BDFE24CE49F32A0"]
+			id: "72C595C7660A0772"
+			tasks: [
+				{
+					id: "4C4FD70C38477BC2"
+					type: "observation"
+					title: "查看一个完整的&6强化高炉[--Look at a complete &6Improved Blast Furnace--]"
+					icon: "immersiveengineering:advanced_blast_furnace"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:advanced_blast_furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "4C27838CAB51A281"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6电钻[--Build a &6Lightning Rod--]"
+			x: 16.5d
+			y: 2.5d
+			description: [
+				"闪电棒用于用雷电产生能量.[--The Lightning Rod is used to generate energy with thunder.--]"
+				"在中间方块上堆叠许多钢栅栏会增加闪电击中中间方块的几率.[--Stacking many Steel Fences on the middle block increases the chance of lightning hitting the middle block dramatically.--]"
+				""
+				"一次闪电攻击将产生 16,000,000 IF.[--One lightning strike will generate 16,000,000 IF.--]"
+				""
+				"8x 铜线圈[--8x Copper Coil Block--]"
+				"4X 钢质脚手架[--4x Steel Scaffolding--]"
+				"4x 高压电容[--4x HV Capacitor--]"
+				"4x 光速工程块[--4x Light Engineering Block--]"
+				"4x 防腐木栅栏[--4x Treated Wood Fence--]"
+				"3x 高压线圈块[--3x High-Voltage Coil Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
+			id: "0BC9880B53E548C5"
+			tasks: [
+				{
+					id: "3078253664DD8728"
+					type: "observation"
+					title: "查看一个完整的&6闪电棒[--Look at a complete &6Lightning Rod--]"
+					icon: "immersiveengineering:lightning_rod"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:lightning_rod"
+				}
+			]
+			rewards: [
+				{
+					id: "0EB0763BFA828889"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8
+				}
+				{
+					id: "5190FE4F0610EF3A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6金属冲压机[--Build a &6Metal Press--]"
+			x: 9.0d
+			y: 10.0d
+			description: [
+				"金属冲压机可以让你合成板子、齿轮、棒等等.[--The metal press allows you to make plates, gears, rods and more.--]"
+				""
+				"1x 活塞[--1x Piston--]"
+				"2x 钢质脚手架[--2x Steel Scaffolding--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+				"1x 重型工程块[--1x Heavy Engineering Block--]"
+				"2x 传送带[--2x Conveyor Belt--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"341411D6BC7E2F0C"
+			]
+			id: "5D4D5257E78D1C9F"
+			tasks: [
+				{
+					id: "36EC98D27B00C7F3"
+					type: "observation"
+					title: "查看完整的&6金属冲压机[--Look at a complete &6Metal Press--]"
+					icon: "immersiveengineering:metal_press"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:metal_press"
+				}
+			]
+			rewards: [
+				{
+					id: "7954222F76A3F2D4"
+					type: "item"
+					item: "immersiveengineering:plate_steel"
+					count: 4
+				}
+				{
+					id: "39C343E312A41810"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6混合器[--Build a &6Mixer--]"
+			x: 13.0d
+			y: 14.0d
+			description: [
+				"混合器接收物品、液体和能量,并用结果产生新的液体.[--The Mixer accepts items, liquid, and energy, and produces new liquids from the result.--]"
+				""
+				"3x 流体管道[--3x Fluid Pipe--]"
+				"4x 铁板金属[--4x Iron Sheetmetal--]"
+				"4x 轻型工程块[--4x Light Engineering Block--]"
+				"1x 钢栅栏[--1x Steel Fence--]"
+				"5x 钢质脚手架[--5x Steel Scaffolding--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "0E596D8FDEBEB7E5"
+			tasks: [
+				{
+					id: "127BA9105EAC191F"
+					type: "observation"
+					title: "查看整合包&6混合器[--Look at a complet &6Mixer--]"
+					icon: "immersiveengineering:mixer"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:mixer"
+				}
+			]
+			rewards: [
+				{
+					id: "270B16FCAF5E0707"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:leaping"
+						}
+					}
+				}
+				{
+					id: "24656C022917750A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6采油机[--Build a &6Pumpjack--]"
+			x: 11.0d
+			y: 14.0d
+			description: [
+				"采油机从储层中提取类似于原油的流体.[--The Pumpjack extracts fluid like Crude Oil from reservoirs.--]"
+				"这些储层由岩芯钻井检测.[--A Core Sample Drill tests for these reservoirs.--]"
+				""
+				"充电后,采油泵的速率为 15mB/tick[--Once it's powered, the pumpjack pumps at a rate of 15 mB/tick--]"
+				""
+				"04x 钢板金属[--04x Steel Sheetmetal--]"
+				"11x 钢质脚手架[--11x Steel Scaffolding--]"
+				"06x 防腐木栅栏[--06x Treated Wood Fence--]"
+				"04x 流体管道[--04x Fluid Pipe--]"
+				"02x 钢块[--02x Steel Block--]"
+				"02x 轻型工程块[--02x Light Engineering Block--]"
+				"02x 重型工程块[--02x Heavy Engineering Block--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "36558CF342BE6935"
+			tasks: [
+				{
+					id: "7976F0B95F3E4E37"
+					type: "observation"
+					title: "查看一个完整的&6采油机[--Look at a complete &6Pumpjack--]"
+					icon: "immersivepetroleum:pumpjack"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersivepetroleum:pumpjack"
+				}
+			]
+			rewards: [
+				{
+					id: "5A20F3A215F9CFFB"
+					type: "item"
+					item: "immersivepetroleum:oil_bucket"
+				}
+				{
+					id: "2E50CFAF7BD679F8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6精炼炉[--Build a &6Refinery--]"
+			x: 13.0d
+			y: 12.0d
+			description: [
+				"精炼炉用来制造生物柴油.[--The Refinery is used to make Biodiesel.--]"
+				""
+				"16x 铁板金属[--16x Iron Sheetmetal--]"
+				"08x 钢脚手架[--08x Steel Scaffolding--]"
+				"05x 流体管道[--05x Fluid Pipe--]"
+				"02x 轻型工程块[--02x Light Engineering Block--]"
+				"02x 重型工程块[--02x Heavy Engineering Block--]"
+				"01x 红石工程块[--01x Redstone Engineering Block--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "7C637C870F1BD689"
+			tasks: [
+				{
+					id: "763E7DD21348B646"
+					type: "observation"
+					title: "查看一个完整的&6精炼炉[--Look at a complete &6Refinery--]"
+					icon: "immersiveengineering:refinery"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:refinery"
+				}
+			]
+			rewards: [
+				{
+					id: "39BE4F73428EF758"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "20D2253995998848"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6挤压机[--Build a &6Squeezer--]"
+			x: 11.0d
+			y: 12.0d
+			description: [
+				"工业挤压机用于制造植物油或高密度石墨粉.[--The Industrial Squeezer is to make Plant Oil or HOP Graphite Dust.--]"
+				""
+				"6x 钢质脚手架[--6x Steel Scaffolding--]"
+				"4x 木桶[--4x Wooden Barrel--]"
+				"3x 钢栅栏[--3x Steel Fence--]"
+				"2x 流体管道[--2x Fluid Pipe--]"
+				"2x 轻型工程块[--2x Light Engineering Block--]"
+				"1x 红石工程块[--1x Redstone Engineering Block--]"
+				"1x活塞[--1x Piston--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5E1F9A6B1FEB5289"
+				"47A4D81697C274A3"
+			]
+			id: "2BD179A1C0E56FC8"
+			tasks: [
+				{
+					id: "233272E6E9F74BA4"
+					type: "observation"
+					title: "查看一个完整的&6挤压机[--Look at a complete &6Squeezer--]"
+					icon: "immersiveengineering:squeezer"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:squeezer"
+				}
+			]
+			rewards: [
+				{
+					id: "05A9B41DADFBE843"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+				}
+				{
+					id: "406326DAF414F992"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6储罐[--Build a &6Tank--]"
+			x: 13.0d
+			y: 10.0d
+			description: [
+				"用来存储流体.[--Used to store fluids.--]"
+				"可以存储 512 桶.[--Can store 512 buckets.--]"
+				""
+				"04x 防腐木栅栏[--04x Treated Wood Fence--]"
+				"34x 铁板金属[--34x Iron Sheetmetal--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "58538AA2E06E572F"
+			tasks: [
+				{
+					id: "44577CAEDC225871"
+					type: "observation"
+					title: "查看一个完整的&6箱子[--Look at a complete &6Tank--]"
+					icon: "immersiveengineering:tank"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:tank"
+				}
+			]
+			rewards: [
+				{
+					id: "61A3F9C28DB4C508"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+				{
+					id: "6AFA5CFFF6A9C163"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "建造一个&6焦化器[--Build a &6Coker--]"
+			x: 9.0d
+			y: 14.0d
+			description: [
+				"焦化器用于将粘土处理成石油焦和柴油作为副产物.[--The Coker is used to process Bitumen into Petroleum Coke and Diesel as a byproduct.--]"
+				""
+				"012x 混凝土[--012x Concrete--]"
+				"098x 钢脚手架[--098x Steel Scaffolding--]"
+				"001x 钢板金属[--001x Steel Sheetmetal--]"
+				"005x 轻型工程块[--005x Light Engineering Block--]"
+				"001x 红石工程块[--001x Redstone Engineering Block--]"
+				"045x 混凝土瓦[--045x Concrete Tile--]"
+				"088x 钢栅栏[--088x Steel Fence--]"
+				"162x 铁板金属[--162x Iron Sheetmetal--]"
+				"045x 钢质脚手架台阶[--045x Steel Scaffolding Slab--]"
+				"047x 流体管道[--047x Fluid Pipe--]"
+				"003x 钢结构臂[--003x Steel Structural Arm--]"
+				"005x 重型工程块[--005x Heavy Engineering Blocks--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"0507BB01DF49C38B"
+			]
+			id: "7E5CB4CB89170134"
+			tasks: [
+				{
+					id: "16EC84FB73913E64"
+					type: "observation"
+					title: "查看一个完整的&6焦化器[--Look at a complete &6Coker--]"
+					icon: "immersivepetroleum:cokerunit"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersivepetroleum:cokerunit"
+				}
+			]
+			rewards: [
+				{
+					id: "39FDCD98F3F78727"
+					type: "item"
+					item: "immersivepetroleum:bitumen"
+					count: 8
+				}
+				{
+					id: "61F17B118C5FB17A"
+					type: "item"
+					item: "immersivepetroleum:petcoke"
+				}
+				{
+					id: "35D21675E2A732B0"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 16.0d
+			description: ["岩芯钻井用于检测并分析矿物矿床,这些矿床可以由斗轮式挖掘机或采油机以提取流体[--The Core Sample Drill is used to detect and analyze Mineral Deposits that can be extracted by an Excavator or a PumpJack for fluids.--]"]
+			hide_dependency_lines: true
+			dependencies: ["47A4D81697C274A3"]
+			id: "2CD281A8E3DF7252"
+			tasks: [
+				{
+					id: "232EDDDA801CDC39"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+			]
+			rewards: [
+				{
+					id: "10A1E3DB2A560AD6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+				{
+					id: "696010FB5152948F"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			description: ["工程师装配台既用于制作特殊物品,也用于更改IE的独特工具.[--The Engineer's Workbench used both for crafting special items and for modifying IE's unique tools.--]"]
+			hide_dependency_lines: true
+			dependencies: ["20C7BB0FB260AC6A"]
+			id: "0DBCCDC1A9287229"
+			tasks: [
+				{
+					id: "16A5C6385D120B50"
+					type: "item"
+					item: "immersiveengineering:workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "21B1732B5DDC44EE"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -1.5d
+			description: ["低压电容是储能方块.[--The LV Capacitors are energy storage blocks.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+				"5D4D5257E78D1C9F"
+			]
+			id: "0C62C613B2CC0973"
+			tasks: [
+				{
+					id: "5045E0F2A9C11E48"
+					type: "item"
+					item: "immersiveengineering:capacitor_lv"
+				}
+			]
+			rewards: [
+				{
+					id: "528F4676756201B7"
+					type: "item"
+					item: "minecraft:redstone_block"
+				}
+				{
+					id: "2348B678FF51100F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: -1.5d
+			description: ["中压电容是储能方块.[--The MV Capacitors are energy storage blocks.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"0C62C613B2CC0973"
+				"2665C893012A391D"
+				"106B89A7A018AD2D"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "7D249B3741F5A983"
+			tasks: [
+				{
+					id: "29E720F29A147897"
+					type: "item"
+					item: "immersiveengineering:capacitor_mv"
+				}
+			]
+			rewards: [
+				{
+					id: "407405C837535C84"
+					type: "item"
+					item: "thermal:electrum_block"
+				}
+				{
+					id: "21ADAEB6C1BD5F5B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -1.5d
+			description: ["高压电容是储能方块.[--The HV Capacitors are energy storage blocks.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"7D249B3741F5A983"
+				"505915AA1C542C01"
+				"22B0E29207751423"
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+				"5D4D5257E78D1C9F"
+			]
+			id: "3ABC5EB20529B64A"
+			tasks: [
+				{
+					id: "0635AA35CB049B7A"
+					type: "item"
+					item: "immersiveengineering:capacitor_hv"
+				}
+			]
+			rewards: [
+				{
+					id: "7437C06CA764271C"
+					type: "item"
+					item: "thermal:invar_block"
+				}
+				{
+					id: "445E5965FFE79895"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			dependencies: ["0879ADA84875B0B0"]
+			id: "7AFAAAC28B565A1A"
+			tasks: [
+				{
+					id: "0AF6BFB7FBE78168"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7FBFC2F4A3407DC3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["5A37D5B4FFEA6E6D"]
+			id: "0C279BF8A1B67396"
+			tasks: [
+				{
+					id: "67D547EBB2247CCD"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3864A6A20259F321"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			description: ["当连接到动能发电机的前面时,水车会用流水产生能量.[--The Water Wheel is used to generate energy with flowing water when connected to the front of a Kinetic Dynamo.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"44885326BA2DCB65"
+				"5D4D5257E78D1C9F"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "34223067CD59C964"
+			tasks: [
+				{
+					id: "285F68BF2ED4A50D"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+			]
+			rewards: [
+				{
+					id: "2A4F84569541032D"
+					type: "item"
+					item: "immersiveengineering:watermill"
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 0.5d
+			description: ["当连接到动能发电机时,风车会用风产生能量.[--The Windmill is used to generate energy with wind when connected to a Kinetic Dynamo.--]"]
+			hide_dependency_lines: true
+			dependencies: ["44885326BA2DCB65"]
+			id: "34069BC744165BE6"
+			tasks: [
+				{
+					id: "09CBD39AEDFCCBFA"
+					type: "item"
+					item: "immersiveengineering:windmill"
+				}
+			]
+			rewards: [
+				{
+					id: "24C44E04AA2B3B24"
+					type: "item"
+					item: "thermal:invar_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: 0.5d
+			description: [
+				"风车风帆一次可以提升风车叶片,可以通过在基地使用风车叶片连接.[--The Windmill Sail improves Windmill blades one at a time, attachable by using a Windmill Sail on the hub.--]"
+				"风车最多可容纳 8 个风车风帆.[--Windmills accept up to 8 Windmill Sails.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["34069BC744165BE6"]
+			id: "0D8ABABE476CA0E1"
+			tasks: [
+				{
+					id: "7D2EE6CE0E5DEAFD"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+				}
+			]
+			rewards: [
+				{
+					id: "470012B829B84A80"
+					type: "item"
+					item: "immersiveengineering:windmill_sail"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
+			id: "44885326BA2DCB65"
+			tasks: [
+				{
+					id: "4CF528F424020C94"
+					type: "item"
+					item: "immersiveengineering:dynamo"
+				}
+			]
+			rewards: [
+				{
+					id: "258512ACA3AE9278"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: 4.5d
+			dependencies: ["088D692E25F62BFD"]
+			id: "02D57B235AAB19DF"
+			tasks: [
+				{
+					id: "398ACD7BE33A95B3"
+					type: "item"
+					title: "线缆连接器[--Wire Connector--]"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "immersiveengineering:connector_lv"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:connector_mv"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:connector_hv"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "17FAA0BAE8E6C5A3"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 4.5d
+			dependencies: ["088D692E25F62BFD"]
+			id: "5C483E6D8C928523"
+			tasks: [
+				{
+					id: "6EC99E9E20EBC8C5"
+					type: "item"
+					title: "线缆中继器[--Wire Relay--]"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "immersiveengineering:connector_lv_relay"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:connector_mv_relay"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:connector_hv_relay"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1FF56F051A19F090"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "强化高炉需求[--Improved Blast Furnace requirement--]"
+			x: 10.0d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"64F1156BDE5B5686"
+				"47A4D81697C274A3"
+			]
+			id: "4BDFE24CE49F32A0"
+			tasks: [
+				{
+					id: "5F0167B6A7B69094"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "5AA62207F9E313E5"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [
+				{
+					id: "5BA122F4C7F91992"
+					type: "item"
+					item: "immersiveengineering:coal_coke"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 4.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"7AFAAAC28B565A1A"
+				"0C279BF8A1B67396"
+			]
+			id: "47530229808ECD67"
+			tasks: [
+				{
+					id: "140D0127FBB9573A"
+					type: "item"
+					title: "线缆[--Wire--]"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "immersiveengineering:wirecoil_copper"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:wirecoil_electrum"
+									Count: 1b
+								}
+								{
+									id: "immersiveengineering:wirecoil_steel"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "7CFD4B4A56F78672"
+					type: "item"
+					item: "immersiveengineering:hemp_fabric"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 18.5d
+			y: 2.5d
+			description: ["热力发电机可以根据周围方块的温度变化产生能量.[--The Thermoelectric Generator  can generate energy based on the temperature difference of the blocks surrounding it.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"2DEB807CF1367A24"
+				"47A4D81697C274A3"
+				"47530229808ECD67"
+			]
+			id: "5240BA8BE5A52CEC"
+			tasks: [
+				{
+					id: "7B1F6271BCB0D418"
+					type: "item"
+					item: "immersiveengineering:thermoelectric_generator"
+				}
+			]
+			rewards: [
+				{
+					id: "5170EECC12DC3057"
+					type: "item"
+					item: "immersiveengineering:wire_copper"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			description: ["工程师手册是模组及其机械的游戏指南.[--The Engineer's Manual is an in-game guide to the mod and it's mechanics.--]"]
+			id: "1692C36C794C6561"
+			tasks: [
+				{
+					id: "7D4B18108092A8C6"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+			]
+			rewards: [
+				{
+					id: "60B5B4B3B722C359"
+					type: "item"
+					item: {
+						id: "immersiveengineering:toolbox"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 23
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "建造一个&6筒仓[--Build a &6Silo--]"
+			x: 15.0d
+			y: 10.0d
+			description: [
+				"用来存储物品.[--Used to store items.--]"
+				"可以存储一种类型的41,472个物品.[--Can store 41,472 items of one type.--]"
+				""
+				"04x 防腐木栅栏[--04x Treated Wood Fence--]"
+				"50x 铁板金属[--50x Iron Shettmetal--]"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "3DB12CA30EB77377"
+			tasks: [
+				{
+					id: "5DA93D5899067293"
+					type: "observation"
+					title: "查看一个完整的&6储罐[--Look at a complete &6Silo--]"
+					icon: "immersiveengineering:silo"
+					timer: 15L
+					observe_type: 0
+					to_observe: "immersiveengineering:silo"
+				}
+			]
+			rewards: [
+				{
+					id: "2814D8A07D896DCE"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 16
+				}
+				{
+					id: "1449761EBF95EA3E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["传送带用于移动物品和实体.[--The Conveyor Belt is used to move items and entities.--]"]
+			dependencies: [
+				"3F05D033EBD0710D"
+				"088D692E25F62BFD"
+			]
+			id: "341411D6BC7E2F0C"
+			tasks: [
+				{
+					id: "2DEDB584A782952C"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+				}
+			]
+			rewards: [
+				{
+					id: "5B7275EB373EFB96"
+					type: "item"
+					item: "minecraft:leather"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 19.5d
+			y: 4.5d
+			description: ["充电站用于为能量容器和工具充电.[--The Charging Station is used to charge energy containers and tools.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"47530229808ECD67"
+				"5C483E6D8C928523"
+				"20C7BB0FB260AC6A"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "751262403C44DA25"
+			tasks: [
+				{
+					id: "2E1BB05CE672719C"
+					type: "item"
+					item: "immersiveengineering:charging_station"
+				}
+			]
+			rewards: [
+				{
+					id: "26658D385ED2474C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 1.5d
+			description: ["高炉预热器用于使用能量加速强化高炉.[--The Blast Furnace Preheater is used to speed up the Improved Blast Furnace using Energy.--]"]
+			dependencies: ["4BDFE24CE49F32A0"]
+			id: "07D65D087AEE1748"
+			tasks: [
+				{
+					id: "0756EE42DD28702A"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+				}
+			]
+			rewards: [
+				{
+					id: "7F03C1DDF4FD7248"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 5.5d
+			dependencies: ["76F3D860B8C7FA5E"]
+			id: "2DEB807CF1367A24"
+			tasks: [
+				{
+					id: "0372418561E1A064"
+					type: "item"
+					item: "thermal:constantan_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "545E13AB65AD1EE4"
+					type: "item"
+					item: "thermal:copper_ingot"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["20C7BB0FB260AC6A"]
+			id: "5E1F9A6B1FEB5289"
+			tasks: [
+				{
+					id: "04B400861C87A78B"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+			]
+			rewards: [
+				{
+					id: "05999175874BF0AF"
+					type: "item"
+					item: "immersiveengineering:treated_wood_horizontal"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "&c 机械核心第1级[--&cMechanic Core Tier 1--]"
+			x: 8.94047619047619d
+			y: 4.488095238095255d
+			shape: "gear"
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5D4D5257E78D1C9F"
+			]
+			size: 2.0d
+			id: "07922BF1DC0DB8FE"
+			tasks: [
+				{
+					id: "3E66B8310B5FB54F"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_1"
+				}
+			]
+			rewards: [
+				{
+					id: "67557A11B9AC57DA"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_1"
+				}
+			]
+		}
+		{
+			title: "&c装配工厂[--&cAssembling Factory--]"
+			icon: "masterfulmachinery:assemblingfactory_controller"
+			x: 16.0d
+			y: 16.0d
+			shape: "octagon"
+			subtitle: "有用的东西都行[--Useful to do everything--]"
+			description: [
+				"组装工厂将允许你组装组件和核心来制造不同的机器组件和其他东西.[--The Assembling Factory will allow you to assemble components and cores to create different machine components and other things.--]"
+				""
+				"按下装配工厂控制器的按键来查看结构长什么样.[--Press the use key on the assembling factory controller to see what the structure looks like.--]"
+				""
+				"这台机器需要能量才能运行.[--This machine require Energy to operate.--]"
+				""
+				"你可以使用机械手册帮助你建造Chroma Sky 2 的多方块结构.[--You can use the Machinery Manual to help you to build the various multiblocks of Chroma Sky 2.--]"
+				""
+				"{image:chromasky2:textures/quest/assembling_factory.png width:200 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"0DBCCDC1A9287229"
+				"47A4D81697C274A3"
+				"3ABC5EB20529B64A"
+				"5D4D5257E78D1C9F"
+			]
+			size: 2.0d
+			min_width: 250
+			id: "39DB67EE674F41A4"
+			tasks: [
+				{
+					id: "16A4EB2D8D6E9B21"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_controller"
+				}
+				{
+					id: "36768A605AA086F2"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assembing_item_port_items_input"
+				}
+				{
+					id: "76EA2B2ACF4CD19F"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assembing_item_port_items_output"
+				}
+				{
+					id: "66A6626A99964C48"
+					type: "item"
+					item: "masterfulmachinery:assemblingfactory_assemblingenergy_port_energy_input"
+				}
+				{
+					id: "621C3B4DFA069B48"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 38L
+				}
+				{
+					id: "3F0D0BC7F2285C73"
+					type: "item"
+					item: "mekanism:block_steel"
+					count: 10L
+				}
+				{
+					id: "1C23D2E68C71A7B8"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 5L
+				}
+				{
+					id: "55DD152C6E401FFD"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 2L
+				}
+				{
+					id: "22BA882B6FA30861"
+					type: "item"
+					item: "thermal:obsidian_glass"
+					count: 20L
+				}
+				{
+					id: "26AE42692A5542E4"
+					type: "item"
+					item: "miniutilities:laser_port"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "58C805FF051FE043"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "patchouli:cs2-machine-manual"
+						}
+					}
+				}
+				{
+					id: "4C70D9072D265B5B"
+					type: "item"
+					item: "chromasky:mechanic_core_tier_1"
+				}
+				{
+					id: "42D1334D0D4D04F2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 16.0d
+			description: ["&a园艺玻璃罩&r用来种植放置在其中的作物.[--The &aGarden Cloche&r is used to grow crops placed in it.--]"]
+			hide_dependency_lines: true
+			dependencies: [
+				"47A4D81697C274A3"
+				"5E1F9A6B1FEB5289"
+			]
+			id: "1910744EF32C3709"
+			tasks: [
+				{
+					id: "466E0DF92D638E5F"
+					type: "item"
+					item: "immersiveengineering:cloche"
+				}
+			]
+			rewards: [
+				{
+					id: "29A08673B057E0F1"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 16.0d
+			description: [
+				"&a投影仪&r可以帮助你建造多方块结构.[--The &aProjector&r can help you in the construction of multiblocks.--]"
+				""
+				"用投影仪用手中的&6右键单击&r打开菜单并选择你的结构.[--&6Right Click&r with the projector in your hand to open the menu and select your structure.--]"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5E1F9A6B1FEB5289"]
+			id: "3ABCA2A818B8B370"
+			tasks: [
+				{
+					id: "717AF6BC55FD16A7"
+					type: "item"
+					item: "immersivepetroleum:projector"
+				}
+			]
+			rewards: [
+				{
+					id: "6E1A7F7D0868FB48"
+					type: "item"
+					item: "immersiveengineering:lantern"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	id: "2D24EE6E87E5D008"
+	order_index: 9
+	title: "&4神秘精华等级 5[--&4Mystical Essence Tier 5--]"
+	icon: "mysticalagriculture:supremium_essence"
+	loot_size: 1
+	use_title: true
+	rewards: [
+		{
+			item: "mysticalagriculture:spirited_crystal_essence"
+			count: 16
+			random_bonus: 4}
+		}
+	]
+}

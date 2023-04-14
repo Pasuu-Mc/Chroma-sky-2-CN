@@ -1,0 +1,1040 @@
+{
+	id: "72F078F5316A8FA3"
+	group: "638FC427456F902B"
+	order_index: 0
+	filename: "getting_started"
+	title: "开始[--Getting Started--]"
+	icon: "astralsorcery:tree_beacon"
+	default_quest_shape: "hexagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "获取木材[--Getting wood--]"
+			x: 0.5d
+			y: -5.5d
+			shape: "octagon"
+			subtitle: "木材![--Timber !--]"
+			description: ["就像任何好Minecraft冒险你需要砍树![--Like any good Minecraft adventure you have to cut wood !--]"]
+			dependencies: [
+				"769D409BA5258BBD"
+				"738A41EE59B4EDC5"
+				"243F4EFC9D26092C"
+				"024C04C97172D08D"
+				"5AA98A6A5E15905F"
+			]
+			size: 2.0d
+			id: "3F97D03C2402B70D"
+			tasks: [
+				{
+					id: "2ED4F1E5BF11E6D6"
+					type: "item"
+					title: "原木[--Logs--]"
+					icon: "minecraft:oak_log"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:logs"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "57F119F0A65D5E86"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 8
+				}
+				{
+					id: "01509762BCB759E4"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 2
+				}
+				{
+					id: "30A058D907D9C46C"
+					type: "item"
+					item: "farmersdelight:apple_pie_slice"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -6.5d
+			dependencies: ["3F97D03C2402B70D"]
+			id: "025F7C8551FE98EB"
+			tasks: [
+				{
+					id: "174EAA5F5A64AF05"
+					type: "item"
+					title: "木剪[--Wooden Shears--]"
+					icon: {
+						id: "woodenshears:wshears_oak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "woodenshears:wshears"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0536720FD039281B"
+					type: "item"
+					item: {
+						id: "woodenshears:wshears_oak"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			description: ["&3滴水器&r将流体滴到下方方块中以将其转至其他方块.[--&3The Dripper&r drips fluid on to the block below in order to turn in it to other blocks.--]"]
+			hide_dependency_lines: true
+			dependencies: ["3F97D03C2402B70D"]
+			id: "1364BC9D46E89B79"
+			tasks: [
+				{
+					id: "147750697E200D88"
+					type: "item"
+					item: "ftbdripper:dripper"
+				}
+			]
+			rewards: [
+				{
+					id: "34FEBA5B2E9FB068"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -5.5d
+			description: [
+				"&3洗矿槽&r使用网和流体将沙砾等方块处理成更高级的资源.[--&3Sluices&r use a Mesh and fluid to process blocks like Gravel, Sand and more into more advanced resources.--]"
+				""
+				"握住手中的网,然后右键单击它来放入洗矿槽.[--Hold the mesh in your hand and right click it on the sluice to insert it.--]"
+				"洗矿槽有一个内部储罐,每次操作后它会消耗水.[--The sluice has an internal tank which it consumes water from after every operation. --]"
+				"用水桶右键单击以填满储液罐.[--Right-click with a water bucket to fill the tank.--]"
+				""
+				"请注意,这个洗矿槽不接收漏斗或用电缆直接输入.[--Be careful this sluice doesn't accept hoppers or direct inputs with cables.--]"
+			]
+			dependencies: ["3F97D03C2402B70D"]
+			id: "3A520D98DB566C24"
+			tasks: [
+				{
+					id: "10163FBCBB7949F5"
+					type: "item"
+					item: "ftbsluice:oak_sluice"
+				}
+			]
+			rewards: [
+				{
+					id: "103B1ED937EE786E"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "锤子[--Hammers--]"
+			x: -2.0d
+			y: -5.5d
+			description: [
+				"锤子可用来将方块粉碎成越来越精细的变体."
+				""
+				"&7圆石→沙砾→泥土→沙子→尘土"
+			]
+			dependencies: ["3F97D03C2402B70D"]
+			id: "6A3F0F7ABEFAE183"
+			tasks: [
+				{
+					id: "5DFDBB619EC0497D"
+					type: "item"
+					title: "任何锤子[--Any Hammer--]"
+					icon: {
+						id: "ftbsluice:stone_hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "ftbsluice:wooden_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ftbsluice:stone_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ftbsluice:iron_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ftbsluice:gold_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ftbsluice:diamond_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									id: "ftbsluice:netherite_hammer"
+									Count: 1b
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "02D463E0FC54FD50"
+					type: "item"
+					item: "chromasky:1x_compressed_cobblestone"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -6.5d
+			dependencies: ["3F97D03C2402B70D"]
+			id: "5B805560F6C55879"
+			tasks: [
+				{
+					id: "791F1818CC926A65"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+			]
+			rewards: [
+				{
+					id: "31A9197100E12C3F"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			dependencies: ["025F7C8551FE98EB"]
+			id: "762EC92C68F3E5E9"
+			tasks: [
+				{
+					id: "36C6581B58840FF6"
+					type: "item"
+					title: "树叶[--Leaves--]"
+					icon: "minecraft:oak_leaves"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:leaves"
+						}
+					}
+					count: 32L
+				}
+			]
+			rewards: [
+				{
+					id: "594F2DA56A06AD97"
+					type: "item"
+					item: "minecraft:oak_leaves"
+					count: 64
+				}
+			]
+		}
+		{
+			title: "叶子[--Leaf--]"
+			x: 2.5d
+			y: -7.5d
+			dependencies: [
+				"5B805560F6C55879"
+				"762EC92C68F3E5E9"
+			]
+			id: "25D219AD25160FB9"
+			tasks: [
+				{
+					id: "7950D553E786537A"
+					type: "item"
+					title: "叶子[--Leaf--]"
+					item: "chromasky:leaf"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "335A4749186A535E"
+					type: "item"
+					item: "chromasky:leaf"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -9.0d
+			dependencies: [
+				"7EACCE535BB902C7"
+				"25D219AD25160FB9"
+				"762EC92C68F3E5E9"
+			]
+			id: "22D7393461F09CB9"
+			tasks: [
+				{
+					id: "5D8C71A5FF91EDD2"
+					type: "item"
+					title: "混合物[--Compost--]"
+					item: "chromasky:compost"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2DF8072C7A74B547"
+					type: "item"
+					item: "chromasky:compost"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			description: ["&3堆肥桶&r可以把树叶放入来获得骨粉.[--&3The composter &rwill allow you to obtain bone meal by putting in leaves.--]"]
+			dependencies: ["3F97D03C2402B70D"]
+			id: "0E304BDD61392FBF"
+			tasks: [
+				{
+					id: "22C1DD63C7AA73DB"
+					type: "item"
+					item: "minecraft:composter"
+				}
+			]
+			rewards: [
+				{
+					id: "648DD66635802F13"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			dependencies: ["0E304BDD61392FBF"]
+			id: "7EACCE535BB902C7"
+			tasks: [
+				{
+					id: "1F4FB7225DBE13BF"
+					type: "item"
+					item: "minecraft:bone_meal"
+				}
+			]
+			rewards: [
+				{
+					id: "12A15161B445EB03"
+					type: "item"
+					item: "minecraft:bone_block"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -8.5d
+			dependencies: ["25D219AD25160FB9"]
+			id: "19C54AB2098A2671"
+			tasks: [
+				{
+					id: "19E0C2DBD27B6CBC"
+					type: "item"
+					item: "chromasky:plant_string"
+				}
+			]
+			rewards: [
+				{
+					id: "293CE1F585E37541"
+					type: "item"
+					item: "chromasky:plant_string"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -8.5d
+			dependencies: ["19C54AB2098A2671"]
+			id: "424F705CF3F9E901"
+			tasks: [
+				{
+					id: "4A8A9DCD516095C5"
+					type: "item"
+					item: "minecraft:string"
+				}
+			]
+			rewards: [
+				{
+					id: "189F1459E07C5378"
+					type: "item"
+					item: "minecraft:string"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -7.5d
+			dependencies: ["424F705CF3F9E901"]
+			id: "0ABA29AAB5DCD885"
+			tasks: [
+				{
+					id: "211062CBC59DC5F4"
+					type: "item"
+					item: "ftbsluice:cloth_mesh"
+				}
+			]
+			rewards: [
+				{
+					id: "3CD0692AE54C2024"
+					type: "item"
+					item: "minecraft:string"
+					count: 2
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			dependencies: ["1364BC9D46E89B79"]
+			id: "7EDF498D2A2487F6"
+			tasks: [
+				{
+					id: "7F92E305715E5F51"
+					type: "item"
+					item: "minecraft:clay"
+				}
+			]
+			rewards: [
+				{
+					id: "2EBE4E076F854F63"
+					type: "item"
+					item: "minecraft:clay"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "基础资源[--Primary Resources--]"
+			x: -3.0d
+			y: -5.5d
+			description: [
+				"在洗矿槽中获取第一种资源的主要资源.[--The main resources to get your first resources in the sluices.--]"
+				""
+				"&b你刚刚解锁了 FTB Ultimine,请在信息一章中查看遗失饰物有关如何使用 ultiminer 小饰品的更多信息[--&bYou have just unlocked FTB Ultimine, see Lost Tinkets quest for more information about how to use the ultiminer trinket in the Information chapter --]"
+			]
+			dependencies: [
+				"6A3F0F7ABEFAE183"
+				"793F6D3707268AFB"
+			]
+			id: "08DCFB994C66EE23"
+			tasks: [
+				{
+					id: "2A9A98BFD649AC97"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 16L
+				}
+				{
+					id: "14A682CB908E2950"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 16L
+				}
+				{
+					id: "22F5D586E10437E8"
+					type: "item"
+					item: "minecraft:sand"
+					count: 16L
+				}
+				{
+					id: "6A5BD6981EF4B605"
+					type: "item"
+					item: "ftbsluice:dust"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "7849F31DCCABF7C6"
+					type: "item"
+					item: "ftbultimine:ultiminer"
+				}
+				{
+					id: "15D7CF990FED6752"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 32
+				}
+				{
+					id: "1EEDEA3F9335B310"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 32
+				}
+				{
+					id: "5F41067820FB0BE7"
+					type: "item"
+					item: "minecraft:sand"
+					count: 32
+				}
+				{
+					id: "7346EF75103E4047"
+					type: "item"
+					item: "ftbsluice:dust"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -4.5d
+			description: ["用挤压机按下仙人掌以获得水.[--Press cactus with the Squeezer to get Water.--]"]
+			dependencies: ["3F97D03C2402B70D"]
+			id: "10F6C86E83D59E25"
+			tasks: [
+				{
+					id: "435814F61A91EE71"
+					type: "item"
+					item: "integrateddynamics:squeezer"
+				}
+			]
+			rewards: [
+				{
+					id: "12DB8F2FE447B125"
+					type: "item"
+					item: "minecraft:cactus"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.5d
+			description: ["把方块放在挤压机旁边来收集并存储水.[--Place the Cask next to the squeezer to collect and store water.--]"]
+			dependencies: ["10F6C86E83D59E25"]
+			id: "79AFBD2DDADB091E"
+			tasks: [
+				{
+					id: "2F7F6E7C3FF091C0"
+					type: "item"
+					item: "cyclic:cask"
+				}
+			]
+			rewards: [
+				{
+					id: "342BD1BF2A71407B"
+					type: "item"
+					item: "cyclic:cask"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["7EDF498D2A2487F6"]
+			id: "61F227105C40D547"
+			tasks: [
+				{
+					id: "41B70A03EC761AC9"
+					type: "item"
+					item: "ftbsluice:clay_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "7AE10D5F8B821D30"
+					type: "item"
+					item: "minecraft:sand"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: ["现在,你可以合成一个无限水源.[--Now, you can make an infinite water source.--]"]
+			dependencies: [
+				"61F227105C40D547"
+				"79AFBD2DDADB091E"
+			]
+			id: "152FF2195E210630"
+			tasks: [
+				{
+					id: "5D4C2218B37F76B7"
+					type: "item"
+					item: "ftbsluice:clay_water_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "1CE53BDD1E8D2EEC"
+					type: "item"
+					item: "ftbsluice:clay_water_bucket"
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -5.5d
+			dependencies: [
+				"3A520D98DB566C24"
+				"0ABA29AAB5DCD885"
+			]
+			id: "0375A6D5A3E92B62"
+			tasks: [
+				{
+					id: "0C5E3796E750901F"
+					type: "item"
+					item: "chromasky:pebble"
+					count: 16L
+				}
+			]
+			rewards: [
+				{
+					id: "1C128F3C2741BAD9"
+					type: "item"
+					item: "chromasky:pebble"
+					count: 32
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -5.5d
+			dependencies: ["0375A6D5A3E92B62"]
+			id: "793F6D3707268AFB"
+			tasks: [
+				{
+					id: "6F41118AB803C652"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "103BF300B36FFD51"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["793F6D3707268AFB"]
+			id: "0218CABFAB5059B3"
+			tasks: [
+				{
+					id: "70186AD0E113589C"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+			]
+			rewards: [
+				{
+					id: "594FBBFC998ED248"
+					type: "item"
+					item: "chromasky:1x_compressed_cobblestone"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -5.5d
+			description: [
+				"你可以在地下找到的许多资源,例如铁、黄金、煤等。可以通过在洗矿槽中处理基本材料来作为碎块收集.[--Many resources that you would find underground, such as Iron, Gold, Coal, etc. can be gathered as Chunks by processing basic materials in a sluice.--]"
+				""
+				"然后将这些碎块进一步处理成实际资源,你也可以...[--To then further process those Chunks into the actual resources, you can either...--]"
+				"1.直接将碎块烧成粒.[--1. Smelt the Chunks into Nuggets directly.--]"
+				"2.将碎块合成多组,在冶炼炉中处理它们。(包括矿石加倍!)[--2. Craft the Chunks into Clusters and process them in a Smeltery. (Ore-doubling included!)--]"
+				"3.将碎块合成多组,然后用罐子将它们直接熔化成锭.[--3. Craft the Chunks into Clusters, and melt them directly into Ingots using a Jar.--]"
+			]
+			dependencies: [
+				"08DCFB994C66EE23"
+				"3A520D98DB566C24"
+			]
+			id: "2BF510AA8F2C57F2"
+			tasks: [
+				{
+					id: "0AA08CC8B2E2F4CE"
+					type: "item"
+					title: "收集4个铁碎块[--Gather 4 Iron Chunks--]"
+					item: "chromasky:iron_chunk"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "35BC19749AE9024F"
+					type: "item"
+					item: "chromasky:iron_chunk"
+					count: 20
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -3.5d
+			dependencies: ["0218CABFAB5059B3"]
+			id: "67E0A913501D13AF"
+			tasks: [
+				{
+					id: "7B9C6A306C87C3AF"
+					type: "item"
+					item: "minecraft:charcoal"
+				}
+			]
+			rewards: [
+				{
+					id: "215D1621C20C611E"
+					type: "item"
+					item: "minecraft:torch"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			description: ["&3营火&r允许你用它燃烧铁来获得铸铁锭.[--&3The campfire&r allows you to obtain cast iron by burning iron in it.--]"]
+			dependencies: ["67E0A913501D13AF"]
+			id: "7177A157E31F65A9"
+			tasks: [
+				{
+					id: "697457011B813079"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+			]
+			rewards: [
+				{
+					id: "56125DF6A3233A5A"
+					type: "item"
+					item: "farmersdelight:cooked_mutton_chops"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -5.5d
+			dependencies: ["2BF510AA8F2C57F2"]
+			id: "3F05D033EBD0710D"
+			tasks: [
+				{
+					id: "17403063B24DE49C"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "221F8C131C89C74A"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+				{
+					id: "353DDD3E2D5EE62A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			shape: "gear"
+			dependencies: [
+				"7177A157E31F65A9"
+				"3F05D033EBD0710D"
+			]
+			size: 1.5d
+			id: "1B69AF5509A2B907"
+			tasks: [
+				{
+					id: "4666FA5C80B977AB"
+					type: "item"
+					item: "ftbjarmod:cast_iron_ingot"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "45F14D9AB04DC54E"
+					type: "item"
+					item: "ftbjarmod:cast_iron_ingot"
+					count: 4
+				}
+				{
+					id: "6D75E1D72BF2038B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
+		}
+		{
+			title: "我的第一个镐子[--My first pickaxe--]"
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:attack_speed": 1.2f
+						"tconstruct:mining_speed": 2.0f
+						"tconstruct:attack_damage": 0.0f
+						"tconstruct:harvest_level": 0.0f
+						"tconstruct:durability": 60.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 3s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: 0.5d
+			y: -4.0d
+			dependencies: ["3F97D03C2402B70D"]
+			id: "51A23887EBBC742B"
+			tasks: [
+				{
+					id: "3575BC6B91A0BED0"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 3L
+				}
+				{
+					id: "00D3A055C9A709A2"
+					type: "item"
+					item: "tconstruct:crafting_station"
+				}
+				{
+					id: "6CB3510D262BB84B"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "47A89F588EE96123"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "68472C884F323E4C"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "66C58E69DBFF8153"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 16
+				}
+				{
+					id: "2448A59648EF3C00"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -10.0d
+			dependencies: ["22D7393461F09CB9"]
+			id: "6376580B13B6EEC9"
+			tasks: [
+				{
+					id: "4ABA93D9467DAC2C"
+					type: "item"
+					item: "minecraft:dirt"
+				}
+			]
+			rewards: [
+				{
+					id: "718A3A703CEA4DB1"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["3F97D03C2402B70D"]
+			id: "3CE7D2130059E7AE"
+			tasks: [
+				{
+					id: "40F7ED7D04B9F235"
+					type: "item"
+					item: "minecraft:bowl"
+				}
+			]
+			rewards: [
+				{
+					id: "2647725DA820BBFF"
+					type: "item"
+					item: "minecraft:beetroot_soup"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "豪华水桶[--Luxury bucket--]"
+			description: ["在水源上用空的碗右键单击以获得水碗.[--Right click with an empty bowl on a water source to obtain a water bowl.--]"]
+			dependencies: ["3CE7D2130059E7AE"]
+			id: "5B6ABB98D391C9A5"
+			tasks: [
+				{
+					id: "062D8C45E4A5F6A0"
+					type: "item"
+					item: "ftbdripper:water_bowl"
+				}
+			]
+			rewards: [
+				{
+					id: "3FE5C715E8860024"
+					type: "item"
+					item: {
+						id: "ftbdripper:water_bowl"
+						Count: 1b
+						tag: {
+							Fluid: {
+								FluidName: "minecraft:water"
+								Amount: 250
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}
