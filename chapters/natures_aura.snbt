@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 6
 	filename: "natures_aura"
-	title: "自然灵气[--Nature's aura--]"
+	title: "自然灵气"
 	icon: "naturesaura:eye_improved"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -50,11 +50,11 @@
 			x: -4.5d
 			y: -6.0d
 			description: [
-				"要开始接触该物质的力量,需要有一个来创建一个&d闪耀的树&r,它会在收获时掉落&d黄金叶&r - 一种纤细但强大的材料.[--To get into first contact with the substance's powers, one is required to create a &dBrilliant Tree&r that will, when harvested, shed &dGold Leaf&r - a delicate, yet powerful material.--]"
+				"要开始接触该物质的力量,需要有一个来创建一个&d闪耀的树&r,它会在收获时掉落&d黄金叶&r-一种纤细但强大的材料."
 				""
-				"要制作这种树,只需制作一些&d闪耀纤维&r,然后把它放在树的树冠上.[--To create such a tree, simply craft bit of &dBrilliant Fiber&r and place it into the crown of a tree.--]"
+				"要制作这种树,只需制作一些&d闪耀纤维&r,然后把它放在树的树冠上."
 				""
-				"然后,时间会带来闪耀。[--Time will then bring brilliance.--]"
+				"然后,时间会逐渐带来闪耀。"
 			]
 			dependencies: ["3856D13B148693FD"]
 			id: "2B4192D90D8DB5E6"
@@ -142,11 +142,11 @@
 			]
 		}
 		{
-			title: "森林仪式[--Ritual of The Forest--]"
+			title: "森林仪式"
 			icon: "naturesaura:ancient_sapling"
 			x: -2.0d
 			y: -8.0d
-			description: ["森林仪式是使用自然力制作神奇物品的一种方式.[--The Ritual of the Forest is a way of creating magical items using the power of nature.--]"]
+			description: ["森林仪式是使用自然力量制作神奇物品的一种方式."]
 			dependencies: ["59CBA1EEB96626D5"]
 			id: "67BC8A5CBAF363F8"
 			tasks: [
@@ -177,11 +177,11 @@
 			]
 		}
 		{
-			title: "自然祭坛[--The Natural Altar--]"
+			title: "自然祭坛"
 			icon: "naturesaura:nature_altar"
 			x: -1.0d
 			y: -15.5d
-			description: ["自然祭坛从环境中收集灵气,用于制作新的材料.[--The Natural Altar collects Aura from the environment to use for the creation of new materials.--]"]
+			description: ["自然祭坛从环境中收集灵气,用于制作新的材料."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "7591DDDBE81D6790"
 			tasks: [
@@ -229,7 +229,7 @@
 			]
 		}
 		{
-			title: "红红祭坛[--The Crimson Altar--]"
+			title: "红红祭坛"
 			icon: "naturesaura:gold_nether_brick"
 			x: -4.0d
 			y: -17.0d
@@ -558,7 +558,7 @@
 		{
 			x: -6.5d
 			y: -11.5d
-			description: ["探索和美.[--Exploration and beauty.--]"]
+			description: ["探索和美好."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "606BD6F121A796AF"
 			tasks: [
@@ -579,7 +579,7 @@
 		{
 			x: 1.5d
 			y: -12.5d
-			description: ["此物品代表反转和坠落.[--This item represent the transience and falling.--]"]
+			description: ["此物品代表反转和坠落."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "13D134D9CECC9EFA"
 			tasks: [
@@ -600,7 +600,7 @@
 		{
 			x: -4.5d
 			y: -13.0d
-			description: ["爆炸性、火和黑暗.[--Explosiveness, Fire and Dark.--]"]
+			description: ["爆炸性、火和黑暗."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "30905843166E7619"
 			tasks: [
@@ -632,7 +632,7 @@
 		{
 			x: -1.0d
 			y: -11.5d
-			description: ["虚弱与死亡.[--Fragility and Death.--]"]
+			description: ["虚弱与死亡."]
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "1074EAA509CF1984"
 			tasks: [
@@ -1039,7 +1039,7 @@
 		{
 			x: -11.5d
 			y: -10.5d
-			description: ["末地右键单击[--Right click in the end--]"]
+			description: ["末地右键单击"]
 			dependencies: ["7786E772571081E4"]
 			id: "6FA1B1D053C2C065"
 			tasks: [
@@ -1073,7 +1073,7 @@
 		{
 			x: -10.5d
 			y: -10.5d
-			description: ["在下界右键单击[--Right click in the nether--]"]
+			description: ["在下界右键单击"]
 			dependencies: ["7786E772571081E4"]
 			id: "47A262541C6569CA"
 			tasks: [
@@ -1107,7 +1107,7 @@
 		{
 			x: -9.5d
 			y: -10.5d
-			description: ["在主世界右键单击[--Right click in the overworld--]"]
+			description: ["在主世界右键单击"]
 			dependencies: ["7786E772571081E4"]
 			id: "1C8E72FDD4811D75"
 			tasks: [
@@ -1213,7 +1213,7 @@
 			x: 13.0d
 			y: -17.5d
 			shape: "circle"
-			description: ["&5能量灵气锻造炉&r直接将&2灵气&r转化为大多数人所了解的&6红石通量&r.[--The &5Energetic Aura Forge&r directly converts &2Aura&r into what is known to most people as &6Redstone Flux&r.--]"]
+			description: ["&5充能灵气锻造&r直接将&2灵气&r转化为大多数人所了解的&6红石通量&r."]
 			hide_dependency_lines: true
 			dependencies: ["6CD23AE0395296EC"]
 			id: "1AC29AFD6A527BFC"
@@ -1244,9 +1244,9 @@
 			y: -14.5d
 			shape: "circle"
 			description: [
-				"正如&9一个创造灵气&r章节所述,大多数&6机械动力&r都无法在一定范围内制作&2灵气&r.[--As described in the &9One Creating Aura&r section, most &6creational devices&r lack the ability to create &2Aura&r beyond a certain point.--]"
+				"正如&灵气场生成器&r章节所述,大多数&6创意设备&r都无法在一定范围内制作&2灵气&r."
 				""
-				"&d机械动力(机械动力)&r轻松地解决这个问题:将其直接放在任何机械动力设备下方会导致其限制被移除,使其可以生成远超过前所述点的&2灵气&r.[--The &dCreational Catalyst&r easily solves this problem: Placing it directly below any creational device will cause its limit to be lifted, making it able to generate &2Aura&r far beyond the previously mentioned point.--]"
+				"&d制造催化器&r轻松地解决这个问题:将其直接放在任何机制作设备下方会导致其限制被移除,使其可以生成远超过前所述的&2灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1281,13 +1281,13 @@
 			y: -16.0d
 			shape: "circle"
 			description: [
-				"随着时间的推移,神奇植物学家一直试图找到一种方法来控制&6时间&r本身以重新获得个人.[--Over the years, magical botanists have tried to find a way to manipulate &6time&r itself for personal again.--]"
+				"随着时间的推移,神奇植物学家一直试图找到一种方法来控制&6时间&r让自己再次成为个人."
 				""
-				"要设置它,需要的就是&d潜行日落&r上有一个&d物品框架&r,它包含一个&d时间之手&r.[--To set it up, all that is required is for the &dShifting Sundial&r to have an &dItem Frame&r on it containg a &dHand of Time&r.--]"
+				"要设置它,需要的就是&d移位日晷(guǐ)&r上有一个&d物品展示框&r,它包含一个&d时间之手&r."
 				""
-				"然后,框架中的&6转动&r将决定跳过的时间,手指向顶部与午夜对应.[--The &6rotation&r of the hand in the frame will then determine the time that will be skipped to, with the hand pointing to the top corresponding to midnight.--]"
+				"然后,框架中的&6转动&r将决定跳过的时间,手指向顶部与午夜对应."
 				""
-				"要激活时间跳跃,必须把普通的&d时钟&r掉在非常靠近日落的地方.[--To activate a time skip, a regular &dClock&r has to be dropped very close to the sundial.--]"
+				"要激活时间跳跃,必须把普通的&d时钟&r掉在非常靠近移位日晷的地方."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1320,8 +1320,8 @@
 			y: -15.5d
 			shape: "circle"
 			description: [
-				"当这些水晶&6生长器&r中有一个格外重要时,会释放出强大的&6魔法能量&r.[--The latent &6magical energy&r that is released when one of these crystal &6grows&r is especially of importance.--]"
-				"使用&5水晶提取器&r,可以捕捉到这种能量,并变成&2灵气&r的结晶.[--Using the &5Crystalline Extractor&r, this energy can be captured and turned into impressive amouts of &2Aura&r.--]"
+				"当这些晶体&6生长器&r中有一个格外重要时,会释放出强大的&6魔法能量&r."
+				"使用&5晶化提取器&r,可以捕捉到这种能量,并变成&2灵气&r的结晶."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1371,11 +1371,11 @@
 			y: -14.5d
 			shape: "circle"
 			description: [
-				"任何弹射物&r的强度有时足以穿透生物,甚至可以通过传送将它们移动.[--The strength of any shot &6projectiles&r is, in some instances, strong enough to pierce living beings and even move them around by way of teleportation.--]"
+				"任何弹射物&r的强度有时足以穿透生物,甚至可以通过传送的方式移动它们."
 				""
-				"为此,不同种类的子弹会产生不同的烈焰人——&d雪球&r比&d末影珍珠&r更富能量.[--For this, different kinds of projectiles produce different amouts - a &dsnowball&r is much less riche in energy than, say, an &dender pearl&r.--]"
+				"为此,不同种类的子弹会产生不同的能量——&d雪球&r比&d末影珍珠&r能量要少的多."
 				""
-				"然而,这种能量也可以用来制造&a灵气&r:&d潜行标记&r将其发射的弹丸的能量转化为它散布到环境的&a灵气&r.[--However, this power can be used to create &aAura&r as well: The &dShooting Mark&r converts the energy of any projectiles shot at it into &aAura&r that it spreads into the environment.--]"
+				"然而,这种能量也可以用来制造&a灵气&r:&d射击标记&r将其发射的弹丸的能量转化为散布到环境中的&a灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1410,9 +1410,9 @@
 			y: -14.5d
 			shape: "circle"
 			description: [
-				"自然&2灵气&r的重要来源是任何类型的苔s块上的&6模具&r。 这种属性可以使用&5荧光 Homi&r 的形式:它将需要它周围任何被苔s覆盖的方块并移除,将纯净方块放在后面.[--A great source of natural &2Aura&r is the &6moss&r on any type of mossy block. this property can be made use of in the form of the &5Swamp Homi&r: It will take any block around it that are covered in moss and remove it, leaving the clean block behind.--]"
+				"自然&2灵气&r的重要来源是任何类型的苔藓块上的&6苔藓&r。 这种属性可以使用&5沼泽之霍米&r的形式:将它周围任何被苔藓覆盖的方块移除,留下干净的方块."
 				""
-				"对于它使用的每个方块,它会产生一些&2灵气&r并将其散布到环境中.[--For each block that it does this with, it generates a bit of &2Aura&r and spreads it into the environment.--]"
+				"对于它使用的每个方块,它会产生一些&2灵气&r并将其散布到环境中."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1447,11 +1447,11 @@
 			y: -17.5d
 			shape: "circle"
 			description: [
-				"&6史莱姆&r和&6魔法立方&r是特殊的生物.[--&6Slimes&r and &6Magma Cubes&r are peculiar beings.--]"
+				"&6史莱姆&r和&6岩浆怪&r是特殊的生物."
 				""
-				"受到足够伤害后,&6碎片&r变成自己的小版本,类似于单元在身上的生长方式[--Upon being hurt enough, the &6split&r into smaller version of themselves, similarly to how cells multiply in the body--]"
+				"受到足够伤害后,&6分裂&r变成自己的小版本,类似于细胞在体内的繁殖"
 				""
-				"还需要注意的是,当&d爆破器&r处于溶解&a灵气&r的阶段时,让另一个生物分解不会造成更多的&a灵气&r.[--It should also be noted that, while the &dOffshoot Observer&r is in the process of dispering &aAura&r, causing an additional creature to split will not cause any more &aAura&r to be created.--]"
+				"还需要注意的是,当&d分裂观测仪&r处于溶解&a灵气&r的阶段时,让另一个生物分解不会造成更多的&a灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1483,9 +1483,9 @@
 			y: -15.5d
 			shape: "circle"
 			description: [
-				"当灰烬变成粉,粉变成粉时,可以用&a灵气&r和相同的魔法药水&r来获得相似的自然转动.[--As Ashes turn to ashes, and dust to dust, a similar natural converstion can be achieved with &aAura&r and equally magic &dPotions&r.--]"
+				"当灰烬变成粉,粉变成尘时,可以用&a灵气&r和相同的魔法药水&r来获得相似的自然转换."
 				""
-				"具体来说,&d烈焰药水&r具有某些神奇的能力,可以提取效果并将其高效地转化为&a灵气&r.[--Specifically, &dLingering Potions&r have certain magical abilities that allow on to extract the effect and convert them into &aAura&r efficiently.--]"
+				"具体来说,&d烈焰药水&r具有某些神奇的能力,可以提取效果并将其高效地转化为&a灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1527,8 +1527,8 @@
 			y: -17.5d
 			shape: "circle"
 			description: [
-				"首先,一个&6紫颂花&r最多必须在距离它两个方块的地方生长.[--First of all, a &6chorus flower&r has to be grown at most about two blocks away from it.--]"
-				"一旦它变得足够高,向&5末影高原的死神&r提供&6红石信号&r将会导致它开始收获整个植物,并在这个过程中移除&2灵气&r.[--Once it has grown high enough, supplying the &5Reaper of Ender Heights&r with a &6redstone signal&r will cause it to start harvesting the entire plant, dispersing &2Aura&r in the process.--]"
+				"首先,一个&6紫颂花&r最多必须在距离它两个方块的地方生长."
+				"一旦它变得足够高,向&5末影高花收割机&r提供&6红石信号&r将会导致它开始收获整个植物,并在这个过程中分散&2灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1561,11 +1561,11 @@
 			y: -14.5d
 			shape: "circle"
 			description: [
-				"&5火化炉 Gaze&r 似乎特别支持这个想法:在它周围的地面上放置任何被&4掉落的烟花&r,它会将它们向空中发射.[--The &5Firecracker Gaze&r seemingly shares this opinion especially: Consuming any fireworks that are &4dropped&r on the ground around it, it will shoot them up into the air.--]"
+				"&5烟火凝望&r似乎特别支持这个想法:消耗掉掉在周围地面上的任何烟花，都会把它们射向空中."
 				""
-				"这意味着为自动化设置一些&4计时器&r是明智的.[--This implies that it would be wise to set up some sort of &4timer&r for its automation.--]"
+				"这意味着为自动化设置一些&4计时&r是明智的."
 				""
-				"由于复杂,特别是在制作烟花时使用的物品的&6值&r至关重要,但是,&6火之星&r的合金、&6彩色&r的合金和从每发子弹中制作的&2灵气&r的合金中的一些其他变数.[--For the complexity, especially the &6value&r of the items used in the firework's creation is of importance, but also, the amout of &6firework stars&r, the amout of &6colors&r and some other variables factor into the amout of &2Aura&r created from each shot.--]"
+				"由于复杂性,特别是在制作烟花时使用的物品的&6价值&r至关重要,但是,&6烟火之星&r的数量、&6颜色&r的数量和和一些其他变量，这都是每个烟火产生&2灵气&r的数量变数."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1592,7 +1592,7 @@
 			x: 16.0d
 			y: -16.5d
 			shape: "circle"
-			description: ["当然,在他们生命的某个地方,任何处理树木的人都会受到这个值得了解的问题:一个&d橡木树苗&r长成一棵&6大树&r,这很难观察、处理和砍倒.[--Surely, at one point in their lives, any person dealing with trees was faced with this wellknow issue: An &dOak Sapling&r grows into a &6Big tree&r which is hard to look at, to manage and to chop down.--]"]
+			description: ["当然,在他们生命的某个时刻,任何一个与树木打交道的人都面临着一个众所周知的问题:一个&d橡木树苗&r长成一棵&6大树&r,这很难观察、管理和砍伐."]
 			hide_dependency_lines: true
 			dependencies: [
 				"13D134D9CECC9EFA"
@@ -1620,7 +1620,7 @@
 			x: 13.0d
 			y: -16.5d
 			shape: "circle"
-			description: ["把&5末影之眼&r掉到它附近的地面上会让玫瑰吃掉它,然后开始将其&2灵气&r分解成环境.[--Dropping an &5Ender Eye&r on the ground close to it will cause the rose to consume it and start dispersing its &2Aura&r into the environment.--]"]
+			description: ["把&5末影之眼&r掉到它附近的地面上会让玫瑰吃掉它,然后开始将其&2灵气&r分解到环境."]
 			hide_dependency_lines: true
 			dependencies: ["67BC8A5CBAF363F8"]
 			id: "25DD5E2E07E4EB1A"
@@ -1655,7 +1655,7 @@
 			x: 14.0d
 			y: -17.5d
 			shape: "circle"
-			description: ["这可以使用&5异能吸收器&r,当放置在世界中时,它会消耗附近任何小花并将它们的能量转化为&2灵气&r.[--This can be made use of using the &5Herbivorous Absorber&r that will, when placed in the world, consume any small flower in the close vicinity and convert their energy into &2Aura&r.--]"]
+			description: ["这可以使用&5草食性吸收器&r,当放置在世界中时,它会消耗附近任何小花并将它们的能量转化为&2灵气&r."]
 			hide_dependency_lines: true
 			dependencies: [
 				"62453989EC0762EA"
@@ -1997,15 +1997,15 @@
 			x: 2.5d
 			y: -21.0d
 			description: [
-				"有的时候,某些生物的&6创造&r会用到任何略为可怕的植物学家[--Sometimes, the &6creation&r of certain living creatures would be of use any slightly gruesome botanist--]"
+				"有的时候,某些生物的&6创造&r会用到任何略为可怕的植物学家"
 				""
-				"为此,可以使用&5出生祭坛&r:[--For this, the &5Altar of Birthing&r can be used:--]"
+				"为此,可以使用&5降生祭坛&r:"
 				""
-				"它可以制造并生成几乎所有&6生物&r,代价是一些与该生物相关的材料,以及一些来自能量的&2灵气&r.[--It can create and spawn almost any &6living creature&r at the cost of some ingredients that are related to that very creature and a bit of &2Aura&r from the environement.--]"
+				"它可以制造并生成几乎所有&6生物&r,代价是一些与该生物相关的材料,以及一些来自能量的&2灵气&r."
 				""
-				"要它工作,需要组装正确的结构以及使用以下&5出生精华&r:[--For it to work, it requires the right structure to be assembled as well as the usage of a &5Spririt of Birthing&r as follow:--]"
+				"要它工作,需要组装正确的结构以及使用以下&5降生之魂&r:"
 				""
-				"所有材料,包括&5出生之魂&r,都需要扔在&5出生之祭坛&r附近的地上,并且这个过程将自动开始.[--All ingredients, including the &5Spirit of Birthing&r, are required to be thrown down on the ground close to the &5Altar of Birthing&r and the process will begin automatically.--]"
+				"所有材料,包括&5降生之魂&r,都需要扔在&5降生祭坛&r附近的地上,并且这个过程将自动开始."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2050,9 +2050,9 @@
 			x: 0.5d
 			y: -21.0d
 			description: [
-				"当周围区域有&2灵气&r的(光线)显示时,一个&6呼吸&r两个被动动物一起可以轻松获得所需的&5繁殖之魂&r.[--The required &5Spirit of Birthing&r can be obtained easily by a person &6breeding&r two passive animals together while there is a(slight) exess of &2Aura&r present in the surrounding area.--]"
+				"当周围区域存在（轻微）&2灵气&r时，将两只被动动物&6繁殖&r在一起，可以很容易地获得所需的&5降生之魂&r."
 				""
-				"对于每个新出生的婴儿,都有几条&5出生之魂&r的几率在这个过程中被创造出来.[--For each new baby born, there is a chance of a few &5Spirits of Birthing&r to be created in the process.--]"
+				"对于每个新出生的婴儿,都有几个&5降生之魂&r的几率在这个过程中被创造出来."
 			]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
@@ -2210,7 +2210,7 @@
 		{
 			x: -11.5d
 			y: -12.0d
-			description: ["找到末地城。[--Locate End City.--]"]
+			description: ["找到末地城。"]
 			dependencies: ["6FA1B1D053C2C065"]
 			id: "340EE143C784BA64"
 			tasks: [
@@ -2232,9 +2232,9 @@
 			x: 8.0d
 			y: -15.5d
 			description: [
-				"当&5暴风球&r在背包中的任何位置保留时,它允许穿戴者专注他们的力量,让他们在&6潜行&r和&6跳跃&r放置时,可以坚硬地潜行到地上,以制造一个&5电容&r,伤害靠近的任何其他生物.[--The &5Amulet of Wrath&r, when held anywhere in the inventory, allows its wearer to focus their power, giving them the ability to, when &6sneaking&r and &6jumping&r in place, stomp down on the ground hard enough to create a &5shockwave&r that hurts any other living creatures close by. --]"
+				"当&5狂怒护身符&r在背包中的任何位置保留时,它允许穿戴者使用他们的力量,让他们在&6潜行&r和&6跳跃&r时,用力踩在地上,产生一个&5冲击波&r,伤害靠近的任何其他生物."
 				""
-				"当然,这需要消耗一些&2灵气&r,例如存储在&1灵气箱子&r中.[--This, of course, come at the cost of some &2Aura&r, stored in the form of, say, an &1Aura Cache&r.--]"
+				"当然,这需要消耗一些&2灵气&r,例如存储在&1灵气缓存&r中."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2270,7 +2270,7 @@
 		{
 			x: -10.5d
 			y: -12.0d
-			description: ["找到下界要塞.[--Locate Nether Fortress.--]"]
+			description: ["找到下界要塞."]
 			dependencies: ["47A262541C6569CA"]
 			id: "3C94B10599956154"
 			tasks: [
@@ -2291,7 +2291,7 @@
 		{
 			x: 6.0d
 			y: -15.5d
-			description: ["将&5最后机会指环&r放置在用户物品栏中,会通过治疗他们并在过程中消失&6类似于&5不死图腾&r来防止他们死亡.[--The &5Ring of Last Chance&r, when placed anuwhere in the user's inventory, will prevent their death by healing them and &6disappearing&r in the process, similary to the &5Totem of Undying&r.--]"]
+			description: ["将&5最后机会之指环&r放置在用户物品栏中,会通过治疗他们并在过程中消失&6类似于&5不死图腾&r来防止他们死亡."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6FA1B1D053C2C065"
@@ -2319,7 +2319,7 @@
 			icon: "naturesaura:furnace_heater"
 			x: 10.0d
 			y: -14.5d
-			description: ["&6火之激活器&r是使用灵气为您增益的一种方式。它从世界收集它,并为熔炉提供动力而不需要燃料.[--The &6Extraneous Firestarter&r is a way of using Aura to your benefit: It collects it from the world and powers a furnace without needing any fuel.--]"]
+			description: ["&6外置燃火器&r是使用灵气为您增益的一种方式。它从世界收集它,并为熔炉提供动力而不需要燃料."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0C09995550F3CE0F"
@@ -2362,9 +2362,9 @@
 			x: 10.0d
 			y: -15.5d
 			description: [
-				"它们发现&a灵气&r可能能够净化任何类型的&6矿石&r,使它们有机会生产&6两个锭&r而不是一个.[--They have found that &aAura&r might be capable of purifying any kind of &6ore&r to a point where it has a chance of producing &6two ingots&r rather than one.--]"
+				"它们发现&a灵气&r可能能够净化任何类型的&6矿石&r,使它们有机会生产&6两个锭&r而不是一个."
 				""
-				"&5装甲号的护盾&r,只需放在&5高炉&r的顶部.[--&5Armorer's Aid&r, which simply has to be placed on top of a &5Blast Furnace&r.--]"
+				"&5盔甲匠之缓&r,只需放在&5高炉&r的顶部."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2389,7 +2389,7 @@
 			]
 		}
 		{
-			title: "冒险轨道[--The adventure rails--]"
+			title: "冒险轨道"
 			x: 9.0d
 			y: -15.5d
 			hide_dependency_lines: true
@@ -2434,9 +2434,9 @@
 			x: 5.0d
 			y: -15.5d
 			description: [
-				"小心,它会用很多灵气![--Be careful, it uses a lot of aura!--]"
+				"小心,它会用很多灵气!"
 				""
-				"无限水![--Infinite water !--]"
+				"无限水!"
 			]
 			hide_dependency_lines: true
 			dependencies: ["7620EE9990A9DFB4"]
@@ -2460,14 +2460,14 @@
 			x: 7.0d
 			y: -14.5d
 			description: [
-				"&5末影箱子&r是任何尝试安全存储物品者都可以使用的重要技术,但是它们不会为所述物品提供轻松的&6移动&r方式.[--&5Ender Chests&r are great technology for anyone trying to store items safely, however, they don't provide easy means of &6transportation&r for said items.--]"
+				"&5末影板条箱&r是任何尝试安全存储物品者都可以使用的重要技术,但是它们不会为所述物品提供轻松的&6移动&r方式."
 				""
-				"为此,&5末影板条箱&r非常适合:[--For this, the &5Ender Crate&r is perfect:--]"
-				"将两个或多个板条箱连接在一起的箱子可以跨维度共享同一个库存,这意味着它们会产生轻松运输物品的可能性.[--Two or more of these crates which are linked together share the same inventory, event interdimensionally, meaning that they create the possibility of easily transporting items around.--]"
+				"为此,&5末影板条箱&r非常适合:"
+				"将两个或多个板条箱连接在一起的箱子可以跨维度共享同一个库存,这意味着它们会产生轻松运输物品的可能性."
 				""
-				"要连接一个或一个以上的板条箱,必须给它们一个&5末影名称&r,方法是将它们放入带有&5末影之眼&r的&6铁砧&r中,然后将所需的名称记下.[--To link one or more crates, they have to be given an &5Ender Name&r by placing them in an &6anvil&r with an &5Ender Eye&r and then writing down the desired name.--]"
+				"要连接一个或一个以上的板条箱,必须给它们一个&5末影名称&r,方法是将它们放入带有&5末影之眼&r的&6铁砧&r中,然后将所需的名称记下."
 				""
-				"如果担心其他人会给他们的箱子取相同的名字,则可以通过在带有该名称的箱子中放置一个&1恶魂之身&r来给它命名&6锁住&r.[--If the worry exists that other people might call their crates the same name, any name can be &6locked&r from being given simply by placing a &1Token of Terror&r inside a crate with that name.--]"
+				"如果担心其他人会给他们的箱子取相同的名字,则可以通过在带有该名称的箱子中放置一个&1恐怖徽章&r来给它命名&6锁住&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6FA1B1D053C2C065"]
@@ -2491,11 +2491,11 @@
 			x: 8.0d
 			y: -14.5d
 			description: [
-				"简单地说,&5末影镜&r是&1末影板条箱&r的手持版本.[--The &5Ender Ocular&r is, to put it simply, a handheld version of the &1Ender Crate&r.--]"
+				"简单地说,&5末影镜&r是&1末影板条箱&r的手持版本."
 				""
-				"在给它一个&6末影名称&r精准的沙子方式之后,在拿着它时与它交互会打开存储空间.[--After giving it an &6Ender Name&r the exact sam way, interacting with it while holding it in one's hand will open the storage then and there.--]"
+				"在以一个完全相同的方式给它一个&6末影名称&r之后,在拿着它时与它交互会打开存储空间."
 				""
-				"为此,需要一个&1灵气箱子&r来消耗一些&2灵气&r.[--For this, an &1Aura Cache&r is required that some &2Aura&r will be drained from.--]"
+				"为此,需要一个&1灵气缓存&r来消耗一些&2灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6FA1B1D053C2C065"]
@@ -2516,10 +2516,10 @@
 			]
 		}
 		{
-			title: "灵气花[--Aura Flower--]"
+			title: "灵气花"
 			x: 9.0d
 			y: -14.5d
-			description: ["在&4下界&r中找到。[--Found in the &4nether&r.--]"]
+			description: ["在&4下界&r中找到。"]
 			hide_dependency_lines: true
 			dependencies: ["111FCE085D6AC550"]
 			id: "4BCA238C4EE0BD35"
@@ -2607,11 +2607,11 @@
 			x: 6.0d
 			y: -16.5d
 			description: [
-				"有的时候,作为一个农夫,想把它们的&6动物&r容纳在小区域内,以防止它们消失.[--Sometimes, as a farmer, one wants their &6animals&r to be contained in a small area as to prevent them from running away.--]"
+				"有的时候,作为一个农夫,想把它们的&6动物&r容纳在小区域内,以防止它们消失."
 				""
-				"&5工厂之眼&r可以防止任何动物离开其效果区域,而不需要周围的任何方块.[--The &5Corporeal Eye&r prevents any animals frome exiting its area of effect without needing any blocks around it.--]"
+				"&5实行之眼&r可以防止任何动物离开其效果区域,而不需要周围的任何方块."
 				""
-				"它用于这个控制装置的&6范围&r由应用于它的&6红石信号&r决定——它越强大,区域就越大.[--Its &6range&r for this containment is determined by the &6redstone signal&r applied to it - the stronger it is, the bigger the area.--]"
+				"它这个控制装置的&6范围&r由应用于它的&6红石信号&r决定——它越强大,区域就越大."
 			]
 			hide_dependency_lines: true
 			dependencies: ["23FBED7C0340EA45"]
@@ -2656,13 +2656,13 @@
 			x: 8.0d
 			y: -16.5d
 			description: [
-				"&5寒雪召唤&r通过在其周围的大范围内造成雪落下,提供了一些&a灵气&r来使这种发生.[--The &5Winter's Calling&r brings this occurence back by causing snow to fall in a vast area around it, provided a little bit of &aAura&r.--]"
+				"&5凛冬的呼唤&r通过在其周围的大范围内造成掉落下雪,提供了一些&a灵气&r来运作."
 				""
-				"此外,水会冻成冰,并且非常偶尔会生成雪之魔符,帮助覆盖地面.[--Additionally, water will freeze into ice and very occasionally, snow golems will spawn to help with covering the lands.--]"
+				"此外,水会冻成冰,并且非常偶尔会生成雪傀儡,帮助覆盖地面."
 				""
-				"要开始这个过程,需要提供&6红石信号&r.[--To get this process going, a &6redstone signal&r needs to be supplied.--]"
+				"要开始这个过程,需要提供&6红石信号&r."
 				""
-				"信号强度越高,雪要掉落的区域就越大.[--The higher the strength of the signal, the biger the area in which snow will fall.--]"
+				"信号强度越高,雪要掉落的区域就越大."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2731,12 +2731,12 @@
 			x: 5.0d
 			y: -17.5d
 			description: [
-				"使用&5漏斗&r收集物品是有用的,但有时会不方便,特别是如果给它一个大区域,则必须收集物品.[--Collecting items using &5Hoppers&r is useful, but sometimes, it can be inconvenient, especially if given a big area that one has to collect items in.--]"
+				"使用&5漏斗&r收集物品是有用的,但有时会不方便,尤其是如果有一个很大的区域需要收集物品."
 				""
-				"为此,&5漏斗增强&r将是一种帮助:[--For that, the &5Hopper Enhancement&r will be a help:--]"
-				"只需将其放置在任何&5漏斗&r上方,它就会通过增加&67&r方块的物品拾取范围.[--By simply placing it on top of any &5Hopper&r, it will increase its range of picking up items drastically by about &6seven&r blocks.--]"
+				"为此,&5漏斗增强&r将是一种帮助:"
+				"只需将其放置在任何&5漏斗&r上方,它就会通过增加&67&r方块的物品拾取范围."
 				""
-				"在收集物品时,它会使用少量&2灵气&r.[--When collecting an item, it then uses a small amount of &2Aura&r.--]"
+				"在收集物品时,它会使用少量&2灵气&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["62453989EC0762EA"]
@@ -2760,11 +2760,11 @@
 			x: 10.0d
 			y: -16.5d
 			description: [
-				"人类的两种行为之一就是&6破坏&r方块.[--One of the two activities mosly done by humans is &6breaking&r blocks.--]"
+				"人类的两种行为之一就是&6破坏&r方块."
 				""
-				"这需要相当一点果汁和力气,如果持续了很长的时间,会变得非常疲劳.[--This requires quite a bit of strengh and effort, and, if done for long amounts of time, can become quite tiring.--]"
+				"这需要相当大的力量和努力,如果持续了很长的时间,会变得非常疲劳."
 				""
-				"&5灵气场生成器&r可以创建一个强大的移动&2灵气&r的地方,它足够强大,可以&6破坏其中的方块&r.[--The &5Aura Field Creator&r creates a dense field of moving &2Aura&r that is strong enough for it &6destroy blocks&r within it.--]"
+				"&5灵气场生成器&r可以创建一个强大的移动&2灵气&r的地方,它足够强大,可以&6破坏其中的方块&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -2791,11 +2791,11 @@
 			x: 6.0d
 			y: -14.5d
 			description: [
-				"当与&2灵气&r一起工作时,有时了解一个区域内的灵气水平会很有用,而不需要人检查.[--When working with &2Aura&r, sometimes it can be beneficial to know about its levels in an area without having to be there to check in person.--]"
+				"当与&2灵气&r一起工作时,有时了解一个区域内的灵气水平会很有用,而不需要人为检查."
 				""
-				"&5灵气检测器&r根据周围附近的&2灵气&r的信号发出&6红石&r信号,只要你将&5合成器&r连接到它上.[--The &5Aura Detector&r gives out a &6redstone&r signal based on the amout of &2Aura&r in the close vicinity around it, so long as you attach a &5Comparator&r to it.--]"
+				"&5灵气探测器&r根据周围附近的&2灵气&r的信号发出&6红石&r信号,只要你将&5比较器&r连接到它上."
 				""
-				"为此,其展示范围类似于&1环境之眼&r.[--For that, its range of display is similar to that of the &1Environmental Eye&r.--]"
+				"为此,其展示范围类似于&1环境之眼&r."
 			]
 			hide_dependency_lines: true
 			dependencies: ["23FBED7C0340EA45"]
@@ -2819,9 +2819,9 @@
 			x: 10.0d
 			y: -17.5d
 			description: [
-				"&5神秘放大器&r是任何魔法植物学家使用机械的精美装置.[--The &5Mystical Magnifier&r is a neat device for any magical botanist working with machinery.--]"
+				"&5奥秘放大器&r是任何魔法植物学家使用机器时的简明装置."
 				""
-				"装备在任意手中,并使用兼容的装置进行交互时,其&6操作范围&r将显示在它周围,允许轻松、准确地检查用它建造的任何装置.[--When equipped in either hand, and interacting with a compatible device, its &6range of operation&r will be displayed around it, allowing any contraptions built with it to be inspected easily and precisely.--]"
+				"装备在任意手中,并与兼容设备进行交互时,其&6操作范围&r将显示在它周围,允许轻易、准确地检查用它建造的任何设备."
 			]
 			hide_dependency_lines: true
 			dependencies: ["62453989EC0762EA"]

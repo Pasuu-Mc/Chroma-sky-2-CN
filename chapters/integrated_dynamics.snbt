@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 4
 	filename: "integrated_dynamics"
-	title: "集成动力[--Integrated Dynamics--]"
+	title: "集成动力"
 	icon: "integrateddynamics:on_the_dynamics_of_integration"
 	default_quest_shape: "square"
 	default_hide_dependency_lines: false
@@ -78,7 +78,7 @@
 			]
 		}
 		{
-			title: "阅读方块[--Reading blocks--]"
+			title: "阅读方块"
 			x: 3.5d
 			y: 2.0d
 			hide_dependency_lines: true
@@ -110,7 +110,7 @@
 			]
 		}
 		{
-			title: "阅读其他的东西[--Reading other things--]"
+			title: "阅读其他的东西"
 			x: 3.5d
 			y: 0.0d
 			hide_dependency_lines: true
@@ -137,7 +137,7 @@
 			]
 		}
 		{
-			title: "红石逻辑[--Redstone logic--]"
+			title: "红石逻辑"
 			x: 3.5d
 			y: 1.0d
 			hide_dependency_lines: true
@@ -164,7 +164,7 @@
 			]
 		}
 		{
-			title: "能源物流[--Energy logistics--]"
+			title: "能源物流"
 			x: 6.0d
 			y: 0.5d
 			hide_dependency_lines: true
@@ -196,7 +196,7 @@
 			]
 		}
 		{
-			title: "世界上的能量[--Energy in the world--]"
+			title: "世界上的能量"
 			x: 6.0d
 			y: 1.5d
 			dependencies: [
@@ -225,7 +225,7 @@
 			]
 		}
 		{
-			title: "流体物流[--Fluid logistics--]"
+			title: "流体物流"
 			x: 7.5d
 			y: 0.5d
 			hide_dependency_lines: true
@@ -257,7 +257,7 @@
 			]
 		}
 		{
-			title: "世界中的流体[--Fluid in the world--]"
+			title: "世界中的流体"
 			x: 7.5d
 			y: 1.5d
 			dependencies: [
@@ -286,7 +286,7 @@
 			]
 		}
 		{
-			title: "物品物流[--Item logistics--]"
+			title: "物品物流"
 			x: 9.0d
 			y: 0.5d
 			hide_dependency_lines: true
@@ -318,7 +318,7 @@
 			]
 		}
 		{
-			title: "世界中的物品[--Item in the world--]"
+			title: "世界中的物品"
 			x: 9.0d
 			y: 1.5d
 			dependencies: [
@@ -349,8 +349,8 @@
 		{
 			x: 2.5d
 			y: -2.5d
-			subtitle: "制作一个存储终端[--Make a Storage Terminal--]"
-			description: ["所有&b存储物品&f、&b流体&f和&b能量&f都可以在同一个地方看到,并且可以使用&b存储终端&f和&b制作工作&f从&b合成终端&f管理.[--All &bstored items&f, &bfluids &fand &benergy &fbecome visible and interactable from a single place using the &bStorage Terminal&f, and &bcrafting jobs &fbecome manageable from the &bCrafting Job Terminal&f.--]"]
+			subtitle: "制作一个存储终端"
+			description: ["所有&b存储物品&f、&b流体&f和&b能量&f都可以在同一个地方看到,并且可以使用&b存储终端&f和&b制作工作&f从&b合成终端&f管理."]
 			hide_dependency_lines: true
 			dependencies: [
 				"71F00867FCD80380"
@@ -375,7 +375,7 @@
 		{
 			x: 3.5d
 			y: -2.5d
-			description: ["您必须使用全向连接器访问您的远程存储系统![--You must use the Omni-Directional Connector to access your remote storage system !--]"]
+			description: ["您必须使用全向连接器访问您的远程存储系统!"]
 			dependencies: ["22E48889C36049E9"]
 			id: "01A95C71F1AE6645"
 			tasks: [
@@ -417,7 +417,7 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			description: ["远程网络.[--Long range networks.--]"]
+			description: ["远程网络."]
 			hide_dependency_lines: true
 			dependencies: [
 				"148A86A18A62924F"
@@ -442,7 +442,7 @@
 		{
 			x: 2.5d
 			y: 0.5d
-			description: ["真正的远程网络.[--Really long range networks.--]"]
+			description: ["真正的远程网络."]
 			hide_dependency_lines: true
 			dependencies: ["6891D7CAA482B258"]
 			id: "1C75E084C62E31A9"
@@ -464,7 +464,7 @@
 		{
 			x: 12.0d
 			y: -1.0d
-			description: ["得到你正在查看的方块.[--Get the Block you are looking at.--]"]
+			description: ["得到你正在查看的方块."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "3E0102CF4E76CE82"
 			tasks: [
@@ -486,7 +486,7 @@
 		{
 			x: 11.0d
 			y: -1.5d
-			description: ["使用变量动态过滤存储终端中的附魔物品[--Dynamically filter enchantable items in the Storage Terminal using Variable--]"]
+			description: ["使用变量动态过滤存储终端中的附魔物品"]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "51E256D601D5900E"
 			tasks: [
@@ -508,7 +508,7 @@
 		{
 			x: 13.0d
 			y: -1.5d
-			description: ["检查石镐是否可以破坏黑曜石,并在显示器中显示结果.[--Check if a Stone Pickaxe can break an Obsidian block, and show the result in a Display Panel.--]"]
+			description: ["检查石镐是否可以破坏黑曜石,并在显示器中显示结果."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "4F3FBABA90B54AFF"
 			tasks: [
@@ -530,7 +530,7 @@
 		{
 			x: 13.0d
 			y: -0.5d
-			description: ["播放湿海绵块的脚步声.[--Play the step sound of a Wet Sponge block.--]"]
+			description: ["播放湿海绵块的脚步声."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "603796112345983E"
 			tasks: [
@@ -553,8 +553,8 @@
 			x: 11.0d
 			y: -0.5d
 			description: [
-				"创建一个系统，当您经过实体读取器时，该系统会根据实体名称匹配自动打开门，使用红石输出器直接指向门.[--Create a system that automatically opens a door when you pass by an Entity Reader based on entity name matching, using Redstone Writer directly pointing to the door.--]"
-				"提示:将实体名称作为第一个参数传递给等于运算符.[--Hint : Pass an entity name as first argument into the equals operator.--]"
+				"创建一个系统，当您经过实体读取器时，该系统会根据实体名称匹配自动打开门，使用红石输出器直接指向门."
+				"提示:将实体名称作为第一个参数传递给等于运算符."
 			]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "65DF2EDD54F16B22"
@@ -577,7 +577,7 @@
 		{
 			x: 12.0d
 			y: 0.0d
-			description: ["使用世界方块输入器破坏方块.[--Break Stone blocks using a World Block Importer.--]"]
+			description: ["使用世界方块输入器破坏方块."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "764FDCA51D6A228B"
 			tasks: [
@@ -599,7 +599,7 @@
 		{
 			x: 12.0d
 			y: -2.0d
-			description: ["用玩家模拟器单击钻石剑.[--Click with a Diamond Sword using a Player Simulator.--]"]
+			description: ["用玩家模拟器单击钻石剑."]
 			dependencies: ["2BF510AA8F2C57F2"]
 			id: "5539D44A512E0843"
 			tasks: [
@@ -621,10 +621,10 @@
 		{
 			x: 8.5d
 			y: -5.5d
-			subtitle: "制作一个烘干池[--Make a Drying Basin--]"
+			subtitle: "制作一个烘干池"
 			description: [
-				"&b烘干池&r将干燥插入其中的物品/流体。某些配方可能需要物品&o和&r流体才能工作;在 JEI 中查看它的用途.[--The &bDrying Basin&r will dry items/fluids inserted into it. Some recipes may require both items &oand&r fluids to work; see its uses in JEI.--]"
-				"它最重要的用途是&6将门瑞欧树脂变成一个结晶门瑞欧&r块.[--Its most important use is to &6convert Menril Resin into a Block of Crystallized Menril&r.--]"
+				"&b烘干池&r将干燥插入其中的物品/流体。某些配方可能需要物品&o和&r流体才能工作;在 JEI 中查看它的用途."
+				"它最重要的用途是&6将门瑞欧树脂变成一个门瑞欧结晶块&r."
 			]
 			dependencies: [
 				"3F97D03C2402B70D"
@@ -649,8 +649,8 @@
 		{
 			x: 8.5d
 			y: -2.5d
-			subtitle: "制作一个电动烘干池[--Make a Mechanical Drying Basin--]"
-			description: ["&b电动烘干池&r和烘干池一样工作,但会消耗能量.[--The &bMechanical Drying Basin&r works just like the Drying Basin, but uses energy.--]"]
+			subtitle: "制作一个电动烘干池"
+			description: ["&b电动烘干池&r和烘干池一样工作,但会消耗能量."]
 			dependencies: [
 				"0CE03C2648BD9948"
 				"019F24CC72ACD58E"
@@ -674,10 +674,10 @@
 		{
 			x: 6.5d
 			y: -2.5d
-			subtitle: "合成动力挤压机[--Make a Mechanical Squeezer--]"
+			subtitle: "合成动力挤压机"
 			description: [
-				"&b电动挤压机&r使用能量&r将门瑞欧木转成门瑞欧树脂,同时产生门瑞欧结晶块.[--The &bMechanical Squeezer&r &6uses energy&r to convert Menril Wood into Menril Resin, at the same time as producing Crystallized Menril Chunks.--]"
-				"你也可以用它作为&b研磨机&r.[--You can also use it as &ba grinder&r.--]"
+				"&b电动挤压机&r使用能量&r将门瑞欧木转成门瑞欧树脂,同时产生门瑞欧结晶块."
+				"你也可以用它作为&b研磨机&r."
 			]
 			dependencies: [
 				"64022C765DB7BA44"
@@ -861,14 +861,14 @@
 			]
 		}
 		{
-			title: "知识果汁[--Knowledge Juice--]"
+			title: "知识果汁"
 			x: 6.5d
 			y: -5.5d
-			subtitle: "做一个挤压机[--Make a Squeezer--]"
+			subtitle: "做一个挤压机"
 			description: [
-				"右键单击门瑞欧原木到&b挤压机&r中来放入它,然后跳上跳下来压低它,这会产生&6门瑞欧树脂&r.[--Right-click Menril Wood into a &bSqueezer&r to insert it, then jump up and down on top of it to squish it down, this produce &6Menril Resin&r.--]"
-				"门瑞欧树脂将会自动输出到&6两边各两个&r流体容器中.[--The Menril Resin will automatically be output to a fluid container on &6two if its sides&r.--]"
-				"给挤压机一个&6红石信号&r来重置它.[--Give the Squeezer a &6redstone signal&r to reset it.--]"
+				"右键单击门瑞欧原木到&b挤压机&r中来放入它,然后跳上跳下来压低它,这会产生&6门瑞欧树脂&r."
+				"门瑞欧树脂将会自动输出到&6两边各两个&r流体容器中."
+				"给挤压机一个&6红石信号&r来重置它."
 			]
 			dependencies: ["3F97D03C2402B70D"]
 			min_width: 250

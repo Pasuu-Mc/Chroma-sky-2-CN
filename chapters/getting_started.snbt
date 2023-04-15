@@ -3,18 +3,18 @@
 	group: "638FC427456F902B"
 	order_index: 0
 	filename: "getting_started"
-	title: "开始[--Getting Started--]"
+	title: "开始"
 	icon: "astralsorcery:tree_beacon"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "获取木材[--Getting wood--]"
+			title: "获取木材"
 			x: 0.5d
 			y: -5.5d
 			shape: "octagon"
-			subtitle: "木材![--Timber !--]"
-			description: ["就像任何好Minecraft冒险你需要砍树![--Like any good Minecraft adventure you have to cut wood !--]"]
+			subtitle: "木材!"
+			description: ["就像任何好Minecraft冒险你需要砍树!"]
 			dependencies: [
 				"769D409BA5258BBD"
 				"738A41EE59B4EDC5"
@@ -28,7 +28,7 @@
 				{
 					id: "2ED4F1E5BF11E6D6"
 					type: "item"
-					title: "原木[--Logs--]"
+					title: "原木"
 					icon: "minecraft:oak_log"
 					item: {
 						id: "itemfilters:tag"
@@ -70,7 +70,7 @@
 				{
 					id: "174EAA5F5A64AF05"
 					type: "item"
-					title: "木剪[--Wooden Shears--]"
+					title: "木剪"
 					icon: {
 						id: "woodenshears:wshears_oak"
 						Count: 1b
@@ -104,7 +104,7 @@
 		{
 			x: -1.0d
 			y: -2.5d
-			description: ["&3滴水器&r将流体滴到下方方块中以将其转至其他方块.[--&3The Dripper&r drips fluid on to the block below in order to turn in it to other blocks.--]"]
+			description: ["&3滴水器&r将流体滴到下方方块中以将其转至其他方块."]
 			hide_dependency_lines: true
 			dependencies: ["3F97D03C2402B70D"]
 			id: "1364BC9D46E89B79"
@@ -127,13 +127,13 @@
 			x: 3.0d
 			y: -5.5d
 			description: [
-				"&3洗矿槽&r使用网和流体将沙砾等方块处理成更高级的资源.[--&3Sluices&r use a Mesh and fluid to process blocks like Gravel, Sand and more into more advanced resources.--]"
+				"&3洗矿槽&r使用网和流体将沙砾等方块处理成更高级的资源."
 				""
-				"握住手中的网,然后右键单击它来放入洗矿槽.[--Hold the mesh in your hand and right click it on the sluice to insert it.--]"
-				"洗矿槽有一个内部储罐,每次操作后它会消耗水.[--The sluice has an internal tank which it consumes water from after every operation. --]"
-				"用水桶右键单击以填满储液罐.[--Right-click with a water bucket to fill the tank.--]"
+				"握住手中的网,然后右键单击它来放入洗矿槽."
+				"洗矿槽有一个内部储罐,每次操作后它会消耗水."
+				"用水桶右键单击以填满储液罐."
 				""
-				"请注意,这个洗矿槽不接收漏斗或用电缆直接输入.[--Be careful this sluice doesn't accept hoppers or direct inputs with cables.--]"
+				"请注意,这个洗矿槽不接收漏斗或用线缆直接输入."
 			]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "3A520D98DB566C24"
@@ -154,7 +154,7 @@
 			]
 		}
 		{
-			title: "锤子[--Hammers--]"
+			title: "锤子"
 			x: -2.0d
 			y: -5.5d
 			description: [
@@ -168,7 +168,7 @@
 				{
 					id: "5DFDBB619EC0497D"
 					type: "item"
-					title: "任何锤子[--Any Hammer--]"
+					title: "任何锤子"
 					icon: {
 						id: "ftbsluice:stone_hammer"
 						Count: 1b
@@ -272,7 +272,7 @@
 				{
 					id: "36C6581B58840FF6"
 					type: "item"
-					title: "树叶[--Leaves--]"
+					title: "树叶"
 					icon: "minecraft:oak_leaves"
 					item: {
 						id: "itemfilters:tag"
@@ -294,7 +294,7 @@
 			]
 		}
 		{
-			title: "叶子[--Leaf--]"
+			title: "叶子"
 			x: 2.5d
 			y: -7.5d
 			dependencies: [
@@ -306,7 +306,7 @@
 				{
 					id: "7950D553E786537A"
 					type: "item"
-					title: "叶子[--Leaf--]"
+					title: "叶子"
 					item: "chromasky:leaf"
 					count: 16L
 				}
@@ -333,7 +333,7 @@
 				{
 					id: "5D8C71A5FF91EDD2"
 					type: "item"
-					title: "混合物[--Compost--]"
+					title: "混合物"
 					item: "chromasky:compost"
 					count: 4L
 				}
@@ -350,7 +350,7 @@
 		{
 			x: 0.5d
 			y: -7.0d
-			description: ["&3堆肥桶&r可以把树叶放入来获得骨粉.[--&3The composter &rwill allow you to obtain bone meal by putting in leaves.--]"]
+			description: ["&3堆肥桶&r可以把树叶放入来获得骨粉."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "0E304BDD61392FBF"
 			tasks: [
@@ -473,13 +473,13 @@
 			]
 		}
 		{
-			title: "基础资源[--Primary Resources--]"
+			title: "基础资源"
 			x: -3.0d
 			y: -5.5d
 			description: [
-				"在洗矿槽中获取第一种资源的主要资源.[--The main resources to get your first resources in the sluices.--]"
+				"在洗矿槽中获取第一种资源的主要资源."
 				""
-				"&b你刚刚解锁了 FTB Ultimine,请在信息一章中查看遗失饰物有关如何使用 ultiminer 小饰品的更多信息[--&bYou have just unlocked FTB Ultimine, see Lost Tinkets quest for more information about how to use the ultiminer trinket in the Information chapter --]"
+				"&b你刚刚解锁了 FTB Ultimine,请在信息一章中查看遗失饰物有关如何使用 ultiminer 小饰品的更多信息"
 			]
 			dependencies: [
 				"6A3F0F7ABEFAE183"
@@ -547,7 +547,7 @@
 		{
 			x: 2.0d
 			y: -4.5d
-			description: ["用挤压机按下仙人掌以获得水.[--Press cactus with the Squeezer to get Water.--]"]
+			description: ["用挤压机按下仙人掌以获得水."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "10F6C86E83D59E25"
 			tasks: [
@@ -569,7 +569,7 @@
 		{
 			x: 2.5d
 			y: -3.5d
-			description: ["把方块放在挤压机旁边来收集并存储水.[--Place the Cask next to the squeezer to collect and store water.--]"]
+			description: ["把方块放在挤压机旁边来收集并存储水."]
 			dependencies: ["10F6C86E83D59E25"]
 			id: "79AFBD2DDADB091E"
 			tasks: [
@@ -610,7 +610,7 @@
 		{
 			x: 2.0d
 			y: -2.5d
-			description: ["现在,你可以合成一个无限水源.[--Now, you can make an infinite water source.--]"]
+			description: ["现在,你可以合成一个无限水源."]
 			dependencies: [
 				"61F227105C40D547"
 				"79AFBD2DDADB091E"
@@ -702,12 +702,12 @@
 			x: 6.0d
 			y: -5.5d
 			description: [
-				"你可以在地下找到的许多资源,例如铁、黄金、煤等。可以通过在洗矿槽中处理基本材料来作为碎块收集.[--Many resources that you would find underground, such as Iron, Gold, Coal, etc. can be gathered as Chunks by processing basic materials in a sluice.--]"
+				"你可以在地下找到的许多资源,例如铁、黄金、煤等。可以通过在洗矿槽中处理基本材料来作为碎块收集."
 				""
-				"然后将这些碎块进一步处理成实际资源,你也可以...[--To then further process those Chunks into the actual resources, you can either...--]"
-				"1.直接将碎块烧成粒.[--1. Smelt the Chunks into Nuggets directly.--]"
-				"2.将碎块合成多组,在冶炼炉中处理它们。(包括矿石加倍!)[--2. Craft the Chunks into Clusters and process them in a Smeltery. (Ore-doubling included!)--]"
-				"3.将碎块合成多组,然后用罐子将它们直接熔化成锭.[--3. Craft the Chunks into Clusters, and melt them directly into Ingots using a Jar.--]"
+				"然后将这些碎块进一步处理成实际资源,你也可以..."
+				"1.直接将碎块烧成粒."
+				"2.将碎块合成多组,在冶炼炉中处理它们。(包括矿石加倍!)"
+				"3.将碎块合成多组,然后用罐子将它们直接熔化成锭."
 			]
 			dependencies: [
 				"08DCFB994C66EE23"
@@ -718,7 +718,7 @@
 				{
 					id: "0AA08CC8B2E2F4CE"
 					type: "item"
-					title: "收集4个铁碎块[--Gather 4 Iron Chunks--]"
+					title: "收集4个铁碎块"
 					item: "chromasky:iron_chunk"
 					count: 4L
 				}
@@ -756,7 +756,7 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			description: ["&3营火&r允许你用它燃烧铁来获得铸铁锭.[--&3The campfire&r allows you to obtain cast iron by burning iron in it.--]"]
+			description: ["&3营火&r允许你用它燃烧铁来获得铸铁锭."]
 			dependencies: ["67E0A913501D13AF"]
 			id: "7177A157E31F65A9"
 			tasks: [
@@ -834,7 +834,7 @@
 			]
 		}
 		{
-			title: "我的第一个镐子[--My first pickaxe--]"
+			title: "我的第一个镐子"
 			icon: {
 				id: "tconstruct:pickaxe"
 				Count: 1b
@@ -1008,8 +1008,8 @@
 		{
 			x: -1.5d
 			y: -3.5d
-			subtitle: "豪华水桶[--Luxury bucket--]"
-			description: ["在水源上用空的碗右键单击以获得水碗.[--Right click with an empty bowl on a water source to obtain a water bowl.--]"]
+			subtitle: "豪华水桶"
+			description: ["在水源上用空的碗右键单击以获得水碗."]
 			dependencies: ["3CE7D2130059E7AE"]
 			id: "5B6ABB98D391C9A5"
 			tasks: [

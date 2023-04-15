@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 2
 	filename: "resources"
-	title: "资源[--Resources--]"
+	title: "资源"
 	icon: "ftbjarmod:tempered_jar"
 	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
@@ -12,10 +12,10 @@
 			x: 5.2295918367346985d
 			y: -8.534183673469386d
 			description: [
-				"手动泵将允许你在洗矿槽中自动带水.[--The manual pump will allow you to bring water automatically in your sluices.--]"
+				"手动泵将允许你在洗矿槽中自动带水."
 				""
-				"您可以通过右键单击泵来在泵中收集能量.[--You can accumulate energy in the pump by right-clicking on it.--]"
-				"然后用存储的能量每秒从下方的无限水源中提取 1000mb 的水,并将其推入连接的洗矿槽中.[--Then uses that stored energy to pull 1000mb of water per second from an infinite water source below and push it into a connected Sluice.--]"
+				"您可以通过右键单击泵来在泵中收集能量."
+				"然后用存储的能量每秒从下方的无限水源中提取 1000mb 的水,并将其推入连接的洗矿槽中."
 			]
 			dependencies: [
 				"1B69AF5509A2B907"
@@ -46,8 +46,8 @@
 		{
 			x: 4.5d
 			y: -7.5d
-			subtitle: "自动物品输入[--Auto Item Input--]"
-			description: ["&8铁洗矿槽&r可以使用漏斗输入物品,但不接受流体。你必须用桶或&b手动泵&r放置水.[--The &8Iron Sluice&r can accept item insertion with hoppers but not with fluids. You will have to put water with buckets or with the &bManual Pump&r.--]"]
+			subtitle: "自动物品输入"
+			description: ["&8铁洗矿槽&r可以使用漏斗输入物品,但不接受流体。你必须用桶或&b手动泵&r放置水."]
 			dependencies: [
 				"3A520D98DB566C24"
 				"3F05D033EBD0710D"
@@ -77,18 +77,18 @@
 			x: 5.5d
 			y: -12.0d
 			description: [
-				"钢化玻璃罐用于在罐子下方使用不同的热源混合、熔炼物品和液体.[--Tempered Glass Jars are used to mix, smelt items and fluids using different heat sources below the jar.--]"
+				"钢化玻璃罐用于在罐子下方使用不同的热源混合、熔炼物品和液体."
 				""
-				"在顶部中心,您可以查看当前选择的配方,以及(如果可以的话)其处理过程,以及开始/停止处理的配置.[--In the top center you can see the currently selected recipe and (if applicable) its process, as well as controls to start / stop processing.--]"
-				"底部是配方选择区域,如果配方显示灰色那么您在罐子下没有正确的热源.[--At the bottom is the recipe selection area, if a recipe is greyed out it means you don't have the right heat source below the jar.--]"
+				"在顶部中心,您可以查看当前选择的配方,以及(如果可以的话)其处理过程,以及开始/停止处理的配置."
+				"底部是配方选择区域,如果配方显示灰色那么您在罐子下没有正确的热源."
 				""
-				"&n&l&7无温&r:荧石、哭泣的黑曜石、重生锚、任何方块[--&n&l&7No Temperature&r : Glowstone, Crying Obsidian, Respawn Anchor, Any Block--]"
+				"&n&l&7无温&r:荧石、哭泣的黑曜石、重生锚、任何方块"
 				""
-				"&n&l&6低温&r:营火、火把、熔岩、熔岩块、烈焰血[--&n&l&6Low Temperature&r : Campfire, Fire, Torch, Lava, Magma Block, Blazing Blood--]"
+				"&n&l&6低温&r:营火、火把、熔岩、熔岩块、烈焰血"
 				""
-				"&n&l&b高温&r:灵魂营火、信标、蓝色岩浆块、灵魂火[--&n&l&bHigh Temperature&r : Soul Campfire, Beacon, Blue Magma Block, Soul Fire--]"
+				"&n&l&b高温&r:灵魂营火、信标、蓝色岩浆块、灵魂火"
 				""
-				"&n&l零层温度&r:雪、冰、浮冰、蓝冰、干冰、水、Cryotheum[--&n&lSub-Zero Temperature&r : Snow, Ice, Packed Ice, Blue Ice, Dry Ice, Water, Cryotheum--]"
+				"&n&l零层温度&r:雪、冰、浮冰、蓝冰、干冰、水、Cryotheum"
 				""
 				"{image:chromasky2:textures/quest/jar.png width:200 height:140 align:1}"
 			]
@@ -120,9 +120,9 @@
 			x: 9.0d
 			y: -12.0d
 			description: [
-				"&a玻璃罐&r允许你将液体添加到钢化玻璃罐中.[--The &aGlass Jar&r allows you to add fluid to the Tempered Jar.--]"
+				"&a玻璃罐&r允许你将液体添加到钢化玻璃罐中."
 				""
-				"如果你破坏玻璃罐,它里边的东西将消失.[--If you break the Glass Jar, its contents will be lost.--]"
+				"如果你破坏玻璃罐,它里边的东西将消失."
 			]
 			dependencies: [
 				"1B69AF5509A2B907"
@@ -299,9 +299,9 @@
 			y: -12.0d
 			shape: "pentagon"
 			description: [
-				"&4下界画作&r允许你跳进下界.[--&4Nether Painting&r allows you to access the nether by jumping through it.--]"
+				"&4下界画作&r允许你跳进下界."
 				""
-				"使用&a/MyIsland&r 指令将回到您的岛屿上.[--Use &a/myisland &rcommand to ruturn on your island.--]"
+				"使用&a/MyIsland&r 指令将回到您的岛屿上."
 			]
 			dependencies: [
 				"5357A7208D1C2B46"
@@ -332,7 +332,7 @@
 		{
 			x: 4.0d
 			y: -12.0d
-			description: ["在FTB罐中熔化&8圆石&r你会得到&c熔岩&r.[--By melting &8cobblestone&r in FTB Jar you will get &clava&r.--]"]
+			description: ["在FTB罐中熔化&8圆石&r你会得到&c熔岩&r."]
 			dependencies: ["054C13431F464EC6"]
 			id: "0BA2FBC41F80C847"
 			tasks: [
@@ -449,7 +449,7 @@
 		{
 			x: 2.5d
 			y: -10.5d
-			description: ["每40tick制作1个圆石.[--Makes 1 Cobblestone every 40 ticks.--]"]
+			description: ["每40tick制作1个圆石."]
 			dependencies: ["0BA2FBC41F80C847"]
 			id: "4DE1E7A69AD51402"
 			tasks: [
@@ -524,8 +524,8 @@
 		{
 			x: 6.0d
 			y: -7.5d
-			subtitle: "物品和流体![--Items and Fluids ! --]"
-			description: ["&b钻石洗矿槽&r可以通过漏斗和流体输入电缆(例如&9集成动力&r或&e Pipez&r)实现完全自动化.[--The &bDiamond Sluice&r can be fully automated with both hoppers and fluid insertion cables such as &9Integrated Dynamics&r or &ePipez&r.--]"]
+			subtitle: "物品和流体!"
+			description: ["&b钻石洗矿槽&r可以通过漏斗和流体输入线缆(例如&9集成动力&r或&e Pipez&r)实现完全自动化."]
 			dependencies: ["6A80532DD41BEECA"]
 			id: "0F668D0787EC56C6"
 			tasks: [
@@ -574,7 +574,7 @@
 			]
 		}
 		{
-			title: "团[--Clusters--]"
+			title: "团"
 			x: 9.0d
 			y: -10.5d
 			shape: "circle"
@@ -587,7 +587,7 @@
 				{
 					id: "72E74E9FAD435E21"
 					type: "item"
-					title: "任意组[--Any Cluster--]"
+					title: "任意组"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -705,7 +705,7 @@
 		{
 			x: 2.5d
 			y: -9.5d
-			description: ["每10tick制作1个圆石.[--Makes 1 Cobblestone every 10 ticks.--]"]
+			description: ["每10tick制作1个圆石."]
 			dependencies: ["266D1CAE103C0114"]
 			id: "50A94B8D166B0C9A"
 			tasks: [
@@ -726,7 +726,7 @@
 		{
 			x: 2.5d
 			y: -8.5d
-			description: ["每5tick制作1个圆石.[--Makes 1 Cobblestone every 5 ticks.--]"]
+			description: ["每5tick制作1个圆石."]
 			dependencies: [
 				"50A94B8D166B0C9A"
 				"540B2743537BEA5E"
@@ -751,7 +751,7 @@
 			x: 7.5d
 			y: -14.5d
 			shape: "octagon"
-			description: ["铸铁齿轮是FTB罐配方的主要组件之一.[--The Cast Iron Gear is one of the main components in FTB Jar recipes.--]"]
+			description: ["铸铁齿轮是FTB罐配方的主要组件之一."]
 			dependencies: ["1B69AF5509A2B907"]
 			size: 1.3d
 			id: "67E762B3198BF56C"
@@ -772,7 +772,7 @@
 			]
 		}
 		{
-			title: "粘土球[--Clay Ball--]"
+			title: "粘土球"
 			x: 7.0d
 			y: -10.5d
 			dependencies: ["054C13431F464EC6"]
@@ -795,7 +795,7 @@
 			]
 		}
 		{
-			title: "砖泥[--Grout--]"
+			title: "砖泥"
 			x: 7.5d
 			y: -9.5d
 			dependencies: ["712D827C9FB7556F"]
@@ -822,7 +822,7 @@
 			]
 		}
 		{
-			title: "焦黑砖[--Seared Brick--]"
+			title: "焦黑砖"
 			x: 8.719047619047643d
 			y: -8.652721088435342d
 			shape: "gear"

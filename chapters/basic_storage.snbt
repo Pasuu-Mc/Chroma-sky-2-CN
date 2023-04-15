@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 1
 	filename: "basic_storage"
-	title: "基本存储[--Basic Storage--]"
+	title: "基本存储"
 	icon: "krate:krate_big"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -279,7 +279,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["将抽屉的存储量增加 2 .[--Increases the storage amount of the drawer it is applied to by 2.--]"]
+			description: ["将抽屉的存储量增加 2 ."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "7405B83D0ADAC9FE"
 			tasks: [
@@ -300,7 +300,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["将其安装到抽屉的存储量增加 4.[--Increases the storage amount of the drawer it is applied to by 4.--]"]
+			description: ["将其安装到抽屉的存储量增加 4."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "133EB74E48D93422"
 			tasks: [
@@ -321,7 +321,7 @@
 		{
 			x: 2.0d
 			y: 1.0d
-			description: ["将其安装到抽屉的存储量增加 8 .[--Increases the storage amount of the drawer it is applied to by 8.--]"]
+			description: ["将其安装到抽屉的存储量增加 8 ."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "2C9BB21CD8A445DE"
 			tasks: [
@@ -342,7 +342,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			description: ["将其安装到抽屉的存储量增加 16.[--Increases the storage amount of the drawer it is applied to by 16.--]"]
+			description: ["将其安装到抽屉的存储量增加 16."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "13D47AA9963C2A5A"
 			tasks: [
@@ -363,7 +363,7 @@
 		{
 			x: 2.0d
 			y: 3.0d
-			description: ["将其安装到抽屉的存储量增加 32.[--Increases the storage amount of the drawer it is applied to by 32.--]"]
+			description: ["将其安装到抽屉的存储量增加 32."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "7DDF88D02453003F"
 			tasks: [
@@ -384,7 +384,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["此升级将抽屉容量上的任何物品发送到虚空中,以不再被看到.[--This upgrade sends any items over the capacity of the drawer into the void to never be seen again.--]"]
+			description: ["此升级将抽屉容量上的任何物品发送到虚空中,以不再被看到."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "339A4351EEA4BBCD"
 			tasks: [
@@ -403,7 +403,7 @@
 			]
 		}
 		{
-			title: "箱子[--Chest--]"
+			title: "箱子"
 			x: -6.5d
 			y: -2.0d
 			dependencies: ["3F97D03C2402B70D"]
@@ -412,7 +412,7 @@
 				{
 					id: "4DE62D47250F49F6"
 					type: "item"
-					title: "任何箱子[--Any Chests--]"
+					title: "任何箱子"
 					icon: "quark:oak_chest"
 					item: {
 						id: "itemfilters:tag"
@@ -537,7 +537,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["此升级会高亮被储存的方块/物品,对于夜晚效果更好![--This upgrade illuminates the contained block/item, good for night time!--]"]
+			description: ["此升级会高亮被储存的方块/物品,对于夜晚效果更好!"]
 			dependencies: ["5C6387836A9F6896"]
 			id: "34E11B1C3B3443D6"
 			tasks: [
