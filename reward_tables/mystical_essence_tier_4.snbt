@@ -1,7 +1,7 @@
 {
 	id: "6A50CEEDF7712066"
 	order_index: 7
-	title: "&b神秘精华等级4[--&bMystical Essence Tier 4--]"
+	title: "&b神秘精华等级4"
 	icon: "mysticalagriculture:imperium_essence"
 	loot_size: 1
 	use_title: true

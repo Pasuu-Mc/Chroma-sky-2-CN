@@ -3,7 +3,7 @@
 	group: "73390EDA98890AC0"
 	order_index: 1
 	filename: "rftools"
-	title: "RF工具箱[--RFTools--]"
+	title: "RF工具箱"
 	icon: "rftoolsbase:dimensionalshard"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,62 +13,54 @@
 			y: -3.5d
 			shape: "octagon"
 			description: [
-				"这个&3扳手&r可以用&6RF工具&r做很多事情[--This &3Wrench&r can do a lot of stuff with the mod &6RFtools&r--]"
+				"这个&3扳手&r可以用&6RF工具&r做很多事情"
 				""
-				"当你用它右键单击&6RF工具&r的机器时,你可以设置&b输入&r和&4输出输出&r[--When you right click with it on a &6RFtools&r machine you can setup the &b input&r and obviously the &4output&r--]"
+				"当你用它右键单击&6RF工具&r的机器时,你可以设置&b输入&r和&4输出输出&r"
 				""
-				"但是当你&nshift右键单击&r时,你会立即破坏机器,因此你最好使用这个,除非你的镐坚不可摧或具有非常巨大的耐久度[--But when you &nshift right click&r, you break the machine instantly, so you better use that unless you pickaxe is unbreakable or has a very large durability--]"
+				"但是当你&nshift右键单击&r时,你会立即破坏机器,因此你最好使用这个,除非你的镐坚不可摧或具有非常巨大的耐久度"
 			]
 			dependencies: ["3BDDE5E2E3851B58"]
 			id: "31D5F89946C7CA5C"
-			tasks: [
-				{
-					id: "4A2195D17144AC5B"
-					type: "item"
-					item: "rftoolsbase:smartwrench"
-				}
-			]
-			rewards: [
-				{
-					id: "188CC1FECDD1EDC9"
-					type: "item"
-					item: "thermal:enderium_plate"
-				}
-			]
+			tasks: [{
+				id: "4A2195D17144AC5B"
+				type: "item"
+				item: "rftoolsbase:smartwrench"
+			}]
+			rewards: [{
+				id: "188CC1FECDD1EDC9"
+				type: "item"
+				item: "thermal:enderium_plate"
+			}]
 		}
 		{
 			x: 0.5d
 			y: -1.0d
 			shape: "gear"
-			description: ["这个&6机器框架&r是很多&bRF工具&r的机器的合成组件[--This &6Machine Frame&r is a crafting ingredient for a lot of &bRFtools&r machines--]"]
+			description: ["这个&6机器框架&r是很多&bRF工具&r的机器的合成组件"]
 			dependencies: [
 				"39DB67EE674F41A4"
 				"2E1A0AB49E83B283"
 			]
 			size: 1.5d
 			id: "18345F991AFEEF63"
-			tasks: [
-				{
-					id: "41B0F2031C220B61"
-					type: "item"
-					item: "rftoolsbase:machine_frame"
-				}
-			]
-			rewards: [
-				{
-					id: "595F620230FD6419"
-					type: "item"
-					item: "rftoolsbase:machine_frame"
-				}
-			]
+			tasks: [{
+				id: "41B0F2031C220B61"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
+			rewards: [{
+				id: "595F620230FD6419"
+				type: "item"
+				item: "rftoolsbase:machine_frame"
+			}]
 		}
 		{
-			title: "有关末影珍珠的RF[--Rf with EnderPearls--]"
+			title: "有关末影珍珠的RF"
 			x: -1.0d
 			y: -1.0d
 			shape: "diamond"
-			subtitle: "末影能发电机[--Endergenic Power Generation--]"
-			description: ["在合适的时间将末影珍珠扔给末影发电机,并产生能量.[--Throw an Ender Pearl at an Endergenic Generator at just the right moment and energy will be produced.--]"]
+			subtitle: "末影能发电机"
+			description: ["在合适的时间将末影珍珠扔给末影发电机,并产生能量."]
 			dependencies: ["18345F991AFEEF63"]
 			id: "1703D0B715DED2EF"
 			tasks: [
@@ -93,53 +85,46 @@
 					item: "rftoolsutility:sequencer"
 				}
 			]
-			rewards: [
-				{
-					id: "503C40137779F975"
-					type: "item"
-					item: "minecraft:ender_pearl"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "503C40137779F975"
+				type: "item"
+				item: "minecraft:ender_pearl"
+				count: 16
+			}]
 		}
 		{
 			x: 2.0d
 			y: -1.0d
 			shape: "diamond"
 			description: [
-				"三个不同的等级的&b合成机&r[--Three different tiers of &bCrafters&r--]"
+				"三个不同的等级的&b合成机&r"
 				""
-				"每个合成仓都有上一个用于制作的双倍[--Each Crafter has the double of the previous used in the crafting--]"
+				"每个合成仓都有上一个用于制作的双倍"
 				""
-				"1级:两个合成表[--Tier 1 : Two Crafts--]"
+				"1级:两个合成表"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "7E9B96A8D215D21A"
-			tasks: [
-				{
-					id: "0F7BB0DDAC0FBFA8"
-					type: "item"
-					item: "rftoolsutility:crafter1"
-				}
-			]
-			rewards: [
-				{
-					id: "30C04F90E5F46143"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0F7BB0DDAC0FBFA8"
+				type: "item"
+				item: "rftoolsutility:crafter1"
+			}]
+			rewards: [{
+				id: "30C04F90E5F46143"
+				type: "random"
+			}]
 		}
 		{
-			title: "存储[--Storage--]"
+			title: "存储"
 			x: 0.0d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
-				"这里有一个小的存储进度[--Here is a little storage advancement--]"
+				"这里有一个小的存储进度"
 				""
-				"每个&6存储卡&r都有库存限制。因此,你了解,你将拥有四个不同的等级.[--Each &6Storage Card&r has a stock limit. So as you understand that, you will have four different tiers.--]"
-				"每个等级当然都有更好的存储容量[--Each tier has a better stocking capacity of course--]"
+				"每个&6存储卡&r都有库存限制。因此,你了解,你将拥有四个不同的等级."
+				"每个等级当然都有更好的存储容量"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "044CA68B556FEAA9"
@@ -179,13 +164,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "635FAC58F1A0CA90"
-					type: "item"
-					item: "rftoolsstorage:storage_module3"
-				}
-			]
+			rewards: [{
+				id: "635FAC58F1A0CA90"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
 		}
 		{
 			x: -4.5d
@@ -197,23 +180,19 @@
 				"0507BB01DF49C38B"
 			]
 			id: "3C9FE6987201F275"
-			tasks: [
-				{
-					id: "73013BB97D732483"
-					type: "item"
-					item: "rftoolsbase:machine_base"
-				}
-			]
-			rewards: [
-				{
-					id: "7205865B298E224E"
-					type: "item"
-					item: "rftoolsbase:machine_base"
-				}
-			]
+			tasks: [{
+				id: "73013BB97D732483"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
+			rewards: [{
+				id: "7205865B298E224E"
+				type: "item"
+				item: "rftoolsbase:machine_base"
+			}]
 		}
 		{
-			title: "红石物品[--Redstone Stuff--]"
+			title: "红石物品"
 			x: -5.0d
 			y: -1.5d
 			shape: "hexagon"
@@ -251,13 +230,10 @@
 					item: "rftoolspower:power_level"
 				}
 			]
-			rewards: [
-				{
-					id: "08A6AC06FBEB5E4B"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			rewards: [{
+				id: "08A6AC06FBEB5E4B"
+				type: "random"
+			}]
 		}
 		{
 			x: -5.5d
@@ -277,16 +253,13 @@
 					item: "rftoolsutility:screen"
 				}
 			]
-			rewards: [
-				{
-					id: "094BAF9A8DE2DDBD"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			rewards: [{
+				id: "094BAF9A8DE2DDBD"
+				type: "random"
+			}]
 		}
 		{
-			title: "有用的模块[--Usefull Modules--]"
+			title: "有用的模块"
 			x: -6.0d
 			y: -1.5d
 			shape: "hexagon"
@@ -360,136 +333,117 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "02613CA227A900D6"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "02613CA227A900D6"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
-			title: "形状卡[--Shape Cards--]"
+			title: "形状卡"
 			x: 5.5d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "为了建造机[--For the builder--]"
+			subtitle: "为了建造机"
 			description: [
-				"此任务将要求您为&6建造机&r制作所有&2变形卡&r[--This quest will ask you to craft all &2Shape Cards&r for the &6Builder&r--]"
+				"此任务将要求您为&6建造机&r制作所有&2变形卡&r"
 				""
-				"我建议你查看一下&bRF工具&r指南,了解他们的功能......除非你想要一个惊喜,这取决于你[--I suggest you check on the &bRFtools&r guide to see what they do... Unless you wanna have a surprise, it's up to you--]"
+				"我建议你查看一下&bRF工具&r指南,了解他们的功能......除非你想要一个惊喜,这取决于你"
 			]
 			hide_dependency_lines: true
 			dependencies: ["31D5F89946C7CA5C"]
 			size: 1.5d
 			id: "4CF494F5A7587034"
-			tasks: [
-				{
-					id: "142B3FE4B3CEC8FC"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_def"
-				}
-			]
-			rewards: [
-				{
-					id: "7E65AB1EA503DA59"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_def"
-				}
-			]
+			tasks: [{
+				id: "142B3FE4B3CEC8FC"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
+			rewards: [{
+				id: "7E65AB1EA503DA59"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
 		}
 		{
 			x: 1.5d
 			y: -3.0d
 			shape: "hexagon"
 			description: [
-				"这是&3建造机!&r[--Here is the &3Builder !&r--]"
+				"这是&3建造机!&r"
 				""
-				"用它做一些很酷的东西?你可以的![--Build some cool stuff with it? You can!--]"
-				"挖掉一整个区块?你可以的![--Mine an entire chunk? You can!--]"
+				"用它做一些很酷的东西?你可以的!"
+				"挖掉一整个区块?你可以的!"
 				""
-				"只需把想要的形状卡放进去.[--Just put the wanted shape card in it.--]"
+				"只需把想要的形状卡放进去."
 				""
-				"它是如何工作的?用形状卡在主手中按住 Shift 右键单击并选择两个不同的方块,你不想选择两个方块的半径......当然,除非这是你真的想要的.[--How does it work? Shift Right Click with a shape card in the main hand and select two blocks that are opposed to each other, you do not want to select a radius of two blocks... unless that's what you really want of course.--]"
+				"它是如何工作的?用形状卡在主手中按住 Shift 右键单击并选择两个不同的方块,你不想选择两个方块的半径......当然,除非这是你真的想要的."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "16EA12AE325A8069"
-			tasks: [
-				{
-					id: "544F98125E93085A"
-					type: "item"
-					item: "rftoolsbuilder:builder"
-				}
-			]
-			rewards: [
-				{
-					id: "2E73F672F39EC923"
-					type: "item"
-					item: "expandedstorage:netherite_chest"
-				}
-			]
+			tasks: [{
+				id: "544F98125E93085A"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [{
+				id: "2E73F672F39EC923"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: -3.5d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "RF工具手册[--The RFtools book--]"
-			description: ["这本书可以就一些&bRF工具&r的机器或物品提供有用的信息[--This book can provide useful information about some &bRFtools&r machines or items--]"]
+			subtitle: "RF工具手册"
+			description: ["这本书可以就一些&bRF工具&r的机器或物品提供有用的信息"]
 			dependencies: ["31D5F89946C7CA5C"]
 			id: "6B3CA233ED3AB935"
-			tasks: [
-				{
-					id: "0F2FD6B35B1A8E0A"
-					type: "item"
-					item: "rftoolsbase:manual"
-				}
-			]
-			rewards: [
-				{
-					id: "492ED29847A8606E"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0F2FD6B35B1A8E0A"
+				type: "item"
+				item: "rftoolsbase:manual"
+			}]
+			rewards: [{
+				id: "492ED29847A8606E"
+				type: "random"
+			}]
 		}
 		{
 			x: -4.5d
 			y: -4.5d
 			shape: "hexagon"
 			description: [
-				"采矿有时很酷[--Mining can be cool sometimes--]"
+				"采矿有时很酷"
 				""
-				"你可以在几个维度中找到该矿石。没有特定的层可以找到它.[--You can find that ore in several dimensions. There is not a specific layer to find it.--]"
+				"你可以在几个维度中找到该矿石。没有特定的层可以找到它."
 			]
 			dependencies: ["31D5F89946C7CA5C"]
 			id: "028E23DDEAB2ADEE"
-			tasks: [
-				{
-					id: "56A18B1A0CC37C87"
-					type: "item"
-					item: "rftoolsbase:dimensionalshard"
-				}
-			]
-			rewards: [
-				{
-					id: "04B9D911EBD9F714"
-					type: "item"
-					item: "rftoolsbase:dimensionalshard"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "56A18B1A0CC37C87"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
+			rewards: [{
+				id: "04B9D911EBD9F714"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 4
+			}]
 		}
 		{
-			title: "注魔[--Infusing--]"
+			title: "注魔"
 			x: -5.0d
 			y: -5.5d
 			shape: "hexagon"
-			subtitle: "闪闪发光[--Shiny--]"
+			subtitle: "闪闪发光"
 			description: [
-				"发生了什么?![--What happened ?!--]"
+				"发生了什么?!"
 				""
-				"看起来我的钻石和末影珍珠已经改变......[--Seems like my diamonds and my ender pearls have been transformed...--]"
+				"看起来我的钻石和末影珍珠已经改变......"
 			]
 			dependencies: ["028E23DDEAB2ADEE"]
 			id: "1BB80F40F8895B70"
@@ -505,24 +459,22 @@
 					item: "rftoolsbase:infused_enderpearl"
 				}
 			]
-			rewards: [
-				{
-					id: "6C0C08BF355C1CA8"
-					type: "item"
-					item: "rftoolsbase:dimensionalshard"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "6C0C08BF355C1CA8"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+				count: 4
+			}]
 		}
 		{
 			x: -5.5d
 			y: -4.5d
 			shape: "hexagon"
-			subtitle: "提升你的机器[--Boosting your machines--]"
+			subtitle: "提升你的机器"
 			description: [
-				"&3灌注机&r可以“升级”你的&bRF工具&r的机器[--The &3Infuser&r can \"upgrade\" your &bRFtools&r machines--]"
+				"&3灌注机&r可以“升级”你的&bRF工具&r的机器"
 				""
-				"它们会更快!但请注意,它们会消耗更多的能量,你需要用&1维度碎片&r来升级它们[--They will be faster! But be aware, they will consume a lot more energy and you have to upgrade them with &1Dimensional Shards&r--]"
+				"它们会更快!但请注意,它们会消耗更多的能量,你需要用&1维度碎片&r来升级它们"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -530,20 +482,15 @@
 				"028E23DDEAB2ADEE"
 			]
 			id: "7EA7FA062BFAFB45"
-			tasks: [
-				{
-					id: "0A6F18834E50847F"
-					type: "item"
-					item: "rftoolsbase:machine_infuser"
-				}
-			]
-			rewards: [
-				{
-					id: "42CED671182C9716"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0A6F18834E50847F"
+				type: "item"
+				item: "rftoolsbase:machine_infuser"
+			}]
+			rewards: [{
+				id: "42CED671182C9716"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
@@ -551,20 +498,16 @@
 			shape: "octagon"
 			dependencies: ["18345F991AFEEF63"]
 			id: "38E9A6975B2DA7FE"
-			tasks: [
-				{
-					id: "1B2C5E00223429DF"
-					type: "item"
-					item: "rftoolspower:power_core1"
-				}
-			]
-			rewards: [
-				{
-					id: "3A78EF1EA149FCFA"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-			]
+			tasks: [{
+				id: "1B2C5E00223429DF"
+				type: "item"
+				item: "rftoolspower:power_core1"
+			}]
+			rewards: [{
+				id: "3A78EF1EA149FCFA"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
 		}
 		{
 			x: -2.5d
@@ -572,20 +515,16 @@
 			shape: "octagon"
 			dependencies: ["38E9A6975B2DA7FE"]
 			id: "22BB1FD058C929CD"
-			tasks: [
-				{
-					id: "7132F87E1BA1C252"
-					type: "item"
-					item: "rftoolspower:power_core2"
-				}
-			]
-			rewards: [
-				{
-					id: "167729784B7DAC63"
-					type: "item"
-					item: "rftoolsbase:dimensionalshard"
-				}
-			]
+			tasks: [{
+				id: "7132F87E1BA1C252"
+				type: "item"
+				item: "rftoolspower:power_core2"
+			}]
+			rewards: [{
+				id: "167729784B7DAC63"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
 		}
 		{
 			x: -3.0d
@@ -593,42 +532,34 @@
 			shape: "octagon"
 			dependencies: ["22BB1FD058C929CD"]
 			id: "635B4119B3DABE31"
-			tasks: [
-				{
-					id: "2D3A8A58232A3B8A"
-					type: "item"
-					item: "rftoolspower:power_core3"
-				}
-			]
-			rewards: [
-				{
-					id: "13208834E2C30BF8"
-					type: "item"
-					item: "rftoolsbase:dimensionalshard"
-				}
-			]
+			tasks: [{
+				id: "2D3A8A58232A3B8A"
+				type: "item"
+				item: "rftoolspower:power_core3"
+			}]
+			rewards: [{
+				id: "13208834E2C30BF8"
+				type: "item"
+				item: "rftoolsbase:dimensionalshard"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 2.0d
 			shape: "octagon"
-			description: ["在多方块中放置的能量单元越多,储存的能量就越多[--The more powercells you put in the multiblock, the more energy will be stocked--]"]
+			description: ["在多方块中放置的能量单元越多,储存的能量就越多"]
 			dependencies: ["38E9A6975B2DA7FE"]
 			id: "010428B4F1F3BF8B"
-			tasks: [
-				{
-					id: "4892569F094E553C"
-					type: "item"
-					item: "rftoolspower:cell1"
-				}
-			]
-			rewards: [
-				{
-					id: "6CA4F68EE154A8E3"
-					type: "item"
-					item: "rftoolspower:cell1"
-				}
-			]
+			tasks: [{
+				id: "4892569F094E553C"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "6CA4F68EE154A8E3"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
 		}
 		{
 			x: -2.0d
@@ -639,20 +570,16 @@
 				"22BB1FD058C929CD"
 			]
 			id: "417FBC4C46679D2F"
-			tasks: [
-				{
-					id: "07F9CBCF0A2B2F45"
-					type: "item"
-					item: "rftoolspower:cell2"
-				}
-			]
-			rewards: [
-				{
-					id: "11F28890F70A316E"
-					type: "item"
-					item: "rftoolspower:cell2"
-				}
-			]
+			tasks: [{
+				id: "07F9CBCF0A2B2F45"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
+			rewards: [{
+				id: "11F28890F70A316E"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
 		}
 		{
 			x: -3.0d
@@ -663,38 +590,34 @@
 				"635B4119B3DABE31"
 			]
 			id: "7DE0BFEC6ABFA777"
-			tasks: [
-				{
-					id: "0C7C4A4A9EAB1AD7"
-					type: "item"
-					item: "rftoolspower:cell3"
-				}
-			]
-			rewards: [
-				{
-					id: "1AA39C58F67E7BC7"
-					type: "item"
-					item: "rftoolspower:cell3"
-				}
-			]
+			tasks: [{
+				id: "0C7C4A4A9EAB1AD7"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+			rewards: [{
+				id: "1AA39C58F67E7BC7"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
 		}
 		{
-			title: "维度电池[--Dimensional Cells--]"
+			title: "维度电池"
 			x: 1.0d
 			y: -4.0d
 			shape: "hexagon"
-			subtitle: "无线能量[--Wireless Energy--]"
+			subtitle: "无线能量"
 			description: [
-				"正如副标题中所说[--As said in the subtitle--]"
+				"正如副标题中所说"
 				""
-				"&4维度能量单元&r用于为你的能量创建一个无线网络[--&4Powercells&r are used to create a wireless network for your energy--]"
+				"&4维度能量单元&r用于为你的能量创建一个无线网络"
 				""
-				"视单元的不同,它的效果会低或更高.[--Depending on the cell it will be less or more effective.--]"
+				"视单元的不同,它的效果会低或更高."
 				""
-				"它是如何工作的?拿一张&c维度卡&r把它放入&1维度单元中,放在第一个插槽中,上面会有一个数字.[--How does it work? Take a &cCell Card&r and put it in a &1Powercell, put it in the first slot and it will have a number on it.--]"
-				"该数字与你的网络对应。 第二个插槽是将你的网络复制到另一个单元。 将新卡放入另一个&1维度单元&r中.[--That number corresponds to your network. The second slot is to copy your network to another cell. Take the new card and put it in another &1Powercell&r.--]"
+				"它是如何工作的?拿一张&c维度卡&r把它放入&1维度单元中,放在第一个插槽中,上面会有一个数字."
+				"该数字与你的网络对应。 第二个插槽是将你的网络复制到另一个单元。 将新卡放入另一个&1维度单元&r中."
 				""
-				"请注意,玩家可以复制你的网络并将其放入自己的&1维度单元&r中[--Be aware that players can copy your network and put it in their own &1Powercell&r--]"
+				"请注意,玩家可以复制你的网络并将其放入自己的&1维度单元&r中"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "4406B46FBC156090"
@@ -729,20 +652,19 @@
 				{
 					id: "7C3B8C13E9B005D6"
 					type: "random"
-					table_id: 7381842975596526002L
 				}
 			]
 		}
 		{
-			title: "高级存储[--Advanced Storage--]"
+			title: "高级存储"
 			x: -0.5d
 			y: -3.0d
 			shape: "hexagon"
-			subtitle: "无线存储?[--Wireless Storage?--]"
+			subtitle: "无线存储?"
 			description: [
-				"现在你有更多的储存空间了[--Now that you have a little more stocking space--]"
+				"现在你有更多的储存空间了"
 				""
-				"也许在进入精炼存储器之前是时候进行一点无线存储了[--Maybe it's time to have a little bit of wireless storage before going to Refined Storage--]"
+				"也许在进入精炼存储器之前是时候进行一点无线存储了"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0A68B5CCF3EB6AE0"
@@ -769,26 +691,23 @@
 					item: "rftoolsbase:tablet"
 				}
 			]
-			rewards: [
-				{
-					id: "099A6CB3721D1EDE"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			rewards: [{
+				id: "099A6CB3721D1EDE"
+				type: "random"
+			}]
 		}
 		{
-			title: "出生点[--Spawner--]"
+			title: "出生点"
 			x: 0.5d
 			y: -5.0d
 			shape: "hexagon"
-			subtitle: "出生生物[--Spawning mobs--]"
+			subtitle: "出生生物"
 			description: [
-				"要生成生物,你必须制作三个光束.[--To spawn mobs you will have to craft three beams.--]"
+				"要生成生物,你必须制作三个光束."
 				""
-				"这个&c注射器&r必须充满怪物的精华(注:龙是不能生成的)[--The &cSyringue&r has to be entirely filled with mob essence (Note that Dragons are not spawnable)--]"
+				"这个&c注射器&r必须充满怪物的精华(注:龙是不能生成的)"
 				""
-				"每个光束必须装满一个物品.[--Each beam has to be filled with one single item.--]"
+				"每个光束必须装满一个物品."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "607AA739B26FA148"
@@ -809,135 +728,114 @@
 					item: "rftoolsutility:syringe"
 				}
 			]
-			rewards: [
-				{
-					id: "04761302C5BAC6BF"
-					type: "item"
-					item: {
-						id: "rftoolsutility:syringe"
-						Count: 1b
-						tag: {
-							mobName: "minecraft:evoker"
-							mobId: "minecraft:evoker"
-							level: 10
-						}
+			rewards: [{
+				id: "04761302C5BAC6BF"
+				type: "item"
+				item: {
+					id: "rftoolsutility:syringe"
+					Count: 1b
+					tag: {
+						mobName: "minecraft:evoker"
+						mobId: "minecraft:evoker"
+						level: 10
 					}
 				}
-			]
+			}]
 		}
 		{
-			title: "护盾[--Shield--]"
+			title: "护盾"
 			x: 2.5d
 			y: 1.0d
 			shape: "octagon"
 			description: [
-				"为了制作一个&b护盾&r,你必须使用&5护盾投影仪&r[--In order to create a &bShield&r you must use &5Shield Projectors&r--]"
+				"为了制作一个&b护盾&r,你必须使用&5护盾投影仪&r"
 				""
-				"每个投影仪都有更多的保护,具体取决于你使用的等级.[--Each projector has more protection depending on the tier you're using.--]"
+				"每个投影仪都有更多的保护,具体取决于你使用的等级."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0DD9AD3742FD755D"
-			tasks: [
-				{
-					id: "391C50260F5F3E95"
-					type: "item"
-					item: "rftoolsbuilder:shield_block1"
-				}
-			]
-			rewards: [
-				{
-					id: "6CB141091C331DCD"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "391C50260F5F3E95"
+				type: "item"
+				item: "rftoolsbuilder:shield_block1"
+			}]
+			rewards: [{
+				id: "6CB141091C331DCD"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "制作烈焰棒[--Creating blazing rods--]"
+			subtitle: "制作烈焰棒"
 			description: [
-				"使用一些能量,你就可以制作一些&6烈焰棒&r[--With some energy, you will be able to craft some &6Blazing Rods&r--]"
+				"使用一些能量,你就可以制作一些&6烈焰棒&r"
 				""
-				"只需放入9个,它们将被改变[--Just insert nine of them and they will be transformed--]"
+				"只需放入9个,它们将被改变"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0C051B4D0DB0D3E0"
-			tasks: [
-				{
-					id: "45BE9227E4ACB4A8"
-					type: "item"
-					item: "rftoolspower:blazing_agitator"
-				}
-			]
-			rewards: [
-				{
-					id: "0902339D2164F227"
-					type: "item"
-					item: "minecraft:blaze_rod"
-					count: 6
-				}
-			]
+			tasks: [{
+				id: "45BE9227E4ACB4A8"
+				type: "item"
+				item: "rftoolspower:blazing_agitator"
+			}]
+			rewards: [{
+				id: "0902339D2164F227"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 6
+			}]
 		}
 		{
 			x: 0.0d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "灌注烈焰棒[--Infusing Blazing Rods--]"
+			subtitle: "灌注烈焰棒"
 			description: [
-				"一旦你制作了&6烈焰棒&r,你可以用一些&b维度碎片&r灌注它们[--Once you have crafted the &6Blazing Rods&r you can infuse them with some &bDimensional Shards&r--]"
+				"一旦你制作了&6烈焰棒&r,你可以用一些&b维度碎片&r灌注它们"
 				""
-				"插入一个棒子和碎片,然后让配方工作吧.[--Insert one rod and shards and let the recipe do its job.--]"
+				"插入一个棒子和碎片,然后让配方工作吧."
 				""
-				"一旦你这样做了,这个&b灌注&r&6充能棒&r会比一个&6充能棒&r产生更多的RF[--Once that is done this &bInfused&r &6Blazing Rod&r will generate more RF than a single &6Blazing Rod&r--]"
+				"一旦你这样做了,这个&b灌注&r&6充能棒&r会比一个&6充能棒&r产生更多的RF"
 			]
 			dependencies: ["0C051B4D0DB0D3E0"]
 			id: "7C9E5CF4B29B5F0D"
-			tasks: [
-				{
-					id: "4480A1F1A8A050AC"
-					type: "item"
-					item: "rftoolspower:blazing_infuser"
-				}
-			]
-			rewards: [
-				{
-					id: "2C523514CAB99F54"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "4480A1F1A8A050AC"
+				type: "item"
+				item: "rftoolspower:blazing_infuser"
+			}]
+			rewards: [{
+				id: "2C523514CAB99F54"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.0d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "用&6烈焰棒&r产生RF[--Generates RF with &6Blazing Rods&r--]"
+			subtitle: "用&6烈焰棒&r产生RF"
 			description: [
-				"正如我们在最后一个任务中看到的那样[--So as we saw on the last quest--]"
+				"正如我们在最后一个任务中看到的那样"
 				""
-				"只需插入你的&b灌注&r&6充能棒&r并产生一些RF![--Just insert your &bInfused&r &6Blazing Rods&r and generate some RF !--]"
+				"只需插入你的&b灌注&r&6充能棒&r并产生一些RF!"
 			]
 			dependencies: ["7C9E5CF4B29B5F0D"]
 			id: "772D1176C3CD602A"
-			tasks: [
-				{
-					id: "3C2E5326C000406B"
-					type: "item"
-					item: "rftoolspower:blazing_generator"
-				}
-			]
-			rewards: [
-				{
-					id: "2264E1EA896305B9"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "3C2E5326C000406B"
+				type: "item"
+				item: "rftoolspower:blazing_generator"
+			}]
+			rewards: [{
+				id: "2264E1EA896305B9"
+				type: "random"
+			}]
 		}
 		{
-			title: "传送器[--Teleporter--]"
+			title: "传送器"
 			x: -1.5d
 			y: -1.5d
 			shape: "diamond"
@@ -970,13 +868,11 @@
 					item: "rftoolsutility:simple_dialer"
 				}
 			]
-			rewards: [
-				{
-					id: "429ABE8A7D0E866D"
-					type: "item"
-					item: "rftoolsutility:matter_receiver"
-				}
-			]
+			rewards: [{
+				id: "429ABE8A7D0E866D"
+				type: "item"
+				item: "rftoolsutility:matter_receiver"
+			}]
 		}
 		{
 			x: -1.5d
@@ -1008,13 +904,10 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "2B7370DF6D8CA7FD"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			rewards: [{
+				id: "2B7370DF6D8CA7FD"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.0d
@@ -1024,48 +917,40 @@
 			dependencies: ["18345F991AFEEF63"]
 			size: 1.5d
 			id: "2A641717D5114E2B"
-			tasks: [
-				{
-					id: "57DC97964E750E9B"
-					type: "item"
-					item: "xnet:controller"
-				}
-			]
-			rewards: [
-				{
-					id: "1A1D5C19C2E60722"
-					type: "item"
-					item: "xnet:controller"
-				}
-			]
+			tasks: [{
+				id: "57DC97964E750E9B"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			rewards: [{
+				id: "1A1D5C19C2E60722"
+				type: "item"
+				item: "xnet:controller"
+			}]
 		}
 		{
 			x: 9.5d
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"如果您想超过 8 个频道限制,或者想连接多个不同的网络,您可以使用路由器制作“路由网络”。[--If you want to go beyond the eight-channel limit or you want to connect multiple distinct networks you can make a 'routing network' using routers.--]"
+				"如果您想超过 8 个频道限制,或者想连接多个不同的网络,您可以使用路由器制作“路由网络”。"
 				""
-				"单个路由器已经足以连接多达 6 个(路由器的6 个面)通道,但使用路由电缆和路由连接器,你也可以用路由器制作一个路由网络.[--A single router is already sufficient to connect up to six (six sides of the router) channels but using routing cables and routing connectors you can also make a routing network out of routers.--]"
+				"单个路由器已经足以连接多达 6 个(路由器的6 个面)通道,但使用路由电缆和路由连接器,你也可以用路由器制作一个路由网络."
 				""
-				"请注意,在单个路由网络中,你只能有 32 个已公布的频道.[--Note that on a single routing network you can only have 32 published channels.--]"
+				"请注意,在单个路由网络中,你只能有 32 个已公布的频道."
 			]
 			dependencies: ["2A641717D5114E2B"]
 			id: "1AE03B337893F7FC"
-			tasks: [
-				{
-					id: "22EFF6F484AB995B"
-					type: "item"
-					item: "xnet:router"
-				}
-			]
-			rewards: [
-				{
-					id: "09A7ECE4339607D9"
-					type: "item"
-					item: "xnet:router"
-				}
-			]
+			tasks: [{
+				id: "22EFF6F484AB995B"
+				type: "item"
+				item: "xnet:router"
+			}]
+			rewards: [{
+				id: "09A7ECE4339607D9"
+				type: "item"
+				item: "xnet:router"
+			}]
 		}
 		{
 			x: 12.5d
@@ -1074,20 +959,15 @@
 			hide_dependency_lines: true
 			dependencies: ["2A641717D5114E2B"]
 			id: "1F1CC1F5A7263A62"
-			tasks: [
-				{
-					id: "1E6DDBBEB5C27529"
-					type: "item"
-					item: "xnet:wireless_router"
-				}
-			]
-			rewards: [
-				{
-					id: "7046552A7A18E81C"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "1E6DDBBEB5C27529"
+				type: "item"
+				item: "xnet:wireless_router"
+			}]
+			rewards: [{
+				id: "7046552A7A18E81C"
+				type: "random"
+			}]
 		}
 		{
 			x: 12.5d
@@ -1096,22 +976,18 @@
 			hide_dependency_lines: true
 			dependencies: ["2A641717D5114E2B"]
 			id: "25B8FFBE3C888F97"
-			tasks: [
-				{
-					id: "4CD08E5940651607"
-					type: "item"
-					item: "xnet:antenna_base"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "731C87F51CB64EDD"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4CD08E5940651607"
+				type: "item"
+				item: "xnet:antenna_base"
+				count: 2L
+			}]
+			rewards: [{
+				id: "731C87F51CB64EDD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 13.0d
@@ -1120,21 +996,17 @@
 			hide_dependency_lines: true
 			dependencies: ["2A641717D5114E2B"]
 			id: "3234B9069F37DEEC"
-			tasks: [
-				{
-					id: "79BCCCA938BF0A25"
-					type: "item"
-					item: "xnet:antenna"
-				}
-			]
-			rewards: [
-				{
-					id: "15A6544804ED50FD"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "79BCCCA938BF0A25"
+				type: "item"
+				item: "xnet:antenna"
+			}]
+			rewards: [{
+				id: "15A6544804ED50FD"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 12.0d
@@ -1143,21 +1015,17 @@
 			hide_dependency_lines: true
 			dependencies: ["2A641717D5114E2B"]
 			id: "682ED3D7DBDD50E8"
-			tasks: [
-				{
-					id: "5542A587E688B91C"
-					type: "item"
-					item: "xnet:antenna_dish"
-				}
-			]
-			rewards: [
-				{
-					id: "25F5D422BF5C3C96"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "5542A587E688B91C"
+				type: "item"
+				item: "xnet:antenna_dish"
+			}]
+			rewards: [{
+				id: "25F5D422BF5C3C96"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 9.5d
@@ -1165,20 +1033,16 @@
 			shape: "diamond"
 			dependencies: ["2A641717D5114E2B"]
 			id: "4033BAF05AA5C85D"
-			tasks: [
-				{
-					id: "227D36C2B771081C"
-					type: "item"
-					item: "xnet:connector_routing"
-				}
-			]
-			rewards: [
-				{
-					id: "109B3899792CA44C"
-					type: "item"
-					item: "xnet:advanced_connector_routing"
-				}
-			]
+			tasks: [{
+				id: "227D36C2B771081C"
+				type: "item"
+				item: "xnet:connector_routing"
+			}]
+			rewards: [{
+				id: "109B3899792CA44C"
+				type: "item"
+				item: "xnet:advanced_connector_routing"
+			}]
 		}
 		{
 			x: 10.0d
@@ -1186,22 +1050,18 @@
 			shape: "diamond"
 			dependencies: ["2A641717D5114E2B"]
 			id: "4F0325E9A015B8A6"
-			tasks: [
-				{
-					id: "263D61B3197A32B1"
-					type: "item"
-					item: "xnet:netcable_routing"
-					count: 32L
-				}
-			]
-			rewards: [
-				{
-					id: "4DDBEC2B2BE697B7"
-					type: "item"
-					item: "xnet:netcable_routing"
-					count: 32
-				}
-			]
+			tasks: [{
+				id: "263D61B3197A32B1"
+				type: "item"
+				item: "xnet:netcable_routing"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4DDBEC2B2BE697B7"
+				type: "item"
+				item: "xnet:netcable_routing"
+				count: 32
+			}]
 		}
 		{
 			x: 8.0d
@@ -1209,22 +1069,18 @@
 			shape: "diamond"
 			dependencies: ["2A641717D5114E2B"]
 			id: "6D983808F3542756"
-			tasks: [
-				{
-					id: "636D7A51C0A5DCB1"
-					type: "item"
-					item: "xnet:netcable_blue"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "4422B3DF73B57A1C"
-					type: "item"
-					item: "xnet:netcable_blue"
-					count: 16
-				}
-			]
+			tasks: [{
+				id: "636D7A51C0A5DCB1"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4422B3DF73B57A1C"
+				type: "item"
+				item: "xnet:netcable_blue"
+				count: 16
+			}]
 		}
 		{
 			x: 9.0d
@@ -1232,20 +1088,16 @@
 			shape: "diamond"
 			dependencies: ["2A641717D5114E2B"]
 			id: "4B62F66E9380565F"
-			tasks: [
-				{
-					id: "00154F5A2D1CE4C3"
-					type: "item"
-					item: "xnet:connector_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "0DC035D963AA1371"
-					type: "item"
-					item: "xnet:advanced_connector_blue"
-				}
-			]
+			tasks: [{
+				id: "00154F5A2D1CE4C3"
+				type: "item"
+				item: "xnet:connector_upgrade"
+			}]
+			rewards: [{
+				id: "0DC035D963AA1371"
+				type: "item"
+				item: "xnet:advanced_connector_blue"
+			}]
 		}
 		{
 			x: 8.5d
@@ -1253,94 +1105,77 @@
 			shape: "diamond"
 			dependencies: ["2A641717D5114E2B"]
 			id: "6B5608F2B8B282C5"
-			tasks: [
-				{
-					id: "3E5C6E63956C05BC"
-					type: "item"
-					item: "xnet:facade"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "07B5933EA2B4C949"
-					type: "item"
-					item: "xnet:facade"
-					count: 16
-				}
-			]
+			tasks: [{
+				id: "3E5C6E63956C05BC"
+				type: "item"
+				item: "xnet:facade"
+				count: 16L
+			}]
+			rewards: [{
+				id: "07B5933EA2B4C949"
+				type: "item"
+				item: "xnet:facade"
+				count: 16
+			}]
 		}
 		{
 			x: 8.5d
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"您使用连接器将机器连接到您的网络中.[--You use connectors to connect machines to your network.--]"
+				"您使用连接器将机器连接到您的网络中."
 				""
-				"普通连接器只允许通过放置连接器的侧面访问.[--Normal connectors only allow access through the side from which you are placing the connector.--]"
+				"普通连接器只允许通过放置连接器的侧面访问."
 				""
-				"高级连接器具有其他的优势。它们允许提高物品和流体传输的速度,并且可以存储更多的 RF.[--Advanced connectors have other advantages. They allow higher speeds for item and fluid transfer and can store more RF.--]"
+				"高级连接器具有其他的优势。它们允许提高物品和流体传输的速度,并且可以存储更多的 RF."
 			]
 			dependencies: ["2A641717D5114E2B"]
 			id: "6D6553BAA36471D4"
-			tasks: [
-				{
-					id: "1B7ECE7BC9163BF7"
-					type: "item"
-					item: "xnet:connector_blue"
-				}
-			]
-			rewards: [
-				{
-					id: "1B33261219335A8D"
-					type: "item"
-					item: "xnet:connector_blue"
-				}
-			]
+			tasks: [{
+				id: "1B7ECE7BC9163BF7"
+				type: "item"
+				item: "xnet:connector_blue"
+			}]
+			rewards: [{
+				id: "1B33261219335A8D"
+				type: "item"
+				item: "xnet:connector_blue"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -1.5d
 			shape: "diamond"
-			description: ["2级:四个合成表[--Tier 2 : Four Crafts--]"]
+			description: ["2级:四个合成表"]
 			dependencies: ["7E9B96A8D215D21A"]
 			id: "6231B50255715C83"
-			tasks: [
-				{
-					id: "7093F0DB84D30AC7"
-					type: "item"
-					item: "rftoolsutility:crafter2"
-				}
-			]
-			rewards: [
-				{
-					id: "66EAE9D7C889C8BB"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "7093F0DB84D30AC7"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+			rewards: [{
+				id: "66EAE9D7C889C8BB"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -0.5d
 			shape: "diamond"
-			description: ["3级:8个合成表[--Tier 3 : Eight Crafts--]"]
+			description: ["3级:8个合成表"]
 			dependencies: ["6231B50255715C83"]
 			id: "1C03FA173D7A81FB"
-			tasks: [
-				{
-					id: "5785E23E73EA1AA9"
-					type: "item"
-					item: "rftoolsutility:crafter3"
-				}
-			]
-			rewards: [
-				{
-					id: "44CE53D997516F7F"
-					type: "item"
-					item: "rftoolsutility:crafter3"
-				}
-			]
+			tasks: [{
+				id: "5785E23E73EA1AA9"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "44CE53D997516F7F"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
 		}
 		{
 			x: 5.0d
@@ -1348,20 +1183,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "70E987913CFEFEB4"
-			tasks: [
-				{
-					id: "4356FB93493B7847"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_liquid"
-				}
-			]
-			rewards: [
-				{
-					id: "291D1EA9F84CD687"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "4356FB93493B7847"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+			rewards: [{
+				id: "291D1EA9F84CD687"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1369,20 +1200,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "5B59623E6E269E30"
-			tasks: [
-				{
-					id: "0970C4D2AFC9CA69"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_pump"
-				}
-			]
-			rewards: [
-				{
-					id: "1E098D2AC57EB3A2"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "0970C4D2AFC9CA69"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump"
+			}]
+			rewards: [{
+				id: "1E098D2AC57EB3A2"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1390,20 +1217,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "27F02CBD3A4829FA"
-			tasks: [
-				{
-					id: "2B6DA3C7F3FA96C5"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_pump_clear"
-				}
-			]
-			rewards: [
-				{
-					id: "55B8A3CEC088791C"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "2B6DA3C7F3FA96C5"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump_clear"
+			}]
+			rewards: [{
+				id: "55B8A3CEC088791C"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1411,20 +1234,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "1B36D1A71262B772"
-			tasks: [
-				{
-					id: "303657E09FFF8B60"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry"
-				}
-			]
-			rewards: [
-				{
-					id: "0C02B1E9B66671EF"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "303657E09FFF8B60"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry"
+			}]
+			rewards: [{
+				id: "0C02B1E9B66671EF"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 6.5d
@@ -1432,20 +1251,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "6332E5DCB623DE92"
-			tasks: [
-				{
-					id: "75A9A522C45DB476"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear"
-				}
-			]
-			rewards: [
-				{
-					id: "7616B5CC9A9212A7"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "75A9A522C45DB476"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+			rewards: [{
+				id: "7616B5CC9A9212A7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1453,20 +1268,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "3E8E015D67283D15"
-			tasks: [
-				{
-					id: "3891C56F16899289"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
-				}
-			]
-			rewards: [
-				{
-					id: "0358973DC8E07716"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "3891C56F16899289"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+			}]
+			rewards: [{
+				id: "0358973DC8E07716"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 6.5d
@@ -1474,20 +1285,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "10CA4F42BE099260"
-			tasks: [
-				{
-					id: "4FC5BFC5A180DC33"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_clear_silk"
-				}
-			]
-			rewards: [
-				{
-					id: "3FE058996250D280"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "4FC5BFC5A180DC33"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			}]
+			rewards: [{
+				id: "3FE058996250D280"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.0d
@@ -1495,20 +1302,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "6A7D6E6EA4DD0B5A"
-			tasks: [
-				{
-					id: "42409A57FDC22F8A"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_fortune"
-				}
-			]
-			rewards: [
-				{
-					id: "55471B685372DC92"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "42409A57FDC22F8A"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_fortune"
+			}]
+			rewards: [{
+				id: "55471B685372DC92"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1516,20 +1319,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "5799A9BC5A40B3CB"
-			tasks: [
-				{
-					id: "264B945E6DAC295D"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_quarry_silk"
-				}
-			]
-			rewards: [
-				{
-					id: "552C4E909B18E4B7"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "264B945E6DAC295D"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_silk"
+			}]
+			rewards: [{
+				id: "552C4E909B18E4B7"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1537,20 +1336,16 @@
 			shape: "diamond"
 			dependencies: ["4CF494F5A7587034"]
 			id: "735867789677B6FA"
-			tasks: [
-				{
-					id: "64CE56DA5ADFD344"
-					type: "item"
-					item: "rftoolsbuilder:shape_card_void"
-				}
-			]
-			rewards: [
-				{
-					id: "310B20EF4B2E6B06"
-					type: "item"
-					item: "minecraft:iron_ingot"
-				}
-			]
+			tasks: [{
+				id: "64CE56DA5ADFD344"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+			rewards: [{
+				id: "310B20EF4B2E6B06"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
 		}
 		{
 			x: 2.0d
@@ -1558,20 +1353,15 @@
 			shape: "octagon"
 			dependencies: ["0DD9AD3742FD755D"]
 			id: "73CA500A539D6583"
-			tasks: [
-				{
-					id: "70FF2C64BFD66165"
-					type: "item"
-					item: "rftoolsbuilder:shield_block2"
-				}
-			]
-			rewards: [
-				{
-					id: "1166AD8C12321E20"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "70FF2C64BFD66165"
+				type: "item"
+				item: "rftoolsbuilder:shield_block2"
+			}]
+			rewards: [{
+				id: "1166AD8C12321E20"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
@@ -1579,20 +1369,15 @@
 			shape: "octagon"
 			dependencies: ["73CA500A539D6583"]
 			id: "167CCDB05CBC9E9B"
-			tasks: [
-				{
-					id: "17037881CCBE53C3"
-					type: "item"
-					item: "rftoolsbuilder:shield_block3"
-				}
-			]
-			rewards: [
-				{
-					id: "4AA23820E004453F"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "17037881CCBE53C3"
+				type: "item"
+				item: "rftoolsbuilder:shield_block3"
+			}]
+			rewards: [{
+				id: "4AA23820E004453F"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.0d
@@ -1603,66 +1388,56 @@
 				"6F027051B26FC2DA"
 			]
 			id: "010E49067555F452"
-			tasks: [
-				{
-					id: "04C16A870CAA1FC9"
-					type: "item"
-					item: "rftoolsbuilder:shield_block4"
-				}
-			]
-			rewards: [
-				{
-					id: "453753F8C23BC6E8"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "04C16A870CAA1FC9"
+				type: "item"
+				item: "rftoolsbuilder:shield_block4"
+			}]
+			rewards: [{
+				id: "453753F8C23BC6E8"
+				type: "random"
+			}]
 		}
 		{
-			title: "护盾模板[--Shield Template--]"
+			title: "护盾模板"
 			x: 3.5d
 			y: 0.5d
 			shape: "octagon"
 			dependencies: ["0DD9AD3742FD755D"]
 			id: "6F027051B26FC2DA"
-			tasks: [
-				{
-					id: "5F6C223307D37514"
-					type: "item"
-					title: "护盾模板[--Shield Template--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "rftoolsbuilder:blue_shield_template_block"
-									Count: 1b
-								}
-								{
-									id: "rftoolsbuilder:red_shield_template_block"
-									Count: 1b
-								}
-								{
-									id: "rftoolsbuilder:green_shield_template_block"
-									Count: 1b
-								}
-								{
-									id: "rftoolsbuilder:yellow_shield_template_block"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "5F6C223307D37514"
+				type: "item"
+				title: "护盾模板"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "rftoolsbuilder:blue_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:red_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:green_shield_template_block"
+								Count: 1b
+							}
+							{
+								id: "rftoolsbuilder:yellow_shield_template_block"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "78C0BFC87238AB77"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "78C0BFC87238AB77"
+				type: "random"
+			}]
 		}
 	]
 }

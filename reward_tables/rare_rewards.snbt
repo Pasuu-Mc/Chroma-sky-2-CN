@@ -1,7 +1,7 @@
 {
 	id: "3BA9B25D0E222D50"
 	order_index: 2
-	title: "&5奖励[--&5Rare Rewards--]"
+	title: "&5奖励"
 	icon: "losttrinkets:treasure_bag"
 	loot_size: 1
 	hide_tooltip: true

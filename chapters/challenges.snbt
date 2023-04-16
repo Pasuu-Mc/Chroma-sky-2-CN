@@ -3,7 +3,7 @@
 	group: "079627CE8649F5BB"
 	order_index: 0
 	filename: "challenges"
-	title: "挑战[--Challenges--]"
+	title: "挑战"
 	icon: "minecraft:experience_bottle"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,22 +13,20 @@
 			y: 1.0d
 			shape: "octagon"
 			id: "0FAC8439915CB800"
-			tasks: [
-				{
-					id: "5E3B2317B0D2F5A6"
-					type: "stat"
-					title: "愤怒消失?[--Rage Quit ?--]"
-					icon: {
-						id: "ftbquests:custom_icon"
-						Count: 1b
-						tag: {
-							Icon: "brandonscore:textures/gui/redstone/never_active.png"
-						}
+			tasks: [{
+				id: "5E3B2317B0D2F5A6"
+				type: "stat"
+				title: "愤怒消失?"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "brandonscore:textures/gui/redstone/never_active.png"
 					}
-					stat: "minecraft:leave_game"
-					value: 100
 				}
-			]
+				stat: "minecraft:leave_game"
+				value: 100
+			}]
 			rewards: [
 				{
 					id: "140C8755C0F8383D"
@@ -38,7 +36,6 @@
 				{
 					id: "56FD1FFE37AF23DD"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -46,22 +43,19 @@
 			x: 2.0d
 			y: 0.0d
 			shape: "octagon"
-			subtitle: "500个小时[--500 hours--]"
+			subtitle: "500个小时"
 			id: "4C1F56190A907ACA"
-			tasks: [
-				{
-					id: "0212112F26F6FF66"
-					type: "stat"
-					icon: "supplementaries:clock_block"
-					stat: "minecraft:play_one_minute"
-					value: 36000000
-				}
-			]
+			tasks: [{
+				id: "0212112F26F6FF66"
+				type: "stat"
+				icon: "supplementaries:clock_block"
+				stat: "minecraft:play_one_minute"
+				value: 36000000
+			}]
 			rewards: [
 				{
 					id: "35075142FDDF2D1F"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "2B4A56CB886E1F86"
@@ -75,21 +69,19 @@
 			y: 2.0d
 			shape: "octagon"
 			id: "5F3E1AE61DE04F09"
-			tasks: [
-				{
-					id: "16A563D53ADE520D"
-					type: "stat"
-					icon: {
-						id: "theabyss:nosaj_sword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "16A563D53ADE520D"
+				type: "stat"
+				icon: {
+					id: "theabyss:nosaj_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
-					stat: "minecraft:mob_kills"
-					value: 100000
 				}
-			]
+				stat: "minecraft:mob_kills"
+				value: 100000
+			}]
 			rewards: [
 				{
 					id: "33AC3CC091B65952"
@@ -99,7 +91,6 @@
 				{
 					id: "52319FDCA84AE8BE"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -107,17 +98,15 @@
 			x: -1.5d
 			y: 1.0d
 			shape: "octagon"
-			subtitle: "神的杀手[--God's Slayer--]"
+			subtitle: "神的杀手"
 			id: "49032A43B4D96127"
-			tasks: [
-				{
-					id: "0498CB3DAEDEAC08"
-					type: "kill"
-					icon: "draconicevolution:chaos_shard"
-					entity: "draconicevolution:draconic_guardian"
-					value: 1L
-				}
-			]
+			tasks: [{
+				id: "0498CB3DAEDEAC08"
+				type: "kill"
+				icon: "draconicevolution:chaos_shard"
+				entity: "draconicevolution:draconic_guardian"
+				value: 1L
+			}]
 			rewards: [
 				{
 					id: "1EDE413F628010FC"
@@ -128,7 +117,6 @@
 				{
 					id: "30FD07BDF06C6392"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -137,15 +125,13 @@
 			y: 2.0d
 			shape: "octagon"
 			id: "5097CD1FDA88CEA5"
-			tasks: [
-				{
-					id: "1F3FDC023558BA3E"
-					type: "kill"
-					icon: "minecraft:nether_star"
-					entity: "minecraft:wither"
-					value: 50L
-				}
-			]
+			tasks: [{
+				id: "1F3FDC023558BA3E"
+				type: "kill"
+				icon: "minecraft:nether_star"
+				entity: "minecraft:wither"
+				value: 50L
+			}]
 			rewards: [
 				{
 					id: "5B36832BF9375CBC"
@@ -155,7 +141,6 @@
 				{
 					id: "343111F005E0956D"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -164,15 +149,13 @@
 			y: 0.0d
 			shape: "octagon"
 			id: "27B2E0ED3A48AB56"
-			tasks: [
-				{
-					id: "7B0EBBB05E94628D"
-					type: "kill"
-					icon: "minecraft:dragon_head"
-					entity: "minecraft:ender_dragon"
-					value: 10L
-				}
-			]
+			tasks: [{
+				id: "7B0EBBB05E94628D"
+				type: "kill"
+				icon: "minecraft:dragon_head"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
 			rewards: [
 				{
 					id: "5BBC8F2E9AA551D8"
@@ -182,7 +165,6 @@
 				{
 					id: "524703E68DFCB003"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -191,15 +173,13 @@
 			y: 2.5d
 			shape: "octagon"
 			id: "678C179D2B54587C"
-			tasks: [
-				{
-					id: "67D55B5A334765D3"
-					type: "stat"
-					icon: "losttrinkets:blaze_heart"
-					stat: "minecraft:animals_bred"
-					value: 250
-				}
-			]
+			tasks: [{
+				id: "67D55B5A334765D3"
+				type: "stat"
+				icon: "losttrinkets:blaze_heart"
+				stat: "minecraft:animals_bred"
+				value: 250
+			}]
 			rewards: [
 				{
 					id: "6958B0E33A7313D8"
@@ -210,7 +190,6 @@
 				{
 					id: "0DD1E89B6C5319BF"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -219,26 +198,22 @@
 			y: -1.0d
 			shape: "octagon"
 			id: "1FBC4795122E5ECF"
-			tasks: [
-				{
-					id: "0084A2090D09CC7C"
-					type: "stat"
-					icon: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [
-								{
-									lvl: 1s
-									id: "mana-and-artifice:fireproof"
-								}
-							]
-						}
+			tasks: [{
+				id: "0084A2090D09CC7C"
+				type: "stat"
+				icon: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "mana-and-artifice:fireproof"
+						}]
 					}
-					stat: "minecraft:enchant_item"
-					value: 500
 				}
-			]
+				stat: "minecraft:enchant_item"
+				value: 500
+			}]
 			rewards: [
 				{
 					id: "07F3D440997BFF4A"
@@ -247,12 +222,10 @@
 						id: "quark:ancient_tome"
 						Count: 1b
 						tag: {
-							StoredEnchantments: [
-								{
-									lvl: 7s
-									id: "minecraft:looting"
-								}
-							]
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:looting"
+							}]
 						}
 					}
 				}
@@ -263,12 +236,10 @@
 						id: "quark:ancient_tome"
 						Count: 1b
 						tag: {
-							StoredEnchantments: [
-								{
-									lvl: 8s
-									id: "minecraft:unbreaking"
-								}
-							]
+							StoredEnchantments: [{
+								lvl: 8s
+								id: "minecraft:unbreaking"
+							}]
 						}
 					}
 				}
@@ -279,19 +250,16 @@
 						id: "quark:ancient_tome"
 						Count: 1b
 						tag: {
-							StoredEnchantments: [
-								{
-									lvl: 7s
-									id: "minecraft:fortune"
-								}
-							]
+							StoredEnchantments: [{
+								lvl: 7s
+								id: "minecraft:fortune"
+							}]
 						}
 					}
 				}
 				{
 					id: "7A203DE1084C3856"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -300,15 +268,13 @@
 			y: -2.5d
 			shape: "octagon"
 			id: "360DA03CD8BA490B"
-			tasks: [
-				{
-					id: "58C65BF6DBEB0AC8"
-					type: "kill"
-					icon: "theabyss:roka_horn"
-					entity: "theabyss:the_roka_end_boss"
-					value: 10L
-				}
-			]
+			tasks: [{
+				id: "58C65BF6DBEB0AC8"
+				type: "kill"
+				icon: "theabyss:roka_horn"
+				entity: "theabyss:the_roka_end_boss"
+				value: 10L
+			}]
 			rewards: [
 				{
 					id: "1F2A15FFFA197D53"
@@ -324,7 +290,6 @@
 				{
 					id: "2C13A8FE9F934E63"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -333,15 +298,13 @@
 			y: -2.0d
 			shape: "octagon"
 			id: "5D00C6669955219A"
-			tasks: [
-				{
-					id: "5E1D126288F909F6"
-					type: "kill"
-					icon: "occultism:afrit_essence"
-					entity: "occultism:afrit_wild"
-					value: 10L
-				}
-			]
+			tasks: [{
+				id: "5E1D126288F909F6"
+				type: "kill"
+				icon: "occultism:afrit_essence"
+				entity: "occultism:afrit_wild"
+				value: 10L
+			}]
 			rewards: [
 				{
 					id: "13F4D21DA01FE230"
@@ -352,12 +315,11 @@
 				{
 					id: "2B5C360D31C97838"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
 		{
-			title: "&k&3abc&r&5最终挑战&k&3abc&r[--&k&3abc &r&5The Final Challenge &k&3abc&r--]"
+			title: "&k&3abc&r&5最终挑战&k&3abc&r"
 			x: 0.0d
 			y: 0.0d
 			dependencies: [
@@ -375,13 +337,11 @@
 				"70AD3F9C14133F5C"
 			]
 			id: "2B99E74F8647BD98"
-			tasks: [
-				{
-					id: "6E95E290C562E2A3"
-					type: "item"
-					item: "projectex:final_power_flower"
-				}
-			]
+			tasks: [{
+				id: "6E95E290C562E2A3"
+				type: "item"
+				item: "projectex:final_power_flower"
+			}]
 			rewards: [
 				{
 					id: "22A29EAE2EAF27D2"
@@ -391,7 +351,6 @@
 				{
 					id: "746B80CFBEB57F10"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -399,19 +358,17 @@
 			x: -1.5d
 			y: -1.0d
 			shape: "octagon"
-			subtitle: "用死神之眼[--Look death in the eye--]"
+			subtitle: "用死神之眼"
 			id: "22E20E4041F42A8A"
-			tasks: [
-				{
-					id: "027217C9D0CE22E4"
-					type: "observation"
-					title: "查看一个&5化石守卫者&r 30 秒.[--Look a &5Chaos Guardian&r for 30 secondes.--]"
-					icon: "naturesaura:end_city_finder"
-					timer: 600L
-					observe_type: 5
-					to_observe: "draconicevolution:draconic_guardian"
-				}
-			]
+			tasks: [{
+				id: "027217C9D0CE22E4"
+				type: "observation"
+				title: "查看一个&5化石守卫者&r 30 秒."
+				icon: "naturesaura:end_city_finder"
+				timer: 600L
+				observe_type: 5
+				to_observe: "draconicevolution:draconic_guardian"
+			}]
 			rewards: [
 				{
 					id: "1919744CBBE8298D"
@@ -422,12 +379,11 @@
 				{
 					id: "2B36D077F16D59B6"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
 		{
-			title: "&d合成所有的食物[--&dCraft All Foods--]"
+			title: "&d合成所有的食物"
 			x: 1.0d
 			y: -2.0d
 			shape: "octagon"
@@ -967,14 +923,12 @@
 				"228808D5974EFFAA"
 			]
 			id: "70AD3F9C14133F5C"
-			tasks: [
-				{
-					id: "487CF1251BBE94FC"
-					type: "checkmark"
-					title: "制作所有的食物[--Craft All Foods--]"
-					icon: "chromasky:ultimate_meat"
-				}
-			]
+			tasks: [{
+				id: "487CF1251BBE94FC"
+				type: "checkmark"
+				title: "制作所有的食物"
+				icon: "chromasky:ultimate_meat"
+			}]
 			rewards: [
 				{
 					id: "62CB69E0FB3408D2"

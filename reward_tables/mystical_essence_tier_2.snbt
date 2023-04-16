@@ -1,7 +1,7 @@
 {
 	id: "214E4F452502A57C"
 	order_index: 4
-	title: "&2神秘精华等级 2[--&2Mystical Essence Tier 2--]"
+	title: "&2神秘精华等级 2"
 	icon: "mysticalagriculture:prudentium_essence"
 	loot_size: 1
 	use_title: true

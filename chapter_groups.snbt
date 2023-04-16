@@ -1,0 +1,12 @@
+{
+	chapter_groups: [
+		{ id: "638FC427456F902B", title: "&b第一章" }
+		{ id: "049115B9B236F83B", title: "&6食物/生物" }
+		{ id: "258B5ED587988A28", title: "&b第二章" }
+		{ id: "73390EDA98890AC0", title: "&b第三章" }
+		{ id: "7F090E96EFD94B43", title: "&b第四章" }
+		{ id: "2DAB014F01D11AA1", title: "&b第五章" }
+		{ id: "5D61CD9450FCE349", title: "&b第六章" }
+		{ id: "079627CE8649F5BB", title: "&d最终章节" }
+	]
+}

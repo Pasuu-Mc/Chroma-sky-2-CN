@@ -1,16 +1,12 @@
 {
 	id: "3A0E11CD4B58C017"
-	order_index: 14
-	title: "&8机器外壳部件[--&8Machine Casing Part--]"
+	order_index: 6
+	title: "&8机器外壳部件"
 	icon: "refinedstorage:machine_casing"
 	loot_size: 1
 	use_title: true
 	rewards: [
-		{
-			item: "refinedstorage:quartz_enriched_iron"
-		}
-		{
-			item: "immersiveengineering:component_steel"
-		}
+		{ item: "refinedstorage:quartz_enriched_iron" }
+		{ item: "immersiveengineering:component_steel" }
 	]
 }

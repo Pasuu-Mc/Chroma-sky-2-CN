@@ -3,7 +3,7 @@
 	group: "7F090E96EFD94B43"
 	order_index: 0
 	filename: "powaaaah"
-	title: "Powaaah![--Powaaah !--]"
+	title: "Powaaah!"
 	icon: {
 		id: "powah:battery_nitro"
 		Count: 1b
@@ -105,22 +105,18 @@
 			hide_dependency_lines: true
 			dependencies: ["4F653ADFAFAF8ABB"]
 			id: "285C1BC5A25DC155"
-			tasks: [
-				{
-					id: "28C68AA04637613A"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "6A147EED2DD96EE4"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 16
-				}
-			]
+			tasks: [{
+				id: "28C68AA04637613A"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6A147EED2DD96EE4"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 16
+			}]
 		}
 		{
 			x: 16.5d
@@ -129,309 +125,257 @@
 			dependencies: ["285C1BC5A25DC155"]
 			size: 1.5d
 			id: "0E3D24DB02A895C7"
-			tasks: [
-				{
-					id: "6B5CE90A5F1D2DD5"
-					type: "item"
-					item: "powah:capacitor_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "3B03FB001573D7AD"
-					type: "item"
-					item: "powah:capacitor_nitro"
-				}
-			]
+			tasks: [{
+				id: "6B5CE90A5F1D2DD5"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
+			rewards: [{
+				id: "3B03FB001573D7AD"
+				type: "item"
+				item: "powah:capacitor_nitro"
+			}]
 		}
 		{
 			x: 17.0d
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "61BCF2D3E927ABB7"
-			tasks: [
-				{
-					id: "17917C630E5F8B18"
-					type: "item"
-					item: "powah:ender_cell_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "0DADD1BC64D008CB"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "17917C630E5F8B18"
+				type: "item"
+				item: "powah:ender_cell_nitro"
+			}]
+			rewards: [{
+				id: "0DADD1BC64D008CB"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&6800FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &6800FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&6800FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "0C735A02F1B9234B"
-			tasks: [
-				{
-					id: "35AE33C0B8616E8E"
-					type: "item"
-					item: "powah:thermo_generator_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "71FA003690FA369F"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "35AE33C0B8616E8E"
+				type: "item"
+				item: "powah:thermo_generator_nitro"
+			}]
+			rewards: [{
+				id: "71FA003690FA369F"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "65F721F25FF49B6A"
-			tasks: [
-				{
-					id: "13876230873F3829"
-					type: "item"
-					item: "powah:player_transmitter_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "455ADD3C48C895C2"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "13876230873F3829"
+				type: "item"
+				item: "powah:player_transmitter_nitro"
+			}]
+			rewards: [{
+				id: "455ADD3C48C895C2"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "793763A11F94E992"
-			tasks: [
-				{
-					id: "477249AF18837894"
-					type: "item"
-					item: "powah:furnator_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "2C7C9A13BB9D7711"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "477249AF18837894"
+				type: "item"
+				item: "powah:furnator_nitro"
+			}]
+			rewards: [{
+				id: "2C7C9A13BB9D7711"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "25F4D9591846BD3C"
-			tasks: [
-				{
-					id: "1089840005DC32B7"
-					type: "item"
-					item: "powah:energy_hopper_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "1B99FBBFFD308D78"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "1089840005DC32B7"
+				type: "item"
+				item: "powah:energy_hopper_nitro"
+			}]
+			rewards: [{
+				id: "1B99FBBFFD308D78"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "60E61FBF1824B1DD"
-			tasks: [
-				{
-					id: "7356EE9AE3FCEB4B"
-					type: "item"
-					item: "powah:energy_cell_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "570C4BDC511A3159"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "7356EE9AE3FCEB4B"
+				type: "item"
+				item: "powah:energy_cell_nitro"
+			}]
+			rewards: [{
+				id: "570C4BDC511A3159"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 15.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "7514DA68510DE06E"
-			tasks: [
-				{
-					id: "3D28878970161AE6"
-					type: "item"
-					item: "powah:energy_discharger_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "14AED32AA8FCFF19"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3D28878970161AE6"
+				type: "item"
+				item: "powah:energy_discharger_nitro"
+			}]
+			rewards: [{
+				id: "14AED32AA8FCFF19"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 17.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "468850F814BC9037"
-			tasks: [
-				{
-					id: "65478F732C0A2B4C"
-					type: "item"
-					item: "powah:reactor_nitro"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "20D6EA8D10EB8F85"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "65478F732C0A2B4C"
+				type: "item"
+				item: "powah:reactor_nitro"
+				count: 36L
+			}]
+			rewards: [{
+				id: "20D6EA8D10EB8F85"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 15.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "0E1D74749DDD0A54"
-			tasks: [
-				{
-					id: "2232E53D1B4282F6"
-					type: "item"
-					item: "powah:energy_cable_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "37211438554CF1EC"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2232E53D1B4282F6"
+				type: "item"
+				item: "powah:energy_cable_nitro"
+			}]
+			rewards: [{
+				id: "37211438554CF1EC"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1B39EF68A68E999E"
-			tasks: [
-				{
-					id: "3612E28D526D92EC"
-					type: "item"
-					item: "powah:magmator_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "6C32F165B77AF8E8"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3612E28D526D92EC"
+				type: "item"
+				item: "powah:magmator_nitro"
+			}]
+			rewards: [{
+				id: "6C32F165B77AF8E8"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1996967F6BAAA6C9"
-			tasks: [
-				{
-					id: "0022AAB977F930D9"
-					type: "item"
-					item: "powah:solar_panel_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "0A106D626FBEC67B"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0022AAB977F930D9"
+				type: "item"
+				item: "powah:solar_panel_nitro"
+			}]
+			rewards: [{
+				id: "0A106D626FBEC67B"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 18.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "1F2CDA1EFE61E3E1"
-			tasks: [
-				{
-					id: "54F8C6CD8DEC4473"
-					type: "item"
-					item: "powah:ender_gate_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "2EA822022144FC87"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "54F8C6CD8DEC4473"
+				type: "item"
+				item: "powah:ender_gate_nitro"
+			}]
+			rewards: [{
+				id: "2EA822022144FC87"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 15.5d
@@ -439,48 +383,40 @@
 			shape: "diamond"
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "7C4C2049F7FABF6E"
-			tasks: [
-				{
-					id: "2FA7BEAE91D5895D"
-					type: "item"
-					item: "powah:energizing_rod_nitro"
-				}
-			]
-			rewards: [
-				{
-					id: "4E1F19973C05EBBB"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2FA7BEAE91D5895D"
+				type: "item"
+				item: "powah:energizing_rod_nitro"
+			}]
+			rewards: [{
+				id: "4E1F19973C05EBBB"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 16.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["0E3D24DB02A895C7"]
 			id: "7E35FA60568C0C46"
-			tasks: [
-				{
-					id: "587D20D979177DAF"
-					type: "item"
-					item: {
-						id: "powah:battery_nitro"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "587D20D979177DAF"
+				type: "item"
+				item: {
+					id: "powah:battery_nitro"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "793C21BEC9BDA1CC"
-					type: "item"
-					item: "powah:crystal_nitro"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "793C21BEC9BDA1CC"
+				type: "item"
+				item: "powah:crystal_nitro"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -489,20 +425,16 @@
 			hide_dependency_lines: true
 			dependencies: ["4F653ADFAFAF8ABB"]
 			id: "63112023294D3304"
-			tasks: [
-				{
-					id: "5B66AEFA50311CE4"
-					type: "item"
-					item: "powah:crystal_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "7FBB7F178B19D7EA"
-					type: "item"
-					item: "powah:crystal_spirited"
-				}
-			]
+			tasks: [{
+				id: "5B66AEFA50311CE4"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
+			rewards: [{
+				id: "7FBB7F178B19D7EA"
+				type: "item"
+				item: "powah:crystal_spirited"
+			}]
 		}
 		{
 			x: 10.5d
@@ -511,124 +443,104 @@
 			dependencies: ["63112023294D3304"]
 			size: 1.5d
 			id: "0D8119105447C49D"
-			tasks: [
-				{
-					id: "4F53ACAD58B8FAF1"
-					type: "item"
-					item: "powah:capacitor_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "113F721633AFACE6"
-					type: "item"
-					item: "powah:capacitor_spirited"
-				}
-			]
+			tasks: [{
+				id: "4F53ACAD58B8FAF1"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
+			rewards: [{
+				id: "113F721633AFACE6"
+				type: "item"
+				item: "powah:capacitor_spirited"
+			}]
 		}
 		{
 			x: 10.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的方块.[--&bThe Energy Cell &fits a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的方块."]
 			dependencies: ["0D8119105447C49D"]
 			id: "49102E7021F6BE09"
-			tasks: [
-				{
-					id: "35F09FD77D2FA102"
-					type: "item"
-					item: "powah:energy_cell_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "4FC569A45E96B89B"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "35F09FD77D2FA102"
+				type: "item"
+				item: "powah:energy_cell_spirited"
+			}]
+			rewards: [{
+				id: "4FC569A45E96B89B"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.0d
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "15FB462C98FB4DAF"
-			tasks: [
-				{
-					id: "0B1EEFE3ADABFFB7"
-					type: "item"
-					item: "powah:ender_cell_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "5642875316755E2A"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0B1EEFE3ADABFFB7"
+				type: "item"
+				item: "powah:ender_cell_spirited"
+			}]
+			rewards: [{
+				id: "5642875316755E2A"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "3594073246DD9232"
-			tasks: [
-				{
-					id: "74877C1E64BE1ACA"
-					type: "item"
-					item: "powah:energy_cable_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "589A5824F7C09943"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "74877C1E64BE1ACA"
+				type: "item"
+				item: "powah:energy_cable_spirited"
+			}]
+			rewards: [{
+				id: "589A5824F7C09943"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 12.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["0D8119105447C49D"]
 			id: "67FD7AF0B9A296EE"
-			tasks: [
-				{
-					id: "28E904B9A61518B6"
-					type: "item"
-					item: "powah:ender_gate_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "7A9A3BEB66287C43"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "28E904B9A61518B6"
+				type: "item"
+				item: "powah:ender_gate_spirited"
+			}]
+			rewards: [{
+				id: "7A9A3BEB66287C43"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.5d
@@ -636,337 +548,281 @@
 			shape: "diamond"
 			dependencies: ["0D8119105447C49D"]
 			id: "2AC7E89637227237"
-			tasks: [
-				{
-					id: "6EBF872C93E722CA"
-					type: "item"
-					item: "powah:energizing_rod_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "3A069123FA710433"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6EBF872C93E722CA"
+				type: "item"
+				item: "powah:energizing_rod_spirited"
+			}]
+			rewards: [{
+				id: "3A069123FA710433"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["0D8119105447C49D"]
 			id: "21024B42C2C145B8"
-			tasks: [
-				{
-					id: "6FC0A66EF21A3191"
-					type: "item"
-					item: "powah:furnator_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "4C73B4E7B74B0142"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6FC0A66EF21A3191"
+				type: "item"
+				item: "powah:furnator_spirited"
+			}]
+			rewards: [{
+				id: "4C73B4E7B74B0142"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["0D8119105447C49D"]
 			id: "68FDEF4BC74CD547"
-			tasks: [
-				{
-					id: "5CE671495F552ED4"
-					type: "item"
-					item: "powah:magmator_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "7CCE0F0FEABB8A3A"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5CE671495F552ED4"
+				type: "item"
+				item: "powah:magmator_spirited"
+			}]
+			rewards: [{
+				id: "7CCE0F0FEABB8A3A"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&6200FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &6200FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&6200FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "4BE021261B73FC6E"
-			tasks: [
-				{
-					id: "67DF18C07E8BA7B4"
-					type: "item"
-					item: "powah:thermo_generator_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "039F931BE1EA48DE"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "67DF18C07E8BA7B4"
+				type: "item"
+				item: "powah:thermo_generator_spirited"
+			}]
+			rewards: [{
+				id: "039F931BE1EA48DE"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["0D8119105447C49D"]
 			id: "5C227F57DB77E6F1"
-			tasks: [
-				{
-					id: "5706A38E5C4E09BC"
-					type: "item"
-					item: "powah:solar_panel_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "7C50F68F54D58076"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5706A38E5C4E09BC"
+				type: "item"
+				item: "powah:solar_panel_spirited"
+			}]
+			rewards: [{
+				id: "7C50F68F54D58076"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["0D8119105447C49D"]
 			id: "4EBA6DF65F76F53D"
-			tasks: [
-				{
-					id: "5748C697B48F5297"
-					type: "item"
-					item: "powah:reactor_spirited"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "5D711D535E440AD4"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5748C697B48F5297"
+				type: "item"
+				item: "powah:reactor_spirited"
+				count: 36L
+			}]
+			rewards: [{
+				id: "5D711D535E440AD4"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["0D8119105447C49D"]
 			id: "47AC91803E031490"
-			tasks: [
-				{
-					id: "15043968AEB2FE1B"
-					type: "item"
-					item: "powah:player_transmitter_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "116FC006F96EA6FB"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "15043968AEB2FE1B"
+				type: "item"
+				item: "powah:player_transmitter_spirited"
+			}]
+			rewards: [{
+				id: "116FC006F96EA6FB"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["0D8119105447C49D"]
 			id: "1F385AF36A90D7E8"
-			tasks: [
-				{
-					id: "57DA762C365C5708"
-					type: "item"
-					item: "powah:energy_hopper_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "37D6F31342C772EC"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "57DA762C365C5708"
+				type: "item"
+				item: "powah:energy_hopper_spirited"
+			}]
+			rewards: [{
+				id: "37D6F31342C772EC"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 9.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["0D8119105447C49D"]
 			id: "2DF5F62E872C9D2E"
-			tasks: [
-				{
-					id: "0F8024C411E096DF"
-					type: "item"
-					item: "powah:energy_discharger_spirited"
-				}
-			]
-			rewards: [
-				{
-					id: "29990B7E0318B13C"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0F8024C411E096DF"
+				type: "item"
+				item: "powah:energy_discharger_spirited"
+			}]
+			rewards: [{
+				id: "29990B7E0318B13C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["0D8119105447C49D"]
 			id: "4DE8BDF69E22A6E1"
-			tasks: [
-				{
-					id: "4C69850B97E769E4"
-					type: "item"
-					item: {
-						id: "powah:battery_spirited"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "4C69850B97E769E4"
+				type: "item"
+				item: {
+					id: "powah:battery_spirited"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "5F42D81420DB942C"
-					type: "item"
-					item: "powah:crystal_spirited"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "5F42D81420DB942C"
+				type: "item"
+				item: "powah:crystal_spirited"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "5E95CF0FBB66D83E"
-			tasks: [
-				{
-					id: "308DA8865004C41A"
-					type: "item"
-					item: "powah:energy_cell_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "3FFFF4C36B8A0788"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "308DA8865004C41A"
+				type: "item"
+				item: "powah:energy_cell_niotic"
+			}]
+			rewards: [{
+				id: "3FFFF4C36B8A0788"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.0d
 			y: -1.5d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "51B352951B724B6F"
-			tasks: [
-				{
-					id: "7063622AEDC45429"
-					type: "item"
-					item: "powah:ender_cell_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "3CBE50E9EC3F7876"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "7063622AEDC45429"
+				type: "item"
+				item: "powah:ender_cell_niotic"
+			}]
+			rewards: [{
+				id: "3CBE50E9EC3F7876"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "5783E118C6674AB4"
-			tasks: [
-				{
-					id: "34577DEAF31D0D77"
-					type: "item"
-					item: "powah:energy_cable_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "7973C0CDD4E42474"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "34577DEAF31D0D77"
+				type: "item"
+				item: "powah:energy_cable_niotic"
+			}]
+			rewards: [{
+				id: "7973C0CDD4E42474"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 6.0d
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["0B7E73D585F86047"]
 			id: "0DCCA14ACC837419"
-			tasks: [
-				{
-					id: "43E4E15B7114A565"
-					type: "item"
-					item: "powah:ender_gate_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "2D72FCE35C2AF49B"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "43E4E15B7114A565"
+				type: "item"
+				item: "powah:ender_gate_niotic"
+			}]
+			rewards: [{
+				id: "2D72FCE35C2AF49B"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.5d
@@ -974,233 +830,193 @@
 			shape: "diamond"
 			dependencies: ["0B7E73D585F86047"]
 			id: "52E99DBB213F398B"
-			tasks: [
-				{
-					id: "4347741BF6B116D9"
-					type: "item"
-					item: "powah:energizing_rod_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "06192F82F625DC7C"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "4347741BF6B116D9"
+				type: "item"
+				item: "powah:energizing_rod_niotic"
+			}]
+			rewards: [{
+				id: "06192F82F625DC7C"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7B6C5CBA8F926BCB"
-			tasks: [
-				{
-					id: "52122986F8683BE5"
-					type: "item"
-					item: "powah:furnator_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "3E5F491AB04824F2"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "52122986F8683BE5"
+				type: "item"
+				item: "powah:furnator_niotic"
+			}]
+			rewards: [{
+				id: "3E5F491AB04824F2"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "40CC078ECD314326"
-			tasks: [
-				{
-					id: "0735284D6564AF1D"
-					type: "item"
-					item: "powah:magmator_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "30CDB912B66F744E"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0735284D6564AF1D"
+				type: "item"
+				item: "powah:magmator_niotic"
+			}]
+			rewards: [{
+				id: "30CDB912B66F744E"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&690FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &690FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&690FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7B28138ACCC3798E"
-			tasks: [
-				{
-					id: "4B8E7BE2AA3A892E"
-					type: "item"
-					item: "powah:thermo_generator_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "03E831678524222E"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "4B8E7BE2AA3A892E"
+				type: "item"
+				item: "powah:thermo_generator_niotic"
+			}]
+			rewards: [{
+				id: "03E831678524222E"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "4E0AB78C973A5D3F"
-			tasks: [
-				{
-					id: "30778DD111AC03C7"
-					type: "item"
-					item: "powah:solar_panel_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "2BECB73BDCDDCA1B"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "30778DD111AC03C7"
+				type: "item"
+				item: "powah:solar_panel_niotic"
+			}]
+			rewards: [{
+				id: "2BECB73BDCDDCA1B"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.0d
 			y: 0.5d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "7D219F512DE2CCEB"
-			tasks: [
-				{
-					id: "7F5534406D5DE9E0"
-					type: "item"
-					item: "powah:reactor_niotic"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "235D93040E84E4B5"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "7F5534406D5DE9E0"
+				type: "item"
+				item: "powah:reactor_niotic"
+				count: 36L
+			}]
+			rewards: [{
+				id: "235D93040E84E4B5"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["0B7E73D585F86047"]
 			id: "6A0BE7E4775A7871"
-			tasks: [
-				{
-					id: "68DFD4396AFB116E"
-					type: "item"
-					item: "powah:player_transmitter_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "2A2D74B68804F881"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "68DFD4396AFB116E"
+				type: "item"
+				item: "powah:player_transmitter_niotic"
+			}]
+			rewards: [{
+				id: "2A2D74B68804F881"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 5.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "21EBBFDE7657F046"
-			tasks: [
-				{
-					id: "249113B6EE468269"
-					type: "item"
-					item: "powah:energy_hopper_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "57086BF5FE3ECC5D"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "249113B6EE468269"
+				type: "item"
+				item: "powah:energy_hopper_niotic"
+			}]
+			rewards: [{
+				id: "57086BF5FE3ECC5D"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 3.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "4F4DBD43A8937937"
-			tasks: [
-				{
-					id: "6A6B17D0FC37FB79"
-					type: "item"
-					item: "powah:energy_discharger_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "2ECB70EB173AA7AC"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6A6B17D0FC37FB79"
+				type: "item"
+				item: "powah:energy_discharger_niotic"
+			}]
+			rewards: [{
+				id: "2ECB70EB173AA7AC"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
 			y: 0.0d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["0B7E73D585F86047"]
 			id: "22A55058EB92E930"
-			tasks: [
-				{
-					id: "7DC43A0537DC4755"
-					type: "item"
-					item: {
-						id: "powah:battery_niotic"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "7DC43A0537DC4755"
+				type: "item"
+				item: {
+					id: "powah:battery_niotic"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "3341D5EF58C28C90"
-					type: "item"
-					item: "powah:crystal_niotic"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "3341D5EF58C28C90"
+				type: "item"
+				item: "powah:crystal_niotic"
+				count: 2
+			}]
 		}
 		{
 			x: 4.5d
@@ -1209,20 +1025,16 @@
 			hide_dependency_lines: true
 			dependencies: ["4F653ADFAFAF8ABB"]
 			id: "254D683B153C4582"
-			tasks: [
-				{
-					id: "4C896322C6013683"
-					type: "item"
-					item: "powah:crystal_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "7135EA282DCFC213"
-					type: "item"
-					item: "powah:crystal_niotic"
-				}
-			]
+			tasks: [{
+				id: "4C896322C6013683"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
+			rewards: [{
+				id: "7135EA282DCFC213"
+				type: "item"
+				item: "powah:crystal_niotic"
+			}]
 		}
 		{
 			x: 4.5d
@@ -1231,148 +1043,124 @@
 			dependencies: ["254D683B153C4582"]
 			size: 1.5d
 			id: "0B7E73D585F86047"
-			tasks: [
-				{
-					id: "52873B9D1D168A59"
-					type: "item"
-					item: "powah:capacitor_niotic"
-				}
-			]
-			rewards: [
-				{
-					id: "4A19BEB50CFF8FC0"
-					type: "item"
-					item: "powah:capacitor_niotic"
-				}
-			]
+			tasks: [{
+				id: "52873B9D1D168A59"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
+			rewards: [{
+				id: "4A19BEB50CFF8FC0"
+				type: "item"
+				item: "powah:capacitor_niotic"
+			}]
 		}
 		{
 			x: 8.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "567B6A9030415189"
-			tasks: [
-				{
-					id: "7B765EE6345AF2C4"
-					type: "item"
-					item: "powah:reactor_blazing"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "1757BC483EB2C5E5"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "7B765EE6345AF2C4"
+				type: "item"
+				item: "powah:reactor_blazing"
+				count: 36L
+			}]
+			rewards: [{
+				id: "1757BC483EB2C5E5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2C553105F13E165E"
-			tasks: [
-				{
-					id: "3A7745EB831E07F1"
-					type: "item"
-					item: "powah:energy_cell_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "760AFFA879EA2409"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3A7745EB831E07F1"
+				type: "item"
+				item: "powah:energy_cell_blazing"
+			}]
+			rewards: [{
+				id: "760AFFA879EA2409"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 8.0d
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "52779B56C02D11D0"
-			tasks: [
-				{
-					id: "58D7371BF19A6C6E"
-					type: "item"
-					item: "powah:ender_cell_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "711215C9565F94DB"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "58D7371BF19A6C6E"
+				type: "item"
+				item: "powah:ender_cell_blazing"
+			}]
+			rewards: [{
+				id: "711215C9565F94DB"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.0d
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "29CC371CC8DE7BCA"
-			tasks: [
-				{
-					id: "25FC62E29006E833"
-					type: "item"
-					item: "powah:energy_cable_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "748B84EB8B4D2B77"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "25FC62E29006E833"
+				type: "item"
+				item: "powah:energy_cable_blazing"
+			}]
+			rewards: [{
+				id: "748B84EB8B4D2B77"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 9.0d
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "6AFADA1538648B24"
-			tasks: [
-				{
-					id: "6563ECB983DA7FD7"
-					type: "item"
-					item: "powah:ender_gate_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "110D2C166C70FE06"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6563ECB983DA7FD7"
+				type: "item"
+				item: "powah:ender_gate_blazing"
+			}]
+			rewards: [{
+				id: "110D2C166C70FE06"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.5d
@@ -1380,209 +1168,173 @@
 			shape: "diamond"
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2BAD35D96DB76BC0"
-			tasks: [
-				{
-					id: "290F771205C4D7B6"
-					type: "item"
-					item: "powah:energizing_rod_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "4EC065CF0DDECBF4"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "290F771205C4D7B6"
+				type: "item"
+				item: "powah:energizing_rod_blazing"
+			}]
+			rewards: [{
+				id: "4EC065CF0DDECBF4"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 8.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "656DF0D5540D4302"
-			tasks: [
-				{
-					id: "5CB318387D9055F0"
-					type: "item"
-					item: "powah:furnator_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "6C8AC60C2DC2AEB6"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5CB318387D9055F0"
+				type: "item"
+				item: "powah:furnator_blazing"
+			}]
+			rewards: [{
+				id: "6C8AC60C2DC2AEB6"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "12C0DE643A09B665"
-			tasks: [
-				{
-					id: "0D8DD15C093E059E"
-					type: "item"
-					item: "powah:magmator_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "789B81173F2D1BB5"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0D8DD15C093E059E"
+				type: "item"
+				item: "powah:magmator_blazing"
+			}]
+			rewards: [{
+				id: "789B81173F2D1BB5"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&642FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &642FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&642FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "19B48C1ACCB70A25"
-			tasks: [
-				{
-					id: "0D5437125575C64F"
-					type: "item"
-					item: "powah:thermo_generator_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "6C6FA26C29AF713D"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0D5437125575C64F"
+				type: "item"
+				item: "powah:thermo_generator_blazing"
+			}]
+			rewards: [{
+				id: "6C6FA26C29AF713D"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "5FDB44458CB44680"
-			tasks: [
-				{
-					id: "5295C2A9D42BE1BB"
-					type: "item"
-					item: "powah:solar_panel_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "21DA934B52226E87"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5295C2A9D42BE1BB"
+				type: "item"
+				item: "powah:solar_panel_blazing"
+			}]
+			rewards: [{
+				id: "21DA934B52226E87"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2832B9A6E1DDFE6E"
-			tasks: [
-				{
-					id: "65902B5FF5B241FA"
-					type: "item"
-					item: {
-						id: "powah:battery_blazing"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "65902B5FF5B241FA"
+				type: "item"
+				item: {
+					id: "powah:battery_blazing"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "23F9F18661E974F9"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "23F9F18661E974F9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "2F3BF0AFD6BDCEDF"
-			tasks: [
-				{
-					id: "64C2556348165A7D"
-					type: "item"
-					item: "powah:player_transmitter_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "771AD9EB6B33A8D9"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "64C2556348165A7D"
+				type: "item"
+				item: "powah:player_transmitter_blazing"
+			}]
+			rewards: [{
+				id: "771AD9EB6B33A8D9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "12162E885FAAA002"
-			tasks: [
-				{
-					id: "0A95B61EE0BDF909"
-					type: "item"
-					item: "powah:energy_hopper_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "7A31A685225400D2"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0A95B61EE0BDF909"
+				type: "item"
+				item: "powah:energy_hopper_blazing"
+			}]
+			rewards: [{
+				id: "7A31A685225400D2"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 6.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["0A42B4C681E9D72F"]
 			id: "229E263360CA27F7"
-			tasks: [
-				{
-					id: "23A838E40C688634"
-					type: "item"
-					item: "powah:energy_discharger_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "230C5257857523E9"
-					type: "item"
-					item: "powah:crystal_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "23A838E40C688634"
+				type: "item"
+				item: "powah:energy_discharger_blazing"
+			}]
+			rewards: [{
+				id: "230C5257857523E9"
+				type: "item"
+				item: "powah:crystal_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 7.5d
@@ -1591,20 +1343,16 @@
 			hide_dependency_lines: true
 			dependencies: ["4F653ADFAFAF8ABB"]
 			id: "57DBDBDE8D06C2AF"
-			tasks: [
-				{
-					id: "71351D9638199A82"
-					type: "item"
-					item: "powah:crystal_blazing"
-				}
-			]
-			rewards: [
-				{
-					id: "0B54B062098F71C6"
-					type: "item"
-					item: "powah:crystal_blazing"
-				}
-			]
+			tasks: [{
+				id: "71351D9638199A82"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
+			rewards: [{
+				id: "0B54B062098F71C6"
+				type: "item"
+				item: "powah:crystal_blazing"
+			}]
 		}
 		{
 			x: 7.5d
@@ -1613,22 +1361,18 @@
 			dependencies: ["57DBDBDE8D06C2AF"]
 			size: 1.5d
 			id: "0A42B4C681E9D72F"
-			tasks: [
-				{
-					id: "3B395051501ABC22"
-					type: "item"
-					item: "powah:capacitor_blazing"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "4358E32BCF664DDB"
-					type: "item"
-					item: "powah:capacitor_blazing"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3B395051501ABC22"
+				type: "item"
+				item: "powah:capacitor_blazing"
+				count: 2L
+			}]
+			rewards: [{
+				id: "4358E32BCF664DDB"
+				type: "item"
+				item: "powah:capacitor_blazing"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
@@ -1637,20 +1381,16 @@
 			hide_dependency_lines: true
 			dependencies: ["4F653ADFAFAF8ABB"]
 			id: "71E4BB753498AB6B"
-			tasks: [
-				{
-					id: "2A49C1AAB83E33DF"
-					type: "item"
-					item: "powah:steel_energized"
-				}
-			]
-			rewards: [
-				{
-					id: "50CC2D59CEF8D80A"
-					type: "item"
-					item: "powah:steel_energized"
-				}
-			]
+			tasks: [{
+				id: "2A49C1AAB83E33DF"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
+			rewards: [{
+				id: "50CC2D59CEF8D80A"
+				type: "item"
+				item: "powah:steel_energized"
+			}]
 		}
 		{
 			x: 13.5d
@@ -1659,126 +1399,106 @@
 			dependencies: ["71E4BB753498AB6B"]
 			size: 1.5d
 			id: "770CF5AB3E997837"
-			tasks: [
-				{
-					id: "117595A68BB70B0A"
-					type: "item"
-					item: "powah:capacitor_hardened"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "0370EAC30D62588B"
-					type: "item"
-					item: "powah:capacitor_hardened"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "117595A68BB70B0A"
+				type: "item"
+				item: "powah:capacitor_hardened"
+				count: 2L
+			}]
+			rewards: [{
+				id: "0370EAC30D62588B"
+				type: "item"
+				item: "powah:capacitor_hardened"
+				count: 2
+			}]
 		}
 		{
 			x: 13.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2F459D145C710BC5"
-			tasks: [
-				{
-					id: "59880ED6A66F0D02"
-					type: "item"
-					item: "powah:energy_cell_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "7385FD50815B5C4F"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "59880ED6A66F0D02"
+				type: "item"
+				item: "powah:energy_cell_hardened"
+			}]
+			rewards: [{
+				id: "7385FD50815B5C4F"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.0d
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "720C76E68E74C94B"
-			tasks: [
-				{
-					id: "19ED203B2C12BD3C"
-					type: "item"
-					item: "powah:ender_cell_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "0E5D8E39F5B8C292"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "19ED203B2C12BD3C"
+				type: "item"
+				item: "powah:ender_cell_hardened"
+			}]
+			rewards: [{
+				id: "0E5D8E39F5B8C292"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.0d
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "64D5A5F3617AC469"
-			tasks: [
-				{
-					id: "644FA1BE8433788C"
-					type: "item"
-					item: "powah:energy_cable_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "5F759A1B8F843E4D"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "644FA1BE8433788C"
+				type: "item"
+				item: "powah:energy_cable_hardened"
+			}]
+			rewards: [{
+				id: "5F759A1B8F843E4D"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 15.0d
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["770CF5AB3E997837"]
 			id: "379EB47D75413F2F"
-			tasks: [
-				{
-					id: "225508D66AD265DC"
-					type: "item"
-					item: "powah:ender_gate_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "5DB8C84C18D8EE92"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "225508D66AD265DC"
+				type: "item"
+				item: "powah:ender_gate_hardened"
+			}]
+			rewards: [{
+				id: "5DB8C84C18D8EE92"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.5d
@@ -1786,253 +1506,211 @@
 			shape: "diamond"
 			dependencies: ["770CF5AB3E997837"]
 			id: "3D0E78465F82E17C"
-			tasks: [
-				{
-					id: "3269BE200DCB963F"
-					type: "item"
-					item: "powah:energizing_rod_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "75F5ECFB1B4F4CB2"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3269BE200DCB963F"
+				type: "item"
+				item: "powah:energizing_rod_hardened"
+			}]
+			rewards: [{
+				id: "75F5ECFB1B4F4CB2"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "690A299F7992BD66"
-			tasks: [
-				{
-					id: "4628765D3B610B54"
-					type: "item"
-					item: "powah:furnator_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "2134ABB10D4D4F60"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "4628765D3B610B54"
+				type: "item"
+				item: "powah:furnator_hardened"
+			}]
+			rewards: [{
+				id: "2134ABB10D4D4F60"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2B5532A22B3B7846"
-			tasks: [
-				{
-					id: "3B65F7B1D7E3DBB7"
-					type: "item"
-					item: "powah:magmator_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "60703B65B3126C99"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3B65F7B1D7E3DBB7"
+				type: "item"
+				item: "powah:magmator_hardened"
+			}]
+			rewards: [{
+				id: "60703B65B3126C99"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&618FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &618FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&618FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "262D18C51054176B"
-			tasks: [
-				{
-					id: "3CAC780CA3037C79"
-					type: "item"
-					item: "powah:thermo_generator_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "065655B3C24E96A2"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "3CAC780CA3037C79"
+				type: "item"
+				item: "powah:thermo_generator_hardened"
+			}]
+			rewards: [{
+				id: "065655B3C24E96A2"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "2E0DB02AA0F19B29"
-			tasks: [
-				{
-					id: "2AD08E96C64CC8F7"
-					type: "item"
-					item: "powah:solar_panel_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "29F58DD7EC82259A"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2AD08E96C64CC8F7"
+				type: "item"
+				item: "powah:solar_panel_hardened"
+			}]
+			rewards: [{
+				id: "29F58DD7EC82259A"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "331F8049400EABBC"
-			tasks: [
-				{
-					id: "2CF5A5CDFF2B1454"
-					type: "item"
-					item: "powah:reactor_hardened"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "0F18BD392DF40D21"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2CF5A5CDFF2B1454"
+				type: "item"
+				item: "powah:reactor_hardened"
+				count: 36L
+			}]
+			rewards: [{
+				id: "0F18BD392DF40D21"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["770CF5AB3E997837"]
 			id: "5E9A3E4DFF5A6B81"
-			tasks: [
-				{
-					id: "5C48A3DAE54CC5C3"
-					type: "item"
-					item: "powah:player_transmitter_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "1EAFFB47EF62D27D"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5C48A3DAE54CC5C3"
+				type: "item"
+				item: "powah:player_transmitter_hardened"
+			}]
+			rewards: [{
+				id: "1EAFFB47EF62D27D"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 14.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "625AAD771D33A007"
-			tasks: [
-				{
-					id: "667DF6900973D4EB"
-					type: "item"
-					item: "powah:energy_hopper_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "1FF78EF41344F1F6"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "667DF6900973D4EB"
+				type: "item"
+				item: "powah:energy_hopper_hardened"
+			}]
+			rewards: [{
+				id: "1FF78EF41344F1F6"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 13.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "5C74898D6E1D5539"
-			tasks: [
-				{
-					id: "7FA692115DEE0FE9"
-					type: "item"
-					item: {
-						id: "powah:battery_hardened"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "7FA692115DEE0FE9"
+				type: "item"
+				item: {
+					id: "powah:battery_hardened"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "6D2F57E6CD43B5BA"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "6D2F57E6CD43B5BA"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 12.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["770CF5AB3E997837"]
 			id: "6361ED7007A6E846"
-			tasks: [
-				{
-					id: "2EEBB77185C253D6"
-					type: "item"
-					item: "powah:energy_discharger_hardened"
-				}
-			]
-			rewards: [
-				{
-					id: "345557ADB1296AA4"
-					type: "item"
-					item: "powah:steel_energized"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2EEBB77185C253D6"
+				type: "item"
+				item: "powah:energy_discharger_hardened"
+			}]
+			rewards: [{
+				id: "345557ADB1296AA4"
+				type: "item"
+				item: "powah:steel_energized"
+				count: 2
+			}]
 		}
 		{
 			x: 10.450000000000001d
 			y: -9.5d
 			shape: "diamond"
 			description: [
-				"&b充能台&f是一个用来为物品充能的方块,需要至少一个9x9范围内的&6充能棒&f才能工作,充能速度取决于充能棒的数量和充能棒的等级(I/O速率)。[--&bThe Energizing Orb &fis a block used to energize items, require at least one &6Energizing Rod &fin range of 9X9 to work the energizing speed depends on amount of rods and the rod tier (I/O rate).--]"
+				"&b充能台&f是一个用来为物品充能的方块,需要至少一个9x9范围内的&6充能棒&f才能工作,充能速度取决于充能棒的数量和充能棒的等级(I/O速率)。"
 				""
-				"充能台不需要能量,但充能棒必须放置在电缆上或任何&6能源(FE)&f方块上才能工作.[--The orb does not require energy but the rods must be placed on cables or any &6Forge Energy (FE) &fblock to work.--]"
+				"充能台不需要能量,但充能棒必须放置在电缆上或任何&6能源(FE)&f方块上才能工作."
 			]
 			dependencies: ["79B4D111A5BC35BA"]
 			size: 1.9d
 			id: "4F653ADFAFAF8ABB"
-			tasks: [
-				{
-					id: "158C7171D8E7C8A3"
-					type: "item"
-					item: "powah:energizing_orb"
-				}
-			]
+			tasks: [{
+				id: "158C7171D8E7C8A3"
+				type: "item"
+				item: "powah:energizing_orb"
+			}]
 			rewards: [
 				{
 					id: "4AF8509F71B8F3FE"
@@ -2043,7 +1721,6 @@
 				{
 					id: "192A84D8BD0B8EF2"
 					type: "random"
-					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -2060,20 +1737,16 @@
 			]
 			size: 1.1d
 			id: "79B4D111A5BC35BA"
-			tasks: [
-				{
-					id: "6C7B4BFC710D9148"
-					type: "item"
-					item: "powah:dielectric_casing"
-				}
-			]
-			rewards: [
-				{
-					id: "6D8A9883CF72DAAB"
-					type: "item"
-					item: "powah:dielectric_casing"
-				}
-			]
+			tasks: [{
+				id: "6C7B4BFC710D9148"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
+			rewards: [{
+				id: "6D8A9883CF72DAAB"
+				type: "item"
+				item: "powah:dielectric_casing"
+			}]
 		}
 		{
 			x: 9.9d
@@ -2082,22 +1755,18 @@
 			dependencies: ["6B1C6D60AA41FC32"]
 			size: 1.1d
 			id: "604B00E2A032DB53"
-			tasks: [
-				{
-					id: "5198B3135D4E588C"
-					type: "item"
-					item: "powah:dielectric_rod"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "2E4187743E8A65D3"
-					type: "item"
-					item: "powah:dielectric_rod"
-					count: 8
-				}
-			]
+			tasks: [{
+				id: "5198B3135D4E588C"
+				type: "item"
+				item: "powah:dielectric_rod"
+				count: 8L
+			}]
+			rewards: [{
+				id: "2E4187743E8A65D3"
+				type: "item"
+				item: "powah:dielectric_rod"
+				count: 8
+			}]
 		}
 		{
 			x: 11.0d
@@ -2106,22 +1775,18 @@
 			dependencies: ["6B1C6D60AA41FC32"]
 			size: 1.1d
 			id: "76B3F0738BEBD4E9"
-			tasks: [
-				{
-					id: "373D93FCBD1E8291"
-					type: "item"
-					item: "powah:dielectric_rod_horizontal"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "1CE05226F28837F1"
-					type: "item"
-					item: "powah:dielectric_rod_horizontal"
-					count: 8
-				}
-			]
+			tasks: [{
+				id: "373D93FCBD1E8291"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+				count: 8L
+			}]
+			rewards: [{
+				id: "1CE05226F28837F1"
+				type: "item"
+				item: "powah:dielectric_rod_horizontal"
+				count: 8
+			}]
 		}
 		{
 			x: 10.450000000000001d
@@ -2130,126 +1795,106 @@
 			dependencies: ["0990C82D9CE73CAF"]
 			size: 1.9d
 			id: "6B1C6D60AA41FC32"
-			tasks: [
-				{
-					id: "6A0235819F06D7BE"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 24L
-				}
-			]
-			rewards: [
-				{
-					id: "11733CEA8D96CE49"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 12
-				}
-			]
+			tasks: [{
+				id: "6A0235819F06D7BE"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 24L
+			}]
+			rewards: [{
+				id: "11733CEA8D96CE49"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 12
+			}]
 		}
 		{
 			x: 14.5d
 			y: -12.0d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "3BD5E18D8BEE6E8B"
-			tasks: [
-				{
-					id: "3FE2296F64314C61"
-					type: "item"
-					item: "powah:energy_cell_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "23679070B1EC97DE"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3FE2296F64314C61"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+			rewards: [{
+				id: "23679070B1EC97DE"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "316B87C6CE78537C"
-			tasks: [
-				{
-					id: "4375709B2950B591"
-					type: "item"
-					item: "powah:ender_cell_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "1AF3E670F2B1E846"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4375709B2950B591"
+				type: "item"
+				item: "powah:ender_cell_starter"
+			}]
+			rewards: [{
+				id: "1AF3E670F2B1E846"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "1FEC1980227E337C"
-			tasks: [
-				{
-					id: "09F9716615E0CBBE"
-					type: "item"
-					item: "powah:energy_cable_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "48BABAC7926A5A4D"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "09F9716615E0CBBE"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+			rewards: [{
+				id: "48BABAC7926A5A4D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "0E1196A46A6B8C55"
-			tasks: [
-				{
-					id: "5B14A35147EBCA6D"
-					type: "item"
-					item: "powah:ender_gate_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "6CC68417180EB31E"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "5B14A35147EBCA6D"
+				type: "item"
+				item: "powah:ender_gate_starter"
+			}]
+			rewards: [{
+				id: "6CC68417180EB31E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.0d
@@ -2257,233 +1902,193 @@
 			shape: "diamond"
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "62758CBBB8D5906E"
-			tasks: [
-				{
-					id: "041E37E486A75DC0"
-					type: "item"
-					item: "powah:energizing_rod_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "51F94011367107B3"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "041E37E486A75DC0"
+				type: "item"
+				item: "powah:energizing_rod_starter"
+			}]
+			rewards: [{
+				id: "51F94011367107B3"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "49FB94DEAE2C8852"
-			tasks: [
-				{
-					id: "32EB8931399C06E7"
-					type: "item"
-					item: "powah:furnator_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "445ACC7E9D790614"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "32EB8931399C06E7"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [{
+				id: "445ACC7E9D790614"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&63FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &63FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&63FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "2C2C120858F87BEE"
-			tasks: [
-				{
-					id: "7FCAC2B58AC10F8F"
-					type: "item"
-					item: "powah:thermo_generator_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "1EDAEF97825D2E1B"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "7FCAC2B58AC10F8F"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "1EDAEF97825D2E1B"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "150759BA2EFB95E4"
-			tasks: [
-				{
-					id: "59DD9E197A5E015E"
-					type: "item"
-					item: "powah:magmator_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "14BBE2E385D34EB3"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "59DD9E197A5E015E"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [{
+				id: "14BBE2E385D34EB3"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis a &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "36F8633A912BB13C"
-			tasks: [
-				{
-					id: "33E82C4351ABDF87"
-					type: "item"
-					item: "powah:solar_panel_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "14BDF901EE6A2DF0"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "33E82C4351ABDF87"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+			rewards: [{
+				id: "14BDF901EE6A2DF0"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "4C58D006BCCC23F2"
-			tasks: [
-				{
-					id: "76539D650967E880"
-					type: "item"
-					item: "powah:reactor_starter"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "6DC8A5DE0CA0892E"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "76539D650967E880"
+				type: "item"
+				item: "powah:reactor_starter"
+				count: 36L
+			}]
+			rewards: [{
+				id: "6DC8A5DE0CA0892E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 16.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "23521AEE210883F4"
-			tasks: [
-				{
-					id: "29B8FAC4799BC108"
-					type: "item"
-					item: "powah:player_transmitter_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "38959C700FAB892F"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "29B8FAC4799BC108"
+				type: "item"
+				item: "powah:player_transmitter_starter"
+			}]
+			rewards: [{
+				id: "38959C700FAB892F"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 16.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b能量漏斗&f是一个用来给相邻的&6可充电物品&f(如箱子)中的物品充电的方块,或任何具有可访问的背包且没有锻造能量的方块.[--&bThe Energy Hopper &fis a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f是一个用来给相邻的&6可充电物品&f(如箱子)中的物品充电的方块,或任何具有可访问的背包且没有锻造能量的方块."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "7585BEC961C8A9DC"
-			tasks: [
-				{
-					id: "592E606A3C3A51F8"
-					type: "item"
-					item: "powah:energy_hopper_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "1A62D76627838F58"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "592E606A3C3A51F8"
+				type: "item"
+				item: "powah:energy_hopper_starter"
+			}]
+			rewards: [{
+				id: "1A62D76627838F58"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 14.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "66B7AEA8F79D9C20"
-			tasks: [
-				{
-					id: "0ED6591471DCFCA8"
-					type: "item"
-					item: "powah:energy_discharger_starter"
-				}
-			]
-			rewards: [
-				{
-					id: "2DAF5E38904BE415"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "0ED6591471DCFCA8"
+				type: "item"
+				item: "powah:energy_discharger_starter"
+			}]
+			rewards: [{
+				id: "2DAF5E38904BE415"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络.[--The &bBattery &fcharges items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"]
+			description: ["当&b电池&f在玩家物品栏中,可以为物品充能。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络."]
 			dependencies: ["3F769CAECB47AD5E"]
 			id: "1A872B4EA72C7D99"
-			tasks: [
-				{
-					id: "5CDF5FCF93827B9C"
-					type: "item"
-					item: {
-						id: "powah:battery_starter"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "5CDF5FCF93827B9C"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "647284100547674D"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "647284100547674D"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 15.0d
@@ -2493,125 +2098,105 @@
 			dependencies: ["24D6425171F874D0"]
 			size: 1.5d
 			id: "3F769CAECB47AD5E"
-			tasks: [
-				{
-					id: "2406C2814B99FF4E"
-					type: "item"
-					item: "powah:capacitor_basic_tiny"
-				}
-			]
-			rewards: [
-				{
-					id: "223F2E6163AC9ADE"
-					type: "item"
-					item: "powah:capacitor_basic_tiny"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "2406C2814B99FF4E"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+			}]
+			rewards: [{
+				id: "223F2E6163AC9ADE"
+				type: "item"
+				item: "powah:capacitor_basic_tiny"
+				count: 2
+			}]
 		}
 		{
 			x: 5.5d
 			y: -12.0d
 			shape: "diamond"
-			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备.[--&bThe Energy Cell &fis a block used to &6store energy (FE)&f.--]"]
+			description: ["&b能量单元&f是一个用来&6存储能量(FE)&f的设备."]
 			dependencies: ["24D6425171F874D0"]
 			id: "40C459C194730631"
-			tasks: [
-				{
-					id: "60133EADFCD09B5B"
-					type: "item"
-					item: "powah:energy_cell_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "2F526E80F87E10C8"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "60133EADFCD09B5B"
+				type: "item"
+				item: "powah:energy_cell_basic"
+			}]
+			rewards: [{
+				id: "2F526E80F87E10C8"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
 			y: -12.0d
 			shape: "diamond"
 			description: [
-				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备.[--&bThe Ender Cell &fis a block used to &6store energy (FE) &fto a specific channel of the &6ender network &fof the owner.--]"
+				"&b末影单元&f是一个用来将&6存储能量(FE)&f上传到玩家的&6末影网络&f的设备."
 				""
-				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量.[--You can access the energy stored of a selected channel from anywhere in the world if the &bEnder Cell &fthat you want to transfer power from/to have an active channel with a valid capacity.--]"
+				"如果一个频道有有效的电容空间并存有能量,您可以从世界任何地方的&b末影单元&f中访问该频道并提取/存储能量."
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "5CD43E5807FCDE6C"
-			tasks: [
-				{
-					id: "4067A8AC59921454"
-					type: "item"
-					item: "powah:ender_cell_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "7950B9B6C5010A59"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4067A8AC59921454"
+				type: "item"
+				item: "powah:ender_cell_basic"
+			}]
+			rewards: [{
+				id: "7950B9B6C5010A59"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 4.5d
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&b电缆&f是在机器之前&6传输能量&f的电缆.[--&bCables &fare used to &6transfer power &fbetween machines.--]"
+				"&b电缆&f是在机器之前&6传输能量&f的电缆."
 				""
-				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f.[--You can change &6transfer mode &fof by &6right-clicking &fa cable using &bWrench &fwith Config mode selected.--]"
+				"您可以通过使用配置模式下的&b扳手&f&6右键单击线缆来更改&6传输模式&f."
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "27C412ECFFF2775D"
-			tasks: [
-				{
-					id: "3502C8B3767C01F1"
-					type: "item"
-					item: "powah:energy_cable_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "719CAB896DD954E5"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3502C8B3767C01F1"
+				type: "item"
+				item: "powah:energy_cable_basic"
+			}]
+			rewards: [{
+				id: "719CAB896DD954E5"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 7.5d
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f.[--The &bEnder Gate &ftransfers energy between the &6adjacent block &fand the &6ender network&f.--]"
+				"&b末影道门&f将能量无线传输到附近的&6末影道门&f和&6末影网络中&f."
 				""
-				"它不像&6末影单元&f,你无法通过它升级频道。[--Unlike the &6Ender cell &fyou can not Upgrade the network from it.--]"
+				"它不像&6末影单元&f,你无法通过它升级频道。"
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "4B4BB05A570DA6AB"
-			tasks: [
-				{
-					id: "1158A00E2DDA99FA"
-					type: "item"
-					item: "powah:ender_gate_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "79EDD92FBDA8D8FA"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "1158A00E2DDA99FA"
+				type: "item"
+				item: "powah:ender_gate_basic"
+			}]
+			rewards: [{
+				id: "79EDD92FBDA8D8FA"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
@@ -2619,206 +2204,170 @@
 			shape: "diamond"
 			dependencies: ["24D6425171F874D0"]
 			id: "10C16FAF874B6E23"
-			tasks: [
-				{
-					id: "3F198E6D48199D48"
-					type: "item"
-					item: "powah:energizing_rod_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "705CC4519F242B62"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3F198E6D48199D48"
+				type: "item"
+				item: "powah:energizing_rod_basic"
+			}]
+			rewards: [{
+				id: "705CC4519F242B62"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f.[--&bThe Furnator&f is a &6FE generator &fthat generates energy from &6solid Furnace fuel &f like coal, wood...--]"]
+			description: ["&b熔炉发电机&f是一个通过燃烧&6固体燃料&f(比如煤、木材)产生能量的&6FE发电机&f."]
 			dependencies: ["24D6425171F874D0"]
 			id: "6A3D3782F3FC361E"
-			tasks: [
-				{
-					id: "6FBC961C2B471012"
-					type: "item"
-					item: "powah:furnator_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "3659066CA0148A8A"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "6FBC961C2B471012"
+				type: "item"
+				item: "powah:furnator_basic"
+			}]
+			rewards: [{
+				id: "3659066CA0148A8A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f.[--&bThe Magmator &fis a &6FE generator &fthat generates energy from &6high temp fluid &flike Lava.--]"]
+			description: ["&b岩浆发电机&f是一个通过消耗&6高温流体&f(比如熔岩)产生能量的&6FE发电机&f."]
 			dependencies: ["24D6425171F874D0"]
 			id: "30E173AD2389FCD0"
-			tasks: [
-				{
-					id: "42A2F80DB26404F7"
-					type: "item"
-					item: "powah:magmator_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "5A063BD48BFC0F53"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "42A2F80DB26404F7"
+				type: "item"
+				item: "powah:magmator_basic"
+			}]
+			rewards: [{
+				id: "5A063BD48BFC0F53"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&b热力发电机(下界)&f是一个有&68FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。[--&bThe Thermo Generator &fis a &68FE Generator &fthat generates energy when &6placed on top of high temps block/fluid &flike lava, require a coolant fluid like water to run.--]"]
+			description: ["&b热力发电机(下界)&f是一个有&68FE&f发电量的发电机,如果想要它工作,则需要把它&6放置在高温块/流体&f(比如熔岩)上,并接入冷却流体(比如水)。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "595A92180145FC7A"
-			tasks: [
-				{
-					id: "370CF63DC5CAB56A"
-					type: "item"
-					item: "powah:thermo_generator_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "2B2668671FAA28A8"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "370CF63DC5CAB56A"
+				type: "item"
+				item: "powah:thermo_generator_basic"
+			}]
+			rewards: [{
+				id: "2B2668671FAA28A8"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f.[--&bThe Solar Panel &fis an &6FE generator &fthat generates energy when &6exposed to sunlight&f.--]"]
+			description: ["&b太阳能电池板&f是一个通过&6太阳照射&f产生能量的&6FE发电机&f."]
 			dependencies: ["24D6425171F874D0"]
 			id: "2B38CDC288333503"
-			tasks: [
-				{
-					id: "55A11E8D68BAE30D"
-					type: "item"
-					item: "powah:solar_panel_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "1A43CFB36F5EA26A"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "55A11E8D68BAE30D"
+				type: "item"
+				item: "powah:solar_panel_basic"
+			}]
+			rewards: [{
+				id: "1A43CFB36F5EA26A"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.5d
 			y: -10.0d
 			shape: "diamond"
-			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f.[--&bThe Reactor &fis a multi-block &6FE generator &fthat use &6Uraninite &fas main fuel.--]"]
+			description: ["&b反应堆&f是一个使用&6晶质铀&f作为燃料的多方块&6FE发电机&f."]
 			dependencies: ["24D6425171F874D0"]
 			id: "014D5EDAEBF1874C"
-			tasks: [
-				{
-					id: "3CEEF67EF5D40A49"
-					type: "item"
-					item: "powah:reactor_basic"
-					count: 36L
-				}
-			]
-			rewards: [
-				{
-					id: "1F05DBE5F333B089"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3CEEF67EF5D40A49"
+				type: "item"
+				item: "powah:reactor_basic"
+				count: 36L
+			}]
+			rewards: [{
+				id: "1F05DBE5F333B089"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
 			y: -10.5d
 			shape: "diamond"
-			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。[--&bThe Player Transmitter &fis a block used to &6charge items wirelessly &fin a &6linked player inventory &fincluding armor slots and off-hand anywhere in the &6same dimension &fwhen you use a normal &6binding card &fand &6across dimensions &fwhen you use a &6dimensional binding card&f.--]"]
+			description: ["&b玩家供电仪&f是一个用于给&6物品无线充电&f的设备,包括盔甲插槽和当你使用&6绑定卡&f时,在&6相同维度&f的任意位置&f为玩家物品栏充电。"]
 			dependencies: ["24D6425171F874D0"]
 			id: "1CA4C40C697B350F"
-			tasks: [
-				{
-					id: "33DE3741660891B9"
-					type: "item"
-					item: "powah:player_transmitter_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "38EABF268D80D976"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "33DE3741660891B9"
+				type: "item"
+				item: "powah:player_transmitter_basic"
+			}]
+			rewards: [{
+				id: "38EABF268D80D976"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块.[--&bThe Energy Hopper &fits a block used to &6charge chargeable items&f inside an &6adjacent inventory &flike a chest or any block with an accessible inventory and not a not has forge energy.--]"]
+			description: ["&b能量漏斗&f可以充电可充电的物品&f(如箱子)或任何有可访问物品栏且无锻造能量的方块."]
 			dependencies: ["24D6425171F874D0"]
 			id: "23B3FD3F1D619ADC"
-			tasks: [
-				{
-					id: "748B414A40543A2B"
-					type: "item"
-					item: "powah:energy_hopper_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "5C8C5FA830D99A92"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "748B414A40543A2B"
+				type: "item"
+				item: "powah:energy_hopper_basic"
+			}]
+			rewards: [{
+				id: "5C8C5FA830D99A92"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 5.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用.[--&bThe energy Discharger &fis a block used to &6drain energy &fout of &6charged items &fand then store it to an internal buffer if then connected via cables to extract that stored power and re-using it again.--]"]
+			description: ["&b能量提取器&f能将物品内存有的能量提取到内部的缓存中,接入电缆能将内部能量转移出并再次使用."]
 			dependencies: ["24D6425171F874D0"]
 			id: "49A2E36997C5D522"
-			tasks: [
-				{
-					id: "3C996D78C11833AF"
-					type: "item"
-					item: "powah:energy_discharger_basic"
-				}
-			]
-			rewards: [
-				{
-					id: "3E98A600FCA6486C"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3C996D78C11833AF"
+				type: "item"
+				item: "powah:energy_discharger_basic"
+			}]
+			rewards: [{
+				id: "3E98A600FCA6486C"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
@@ -2828,22 +2377,18 @@
 			dependencies: ["6B1C6D60AA41FC32"]
 			size: 1.5d
 			id: "24D6425171F874D0"
-			tasks: [
-				{
-					id: "6C51BD463D4224F9"
-					type: "item"
-					item: "powah:capacitor_basic"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "33C209E5B3395610"
-					type: "item"
-					item: "powah:capacitor_basic"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6C51BD463D4224F9"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2L
+			}]
+			rewards: [{
+				id: "33C209E5B3395610"
+				type: "item"
+				item: "powah:capacitor_basic"
+				count: 2
+			}]
 		}
 		{
 			x: 6.0d
@@ -2851,52 +2396,44 @@
 			shape: "diamond"
 			description: [
 				""
-				"当&b电池&f在玩家物品栏中,可以为其他物品充电。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络频道.[--&bBattery &fcharge items when is in player inventory, can Also be used to upgrade the capacity of an &6Ender Network channel &fby &6Shift clicking &fa Battery to an &6Ender Cell GUI&f, if the Battery contain energy then will also be applied to the ender network channel.--]"
+				"当&b电池&f在玩家物品栏中,可以为其他物品充电。你也可以通过&6shift单击&f电池打开&6末影网络的GUI&f,如果电池拥有能量,那它也将应用于末影网络频道."
 			]
 			dependencies: ["24D6425171F874D0"]
 			id: "1126289F882E697D"
-			tasks: [
-				{
-					id: "788D48F7F87EEBE5"
-					type: "item"
-					item: {
-						id: "powah:battery_basic"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "788D48F7F87EEBE5"
+				type: "item"
+				item: {
+					id: "powah:battery_basic"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "687B878970D85319"
-					type: "item"
-					item: "powah:dielectric_paste"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "687B878970D85319"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 4
+			}]
 		}
 		{
 			x: 9.9d
 			y: -8.25d
 			shape: "diamond"
-			description: ["投掷一个&b充能雪球&f在落地时或击中 mod时会生成一个&6闪电&f,这是给雪球充能获得的.[--Throwing a &bCharged Snowball &fwill cause a &6bolt of lightning &fto spawn when hitting the ground or when it hits the mod, obtained by energizing a snowball.--]"]
+			description: ["投掷一个&b充能雪球&f在落地时或击中 mod时会生成一个&6闪电&f,这是给雪球充能获得的."]
 			dependencies: ["4F653ADFAFAF8ABB"]
 			size: 1.1d
 			id: "73F3EDBEA043AFB0"
-			tasks: [
-				{
-					id: "64A6BBDB9715307D"
-					type: "item"
-					item: "powah:charged_snowball"
-				}
-			]
-			rewards: [
-				{
-					id: "45E97F18405E9666"
-					type: "item"
-					item: "powah:charged_snowball"
-				}
-			]
+			tasks: [{
+				id: "64A6BBDB9715307D"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+			rewards: [{
+				id: "45E97F18405E9666"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2905,20 +2442,16 @@
 			dependencies: ["4F653ADFAFAF8ABB"]
 			size: 1.1d
 			id: "48FFDA6E308FEBC7"
-			tasks: [
-				{
-					id: "63CD2B337AF48E99"
-					type: "item"
-					item: "powah:dry_ice"
-				}
-			]
-			rewards: [
-				{
-					id: "418CAC350EAB456F"
-					type: "item"
-					item: "powah:dry_ice"
-				}
-			]
+			tasks: [{
+				id: "63CD2B337AF48E99"
+				type: "item"
+				item: "powah:dry_ice"
+			}]
+			rewards: [{
+				id: "418CAC350EAB456F"
+				type: "item"
+				item: "powah:dry_ice"
+			}]
 		}
 		{
 			x: 10.450000000000001d
@@ -2927,20 +2460,16 @@
 			dependencies: ["4F653ADFAFAF8ABB"]
 			size: 1.1d
 			id: "4F49664319D58211"
-			tasks: [
-				{
-					id: "5EF6209262724267"
-					type: "item"
-					item: "powah:ender_core"
-				}
-			]
-			rewards: [
-				{
-					id: "02B933BC6605A8B4"
-					type: "item"
-					item: "powah:ender_core"
-				}
-			]
+			tasks: [{
+				id: "5EF6209262724267"
+				type: "item"
+				item: "powah:ender_core"
+			}]
+			rewards: [{
+				id: "02B933BC6605A8B4"
+				type: "item"
+				item: "powah:ender_core"
+			}]
 		}
 		{
 			x: 11.55d
@@ -2949,59 +2478,50 @@
 			dependencies: ["18B11493A91AF0F9"]
 			size: 1.1d
 			id: "2EC229BC84ECDD76"
-			tasks: [
-				{
-					id: "50072E86C8642BC5"
-					type: "item"
-					item: "powah:uraninite"
-				}
-			]
-			rewards: [
-				{
-					id: "68541C415CDF5954"
-					type: "item"
-					item: "powah:uraninite"
-					count: 8
-				}
-			]
+			tasks: [{
+				id: "50072E86C8642BC5"
+				type: "item"
+				item: "powah:uraninite"
+			}]
+			rewards: [{
+				id: "68541C415CDF5954"
+				type: "item"
+				item: "powah:uraninite"
+				count: 8
+			}]
 		}
 		{
 			x: 9.35d
 			y: -13.75d
 			shape: "diamond"
 			description: [
-				"&b扳手&f有 3 种模式:[--&bThe Wrench &fas 3 modes :--]"
+				"&b扳手&f有 3 种模式:"
 				""
-				"&6配置模式&f:用于更改电缆 I/O配置.[--&6Config Mode&f: used to change cables I/O configuration.--]"
+				"&6配置模式&f:用于更改电缆 I/O配置."
 				""
-				"&6链接模式&f:用于连接可链接方块,例如充能台和充能棒.[--&6Link Mode&f: used to link linkable blocks like energizing orb and rods.--]"
+				"&6链接模式&f:用于连接可链接方块,例如充能台和充能棒."
 				""
-				"&6旋转模式&f:用于水平旋转方块.[--&6Rotate Mode&f: used to rotate blocks horizontally.--]"
+				"&6旋转模式&f:用于水平旋转方块."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6B1C6D60AA41FC32"]
 			size: 1.1d
 			id: "29B3DC96FA0FAC49"
-			tasks: [
-				{
-					id: "5A1CCF771BBF4B0E"
-					type: "item"
-					item: {
-						id: "powah:wrench"
-						Count: 1b
-						tag: {
-							PowahWrenchNBT: { }
-						}
+			tasks: [{
+				id: "5A1CCF771BBF4B0E"
+				type: "item"
+				item: {
+					id: "powah:wrench"
+					Count: 1b
+					tag: {
+						PowahWrenchNBT: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "25A4AB272390C79C"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "25A4AB272390C79C"
+				type: "random"
+			}]
 		}
 		{
 			x: 16.5d
@@ -3013,72 +2533,57 @@
 				"76B3F0738BEBD4E9"
 			]
 			id: "2C00C50CA15DD756"
-			tasks: [
-				{
-					id: "605DD5D235179DA1"
-					type: "item"
-					item: "powah:blank_card"
-				}
-			]
-			rewards: [
-				{
-					id: "2502BB915C74F9E2"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "605DD5D235179DA1"
+				type: "item"
+				item: "powah:blank_card"
+			}]
+			rewards: [{
+				id: "2502BB915C74F9E2"
+				type: "random"
+			}]
 		}
 		{
 			x: 17.5d
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"&b绑定卡&f用于用&6玩家供电仪&f连接玩家&f[--The &bBinding Card &f is used to &6link a player &fwith a &6Player Transmitter &fin the &6same dimension&f.--]"
+				"&b绑定卡&f用于用&6玩家供电仪&f连接玩家&f"
 				""
-				"在将它放入玩家供电仪之前,您需要将其与您连接。 &6右键单击&f以绑定它.[--You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind.--]"
+				"在将它放入玩家供电仪之前,您需要将其与您连接。 &6右键单击&f以绑定它."
 			]
 			dependencies: ["2C00C50CA15DD756"]
 			id: "0E8BDDC1BACAB461"
-			tasks: [
-				{
-					id: "358A7DC889DED3C2"
-					type: "item"
-					item: "powah:binding_card"
-				}
-			]
-			rewards: [
-				{
-					id: "36977103A6326883"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "358A7DC889DED3C2"
+				type: "item"
+				item: "powah:binding_card"
+			}]
+			rewards: [{
+				id: "36977103A6326883"
+				type: "random"
+			}]
 		}
 		{
 			x: 18.5d
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"&b绑定卡&f用于跨维度连接&6玩家&f和&6玩家供电仪&f.[--The &bDimensional Bind Card &f is used to link a &6player &fwith a &6Player Transmitter across dimensions&f.--]"
+				"&b绑定卡&f用于跨维度连接&6玩家&f和&6玩家供电仪&f."
 				""
-				"在将它放入玩家供电仪之前,您需要将其与您连接。 &6右键单击&f以绑定它.[--You need to link it with you before addind it to the player transmitter. &6Right-click &fit to bind.--]"
+				"在将它放入玩家供电仪之前,您需要将其与您连接。 &6右键单击&f以绑定它."
 			]
 			dependencies: ["0E8BDDC1BACAB461"]
 			id: "499A20382CC524F5"
-			tasks: [
-				{
-					id: "45D4466651BDA59D"
-					type: "item"
-					item: "powah:binding_card_dim"
-				}
-			]
-			rewards: [
-				{
-					id: "731E40A7848D862F"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "45D4466651BDA59D"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "731E40A7848D862F"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.5d
@@ -3087,20 +2592,16 @@
 			hide_dependency_lines: true
 			dependencies: ["6B1C6D60AA41FC32"]
 			id: "593C7B0B7FDF55EC"
-			tasks: [
-				{
-					id: "44EAFED09394972B"
-					type: "item"
-					item: "powah:photoelectric_pane"
-				}
-			]
-			rewards: [
-				{
-					id: "5885EF6AB0717D4C"
-					type: "item"
-					item: "powah:photoelectric_pane"
-				}
-			]
+			tasks: [{
+				id: "44EAFED09394972B"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
+			rewards: [{
+				id: "5885EF6AB0717D4C"
+				type: "item"
+				item: "powah:photoelectric_pane"
+			}]
 		}
 		{
 			x: 16.5d
@@ -3109,20 +2610,15 @@
 			hide_dependency_lines: true
 			dependencies: ["593C7B0B7FDF55EC"]
 			id: "0EF690102AE89443"
-			tasks: [
-				{
-					id: "598E16EFA9EE007C"
-					type: "item"
-					item: "powah:lens_of_ender"
-				}
-			]
-			rewards: [
-				{
-					id: "5AB05D28DC8D5AB8"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "598E16EFA9EE007C"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+			rewards: [{
+				id: "5AB05D28DC8D5AB8"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.5d
@@ -3131,46 +2627,36 @@
 			hide_dependency_lines: true
 			dependencies: ["6B1C6D60AA41FC32"]
 			id: "679EEA8ED654D878"
-			tasks: [
-				{
-					id: "56D61761ADA28CF3"
-					type: "item"
-					item: "powah:aerial_pearl"
-				}
-			]
-			rewards: [
-				{
-					id: "07769E0A241D5FDB"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "56D61761ADA28CF3"
+				type: "item"
+				item: "powah:aerial_pearl"
+			}]
+			rewards: [{
+				id: "07769E0A241D5FDB"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.5d
 			y: -8.5d
 			shape: "hexagon"
 			description: [
-				"&b杀手空心珍珠&f用于制作&6玩家发射器&f.[--&bPlayer Aerial Pearl &fis used to craft the &6player transmitter&f.--]"
+				"&b杀手空心珍珠&f用于制作&6玩家发射器&f."
 				""
-				"你可以通过在&6僵尸&f上&6使用&f空气珍珠&f来获得它[--You can get it by &6using &fan &bAerial Pearl &fon a &6Zombie &for &6Husk&f.--]"
+				"你可以通过在&6僵尸&f上&6使用&f空气珍珠&f来获得它"
 			]
 			dependencies: ["679EEA8ED654D878"]
 			id: "081A0799AB8AAF1D"
-			tasks: [
-				{
-					id: "494DB9CC4176688F"
-					type: "item"
-					item: "powah:player_aerial_pearl"
-				}
-			]
-			rewards: [
-				{
-					id: "0F9616F1CEC894C4"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "494DB9CC4176688F"
+				type: "item"
+				item: "powah:player_aerial_pearl"
+			}]
+			rewards: [{
+				id: "0F9616F1CEC894C4"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3182,20 +2668,16 @@
 				"321AFD3A1679E8E0"
 			]
 			id: "3F81193186747062"
-			tasks: [
-				{
-					id: "115091A14DA9F020"
-					type: "item"
-					item: "powah:thermoelectric_plate"
-				}
-			]
-			rewards: [
-				{
-					id: "3E35AD1D808CB706"
-					type: "item"
-					item: "powah:thermoelectric_plate"
-				}
-			]
+			tasks: [{
+				id: "115091A14DA9F020"
+				type: "item"
+				item: "powah:thermoelectric_plate"
+			}]
+			rewards: [{
+				id: "3E35AD1D808CB706"
+				type: "item"
+				item: "powah:thermoelectric_plate"
+			}]
 		}
 		{
 			x: 9.9d
@@ -3205,23 +2687,18 @@
 			dependencies: ["6B1C6D60AA41FC32"]
 			size: 1.1d
 			id: "0296D34F87906607"
-			tasks: [
-				{
-					id: "0F96D7D99B396B06"
-					type: "item"
-					item: "powah:book"
-				}
-			]
-			rewards: [
-				{
-					id: "37F469E81DF09832"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0F96D7D99B396B06"
+				type: "item"
+				item: "powah:book"
+			}]
+			rewards: [{
+				id: "37F469E81DF09832"
+				type: "random"
+			}]
 		}
 		{
-			title: "&d机械核心 4[--&dMechanic Core Tier 4--]"
+			title: "&d机械核心 4"
 			x: 10.5d
 			y: -6.0d
 			shape: "gear"
@@ -3236,73 +2713,65 @@
 			]
 			size: 2.0d
 			id: "1BF9C8439A0AAE86"
-			tasks: [
-				{
-					id: "1ACBBFC48C196CF8"
-					type: "item"
-					item: "chromasky:mechanic_core_tier_4"
-				}
-			]
-			rewards: [
-				{
-					id: "4F3DA5D4D6FA8C57"
-					type: "item"
-					item: "chromasky:mechanic_core_tier_4"
-				}
-			]
+			tasks: [{
+				id: "1ACBBFC48C196CF8"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_4"
+			}]
+			rewards: [{
+				id: "4F3DA5D4D6FA8C57"
+				type: "item"
+				item: "chromasky:mechanic_core_tier_4"
+			}]
 		}
 		{
 			x: 11.0d
 			y: -14.3d
 			shape: "diamond"
-			description: ["可以用洗矿槽获得。[--Can be obtained with sluices.--]"]
+			description: ["可以用洗矿槽获得。"]
 			dependencies: ["5457F53E1DBA6A03"]
 			size: 1.1d
 			id: "18B11493A91AF0F9"
-			tasks: [
-				{
-					id: "0E0EAAEA2AE0A839"
-					type: "item"
-					title: "粗黑铀[--Raw Uraninite--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "powah:uraninite_raw_poor"
-									Count: 1b
-								}
-								{
-									id: "powah:uraninite_raw"
-									Count: 1b
-								}
-								{
-									id: "powah:uraninite_raw_dense"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "0E0EAAEA2AE0A839"
+				type: "item"
+				title: "粗黑铀"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "powah:uraninite_raw_poor"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw"
+								Count: 1b
+							}
+							{
+								id: "powah:uraninite_raw_dense"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "55E01EB3E1DF02F4"
-					type: "item"
-					item: "powah:uraninite_raw_dense"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "55E01EB3E1DF02F4"
+				type: "item"
+				item: "powah:uraninite_raw_dense"
+				count: 4
+			}]
 		}
 		{
 			x: 10.5d
 			y: -15.5d
 			shape: "diamond"
 			description: [
-				"&5下界合金洗矿槽&r工作需要&4能量&r.[--The &5Netherite Sluice&r will need &4energy&r to work.--]"
+				"&5下界合金洗矿槽&r工作需要&4能量&r."
 				""
-				"&6下界合金洗矿槽&r可以通过升级进行改进.[--&6Netherite Sluice&r can be improved with upgrades.--]"
+				"&6下界合金洗矿槽&r可以通过升级进行改进."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3311,30 +2780,25 @@
 			]
 			size: 1.5d
 			id: "363DFF147DD06B8E"
-			tasks: [
-				{
-					id: "42EF76D1605AAD2D"
-					type: "item"
-					item: {
-						id: "ftbsluice:netherite_sluice"
-						Count: 1b
-						tag: {
-							BlockEntityTag: {
-								Energy: {
-									energy: 0
-								}
+			tasks: [{
+				id: "42EF76D1605AAD2D"
+				type: "item"
+				item: {
+					id: "ftbsluice:netherite_sluice"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Energy: {
+								energy: 0
 							}
 						}
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3EF64E65C35AD692"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "3EF64E65C35AD692"
+				type: "random"
+			}]
 		}
 	]
 }

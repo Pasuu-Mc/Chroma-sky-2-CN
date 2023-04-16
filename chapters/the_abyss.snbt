@@ -3,7 +3,7 @@
 	group: "7F090E96EFD94B43"
 	order_index: 4
 	filename: "the_abyss"
-	title: "深渊[--The abyss--]"
+	title: "深渊"
 	icon: "theabyss:node_shard"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,21 +13,17 @@
 			y: -1.5d
 			dependencies: ["5924A2719A053B61"]
 			id: "576F2384CF4A5DD7"
-			tasks: [
-				{
-					id: "2F609584DBC74917"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
-			rewards: [
-				{
-					id: "3AFBA1FE9D30F105"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "2F609584DBC74917"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
+			rewards: [{
+				id: "3AFBA1FE9D30F105"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+				count: 4
+			}]
 		}
 		{
 			x: -6.5d
@@ -37,25 +33,21 @@
 				"4A6725B54DD382E1"
 			]
 			id: "5924A2719A053B61"
-			tasks: [
-				{
-					id: "6EDC0A7D23EAC18F"
-					type: "item"
-					item: "theabyss:loranflower"
-				}
-			]
-			rewards: [
-				{
-					id: "07386F8EDD5BD8FA"
-					type: "item"
-					item: "theabyss:loranflower"
-				}
-			]
+			tasks: [{
+				id: "6EDC0A7D23EAC18F"
+				type: "item"
+				item: "theabyss:loranflower"
+			}]
+			rewards: [{
+				id: "07386F8EDD5BD8FA"
+				type: "item"
+				item: "theabyss:loranflower"
+			}]
 		}
 		{
 			x: -8.0d
 			y: -1.5d
-			description: ["这本书会告诉你怪物的状态.[--A book that tells you the stats of the mobs.--]"]
+			description: ["这本书会告诉你怪物的状态."]
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "72A76CFCD3DBDAB9"
 			tasks: [
@@ -76,20 +68,18 @@
 					item: "theabyss:translationletter"
 				}
 			]
-			rewards: [
-				{
-					id: "47DBF3093ACD3E70"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
+			rewards: [{
+				id: "47DBF3093ACD3E70"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
-			title: "深渊传送门[--Abyss Portal--]"
+			title: "深渊传送门"
 			icon: "theabyss:abyssportalstone"
 			x: -3.5d
 			y: -1.5d
-			description: ["&4不要把传送门放在泥土上,也不要用魔杖右键单击泥土.[--&4Do not place portal on the dirt or right-click with the wand on the dirt.--]"]
+			description: ["&4不要把传送门放在泥土上,也不要用魔杖右键单击泥土."]
 			dependencies: [
 				"576F2384CF4A5DD7"
 				"254D683B153C4582"
@@ -116,13 +106,11 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "602B2B0D54115FD6"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
+			rewards: [{
+				id: "602B2B0D54115FD6"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			icon: {
@@ -142,439 +130,365 @@
 				{
 					id: "242277B3818464CC"
 					type: "dimension"
-					title: "访问维度:&a深渊维度[--Visit dimension: &aThe Abyss Dim--]"
+					title: "访问维度:&a深渊维度"
 					dimension: "theabyss:theabyssdim"
 				}
 				{
 					id: "4BD561FB4C0DD5C0"
 					type: "checkmark"
-					title: "访问维度[--Visit dimension--]"
+					title: "访问维度"
 				}
 			]
-			rewards: [
-				{
-					id: "0D036F08118CCF3B"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
+			rewards: [{
+				id: "0D036F08118CCF3B"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -7.0d
 			dependencies: ["4426977D7ED752F4"]
 			id: "46AF23700351647F"
-			tasks: [
-				{
-					id: "49F6DA5B6AD6DEDF"
-					type: "item"
-					item: "theabyss:abyssdiamond"
-				}
-			]
-			rewards: [
-				{
-					id: "045E99A83FAC22DF"
-					type: "item"
-					item: "theabyss:abyssdiamond"
-				}
-			]
+			tasks: [{
+				id: "49F6DA5B6AD6DEDF"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+			}]
+			rewards: [{
+				id: "045E99A83FAC22DF"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -9.0d
 			dependencies: ["46AF23700351647F"]
 			id: "5A20D2449CE912E3"
-			tasks: [
-				{
-					id: "0950AA92F7A96674"
-					type: "item"
-					item: "theabyss:ultraabyssdiamond"
-				}
-			]
-			rewards: [
-				{
-					id: "51236411C8E78841"
-					type: "item"
-					item: "theabyss:ultraabyssdiamond"
-				}
-			]
+			tasks: [{
+				id: "0950AA92F7A96674"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+			}]
+			rewards: [{
+				id: "51236411C8E78841"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -4.5d
 			dependencies: ["5F91598E3C6509BB"]
 			id: "6BA1A90842584C08"
-			tasks: [
-				{
-					id: "53FFEFFCEAE0ECF5"
-					type: "item"
-					item: "theabyss:unknown_diamond"
-				}
-			]
-			rewards: [
-				{
-					id: "6D9EDDE45F578096"
-					type: "item"
-					item: "theabyss:unknown_diamond"
-				}
-			]
+			tasks: [{
+				id: "53FFEFFCEAE0ECF5"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+			}]
+			rewards: [{
+				id: "6D9EDDE45F578096"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -3.0d
 			dependencies: ["5186597E9AACF6F0"]
 			id: "406D7606D7E5ACC5"
-			tasks: [
-				{
-					id: "715CFF051BBF60FE"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-				}
-			]
-			rewards: [
-				{
-					id: "0CB414E592A9384F"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-				}
-			]
+			tasks: [{
+				id: "715CFF051BBF60FE"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
+			rewards: [{
+				id: "0CB414E592A9384F"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -1.5d
 			dependencies: ["425EFB238217FDE3"]
 			id: "6922F366FD53486C"
-			tasks: [
-				{
-					id: "61CE394737B3AAF2"
-					type: "item"
-					item: "theabyss:abyssfirediamond"
-				}
-			]
-			rewards: [
-				{
-					id: "1995209A356FE2F8"
-					type: "item"
-					item: "theabyss:abyssfirediamond"
-				}
-			]
+			tasks: [{
+				id: "61CE394737B3AAF2"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+			}]
+			rewards: [{
+				id: "1995209A356FE2F8"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+			}]
 		}
 		{
 			x: 4.0d
 			y: -4.5d
 			dependencies: ["6BA1A90842584C08"]
 			id: "0E5E8CBB8A380F7E"
-			tasks: [
-				{
-					id: "17CB86DE3AD2B7F7"
-					type: "item"
-					item: "theabyss:loran_energy"
-				}
-			]
-			rewards: [
-				{
-					id: "61230B7503C5A8B8"
-					type: "item"
-					item: "theabyss:loran_energy"
-				}
-			]
+			tasks: [{
+				id: "17CB86DE3AD2B7F7"
+				type: "item"
+				item: "theabyss:loran_energy"
+			}]
+			rewards: [{
+				id: "61230B7503C5A8B8"
+				type: "item"
+				item: "theabyss:loran_energy"
+			}]
 		}
 		{
 			x: -6.5d
 			y: 4.0d
 			dependencies: ["45E8BB444DBAAEA0"]
 			id: "51E27EF5043F1CB5"
-			tasks: [
-				{
-					id: "0110894504101F35"
-					type: "item"
-					item: "theabyss:thunder_stone"
-				}
-			]
-			rewards: [
-				{
-					id: "38ABD0C7342720A8"
-					type: "item"
-					item: "theabyss:thunder_stone"
-					random_bonus: 2
-				}
-			]
+			tasks: [{
+				id: "0110894504101F35"
+				type: "item"
+				item: "theabyss:thunder_stone"
+			}]
+			rewards: [{
+				id: "38ABD0C7342720A8"
+				type: "item"
+				item: "theabyss:thunder_stone"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 14.0d
 			y: -9.5d
 			dependencies: ["377B8E23EDE65AD4"]
 			id: "2A37A693DFFADE0C"
-			tasks: [
-				{
-					id: "11175D240A6B592F"
-					type: "item"
-					item: "theabyss:phantom_soul_item"
-				}
-			]
-			rewards: [
-				{
-					id: "0649767CEE378A95"
-					type: "item"
-					item: "theabyss:phantom_soul_item"
-					count: 3
-				}
-			]
+			tasks: [{
+				id: "11175D240A6B592F"
+				type: "item"
+				item: "theabyss:phantom_soul_item"
+			}]
+			rewards: [{
+				id: "0649767CEE378A95"
+				type: "item"
+				item: "theabyss:phantom_soul_item"
+				count: 3
+			}]
 		}
 		{
 			x: -6.5d
 			y: 3.0d
 			dependencies: ["7B56E21D3592FA35"]
 			id: "45E8BB444DBAAEA0"
-			tasks: [
-				{
-					id: "5C71338F8F39DB37"
-					type: "item"
-					item: "theabyss:thunder_nugget"
-				}
-			]
-			rewards: [
-				{
-					id: "5C4C5C6878F22ED9"
-					type: "item"
-					item: "theabyss:thunder_nugget"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "5C71338F8F39DB37"
+				type: "item"
+				item: "theabyss:thunder_nugget"
+			}]
+			rewards: [{
+				id: "5C4C5C6878F22ED9"
+				type: "item"
+				item: "theabyss:thunder_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -3.5d
 			y: 0.0d
 			dependencies: ["4D571C41AE6DBA08"]
 			id: "7DF4C56C2E4DBAF6"
-			tasks: [
-				{
-					id: "377EDE7FD79CCFBF"
-					type: "item"
-					item: "theabyss:life_nugget"
-				}
-			]
-			rewards: [
-				{
-					id: "639695DAC579B05E"
-					type: "item"
-					item: "theabyss:life_nugget"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "377EDE7FD79CCFBF"
+				type: "item"
+				item: "theabyss:life_nugget"
+			}]
+			rewards: [{
+				id: "639695DAC579B05E"
+				type: "item"
+				item: "theabyss:life_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -4.0d
 			y: 3.0d
 			dependencies: ["35D025140E375791"]
 			id: "36FF17F44B16FA23"
-			tasks: [
-				{
-					id: "04AC5D0FACD34EC5"
-					type: "item"
-					item: "theabyss:abyssfirenug"
-				}
-			]
-			rewards: [
-				{
-					id: "6678EC653DF5301F"
-					type: "item"
-					item: "theabyss:abyssfirenug"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "04AC5D0FACD34EC5"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+			}]
+			rewards: [{
+				id: "6678EC653DF5301F"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: -9.5d
 			y: 0.0d
 			dependencies: ["5368DE820CC032B7"]
 			id: "2C6EC507A6C0A4EE"
-			tasks: [
-				{
-					id: "74910A23CD8CCF70"
-					type: "item"
-					item: "theabyss:icora_nugget"
-				}
-			]
-			rewards: [
-				{
-					id: "6FADDAA5C79BC871"
-					type: "item"
-					item: "theabyss:icora_nugget"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "74910A23CD8CCF70"
+				type: "item"
+				item: "theabyss:icora_nugget"
+			}]
+			rewards: [{
+				id: "6FADDAA5C79BC871"
+				type: "item"
+				item: "theabyss:icora_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
 			x: 10.5d
 			y: -6.5d
 			dependencies: ["48B2EA3BCB882162"]
 			id: "3C11D2D76EDAADD6"
-			tasks: [
-				{
-					id: "38EF92CFF501D21E"
-					type: "item"
-					item: "thebeginning:lazarus_nugget"
-				}
-			]
-			rewards: [
-				{
-					id: "1FDEC7AF8AAEE139"
-					type: "item"
-					item: "thebeginning:lazarus_nugget"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "38EF92CFF501D21E"
+				type: "item"
+				item: "thebeginning:lazarus_nugget"
+			}]
+			rewards: [{
+				id: "1FDEC7AF8AAEE139"
+				type: "item"
+				item: "thebeginning:lazarus_nugget"
+				random_bonus: 6
+			}]
 		}
 		{
-			title: "闪电植物[--Thunder Plant--]"
+			title: "闪电植物"
 			x: -6.5d
 			y: 1.5d
-			description: ["看看这台植物[--Look at the plant--]"]
+			description: ["看看这台植物"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7B56E21D3592FA35"
-			tasks: [
-				{
-					id: "4111798A94976EB8"
-					type: "observation"
-					title: "闪电植物[--Thunder Plant--]"
-					icon: "theabyss:abyssthunderplant"
-					timer: 1L
-					observe_type: 0
-					to_observe: "theabyss:abyssthunderplant"
-				}
-			]
-			rewards: [
-				{
-					id: "4AC349FD6E993FC9"
-					type: "item"
-					item: "theabyss:abyssthunderplant"
-					count: 2
-					random_bonus: 4
-				}
-			]
+			tasks: [{
+				id: "4111798A94976EB8"
+				type: "observation"
+				title: "闪电植物"
+				icon: "theabyss:abyssthunderplant"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:abyssthunderplant"
+			}]
+			rewards: [{
+				id: "4AC349FD6E993FC9"
+				type: "item"
+				item: "theabyss:abyssthunderplant"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
-			title: "生命花[--Life Flower--]"
+			title: "生命花"
 			x: -5.0d
 			y: 0.0d
-			description: ["看看这朵花[--Look at the flower--]"]
+			description: ["看看这朵花"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "4D571C41AE6DBA08"
-			tasks: [
-				{
-					id: "49CFF4568B3A2450"
-					type: "observation"
-					title: "生命花[--Life Flower--]"
-					icon: "theabyss:goldendeathplant"
-					timer: 1L
-					observe_type: 0
-					to_observe: "theabyss:goldendeathplant"
-				}
-			]
-			rewards: [
-				{
-					id: "149362F8E596DD09"
-					type: "item"
-					item: "theabyss:goldendeathplant"
-					count: 2
-					random_bonus: 4
-				}
-			]
+			tasks: [{
+				id: "49CFF4568B3A2450"
+				type: "observation"
+				title: "生命花"
+				icon: "theabyss:goldendeathplant"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:goldendeathplant"
+			}]
+			rewards: [{
+				id: "149362F8E596DD09"
+				type: "item"
+				item: "theabyss:goldendeathplant"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
-			title: "火焰植物 X[--Fire Plant X--]"
+			title: "火焰植物 X"
 			x: -5.0d
 			y: 1.5d
-			description: ["看看这台植物[--Look at the plant--]"]
+			description: ["看看这台植物"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "35D025140E375791"
-			tasks: [
-				{
-					id: "4A45633F2FE716B6"
-					type: "observation"
-					title: "火焰植物 X[--Fire Plant X--]"
-					icon: "theabyss:fireplantx"
-					timer: 1L
-					observe_type: 0
-					to_observe: "theabyss:fireplantx"
-				}
-			]
-			rewards: [
-				{
-					id: "0D1E50C7E8ADF216"
-					type: "item"
-					item: "theabyss:fireplantx"
-					count: 2
-					random_bonus: 4
-				}
-			]
+			tasks: [{
+				id: "4A45633F2FE716B6"
+				type: "observation"
+				title: "火焰植物 X"
+				icon: "theabyss:fireplantx"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:fireplantx"
+			}]
+			rewards: [{
+				id: "0D1E50C7E8ADF216"
+				type: "item"
+				item: "theabyss:fireplantx"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
-			title: "岩化花[--Lazarus Flower--]"
+			title: "岩化花"
 			x: 10.5d
 			y: -4.5d
-			description: ["看看这朵花[--Look at the flower--]"]
+			description: ["看看这朵花"]
 			dependencies: ["63AF7FEF081583C8"]
 			id: "48B2EA3BCB882162"
-			tasks: [
-				{
-					id: "7E8A904ADD22F7E9"
-					type: "observation"
-					title: "岩化花[--Lazarus Flower--]"
-					icon: "thebeginning:lazarus_flower"
-					timer: 1L
-					observe_type: 0
-					to_observe: "thebeginning:lazarus_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "6DB0FC9526E6569C"
-					type: "item"
-					item: "thebeginning:lazarus_flower"
-					count: 2
-					random_bonus: 4
-				}
-			]
+			tasks: [{
+				id: "7E8A904ADD22F7E9"
+				type: "observation"
+				title: "岩化花"
+				icon: "thebeginning:lazarus_flower"
+				timer: 1L
+				observe_type: 0
+				to_observe: "thebeginning:lazarus_flower"
+			}]
+			rewards: [{
+				id: "6DB0FC9526E6569C"
+				type: "item"
+				item: "thebeginning:lazarus_flower"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
-			title: "灵浆花[--Icora Flower--]"
+			title: "灵浆花"
 			x: -8.0d
 			y: 0.0d
-			description: ["看看这朵花[--Look at the flower--]"]
+			description: ["看看这朵花"]
 			hide_dependency_lines: true
 			dependencies: ["1018CECF2CD1A0C9"]
 			id: "5368DE820CC032B7"
-			tasks: [
-				{
-					id: "4F83A714CA731305"
-					type: "observation"
-					title: "灵浆花[--Icora Flower--]"
-					icon: "theabyss:icora_flower"
-					timer: 1L
-					observe_type: 0
-					to_observe: "theabyss:icora_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "0AE8B439692C043F"
-					type: "item"
-					item: "theabyss:icora_flower"
-					count: 2
-					random_bonus: 4
-				}
-			]
+			tasks: [{
+				id: "4F83A714CA731305"
+				type: "observation"
+				title: "灵浆花"
+				icon: "theabyss:icora_flower"
+				timer: 1L
+				observe_type: 0
+				to_observe: "theabyss:icora_flower"
+			}]
+			rewards: [{
+				id: "0AE8B439692C043F"
+				type: "item"
+				item: "theabyss:icora_flower"
+				count: 2
+				random_bonus: 4
+			}]
 		}
 		{
-			title: "幻影[--Phantom--]"
+			title: "幻影"
 			x: 14.0d
 			y: -8.0d
-			description: ["查看&b Phantom&r 并杀死它.[--Look at a &bPhantom&r and kill it.--]"]
+			description: ["查看&b Phantom&r 并杀死它."]
 			hide_dependency_lines: true
 			dependencies: ["04CD419F2D4AB1D0"]
 			id: "377B8E23EDE65AD4"
@@ -582,7 +496,7 @@
 				{
 					id: "1BAC475885C3EF60"
 					type: "observation"
-					title: "查看一个&b植物&r[--Look at a &bPhantom&r--]"
+					title: "查看一个&b植物&r"
 					icon: "theabyss:eot_phantom_spawn_egg"
 					timer: 4L
 					observe_type: 5
@@ -595,118 +509,100 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "23FBD1CE5EFD1A0E"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "23FBD1CE5EFD1A0E"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "未知矿石[--Unknown Ore--]"
+			title: "未知矿石"
 			icon: "theabyss:unknown_ore"
 			x: 0.0d
 			y: -4.5d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F91598E3C6509BB"
-			tasks: [
-				{
-					id: "3D275D6DACFD502A"
-					type: "observation"
-					title: "未知矿石[--Unknown Ore--]"
-					icon: "theabyss:unknown_ore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "theabyss:unknown_ore"
-				}
-			]
-			rewards: [
-				{
-					id: "41A8C72DEE7B5890"
-					type: "item"
-					item: "theabyss:unknown_ore"
-				}
-			]
+			tasks: [{
+				id: "3D275D6DACFD502A"
+				type: "observation"
+				title: "未知矿石"
+				icon: "theabyss:unknown_ore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:unknown_ore"
+			}]
+			rewards: [{
+				id: "41A8C72DEE7B5890"
+				type: "item"
+				item: "theabyss:unknown_ore"
+			}]
 		}
 		{
-			title: "冰矿石[--Ice Ore--]"
+			title: "冰矿石"
 			x: 1.0d
 			y: -3.0d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5186597E9AACF6F0"
-			tasks: [
-				{
-					id: "4AB48EAA0DD6200D"
-					type: "observation"
-					title: "冰矿石[--Ice Ore--]"
-					icon: "theabyss:abyssiceore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "theabyss:abyssiceore"
-				}
-			]
-			rewards: [
-				{
-					id: "24B149384AE500B0"
-					type: "item"
-					item: "theabyss:abyssiceore"
-				}
-			]
+			tasks: [{
+				id: "4AB48EAA0DD6200D"
+				type: "observation"
+				title: "冰矿石"
+				icon: "theabyss:abyssiceore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssiceore"
+			}]
+			rewards: [{
+				id: "24B149384AE500B0"
+				type: "item"
+				item: "theabyss:abyssiceore"
+			}]
 		}
 		{
-			title: "发光矿石[--Fire Ore--]"
+			title: "发光矿石"
 			x: 1.0d
 			y: -1.5d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "425EFB238217FDE3"
-			tasks: [
-				{
-					id: "276D80ED41631453"
-					type: "observation"
-					title: "发光矿石[--Fire Ore--]"
-					icon: "theabyss:abyssfireore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "theabyss:abyssfireore"
-				}
-			]
-			rewards: [
-				{
-					id: "10F755A3B8EDB970"
-					type: "item"
-					item: "theabyss:abyssfireore"
-				}
-			]
+			tasks: [{
+				id: "276D80ED41631453"
+				type: "observation"
+				title: "发光矿石"
+				icon: "theabyss:abyssfireore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssfireore"
+			}]
+			rewards: [{
+				id: "10F755A3B8EDB970"
+				type: "item"
+				item: "theabyss:abyssfireore"
+			}]
 		}
 		{
-			title: "深渊矿石[--Abyss Ore--]"
+			title: "深渊矿石"
 			x: -1.5d
 			y: -5.0d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "4426977D7ED752F4"
-			tasks: [
-				{
-					id: "61D10AA81F542FA7"
-					type: "observation"
-					title: "深渊矿石[--Abyss Ore--]"
-					icon: "theabyss:abyssore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "theabyss:abyssore"
-				}
-			]
-			rewards: [
-				{
-					id: "6ACA4ECB519A6DA4"
-					type: "item"
-					item: "theabyss:abyssore"
-				}
-			]
+			tasks: [{
+				id: "61D10AA81F542FA7"
+				type: "observation"
+				title: "深渊矿石"
+				icon: "theabyss:abyssore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:abyssore"
+			}]
+			rewards: [{
+				id: "6ACA4ECB519A6DA4"
+				type: "item"
+				item: "theabyss:abyssore"
+			}]
 		}
 		{
 			icon: {
@@ -726,23 +622,21 @@
 				{
 					id: "6C41447E3F4CA625"
 					type: "dimension"
-					title: "访问维度:&a冰世界[--Visit Dimension: &aIce world--]"
+					title: "访问维度:&a冰世界"
 					dimension: "theabyss:theabyssdimiceworld"
 				}
 				{
 					id: "7C9663BA782745C1"
 					type: "checkmark"
-					title: "访问维度[--Visit dimension--]"
+					title: "访问维度"
 				}
 			]
-			rewards: [
-				{
-					id: "0BE948737D78BC4D"
-					type: "item"
-					item: "powah:dry_ice"
-					count: 10
-				}
-			]
+			rewards: [{
+				id: "0BE948737D78BC4D"
+				type: "item"
+				item: "powah:dry_ice"
+				count: 10
+			}]
 		}
 		{
 			icon: {
@@ -762,23 +656,21 @@
 				{
 					id: "3A495380B96C5429"
 					type: "dimension"
-					title: "访问维度:&a时间的末地[--Visit Dimension: &aThe End Of Time--]"
+					title: "访问维度:&a时间的末地"
 					dimension: "theabyss:the_end_of_time"
 				}
 				{
 					id: "3CDC5D2EE6AA08FE"
 					type: "checkmark"
-					title: "访问维度[--Visit dimension--]"
+					title: "访问维度"
 				}
 			]
-			rewards: [
-				{
-					id: "6786525C4E50AFAB"
-					type: "item"
-					item: "chipped:jack_o_lantern_nether"
-					count: 16
-				}
-			]
+			rewards: [{
+				id: "6786525C4E50AFAB"
+				type: "item"
+				item: "chipped:jack_o_lantern_nether"
+				count: 16
+			}]
 		}
 		{
 			icon: {
@@ -798,22 +690,20 @@
 				{
 					id: "59264C451B28FE2F"
 					type: "dimension"
-					title: "访问维度:&a时间2的末地[--Visit Dimension: &aThe End Of Time 2--]"
+					title: "访问维度:&a时间2的末地"
 					dimension: "theabyss:the_end_of_time_2"
 				}
 				{
 					id: "53229E82E68C8144"
 					type: "checkmark"
-					title: "访问维度[--Visit dimension--]"
+					title: "访问维度"
 				}
 			]
-			rewards: [
-				{
-					id: "2A87AE65362905BD"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "2A87AE65362905BD"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			icon: {
@@ -833,72 +723,62 @@
 				{
 					id: "38AC72096D492513"
 					type: "dimension"
-					title: "访问维度:&a开始[--Visit dimension : &aThe Beginning--]"
+					title: "访问维度:&a开始"
 					dimension: "thebeginning:theabyssdimbeginning"
 				}
 				{
 					id: "388B60F18EEAEDB6"
 					type: "checkmark"
-					title: "访问维度[--Visit dimension--]"
+					title: "访问维度"
 				}
 			]
-			rewards: [
-				{
-					id: "7B92588071A2E9D6"
-					type: "item"
-					item: "thebeginning:cloud_block"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "7B92588071A2E9D6"
+				type: "item"
+				item: "thebeginning:cloud_block"
+				count: 4
+			}]
 		}
 		{
-			title: "浮金矿石[--Florite Ore--]"
+			title: "浮金矿石"
 			x: 10.5d
 			y: -1.5d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["63AF7FEF081583C8"]
 			id: "0611995CF6286BBD"
-			tasks: [
-				{
-					id: "4C4BB0EC9E8DDF31"
-					type: "observation"
-					title: "浮金矿石[--Florite Ore--]"
-					icon: "thebeginning:florite_ore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "thebeginning:florite_ore"
-				}
-			]
-			rewards: [
-				{
-					id: "22FBC7399436B4BC"
-					type: "item"
-					item: "thebeginning:florite_ore"
-				}
-			]
+			tasks: [{
+				id: "4C4BB0EC9E8DDF31"
+				type: "observation"
+				title: "浮金矿石"
+				icon: "thebeginning:florite_ore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "thebeginning:florite_ore"
+			}]
+			rewards: [{
+				id: "22FBC7399436B4BC"
+				type: "item"
+				item: "thebeginning:florite_ore"
+			}]
 		}
 		{
 			x: 12.5d
 			y: -1.5d
 			dependencies: ["0611995CF6286BBD"]
 			id: "1ABFFC463B088605"
-			tasks: [
-				{
-					id: "42A5A58E96559518"
-					type: "item"
-					item: "thebeginning:florite_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "12BEB982A596DBA7"
-					type: "item"
-					item: "thebeginning:florite_ingot"
-				}
-			]
+			tasks: [{
+				id: "42A5A58E96559518"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+			}]
+			rewards: [{
+				id: "12BEB982A596DBA7"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+			}]
 		}
 		{
-			title: "深渊之源传送门[--The Abyss Beginning Portal--]"
+			title: "深渊之源传送门"
 			icon: "thebeginning:stable_obsidian"
 			x: 8.0d
 			y: -3.0d
@@ -924,19 +804,17 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "2ACC9AFF0BB854AB"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
+			rewards: [{
+				id: "2ACC9AFF0BB854AB"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
-			title: "深渊蜘蛛[--Abyss End Spider--]"
+			title: "深渊蜘蛛"
 			x: 4.5d
 			y: -15.0d
-			description: ["查看&b末影斧蜘蛛&r并杀死它.[--Look at &bThe Abyss End Spider&r and kill it.--]"]
+			description: ["查看&b末影斧蜘蛛&r并杀死它."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "324E9D65D883662B"
@@ -944,7 +822,7 @@
 				{
 					id: "60DD0168C4798F09"
 					type: "observation"
-					title: "查看&b末影深渊蜘蛛[--Look at &bThe Abyss End Spider --]"
+					title: "查看&b末影深渊蜘蛛"
 					icon: "theabyss:endspider_spawn_egg"
 					timer: 4L
 					observe_type: 5
@@ -957,40 +835,34 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "5A4629FE90ED4687"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "5A4629FE90ED4687"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 4.5d
 			y: -17.0d
 			dependencies: ["324E9D65D883662B"]
 			id: "337C3F133C360915"
-			tasks: [
-				{
-					id: "524A033DB745218B"
-					type: "item"
-					item: "theabyss:nethernugget"
-				}
-			]
-			rewards: [
-				{
-					id: "3CCE7891FD16B683"
-					type: "item"
-					item: "theabyss:nethernugget"
-					random_bonus: 6
-				}
-			]
+			tasks: [{
+				id: "524A033DB745218B"
+				type: "item"
+				item: "theabyss:nethernugget"
+			}]
+			rewards: [{
+				id: "3CCE7891FD16B683"
+				type: "item"
+				item: "theabyss:nethernugget"
+				random_bonus: 6
+			}]
 		}
 		{
-			title: "龙之末地Boss[--The Roka End Boss--]"
+			title: "龙之末地Boss"
 			x: 0.0d
 			y: 3.0d
-			description: ["看看&b龙之末 Boss&r 并杀死它.[--Look at &bThe Roka End Boss&r and kill it.--]"]
+			description: ["看看&b龙之末 Boss&r 并杀死它."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "77D3FC20B68C5A5B"
@@ -998,7 +870,7 @@
 				{
 					id: "5213A1805570F5FC"
 					type: "observation"
-					title: "看看&b龙卷风 Boss[--Look at &bThe Roka End Boss--]"
+					title: "看看&b龙卷风 Boss"
 					icon: "theabyss:the_roka_end_boss_spawn_egg"
 					timer: 2L
 					observe_type: 5
@@ -1011,16 +883,14 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "631BF2E88A494E0B"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			rewards: [{
+				id: "631BF2E88A494E0B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
-			title: "Roka的战利品[--Loots from Roka--]"
+			title: "Roka的战利品"
 			x: 1.5d
 			y: 3.0d
 			dependencies: ["77D3FC20B68C5A5B"]
@@ -1050,50 +920,44 @@
 				{
 					id: "0594E32D1FBD232C"
 					type: "observation"
-					title: "末地祭坛(末地)[--Shrine Of End (Good End)--]"
+					title: "末地祭坛(末地)"
 					icon: "theabyss:eot_end_shrine"
 					timer: 5L
 					observe_type: 0
 					to_observe: "theabyss:eot_end_shrine"
 				}
 			]
-			rewards: [
-				{
-					id: "5EB70CF2233044C3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "5EB70CF2233044C3"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			title: "新生魔艺的末地Boss[--The Nosaj End Boss--]"
+			title: "新生魔艺的末地Boss"
 			x: 3.0d
 			y: 1.5d
-			description: ["查看&b巫师末地Boss&r并杀死它.[--Look at &bThe Nosaj End Boss&r and kill it.--]"]
+			description: ["查看&b巫师末地Boss&r并杀死它."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "3BDB681140D956F1"
-			tasks: [
-				{
-					id: "30352A034F451C6B"
-					type: "observation"
-					title: "看看&b巫师末地Boss[--Look at &bThe Nosaj End Boss--]"
-					icon: "theabyss:nosaj_boss_spawn_egg"
-					timer: 2L
-					observe_type: 5
-					to_observe: "theabyss:nosaj_boss"
-				}
-			]
-			rewards: [
-				{
-					id: "034328656E77BC02"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
+			tasks: [{
+				id: "30352A034F451C6B"
+				type: "observation"
+				title: "看看&b巫师末地Boss"
+				icon: "theabyss:nosaj_boss_spawn_egg"
+				timer: 2L
+				observe_type: 5
+				to_observe: "theabyss:nosaj_boss"
+			}]
+			rewards: [{
+				id: "034328656E77BC02"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 		}
 		{
-			title: "新生魔艺的战利品[--Loots from Nosaj End--]"
+			title: "新生魔艺的战利品"
 			x: 4.5d
 			y: 1.5d
 			dependencies: ["3BDB681140D956F1"]
@@ -1123,50 +987,44 @@
 				{
 					id: "27654239253D1103"
 					type: "observation"
-					title: "末地神殿(台阶末地)[--Shrine Of End (Bad End)--]"
+					title: "末地神殿(台阶末地)"
 					icon: "theabyss:eot_end_shrine_2"
 					timer: 5L
 					observe_type: 0
 					to_observe: "theabyss:eot_end_shrine_2"
 				}
 			]
-			rewards: [
-				{
-					id: "2CB4FFC2740CAF88"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "2CB4FFC2740CAF88"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: 10.0d
 			y: -17.0d
 			dependencies: ["67323B8C47F85B81"]
 			id: "4E91A5667FCFB575"
-			tasks: [
-				{
-					id: "29B77A8E3947A822"
-					type: "item"
-					item: "theabyss:scorpioneye"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "45D05925046D9E4E"
-					type: "item"
-					item: "theabyss:scorpioneye"
-					count: 2
-					random_bonus: 2
-				}
-			]
+			tasks: [{
+				id: "29B77A8E3947A822"
+				type: "item"
+				item: "theabyss:scorpioneye"
+				count: 2L
+			}]
+			rewards: [{
+				id: "45D05925046D9E4E"
+				type: "item"
+				item: "theabyss:scorpioneye"
+				count: 2
+				random_bonus: 2
+			}]
 		}
 		{
-			title: "僵尸[--Scorpion--]"
+			title: "僵尸"
 			icon: "theabyss:netherscorpion_spawn_egg"
 			x: 10.0d
 			y: -15.0d
-			description: ["看看&a僵尸&r杀死它。[--Look at &ba Scorpion &rand kill it.--]"]
+			description: ["看看&a僵尸&r杀死它。"]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "67323B8C47F85B81"
@@ -1174,7 +1032,7 @@
 				{
 					id: "6BC5D09768A2F6B3"
 					type: "observation"
-					title: "看看&ba Sorge[--Look at &ba Scorpion--]"
+					title: "看看&ba Sorge"
 					icon: "theabyss:netherscorpion_spawn_egg"
 					timer: 0L
 					observe_type: 5
@@ -1187,87 +1045,73 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "56BCB933BBB7C73E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "56BCB933BBB7C73E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
 			x: -3.0d
 			y: -4.5d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "71FDC951F2CAEB6B"
-			tasks: [
-				{
-					id: "34E54B472E8BAF5E"
-					type: "observation"
-					title: "熔炉矿石[--Garnite Ore--]"
-					icon: "theabyss:garnite_ore"
-					timer: 0L
-					observe_type: 0
-					to_observe: "theabyss:garnite_ore"
-				}
-			]
-			rewards: [
-				{
-					id: "45766E355CC3E92E"
-					type: "item"
-					item: "theabyss:garnite_ore"
-				}
-			]
+			tasks: [{
+				id: "34E54B472E8BAF5E"
+				type: "observation"
+				title: "熔炉矿石"
+				icon: "theabyss:garnite_ore"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:garnite_ore"
+			}]
+			rewards: [{
+				id: "45766E355CC3E92E"
+				type: "item"
+				item: "theabyss:garnite_ore"
+			}]
 		}
 		{
 			x: -3.5d
 			y: -7.0d
 			dependencies: ["71FDC951F2CAEB6B"]
 			id: "503BA9C76DDA7B69"
-			tasks: [
-				{
-					id: "148B39113F5EC321"
-					type: "item"
-					item: "theabyss:garnite_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "2509357F4314A4B1"
-					type: "item"
-					item: "theabyss:garnite_ingot"
-				}
-			]
+			tasks: [{
+				id: "148B39113F5EC321"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+			}]
+			rewards: [{
+				id: "2509357F4314A4B1"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+			}]
 		}
 		{
 			icon: "theabyss:fusionore"
 			x: -3.5d
 			y: -3.0d
-			description: ["看看方块[--Look at the block--]"]
+			description: ["看看方块"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "10ABD134A75AE62D"
-			tasks: [
-				{
-					id: "264694426B9293BE"
-					type: "observation"
-					title: "聚变矿石[--Fusion Ore--]"
-					icon: "theabyss:fusionore"
-					timer: 5L
-					observe_type: 0
-					to_observe: "theabyss:fusionore"
-				}
-			]
-			rewards: [
-				{
-					id: "48BBFCD429F3DE2F"
-					type: "item"
-					item: "theabyss:fusionore"
-				}
-			]
+			tasks: [{
+				id: "264694426B9293BE"
+				type: "observation"
+				title: "聚变矿石"
+				icon: "theabyss:fusionore"
+				timer: 5L
+				observe_type: 0
+				to_observe: "theabyss:fusionore"
+			}]
+			rewards: [{
+				id: "48BBFCD429F3DE2F"
+				type: "item"
+				item: "theabyss:fusionore"
+			}]
 		}
 		{
-			title: "深渊护甲[--Abyss Armor--]"
+			title: "深渊护甲"
 			x: -3.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1325,17 +1169,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "267E926ECAD3E72B"
-					type: "item"
-					item: "theabyss:abyssdiamond"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "267E926ECAD3E72B"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 6
+			}]
 		}
 		{
-			title: "深渊护甲[--Abyss Ultra Armor--]"
+			title: "深渊护甲"
 			x: -5.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -1393,17 +1235,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "3C9377C745C43D79"
-					type: "item"
-					item: "theabyss:ultraabyssdiamond"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "3C9377C745C43D79"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+				count: 4
+			}]
 		}
 		{
-			title: "火焰套装[--Fire Armor--]"
+			title: "火焰套装"
 			x: -0.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -1461,17 +1301,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "3CBDA2F6178BAB9E"
-					type: "item"
-					item: "theabyss:abyssfirediamond"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "3CBDA2F6178BAB9E"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+				count: 6
+			}]
 		}
 		{
-			title: "冰盔甲[--Ice Armor--]"
+			title: "冰盔甲"
 			x: -2.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1529,17 +1367,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "124B2327913D5975"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "124B2327913D5975"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+				count: 6
+			}]
 		}
 		{
-			title: "聚变套装[--Fusion Armor--]"
+			title: "聚变套装"
 			x: -5.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1597,17 +1433,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "7640D822BDF6C836"
-					type: "item"
-					item: "theabyss:fusioningot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "7640D822BDF6C836"
+				type: "item"
+				item: "theabyss:fusioningot"
+				count: 4
+			}]
 		}
 		{
-			title: "未知的盔甲[--Unknown Armor--]"
+			title: "未知的盔甲"
 			x: -3.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -1665,17 +1499,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "1A339FC2C66F023A"
-					type: "item"
-					item: "theabyss:unknown_diamond"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "1A339FC2C66F023A"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+				count: 6
+			}]
 		}
 		{
-			title: "幻翼套装[--Phantom Armor--]"
+			title: "幻翼套装"
 			x: -4.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -1736,17 +1568,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "58A1215A76C5B0FC"
-					type: "item"
-					item: "theabyss:phantom_ingot"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "58A1215A76C5B0FC"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+				count: 2
+			}]
 		}
 		{
-			title: "骨甲[--Bone Armor--]"
+			title: "骨甲"
 			x: 0.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1804,17 +1634,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "0DADBCAAF89D4793"
-					type: "item"
-					item: "theabyss:phantom_bone"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "0DADBCAAF89D4793"
+				type: "item"
+				item: "theabyss:phantom_bone"
+				count: 6
+			}]
 		}
 		{
-			title: "下界火套装[--Netherfire Armor--]"
+			title: "下界火套装"
 			x: -1.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1872,17 +1700,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "3EF0993D5FDB00F6"
-					type: "item"
-					item: "theabyss:netherfire_ingot"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "3EF0993D5FDB00F6"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+				count: 2
+			}]
 		}
 		{
-			title: "地狱魂甲套装[--Garnite Armor--]"
+			title: "地狱魂甲套装"
 			x: -0.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -1940,17 +1766,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "64C1704749546140"
-					type: "item"
-					item: "theabyss:garnite_ingot"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "64C1704749546140"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+				count: 6
+			}]
 		}
 		{
-			title: "灌输护甲[--Unorithe Armor--]"
+			title: "灌输护甲"
 			x: -4.5d
 			y: -16.5d
 			hide_dependency_lines: true
@@ -2008,17 +1832,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "57350D6C43D0C9D1"
-					type: "item"
-					item: "theabyss:unorithe_ingot"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "57350D6C43D0C9D1"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+				count: 2
+			}]
 		}
 		{
-			title: "化装(&4下界合金&r融合)[--Unorithe Armor (&4Netherite&r Fusion)--]"
+			title: "化装(&4下界合金&r融合)"
 			x: 0.5d
 			y: -15.5d
 			hide_dependency_lines: true
@@ -2079,17 +1901,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "41ED82DF9D1022A9"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "41ED82DF9D1022A9"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
-			title: "深渊套装(&4下界合金&r融合)[--Abyss Armor (&4Netherite&r Fusion)--]"
+			title: "深渊套装(&4下界合金&r融合)"
 			x: -5.5d
 			y: -15.5d
 			hide_dependency_lines: true
@@ -2147,17 +1967,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "7A9B5B37A279116F"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "7A9B5B37A279116F"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
-			title: "下界火套装(&4下界合金&r融合)[--Netherfire Armor (&4Netherite&r Fusion)--]"
+			title: "下界火套装(&4下界合金&r融合)"
 			x: -1.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -2215,17 +2033,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "1F0AF82AA9B8434C"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "1F0AF82AA9B8434C"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
-			title: "冰盔甲(下界合金)[--Ice Armor (Netherite Fusion)--]"
+			title: "冰盔甲(下界合金)"
 			x: -2.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -2283,17 +2099,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "46FD627A8FCC227D"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "46FD627A8FCC227D"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+				count: 2
+			}]
 		}
 		{
-			title: "浮金套装[--Florite Armor--]"
+			title: "浮金套装"
 			x: 0.5d
 			y: -17.5d
 			hide_dependency_lines: true
@@ -2351,498 +2165,416 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "0014DF30F4FAAFF5"
-					type: "item"
-					item: "thebeginning:florite_ingot"
-					count: 6
-				}
-			]
+			rewards: [{
+				id: "0014DF30F4FAAFF5"
+				type: "item"
+				item: "thebeginning:florite_ingot"
+				count: 6
+			}]
 		}
 		{
 			x: -5.5d
 			y: -7.0d
 			dependencies: ["10ABD134A75AE62D"]
 			id: "4DA4860D10C053FE"
-			tasks: [
-				{
-					id: "205DC50E939B6346"
-					type: "item"
-					item: "theabyss:unactivefusioningot"
-				}
-			]
-			rewards: [
-				{
-					id: "734F36E5BE776EF5"
-					type: "item"
-					item: "theabyss:unactivefusioningot"
-				}
-			]
+			tasks: [{
+				id: "205DC50E939B6346"
+				type: "item"
+				item: "theabyss:unactivefusioningot"
+			}]
+			rewards: [{
+				id: "734F36E5BE776EF5"
+				type: "item"
+				item: "theabyss:unactivefusioningot"
+			}]
 		}
 		{
 			x: -5.5d
 			y: -9.0d
 			dependencies: ["4DA4860D10C053FE"]
 			id: "5A693930CD50579E"
-			tasks: [
-				{
-					id: "67012D753EE9CC09"
-					type: "item"
-					item: "theabyss:fusioningot"
-				}
-			]
-			rewards: [
-				{
-					id: "72E104C606B3279E"
-					type: "item"
-					item: "theabyss:fusioningot"
-				}
-			]
+			tasks: [{
+				id: "67012D753EE9CC09"
+				type: "item"
+				item: "theabyss:fusioningot"
+			}]
+			rewards: [{
+				id: "72E104C606B3279E"
+				type: "item"
+				item: "theabyss:fusioningot"
+			}]
 		}
 		{
 			x: 12.5d
 			y: -11.0d
 			dependencies: ["794DA0DEE3A46620"]
 			id: "6FDBB9217E16AE9E"
-			tasks: [
-				{
-					id: "41AD8D3194BA34E9"
-					type: "item"
-					item: "theabyss:phantom_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "5A390E39B2F11A6B"
-					type: "item"
-					item: "theabyss:phantom_ingot"
-				}
-			]
+			tasks: [{
+				id: "41AD8D3194BA34E9"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+			}]
+			rewards: [{
+				id: "5A390E39B2F11A6B"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+			}]
 		}
 		{
 			x: 14.0d
 			y: -11.0d
 			dependencies: ["2A37A693DFFADE0C"]
 			id: "794DA0DEE3A46620"
-			tasks: [
-				{
-					id: "36AD7BF5F478418E"
-					type: "item"
-					item: "theabyss:phantom_essence"
-				}
-			]
-			rewards: [
-				{
-					id: "70193499BDFCD7ED"
-					type: "item"
-					item: "theabyss:phantom_essence"
-				}
-			]
+			tasks: [{
+				id: "36AD7BF5F478418E"
+				type: "item"
+				item: "theabyss:phantom_essence"
+			}]
+			rewards: [{
+				id: "70193499BDFCD7ED"
+				type: "item"
+				item: "theabyss:phantom_essence"
+			}]
 		}
 		{
 			x: 10.5d
 			y: -11.0d
 			dependencies: ["6FDBB9217E16AE9E"]
 			id: "34C4E61DA6186995"
-			tasks: [
-				{
-					id: "2333B85ED84A07E9"
-					type: "item"
-					item: "theabyss:unorithe_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "465FA3DBE5DEEF92"
-					type: "item"
-					item: "theabyss:unorithe_ingot"
-				}
-			]
+			tasks: [{
+				id: "2333B85ED84A07E9"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+			}]
+			rewards: [{
+				id: "465FA3DBE5DEEF92"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+			}]
 		}
 		{
 			x: 7.0d
 			y: -17.0d
 			dependencies: ["7D8532ED0D801AF9"]
 			id: "0EDA74D35E1FB320"
-			tasks: [
-				{
-					id: "0422D05B88019AAF"
-					type: "item"
-					item: "theabyss:slime_stage_1"
-				}
-			]
-			rewards: [
-				{
-					id: "45A5FAE9A227EF87"
-					type: "item"
-					item: "theabyss:slime_stage_1"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "0422D05B88019AAF"
+				type: "item"
+				item: "theabyss:slime_stage_1"
+			}]
+			rewards: [{
+				id: "45A5FAE9A227EF87"
+				type: "item"
+				item: "theabyss:slime_stage_1"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
 			y: -17.0d
 			dependencies: ["0EDA74D35E1FB320"]
 			id: "5368FE45A9FDF3CF"
-			tasks: [
-				{
-					id: "1EE798A422BFED30"
-					type: "item"
-					item: "theabyss:slime_stage_2"
-				}
-			]
-			rewards: [
-				{
-					id: "06B3D08DAE232522"
-					type: "item"
-					item: "theabyss:slime_stage_2"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "1EE798A422BFED30"
+				type: "item"
+				item: "theabyss:slime_stage_2"
+			}]
+			rewards: [{
+				id: "06B3D08DAE232522"
+				type: "item"
+				item: "theabyss:slime_stage_2"
+				count: 2
+			}]
 		}
 		{
 			x: 8.5d
 			y: -15.0d
 			dependencies: ["5368FE45A9FDF3CF"]
 			id: "449ACAA40F1A017D"
-			tasks: [
-				{
-					id: "7B8ADD6C57B738E5"
-					type: "item"
-					item: "theabyss:slime_stage_3"
-				}
-			]
-			rewards: [
-				{
-					id: "0D6C9B3CF4AD03D7"
-					type: "item"
-					item: "theabyss:slime_stage_3"
-				}
-			]
+			tasks: [{
+				id: "7B8ADD6C57B738E5"
+				type: "item"
+				item: "theabyss:slime_stage_3"
+			}]
+			rewards: [{
+				id: "0D6C9B3CF4AD03D7"
+				type: "item"
+				item: "theabyss:slime_stage_3"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -14.0d
 			dependencies: ["449ACAA40F1A017D"]
 			id: "7516C939B91E17F1"
-			tasks: [
-				{
-					id: "48F4FA0F38C4DE79"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-				}
-			]
-			rewards: [
-				{
-					id: "538361B43D64DA55"
-					type: "item"
-					item: "theabyss:slime_stage_4"
-				}
-			]
+			tasks: [{
+				id: "48F4FA0F38C4DE79"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+			}]
+			rewards: [{
+				id: "538361B43D64DA55"
+				type: "item"
+				item: "theabyss:slime_stage_4"
+			}]
 		}
 		{
 			x: 19.5d
 			y: -6.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "781CCCDAF09D095E"
-			tasks: [
-				{
-					id: "38828B053F527B07"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_reg"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "38828B053F527B07"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_reg"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "58DDA13B36B4F92A"
-					type: "item"
-					item: "theabyss:life_stone"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "58DDA13B36B4F92A"
+				type: "item"
+				item: "theabyss:life_stone"
+				count: 4
+			}]
 		}
 		{
 			x: 20.0d
 			y: -4.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "2CBC28537C4AAF05"
-			tasks: [
-				{
-					id: "623AAB231FE23F15"
-					type: "item"
-					item: {
-						id: "thebeginning:ring_of_nature"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "623AAB231FE23F15"
+				type: "item"
+				item: {
+					id: "thebeginning:ring_of_nature"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3293116AF5B11571"
-					type: "item"
-					item: "thebeginning:lazarus_stone"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "3293116AF5B11571"
+				type: "item"
+				item: "thebeginning:lazarus_stone"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
 			y: -3.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "4F31D2F6EE0A6CEC"
-			tasks: [
-				{
-					id: "19A5A1807AEE8E1A"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_freeze"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "19A5A1807AEE8E1A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_freeze"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "38387F1D752982ED"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "38387F1D752982ED"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+				count: 4
+			}]
 		}
 		{
 			x: 18.5d
 			y: -6.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "3DAD61C93A5BEB99"
-			tasks: [
-				{
-					id: "0E8AEC1DD21543AF"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_thunder"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "0E8AEC1DD21543AF"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "125800AEB92AEB18"
-					type: "item"
-					item: "theabyss:thunder_stone"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "125800AEB92AEB18"
+				type: "item"
+				item: "theabyss:thunder_stone"
+				count: 4
+			}]
 		}
 		{
 			x: 16.5d
 			y: -6.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "4F651D90C4CFE66F"
-			tasks: [
-				{
-					id: "794B2DFD22921ED0"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_ocean"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "794B2DFD22921ED0"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ocean"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "49D07E2F50F322C2"
-					type: "item"
-					item: "theabyss:abyssloranitem"
-				}
-			]
+			}]
+			rewards: [{
+				id: "49D07E2F50F322C2"
+				type: "item"
+				item: "theabyss:abyssloranitem"
+			}]
 		}
 		{
 			x: 19.5d
 			y: -3.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "3310D5178BC7A4BC"
-			tasks: [
-				{
-					id: "05ADC19AA59BD090"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_teleport"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "05ADC19AA59BD090"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_teleport"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3F7F841D1DE2F22A"
-					type: "item"
-					item: {
-						id: "theabyss:enderbow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			}]
+			rewards: [{
+				id: "3F7F841D1DE2F22A"
+				type: "item"
+				item: {
+					id: "theabyss:enderbow"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
-					random_bonus: 1
 				}
-			]
+				random_bonus: 1
+			}]
 		}
 		{
 			x: 16.0d
 			y: -5.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "5C576C199F4D4E9B"
-			tasks: [
-				{
-					id: "1AEA35CDBC7CAE3A"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_eagle"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "1AEA35CDBC7CAE3A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_eagle"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "1BF12855A2BB61DF"
-					type: "item"
-					item: "minecraft:ender_eye"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "1BF12855A2BB61DF"
+				type: "item"
+				item: "minecraft:ender_eye"
+				count: 4
+			}]
 		}
 		{
 			x: 15.5d
 			y: -2.0d
 			dependencies: ["4F31D2F6EE0A6CEC"]
 			id: "79DFADF999BEC94F"
-			tasks: [
-				{
-					id: "4C158731005AE0CC"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_time"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4C158731005AE0CC"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_time"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "1B034CAA11B61A1E"
-					type: "item"
-					item: "theabyss:loran_energy"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "1B034CAA11B61A1E"
+				type: "item"
+				item: "theabyss:loran_energy"
+				count: 4
+			}]
 		}
 		{
 			x: 17.5d
 			y: -2.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "6F3A70F9F0366A2C"
-			tasks: [
-				{
-					id: "72A4DC112F178F6A"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_invisibility"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "72A4DC112F178F6A"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_invisibility"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "46511EE888402F15"
-					type: "item"
-					item: "theabyss:phantom_essence"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "46511EE888402F15"
+				type: "item"
+				item: "theabyss:phantom_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 17.5d
 			y: -6.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "772F6C120264AD33"
-			tasks: [
-				{
-					id: "456C2589A8D1A52F"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_fire"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "456C2589A8D1A52F"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_fire"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "4136FBA7641D24AF"
-					type: "item"
-					item: "theabyss:abyssfirenug"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "4136FBA7641D24AF"
+				type: "item"
+				item: "theabyss:abyssfirenug"
+				count: 4
+			}]
 		}
 		{
 			x: 20.0d
 			y: -5.0d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "28D5472FF7D54D5A"
-			tasks: [
-				{
-					id: "3B8DA2E14EA45C9F"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_telekinetic"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3B8DA2E14EA45C9F"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_telekinetic"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "4A9CFDFC008C1C0B"
-					type: "item"
-					item: "theabyss:abyssdiamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "4A9CFDFC008C1C0B"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 4
+			}]
 		}
 		{
 			x: 18.0d
@@ -2851,26 +2583,22 @@
 			dependencies: ["334AC51D18410A5C"]
 			size: 3.0d
 			id: "29842ADFFB75F30B"
-			tasks: [
-				{
-					id: "631F13283B68F1C6"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_ring"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "631F13283B68F1C6"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ring"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2B0457EAAA360416"
-					type: "item"
-					item: "theabyss:loran_ingot"
-				}
-			]
+			}]
+			rewards: [{
+				id: "2B0457EAAA360416"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
 		}
 		{
 			x: 16.0d
@@ -2878,103 +2606,87 @@
 			hide_dependency_lines: false
 			dependencies: ["29842ADFFB75F30B"]
 			id: "58A26B1D4B2FB993"
-			tasks: [
-				{
-					id: "631E6A08F7D1032C"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_speed"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "631E6A08F7D1032C"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_speed"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7909007F85889EFD"
-					type: "item"
-					item: "theabyss:node_shard"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "7909007F85889EFD"
+				type: "item"
+				item: "theabyss:node_shard"
+				count: 2
+			}]
 		}
 		{
 			x: 17.5d
 			y: -1.0d
 			dependencies: ["6F3A70F9F0366A2C"]
 			id: "41E5DE1D14B94A89"
-			tasks: [
-				{
-					id: "3E99234AF1FD7EEE"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_ghosts"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3E99234AF1FD7EEE"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_ghosts"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "609092CB21715358"
-					type: "item"
-					item: "theabyss:loran_energy"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "609092CB21715358"
+				type: "item"
+				item: "theabyss:loran_energy"
+				count: 4
+			}]
 		}
 		{
 			x: 18.5d
 			y: -2.5d
 			dependencies: ["29842ADFFB75F30B"]
 			id: "29103121806797BB"
-			tasks: [
-				{
-					id: "6295933B70C4E510"
-					type: "item"
-					item: {
-						id: "theabyss:ring_of_jugger"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "6295933B70C4E510"
+				type: "item"
+				item: {
+					id: "theabyss:ring_of_jugger"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "32978CA1185D26C7"
-					type: "item"
-					item: "theabyss:roka_horn"
-				}
-			]
+			}]
+			rewards: [{
+				id: "32978CA1185D26C7"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
 		}
 		{
 			x: -6.5d
 			y: -3.0d
 			dependencies: ["576F2384CF4A5DD7"]
 			id: "334AC51D18410A5C"
-			tasks: [
-				{
-					id: "568FFC343A43F69A"
-					type: "item"
-					item: "theabyss:loran_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "5432C23998787F36"
-					type: "item"
-					item: "theabyss:loran_ingot"
-				}
-			]
+			tasks: [{
+				id: "568FFC343A43F69A"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
+			rewards: [{
+				id: "5432C23998787F36"
+				type: "item"
+				item: "theabyss:loran_ingot"
+			}]
 		}
 		{
-			title: "骨头工具[--Bone Tools--]"
+			title: "骨头工具"
 			x: -4.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3043,14 +2755,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "1B2FB6FDFD266761"
-					type: "item"
-					item: "theabyss:phantom_bone"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "1B2FB6FDFD266761"
+				type: "item"
+				item: "theabyss:phantom_bone"
+				count: 4
+			}]
 		}
 		{
 			x: -3.5d
@@ -3061,29 +2771,25 @@
 				"36FF17F44B16FA23"
 			]
 			id: "12BBA3CCC4AB7082"
-			tasks: [
-				{
-					id: "7022F112CFDC6047"
-					type: "item"
-					item: {
-						id: "theabyss:abyssfiresword"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7022F112CFDC6047"
+				type: "item"
+				item: {
+					id: "theabyss:abyssfiresword"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "26D26C71155D8375"
-					type: "item"
-					item: "theabyss:abyssfirediamond"
-				}
-			]
+			}]
+			rewards: [{
+				id: "26D26C71155D8375"
+				type: "item"
+				item: "theabyss:abyssfirediamond"
+			}]
 		}
 		{
-			title: "深渊工具[--Abyss Tools--]"
+			title: "深渊工具"
 			x: -2.5d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -3135,17 +2841,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "527329CF65CA4854"
-					type: "item"
-					item: "theabyss:abyssdiamond"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "527329CF65CA4854"
+				type: "item"
+				item: "theabyss:abyssdiamond"
+				count: 4
+			}]
 		}
 		{
-			title: "奥特工具[--Ultra Tools--]"
+			title: "奥特工具"
 			x: -1.5d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -3208,17 +2912,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "69CD1B341702003F"
-					type: "item"
-					item: "theabyss:ultraabyssdiamond"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "69CD1B341702003F"
+				type: "item"
+				item: "theabyss:ultraabyssdiamond"
+				count: 4
+			}]
 		}
 		{
-			title: "融合工具[--Fusion Tools--]"
+			title: "融合工具"
 			x: -0.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3281,14 +2983,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "6703A6C2551EE7E9"
-					type: "item"
-					item: "theabyss:fusioningot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "6703A6C2551EE7E9"
+				type: "item"
+				item: "theabyss:fusioningot"
+				count: 4
+			}]
 		}
 		{
 			x: 0.5d
@@ -3296,29 +2996,25 @@
 			hide_dependency_lines: true
 			dependencies: ["36FF17F44B16FA23"]
 			id: "3F7F10492C5DC208"
-			tasks: [
-				{
-					id: "1D194E0A5FD17D59"
-					type: "item"
-					item: {
-						id: "theabyss:unknown_sword_upg"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "1D194E0A5FD17D59"
+				type: "item"
+				item: {
+					id: "theabyss:unknown_sword_upg"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "170FE868867C83F6"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-				}
-			]
+			}]
+			rewards: [{
+				id: "170FE868867C83F6"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
 		}
 		{
-			title: "未知的工具[--Unknown Tools--]"
+			title: "未知的工具"
 			x: -2.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3381,14 +3077,12 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "73B9DF64B4F34689"
-					type: "item"
-					item: "theabyss:unknown_diamond"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "73B9DF64B4F34689"
+				type: "item"
+				item: "theabyss:unknown_diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 0.5d
@@ -3399,35 +3093,31 @@
 				"6FDBB9217E16AE9E"
 			]
 			id: "004BE37356747254"
-			tasks: [
-				{
-					id: "2157065495FEACB3"
-					type: "item"
-					item: {
-						id: "theabyss:unknown_sword_upg_2"
-						Count: 1b
-						tag: {
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-2095430484
-								-1558492576
-								-1614487248
-								188700128
-							]
-						}
+			tasks: [{
+				id: "2157065495FEACB3"
+				type: "item"
+				item: {
+					id: "theabyss:unknown_sword_upg_2"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "00EAA37BCED95284"
-					type: "item"
-					item: "theabyss:phantom_ingot"
-				}
-			]
+			}]
+			rewards: [{
+				id: "00EAA37BCED95284"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+			}]
 		}
 		{
-			title: "幻影工具[--Phantom Tools--]"
+			title: "幻影工具"
 			x: -3.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3479,17 +3169,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "4E283C03715DCB84"
-					type: "item"
-					item: "theabyss:phantom_ingot"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "4E283C03715DCB84"
+				type: "item"
+				item: "theabyss:phantom_ingot"
+				count: 2
+			}]
 		}
 		{
-			title: "熔炉工具[--Garnite Tools--]"
+			title: "熔炉工具"
 			x: -5.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3541,17 +3229,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "0EE82CA847B13816"
-					type: "item"
-					item: "theabyss:garnite_ingot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "0EE82CA847B13816"
+				type: "item"
+				item: "theabyss:garnite_ingot"
+				count: 4
+			}]
 		}
 		{
-			title: "不胜寒[--Unorithe Tools--]"
+			title: "不胜寒"
 			x: -5.5d
 			y: -13.0d
 			hide_dependency_lines: true
@@ -3595,17 +3281,15 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "4FB73F23504B8AC9"
-					type: "item"
-					item: "theabyss:unorithe_ingot"
-					count: 2
-				}
-			]
+			rewards: [{
+				id: "4FB73F23504B8AC9"
+				type: "item"
+				item: "theabyss:unorithe_ingot"
+				count: 2
+			}]
 		}
 		{
-			title: "骑士工具[--Knight Tools--]"
+			title: "骑士工具"
 			x: -1.5d
 			y: -14.0d
 			hide_dependency_lines: true
@@ -3677,35 +3361,29 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "258AC3E32DC5EE21"
-					type: "item"
-					item: "theabyss:knight_ingot"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "258AC3E32DC5EE21"
+				type: "item"
+				item: "theabyss:knight_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -11.0d
 			y: 0.0d
 			dependencies: ["2C6EC507A6C0A4EE"]
 			id: "14CC83498085D974"
-			tasks: [
-				{
-					id: "00721D9894260688"
-					type: "item"
-					item: "theabyss:icora_stone"
-				}
-			]
-			rewards: [
-				{
-					id: "48B60332F4F3B5BE"
-					type: "item"
-					item: "theabyss:icora_stone"
-					random_bonus: 2
-				}
-			]
+			tasks: [{
+				id: "00721D9894260688"
+				type: "item"
+				item: "theabyss:icora_stone"
+			}]
+			rewards: [{
+				id: "48B60332F4F3B5BE"
+				type: "item"
+				item: "theabyss:icora_stone"
+				random_bonus: 2
+			}]
 		}
 		{
 			x: 4.0d
@@ -3715,20 +3393,16 @@
 				"2B2D20ABEE47365B"
 			]
 			id: "61BAF2F81D87DAE5"
-			tasks: [
-				{
-					id: "219E5530F68448E9"
-					type: "item"
-					item: "theabyss:knight_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "7C9F9E2F6135E48E"
-					type: "item"
-					item: "theabyss:knight_ingot"
-				}
-			]
+			tasks: [{
+				id: "219E5530F68448E9"
+				type: "item"
+				item: "theabyss:knight_ingot"
+			}]
+			rewards: [{
+				id: "7C9F9E2F6135E48E"
+				type: "item"
+				item: "theabyss:knight_ingot"
+			}]
 		}
 		{
 			x: 2.5d
@@ -3739,148 +3413,128 @@
 				"3DCB0A20C8A1EBD7"
 			]
 			id: "2B2D20ABEE47365B"
-			tasks: [
-				{
-					id: "56CD03BD5A66E29E"
-					type: "item"
-					item: "theabyss:briked_knight_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "204479AD362D4BA9"
-					type: "item"
-					item: "theabyss:briked_knight_ingot"
-				}
-			]
+			tasks: [{
+				id: "56CD03BD5A66E29E"
+				type: "item"
+				item: "theabyss:briked_knight_ingot"
+			}]
+			rewards: [{
+				id: "204479AD362D4BA9"
+				type: "item"
+				item: "theabyss:briked_knight_ingot"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 4.5d
 			dependencies: ["26053ECD39645ECC"]
 			id: "3DCB0A20C8A1EBD7"
-			tasks: [
-				{
-					id: "2E8BDAB006A5632C"
-					type: "item"
-					item: "theabyss:knight_shard"
-				}
-			]
-			rewards: [
-				{
-					id: "127198B14C0B8BD2"
-					type: "item"
-					item: "theabyss:knight_shard"
-				}
-			]
+			tasks: [{
+				id: "2E8BDAB006A5632C"
+				type: "item"
+				item: "theabyss:knight_shard"
+			}]
+			rewards: [{
+				id: "127198B14C0B8BD2"
+				type: "item"
+				item: "theabyss:knight_shard"
+			}]
 		}
 		{
-			title: "消失的箱子[--the lost letters--]"
+			title: "消失的箱子"
 			x: 4.0d
 			y: -10.5d
 			dependencies: ["1A94F29EE2D84BCC"]
 			id: "0B8B819414E9C13C"
-			tasks: [
-				{
-					id: "7401278EF14F1725"
-					type: "item"
-					title: "信[--Letters--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "theabyss:lost_letter_pt_eof_1"
-									Count: 1b
-								}
-								{
-									id: "theabyss:lost_letter_pt_eof_2"
-									Count: 1b
-								}
-								{
-									id: "theabyss:lost_letter_pt_eof_3"
-									Count: 1b
-								}
-								{
-									id: "theabyss:lost_letter_pt_slime_fusion"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "7401278EF14F1725"
+				type: "item"
+				title: "信"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "theabyss:lost_letter_pt_eof_1"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_eof_2"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_eof_3"
+								Count: 1b
+							}
+							{
+								id: "theabyss:lost_letter_pt_slime_fusion"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "116BD5D31F86C134"
-					type: "item"
-					item: "theabyss:lost_letter_pt_eof_3"
-				}
-			]
+			}]
+			rewards: [{
+				id: "116BD5D31F86C134"
+				type: "item"
+				item: "theabyss:lost_letter_pt_eof_3"
+			}]
 		}
 		{
 			x: 1.5d
 			y: -7.5d
 			dependencies: ["7FA1A3460BF01273"]
 			id: "65DEE077545EBC59"
-			tasks: [
-				{
-					id: "450486B3F46E4BB9"
-					type: "item"
-					item: "theabyss:roka_horn"
-				}
-			]
-			rewards: [
-				{
-					id: "463E4B9304C9C5E1"
-					type: "item"
-					item: "theabyss:roka_horn"
-				}
-			]
+			tasks: [{
+				id: "450486B3F46E4BB9"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
+			rewards: [{
+				id: "463E4B9304C9C5E1"
+				type: "item"
+				item: "theabyss:roka_horn"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -10.5d
 			description: [
 				""
-				"要找到它,你必须探索这个维度.[--To find it you have to explore the dimension.--]"
+				"要找到它,你必须探索这个维度."
 			]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "1A94F29EE2D84BCC"
-			tasks: [
-				{
-					id: "67FFE5727A4303BB"
-					type: "observation"
-					title: "黑石[--Monolith--]"
-					icon: "theabyss:monolith_letter"
-					timer: 0L
-					observe_type: 0
-					to_observe: "theabyss:monolith_letter"
-				}
-			]
-			rewards: [
-				{
-					id: "5ADD66BDBC390184"
-					type: "item"
-					item: "theabyss:monolith_letter"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "67FFE5727A4303BB"
+				type: "observation"
+				title: "黑石"
+				icon: "theabyss:monolith_letter"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:monolith_letter"
+			}]
+			rewards: [{
+				id: "5ADD66BDBC390184"
+				type: "item"
+				item: "theabyss:monolith_letter"
+				count: 4
+			}]
 		}
 		{
-			title: "龙卷风[--The Roka--]"
+			title: "龙卷风"
 			x: 0.0d
 			y: -7.5d
-			description: ["看看&b棒子&r,杀死它。[--Look at the &bRoka&r and kill it.--]"]
+			description: ["看看&b棒子&r,杀死它。"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "7FA1A3460BF01273"
 			tasks: [
 				{
 					id: "11F8BDF9B7790E62"
 					type: "observation"
-					title: "看看&b龙卷风&r[--Look at &bThe Roka&r--]"
+					title: "看看&b龙卷风&r"
 					icon: "theabyss:the_roka_spawn_egg"
 					timer: 0L
 					observe_type: 5
@@ -3893,26 +3547,24 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "6E1C89B223998AA0"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "6E1C89B223998AA0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 		}
 		{
-			title: "冰之骑士[--Ice Knight--]"
+			title: "冰之骑士"
 			x: -1.5d
 			y: 3.0d
-			description: ["看看一个&b冰雪骑士&r,杀死它。[--Look at a &bIce Knight&r and kill it.--]"]
+			description: ["看看一个&b冰雪骑士&r,杀死它。"]
 			dependencies: ["1018CECF2CD1A0C9"]
 			id: "26053ECD39645ECC"
 			tasks: [
 				{
 					id: "1B701C58464CF311"
 					type: "observation"
-					title: "看看一个&b冰雪骑士[--Look at a &bIce Knight--]"
+					title: "看看一个&b冰雪骑士"
 					icon: "theabyss:ice_knight_spawn_egg"
 					timer: 0L
 					observe_type: 5
@@ -3925,22 +3577,20 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "3174CAF6C34BA1F6"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "3174CAF6C34BA1F6"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
-			title: "史莱姆蜘蛛[--Slime Spider--]"
+			title: "史莱姆蜘蛛"
 			x: 7.0d
 			y: -15.0d
 			description: [
-				"查看&b粘液蜘蛛&r并杀死它。[--Look at a &bSlime Spider&r and kill it.--]"
+				"查看&b粘液蜘蛛&r并杀死它。"
 				""
-				"在&4粘液森林&r生物群系中.[--In the &4Slime Forest&r biomes.--]"
+				"在&4粘液森林&r生物群系中."
 			]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
@@ -3949,7 +3599,7 @@
 				{
 					id: "0A473EEA1AA9B1DA"
 					type: "observation"
-					title: "看看&b粘液蜘蛛[--Look at a &bSlime Spider--]"
+					title: "看看&b粘液蜘蛛"
 					icon: "theabyss:slime_spider_spawn_egg"
 					timer: 0L
 					observe_type: 5
@@ -3962,31 +3612,27 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "043463A0E327D666"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "043463A0E327D666"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 6.0d
 			y: -10.5d
-			description: ["这本书告诉你,它只是用来合成物品的.[--This book speaks to you, it just serves to make a craft.--]"]
+			description: ["这本书告诉你,它只是用来合成物品的."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0B8B819414E9C13C"
 				"65DEE077545EBC59"
 			]
 			id: "3E7374F2F516211B"
-			tasks: [
-				{
-					id: "4DC194325C3C11D1"
-					type: "item"
-					item: "theabyss:end_of_time_book"
-				}
-			]
+			tasks: [{
+				id: "4DC194325C3C11D1"
+				type: "item"
+				item: "theabyss:end_of_time_book"
+			}]
 			rewards: [
 				{
 					id: "3F3A967D4BB42798"
@@ -4003,175 +3649,147 @@
 		{
 			x: 7.5d
 			y: -10.5d
-			description: ["选Boss[--To the choice of boss.--]"]
+			description: ["选Boss"]
 			dependencies: ["3E7374F2F516211B"]
 			id: "3C98C940A5F0BA3C"
-			tasks: [
-				{
-					id: "3D98554F6E9E96BF"
-					type: "item"
-					item: {
-						id: "theabyss:end_of_time"
-						Count: 1b
-						tag: {
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-2095430484
-								-1558492576
-								-1614487248
-								188700128
-							]
-						}
+			tasks: [{
+				id: "3D98554F6E9E96BF"
+				type: "item"
+				item: {
+					id: "theabyss:end_of_time"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2E14D92C0457C2A9"
-					type: "item"
-					item: "theabyss:end_of_time_book"
-				}
-			]
+			}]
+			rewards: [{
+				id: "2E14D92C0457C2A9"
+				type: "item"
+				item: "theabyss:end_of_time_book"
+			}]
 		}
 		{
 			x: -7.0d
 			y: -6.5d
 			dependencies: ["791B99F52A7855D4"]
 			id: "2BA4A7731A5012E1"
-			tasks: [
-				{
-					id: "5E434A5AEA2B4EC7"
-					type: "item"
-					item: "theabyss:abyssmelon"
-					count: 2L
-				}
-			]
-			rewards: [
-				{
-					id: "76EEF7E4E2AA648A"
-					type: "item"
-					item: "theabyss:abyssmelon"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "5E434A5AEA2B4EC7"
+				type: "item"
+				item: "theabyss:abyssmelon"
+				count: 2L
+			}]
+			rewards: [{
+				id: "76EEF7E4E2AA648A"
+				type: "item"
+				item: "theabyss:abyssmelon"
+				count: 2
+			}]
 		}
 		{
 			x: -5.0d
 			y: -3.0d
-			description: ["为了获得&b末影西瓜&r,你必须使用&6星辉魔法&r的&5星能转化&r.[--In order to obtain the &bAbyss Melon&r you'll have to use the &5Starlight Transmutation&r from &6Astral Sorcery&r.--]"]
+			description: ["为了获得&b末影西瓜&r,你必须使用&6星辉魔法&r的&5星能转化&r."]
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "791B99F52A7855D4"
-			tasks: [
-				{
-					id: "2139AE1B0237D710"
-					type: "observation"
-					title: "深渊西瓜[--Abyss Melon--]"
-					icon: "theabyss:blue_melon_block"
-					timer: 0L
-					observe_type: 0
-					to_observe: "theabyss:blue_melon_block"
-				}
-			]
-			rewards: [
-				{
-					id: "4380FE0186D91C35"
-					type: "item"
-					item: "theabyss:blue_melon_block"
-				}
-			]
+			tasks: [{
+				id: "2139AE1B0237D710"
+				type: "observation"
+				title: "深渊西瓜"
+				icon: "theabyss:blue_melon_block"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:blue_melon_block"
+			}]
+			rewards: [{
+				id: "4380FE0186D91C35"
+				type: "item"
+				item: "theabyss:blue_melon_block"
+			}]
 		}
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["比末影珍珠更好![--Even better than an ender pearl!--]"]
+			description: ["比末影珍珠更好!"]
 			hide_dependency_lines: true
 			dependencies: [
 				"36FF17F44B16FA23"
 				"576F2384CF4A5DD7"
 			]
 			id: "7021684FD5AE5FDD"
-			tasks: [
-				{
-					id: "4F032A2B0D705D3D"
-					type: "item"
-					item: {
-						id: "theabyss:enderbow"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4F032A2B0D705D3D"
+				type: "item"
+				item: {
+					id: "theabyss:enderbow"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "19E549C33A063DCA"
-					type: "item"
-					item: "minecraft:ender_pearl"
-				}
-			]
+			}]
+			rewards: [{
+				id: "19E549C33A063DCA"
+				type: "item"
+				item: "minecraft:ender_pearl"
+			}]
 		}
 		{
 			x: 20.5d
 			y: -8.5d
 			dependencies: ["781CCCDAF09D095E"]
 			id: "33D3C1AAF6C13935"
-			tasks: [
-				{
-					id: "3977AFF1DB47EB74"
-					type: "item"
-					item: "theabyss:heal_camp_fire"
-				}
-			]
-			rewards: [
-				{
-					id: "5FE1A6EFB884FFCC"
-					type: "item"
-					item: "theabyss:loran_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "3977AFF1DB47EB74"
+				type: "item"
+				item: "theabyss:heal_camp_fire"
+			}]
+			rewards: [{
+				id: "5FE1A6EFB884FFCC"
+				type: "item"
+				item: "theabyss:loran_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: 6.0d
 			y: -6.5d
 			dependencies: ["34F445E330F23CE8"]
 			id: "136A460D59AC3092"
-			tasks: [
-				{
-					id: "4CCE46BF599D532B"
-					type: "item"
-					item: "theabyss:broken_phantom_bone"
-				}
-			]
-			rewards: [
-				{
-					id: "14732F09286EA6B4"
-					type: "item"
-					item: "theabyss:broken_phantom_bone"
-				}
-			]
+			tasks: [{
+				id: "4CCE46BF599D532B"
+				type: "item"
+				item: "theabyss:broken_phantom_bone"
+			}]
+			rewards: [{
+				id: "14732F09286EA6B4"
+				type: "item"
+				item: "theabyss:broken_phantom_bone"
+			}]
 		}
 		{
 			x: 7.5d
 			y: -6.5d
 			dependencies: ["136A460D59AC3092"]
 			id: "56D68FD2F91E1AFE"
-			tasks: [
-				{
-					id: "47D83AB2DB4E9910"
-					type: "item"
-					item: "theabyss:phantom_bone"
-				}
-			]
-			rewards: [
-				{
-					id: "71FD4F948D0FCE81"
-					type: "item"
-					item: "theabyss:phantom_bone"
-				}
-			]
+			tasks: [{
+				id: "47D83AB2DB4E9910"
+				type: "item"
+				item: "theabyss:phantom_bone"
+			}]
+			rewards: [{
+				id: "71FD4F948D0FCE81"
+				type: "item"
+				item: "theabyss:phantom_bone"
+			}]
 		}
 		{
 			x: 6.0d
@@ -4179,24 +3797,20 @@
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "34F445E330F23CE8"
-			tasks: [
-				{
-					id: "28320AEC05A5FD05"
-					type: "observation"
-					title: "深渊之骨块[--The Abyss Bone Block--]"
-					icon: "theabyss:bone_block_abyss"
-					timer: 0L
-					observe_type: 0
-					to_observe: "theabyss:bone_block_abyss"
-				}
-			]
-			rewards: [
-				{
-					id: "787E0F53D9099E4F"
-					type: "item"
-					item: "theabyss:bone_block_abyss"
-				}
-			]
+			tasks: [{
+				id: "28320AEC05A5FD05"
+				type: "observation"
+				title: "深渊之骨块"
+				icon: "theabyss:bone_block_abyss"
+				timer: 0L
+				observe_type: 0
+				to_observe: "theabyss:bone_block_abyss"
+			}]
+			rewards: [{
+				id: "787E0F53D9099E4F"
+				type: "item"
+				item: "theabyss:bone_block_abyss"
+			}]
 		}
 		{
 			x: 4.0d
@@ -4208,38 +3822,34 @@
 				"0E5E8CBB8A380F7E"
 			]
 			id: "2395D0E74EF2C2E5"
-			tasks: [
-				{
-					id: "1A1CB10C96E34E26"
-					type: "item"
-					item: {
-						id: "theabyss:totem_of_thunder"
-						Count: 1b
-						tag: {
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-2095430484
-								-1558492576
-								-1614487248
-								188700128
-							]
-						}
+			tasks: [{
+				id: "1A1CB10C96E34E26"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-2095430484
+							-1558492576
+							-1614487248
+							188700128
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7BD7345BC9A89FEB"
-					type: "item"
-					item: {
-						id: "theabyss:totem_of_thunder"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			}]
+			rewards: [{
+				id: "7BD7345BC9A89FEB"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_thunder"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 5.5d
@@ -4251,65 +3861,57 @@
 				"48F9166474F9D7D4"
 			]
 			id: "0D38E36A280B3994"
-			tasks: [
-				{
-					id: "4AD75B1F73A864D9"
-					type: "item"
-					item: {
-						id: "theabyss:totem_of_abyss"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "4AD75B1F73A864D9"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "55683EA504E66EC8"
-					type: "item"
-					item: {
-						id: "theabyss:totem_of_abyss"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			}]
+			rewards: [{
+				id: "55683EA504E66EC8"
+				type: "item"
+				item: {
+					id: "theabyss:totem_of_abyss"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 4.0d
 			y: -1.5d
 			dependencies: ["6922F366FD53486C"]
 			id: "5640A9F291CFCD2E"
-			tasks: [
-				{
-					id: "72A3401CB5AC2BFA"
-					type: "item"
-					item: "theabyss:netherfire_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "76E0A83C8AD3A0E8"
-					type: "item"
-					item: "theabyss:netherfire_ingot"
-				}
-			]
+			tasks: [{
+				id: "72A3401CB5AC2BFA"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+			}]
+			rewards: [{
+				id: "76E0A83C8AD3A0E8"
+				type: "item"
+				item: "theabyss:netherfire_ingot"
+			}]
 		}
 		{
-			title: "深渊爬行者[--Abyss Creeper--]"
+			title: "深渊爬行者"
 			x: 0.0d
 			y: -0.5d
-			description: ["查看&b深渊爬行者&r并杀死它。[--Look at an &bAbyss Creeper&r and kill it.--]"]
+			description: ["查看&b深渊爬行者&r并杀死它。"]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "5F9ED8BF1BBB4ABC"
 			tasks: [
 				{
 					id: "1C3F51997C25BED3"
 					type: "observation"
-					title: "看看&b深渊爬行者[--Look at an &bAbyss Creeper--]"
+					title: "看看&b深渊爬行者"
 					icon: "theabyss:abysscreeper_spawn_egg"
 					timer: 0L
 					observe_type: 5
@@ -4322,33 +3924,27 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "49876F3DE9C0CC30"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "49876F3DE9C0CC30"
+				type: "xp"
+				xp: 100
+			}]
 		}
 		{
 			x: 2.5d
 			y: 0.0d
 			dependencies: ["5F9ED8BF1BBB4ABC"]
 			id: "0A82FC8B1CF71CF7"
-			tasks: [
-				{
-					id: "76B7F9289B2823ED"
-					type: "item"
-					item: "theabyss:creeper_dust"
-				}
-			]
-			rewards: [
-				{
-					id: "6390F03C59C6E461"
-					type: "item"
-					item: "theabyss:creeper_dust"
-				}
-			]
+			tasks: [{
+				id: "76B7F9289B2823ED"
+				type: "item"
+				item: "theabyss:creeper_dust"
+			}]
+			rewards: [{
+				id: "6390F03C59C6E461"
+				type: "item"
+				item: "theabyss:creeper_dust"
+			}]
 		}
 		{
 			x: 7.0d
@@ -4356,47 +3952,39 @@
 			hide_dependency_lines: true
 			dependencies: ["50F3AFDF64210C67"]
 			id: "48F9166474F9D7D4"
-			tasks: [
-				{
-					id: "248A5ECA5A7BB455"
-					type: "item"
-					item: "minecraft:totem_of_undying"
-				}
-			]
-			rewards: [
-				{
-					id: "44642CAA8C0FFBF9"
-					type: "item"
-					item: "minecraft:totem_of_undying"
-				}
-			]
+			tasks: [{
+				id: "248A5ECA5A7BB455"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+			rewards: [{
+				id: "44642CAA8C0FFBF9"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -0.5d
-			description: ["我没有为你放置结构方块,因为它们不是可合成的,但我想告诉你,传送门很深,找到它很幸运.[--I did not put you the block for the structure because they are not craftable but what I can tell you is that the portal is deep and be lucky to find it.--]"]
+			description: ["我没有为你放置结构方块,因为它们不是可合成的,但我想告诉你,传送门很深,找到它很幸运."]
 			dependencies: ["50F3AFDF64210C67"]
 			id: "6185EB5C5215F063"
-			tasks: [
-				{
-					id: "726B03F0DF3965F5"
-					type: "item"
-					item: {
-						id: "theabyss:theabyssdimiceworld"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "726B03F0DF3965F5"
+				type: "item"
+				item: {
+					id: "theabyss:theabyssdimiceworld"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7BF5097FBDF76B50"
-					type: "item"
-					item: "theabyss:abyssicediamond"
-				}
-			]
+			}]
+			rewards: [{
+				id: "7BF5097FBDF76B50"
+				type: "item"
+				item: "theabyss:abyssicediamond"
+			}]
 		}
 	]
 }

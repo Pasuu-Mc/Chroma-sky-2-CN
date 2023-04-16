@@ -3,7 +3,7 @@
 	group: "73390EDA98890AC0"
 	order_index: 3
 	filename: "astral_sorcery"
-	title: "星辉魔法[--Astral Sorcery--]"
+	title: "星辉魔法"
 	icon: "astralsorcery:shifting_star_vicio"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,48 +13,39 @@
 			y: -8.0d
 			dependencies: ["3A520D98DB566C24"]
 			id: "13F91C2C4EBE7565"
-			tasks: [
-				{
-					id: "1127A9709BD0489F"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-				}
-			]
-			rewards: [
-				{
-					id: "44D61A899CD39378"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-					count: 8
-				}
-			]
+			tasks: [{
+				id: "1127A9709BD0489F"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+			}]
+			rewards: [{
+				id: "44D61A899CD39378"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 8
+			}]
 		}
 		{
 			x: -19.5d
 			y: -10.0d
-			description: ["你可以在下界的星辉结构中找到星图.[--You can find the constellation paper in the Astral structures that are located in the nether.--]"]
+			description: ["你可以在下界的星辉结构中找到星图."]
 			dependencies: ["13F91C2C4EBE7565"]
 			id: "2EDE9D3CB4DCBDED"
-			tasks: [
-				{
-					id: "0CEB14A543882B9B"
-					type: "item"
-					item: {
-						id: "astralsorcery:constellation_paper"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "0CEB14A543882B9B"
+				type: "item"
+				item: {
+					id: "astralsorcery:constellation_paper"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "4BE84C5DF81A6B37"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "4BE84C5DF81A6B37"
+				type: "random"
+			}]
 		}
 		{
 			icon: "astralsorcery:altar_discovery"
@@ -62,69 +53,59 @@
 			y: -6.5d
 			shape: "diamond"
 			description: [
-				"它是合成祭坛的第一层,用于星芒宝典的探索章节.[--It is the first tier of crafting altar and is used throughout the Exploration chapter of the Astral Tome.--]"
+				"它是合成祭坛的第一层,用于星芒宝典的探索章节."
 				""
-				"将&a聚能水晶&r绑定在工作台上将其转成星辉工作台.[--Bind the &aCollector Crystal&r on a Crafting table to transform it in a Luminous Crafting Table.--]"
+				"将&a聚能水晶&r绑定在工作台上将其转成星辉工作台."
 			]
 			dependencies: ["0B67CBE199F4E4D9"]
 			size: 3.0d
 			id: "4629A552492B890B"
-			tasks: [
-				{
-					id: "0788A2E88CA764C0"
-					type: "item"
-					item: "astralsorcery:altar_discovery"
-				}
-			]
-			rewards: [
-				{
-					id: "4B3B9374BAAED623"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-					count: 16
-				}
-			]
+			tasks: [{
+				id: "0788A2E88CA764C0"
+				type: "item"
+				item: "astralsorcery:altar_discovery"
+			}]
+			rewards: [{
+				id: "4B3B9374BAAED623"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 16
+			}]
 		}
 		{
 			x: -16.5d
 			y: -12.0d
 			shape: "diamond"
-			description: ["它是合成祭坛的第二层,用于星芒宝典的共振章节.[--It is the second tier of crafting altar and is used throughout the Attunement chapter of the Astral Tome.--]"]
+			description: ["它是合成祭坛的第二层,用于星芒宝典的共振章节."]
 			hide_dependency_lines: true
 			dependencies: ["4629A552492B890B"]
 			size: 3.0d
 			id: "13C3047AC4A33314"
-			tasks: [
-				{
-					id: "2C3C20A182757150"
-					type: "item"
-					item: "astralsorcery:altar_attunement"
-				}
-			]
-			rewards: [
-				{
-					id: "47A2D85BC742B2B3"
-					type: "item"
-					item: "astralsorcery:liquid_starlight_bucket"
-				}
-			]
+			tasks: [{
+				id: "2C3C20A182757150"
+				type: "item"
+				item: "astralsorcery:altar_attunement"
+			}]
+			rewards: [{
+				id: "47A2D85BC742B2B3"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
 		}
 		{
 			x: -10.5d
 			y: -6.0d
 			shape: "diamond"
-			description: ["它是合成祭坛的第三层,用于星辉宝典的星座章节.[--It is the third tier of crafting altar and is used throughout the Constellation chapter of the Astral Tome.--]"]
+			description: ["它是合成祭坛的第三层,用于星辉宝典的星座章节."]
 			hide_dependency_lines: true
 			dependencies: ["13C3047AC4A33314"]
 			size: 3.0d
 			id: "62FFB55E9CF351CE"
-			tasks: [
-				{
-					id: "67DBCBA33DCEE3AC"
-					type: "item"
-					item: "astralsorcery:altar_constellation"
-				}
-			]
+			tasks: [{
+				id: "67DBCBA33DCEE3AC"
+				type: "item"
+				item: "astralsorcery:altar_constellation"
+			}]
 			rewards: [
 				{
 					id: "55D7182D7032FA39"
@@ -147,18 +128,16 @@
 			x: -9.5d
 			y: -11.5d
 			shape: "diamond"
-			description: ["它是合成祭坛的第四级也是最后一层,用于星芒宝典的光辉章节。它可以包含更多的星能,并为制作添加4个插槽.[--It is the fourth and last tier of crafting altar and is used throughout the Radiance chapter of the Astral Tome. It can contain more Starlight and adds 4 more slots for crafting.--]"]
+			description: ["它是合成祭坛的第四级也是最后一层,用于星芒宝典的光辉章节。它可以包含更多的星能,并为制作添加4个插槽."]
 			hide_dependency_lines: true
 			dependencies: ["62FFB55E9CF351CE"]
 			size: 3.0d
 			id: "47814EBAB3AEBA79"
-			tasks: [
-				{
-					id: "2F9193C5F6A21E4E"
-					type: "item"
-					item: "astralsorcery:altar_radiance"
-				}
-			]
+			tasks: [{
+				id: "2F9193C5F6A21E4E"
+				type: "item"
+				item: "astralsorcery:altar_radiance"
+			}]
 			rewards: [
 				{
 					id: "1E722551516383B5"
@@ -190,23 +169,21 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"它用于结晶石、星辉水晶和(与星辉星座一起调整时)玩家进一步制作、仪式或升级.[--It is used to attune Rock Crystals, Celestial Crystals, and (when attuning to a bright constellation) players for further crafting, rituals, or perks.--]"
+				"它用于结晶石、星辉水晶和(与星辉星座一起调整时)玩家进一步制作、仪式或升级."
 				""
-				"在完成以下章节中描述的结构之后,必须把光辉中继器放置在粘黑大理石上,将祭坛绑定到特定的星座上.[--After completing the structure described in the following section Construction, Spectral Relays must be placed on the Sooty Marble to attune the Altar to a specific constellation.--]"
+				"在完成以下章节中描述的结构之后,必须把光辉中继器放置在粘黑大理石上,将祭坛绑定到特定的星座上."
 				""
-				"这些中继器的位置可以在星座在天空中时显示,玩家将星图握在任意手中时显示;放置中继器的方块将发射黑暗蓝粒子.[--The placement of these Relays can be displayed when the constellation is in the sky and the player is holding its Constellation Paper in either hand; the blocks to place the Relays on will emit dark blue particles.--]"
+				"这些中继器的位置可以在星座在天空中时显示,玩家将星图握在任意手中时显示;放置中继器的方块将发射黑暗蓝粒子."
 				""
-				"当共振祭坛完全搭建成水晶石时,可以把星辉水晶扔到祭坛上来凝聚它们.[--When the Attunement Altar is fully set up Rock Crystals and Celestial Crystals can be thrown onto the Altar to attune them.--]"
+				"当共振祭坛完全搭建成水晶石时,可以把星辉水晶扔到祭坛上来凝聚它们."
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "66C53CA36AD3422B"
-			tasks: [
-				{
-					id: "72E7AACF0814B7C2"
-					type: "item"
-					item: "astralsorcery:attunement_altar"
-				}
-			]
+			tasks: [{
+				id: "72E7AACF0814B7C2"
+				type: "item"
+				item: "astralsorcery:attunement_altar"
+			}]
 			rewards: [
 				{
 					id: "63BA0DD00E7F539E"
@@ -233,20 +210,16 @@
 			shape: "diamond"
 			dependencies: ["7E5C6859951B0E01"]
 			id: "0FC2D90E094EAB11"
-			tasks: [
-				{
-					id: "4382DFBC0013B20C"
-					type: "item"
-					item: "astralsorcery:resonating_gem"
-				}
-			]
-			rewards: [
-				{
-					id: "4AA9177E1EADDB79"
-					type: "item"
-					item: "astralsorcery:liquid_starlight_bucket"
-				}
-			]
+			tasks: [{
+				id: "4382DFBC0013B20C"
+				type: "item"
+				item: "astralsorcery:resonating_gem"
+			}]
+			rewards: [{
+				id: "4AA9177E1EADDB79"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
 		}
 		{
 			x: -15.5d
@@ -254,21 +227,17 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "72B4E47B1464CBE3"
-			tasks: [
-				{
-					id: "4DF1A32364A202AE"
-					type: "item"
-					item: "astralsorcery:glass_lens"
-				}
-			]
-			rewards: [
-				{
-					id: "769FD8F7F17529B4"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4DF1A32364A202AE"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
+			rewards: [{
+				id: "769FD8F7F17529B4"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 4
+			}]
 		}
 		{
 			x: -15.0d
@@ -276,21 +245,17 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "4D50629E4CE06298"
-			tasks: [
-				{
-					id: "4E99763C2260AB34"
-					type: "item"
-					item: "astralsorcery:parchment"
-				}
-			]
-			rewards: [
-				{
-					id: "001F034E8AA44420"
-					type: "item"
-					item: "minecraft:paper"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4E99763C2260AB34"
+				type: "item"
+				item: "astralsorcery:parchment"
+			}]
+			rewards: [{
+				id: "001F034E8AA44420"
+				type: "item"
+				item: "minecraft:paper"
+				count: 4
+			}]
 		}
 		{
 			x: -17.0d
@@ -298,46 +263,38 @@
 			shape: "diamond"
 			dependencies: ["3CB1ECAEC29FBEC8"]
 			id: "39E5C481897E7320"
-			tasks: [
-				{
-					id: "21B52D85514CA067"
-					type: "item"
-					item: "astralsorcery:starmetal_ingot"
-				}
-			]
-			rewards: [
-				{
-					id: "55DDCDF17D2150FF"
-					type: "item"
-					item: "astralsorcery:starmetal_ingot"
-				}
-			]
+			tasks: [{
+				id: "21B52D85514CA067"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
+			rewards: [{
+				id: "55DDCDF17D2150FF"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
 		}
 		{
 			x: -16.5d
 			y: -4.5d
 			shape: "diamond"
 			description: [
-				"在地上放入一个&1星辉金属锭&r,手持装备的&4星辉切割工具&r左键&r.[--Drop a &1Starmetal Ingot&r on the ground, and with the &4Starmetal Cutting Tool&r equipped in you hand, &eleft-click&r it.--]"
+				"在地上放入一个&1星辉金属锭&r,手持装备的&4星辉切割工具&r左键&r."
 				""
-				"然后,这个锭会变成星尘,可以从地上拾取.[--The ingot will then transform into stardust, and can be picked up from the ground.--]"
+				"然后,这个锭会变成星尘,可以从地上拾取."
 			]
 			dependencies: ["39E5C481897E7320"]
 			id: "2FB5F19F9E49B197"
-			tasks: [
-				{
-					id: "06841E4B8E65C070"
-					type: "item"
-					item: "astralsorcery:stardust"
-				}
-			]
-			rewards: [
-				{
-					id: "0E94CA27AC167E15"
-					type: "item"
-					item: "astralsorcery:stardust"
-				}
-			]
+			tasks: [{
+				id: "06841E4B8E65C070"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
+			rewards: [{
+				id: "0E94CA27AC167E15"
+				type: "item"
+				item: "astralsorcery:stardust"
+			}]
 		}
 		{
 			x: -16.0d
@@ -345,21 +302,17 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "2A81EE63D66671F4"
-			tasks: [
-				{
-					id: "1FC21222EFE717FE"
-					type: "item"
-					item: "astralsorcery:nocturnal_powder"
-				}
-			]
-			rewards: [
-				{
-					id: "5ED88746BA363436"
-					type: "item"
-					item: "astralsorcery:nocturnal_powder"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "1FC21222EFE717FE"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+			}]
+			rewards: [{
+				id: "5ED88746BA363436"
+				type: "item"
+				item: "astralsorcery:nocturnal_powder"
+				count: 4
+			}]
 		}
 		{
 			x: -17.5d
@@ -367,21 +320,17 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "1EE4F846B5C920BF"
-			tasks: [
-				{
-					id: "1F8FCC7D016786EA"
-					type: "item"
-					item: "astralsorcery:illumination_powder"
-				}
-			]
-			rewards: [
-				{
-					id: "15FF2A186A4E7A8B"
-					type: "item"
-					item: "astralsorcery:illumination_powder"
-					count: 16
-				}
-			]
+			tasks: [{
+				id: "1F8FCC7D016786EA"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+			}]
+			rewards: [{
+				id: "15FF2A186A4E7A8B"
+				type: "item"
+				item: "astralsorcery:illumination_powder"
+				count: 16
+			}]
 		}
 		{
 			x: -16.0d
@@ -389,20 +338,16 @@
 			shape: "diamond"
 			dependencies: ["5AF41D8E497E6D5F"]
 			id: "4EA89F8BC2F34D1D"
-			tasks: [
-				{
-					id: "03B8C523C8AD9842"
-					type: "item"
-					item: "astralsorcery:rock_crystal_ore"
-				}
-			]
-			rewards: [
-				{
-					id: "74745C222E6C0747"
-					type: "item"
-					item: "astralsorcery:rock_crystal_ore"
-				}
-			]
+			tasks: [{
+				id: "03B8C523C8AD9842"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
+			rewards: [{
+				id: "74745C222E6C0747"
+				type: "item"
+				item: "astralsorcery:rock_crystal_ore"
+			}]
 		}
 		{
 			x: -17.5d
@@ -411,44 +356,36 @@
 			hide_dependency_lines: true
 			dependencies: ["4629A552492B890B"]
 			id: "3CB1ECAEC29FBEC8"
-			tasks: [
-				{
-					id: "4143F673BFB9A228"
-					type: "item"
-					item: "astralsorcery:starmetal_ore"
-				}
-			]
-			rewards: [
-				{
-					id: "615D9B5BCB9B4A14"
-					type: "item"
-					item: "astralsorcery:starmetal_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "4143F673BFB9A228"
+				type: "item"
+				item: "astralsorcery:starmetal_ore"
+			}]
+			rewards: [{
+				id: "615D9B5BCB9B4A14"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -15.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["它用来激活星辉魔法的合成台和星能灌注器.[--It is used to activate Astral Sorcery's crafting altars, as well as the Starlight Infuser.--]"]
+			description: ["它用来激活星辉魔法的合成台和星能灌注器."]
 			dependencies: ["4629A552492B890B"]
 			id: "5AF41D8E497E6D5F"
-			tasks: [
-				{
-					id: "18CE5F3C492ED4E2"
-					type: "item"
-					item: "astralsorcery:wand"
-				}
-			]
-			rewards: [
-				{
-					id: "0D5103154AA5B27A"
-					type: "item"
-					item: "astralsorcery:aquamarine"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "18CE5F3C492ED4E2"
+				type: "item"
+				item: "astralsorcery:wand"
+			}]
+			rewards: [{
+				id: "0D5103154AA5B27A"
+				type: "item"
+				item: "astralsorcery:aquamarine"
+				count: 2
+			}]
 		}
 		{
 			x: -15.5d
@@ -456,55 +393,49 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "64CC2057AF89DC02"
-			tasks: [
-				{
-					id: "496566ADF7064D22"
-					type: "item"
-					item: {
-						id: "astralsorcery:chisel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "496566ADF7064D22"
+				type: "item"
+				item: {
+					id: "astralsorcery:chisel"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3F006B8406C342A3"
-					type: "item"
-					item: "astralsorcery:starmetal_ingot"
-				}
-			]
+			}]
+			rewards: [{
+				id: "3F006B8406C342A3"
+				type: "item"
+				item: "astralsorcery:starmetal_ingot"
+			}]
 		}
 		{
 			x: -15.0d
 			y: -12.5d
 			shape: "diamond"
 			description: [
-				"当右键单击一个方块时,它会放置一个光源.[--When right clicked on a block, it places a light source.--]"
+				"当右键单击一个方块时,它会放置一个光源."
 				""
-				"如果已经有一个光源,它会被移除.[--If there is already a light source present then it will be removed.--]"
+				"如果已经有一个光源,它会被移除."
 				""
-				"Shift右键单击一个方块时,它会将其变成一个坚不可摧的半导体方块。 Shift右键单击一个半导体方块时将其恢复到之前的状态.[--When shift-right clicked on a block, it turns it into an unbreakable Translucent Block. Shift-right clicking on a translucent block reverts it to its previous state.--]"
+				"Shift右键单击一个方块时,它会将其变成一个坚不可摧的半导体方块。 Shift右键单击一个半导体方块时将其恢复到之前的状态."
 				""
-				"魔杖可以使用任何染料制作,以更改放置的光源的颜色.[--The wand can be crafted with any dye to change the color of placed light sources.--]"
+				"魔杖可以使用任何染料制作,以更改放置的光源的颜色."
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "27D048A6864628CC"
-			tasks: [
-				{
-					id: "1BDC6B6F158ED381"
-					type: "item"
-					item: {
-						id: "astralsorcery:illumination_wand"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "1BDC6B6F158ED381"
+				type: "item"
+				item: {
+					id: "astralsorcery:illumination_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "475EAD3FF52ACBE9"
@@ -524,29 +455,27 @@
 			y: -13.5d
 			shape: "diamond"
 			description: [
-				"它用于帮助方块放置.[--It is used to aid block placement.--]"
+				"它用于帮助方块放置."
 				""
-				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块.[--While wielding the wand, sneak right-click on a block in the world to set it as the template block to place down.--]"
+				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块."
 				""
-				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块.[--While wielding the wand, sneak right-click on a block in the world to set it as the template block to place down.--]"
+				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块."
 				""
 				""
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "713929DF8E2D89FA"
-			tasks: [
-				{
-					id: "43DA5F5D50E27C65"
-					type: "item"
-					item: {
-						id: "astralsorcery:architect_wand"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "43DA5F5D50E27C65"
+				type: "item"
+				item: {
+					id: "astralsorcery:architect_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3BE839694265B408"
@@ -568,19 +497,17 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "1A0C689BE78DDBE2"
-			tasks: [
-				{
-					id: "5C58A92156A3AF11"
-					type: "item"
-					item: {
-						id: "astralsorcery:exchange_wand"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "5C58A92156A3AF11"
+				type: "item"
+				item: {
+					id: "astralsorcery:exchange_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "1A01FF33C695F450"
@@ -599,16 +526,14 @@
 			x: -17.0d
 			y: -13.5d
 			shape: "diamond"
-			description: ["当玩家用魔杖右键单击时,他们会被拉向他们寻找的方向.[--When the player right clicks with the wand, they are pulled in the direction they are looking.--]"]
+			description: ["当玩家用魔杖右键单击时,他们会被拉向他们寻找的方向."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "39C6B50124D42720"
-			tasks: [
-				{
-					id: "04F6BCAB37737FD8"
-					type: "item"
-					item: "astralsorcery:grapple_wand"
-				}
-			]
+			tasks: [{
+				id: "04F6BCAB37737FD8"
+				type: "item"
+				item: "astralsorcery:grapple_wand"
+			}]
 			rewards: [
 				{
 					id: "30344C0640E50DFD"
@@ -629,19 +554,17 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "72369CC4DAEA2600"
-			tasks: [
-				{
-					id: "651367C040E66A40"
-					type: "item"
-					item: {
-						id: "astralsorcery:blink_wand"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "651367C040E66A40"
+				type: "item"
+				item: {
+					id: "astralsorcery:blink_wand"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "493C5502F8009678"
@@ -660,23 +583,19 @@
 			x: -18.0d
 			y: -7.0d
 			shape: "diamond"
-			description: ["夜行在室外右键单击时会显示夜空之星的查看,星座之星在其中排出.[--Right-clicking while outdoors during nighttime displays a view of the night sky's stars, among which the stars of constellations stand out.--]"]
+			description: ["夜行在室外右键单击时会显示夜空之星的查看,星座之星在其中排出."]
 			dependencies: ["4629A552492B890B"]
 			id: "3C875390A73994D5"
-			tasks: [
-				{
-					id: "1188A9E75F2FC0E9"
-					type: "item"
-					item: "astralsorcery:hand_telescope"
-				}
-			]
-			rewards: [
-				{
-					id: "29AED17B5C644B02"
-					type: "item"
-					item: "astralsorcery:glass_lens"
-				}
-			]
+			tasks: [{
+				id: "1188A9E75F2FC0E9"
+				type: "item"
+				item: "astralsorcery:hand_telescope"
+			}]
+			rewards: [{
+				id: "29AED17B5C644B02"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
 		}
 		{
 			x: -9.0d
@@ -684,20 +603,18 @@
 			shape: "diamond"
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "2E1A9FC4FC870DF0"
-			tasks: [
-				{
-					id: "483E4B566883908B"
-					type: "item"
-					item: {
-						id: "astralsorcery:infused_glass"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-							Damage: 0
-						}
+			tasks: [{
+				id: "483E4B566883908B"
+				type: "item"
+				item: {
+					id: "astralsorcery:infused_glass"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
+						Damage: 0
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "6DE2CF5099DA34A8"
@@ -721,16 +638,14 @@
 			x: -18.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["它用同调水晶石或天体水晶来影响其周围的区域。 下面列出星座及其特定的效果.[--It is used to affect the area around it with the attuned Rock Crystal or Celestial Crystal. A list of constellations and their given effects is listed below.--]"]
+			description: ["它用同调水晶石或天体水晶来影响其周围的区域。 下面列出星座及其特定的效果."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "746A7EE37E8E8A0D"
-			tasks: [
-				{
-					id: "628ACF1B2D513D81"
-					type: "item"
-					item: "astralsorcery:ritual_pedestal"
-				}
-			]
+			tasks: [{
+				id: "628ACF1B2D513D81"
+				type: "item"
+				item: "astralsorcery:ritual_pedestal"
+			}]
 			rewards: [
 				{
 					id: "27846308E5A38CA9"
@@ -750,21 +665,19 @@
 			y: -5.5d
 			shape: "diamond"
 			description: [
-				"它用来用星能灌注各种物品以将其转换(例如把海蓝宝石变成共振宝石)并将水晶工具变成它们灌注的对等物品.[--It is used to infuse various items with Starlight to transform them (such as turning Aquamarines into Resonating Gems) and turning Crystal tools into their infused counterparts.--]"
+				"它用来用星能灌注各种物品以将其转换(例如把海蓝宝石变成共振宝石)并将水晶工具变成它们灌注的对等物品."
 				""
-				"为了进行注魔,灌注机周围的洞必须装满星能液源块.[--In order for an infusion to occur, the pits around the Infuser must be filled with Liquid Starlight source blocks.--]"
+				"为了进行注魔,灌注机周围的洞必须装满星能液源块."
 				""
-				"发生注魔时,有几率消耗一个或一个以上的液态星能块.[--When an infusion occurs there is a chance for one or more Liquid Starlight blocks to be consumed.--]"
+				"发生注魔时,有几率消耗一个或一个以上的液态星能块."
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "7E5C6859951B0E01"
-			tasks: [
-				{
-					id: "660B13401F6D81B6"
-					type: "item"
-					item: "astralsorcery:infuser"
-				}
-			]
+			tasks: [{
+				id: "660B13401F6D81B6"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
 			rewards: [
 				{
 					id: "74CE25C6D69B9FB6"
@@ -794,25 +707,23 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"它最多可容纳 24 桶的任何流体。 根据存储的流体数量,代表 圣杯 中心 的流体旋转的方块将按比例改变大小.[--It can hold up to 24 buckets of any fluid. Depending on the amount of fluid stored, a block representing the fluid rotating in the center of the Chalice will proportionally change size.--]"
+				"它最多可容纳 24 桶的任何流体。 根据存储的流体数量,代表 圣杯 中心 的流体旋转的方块将按比例改变大小."
 				""
-				"当 1-11 桶存储流体时,一个“储罐”将环绕圣杯,12-24 桶存储流体时,两个“储罐”将环行.[--When there is between 1-11 buckets of fluid stored, one \"tendril\" of the fluid will orbit around the chalice, and at 12-24 buckets of fluid stored, two \"tendrils\" will orbit.--]"
+				"当 1-11 桶存储流体时,一个“储罐”将环绕圣杯,12-24 桶存储流体时,两个“储罐”将环行."
 				""
-				"机械流体传输只能通过方块的底部进行.[--Mechanical fluid transfer can only occur through the bottom side of the block.--]"
+				"机械流体传输只能通过方块的底部进行."
 				""
-				"如果有一行的视线而没有任何不便的方块,控制圣杯可以与16格半径范围内的方块进行交互.[--The Containment Chalice is able to interact with blocks within a 16 block radius of itself if there is a line of sight without any opaque blocks.--]"
+				"如果有一行的视线而没有任何不便的方块,控制圣杯可以与16格半径范围内的方块进行交互."
 				""
-				"它会从此范围内的星辉水中提取星能液,加快并自动补充此范围内星能灌注机,并与其他兼容的星辉水一起反应.[--It will pull Liquid Starlight from Lightwells in this range, speed up and automatically refill Starlight Infusers in this range, and react with other compatible Chalices in this range.--]"
+				"它会从此范围内的星辉水中提取星能液,加快并自动补充此范围内星能灌注机,并与其他兼容的星辉水一起反应."
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "2D36C42031376EA3"
-			tasks: [
-				{
-					id: "3CAFB0F8CE9649BD"
-					type: "item"
-					item: "astralsorcery:chalice"
-				}
-			]
+			tasks: [{
+				id: "3CAFB0F8CE9649BD"
+				type: "item"
+				item: "astralsorcery:chalice"
+			}]
 			rewards: [
 				{
 					id: "43AC4B2A3FD35120"
@@ -832,65 +743,55 @@
 			x: -18.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["它用于产生星能液。 它只能容纳两个桶的星能液。 为了产生,必须在它上方放置一个海蓝宝石或水晶石.[--It is used to generate Liquid Starlight. It is only able to hold 2 Buckets' worth of Liquid Starlight. In order for generation to occur, one must place an Aquamarine or Rock Crystal above it.--]"]
+			description: ["它用于产生星能液。 它只能容纳两个桶的星能液。 为了产生,必须在它上方放置一个海蓝宝石或水晶石."]
 			dependencies: ["4629A552492B890B"]
 			id: "0A9A2C121E1687EA"
-			tasks: [
-				{
-					id: "34C7121A11CE0EF1"
-					type: "item"
-					item: "astralsorcery:well"
-				}
-			]
-			rewards: [
-				{
-					id: "6F6A92C42904B222"
-					type: "item"
-					item: "astralsorcery:liquid_starlight_bucket"
-				}
-			]
+			tasks: [{
+				id: "34C7121A11CE0EF1"
+				type: "item"
+				item: "astralsorcery:well"
+			}]
+			rewards: [{
+				id: "6F6A92C42904B222"
+				type: "item"
+				item: "astralsorcery:liquid_starlight_bucket"
+			}]
 		}
 		{
 			x: -15.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["它用于发现明亮和暗黑的星座,只要获得适当的星图。[--It is used to discover bright and dim Constellations, provided that the appropriate Constellation Papers have been acquired.--]"]
+			description: ["它用于发现明亮和暗黑的星座,只要获得适当的星图。"]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3DD78732FEC19A3B"
-			tasks: [
-				{
-					id: "6E504B45A89E6042"
-					type: "item"
-					item: "astralsorcery:telescope"
-				}
-			]
-			rewards: [
-				{
-					id: "5960D3EEA7A50242"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 2
-				}
-			]
+			tasks: [{
+				id: "6E504B45A89E6042"
+				type: "item"
+				item: "astralsorcery:telescope"
+			}]
+			rewards: [{
+				id: "5960D3EEA7A50242"
+				type: "item"
+				item: "minecraft:gold_ingot"
+				count: 2
+			}]
 		}
 		{
 			x: -9.5d
 			y: -13.5d
 			shape: "diamond"
 			description: [
-				"它用于发现任何星座(bright、dim和 Lift),只要获得适当的星图纸.[--It is used to discover any Constellations (bright, dim, and faint), provided that the appropriate Constellation Papers have been acquired.--]"
+				"它用于发现任何星座(bright、dim和 Lift),只要获得适当的星图纸."
 				""
-				"它的功能类似于凝视玻璃;在夜晚右键单击放置的方块将显示夜空之星的查看,星座的星座在其中排出.[--It functions similarly to the Looking Glass; right-clicking the placed block at night will show a view of the night sky's stars, among which the stars of constellations stand out.--]"
+				"它的功能类似于凝视玻璃;在夜晚右键单击放置的方块将显示夜空之星的查看,星座的星座在其中排出."
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "3F609DCAB4F3DE55"
-			tasks: [
-				{
-					id: "1C3A7EFA50B9BA3C"
-					type: "item"
-					item: "astralsorcery:observatory"
-				}
-			]
+			tasks: [{
+				id: "1C3A7EFA50B9BA3C"
+				type: "item"
+				item: "astralsorcery:observatory"
+			}]
 			rewards: [
 				{
 					id: "6CF4537EBFDDBC51"
@@ -923,19 +824,17 @@
 			y: -6.5d
 			shape: "diamond"
 			description: [
-				"工作台有两个插槽——第一个插槽接收羊皮纸、水瓶、书和可附魔的物品,第二个插槽接收灌注玻璃和刻印玻璃.[--The table has two slots - the first one accepts Parchment, Water Bottles, Books and enchantable items, the second accepts Infused Glass and Engraved Glass.--]"
+				"工作台有两个插槽——第一个插槽接收羊皮纸、水瓶、书和可附魔的物品,第二个插槽接收灌注玻璃和刻印玻璃."
 				""
-				"用它们右键单击桌将插入该物品,用空手shift右键单击将移除物品.[--Right clicking the table with them will insert the item, shift-right clicking with an empty hand will remove items instead.--]"
+				"用它们右键单击桌将插入该物品,用空手shift右键单击将移除物品."
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "63E1B2CBCAF13DF2"
-			tasks: [
-				{
-					id: "4E56697C90B563F3"
-					type: "item"
-					item: "astralsorcery:refraction_table"
-				}
-			]
+			tasks: [{
+				id: "4E56697C90B563F3"
+				type: "item"
+				item: "astralsorcery:refraction_table"
+			}]
 			rewards: [
 				{
 					id: "4308C38812DD5929"
@@ -964,13 +863,11 @@
 			description: [""]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "6D4A4E324E1C0E53"
-			tasks: [
-				{
-					id: "02DA08F1F4D083DD"
-					type: "item"
-					item: "astralsorcery:tree_beacon"
-				}
-			]
+			tasks: [{
+				id: "02DA08F1F4D083DD"
+				type: "item"
+				item: "astralsorcery:tree_beacon"
+			}]
 			rewards: [
 				{
 					id: "337C2F33FC5675C6"
@@ -989,30 +886,28 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"它用来将玩家传送到其他天体传送门.[--It is used to teleport players to other Celestial Gateways.--]"
+				"它用来将玩家传送到其他天体传送门."
 				""
-				"当结构(下方的建筑)搭建正确时,靠近传送门会让玩家周围的区域笼罩在平古的夜空中.[--When the structure (see Construction below) is built correctly, approaching the Gateway will cause the area around the player to darken into a panoramic night sky.--]"
+				"当结构(下方的建筑)搭建正确时,靠近传送门会让玩家周围的区域笼罩在平古的夜空中."
 				""
-				"可以传送到星辉传送门的星辉传送门,在星辉世界中用更大的黄星描述.[--Celestial Gateways that can be teleported to are depicted with larger yellow stars among the starry backdrop.--]"
+				"可以传送到星辉传送门的星辉传送门,在星辉世界中用更大的黄星描述."
 				""
-				"潜行或按住右键单击可以将玩家在几秒后传送到该传送门[--Sneaking or holding right-click while looking at one will teleport the player to that Gateway after a few seconds--]"
+				"潜行或按住右键单击可以将玩家在几秒后传送到该传送门"
 				""
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "46C48AA4C777EA44"
-			tasks: [
-				{
-					id: "7B78CB0D34A680D6"
-					type: "item"
-					item: {
-						id: "astralsorcery:celestial_gateway"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "7B78CB0D34A680D6"
+				type: "item"
+				item: {
+					id: "astralsorcery:celestial_gateway"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3F6334FAF0741155"
@@ -1043,21 +938,19 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"它形成高级多方块的核心。[--It forms the core of an advanced multi-block. --]"
+				"它形成高级多方块的核心。"
 				""
-				"控制粉碎必须放置在喷液顶部,并为结构提供星能液才能运行.[--A Containment Chalice must be placed on top of the fountain and supplied with Liquid Starlight for the structure to operate.--]"
+				"控制粉碎必须放置在喷液顶部,并为结构提供星能液才能运行."
 				""
-				"它的真正功能由附着在喷泉底部的首领决定.[--Its exact function is determined by the Prime attached to the fountain's bottom side.--]"
+				"它的真正功能由附着在喷泉底部的首领决定."
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "144249D46BDAA7A7"
-			tasks: [
-				{
-					id: "3292B76D17A59D0C"
-					type: "item"
-					item: "astralsorcery:fountain"
-				}
-			]
+			tasks: [{
+				id: "3292B76D17A59D0C"
+				type: "item"
+				item: "astralsorcery:fountain"
+			}]
 			rewards: [
 				{
 					id: "596A0B25C69CC22F"
@@ -1085,13 +978,11 @@
 			shape: "diamond"
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "0E782F6D0EB27390"
-			tasks: [
-				{
-					id: "010E8D65D0790BCA"
-					type: "item"
-					item: "astralsorcery:fountain_prime_liquid"
-				}
-			]
+			tasks: [{
+				id: "010E8D65D0790BCA"
+				type: "item"
+				item: "astralsorcery:fountain_prime_liquid"
+			}]
 			rewards: [
 				{
 					id: "5C51E78BC2E32311"
@@ -1125,13 +1016,11 @@
 			shape: "diamond"
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "7E0016ECEB521664"
-			tasks: [
-				{
-					id: "3E0562991210D79A"
-					type: "item"
-					item: "astralsorcery:fountain_prime_vortex"
-				}
-			]
+			tasks: [{
+				id: "3E0562991210D79A"
+				type: "item"
+				item: "astralsorcery:fountain_prime_vortex"
+			}]
 			rewards: [
 				{
 					id: "6F8FCF50C0D5CB25"
@@ -1162,55 +1051,49 @@
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"它可以用来给星辉合成台提供更多的星能(或任何升级),设置聚能祭坛的目标星座,或者为星辉祭坛提供物品.[--It can either be used to bring more starlight to a Luminous Crafting Table (or any of its upgrades), to set the target Constellation of an Attunement Altar, or to provide items for an Iridescent Altar.--]"
+				"它可以用来给星辉合成台提供更多的星能(或任何升级),设置聚能祭坛的目标星座,或者为星辉祭坛提供物品."
 				""
-				"当放置在多方块结构中时(如下图所示),并通透天空并放入玻璃透镜时,光辉中继器会给它周围16格半径内最近的星能合成台(或任何升级)提供更多的星能.[--When placed in a multiblock structure (as described below) with a clear view of the sky and a Glass Lens put into it, the Spectral Relay will bring more starlight to the closest Luminous Crafting Table (or any upgrade) in a 16 blocks radius around itself.--]"
+				"当放置在多方块结构中时(如下图所示),并通透天空并放入玻璃透镜时,光辉中继器会给它周围16格半径内最近的星能合成台(或任何升级)提供更多的星能."
 				""
-				"在 16 个方块半径内进行多个中继器会减少效果.[--Multiple Relays in a 16 block radius will have diminishing effects.--]"
+				"在 16 个方块半径内进行多个中继器会减少效果."
 				""
-				"放置在灰黑大理石上的彩虹祭坛周围时,在制作时会显示中继器,显示一个物品的图纸,以继续制作.[--When placed around an Iridescent Altar on the sooty marble, Relays will be highlighted during crafting, showing an image of an item to place on them to continue crafting.--]"
+				"放置在灰黑大理石上的彩虹祭坛周围时,在制作时会显示中继器,显示一个物品的图纸,以继续制作."
 			]
 			dependencies: ["4629A552492B890B"]
 			id: "0853D7AF14502242"
-			tasks: [
-				{
-					id: "24FEC9CCF9E32FF5"
-					type: "item"
-					item: "astralsorcery:spectral_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "5636D7A001E55174"
-					type: "item"
-					item: "astralsorcery:glass_lens"
-				}
-			]
+			tasks: [{
+				id: "24FEC9CCF9E32FF5"
+				type: "item"
+				item: "astralsorcery:spectral_relay"
+			}]
+			rewards: [{
+				id: "5636D7A001E55174"
+				type: "item"
+				item: "astralsorcery:glass_lens"
+			}]
 		}
 		{
 			x: -11.0d
 			y: -7.5d
 			shape: "diamond"
 			description: [
-				"它的功能类似于透镜,但可以从一个透镜重置多个光束.[--It is similar in function to the Lens, but can redirect multiple beams from one prism.--]"
+				"它的功能类似于透镜,但可以从一个透镜重置多个光束."
 				""
-				"星能数量由所有输出的光束分配.[--The amount of Starlight is divided between all outgoing beams.--]"
+				"星能数量由所有输出的光束分配."
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "4BF1A4BEDE69C8AA"
-			tasks: [
-				{
-					id: "1DF24FFEB1547D45"
-					type: "item"
-					item: {
-						id: "astralsorcery:prism"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "1DF24FFEB1547D45"
+				type: "item"
+				item: {
+					id: "astralsorcery:prism"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "4887168F183BF6ED"
@@ -1237,29 +1120,27 @@
 			y: -11.5d
 			shape: "diamond"
 			description: [
-				"它用于在星能网络中重置星能。 它可以通过链接工具连接或链接.[--It is used to redirect Starlight in the Starlight network. It can be linked to and linked from by the Linking Tool.--]"
+				"它用于在星能网络中重置星能。 它可以通过链接工具连接或链接."
 				""
-				"它可以从多个来源接收星能,但它只能发射一个射线.[--It can accept Starlight from multiple sources, but it can only emit one ray.--]"
+				"它可以从多个来源接收星能,但它只能发射一个射线."
 				""
-				"岩晶石或天体水晶的大小与创建的透镜数量成正比,大小除以80,四舍五裂以获得透镜数量,最小的透镜是一个透镜.[--The size of the Rock Crystal or Celestial Crystal is proportional to the amount of Lenses created, with the size being divided by 80 and rounded down to get the amount of Lenses, with one Lens being the minimum.--]"
+				"岩晶石或天体水晶的大小与创建的透镜数量成正比,大小除以80,四舍五裂以获得透镜数量,最小的透镜是一个透镜."
 				""
-				"使用的水晶的纯净度和切割会影响星能在透镜中传输时消失的数量.[--The purity and cutting of the Crystal used affect the amount of Starlight lost when transferring through the Lens.--]"
+				"使用的水晶的纯净度和切割会影响星能在透镜中传输时消失的数量."
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3B9339C64369C08A"
-			tasks: [
-				{
-					id: "13364BCFBE12F9D0"
-					type: "item"
-					item: {
-						id: "astralsorcery:lens"
-						Count: 1b
-						tag: {
-							astralsorcery: { }
-						}
+			tasks: [{
+				id: "13364BCFBE12F9D0"
+				type: "item"
+				item: {
+					id: "astralsorcery:lens"
+					Count: 1b
+					tag: {
+						astralsorcery: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "0C1E2BC6AB261BCC"
@@ -1280,51 +1161,43 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "0E563D6824D4A0A8"
-			tasks: [
-				{
-					id: "03AF12EF3DAE96A2"
-					type: "item"
-					item: "astralsorcery:black_marble_raw"
-					count: 8L
-				}
-			]
-			rewards: [
-				{
-					id: "356075EE944042DF"
-					type: "item"
-					item: "astralsorcery:black_marble_raw"
-					count: 8
-				}
-			]
+			tasks: [{
+				id: "03AF12EF3DAE96A2"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 8L
+			}]
+			rewards: [{
+				id: "356075EE944042DF"
+				type: "item"
+				item: "astralsorcery:black_marble_raw"
+				count: 8
+			}]
 		}
 		{
 			x: -9.0d
 			y: -6.5d
 			shape: "diamond"
 			description: [
-				"它用来作为任何距离的活性仪式的代用工具.[--It is used to act as a proxy for active rituals at any distance.--]"
+				"它用来作为任何距离的活性仪式的代用工具."
 				""
-				"锚必须和一个链接工具连接.[--The Anchors must be linked with a Linking Tool.--]"
+				"锚必须和一个链接工具连接."
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "5CD01CC064448ABE"
-			tasks: [
-				{
-					id: "2629AB8FC5447811"
-					type: "item"
-					item: "astralsorcery:ritual_link"
-				}
-			]
-			rewards: [
-				{
-					id: "762E4576995CADAF"
-					type: "item"
-					item: "astralsorcery:ritual_link"
-				}
-			]
+			tasks: [{
+				id: "2629AB8FC5447811"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+			}]
+			rewards: [{
+				id: "762E4576995CADAF"
+				type: "item"
+				item: "astralsorcery:ritual_link"
+			}]
 		}
 		{
-			title: "&b自动彩虹祭坛[--&bAuto Iridescent Altar--]"
+			title: "&b自动彩虹祭坛"
 			icon: "astralsorcery:altar_radiance"
 			x: -13.0d
 			y: -9.0d
@@ -1446,30 +1319,28 @@
 			]
 		}
 		{
-			title: "&k&dabc&r&b开始星辉&r&k&dabc&r[--&k&dabc &r&bStarting Astral&r &k&dabc&r--]"
+			title: "&k&dabc&r&b开始星辉&r&k&dabc&r"
 			icon: "astralsorcery:shifting_star_armara"
 			x: -16.5d
 			y: -3.0d
-			subtitle: "如何开始星辉?[--How to start Astral ?--]"
+			subtitle: "如何开始星辉?"
 			description: [
-				"要开始星辉,你必须前往末地,找到岛上隐藏的不同结构.[--To start astral you must go to the end and find the different structures hidden on the islands.--]"
+				"要开始星辉,你必须前往末地,找到岛上隐藏的不同结构."
 				""
-				"要开始星辉,你必须制作一个&d聚能水晶&r。要让它用&b以太气体&r将&b8水晶石&r放入溶解室中.[--To be able to start astral, you must craft a &dcollector crystal&r.  To make it put &b8 Rock Crystals&r in a Dissolution chamber with &bEther Gas&r.--]"
+				"要开始星辉,你必须制作一个&d聚能水晶&r。要让它用&b以太气体&r将&b8水晶石&r放入溶解室中."
 				""
-				"在 JEI 中检查水晶石的用途以查看配方.[--Check Rock Crystal utilisation in JEI to see the recipe.--]"
+				"在 JEI 中检查水晶石的用途以查看配方."
 			]
 			dependencies: [
 				"0BDA67667CF2B2A3"
 				"0990C82D9CE73CAF"
 			]
 			id: "0B67CBE199F4E4D9"
-			tasks: [
-				{
-					id: "14890DA075202246"
-					type: "checkmark"
-					title: "开始星辉魔法[--Starting Astral Sorcery--]"
-				}
-			]
+			tasks: [{
+				id: "14890DA075202246"
+				type: "checkmark"
+				title: "开始星辉魔法"
+			}]
 			rewards: [
 				{
 					id: "425BF55BD90D7186"
@@ -1494,27 +1365,23 @@
 				"558E5F0EFD894D61"
 			]
 			id: "20D1BA0606138A0D"
-			tasks: [
-				{
-					id: "7DDB57D5343F89AD"
-					type: "item"
-					item: {
-						id: "matc:imperium_crystal"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "7DDB57D5343F89AD"
+				type: "item"
+				item: {
+					id: "matc:imperium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "759605BB6C7920BC"
-					type: "item"
-					item: "mysticalagriculture:imperium_ingot"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "759605BB6C7920BC"
+				type: "item"
+				item: "mysticalagriculture:imperium_ingot"
+				count: 4
+			}]
 		}
 	]
 }

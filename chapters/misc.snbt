@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 7
 	filename: "misc"
-	title: "杂质[--Misc--]"
+	title: "杂项"
 	icon: {
 		id: "buildinggadgets:gadget_copy_paste"
 		Count: 1b
@@ -62,7 +62,7 @@
 			x: -5.0d
 			y: -4.0d
 			shape: "octagon"
-			description: ["建筑小帮手允许你使用一组不同的建筑模式来建造结构.[--The Building Gadget allows you to build structures using a set of different Building Modes.--]"]
+			description: ["建筑小帮手允许你使用不同的建筑模式来建造结构."]
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -99,7 +99,7 @@
 			x: -5.0d
 			y: -3.0d
 			shape: "octagon"
-			description: ["更替小帮手使用一组不同的更替模式提供了基本的更替能力.[--The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes.--]"]
+			description: ["更替小帮手使用一组不同的更替模式提供了基本的更替能力."]
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -136,7 +136,7 @@
 			x: -5.0d
 			y: -2.0d
 			shape: "octagon"
-			description: ["复制粘膏小帮手允许你选择一个大半径来复制和粘贴在不同的位置.[--The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location.--]"]
+			description: ["复制粘贴小帮手允许你选择一个较大半径来复制和粘贴到不同的位置."]
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -173,7 +173,7 @@
 			x: -5.0d
 			y: -1.0d
 			shape: "octagon"
-			description: ["破坏小帮手可以让你虚空大区域.[--The Destruction Gadget allows you to void a large area.--]"]
+			description: ["破坏小帮手可以让你破坏一个大的区域."]
 			dependencies: [
 				"3F05D033EBD0710D"
 				"088D692E25F62BFD"
@@ -555,7 +555,7 @@
 			x: -7.0d
 			y: -3.0d
 			shape: "hexagon"
-			description: ["每 15 ticks 转移 8 个物品.[--Transfert 8 items every 15 ticks.--]"]
+			description: ["每 15 ticks 转移 8 个物品."]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "47FD87C40EF62ABB"
 			tasks: [
@@ -577,7 +577,7 @@
 			x: -7.0d
 			y: -2.0d
 			shape: "hexagon"
-			description: ["每 10 ticks 转移 16 个物品.[--Transfert 16 items every 10 ticks.--]"]
+			description: ["每 10 ticks 转移 16 个物品."]
 			dependencies: ["47FD87C40EF62ABB"]
 			id: "7D7D7DC63E4C2F0A"
 			tasks: [
@@ -599,7 +599,7 @@
 			x: -7.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["每 5 ticks 转移 32 个物品.[--Transfert 32 items every 5 ticks.--]"]
+			description: ["每 5 ticks 转移 32 个物品."]
 			dependencies: ["7D7D7DC63E4C2F0A"]
 			id: "08C40E34FE7E24CE"
 			tasks: [
@@ -621,7 +621,7 @@
 			x: -7.0d
 			y: 0.0d
 			shape: "hexagon"
-			description: ["每次转64个物品.[--Transfert 64 items every tick.--]"]
+			description: ["每tick转64个物品."]
 			dependencies: ["08C40E34FE7E24CE"]
 			id: "3390851CC346F5F5"
 			tasks: [
@@ -644,16 +644,16 @@
 			y: -3.0d
 			shape: "rsquare"
 			description: [
-				"&l绑定纠缠方块&r[--&lBinding an Entangled Block&r--]"
-				"1. 制作一个纠缠方块和一个纠缠绑定器[--1. Craft an Entangled Block and an Entangled Binder--]"
-				"2. 放下纠缠方块[--2. Place down your Entangled Block--]"
-				"3. 右键单击要用纠缠绑定器绑定的方块[--3. Right-Click on the block you want to bind with the Entangled Binder--]"
-				"4. 用纠缠绑定器右键单击你的纠缠方块[--4. Right-Click on your Entangled Block with the Entangled Binder--]"
+				"&l绑定纠缠方块&r"
+				"1. 制作一个纠缠方块和一个纠缠绑定器"
+				"2. 放下纠缠方块"
+				"3. 右键单击要用纠缠绑定器绑定的方块"
+				"4. 用纠缠绑定器右键单击你的纠缠方块"
 				""
-				"&l解锁纠缠方块&r[--&lUnbinding an Entangled Block&r--]"
-				"1. 选择快捷栏上的空槽[--1. Select an empty slot on your hotbar--]"
-				"2. 开始蹲下[--2. Start crouching--]"
-				"3. 右击纠缠方块[--3. Right-Click on the Entangled Block--]"
+				"&l解锁纠缠方块&r"
+				"1. 选择快捷栏上的空槽"
+				"2. 开始蹲下"
+				"3. 右击纠缠方块"
 			]
 			dependencies: [
 				"39DB67EE674F41A4"
@@ -692,7 +692,7 @@
 			x: 2.0d
 			y: -4.0d
 			shape: "rsquare"
-			description: ["纠缠绑定器可以让你控制什么方块绑定在一起![--Entangled Binder Allows you to control what blocks bind together!--]"]
+			description: ["纠缠绑定器可以让你控制什么方块绑定在一起!"]
 			dependencies: [
 				"243FA1E08B56689C"
 				"088D692E25F62BFD"
@@ -721,7 +721,7 @@
 			x: 5.0d
 			y: -4.0d
 			shape: "square"
-			description: ["一个 3x3x3 的箱子。[--A 3x3x3 box.--]"]
+			description: ["一个 3x3x3 的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -748,7 +748,7 @@
 			x: 5.0d
 			y: -3.0d
 			shape: "square"
-			description: ["一个 5x5x5 的箱子。[--A 5x5x5 box.--]"]
+			description: ["一个 5x5x5 的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -775,7 +775,7 @@
 			x: 5.0d
 			y: -2.0d
 			shape: "square"
-			description: ["一个 7x7x7 的箱子.[--A 7x7x7 box.--]"]
+			description: ["一个 7x7x7 的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -802,7 +802,7 @@
 			x: 5.0d
 			y: -1.0d
 			shape: "square"
-			description: ["9x9x9的箱子。[--A 9x9x9 box.--]"]
+			description: ["9x9x9的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -829,7 +829,7 @@
 			x: 5.0d
 			y: 0.0d
 			shape: "square"
-			description: ["一个 11x11x11 的箱子.[--A 11x11x11 box.--]"]
+			description: ["一个 11x11x11 的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -856,7 +856,7 @@
 			x: 5.0d
 			y: 1.0d
 			shape: "square"
-			description: ["一个 13x13x13 的箱子.[--A 13x13x13 box.--]"]
+			description: ["一个 13x13x13 的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -883,7 +883,7 @@
 			x: 4.0d
 			y: -4.0d
 			shape: "square"
-			description: ["此工具允许您进入您的压缩机器.[--This tool allows you to enter your Compact Machines.--]"]
+			description: ["此工具允许您进入您的压缩机器."]
 			dependencies: [
 				"1B69AF5509A2B907"
 				"47A4D81697C274A3"
@@ -1020,7 +1020,7 @@
 			x: 7.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["你可以扔掉物品![--You can trash Items !--]"]
+			description: ["你可以扔掉物品!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "7E47E2F9A6FF7C47"
 			tasks: [
@@ -1042,7 +1042,7 @@
 			x: 7.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["你可以扔掉流体![--You can trash Fluids !--]"]
+			description: ["你可以扔掉流体!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "6FAD8088FF55A204"
 			tasks: [
@@ -1064,7 +1064,7 @@
 			x: 7.0d
 			y: -2.0d
 			shape: "diamond"
-			description: ["你可以把能量扔掉![--You can trash Energy !--]"]
+			description: ["你可以把能量扔掉!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "24AA54314A035049"
 			tasks: [
@@ -1086,7 +1086,7 @@
 			x: 8.5d
 			y: -3.0d
 			shape: "diamond"
-			description: ["你可以扔掉所有东西.[--You can trash everything.--]"]
+			description: ["你可以扔掉所有东西."]
 			dependencies: [
 				"7E47E2F9A6FF7C47"
 				"6FAD8088FF55A204"
@@ -1169,7 +1169,7 @@
 		{
 			x: -10.0d
 			y: -4.0d
-			description: ["一次最多可以放置 9 个方块![--Can place up to 9 blocks at once!--]"]
+			description: ["一次最多可以放置 9 个方块!"]
 			dependencies: ["793F6D3707268AFB"]
 			id: "6ED11CD6BDBD5ABF"
 			tasks: [
@@ -1198,7 +1198,7 @@
 		{
 			x: -10.0d
 			y: -3.0d
-			description: ["一次最多可以放置 27 个方块![--Can place up to 27 blocks at once!--]"]
+			description: ["一次最多可以放置 27 个方块!"]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "3E26238C4EBD0434"
 			tasks: [
@@ -1227,7 +1227,7 @@
 		{
 			x: -10.0d
 			y: -2.0d
-			description: ["一次最多可以放置128个方块![--Can place up to 128 blocks at once!--]"]
+			description: ["一次最多可以放置128个方块!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "0BA4B694D58CFBFD"
 			tasks: [
@@ -1256,7 +1256,7 @@
 		{
 			x: -10.0d
 			y: -1.0d
-			description: ["一次最多可以放置 1024 个方块![--Can place up to 1024 blocks at once!--]"]
+			description: ["一次最多可以放置 1024 个方块!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "29C488DD8A1CF337"
 			tasks: [
@@ -1285,7 +1285,7 @@
 			x: 0.0d
 			y: -2.5d
 			shape: "gear"
-			description: ["防止敌对怪物在火把周围大半径范围内自然生成.[--Prevents natural spawning of hostile monsters in a big radius around the torch.--]"]
+			description: ["防止敌对怪物在火把周围大半径范围内自然生成."]
 			dependencies: ["088D692E25F62BFD"]
 			id: "33D43AA047132058"
 			tasks: [
@@ -1307,7 +1307,7 @@
 			x: 0.0d
 			y: 0.5d
 			shape: "gear"
-			description: ["在灯周围半径内放置隐形灯光。[--Places invisible lights in a radius around the lamp.--]"]
+			description: ["在灯周围半径内放置隐形灯光。"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "0B95BC9066A3A231"
 			tasks: [
@@ -1329,7 +1329,7 @@
 			x: 0.0d
 			y: -1.0d
 			shape: "gear"
-			description: ["防止在灯周围大半径范围内自然生成鱿鱼、蝙蝠或豹等被动动物.[--Prevents natural spawning of passive animals like squids, bats or ocelots in a big radius around the lamp.--]"]
+			description: ["防止在灯周围大半径范围内自然生成鱿鱼、蝙蝠或豹猫等被动动物."]
 			dependencies: ["088D692E25F62BFD"]
 			id: "2B1112222E55E109"
 			tasks: [
@@ -1804,18 +1804,18 @@
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"&e磨制&r扩展了您在游戏中使用的方块类型.[--&eChipped&r expands on the variety of blocks you can use in-game.--]"
+				"&e磨制&r扩展了您在游戏中使用的方块类型."
 				""
-				"该模组提供2000多个独特的建筑方块.[--The mod offers over 2000 unique building blocks.--]"
+				"该模组提供2000多个独特的建筑方块."
 				""
-				"破碎和切石机的工作方式相同.[--Chipped works in the same way as the stone cutter.--]"
+				"破碎和切石机的工作方式相同."
 			]
 			id: "53FCCB40B318331E"
 			tasks: [
 				{
 					id: "0B7775A6507C0BF0"
 					type: "checkmark"
-					title: "破碎的[--Chipped--]"
+					title: "破碎的"
 				}
 			]
 		}
@@ -1976,7 +1976,7 @@
 			]
 		}
 		{
-			title: "无线热量[--Wireless Heat--]"
+			title: "无线热量"
 			x: 2.0d
 			y: 7.0d
 			shape: "diamond"

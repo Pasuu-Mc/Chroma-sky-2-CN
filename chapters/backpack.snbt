@@ -3,7 +3,7 @@
 	group: "638FC427456F902B"
 	order_index: 8
 	filename: "backpack"
-	title: "背包[--Backpack--]"
+	title: "背包"
 	icon: "sophisticatedbackpacks:diamond_backpack"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -15,20 +15,16 @@
 			dependencies: ["7BDEB257307A7144"]
 			size: 2.0d
 			id: "48609CF4C84F3228"
-			tasks: [
-				{
-					id: "4956E3A9B91A45AE"
-					type: "item"
-					item: "sophisticatedbackpacks:backpack"
-				}
-			]
-			rewards: [
-				{
-					id: "7BAED726DA0644CC"
-					type: "item"
-					item: "minecraft:chest"
-				}
-			]
+			tasks: [{
+				id: "4956E3A9B91A45AE"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "7BAED726DA0644CC"
+				type: "item"
+				item: "minecraft:chest"
+			}]
 		}
 		{
 			x: -1.5d
@@ -38,20 +34,16 @@
 			hide: false
 			size: 2.0d
 			id: "549B65AB4CA2CCBC"
-			tasks: [
-				{
-					id: "2C0D9763571C3DAC"
-					type: "item"
-					item: "sophisticatedbackpacks:iron_backpack"
-				}
-			]
-			rewards: [
-				{
-					id: "54AB1EDF879006E5"
-					type: "item"
-					item: "expandedstorage:iron_chest"
-				}
-			]
+			tasks: [{
+				id: "2C0D9763571C3DAC"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "54AB1EDF879006E5"
+				type: "item"
+				item: "expandedstorage:iron_chest"
+			}]
 		}
 		{
 			x: 0.0d
@@ -60,20 +52,16 @@
 			dependencies: ["549B65AB4CA2CCBC"]
 			size: 2.0d
 			id: "777AE92371AB0E65"
-			tasks: [
-				{
-					id: "3DB6D0F408D3245D"
-					type: "item"
-					item: "sophisticatedbackpacks:gold_backpack"
-				}
-			]
-			rewards: [
-				{
-					id: "33EEF08ECECA0737"
-					type: "item"
-					item: "expandedstorage:gold_chest"
-				}
-			]
+			tasks: [{
+				id: "3DB6D0F408D3245D"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "33EEF08ECECA0737"
+				type: "item"
+				item: "expandedstorage:gold_chest"
+			}]
 		}
 		{
 			x: 1.5d
@@ -82,20 +70,16 @@
 			dependencies: ["777AE92371AB0E65"]
 			size: 2.0d
 			id: "475263A2E9DDB04C"
-			tasks: [
-				{
-					id: "5A6625185E4897C6"
-					type: "item"
-					item: "sophisticatedbackpacks:diamond_backpack"
-				}
-			]
-			rewards: [
-				{
-					id: "594256DAAA981331"
-					type: "item"
-					item: "expandedstorage:diamond_chest"
-				}
-			]
+			tasks: [{
+				id: "5A6625185E4897C6"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "594256DAAA981331"
+				type: "item"
+				item: "expandedstorage:diamond_chest"
+			}]
 		}
 		{
 			x: 2.5d
@@ -104,20 +88,16 @@
 			dependencies: ["475263A2E9DDB04C"]
 			size: 2.0d
 			id: "6D3CB26E0481163F"
-			tasks: [
-				{
-					id: "684238E30A1B5B6B"
-					type: "item"
-					item: "sophisticatedbackpacks:netherite_backpack"
-				}
-			]
-			rewards: [
-				{
-					id: "51B71C5735CDDBAB"
-					type: "item"
-					item: "expandedstorage:netherite_chest"
-				}
-			]
+			tasks: [{
+				id: "684238E30A1B5B6B"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "51B71C5735CDDBAB"
+				type: "item"
+				item: "expandedstorage:netherite_chest"
+			}]
 		}
 		{
 			x: 0.0d
@@ -127,915 +107,716 @@
 				"3F05D033EBD0710D"
 			]
 			id: "27442D51C7848385"
-			tasks: [
-				{
-					id: "17DDE61633874815"
-					type: "item"
-					item: "sophisticatedbackpacks:upgrade_base"
-				}
-			]
-			rewards: [
-				{
-					id: "4DF43320570B33C3"
-					type: "item"
-					item: "sophisticatedbackpacks:upgrade_base"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "17DDE61633874815"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+			}]
+			rewards: [{
+				id: "4DF43320570B33C3"
+				type: "item"
+				item: "sophisticatedbackpacks:upgrade_base"
+				count: 4
+			}]
 		}
 		{
 			x: 1.5d
 			y: 1.0d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "5988508903F0AA7A"
-			tasks: [
-				{
-					id: "090ED0B52C95F3D5"
-					type: "item"
-					item: "sophisticatedbackpacks:pickup_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "34ED287CFF716C8C"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "090ED0B52C95F3D5"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [{
+				id: "34ED287CFF716C8C"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 2.5d
-			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤.[--Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["5988508903F0AA7A"]
 			id: "32C75A04DF24D51F"
-			tasks: [
-				{
-					id: "601F41D756635648"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_pickup_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "00836FF002E56D01"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "601F41D756635648"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+			rewards: [{
+				id: "00836FF002E56D01"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: -0.5d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "58E0C3EE95D6CE26"
-			tasks: [
-				{
-					id: "56C25BBB9A51ED1B"
-					type: "item"
-					item: "sophisticatedbackpacks:filter_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "0839E7F1F5B239B1"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "56C25BBB9A51ED1B"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+			rewards: [{
+				id: "0839E7F1F5B239B1"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 1.0d
-			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤.[--Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["58E0C3EE95D6CE26"]
 			id: "547CD5BAEBF56D49"
-			tasks: [
-				{
-					id: "44F104DB8D41DB2F"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_filter_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "706E42F005250357"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "44F104DB8D41DB2F"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+			rewards: [{
+				id: "706E42F005250357"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 6.5d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "60D3E9EF591E6059"
-			tasks: [
-				{
-					id: "3E36D9DE307909C3"
-					type: "item"
-					item: "sophisticatedbackpacks:magnet_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "07D7752E3D46EEA3"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "3E36D9DE307909C3"
+				type: "item"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "07D7752E3D46EEA3"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 8.5d
-			description: ["高级的有更大的磁力范围更多的过滤选项 - 按物品/mod/lag进行配对,匹配NBT,匹配伤害和16个插槽可用于过滤.[--Advanced one has bigger magnet range more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更大的磁力范围更多的过滤选项 - 按物品/mod/lag进行配对,匹配NBT,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["60D3E9EF591E6059"]
 			id: "785FB30509D0502B"
-			tasks: [
-				{
-					id: "61F4C69E684E8568"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_magnet_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "246F9B86969D4E2C"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "61F4C69E684E8568"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+			}]
+			rewards: [{
+				id: "246F9B86969D4E2C"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 6.0d
-			description: ["具有过滤器,以允许将食物喂给玩家限制(如果您捡到腐肉之类的东西并且具有负面效果,则非常有用)。[--Has filters to allow limiting what food items should be fed to player (pretty useful in case you're picking up stuff like rotten flesh and similar with negative effects).--]"]
+			description: ["具有过滤器,以允许将食物喂给玩家限制(如果您捡到腐肉之类的东西并且具有负面效果,则非常有用)。"]
 			dependencies: ["27442D51C7848385"]
 			id: "35865423E1D69EAD"
-			tasks: [
-				{
-					id: "480606132D5BABD6"
-					type: "item"
-					item: "sophisticatedbackpacks:feeding_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "38519AB0D0440C9A"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "480606132D5BABD6"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "38519AB0D0440C9A"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 7.5d
 			dependencies: ["35865423E1D69EAD"]
 			id: "0C077EBFA803133A"
-			tasks: [
-				{
-					id: "7FB03138A63DDD88"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "50AC34DCC112B0A2"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "7FB03138A63DDD88"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+			}]
+			rewards: [{
+				id: "50AC34DCC112B0A2"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["正常升级只有 9 个过滤插槽,只能使用 2x2 配方压缩物品.[--Regular upgrade only has 9 filter slots and can only compact items using 2x2 recipes.--]"]
+			description: ["正常升级只有 9 个过滤插槽,只能使用 2x2 配方压缩物品."]
 			dependencies: ["27442D51C7848385"]
 			id: "5D1ED6048FE7A389"
-			tasks: [
-				{
-					id: "6469DB14A3943E9F"
-					type: "item"
-					item: "sophisticatedbackpacks:compacting_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "383A257BE7E96C5F"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "6469DB14A3943E9F"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+			rewards: [{
+				id: "383A257BE7E96C5F"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 4.0d
-			description: ["高级一个有 16 个槽,可以使用 2x2 和 3x3 的配方压缩物品.[--Advanced one has 16 slots and can compact items using both 2x2 and 3x3 recipes.--]"]
+			description: ["高级一个有 16 个槽,可以使用 2x2 和 3x3 的配方压缩物品."]
 			dependencies: ["5D1ED6048FE7A389"]
 			id: "560B9A1572081C79"
-			tasks: [
-				{
-					id: "2333D6BB5A955AF1"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_compacting_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "34AE0302DAF0630F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "2333D6BB5A955AF1"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+			rewards: [{
+				id: "34AE0302DAF0630F"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 3.5d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "7BB7198A7612619F"
-			tasks: [
-				{
-					id: "4F7DDCFAB7073F0A"
-					type: "item"
-					item: "sophisticatedbackpacks:void_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "6BE6D78A0250ECD8"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "4F7DDCFAB7073F0A"
+				type: "item"
+				item: "sophisticatedbackpacks:void_upgrade"
+			}]
+			rewards: [{
+				id: "6BE6D78A0250ECD8"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 5.0d
-			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤.[--Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["7BB7198A7612619F"]
 			id: "21B39EFA98CC927C"
-			tasks: [
-				{
-					id: "68C0E842796D3824"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_void_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "1E3C2E9224D72B9A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "68C0E842796D3824"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_void_upgrade"
+			}]
+			rewards: [{
+				id: "1E3C2E9224D72B9A"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 6.0d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "1FC6AEFF048EBA9C"
-			tasks: [
-				{
-					id: "3F88FC67774149D8"
-					type: "item"
-					item: "sophisticatedbackpacks:restock_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "14763550AA7A4A28"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "3F88FC67774149D8"
+				type: "item"
+				item: "sophisticatedbackpacks:restock_upgrade"
+			}]
+			rewards: [{
+				id: "14763550AA7A4A28"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 7.5d
-			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤.[--Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["1FC6AEFF048EBA9C"]
 			id: "043E26B2D749BB66"
-			tasks: [
-				{
-					id: "4C62FD4493EFEF16"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_restock_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "5481DA5BB192313F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "4C62FD4493EFEF16"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_restock_upgrade"
+			}]
+			rewards: [{
+				id: "5481DA5BB192313F"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 6.5d
-			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽.[--Regular upgrade can only filter by item and has 9 filter slots.--]"]
+			description: ["定期升级只能按物品过滤,并有 9 个过滤插槽."]
 			dependencies: ["27442D51C7848385"]
 			id: "0F5850ECC2385A6D"
-			tasks: [
-				{
-					id: "74E09EEF7F9A5E12"
-					type: "item"
-					item: "sophisticatedbackpacks:deposit_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "343D9B2DC726AF8D"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "74E09EEF7F9A5E12"
+				type: "item"
+				item: "sophisticatedbackpacks:deposit_upgrade"
+			}]
+			rewards: [{
+				id: "343D9B2DC726AF8D"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: 8.5d
-			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤.[--Advanced one has more filtering options - match by item/mod/tags, match nbt, match damage and 16 slots that can be used to filter.--]"]
+			description: ["高级的有更多的过滤选项 - 按物品/mod/lag进行匹配,匹配nBt,匹配伤害和16个插槽可用于过滤."]
 			dependencies: ["0F5850ECC2385A6D"]
 			id: "69E09AC904A70CA8"
-			tasks: [
-				{
-					id: "70C3AA94B37BB932"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_deposit_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "14CEDCED73266DB5"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "70C3AA94B37BB932"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_deposit_upgrade"
+			}]
+			rewards: [{
+				id: "14CEDCED73266DB5"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -5.5d
-			description: ["在其过滤器中最多可以定义 6 组以重新填充.[--Up to 6 stacks can be defined in its filter to refill.--]"]
+			description: ["在其过滤器中最多可以定义 6 组以重新填充."]
 			dependencies: ["27442D51C7848385"]
 			id: "496AB4B2F1DB6DEB"
-			tasks: [
-				{
-					id: "11FF210DB9D56655"
-					type: "item"
-					item: "sophisticatedbackpacks:refill_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "33E1B3239C70C7C2"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "11FF210DB9D56655"
+				type: "item"
+				item: "sophisticatedbackpacks:refill_upgrade"
+			}]
+			rewards: [{
+				id: "33E1B3239C70C7C2"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -1.5d
 			description: [
-				"仅在一个等级允许它,所以背包里没有背包.[--Only allows this on one level so no backpack in backpack in backpack.--]"
+				"仅在一个等级允许它,所以背包里没有背包."
 				""
-				"这些背包中的升级也可以用,因此例如,你可以在其中一个整合器中直接拾取物品.[--Upgrades in these backpacks will also work so you can have for example pickup upgrade in one of these picking up items directly into it.--]"
+				"这些背包中的升级也可以用,因此例如,你可以在其中一个整合器中直接拾取物品."
 				""
-				"主背包的升级可以访问子背包的库存,并且有一个选项可以决定它们是先在子背包中使用库存还是先在主背包中使用库存.[--Upgrades in the main backpack can access inventory of the subbackpacks and there's an option that defines whether they use inventory in subbackpacks first or the main one first.--]"
+				"主背包的升级可以访问子背包的库存,并且有一个选项可以决定它们是先在子背包中使用库存还是先在主背包中使用库存."
 				""
-				"子背包中的过滤升级可用于限制插入/提取的物品.[--Filter upgrade in subbackpacks can be used to limit what items get inserted / pulled from them.--]"
+				"子背包中的过滤升级可用于限制插入/提取的物品."
 				""
-				"背包中的背包可以在鼠标上方用打开的背包按键打开.[--Backpacks in backpack can be open using open backpack keybind when cursor is over them.--]"
+				"背包中的背包可以在鼠标上方用打开的背包按键打开."
 			]
 			dependencies: ["27442D51C7848385"]
 			id: "0A56663F2AFCD35A"
-			tasks: [
-				{
-					id: "0B780D29BB3F846C"
-					type: "item"
-					item: "sophisticatedbackpacks:inception_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "4E2464F32CA8A1B0"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0B780D29BB3F846C"
+				type: "item"
+				item: "sophisticatedbackpacks:inception_upgrade"
+			}]
+			rewards: [{
+				id: "4E2464F32CA8A1B0"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: -2.0d
-			description: ["使背包坚不可摧.[--Makes backpack indestructible.--]"]
+			description: ["使背包坚不可摧."]
 			dependencies: ["27442D51C7848385"]
 			id: "6138B86CEB3E6B94"
-			tasks: [
-				{
-					id: "2325B4A0BB278018"
-					type: "item"
-					item: "sophisticatedbackpacks:everlasting_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "7C54711305535062"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "2325B4A0BB278018"
+				type: "item"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+			}]
+			rewards: [{
+				id: "7C54711305535062"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: -0.5d
-			description: ["定期升级的工作原理和熔炉一样.[--Regular upgrade works just as furnace would.--]"]
+			description: ["定期升级的工作原理和熔炉一样."]
 			dependencies: ["27442D51C7848385"]
 			id: "7DC7EBC7138A6C22"
-			tasks: [
-				{
-					id: "5B9E311764E9A62D"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:smelting_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "5B9E311764E9A62D"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "015CF35C8A8F2FE9"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "015CF35C8A8F2FE9"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["自动熔炼将自动抽取燃料、熔炼物品并将自动将熔炼物品推回背包中.[--Auto smelting one will automatically pull fuel, items to smelt and will automatically push smelted items back into backpack.--]"]
+			description: ["自动熔炼将自动抽取燃料、熔炼物品并将自动将熔炼物品推回背包中."]
 			dependencies: ["7DC7EBC7138A6C22"]
 			id: "6EA22A1715BFB68A"
-			tasks: [
-				{
-					id: "5D8DD18DFAC9A9EC"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:auto_smelting_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "5D8DD18DFAC9A9EC"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smelting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "080DE630CAA9E7C9"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "080DE630CAA9E7C9"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: -1.5d
 			description: [
-				"与合成 Twiaks 和鼠标 Twiaks 结合.[--Integration with crafting tweaks and mouse tweaks.--]"
+				"与合成 Twiaks 和鼠标 Twiaks 结合."
 				""
-				"性能增强也比原版工作台更快地制作.[--Also has performance enhancements that make it faster in crafting than vanilla workbench.--]"
+				"性能增强也比原版工作台更快地制作."
 			]
 			dependencies: ["27442D51C7848385"]
 			id: "3D1D2FE449747BE0"
-			tasks: [
-				{
-					id: "686BB5B44BAE3669"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:crafting_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "686BB5B44BAE3669"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:crafting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "043AF0674B632FCF"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "043AF0674B632FCF"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: -2.0d
 			description: [
-				"也记得使用的最后一种配方.[--Also remembers the last recipe used.--]"
+				"也记得使用的最后一种配方."
 				""
-				"如果插入同一个方块,它将预选该配方.[--If the same block is inserted it will preselect that recipe.--]"
+				"如果插入同一个方块,它将预选该配方."
 				""
-				"所以切石多组同一个方块是更快的.[--So stonecutting multiple stacks of the same block is much faster.--]"
+				"所以切石多组同一个方块是更快的."
 			]
 			dependencies: ["27442D51C7848385"]
 			id: "7230238D6F926570"
-			tasks: [
-				{
-					id: "31CFAADE7787A112"
-					type: "item"
-					item: "sophisticatedbackpacks:stonecutter_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "205BEFBB481628DF"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "31CFAADE7787A112"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+			rewards: [{
+				id: "205BEFBB481628DF"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 3.0d
 			description: [
-				"将最大堆叠大小限制乘以值。[--Multiplies the max stack size limit by a value.--]"
+				"将最大堆叠大小限制乘以值。"
 				""
-				"1级 - 2x.[--Tier 1 - 2x.--]"
+				"1级 - 2x."
 			]
 			dependencies: ["27442D51C7848385"]
 			id: "6010C79321EB4D52"
-			tasks: [
-				{
-					id: "77177BCDA6E5578B"
-					type: "item"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_1"
-				}
-			]
-			rewards: [
-				{
-					id: "6E04F191AC422987"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "77177BCDA6E5578B"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [{
+				id: "6E04F191AC422987"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 4.5d
-			description: ["2级 - 4x.[--Tier 2 - 4x.--]"]
+			description: ["2级 - 4x."]
 			dependencies: ["6010C79321EB4D52"]
 			id: "2BDE424BFF98B431"
-			tasks: [
-				{
-					id: "3182992472745B10"
-					type: "item"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_2"
-				}
-			]
-			rewards: [
-				{
-					id: "6D18AF4586F8EA43"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "3182992472745B10"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+			rewards: [{
+				id: "6D18AF4586F8EA43"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 6.0d
-			description: ["3级 - 8x.[--Tier 3 - 8x.--]"]
+			description: ["3级 - 8x."]
 			dependencies: ["2BDE424BFF98B431"]
 			id: "5A0E2C8248383601"
-			tasks: [
-				{
-					id: "29AF8457A7F54AAF"
-					type: "item"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_3"
-				}
-			]
-			rewards: [
-				{
-					id: "1B14EC6C533F2E1F"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "29AF8457A7F54AAF"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+			rewards: [{
+				id: "1B14EC6C533F2E1F"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["4级 - 16x.[--Tier 4 - 16x.--]"]
+			description: ["4级 - 16x."]
 			dependencies: ["5A0E2C8248383601"]
 			id: "4B1CADFC7A3BF0AE"
-			tasks: [
-				{
-					id: "467A98B697265CE2"
-					type: "item"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
-				}
-			]
-			rewards: [
-				{
-					id: "2F6AC9BAAB97A99C"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "467A98B697265CE2"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+			rewards: [{
+				id: "2F6AC9BAAB97A99C"
+				type: "random"
+			}]
 		}
 		{
 			x: -4.5d
 			y: 1.0d
-			description: ["允许在升级选项卡中放磁盘.[--Allows to play music discs in upgrade tab.--]"]
+			description: ["允许在升级选项卡中放磁盘."]
 			dependencies: ["27442D51C7848385"]
 			id: "440FB20FE2BE702C"
-			tasks: [
-				{
-					id: "5477095DCF1C1E11"
-					type: "item"
-					item: "sophisticatedbackpacks:jukebox_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "6D70ED2FB6CA4A7D"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "5477095DCF1C1E11"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+			rewards: [{
+				id: "6D70ED2FB6CA4A7D"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 2.5d
-			description: ["当单击方块或实体时,普通升级将自动将右击工具从背包中切换到玩家手中.[--Regular upgrade will automatically swap right tool into player's hand from backpack when block or entity is clicked .--]"]
+			description: ["当单击方块或实体时,普通升级将自动将右击工具从背包中切换到玩家手中."]
 			dependencies: ["27442D51C7848385"]
 			id: "4924FDFE3A06F38B"
-			tasks: [
-				{
-					id: "6F448833CF6B3986"
-					type: "item"
-					item: "sophisticatedbackpacks:tool_swapper_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "02E16B3060ABBF23"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "6F448833CF6B3986"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "02E16B3060ABBF23"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
-			description: ["高级的有过滤器,可以过滤被切换的东西.[--Advanced one has filters which allow to filter what gets swapped.--]"]
+			description: ["高级的有过滤器,可以过滤被切换的东西."]
 			dependencies: ["4924FDFE3A06F38B"]
 			id: "5AC484ACA08DB023"
-			tasks: [
-				{
-					id: "27ED7C38A85C41DC"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "440C7A7A73D6DD1F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "27ED7C38A85C41DC"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "440C7A7A73D6DD1F"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.5d
 			y: 1.0d
-			description: ["用流体存储器代替部分背包物品栏.[--Replaces part of backpack's inventory with fluid storage.--]"]
+			description: ["用流体存储器代替部分背包物品栏."]
 			dependencies: ["27442D51C7848385"]
 			id: "337BDECC78DEE734"
-			tasks: [
-				{
-					id: "28D75CC31124AF1C"
-					type: "item"
-					item: "sophisticatedbackpacks:tank_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "4AB0A44261F46495"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "28D75CC31124AF1C"
+				type: "item"
+				item: "sophisticatedbackpacks:tank_upgrade"
+			}]
+			rewards: [{
+				id: "4AB0A44261F46495"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["在储罐升级和相邻方块之间泵流体.[--Pumps fluids between Tank upgrade and adjacent blocks.--]"]
+			description: ["在储罐升级和相邻方块之间泵流体."]
 			dependencies: ["27442D51C7848385"]
 			id: "6593FBB2CF040863"
-			tasks: [
-				{
-					id: "075317D39EB15203"
-					type: "item"
-					item: "sophisticatedbackpacks:pump_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "05DAB6D16E5B834A"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "075317D39EB15203"
+				type: "item"
+				item: "sophisticatedbackpacks:pump_upgrade"
+			}]
+			rewards: [{
+				id: "05DAB6D16E5B834A"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: 9.0d
-			description: ["用储能代替部分背包空间.[--Replaces part of backpack's inventory with energy storage.--]"]
+			description: ["用储能代替部分背包空间."]
 			dependencies: ["27442D51C7848385"]
 			id: "4FEC00A9C44489CF"
-			tasks: [
-				{
-					id: "2FC5993D28D526DE"
-					type: "item"
-					item: "sophisticatedbackpacks:battery_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "11C2E444AA43E15B"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "2FC5993D28D526DE"
+				type: "item"
+				item: "sophisticatedbackpacks:battery_upgrade"
+			}]
+			rewards: [{
+				id: "11C2E444AA43E15B"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -1.5d
 			description: [
-				"在储罐升级和相邻方块之间泵流体.[--Pumps fluids between Tank upgrade and adjacent blocks.--]"
-				"在世界上用手持流体容器和流体块工作.[--Works with fluid containers in hand and fluid blocks in world.--]"
-				"允许过滤被泵的流体.[--allow to filter which fluids are pumped.--]"
+				"在储罐升级和相邻方块之间泵流体."
+				"在世界上用手持流体容器和流体块工作."
+				"允许过滤被泵的流体."
 			]
 			dependencies: ["6593FBB2CF040863"]
 			id: "2DC67FADD37722AD"
-			tasks: [
-				{
-					id: "34D878A7F8184781"
-					type: "item"
-					item: "sophisticatedbackpacks:advanced_pump_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "5AE95BD1E6CDE2B3"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "34D878A7F8184781"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+			rewards: [{
+				id: "5AE95BD1E6CDE2B3"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["在储罐升级和玩家之间使用泵经验.[--Pumps experience between Tank upgrade and player.--]"]
+			description: ["在储罐升级和玩家之间使用泵经验."]
 			dependencies: ["2DC67FADD37722AD"]
 			id: "05667EA6D3F65BD1"
-			tasks: [
-				{
-					id: "5D679D69394A2283"
-					type: "item"
-					item: "sophisticatedbackpacks:xp_pump_upgrade"
-				}
-			]
-			rewards: [
-				{
-					id: "003FF2504D266946"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5D679D69394A2283"
+				type: "item"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+			}]
+			rewards: [{
+				id: "003FF2504D266946"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 3.5d
-			description: ["在升级选项卡中抽食物.[--Smoking food in an upgrade tab.--]"]
+			description: ["在升级选项卡中抽食物."]
 			dependencies: ["27442D51C7848385"]
 			id: "4B84F77DD98859BF"
-			tasks: [
-				{
-					id: "59812C75E381A45A"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:smoking_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "59812C75E381A45A"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "12A80949765931F1"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "12A80949765931F1"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 5.0d
 			description: [
-				"在深园标签中抽食物[--Smoking food in an upgarde tab--]"
-				"自动抽取/抽取物品.[--Automatically pulls/pushes items.--]"
+				"在深园标签中抽食物"
+				"自动抽取/抽取物品."
 			]
 			dependencies: ["4B84F77DD98859BF"]
 			id: "30EBB2AD6DA910ED"
-			tasks: [
-				{
-					id: "5916288748DFB042"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:auto_smoking_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "5916288748DFB042"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_smoking_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "0CB4DACCBF41A65D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "0CB4DACCBF41A65D"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 1.0d
-			description: ["在升级选项卡中充能矿石和金属物品.[--Blasting ores and metal stuff in an upgrade tab.--]"]
+			description: ["在升级选项卡中充能矿石和金属物品."]
 			dependencies: ["27442D51C7848385"]
 			id: "1039943B139AA801"
-			tasks: [
-				{
-					id: "352CB044DD31FE8D"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:blasting_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "352CB044DD31FE8D"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3FACE41DBF391667"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "3FACE41DBF391667"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: 2.5d
 			description: [
-				"在升级选项卡中充能矿石和金属物品.[--Blasting ores and metal stuff in an upgrade tab.--]"
-				"自动自动输出/输出物品.[--Automatically auto pulls/pushes items.--]"
+				"在升级选项卡中充能矿石和金属物品."
+				"自动自动输出/输出物品."
 			]
 			dependencies: ["1039943B139AA801"]
 			id: "6034D6F82EB3B314"
-			tasks: [
-				{
-					id: "765FA58C2E668BBD"
-					type: "item"
-					item: {
-						id: "sophisticatedbackpacks:auto_blasting_upgrade"
-						Count: 1b
-						ForgeCaps: {
-							"polymorph:stack_recipe_data": { }
-						}
+			tasks: [{
+				id: "765FA58C2E668BBD"
+				type: "item"
+				item: {
+					id: "sophisticatedbackpacks:auto_blasting_upgrade"
+					Count: 1b
+					ForgeCaps: {
+						"polymorph:stack_recipe_data": { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "191F35276C37AE16"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "191F35276C37AE16"
+				type: "random"
+			}]
 		}
 	]
 }

@@ -3,7 +3,7 @@
 	group: "5D61CD9450FCE349"
 	order_index: 1
 	filename: "projecte"
-	title: "工程[--ProjectE--]"
+	title: "工程"
 	icon: {
 		id: "projecte:philosophers_stone"
 		Count: 1b
@@ -21,22 +21,18 @@
 				"349EAE82D9B38037"
 			]
 			id: "1F458F42F0B3C8E2"
-			tasks: [
-				{
-					id: "6C07264DC6CA78DD"
-					type: "item"
-					item: "projecte:high_covalence_dust"
-					count: 40L
-				}
-			]
-			rewards: [
-				{
-					id: "712B762079519FF6"
-					type: "item"
-					item: "projecte:high_covalence_dust"
-					count: 20
-				}
-			]
+			tasks: [{
+				id: "6C07264DC6CA78DD"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "712B762079519FF6"
+				type: "item"
+				item: "projecte:high_covalence_dust"
+				count: 20
+			}]
 		}
 		{
 			x: 6.5d
@@ -47,22 +43,18 @@
 				"34E8E2E171CA2688"
 			]
 			id: "41316208B523C9B9"
-			tasks: [
-				{
-					id: "4A240C7B3C2309AD"
-					type: "item"
-					item: "projecte:medium_covalence_dust"
-					count: 40L
-				}
-			]
-			rewards: [
-				{
-					id: "708E68E8E319F137"
-					type: "item"
-					item: "projecte:medium_covalence_dust"
-					count: 20
-				}
-			]
+			tasks: [{
+				id: "4A240C7B3C2309AD"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "708E68E8E319F137"
+				type: "item"
+				item: "projecte:medium_covalence_dust"
+				count: 20
+			}]
 		}
 		{
 			x: 7.5d
@@ -70,22 +62,18 @@
 			shape: "octagon"
 			dependencies: ["033068689E56D3AD"]
 			id: "57A871B1FCC4DFF7"
-			tasks: [
-				{
-					id: "40CE0CF463AB46FB"
-					type: "item"
-					item: "projecte:low_covalence_dust"
-					count: 40L
-				}
-			]
-			rewards: [
-				{
-					id: "0E5F073604FDB2F0"
-					type: "item"
-					item: "projecte:low_covalence_dust"
-					count: 20
-				}
-			]
+			tasks: [{
+				id: "40CE0CF463AB46FB"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+				count: 40L
+			}]
+			rewards: [{
+				id: "0E5F073604FDB2F0"
+				type: "item"
+				item: "projecte:low_covalence_dust"
+				count: 20
+			}]
 		}
 		{
 			x: 3.5d
@@ -98,20 +86,15 @@
 				"57A871B1FCC4DFF7"
 			]
 			id: "0122C159CBF7BFC2"
-			tasks: [
-				{
-					id: "5074B2EE7F7A7052"
-					type: "item"
-					item: "projecte:alchemical_chest"
-				}
-			]
-			rewards: [
-				{
-					id: "48421409E4AE9F9A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5074B2EE7F7A7052"
+				type: "item"
+				item: "projecte:alchemical_chest"
+			}]
+			rewards: [{
+				id: "48421409E4AE9F9A"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -123,20 +106,15 @@
 				"06975DA1C012F61B"
 			]
 			id: "3A3DEACB4D62B227"
-			tasks: [
-				{
-					id: "1A4439D30AFFF301"
-					type: "item"
-					item: "projecte:condenser_mk1"
-				}
-			]
-			rewards: [
-				{
-					id: "4837FD23BF53C3D0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "1A4439D30AFFF301"
+				type: "item"
+				item: "projecte:condenser_mk1"
+			}]
+			rewards: [{
+				id: "4837FD23BF53C3D0"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -149,20 +127,15 @@
 				"5C396355C35FF855"
 			]
 			id: "521EE6EF94574CDF"
-			tasks: [
-				{
-					id: "21D77FD4DA5E6481"
-					type: "item"
-					item: "projecte:condenser_mk2"
-				}
-			]
-			rewards: [
-				{
-					id: "6BBBD860B80BE62A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "21D77FD4DA5E6481"
+				type: "item"
+				item: "projecte:condenser_mk2"
+			}]
+			rewards: [{
+				id: "6BBBD860B80BE62A"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
@@ -171,20 +144,15 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "471AEC063F55E3DF"
-			tasks: [
-				{
-					id: "484C9EA6BFD23FA2"
-					type: "item"
-					item: "projecte:dm_chestplate"
-				}
-			]
-			rewards: [
-				{
-					id: "6174B9215B77BB76"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "484C9EA6BFD23FA2"
+				type: "item"
+				item: "projecte:dm_chestplate"
+			}]
+			rewards: [{
+				id: "6174B9215B77BB76"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
@@ -193,20 +161,15 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "4653FBBE1330777D"
-			tasks: [
-				{
-					id: "3B93A77CAE9C2EE9"
-					type: "item"
-					item: "projecte:dm_helmet"
-				}
-			]
-			rewards: [
-				{
-					id: "7474AFC7F400D50F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "3B93A77CAE9C2EE9"
+				type: "item"
+				item: "projecte:dm_helmet"
+			}]
+			rewards: [{
+				id: "7474AFC7F400D50F"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
@@ -215,20 +178,15 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "09689C9C86E91E71"
-			tasks: [
-				{
-					id: "53B85E2AE2C4A254"
-					type: "item"
-					item: "projecte:dm_leggings"
-				}
-			]
-			rewards: [
-				{
-					id: "6421D4BFB74523D9"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "53B85E2AE2C4A254"
+				type: "item"
+				item: "projecte:dm_leggings"
+			}]
+			rewards: [{
+				id: "6421D4BFB74523D9"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.5d
@@ -237,20 +195,15 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "7E81B46189FD622E"
-			tasks: [
-				{
-					id: "2C5499A8D3B7F047"
-					type: "item"
-					item: "projecte:dm_boots"
-				}
-			]
-			rewards: [
-				{
-					id: "3678DA73359A8EB4"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "2C5499A8D3B7F047"
+				type: "item"
+				item: "projecte:dm_boots"
+			}]
+			rewards: [{
+				id: "3678DA73359A8EB4"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -262,20 +215,15 @@
 				"4653FBBE1330777D"
 			]
 			id: "1ED8F9789A833D7D"
-			tasks: [
-				{
-					id: "28E4E32AEB4C7460"
-					type: "item"
-					item: "projecte:rm_helmet"
-				}
-			]
-			rewards: [
-				{
-					id: "135964BDDAADF1AB"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "28E4E32AEB4C7460"
+				type: "item"
+				item: "projecte:rm_helmet"
+			}]
+			rewards: [{
+				id: "135964BDDAADF1AB"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -287,20 +235,15 @@
 				"471AEC063F55E3DF"
 			]
 			id: "3A08DD713677857B"
-			tasks: [
-				{
-					id: "46282019B030C440"
-					type: "item"
-					item: "projecte:rm_chestplate"
-				}
-			]
-			rewards: [
-				{
-					id: "07A13E1A3DC503D2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "46282019B030C440"
+				type: "item"
+				item: "projecte:rm_chestplate"
+			}]
+			rewards: [{
+				id: "07A13E1A3DC503D2"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -312,20 +255,15 @@
 				"09689C9C86E91E71"
 			]
 			id: "183290B094410184"
-			tasks: [
-				{
-					id: "6A7FBBCA894D433A"
-					type: "item"
-					item: "projecte:rm_leggings"
-				}
-			]
-			rewards: [
-				{
-					id: "43A9AB116A0F1E93"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6A7FBBCA894D433A"
+				type: "item"
+				item: "projecte:rm_leggings"
+			}]
+			rewards: [{
+				id: "43A9AB116A0F1E93"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -337,20 +275,15 @@
 				"7E81B46189FD622E"
 			]
 			id: "672279E7BE18BE5D"
-			tasks: [
-				{
-					id: "50FB99430DA7602C"
-					type: "item"
-					item: "projecte:rm_boots"
-				}
-			]
-			rewards: [
-				{
-					id: "1B144E3499CF5140"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "50FB99430DA7602C"
+				type: "item"
+				item: "projecte:rm_boots"
+			}]
+			rewards: [{
+				id: "1B144E3499CF5140"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -362,20 +295,15 @@
 				"3D98991B85B7179A"
 			]
 			id: "4FCF77DFB0051FBD"
-			tasks: [
-				{
-					id: "6B1027082172E4F5"
-					type: "item"
-					item: "projecte:gem_boots"
-				}
-			]
-			rewards: [
-				{
-					id: "7164628022E118FD"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6B1027082172E4F5"
+				type: "item"
+				item: "projecte:gem_boots"
+			}]
+			rewards: [{
+				id: "7164628022E118FD"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -387,20 +315,15 @@
 				"3D98991B85B7179A"
 			]
 			id: "2AA5DB114086E0F8"
-			tasks: [
-				{
-					id: "0EEB46B7F90420B3"
-					type: "item"
-					item: "projecte:gem_helmet"
-				}
-			]
-			rewards: [
-				{
-					id: "26B28BD04C13B030"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "0EEB46B7F90420B3"
+				type: "item"
+				item: "projecte:gem_helmet"
+			}]
+			rewards: [{
+				id: "26B28BD04C13B030"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -412,20 +335,15 @@
 				"3D98991B85B7179A"
 			]
 			id: "46383745DBCA8D7B"
-			tasks: [
-				{
-					id: "417C237798A1AC7D"
-					type: "item"
-					item: "projecte:gem_chestplate"
-				}
-			]
-			rewards: [
-				{
-					id: "33A6ADDEEE5B5C8F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "417C237798A1AC7D"
+				type: "item"
+				item: "projecte:gem_chestplate"
+			}]
+			rewards: [{
+				id: "33A6ADDEEE5B5C8F"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
@@ -437,20 +355,15 @@
 				"3D98991B85B7179A"
 			]
 			id: "04B4649D5843706C"
-			tasks: [
-				{
-					id: "64976DA766152A78"
-					type: "item"
-					item: "projecte:gem_leggings"
-				}
-			]
-			rewards: [
-				{
-					id: "0A60F83C44CB8F17"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "64976DA766152A78"
+				type: "item"
+				item: "projecte:gem_leggings"
+			}]
+			rewards: [{
+				id: "0A60F83C44CB8F17"
+				type: "random"
+			}]
 		}
 		{
 			x: 13.5d
@@ -459,28 +372,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "132C41CA40ABEAB0"
-			tasks: [
-				{
-					id: "1224468CC46780A9"
-					type: "item"
-					item: {
-						id: "projecte:dm_hammer"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "1224468CC46780A9"
+				type: "item"
+				item: {
+					id: "projecte:dm_hammer"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "5F61A03913124236"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "5F61A03913124236"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -489,28 +398,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "4C5493F37D8008F6"
-			tasks: [
-				{
-					id: "5B4EC6A1854D27E8"
-					type: "item"
-					item: {
-						id: "projecte:dm_shovel"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "5B4EC6A1854D27E8"
+				type: "item"
+				item: {
+					id: "projecte:dm_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "772426676764246D"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "772426676764246D"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -519,28 +424,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "78943B79CBB2288D"
-			tasks: [
-				{
-					id: "3606339E788EE21D"
-					type: "item"
-					item: {
-						id: "projecte:dm_sword"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "3606339E788EE21D"
+				type: "item"
+				item: {
+					id: "projecte:dm_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2E727C3B08655BD7"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "2E727C3B08655BD7"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -549,28 +450,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "0917913ACB381D7A"
-			tasks: [
-				{
-					id: "71E8CC983E1FE530"
-					type: "item"
-					item: {
-						id: "projecte:dm_hoe"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "71E8CC983E1FE530"
+				type: "item"
+				item: {
+					id: "projecte:dm_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "087555770939A6CA"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "087555770939A6CA"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -579,28 +476,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "0A06C6B71E96AB82"
-			tasks: [
-				{
-					id: "7C41430A3A0CEA3F"
-					type: "item"
-					item: {
-						id: "projecte:dm_axe"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "7C41430A3A0CEA3F"
+				type: "item"
+				item: {
+					id: "projecte:dm_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "4C3C24D601A1F8A5"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "4C3C24D601A1F8A5"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 12.5d
@@ -609,28 +502,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "45486FF04FFFBA81"
-			tasks: [
-				{
-					id: "0EEBBD059F01EE2A"
-					type: "item"
-					item: {
-						id: "projecte:dm_pick"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "0EEBBD059F01EE2A"
+				type: "item"
+				item: {
+					id: "projecte:dm_pick"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3B4AAEC3E9CE1A11"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "3B4AAEC3E9CE1A11"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
@@ -639,28 +528,24 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "73F536EA99EE4C51"
-			tasks: [
-				{
-					id: "21C0049E78D8A9A0"
-					type: "item"
-					item: {
-						id: "projecte:dm_shears"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "21C0049E78D8A9A0"
+				type: "item"
+				item: {
+					id: "projecte:dm_shears"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "29702FA762AD9EE4"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "29702FA762AD9EE4"
+				type: "item"
+				item: "minecraft:diamond"
+				count: 4
+			}]
 		}
 		{
 			x: 11.5d
@@ -673,28 +558,24 @@
 				"0917913ACB381D7A"
 			]
 			id: "7618CA01ACDEEE86"
-			tasks: [
-				{
-					id: "31A5629816E3B61D"
-					type: "item"
-					item: {
-						id: "projecte:rm_hoe"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "31A5629816E3B61D"
+				type: "item"
+				item: {
+					id: "projecte:rm_hoe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "68296C3C713C2A6A"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "68296C3C713C2A6A"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -709,28 +590,24 @@
 				"7618CA01ACDEEE86"
 			]
 			id: "4FD57EA26D981887"
-			tasks: [
-				{
-					id: "50D9D57F20E780E2"
-					type: "item"
-					item: {
-						id: "projecte:rm_katar"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "50D9D57F20E780E2"
+				type: "item"
+				item: {
+					id: "projecte:rm_katar"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "41E3F3AEFDFB7592"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "41E3F3AEFDFB7592"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -743,28 +620,24 @@
 				"73F536EA99EE4C51"
 			]
 			id: "3D9C7879BF33A41A"
-			tasks: [
-				{
-					id: "1A6C0291253FBA6C"
-					type: "item"
-					item: {
-						id: "projecte:rm_shears"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "1A6C0291253FBA6C"
+				type: "item"
+				item: {
+					id: "projecte:rm_shears"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7AB5CC5377BA4A3E"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "7AB5CC5377BA4A3E"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -777,28 +650,24 @@
 				"4C5493F37D8008F6"
 			]
 			id: "0663B72599D17752"
-			tasks: [
-				{
-					id: "12C9A8E4F3C49B62"
-					type: "item"
-					item: {
-						id: "projecte:rm_shovel"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "12C9A8E4F3C49B62"
+				type: "item"
+				item: {
+					id: "projecte:rm_shovel"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2D7716FFCB5362B0"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "2D7716FFCB5362B0"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -811,28 +680,24 @@
 				"78943B79CBB2288D"
 			]
 			id: "505E15B106299EDC"
-			tasks: [
-				{
-					id: "40A302EAAEFDC2C5"
-					type: "item"
-					item: {
-						id: "projecte:rm_sword"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "40A302EAAEFDC2C5"
+				type: "item"
+				item: {
+					id: "projecte:rm_sword"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "0FD1528D45A3EF84"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "0FD1528D45A3EF84"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 10.5d
@@ -845,28 +710,24 @@
 				"132C41CA40ABEAB0"
 			]
 			id: "1DACCD5A94AC8C6D"
-			tasks: [
-				{
-					id: "5C3DAABAE24725C7"
-					type: "item"
-					item: {
-						id: "projecte:rm_hammer"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "5C3DAABAE24725C7"
+				type: "item"
+				item: {
+					id: "projecte:rm_hammer"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "133A8A36DC8633C5"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "133A8A36DC8633C5"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -879,28 +740,24 @@
 				"45486FF04FFFBA81"
 			]
 			id: "76958398D3B7CB8F"
-			tasks: [
-				{
-					id: "5259BE9EA5F2DD48"
-					type: "item"
-					item: {
-						id: "projecte:rm_pick"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "5259BE9EA5F2DD48"
+				type: "item"
+				item: {
+					id: "projecte:rm_pick"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "368038EF4B3E5E85"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "368038EF4B3E5E85"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 12.5d
@@ -914,28 +771,24 @@
 				"0663B72599D17752"
 			]
 			id: "76CBF5078CE8A0CE"
-			tasks: [
-				{
-					id: "72DF1BFBA6808FFB"
-					type: "item"
-					item: {
-						id: "projecte:rm_morning_star"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "72DF1BFBA6808FFB"
+				type: "item"
+				item: {
+					id: "projecte:rm_morning_star"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7C7CD6D5477BD7F4"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "7C7CD6D5477BD7F4"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 11.5d
@@ -948,28 +801,24 @@
 				"0A06C6B71E96AB82"
 			]
 			id: "4DE93BDED64291CF"
-			tasks: [
-				{
-					id: "08D1286CB8345F90"
-					type: "item"
-					item: {
-						id: "projecte:rm_axe"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "08D1286CB8345F90"
+				type: "item"
+				item: {
+					id: "projecte:rm_axe"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "5FB9E02B887512BA"
-					type: "item"
-					item: "projecte:dark_matter"
-					count: 2
-				}
-			]
+			}]
+			rewards: [{
+				id: "5FB9E02B887512BA"
+				type: "item"
+				item: "projecte:dark_matter"
+				count: 2
+			}]
 		}
 		{
 			x: 3.5d
@@ -980,20 +829,16 @@
 				"4493AF9FB8C62AD2"
 			]
 			id: "4714CC37F8CFB010"
-			tasks: [
-				{
-					id: "6DCA567014AEC707"
-					type: "item"
-					item: "projecte:collector_mk1"
-				}
-			]
-			rewards: [
-				{
-					id: "7E4FC2F793174047"
-					type: "item"
-					item: "powah:niotic_crystal_block"
-				}
-			]
+			tasks: [{
+				id: "6DCA567014AEC707"
+				type: "item"
+				item: "projecte:collector_mk1"
+			}]
+			rewards: [{
+				id: "7E4FC2F793174047"
+				type: "item"
+				item: "powah:niotic_crystal_block"
+			}]
 		}
 		{
 			x: 3.5d
@@ -1004,20 +849,16 @@
 				"06975DA1C012F61B"
 			]
 			id: "4F61A9CC2496E878"
-			tasks: [
-				{
-					id: "783BA9CEE810FF96"
-					type: "item"
-					item: "projecte:relay_mk1"
-				}
-			]
-			rewards: [
-				{
-					id: "7F5F49255BC3518F"
-					type: "item"
-					item: "projecte:alchemical_coal_block"
-				}
-			]
+			tasks: [{
+				id: "783BA9CEE810FF96"
+				type: "item"
+				item: "projecte:relay_mk1"
+			}]
+			rewards: [{
+				id: "7F5F49255BC3518F"
+				type: "item"
+				item: "projecte:alchemical_coal_block"
+			}]
 		}
 		{
 			x: 2.5d
@@ -1025,20 +866,16 @@
 			shape: "square"
 			dependencies: ["4714CC37F8CFB010"]
 			id: "7D29E9D4A586F23C"
-			tasks: [
-				{
-					id: "700FCF385B1676C1"
-					type: "item"
-					item: "projecte:collector_mk2"
-				}
-			]
-			rewards: [
-				{
-					id: "0FD51FB3F6FAF0C2"
-					type: "item"
-					item: "projecte:dark_matter"
-				}
-			]
+			tasks: [{
+				id: "700FCF385B1676C1"
+				type: "item"
+				item: "projecte:collector_mk2"
+			}]
+			rewards: [{
+				id: "0FD51FB3F6FAF0C2"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
 		}
 		{
 			x: 1.5d
@@ -1046,20 +883,16 @@
 			shape: "square"
 			dependencies: ["7D29E9D4A586F23C"]
 			id: "044BACD338742042"
-			tasks: [
-				{
-					id: "7B6F6EAA86993BDD"
-					type: "item"
-					item: "projecte:collector_mk3"
-				}
-			]
-			rewards: [
-				{
-					id: "27F3ED2E690A3271"
-					type: "item"
-					item: "projecte:red_matter"
-				}
-			]
+			tasks: [{
+				id: "7B6F6EAA86993BDD"
+				type: "item"
+				item: "projecte:collector_mk3"
+			}]
+			rewards: [{
+				id: "27F3ED2E690A3271"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 2.5d
@@ -1067,20 +900,16 @@
 			shape: "square"
 			dependencies: ["4F61A9CC2496E878"]
 			id: "359E5D3F6A5E3D91"
-			tasks: [
-				{
-					id: "1EED13AC8BFD0465"
-					type: "item"
-					item: "projecte:relay_mk2"
-				}
-			]
-			rewards: [
-				{
-					id: "07D93FE0D9BE6590"
-					type: "item"
-					item: "projecte:dark_matter"
-				}
-			]
+			tasks: [{
+				id: "1EED13AC8BFD0465"
+				type: "item"
+				item: "projecte:relay_mk2"
+			}]
+			rewards: [{
+				id: "07D93FE0D9BE6590"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
 		}
 		{
 			x: 1.5d
@@ -1088,20 +917,16 @@
 			shape: "square"
 			dependencies: ["359E5D3F6A5E3D91"]
 			id: "7E232202C3F9A4A1"
-			tasks: [
-				{
-					id: "43DBDDFC3D9FB26F"
-					type: "item"
-					item: "projecte:relay_mk3"
-				}
-			]
-			rewards: [
-				{
-					id: "76DED7694F8CCB0D"
-					type: "item"
-					item: "projecte:red_matter"
-				}
-			]
+			tasks: [{
+				id: "43DBDDFC3D9FB26F"
+				type: "item"
+				item: "projecte:relay_mk3"
+			}]
+			rewards: [{
+				id: "76DED7694F8CCB0D"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 5.5d
@@ -1113,20 +938,15 @@
 				"3BE9F90870F5E284"
 			]
 			id: "33452316D6D0BF0D"
-			tasks: [
-				{
-					id: "56A4F81300FC99F5"
-					type: "item"
-					item: "projecte:dm_pedestal"
-				}
-			]
-			rewards: [
-				{
-					id: "6CC1689D0E69E803"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "56A4F81300FC99F5"
+				type: "item"
+				item: "projecte:dm_pedestal"
+			}]
+			rewards: [{
+				id: "6CC1689D0E69E803"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1135,20 +955,15 @@
 			hide_dependency_lines: true
 			dependencies: ["5C396355C35FF855"]
 			id: "01F1EA68FB74261C"
-			tasks: [
-				{
-					id: "4E46684E43A40D59"
-					type: "item"
-					item: "projecte:dm_furnace"
-				}
-			]
-			rewards: [
-				{
-					id: "2279B425559CC305"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "4E46684E43A40D59"
+				type: "item"
+				item: "projecte:dm_furnace"
+			}]
+			rewards: [{
+				id: "2279B425559CC305"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -1160,20 +975,15 @@
 				"01F1EA68FB74261C"
 			]
 			id: "231AEDB4414BB952"
-			tasks: [
-				{
-					id: "2D4F9A4049610C54"
-					type: "item"
-					item: "projecte:rm_furnace"
-				}
-			]
-			rewards: [
-				{
-					id: "4B7EA0D07D098FF5"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "2D4F9A4049610C54"
+				type: "item"
+				item: "projecte:rm_furnace"
+			}]
+			rewards: [{
+				id: "4B7EA0D07D098FF5"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1186,20 +996,15 @@
 				"57AC8058D7F2828C"
 			]
 			id: "75D30A6F8071A967"
-			tasks: [
-				{
-					id: "741D59BC5B8100D4"
-					type: "item"
-					item: "projectex:knowledge_sharing_book"
-				}
-			]
-			rewards: [
-				{
-					id: "0E537E3CA7AEB4A2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "741D59BC5B8100D4"
+				type: "item"
+				item: "projectex:knowledge_sharing_book"
+			}]
+			rewards: [{
+				id: "0E537E3CA7AEB4A2"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.5d
@@ -1220,27 +1025,22 @@
 			]
 			size: 3.0d
 			id: "27A4585F0269EADA"
-			tasks: [
-				{
-					id: "05B8062D98A2B7F2"
-					type: "item"
-					item: {
-						id: "projecte:philosophers_stone"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "05B8062D98A2B7F2"
+				type: "item"
+				item: {
+					id: "projecte:philosophers_stone"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "727EE6380EDF162E"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "727EE6380EDF162E"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.0d
@@ -1261,20 +1061,15 @@
 			]
 			size: 2.0d
 			id: "023A7BF75C269823"
-			tasks: [
-				{
-					id: "6E2038EC901EB082"
-					type: "item"
-					item: "projecte:transmutation_tablet"
-				}
-			]
-			rewards: [
-				{
-					id: "37CD2D7F83BB80F2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6E2038EC901EB082"
+				type: "item"
+				item: "projecte:transmutation_tablet"
+			}]
+			rewards: [{
+				id: "37CD2D7F83BB80F2"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.0d
@@ -1292,20 +1087,15 @@
 			]
 			size: 2.0d
 			id: "3C2A39E2EA967E0D"
-			tasks: [
-				{
-					id: "22AA3D35B786AEE3"
-					type: "item"
-					item: "projecte:transmutation_table"
-				}
-			]
-			rewards: [
-				{
-					id: "6A8C82B69F3634A1"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "22AA3D35B786AEE3"
+				type: "item"
+				item: "projecte:transmutation_table"
+			}]
+			rewards: [{
+				id: "6A8C82B69F3634A1"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.5d
@@ -1317,27 +1107,22 @@
 				"3BE9F90870F5E284"
 			]
 			id: "64E8E3A62F201E2B"
-			tasks: [
-				{
-					id: "0AC54F03EEF7F767"
-					type: "item"
-					item: {
-						id: "projecte:watch_of_flowing_time"
-						Count: 1b
-						tag: { }
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "0AC54F03EEF7F767"
+				type: "item"
+				item: {
+					id: "projecte:watch_of_flowing_time"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7C7C84F359E74774"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "7C7C84F359E74774"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1352,26 +1137,21 @@
 				"19C54AB2098A2671"
 			]
 			id: "7D9A94669E20D9B9"
-			tasks: [
-				{
-					id: "410A34CDEE467A4A"
-					type: "item"
-					item: {
-						id: "projecte:repair_talisman"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "410A34CDEE467A4A"
+				type: "item"
+				item: {
+					id: "projecte:repair_talisman"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "711EA0FDE6C2B0E4"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			}]
+			rewards: [{
+				id: "711EA0FDE6C2B0E4"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.5d
@@ -1379,29 +1159,25 @@
 			hide_dependency_lines: true
 			dependencies: ["7FBAE2E7E7AC8B5C"]
 			id: "6E63EE7E28166E30"
-			tasks: [
-				{
-					id: "09C6DA0AE538B1FB"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_ein"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "09C6DA0AE538B1FB"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "1875FE1D9FBE75E2"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "6741CC749CD75E9A"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1410,29 +1186,25 @@
 			y: 4.5d
 			dependencies: ["6E63EE7E28166E30"]
 			id: "31C15A3E5691E055"
-			tasks: [
-				{
-					id: "19B1C7DB7E74E455"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_zwei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "19B1C7DB7E74E455"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "6ECE6A75D4DA735F"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "243E17ED5ACF2986"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1441,29 +1213,25 @@
 			y: 4.5d
 			dependencies: ["31C15A3E5691E055"]
 			id: "2078E29043CEACFC"
-			tasks: [
-				{
-					id: "7D08F5D96D0F44F8"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_drei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "7D08F5D96D0F44F8"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "15B89ED8EDA11422"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "54E032986B297D11"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1472,29 +1240,25 @@
 			y: 4.5d
 			dependencies: ["2078E29043CEACFC"]
 			id: "3603B66549981673"
-			tasks: [
-				{
-					id: "5E81595FE44BDEAC"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_vier"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "5E81595FE44BDEAC"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "08C11AD6C96DF72F"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "09439F0DB4A64FCB"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1503,29 +1267,25 @@
 			y: 4.5d
 			dependencies: ["3603B66549981673"]
 			id: "1E05CB8884DB6708"
-			tasks: [
-				{
-					id: "4090D932CDCAB4E6"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_sphere"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "4090D932CDCAB4E6"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "72853C8C1729DDC7"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "21BCD9581DF74151"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1534,29 +1294,25 @@
 			y: 4.5d
 			dependencies: ["1E05CB8884DB6708"]
 			id: "3D98991B85B7179A"
-			tasks: [
-				{
-					id: "3856BF433A399976"
-					type: "item"
-					item: {
-						id: "projecte:klein_star_omega"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "3856BF433A399976"
+				type: "item"
+				item: {
+					id: "projecte:klein_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3FEA411C5CCEF090"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "0FBF9117092832D9"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1565,29 +1321,25 @@
 			y: 5.5d
 			dependencies: ["3D98991B85B7179A"]
 			id: "058A4CDA66D1A1A8"
-			tasks: [
-				{
-					id: "15D9599ECF9BB9F8"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_ein"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "15D9599ECF9BB9F8"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "2E43DB6F7C8A583C"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "71D7C2139BA089C4"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1596,29 +1348,25 @@
 			y: 5.5d
 			dependencies: ["058A4CDA66D1A1A8"]
 			id: "63838D58018DF416"
-			tasks: [
-				{
-					id: "3365C437492BAA6F"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_zwei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "3365C437492BAA6F"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "3A1C22C0E51698C2"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "4FDC0C820BE8381F"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1627,29 +1375,25 @@
 			y: 5.5d
 			dependencies: ["63838D58018DF416"]
 			id: "25E97DECE92F6F2B"
-			tasks: [
-				{
-					id: "0E06BE49A5B7205B"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_drei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "0E06BE49A5B7205B"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "62F7AB05FADAF615"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "36F3BA1695CA2D89"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1658,29 +1402,25 @@
 			y: 5.5d
 			dependencies: ["25E97DECE92F6F2B"]
 			id: "750BC302F0298ADD"
-			tasks: [
-				{
-					id: "64A43FD6A13A43B6"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_vier"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "64A43FD6A13A43B6"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "7B3549C14929401E"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "685F8C5B00357BAC"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1689,29 +1429,25 @@
 			y: 5.5d
 			dependencies: ["750BC302F0298ADD"]
 			id: "72FD28EDF7F3D9BE"
-			tasks: [
-				{
-					id: "790C558AC1DF1F3F"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_sphere"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "790C558AC1DF1F3F"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "65B9B9ADD92151D1"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "1E25196129267607"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1720,29 +1456,25 @@
 			y: 5.5d
 			dependencies: ["72FD28EDF7F3D9BE"]
 			id: "6F297E484E283F2C"
-			tasks: [
-				{
-					id: "02AF7F9A79795957"
-					type: "item"
-					item: {
-						id: "projectex:magnum_star_omega"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "02AF7F9A79795957"
+				type: "item"
+				item: {
+					id: "projectex:magnum_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "5680199C30C929ED"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "129AD0A7819D5169"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1751,29 +1483,25 @@
 			y: 6.5d
 			dependencies: ["1C541B660BCF608F"]
 			id: "0479EC565E5BAEC8"
-			tasks: [
-				{
-					id: "3FEEF40A4CB45323"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_zwei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "3FEEF40A4CB45323"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_zwei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "6BBF9882298DF53A"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "2CE3E550A9CC67BB"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1782,29 +1510,25 @@
 			y: 6.5d
 			dependencies: ["6F297E484E283F2C"]
 			id: "1C541B660BCF608F"
-			tasks: [
-				{
-					id: "2F6F0BAB7580B0A0"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_ein"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "2F6F0BAB7580B0A0"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_ein"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "4F66A67D2C23A39F"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "5C6248BFFDE1C75C"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1813,29 +1537,25 @@
 			y: 6.5d
 			dependencies: ["0479EC565E5BAEC8"]
 			id: "483BEDF7E43EB48E"
-			tasks: [
-				{
-					id: "18E559B5D86D8BEB"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_drei"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "18E559B5D86D8BEB"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_drei"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "72928884E12D340E"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "1E8F783F622AEB3B"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1844,29 +1564,25 @@
 			y: 6.5d
 			dependencies: ["483BEDF7E43EB48E"]
 			id: "22A4059619D6F505"
-			tasks: [
-				{
-					id: "49307C3F91D1EFCF"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_vier"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "49307C3F91D1EFCF"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_vier"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "1E3D9C3D75C6A2CC"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "56D61638D598E6A8"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1875,29 +1591,25 @@
 			y: 6.5d
 			dependencies: ["22A4059619D6F505"]
 			id: "3DC40739DC55994E"
-			tasks: [
-				{
-					id: "503ADDCC03E478DB"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_sphere"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "503ADDCC03E478DB"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_sphere"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "277F0EC34CC8180B"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "1D52161F05D42308"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1906,29 +1618,25 @@
 			y: 6.5d
 			dependencies: ["3DC40739DC55994E"]
 			id: "341C751B5C1E6BC1"
-			tasks: [
-				{
-					id: "77696610B521E2D3"
-					type: "item"
-					item: {
-						id: "projectex:colossal_star_omega"
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
+			tasks: [{
+				id: "77696610B521E2D3"
+				type: "item"
+				item: {
+					id: "projectex:colossal_star_omega"
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
 					}
 				}
-			]
+			}]
 			rewards: [
 				{
 					id: "77E6F24D05B11135"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "0E659863C2CC98B2"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -1937,80 +1645,63 @@
 			y: 8.5d
 			dependencies: ["341C751B5C1E6BC1"]
 			id: "33B933E13D9E0326"
-			tasks: [
-				{
-					id: "6F6115FFE30199B1"
-					type: "item"
-					item: "projectex:final_star_shard"
-				}
-			]
-			rewards: [
-				{
-					id: "539C55C8B5ACFE77"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6F6115FFE30199B1"
+				type: "item"
+				item: "projectex:final_star_shard"
+			}]
+			rewards: [{
+				id: "539C55C8B5ACFE77"
+				type: "random"
+			}]
 		}
 		{
 			x: -0.5d
 			y: 6.5d
 			dependencies: ["4714CC37F8CFB010"]
 			id: "71B39B732BA2FC58"
-			tasks: [
-				{
-					id: "628A2127E5D7F861"
-					type: "item"
-					item: "projecte:alchemical_coal"
-				}
-			]
-			rewards: [
-				{
-					id: "5D99EDA579459B2E"
-					type: "item"
-					item: "projecte:alchemical_coal"
-				}
-			]
+			tasks: [{
+				id: "628A2127E5D7F861"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
+			rewards: [{
+				id: "5D99EDA579459B2E"
+				type: "item"
+				item: "projecte:alchemical_coal"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 7.5d
 			dependencies: ["71B39B732BA2FC58"]
 			id: "7FBAE2E7E7AC8B5C"
-			tasks: [
-				{
-					id: "04F45A40B4B27C2C"
-					type: "item"
-					item: "projecte:mobius_fuel"
-				}
-			]
-			rewards: [
-				{
-					id: "21198B010ECE0D30"
-					type: "item"
-					item: "projecte:mobius_fuel"
-				}
-			]
+			tasks: [{
+				id: "04F45A40B4B27C2C"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
+			rewards: [{
+				id: "21198B010ECE0D30"
+				type: "item"
+				item: "projecte:mobius_fuel"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 8.5d
 			dependencies: ["7FBAE2E7E7AC8B5C"]
 			id: "5078B9DF0A839D26"
-			tasks: [
-				{
-					id: "79CB5F6775CE566E"
-					type: "item"
-					item: "projecte:aeternalis_fuel"
-				}
-			]
-			rewards: [
-				{
-					id: "65E8D05602E3A33F"
-					type: "item"
-					item: "projecte:aeternalis_fuel"
-				}
-			]
+			tasks: [{
+				id: "79CB5F6775CE566E"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
+			rewards: [{
+				id: "65E8D05602E3A33F"
+				type: "item"
+				item: "projecte:aeternalis_fuel"
+			}]
 		}
 		{
 			x: 0.0d
@@ -2020,20 +1711,16 @@
 				"254D683B153C4582"
 			]
 			id: "5C396355C35FF855"
-			tasks: [
-				{
-					id: "20A540D012DB7CFA"
-					type: "item"
-					item: "projecte:dark_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "197EB0D3F61C393C"
-					type: "item"
-					item: "projecte:dark_matter"
-				}
-			]
+			tasks: [{
+				id: "20A540D012DB7CFA"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
+			rewards: [{
+				id: "197EB0D3F61C393C"
+				type: "item"
+				item: "projecte:dark_matter"
+			}]
 		}
 		{
 			x: 1.0d
@@ -2043,20 +1730,16 @@
 				"5C396355C35FF855"
 			]
 			id: "3BE9F90870F5E284"
-			tasks: [
-				{
-					id: "1C57ECFF96B0014A"
-					type: "item"
-					item: "projecte:red_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "7A296BE8095A556F"
-					type: "item"
-					item: "projecte:red_matter"
-				}
-			]
+			tasks: [{
+				id: "1C57ECFF96B0014A"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
+			rewards: [{
+				id: "7A296BE8095A556F"
+				type: "item"
+				item: "projecte:red_matter"
+			}]
 		}
 		{
 			x: 2.0d
@@ -2066,20 +1749,16 @@
 				"3BE9F90870F5E284"
 			]
 			id: "137559BEE7374510"
-			tasks: [
-				{
-					id: "31E32965730276D6"
-					type: "item"
-					item: "projectex:magenta_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "68814D74B4C3BED2"
-					type: "item"
-					item: "projectex:magenta_matter"
-				}
-			]
+			tasks: [{
+				id: "31E32965730276D6"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
+			rewards: [{
+				id: "68814D74B4C3BED2"
+				type: "item"
+				item: "projectex:magenta_matter"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2089,20 +1768,16 @@
 				"50179A3DB56EE756"
 			]
 			id: "408995BE4B615C3A"
-			tasks: [
-				{
-					id: "043DA4FB5D070339"
-					type: "item"
-					item: "projectex:yellow_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "4DCB6866DF18ED44"
-					type: "item"
-					item: "projectex:yellow_matter"
-				}
-			]
+			tasks: [{
+				id: "043DA4FB5D070339"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
+			rewards: [{
+				id: "4DCB6866DF18ED44"
+				type: "item"
+				item: "projectex:yellow_matter"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2112,20 +1787,16 @@
 				"4411DE0DA987DF00"
 			]
 			id: "50179A3DB56EE756"
-			tasks: [
-				{
-					id: "2628119CD8101297"
-					type: "item"
-					item: "projectex:lime_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "0CE2114ECA79DAA7"
-					type: "item"
-					item: "projectex:lime_matter"
-				}
-			]
+			tasks: [{
+				id: "2628119CD8101297"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
+			rewards: [{
+				id: "0CE2114ECA79DAA7"
+				type: "item"
+				item: "projectex:lime_matter"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2135,20 +1806,16 @@
 				"4E11D0D2FCB066EA"
 			]
 			id: "4411DE0DA987DF00"
-			tasks: [
-				{
-					id: "0DF3844CCD333548"
-					type: "item"
-					item: "projectex:green_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "555CD1DD8BA989B7"
-					type: "item"
-					item: "projectex:green_matter"
-				}
-			]
+			tasks: [{
+				id: "0DF3844CCD333548"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
+			rewards: [{
+				id: "555CD1DD8BA989B7"
+				type: "item"
+				item: "projectex:green_matter"
+			}]
 		}
 		{
 			x: 4.0d
@@ -2158,20 +1825,16 @@
 				"6EDBE60F50AB8294"
 			]
 			id: "240CF78A1192ADDB"
-			tasks: [
-				{
-					id: "362E52FE27F76B99"
-					type: "item"
-					item: "projectex:purple_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "502687F1EB82058F"
-					type: "item"
-					item: "projectex:purple_matter"
-				}
-			]
+			tasks: [{
+				id: "362E52FE27F76B99"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
+			rewards: [{
+				id: "502687F1EB82058F"
+				type: "item"
+				item: "projectex:purple_matter"
+			}]
 		}
 		{
 			x: 5.0d
@@ -2181,20 +1844,16 @@
 				"240CF78A1192ADDB"
 			]
 			id: "2BACC676236BC882"
-			tasks: [
-				{
-					id: "06D2D159198E653C"
-					type: "item"
-					item: "projectex:violet_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "276F137EBDF09734"
-					type: "item"
-					item: "projectex:violet_matter"
-				}
-			]
+			tasks: [{
+				id: "06D2D159198E653C"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
+			rewards: [{
+				id: "276F137EBDF09734"
+				type: "item"
+				item: "projectex:violet_matter"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2204,20 +1863,16 @@
 				"2BACC676236BC882"
 			]
 			id: "1BC4AAB24ACBD58B"
-			tasks: [
-				{
-					id: "73E90DF514DE3912"
-					type: "item"
-					item: "projectex:blue_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "56E9BD513171F042"
-					type: "item"
-					item: "projectex:blue_matter"
-				}
-			]
+			tasks: [{
+				id: "73E90DF514DE3912"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
+			rewards: [{
+				id: "56E9BD513171F042"
+				type: "item"
+				item: "projectex:blue_matter"
+			}]
 		}
 		{
 			x: 12.0d
@@ -2227,20 +1882,16 @@
 				"0E61D31918A9DA3B"
 			]
 			id: "73B5675603018A73"
-			tasks: [
-				{
-					id: "0884258FE7490F70"
-					type: "item"
-					item: "projectex:white_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "11BFA6C447623EDF"
-					type: "item"
-					item: "projectex:white_matter"
-				}
-			]
+			tasks: [{
+				id: "0884258FE7490F70"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
+			rewards: [{
+				id: "11BFA6C447623EDF"
+				type: "item"
+				item: "projectex:white_matter"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2250,20 +1901,16 @@
 				"1BC4AAB24ACBD58B"
 			]
 			id: "4E11D0D2FCB066EA"
-			tasks: [
-				{
-					id: "0ADD0B98E866CECE"
-					type: "item"
-					item: "projectex:cyan_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "14D306C982343E2E"
-					type: "item"
-					item: "projectex:cyan_matter"
-				}
-			]
+			tasks: [{
+				id: "0ADD0B98E866CECE"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
+			rewards: [{
+				id: "14D306C982343E2E"
+				type: "item"
+				item: "projectex:cyan_matter"
+			}]
 		}
 		{
 			x: 3.0d
@@ -2273,20 +1920,16 @@
 				"137559BEE7374510"
 			]
 			id: "6EDBE60F50AB8294"
-			tasks: [
-				{
-					id: "7CA2C3B0DC2DF33E"
-					type: "item"
-					item: "projectex:pink_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "014038C6E38B20CA"
-					type: "item"
-					item: "projectex:pink_matter"
-				}
-			]
+			tasks: [{
+				id: "7CA2C3B0DC2DF33E"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
+			rewards: [{
+				id: "014038C6E38B20CA"
+				type: "item"
+				item: "projectex:pink_matter"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2296,20 +1939,16 @@
 				"408995BE4B615C3A"
 			]
 			id: "0E61D31918A9DA3B"
-			tasks: [
-				{
-					id: "3D570585174D11D9"
-					type: "item"
-					item: "projectex:orange_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "3CCB9B8E0CBC4C0F"
-					type: "item"
-					item: "projectex:orange_matter"
-				}
-			]
+			tasks: [{
+				id: "3D570585174D11D9"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
+			rewards: [{
+				id: "3CCB9B8E0CBC4C0F"
+				type: "item"
+				item: "projectex:orange_matter"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2319,40 +1958,31 @@
 				"5078B9DF0A839D26"
 			]
 			id: "25E74A40DADB9C2C"
-			tasks: [
-				{
-					id: "27C32C5E20A79F5A"
-					type: "item"
-					item: "projectex:fading_matter"
-				}
-			]
-			rewards: [
-				{
-					id: "0BA6ACF5C30DA5C6"
-					type: "item"
-					item: "projectex:fading_matter"
-				}
-			]
+			tasks: [{
+				id: "27C32C5E20A79F5A"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
+			rewards: [{
+				id: "0BA6ACF5C30DA5C6"
+				type: "item"
+				item: "projectex:fading_matter"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 9.5d
 			dependencies: ["5078B9DF0A839D26"]
 			id: "1EC1CD19B88744D3"
-			tasks: [
-				{
-					id: "586C1913F60EC7EE"
-					type: "item"
-					item: "projectex:basic_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "2F10A8201DE72DFA"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "586C1913F60EC7EE"
+				type: "item"
+				item: "projectex:basic_collector"
+			}]
+			rewards: [{
+				id: "2F10A8201DE72DFA"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
@@ -2362,20 +1992,15 @@
 				"5C396355C35FF855"
 			]
 			id: "7624FD8D17D0DF90"
-			tasks: [
-				{
-					id: "3DD8CAE8ABD82E53"
-					type: "item"
-					item: "projectex:dark_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "7877A87E45B64337"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "3DD8CAE8ABD82E53"
+				type: "item"
+				item: "projectex:dark_collector"
+			}]
+			rewards: [{
+				id: "7877A87E45B64337"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.0d
@@ -2385,20 +2010,15 @@
 				"240CF78A1192ADDB"
 			]
 			id: "6A1287C91701DB98"
-			tasks: [
-				{
-					id: "1D17DDEE63B0CBD8"
-					type: "item"
-					item: "projectex:purple_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "7617AB4744F56771"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "1D17DDEE63B0CBD8"
+				type: "item"
+				item: "projectex:purple_collector"
+			}]
+			rewards: [{
+				id: "7617AB4744F56771"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2408,20 +2028,15 @@
 				"4411DE0DA987DF00"
 			]
 			id: "1F0A37776F7ECB1D"
-			tasks: [
-				{
-					id: "78EC00F840EBF7A4"
-					type: "item"
-					item: "projectex:green_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "56D29D1CAB5F3C9A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "78EC00F840EBF7A4"
+				type: "item"
+				item: "projectex:green_collector"
+			}]
+			rewards: [{
+				id: "56D29D1CAB5F3C9A"
+				type: "random"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2431,20 +2046,15 @@
 				"408995BE4B615C3A"
 			]
 			id: "4989AC32503770AD"
-			tasks: [
-				{
-					id: "7FCCD77E8AD071FB"
-					type: "item"
-					item: "projectex:yellow_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "16FA536582A9C7A4"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "7FCCD77E8AD071FB"
+				type: "item"
+				item: "projectex:yellow_collector"
+			}]
+			rewards: [{
+				id: "16FA536582A9C7A4"
+				type: "random"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2454,20 +2064,15 @@
 				"25E74A40DADB9C2C"
 			]
 			id: "3C919EC9C2C04129"
-			tasks: [
-				{
-					id: "65174089E24ECD49"
-					type: "item"
-					item: "projectex:fading_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "72BA46E2EEF9B01F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "65174089E24ECD49"
+				type: "item"
+				item: "projectex:fading_collector"
+			}]
+			rewards: [{
+				id: "72BA46E2EEF9B01F"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2477,20 +2082,15 @@
 				"4E11D0D2FCB066EA"
 			]
 			id: "28BC03AA23F951ED"
-			tasks: [
-				{
-					id: "78266EB250710C9A"
-					type: "item"
-					item: "projectex:cyan_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "15FCC107B4160C6B"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "78266EB250710C9A"
+				type: "item"
+				item: "projectex:cyan_collector"
+			}]
+			rewards: [{
+				id: "15FCC107B4160C6B"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.0d
@@ -2500,20 +2100,15 @@
 				"3BE9F90870F5E284"
 			]
 			id: "4DB418329B8A0CE3"
-			tasks: [
-				{
-					id: "5F1C3EA1A74EF18E"
-					type: "item"
-					item: "projectex:red_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "35912CA0948D427D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5F1C3EA1A74EF18E"
+				type: "item"
+				item: "projectex:red_collector"
+			}]
+			rewards: [{
+				id: "35912CA0948D427D"
+				type: "random"
+			}]
 		}
 		{
 			x: 14.5d
@@ -2523,20 +2118,15 @@
 				"33B933E13D9E0326"
 			]
 			id: "4514025663CB51CB"
-			tasks: [
-				{
-					id: "51919C9482C51E0F"
-					type: "item"
-					item: "projectex:final_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "3C52565E7C5B3934"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "51919C9482C51E0F"
+				type: "item"
+				item: "projectex:final_collector"
+			}]
+			rewards: [{
+				id: "3C52565E7C5B3934"
+				type: "random"
+			}]
 		}
 		{
 			x: 12.0d
@@ -2546,20 +2136,15 @@
 				"73B5675603018A73"
 			]
 			id: "2E20008DFE069A0B"
-			tasks: [
-				{
-					id: "5969897FE56D46F9"
-					type: "item"
-					item: "projectex:white_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "7C49C5FA333F7240"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5969897FE56D46F9"
+				type: "item"
+				item: "projectex:white_collector"
+			}]
+			rewards: [{
+				id: "7C49C5FA333F7240"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.0d
@@ -2569,20 +2154,15 @@
 				"137559BEE7374510"
 			]
 			id: "339B7396937D245D"
-			tasks: [
-				{
-					id: "511F24FDEAC322E2"
-					type: "item"
-					item: "projectex:magenta_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "5E7EF91092C10487"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "511F24FDEAC322E2"
+				type: "item"
+				item: "projectex:magenta_collector"
+			}]
+			rewards: [{
+				id: "5E7EF91092C10487"
+				type: "random"
+			}]
 		}
 		{
 			x: 11.0d
@@ -2592,20 +2172,15 @@
 				"0E61D31918A9DA3B"
 			]
 			id: "3D476798CEAB0E3D"
-			tasks: [
-				{
-					id: "79C7F6FEC5FCF5C7"
-					type: "item"
-					item: "projectex:orange_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "69308A54FB436833"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "79C7F6FEC5FCF5C7"
+				type: "item"
+				item: "projectex:orange_collector"
+			}]
+			rewards: [{
+				id: "69308A54FB436833"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
@@ -2615,20 +2190,15 @@
 				"6EDBE60F50AB8294"
 			]
 			id: "627E56081DB0EAC4"
-			tasks: [
-				{
-					id: "3B364C304C274D95"
-					type: "item"
-					item: "projectex:pink_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "37F3B0E18C4C2DF7"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "3B364C304C274D95"
+				type: "item"
+				item: "projectex:pink_collector"
+			}]
+			rewards: [{
+				id: "37F3B0E18C4C2DF7"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.0d
@@ -2638,20 +2208,15 @@
 				"2BACC676236BC882"
 			]
 			id: "603F49A58B466AF4"
-			tasks: [
-				{
-					id: "141695D65B95EC61"
-					type: "item"
-					item: "projectex:violet_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "7DAE3DE66993304A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "141695D65B95EC61"
+				type: "item"
+				item: "projectex:violet_collector"
+			}]
+			rewards: [{
+				id: "7DAE3DE66993304A"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.0d
@@ -2661,20 +2226,15 @@
 				"50179A3DB56EE756"
 			]
 			id: "39188F9EBC381F66"
-			tasks: [
-				{
-					id: "643C07A5A46235D8"
-					type: "item"
-					item: "projectex:lime_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "57D19087405B3FFE"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "643C07A5A46235D8"
+				type: "item"
+				item: "projectex:lime_collector"
+			}]
+			rewards: [{
+				id: "57D19087405B3FFE"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2684,20 +2244,15 @@
 				"1BC4AAB24ACBD58B"
 			]
 			id: "28F2A0CEA74053D3"
-			tasks: [
-				{
-					id: "4E637CEC045E0E6C"
-					type: "item"
-					item: "projectex:blue_collector"
-				}
-			]
-			rewards: [
-				{
-					id: "11A8BC7FEA1CFDCF"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "4E637CEC045E0E6C"
+				type: "item"
+				item: "projectex:blue_collector"
+			}]
+			rewards: [{
+				id: "11A8BC7FEA1CFDCF"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2711,20 +2266,15 @@
 				"3BE9F90870F5E284"
 			]
 			id: "728798A02B318DFC"
-			tasks: [
-				{
-					id: "47BBE17AFCD47788"
-					type: "item"
-					item: "projectex:energy_link"
-				}
-			]
-			rewards: [
-				{
-					id: "21F79E87E0B7FBC7"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "47BBE17AFCD47788"
+				type: "item"
+				item: "projectex:energy_link"
+			}]
+			rewards: [{
+				id: "21F79E87E0B7FBC7"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
@@ -2734,20 +2284,15 @@
 				"5C396355C35FF855"
 			]
 			id: "726BA1C37CB89E60"
-			tasks: [
-				{
-					id: "4EB63AE6A7C06D52"
-					type: "item"
-					item: "projectex:dark_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "452E7B8D9FBDCBE9"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "4EB63AE6A7C06D52"
+				type: "item"
+				item: "projectex:dark_relay"
+			}]
+			rewards: [{
+				id: "452E7B8D9FBDCBE9"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.0d
@@ -2757,20 +2302,15 @@
 				"4411DE0DA987DF00"
 			]
 			id: "01DCEF3674918DF5"
-			tasks: [
-				{
-					id: "1DD8C8F1C5F0E299"
-					type: "item"
-					item: "projectex:green_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "68E4E8C89C0DCCD0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "1DD8C8F1C5F0E299"
+				type: "item"
+				item: "projectex:green_relay"
+			}]
+			rewards: [{
+				id: "68E4E8C89C0DCCD0"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -2780,20 +2320,15 @@
 				"4E11D0D2FCB066EA"
 			]
 			id: "4CC62926513DBE4C"
-			tasks: [
-				{
-					id: "4DA294C3FDAA4AD4"
-					type: "item"
-					item: "projectex:cyan_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "590D2B0BBB87F906"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "4DA294C3FDAA4AD4"
+				type: "item"
+				item: "projectex:cyan_relay"
+			}]
+			rewards: [{
+				id: "590D2B0BBB87F906"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.0d
@@ -2803,20 +2338,15 @@
 				"137559BEE7374510"
 			]
 			id: "291EB75B25D0D2C5"
-			tasks: [
-				{
-					id: "5EACFAD98226F506"
-					type: "item"
-					item: "projectex:magenta_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "7618DE35B69C8F48"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5EACFAD98226F506"
+				type: "item"
+				item: "projectex:magenta_relay"
+			}]
+			rewards: [{
+				id: "7618DE35B69C8F48"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.0d
@@ -2826,20 +2356,15 @@
 				"2BACC676236BC882"
 			]
 			id: "317FFA989FF1CEBB"
-			tasks: [
-				{
-					id: "5C93F2766CB900F8"
-					type: "item"
-					item: "projectex:violet_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "30171377B7B22C25"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5C93F2766CB900F8"
+				type: "item"
+				item: "projectex:violet_relay"
+			}]
+			rewards: [{
+				id: "30171377B7B22C25"
+				type: "random"
+			}]
 		}
 		{
 			x: 10.0d
@@ -2849,20 +2374,15 @@
 				"408995BE4B615C3A"
 			]
 			id: "277D4207F989DEEC"
-			tasks: [
-				{
-					id: "5BDF63D99BDBD6C3"
-					type: "item"
-					item: "projectex:yellow_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "0E5A4C52C6D11DF5"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5BDF63D99BDBD6C3"
+				type: "item"
+				item: "projectex:yellow_relay"
+			}]
+			rewards: [{
+				id: "0E5A4C52C6D11DF5"
+				type: "random"
+			}]
 		}
 		{
 			x: 12.0d
@@ -2872,20 +2392,15 @@
 				"73B5675603018A73"
 			]
 			id: "1B16BD13681E0A96"
-			tasks: [
-				{
-					id: "33546F60FD7F1016"
-					type: "item"
-					item: "projectex:white_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "28FEC33E2E92D0C2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "33546F60FD7F1016"
+				type: "item"
+				item: "projectex:white_relay"
+			}]
+			rewards: [{
+				id: "28FEC33E2E92D0C2"
+				type: "random"
+			}]
 		}
 		{
 			x: 14.5d
@@ -2895,20 +2410,15 @@
 				"33B933E13D9E0326"
 			]
 			id: "7D3A39F68B311C2A"
-			tasks: [
-				{
-					id: "24018FE4B4DB69B1"
-					type: "item"
-					item: "projectex:final_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "40341AC8B8041A79"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "24018FE4B4DB69B1"
+				type: "item"
+				item: "projectex:final_relay"
+			}]
+			rewards: [{
+				id: "40341AC8B8041A79"
+				type: "random"
+			}]
 		}
 		{
 			x: 13.0d
@@ -2918,40 +2428,30 @@
 				"25E74A40DADB9C2C"
 			]
 			id: "0F8BC8775AFCBD4C"
-			tasks: [
-				{
-					id: "79BA6B33043CFF0B"
-					type: "item"
-					item: "projectex:fading_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "5D97DFB10DDA9B7F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "79BA6B33043CFF0B"
+				type: "item"
+				item: "projectex:fading_relay"
+			}]
+			rewards: [{
+				id: "5D97DFB10DDA9B7F"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.0d
 			y: 10.5d
 			dependencies: ["5078B9DF0A839D26"]
 			id: "59DC9E65D1850764"
-			tasks: [
-				{
-					id: "6739B7ACECE2B110"
-					type: "item"
-					item: "projectex:basic_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "37DF812D17DFA08C"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6739B7ACECE2B110"
+				type: "item"
+				item: "projectex:basic_relay"
+			}]
+			rewards: [{
+				id: "37DF812D17DFA08C"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
@@ -2961,20 +2461,15 @@
 				"6EDBE60F50AB8294"
 			]
 			id: "3ED72F3CF653536B"
-			tasks: [
-				{
-					id: "597BFDE6C1B24BF0"
-					type: "item"
-					item: "projectex:pink_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "083D9807659CD491"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "597BFDE6C1B24BF0"
+				type: "item"
+				item: "projectex:pink_relay"
+			}]
+			rewards: [{
+				id: "083D9807659CD491"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -2984,20 +2479,15 @@
 				"1BC4AAB24ACBD58B"
 			]
 			id: "2B6A9EEEBE2A409B"
-			tasks: [
-				{
-					id: "7049EFA487DD008C"
-					type: "item"
-					item: "projectex:blue_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "492E0D10572331E6"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "7049EFA487DD008C"
+				type: "item"
+				item: "projectex:blue_relay"
+			}]
+			rewards: [{
+				id: "492E0D10572331E6"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.0d
@@ -3007,20 +2497,15 @@
 				"50179A3DB56EE756"
 			]
 			id: "442EF5E7647ED563"
-			tasks: [
-				{
-					id: "37E51295C0169227"
-					type: "item"
-					item: "projectex:lime_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "66B7B69741C26018"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "37E51295C0169227"
+				type: "item"
+				item: "projectex:lime_relay"
+			}]
+			rewards: [{
+				id: "66B7B69741C26018"
+				type: "random"
+			}]
 		}
 		{
 			x: 11.0d
@@ -3030,20 +2515,15 @@
 				"0E61D31918A9DA3B"
 			]
 			id: "654A62880E41A21A"
-			tasks: [
-				{
-					id: "26E0D2F69BE0FA1A"
-					type: "item"
-					item: "projectex:orange_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "5BB08B945984E386"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "26E0D2F69BE0FA1A"
+				type: "item"
+				item: "projectex:orange_relay"
+			}]
+			rewards: [{
+				id: "5BB08B945984E386"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.0d
@@ -3053,20 +2533,15 @@
 				"240CF78A1192ADDB"
 			]
 			id: "6960309AD2B5AE5E"
-			tasks: [
-				{
-					id: "0752CA859F2BC0E3"
-					type: "item"
-					item: "projectex:purple_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "717DCA8D9F3D88DF"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "0752CA859F2BC0E3"
+				type: "item"
+				item: "projectex:purple_relay"
+			}]
+			rewards: [{
+				id: "717DCA8D9F3D88DF"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.0d
@@ -3076,20 +2551,15 @@
 				"3BE9F90870F5E284"
 			]
 			id: "640CA82751D8ABBE"
-			tasks: [
-				{
-					id: "66EAC3F0A99815C8"
-					type: "item"
-					item: "projectex:red_relay"
-				}
-			]
-			rewards: [
-				{
-					id: "4F0DB863E6DD1FCB"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "66EAC3F0A99815C8"
+				type: "item"
+				item: "projectex:red_relay"
+			}]
+			rewards: [{
+				id: "4F0DB863E6DD1FCB"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -3109,20 +2579,15 @@
 				"1BF9C8439A0AAE86"
 			]
 			id: "5BDADE7BFFAACCB6"
-			tasks: [
-				{
-					id: "708991D3D94C5E29"
-					type: "item"
-					item: "projecte:tome"
-				}
-			]
-			rewards: [
-				{
-					id: "2320E286C8F771D0"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "708991D3D94C5E29"
+				type: "item"
+				item: "projecte:tome"
+			}]
+			rewards: [{
+				id: "2320E286C8F771D0"
+				type: "random"
+			}]
 		}
 		{
 			x: 10.0d
@@ -3133,20 +2598,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "06A9F25E4582F00D"
-			tasks: [
-				{
-					id: "3A58960C6B08C4E0"
-					type: "item"
-					item: "projectex:yellow_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "55D9F0DF1AFCB9CF"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "3A58960C6B08C4E0"
+				type: "item"
+				item: "projectex:yellow_power_flower"
+			}]
+			rewards: [{
+				id: "55D9F0DF1AFCB9CF"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.0d
@@ -3157,20 +2617,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "3F0C354AD69777A4"
-			tasks: [
-				{
-					id: "20287D9950E0CB9A"
-					type: "item"
-					item: "projectex:lime_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "5F615D4786DBB41E"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "20287D9950E0CB9A"
+				type: "item"
+				item: "projectex:lime_power_flower"
+			}]
+			rewards: [{
+				id: "5F615D4786DBB41E"
+				type: "random"
+			}]
 		}
 		{
 			x: 14.5d
@@ -3183,20 +2638,15 @@
 			]
 			size: 1.5d
 			id: "35DD2DB7F2A32272"
-			tasks: [
-				{
-					id: "40CC4EE44C7E9BA3"
-					type: "item"
-					item: "projectex:final_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "2FB4558BFBBE963D"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "40CC4EE44C7E9BA3"
+				type: "item"
+				item: "projectex:final_power_flower"
+			}]
+			rewards: [{
+				id: "2FB4558BFBBE963D"
+				type: "random"
+			}]
 		}
 		{
 			x: 13.0d
@@ -3207,20 +2657,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "53FC5F6480BA4C2D"
-			tasks: [
-				{
-					id: "54F149991160EA13"
-					type: "item"
-					item: "projectex:fading_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "44519FDD0F5323F5"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "54F149991160EA13"
+				type: "item"
+				item: "projectex:fading_power_flower"
+			}]
+			rewards: [{
+				id: "44519FDD0F5323F5"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.0d
@@ -3231,20 +2676,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "1A6E484C026D416B"
-			tasks: [
-				{
-					id: "37903D7551838E76"
-					type: "item"
-					item: "projectex:magenta_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "4542475F9FB85F0C"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "37903D7551838E76"
+				type: "item"
+				item: "projectex:magenta_power_flower"
+			}]
+			rewards: [{
+				id: "4542475F9FB85F0C"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -3255,20 +2695,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "237F46D2EBFA3ADF"
-			tasks: [
-				{
-					id: "6B81FE3B4709BAD4"
-					type: "item"
-					item: "projectex:blue_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "4AFAFDAD96391519"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6B81FE3B4709BAD4"
+				type: "item"
+				item: "projectex:blue_power_flower"
+			}]
+			rewards: [{
+				id: "4AFAFDAD96391519"
+				type: "random"
+			}]
 		}
 		{
 			x: 0.0d
@@ -3279,20 +2714,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "56BDF4EE309E1ED0"
-			tasks: [
-				{
-					id: "502B437E54E73D1D"
-					type: "item"
-					item: "projectex:dark_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "4D3754AA428E7415"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "502B437E54E73D1D"
+				type: "item"
+				item: "projectex:dark_power_flower"
+			}]
+			rewards: [{
+				id: "4D3754AA428E7415"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.0d
@@ -3303,20 +2733,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "774BA37A9A7C5508"
-			tasks: [
-				{
-					id: "358DA4466717D145"
-					type: "item"
-					item: "projectex:red_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "65466BCA420D4C04"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "358DA4466717D145"
+				type: "item"
+				item: "projectex:red_power_flower"
+			}]
+			rewards: [{
+				id: "65466BCA420D4C04"
+				type: "random"
+			}]
 		}
 		{
 			x: 12.0d
@@ -3327,20 +2752,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "5D3C81B6F773DBCF"
-			tasks: [
-				{
-					id: "45C368BEC18FEC9E"
-					type: "item"
-					item: "projectex:white_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "55E0B893679F0B52"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "45C368BEC18FEC9E"
+				type: "item"
+				item: "projectex:white_power_flower"
+			}]
+			rewards: [{
+				id: "55E0B893679F0B52"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
@@ -3351,20 +2771,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "24492608DAB25210"
-			tasks: [
-				{
-					id: "63EEC03E821FCA51"
-					type: "item"
-					item: "projectex:pink_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "4091C1DB481AA257"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "63EEC03E821FCA51"
+				type: "item"
+				item: "projectex:pink_power_flower"
+			}]
+			rewards: [{
+				id: "4091C1DB481AA257"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.0d
@@ -3375,20 +2790,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "0156DE4B7BCBF21B"
-			tasks: [
-				{
-					id: "3652033E6D2B1FCD"
-					type: "item"
-					item: "projectex:cyan_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "46C29A9F3DF1CB40"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "3652033E6D2B1FCD"
+				type: "item"
+				item: "projectex:cyan_power_flower"
+			}]
+			rewards: [{
+				id: "46C29A9F3DF1CB40"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.0d
@@ -3399,20 +2809,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "45E2BDA57DF149BC"
-			tasks: [
-				{
-					id: "2BCB04C84ED208B9"
-					type: "item"
-					item: "projectex:purple_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "2978B505FA82C08C"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "2BCB04C84ED208B9"
+				type: "item"
+				item: "projectex:purple_power_flower"
+			}]
+			rewards: [{
+				id: "2978B505FA82C08C"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.0d
@@ -3423,20 +2828,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "1590085470F75F4C"
-			tasks: [
-				{
-					id: "64FD10AB4610A49D"
-					type: "item"
-					item: "projectex:basic_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "51121F15CD72F56F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "64FD10AB4610A49D"
+				type: "item"
+				item: "projectex:basic_power_flower"
+			}]
+			rewards: [{
+				id: "51121F15CD72F56F"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.0d
@@ -3447,20 +2847,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "5EA90FA0A4D3035E"
-			tasks: [
-				{
-					id: "6DA233E7BDD5579D"
-					type: "item"
-					item: "projectex:green_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "4DC8EDE3CE1A6CB2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "6DA233E7BDD5579D"
+				type: "item"
+				item: "projectex:green_power_flower"
+			}]
+			rewards: [{
+				id: "4DC8EDE3CE1A6CB2"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.0d
@@ -3471,20 +2866,15 @@
 				"632BFA8027B9F555"
 			]
 			id: "1A69E2E6838B6DCF"
-			tasks: [
-				{
-					id: "20CAE03222B1C35F"
-					type: "item"
-					item: "projectex:violet_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "44EE50B6BA34560A"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "20CAE03222B1C35F"
+				type: "item"
+				item: "projectex:violet_power_flower"
+			}]
+			rewards: [{
+				id: "44EE50B6BA34560A"
+				type: "random"
+			}]
 		}
 		{
 			x: 11.0d
@@ -3495,32 +2885,27 @@
 				"632BFA8027B9F555"
 			]
 			id: "41BBAF97053551AC"
-			tasks: [
-				{
-					id: "610D3EA1E51AE4EB"
-					type: "item"
-					item: "projectex:orange_power_flower"
-				}
-			]
-			rewards: [
-				{
-					id: "36ABE2F7746BF87F"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "610D3EA1E51AE4EB"
+				type: "item"
+				item: "projectex:orange_power_flower"
+			}]
+			rewards: [{
+				id: "36ABE2F7746BF87F"
+				type: "random"
+			}]
 		}
 		{
-			title: "&c能量花制造器[--&cPower Flower Fabricator--]"
+			title: "&c能量花制造器"
 			icon: "masterfulmachinery:emcflower_controller"
 			x: 6.5d
 			y: 15.0d
 			shape: "gear"
-			subtitle: "它不仅仅是一朵花[--It's not just a flower--]"
+			subtitle: "它不仅仅是一朵花"
 			description: [
-				"&c能量花制造器&r将允许你制作不同功能的 模组 的能量花.[--&cPower Flower Fabricator&r will allow you to create the different power flower of the ProjectEx mod.--]"
+				"&c能量花制造器&r将允许你制作不同功能的 模组 的能量花."
 				""
-				"它和装配工厂一样工作,在输入端口中添加物品,在输出端口中获取能量花.[--It works like assembling factory, you add items in the input port and you get your power flower in the output port.--]"
+				"它和装配工厂一样工作,在输入端口中添加物品,在输出端口中获取能量花."
 				""
 				""
 				"{image:chromasky2:textures/quest/power_flower.png width:100 height:100 align:1 fit:true}"
@@ -3610,20 +2995,15 @@
 				"3BE9F90870F5E284"
 			]
 			id: "46429A8D75297B82"
-			tasks: [
-				{
-					id: "35964ECB1B1F2080"
-					type: "item"
-					item: "project_architect:emc_link_1"
-				}
-			]
-			rewards: [
-				{
-					id: "46509A8E22D59105"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "35964ECB1B1F2080"
+				type: "item"
+				item: "project_architect:emc_link_1"
+			}]
+			rewards: [{
+				id: "46509A8E22D59105"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.5d
@@ -3631,20 +3011,15 @@
 			shape: "rsquare"
 			dependencies: ["46429A8D75297B82"]
 			id: "05054E90FDE363CB"
-			tasks: [
-				{
-					id: "58E5C15D88C1E0F6"
-					type: "item"
-					item: "project_architect:emc_link_2"
-				}
-			]
-			rewards: [
-				{
-					id: "7109913E9C2490DC"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "58E5C15D88C1E0F6"
+				type: "item"
+				item: "project_architect:emc_link_2"
+			}]
+			rewards: [{
+				id: "7109913E9C2490DC"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.5d
@@ -3652,20 +3027,15 @@
 			shape: "rsquare"
 			dependencies: ["05054E90FDE363CB"]
 			id: "46C976E1AAA0383A"
-			tasks: [
-				{
-					id: "17A8F8D30A67E4FF"
-					type: "item"
-					item: "project_architect:emc_link_3"
-				}
-			]
-			rewards: [
-				{
-					id: "7AD01877666313F3"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "17A8F8D30A67E4FF"
+				type: "item"
+				item: "project_architect:emc_link_3"
+			}]
+			rewards: [{
+				id: "7AD01877666313F3"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.5d
@@ -3673,20 +3043,15 @@
 			shape: "rsquare"
 			dependencies: ["46C976E1AAA0383A"]
 			id: "21D563C07CE12662"
-			tasks: [
-				{
-					id: "5763885D0314EE66"
-					type: "item"
-					item: "project_architect:emc_link_4"
-				}
-			]
-			rewards: [
-				{
-					id: "4EB24EAA5F62FB90"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "5763885D0314EE66"
+				type: "item"
+				item: "project_architect:emc_link_4"
+			}]
+			rewards: [{
+				id: "4EB24EAA5F62FB90"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.5d
@@ -3694,20 +3059,15 @@
 			shape: "rsquare"
 			dependencies: ["21D563C07CE12662"]
 			id: "671435342BFDC450"
-			tasks: [
-				{
-					id: "72AA3F875E107B0D"
-					type: "item"
-					item: "project_architect:emc_link_5"
-				}
-			]
-			rewards: [
-				{
-					id: "5C4CD0293E81E0BF"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "72AA3F875E107B0D"
+				type: "item"
+				item: "project_architect:emc_link_5"
+			}]
+			rewards: [{
+				id: "5C4CD0293E81E0BF"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
@@ -3715,20 +3075,15 @@
 			shape: "rsquare"
 			dependencies: ["671435342BFDC450"]
 			id: "70E0776B2DBFC95C"
-			tasks: [
-				{
-					id: "14FBB966F8B349E9"
-					type: "item"
-					item: "project_architect:emc_link_6"
-				}
-			]
-			rewards: [
-				{
-					id: "633050951F74B6A2"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "14FBB966F8B349E9"
+				type: "item"
+				item: "project_architect:emc_link_6"
+			}]
+			rewards: [{
+				id: "633050951F74B6A2"
+				type: "random"
+			}]
 		}
 		{
 			x: 9.5d
@@ -3736,20 +3091,15 @@
 			shape: "rsquare"
 			dependencies: ["70E0776B2DBFC95C"]
 			id: "281EFC2344216FA3"
-			tasks: [
-				{
-					id: "655ACDFA5AC9FC35"
-					type: "item"
-					item: "project_architect:emc_link_7"
-				}
-			]
-			rewards: [
-				{
-					id: "37459C9EB3F121CF"
-					type: "random"
-					table_id: 4299163432040672592L
-				}
-			]
+			tasks: [{
+				id: "655ACDFA5AC9FC35"
+				type: "item"
+				item: "project_architect:emc_link_7"
+			}]
+			rewards: [{
+				id: "37459C9EB3F121CF"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.5d
@@ -3774,18 +3124,15 @@
 				"4411DE0DA987DF00"
 			]
 			id: "1EC0ECD3CE92D155"
-			tasks: [
-				{
-					id: "24C2E1F12121F537"
-					type: "item"
-					item: "project_architect:emc_interface"
-				}
-			]
+			tasks: [{
+				id: "24C2E1F12121F537"
+				type: "item"
+				item: "project_architect:emc_interface"
+			}]
 			rewards: [
 				{
 					id: "7C491505900630FD"
 					type: "random"
-					table_id: 4299163432040672592L
 				}
 				{
 					id: "18534692D49F89E1"
@@ -3804,20 +3151,15 @@
 				"728798A02B318DFC"
 			]
 			id: "65F400B86F38741C"
-			tasks: [
-				{
-					id: "0DC5A2475A749CE3"
-					type: "item"
-					item: "project_architect:emc_link_configurator"
-				}
-			]
-			rewards: [
-				{
-					id: "2068F963FCD70529"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "0DC5A2475A749CE3"
+				type: "item"
+				item: "project_architect:emc_link_configurator"
+			}]
+			rewards: [{
+				id: "2068F963FCD70529"
+				type: "random"
+			}]
 		}
 		{
 			x: 5.5d
@@ -3829,24 +3171,19 @@
 				"5C396355C35FF855"
 			]
 			id: "67AED81AD5DED98D"
-			tasks: [
-				{
-					id: "7701D029BEDC8508"
-					type: "item"
-					item: {
-						id: "project_architect:emc_coal"
-						Count: 1b
-						tag: { }
-					}
+			tasks: [{
+				id: "7701D029BEDC8508"
+				type: "item"
+				item: {
+					id: "project_architect:emc_coal"
+					Count: 1b
+					tag: { }
 				}
-			]
-			rewards: [
-				{
-					id: "786EC4900A4B33A7"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "786EC4900A4B33A7"
+				type: "random"
+			}]
 		}
 		{
 			x: 7.5d
@@ -3858,20 +3195,15 @@
 				"228808D5974EFFAA"
 			]
 			id: "7F62E1DAAE369CF0"
-			tasks: [
-				{
-					id: "56BDD653121CA4D2"
-					type: "item"
-					item: "project_architect:emc_steak"
-				}
-			]
-			rewards: [
-				{
-					id: "2A614008088706A3"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "56BDD653121CA4D2"
+				type: "item"
+				item: "project_architect:emc_steak"
+			}]
+			rewards: [{
+				id: "2A614008088706A3"
+				type: "random"
+			}]
 		}
 	]
 }

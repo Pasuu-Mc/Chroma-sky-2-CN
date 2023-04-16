@@ -3,7 +3,7 @@
 	group: "7F090E96EFD94B43"
 	order_index: 1
 	filename: "pedestals"
-	title: "基座[--Pedestals--]"
+	title: "基座"
 	icon: "pedestals:pedestal/stone333"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,30 +13,25 @@
 			y: -3.0d
 			shape: "gear"
 			description: [
-				"基座可以通过将它们连接在一起将显示的物品从一个传输到另一个。 它们也可以通过这种方式传输流体、 FE 和 XP.[--Pedestals can transfer displayed items from one to another by linking them together. They can also transfer fluids, FE, and XP in their upgrades this way.--]"
+				"基座可以通过将它们连接在一起将显示的物品从一个传输到另一个。 它们也可以通过这种方式传输流体、 FE 和 XP."
 				""
-				"这是使用链接工具完成的:用该工具潜行右键单击基座以选择接收的基座,然后做相同的事情来选择发送的基座。 如果这听起来像向后潜行右键单击空气中的链接工具以将其转换成一个反向链接工具,该工具链接发送器 ->接收器.[--This is done with the Linking Tool: Sneak Right-Click a pedestal with the tool to choose the receiving Pedestal, and then do the same to choose the sending Pedestal. If this sounds backwards crouch-right-click the Linking Tool in the air to convert it into a Backwards Linking Tool, which links Sender -> Receiver.--]"
+				"这是使用链接工具完成的:用该工具潜行右键单击基座以选择接收的基座,然后做相同的事情来选择发送的基座。 如果这听起来像向后潜行右键单击空气中的链接工具以将其转换成一个反向链接工具,该工具链接发送器 ->接收器."
 				""
-				"每个发送基座最多可链接 8 个接收器; 接收器可以链接到任意数量的发送器。 您可以右键单击带有链接魔杖的发送器以显示有关它的信息,并获得它连接到的基座的直观提示。 默认情况下,发送机制使用优先级系统,由输出的颜色粒子显示 - 黑色是第一种,白色是最后一种.[--Each Sending Pedestal can be linked to a maximum of 8 Receivers; Receivers can be linked to any number of senders.You can right click a Sender with the Linking wand to display information about it, and to get a visual indication of which pedestals it’s linked to. By default the sending mechanism uses a priority system, which is indicated by the color particles emitted - black is first, white is last.--]"
+				"每个发送基座最多可链接 8 个接收器; 接收器可以链接到任意数量的发送器。 您可以右键单击带有链接魔杖的发送器以显示有关它的信息,并获得它连接到的基座的直观提示。 默认情况下,发送机制使用优先级系统,由输出的颜色粒子显示 - 黑色是第一种,白色是最后一种."
 			]
 			dependencies: ["088D692E25F62BFD"]
 			size: 2.0d
 			min_width: 300
 			id: "43DFC2A03C6EF24A"
-			tasks: [
-				{
-					id: "4E0990AE8ACB2BFE"
-					type: "item"
-					item: "pedestals:linkingtool"
-				}
-			]
-			rewards: [
-				{
-					id: "2B6DFA1DCE5D71CE"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "4E0990AE8ACB2BFE"
+				type: "item"
+				item: "pedestals:linkingtool"
+			}]
+			rewards: [{
+				id: "2B6DFA1DCE5D71CE"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.0d
@@ -44,126 +39,112 @@
 			hide_dependency_lines: true
 			dependencies: ["43DFC2A03C6EF24A"]
 			id: "1D2789B55007A753"
-			tasks: [
-				{
-					id: "7B9FB210482531A3"
-					type: "item"
-					item: "pedestals:pedestal/stone333"
-				}
-			]
-			rewards: [
-				{
-					id: "261282705AFC6816"
-					type: "item"
-					item: "pedestals:pedestal/stone333"
-				}
-			]
+			tasks: [{
+				id: "7B9FB210482531A3"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
+			rewards: [{
+				id: "261282705AFC6816"
+				type: "item"
+				item: "pedestals:pedestal/stone333"
+			}]
 		}
 		{
 			x: -0.5d
 			y: -3.0d
 			description: [
-				"升级可以添加到基座中,以强化基座的物品发送行为。前 3 个升级中,你最多可以添加 5 个 - 其他 3 个只需要 1 个.[--Augments can be added to a Pedestal to enhance a pedestal's item sending behavior. You can add up to 5 of each of the first 3 augments - the other 3 only require 1.--]"
+				"升级可以添加到基座中,以强化基座的物品发送行为。前 3 个升级中,你最多可以添加 5 个 - 其他 3 个只需要 1 个."
 				""
-				"&b速度&f - 减少传输之间的延迟.[--&bSpeed&f - Decreases the delay between transfers.--]"
+				"&b速度&f - 减少传输之间的延迟."
 				""
-				"&a容量&f - 增加传输物品数量.[--&aCapacity&f - Increases how many items are transferred.--]"
+				"&a容量&f - 增加传输物品数量."
 				""
-				"&e范围&f - 增加基座连接的允许距离.[--&eRange&f - Increases the distance allowed between linked pedestals.--]"
+				"&e范围&f - 增加基座连接的允许距离."
 				""
-				"&8消音器&f - 移除升级产生的任何声音(除了工具的声音).[--&8Sound Muffler&f - Removes any sound an upgrade makes (except for tool equip sounds).--]"
+				"&8消音器&f - 移除升级产生的任何声音(除了工具的声音)."
 				""
-				"&5粒子发泡机&f - 移除升级产生的任何粒子.[--&5Particle Diffuser&f - Removes any particles produced by the upgrade.--]"
+				"&5粒子发泡机&f - 移除升级产生的任何粒子."
 				""
-				"&4龙卷风升级&f - 将基座的发送行为从优先级更改为龙卷风.[--&4Round Robin Augment&f - Changes the sending behavior of the pedestal from Priority to Round Robin.--]"
+				"&4龙卷风升级&f - 将基座的发送行为从优先级更改为龙卷风."
 			]
 			hide_dependency_lines: true
 			dependencies: ["43DFC2A03C6EF24A"]
 			min_width: 250
 			id: "396BBF5AB77EDEFF"
-			tasks: [
-				{
-					id: "25180B82E0EF3B2E"
-					type: "item"
-					title: "拓展[--Augments--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:upgradespeed"
-									Count: 1b
-								}
-								{
-									id: "pedestals:upgradecapacity"
-									Count: 1b
-								}
-								{
-									id: "pedestals:upgraderange"
-									Count: 1b
-								}
-								{
-									id: "pedestals:upgradesoundmuffler"
-									Count: 1b
-								}
-								{
-									id: "pedestals:upgraderoundrobin"
-									Count: 1b
-								}
-								{
-									id: "pedestals:upgradeparticlediffuser"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "25180B82E0EF3B2E"
+				type: "item"
+				title: "拓展"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:upgradespeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradecapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradesoundmuffler"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgraderoundrobin"
+								Count: 1b
+							}
+							{
+								id: "pedestals:upgradeparticlediffuser"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "1D4168FA30C57ADD"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "1D4168FA30C57ADD"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.0d
 			y: -0.5d
 			description: [
-				"调色盘可用于自定义基座的颜色。 将调色盘丢到地上,每个发红、绿和/或蓝色染料最多 3 个,然后用链接工具右键单击它以设置其颜色。 然后,您可以用它右键单击基座来粉刷它们。 基座如果你破坏它,它将保留它的颜色.[--The Color Pallet can be used to customize the color of your Pedestals. Throw the pallet on the ground with up to 3 each of Red, Green, and/or Blue dye, and right click it with your Linking tool to set its color. You can then right-click pedestals with it to paint them. The pedestal will retain its color if you break it.--]"
+				"调色盘可用于自定义基座的颜色。 将调色盘丢到地上,每个发红、绿和/或蓝色染料最多 3 个,然后用链接工具右键单击它以设置其颜色。 然后,您可以用它右键单击基座来粉刷它们。 基座如果你破坏它,它将保留它的颜色."
 				""
-				"用荧石块右击基座,基座会发光。用一桶水潜行右击基座,基座也可以含水.[--Pedestals can be lit up by Right-Clicking them with a glowstone block. They can also be water-logged by Sneak Right-Clicking them with a bucket of water.--]"
+				"用荧石块右击基座,基座会发光。用一桶水潜行右击基座,基座也可以含水."
 			]
 			hide_dependency_lines: true
 			dependencies: ["43DFC2A03C6EF24A"]
 			id: "4CEC3B33F8235E65"
-			tasks: [
-				{
-					id: "2AD560C1B7C6B664"
-					type: "item"
-					item: "pedestals:itemcolorpalletdefault"
-				}
-			]
-			rewards: [
-				{
-					id: "364A30844ED69572"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "2AD560C1B7C6B664"
+				type: "item"
+				item: "pedestals:itemcolorpalletdefault"
+			}]
+			rewards: [{
+				id: "364A30844ED69572"
+				type: "random"
+			}]
 		}
 		{
-			title: "基座过滤器[--Pedestal Filters--]"
+			title: "基座过滤器"
 			x: -5.5d
 			y: -3.0d
 			description: [
-				"过滤器允许控制基座展示中允许的物品。 过滤器类型(白名单/黑名单)可以通过潜行右键单击空气来更改。 需要编程的过滤器(例如物品或模组过滤器)可以潜行右键单击容器将它们设置为该库存的内容.[--Filters allow control over which items are allowed in a pedestal display. Filter type (whitelist/blacklist) can be changed by crouch-right-clicking the air. The filters that need to be programmed (such as Item or Mod filters) can be crouch-right-clicked on an inventory to set them to the contents of that inventory.--]"
+				"过滤器允许控制基座展示中允许的物品。 过滤器类型(白名单/黑名单)可以通过潜行右键单击空气来更改。 需要编程的过滤器(例如物品或模组过滤器)可以潜行右键单击容器将它们设置为该库存的内容."
 				""
-				"过滤器可以通过将它们放在副手中然后用空手右键单击基座来添加到基座中。 通过在副手中使用相同的过滤器或过滤器工具可以移除它们.[--Filters can be added to a pedestal by holding them in your offhand while right-clicking the pedestal with an empty hand. They can be removed by doing the same with either a filter or a filter tool in your offhand.--]"
+				"过滤器可以通过将它们放在副手中然后用空手右键单击基座来添加到基座中。 通过在副手中使用相同的过滤器或过滤器工具可以移除它们."
 				""
-				"过滤器工具将允许您移除过滤器(如上所述),但它也允许您通过右键单击来获取基座中过滤器的信息.[--The Filter Tool will allow you to remove filters (as above), but it will also allow you to get information on the filter in a pedestal by right-clicking it.--]"
+				"过滤器工具将允许您移除过滤器(如上所述),但它也允许您通过右键单击来获取基座中过滤器的信息."
 			]
 			hide_dependency_lines: true
 			dependencies: ["048071A21C3C5B2F"]
@@ -181,22 +162,19 @@
 					item: "pedestals:filterswapper"
 				}
 			]
-			rewards: [
-				{
-					id: "02C4168562235BDC"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			rewards: [{
+				id: "02C4168562235BDC"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.0d
 			y: -10.0d
 			shape: "rsquare"
 			description: [
-				"显示物品并在基座之间移动它们是很好的,但您可以通过升级添加额外的功能。 您将需要许多这些基础升级才能开始.[--Displaying items and moving them between pedestals is good, but you can add additional functionality with Upgrades. You'll need a number of these Upgrade Bases to get started.--]"
+				"显示物品并在基座之间移动它们是很好的,但您可以通过升级添加额外的功能。 您将需要许多这些基础升级才能开始."
 				""
-				"基座升级可以通过将它们放在副手并右键单击基座来添加到基座中。 通过在副手拿着另一个升级或升级工具并在左键单击基座时将它们移除.[--Pedestal Upgrades can be added to a pedestal by holding them in your offhand and right-clicking the pedestal. They can be removed by holding another upgrade or the Upgrade Tool in your offhand while left-clicking the pedestal.--]"
+				"基座升级可以通过将它们放在副手并右键单击基座来添加到基座中。 通过在副手拿着另一个升级或升级工具并在左键单击基座时将它们移除."
 			]
 			dependencies: [
 				"71E4BB753498AB6B"
@@ -205,143 +183,119 @@
 			]
 			size: 2.0d
 			id: "71C0556DED31352E"
-			tasks: [
-				{
-					id: "149E5AAFEFD82040"
-					type: "item"
-					item: "pedestals:coin/default"
-				}
-			]
-			rewards: [
-				{
-					id: "0E4DEF061DE56511"
-					type: "item"
-					item: "pedestals:coin/default"
-				}
-			]
+			tasks: [{
+				id: "149E5AAFEFD82040"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
+			rewards: [{
+				id: "0E4DEF061DE56511"
+				type: "item"
+				item: "pedestals:coin/default"
+			}]
 		}
 		{
 			x: 0.5d
 			y: -3.0d
-			description: ["你可以给升级附魔非常棒,但那可能太...随机了。 这些书可以确保你获得你所需的特殊附魔。 请记住,你不能在原版铁砧中将这些与升级结合——你必须使用基座的经验铁砧.[--It's wonderful that you can enchant your upgrades, but that can be so... random. These books allow you to ensure you get the particular enchant you need. Keep in mind that you cannot combine these with an upgrade in a vanilla anvil - you MUST use the XP Anvil from Pedestals.--]"]
+			description: ["你可以给升级附魔非常棒,但那可能太...随机了。 这些书可以确保你获得你所需的特殊附魔。 请记住,你不能在原版铁砧中将这些与升级结合——你必须使用基座的经验铁砧."]
 			hide_dependency_lines: true
 			dependencies: ["43DFC2A03C6EF24A"]
 			id: "3196F5ED8C0078BA"
-			tasks: [
-				{
-					id: "1431389A3D0C86FB"
-					type: "item"
-					title: "附魔核心书[--Enchantment Focus Books--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:bookspeed"
-									Count: 1b
-								}
-								{
-									id: "pedestals:bookrange"
-									Count: 1b
-								}
-								{
-									id: "pedestals:bookarea"
-									Count: 1b
-								}
-								{
-									id: "pedestals:bookcapacity"
-									Count: 1b
-								}
-								{
-									id: "pedestals:bookmagnet"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "1431389A3D0C86FB"
+				type: "item"
+				title: "附魔核心书"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:bookspeed"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookrange"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookarea"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookcapacity"
+								Count: 1b
+							}
+							{
+								id: "pedestals:bookmagnet"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "186B1D3832F5C5B7"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "186B1D3832F5C5B7"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
 			y: -3.0d
 			description: [
-				"高级附魔允许升级,在基座下方操作库存与实体的库存交互。 例如,这可以使用适当的升级从怪物输入物品或将物品输出到怪物.[--The Advanced enchantment allows upgrades that manipulate an inventory below the pedestal to interact with the inventories of entities. This can, for example, be used to import items from or export items to mobs using the appropriate upgrades.--]"
+				"高级附魔允许升级,在基座下方操作库存与实体的库存交互。 例如,这可以使用适当的升级从怪物输入物品或将物品输出到怪物."
 				""
-				"高级附魔需要92级的附魔等级;因此,它将需要一个升级的附魔方法,例如 经验附魔升级.[--The Advanced enchantment requires an enchanting level of 92; because of this it will need a modded enchanting method such as the XP Enchanter upgrade.--]"
+				"高级附魔需要92级的附魔等级;因此,它将需要一个升级的附魔方法,例如 经验附魔升级."
 			]
 			hide_dependency_lines: true
 			dependencies: ["43DFC2A03C6EF24A"]
 			id: "6270F7DDF6B9610D"
-			tasks: [
-				{
-					id: "3357EFD532A9269F"
-					type: "item"
-					item: "pedestals:bookadvanced"
-				}
-			]
-			rewards: [
-				{
-					id: "0F0732223A31A2C7"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "3357EFD532A9269F"
+				type: "item"
+				item: "pedestals:bookadvanced"
+			}]
+			rewards: [{
+				id: "0F0732223A31A2C7"
+				type: "random"
+			}]
 		}
 		{
 			x: -4.5d
 			y: -3.0d
 			description: [
-				"工具交换器将允许您向某些升级添加或移除工具。 将您想添加的工具放在副手中,然后用工具交换器右键单击基座以插入工具,或者当副手为空时用工具右键单击基座以移除一个.[--The Tool Swapper will allow you to add or remove Tools to some upgrades. Hold a tool you'd like to add in your off-hand and Right-Click the pedestal with the swapper to insert a tool, or Right-Click the pedestal with the tool when your off-hand is empty to remove one.--]"
+				"工具交换器将允许您向某些升级添加或移除工具。 将您想添加的工具放在副手中,然后用工具交换器右键单击基座以插入工具,或者当副手为空时用工具右键单击基座以移除一个."
 				""
-				"将工具插入基座时不使用工具耐久,但它确实将工具上的任何附魔(即时运或精准采集)赋予了升级的操作.[--Tool durability isn't used when a tool is inserted into a pedestal, but it does confer any enchantments on the tool (i.e. Fortune or Silk Touch) to the operation of the upgrade.--]"
+				"将工具插入基座时不使用工具耐久,但它确实将工具上的任何附魔(即时运或精准采集)赋予了升级的操作."
 			]
 			hide_dependency_lines: true
 			dependencies: ["1E0561F4B6056A07"]
 			id: "048071A21C3C5B2F"
-			tasks: [
-				{
-					id: "5D333C137111EBC2"
-					type: "item"
-					item: "pedestals:toolswapper"
-				}
-			]
-			rewards: [
-				{
-					id: "225D0E8A9990311E"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "5D333C137111EBC2"
+				type: "item"
+				item: "pedestals:toolswapper"
+			}]
+			rewards: [{
+				id: "225D0E8A9990311E"
+				type: "random"
+			}]
 		}
 		{
 			x: -3.5d
 			y: -3.0d
-			description: ["用升级工具右键单击基座以获取有关升级的信息.[--Right-Click a pedestal with the Upgrade Tool to get information about the upgrade on it.--]"]
+			description: ["用升级工具右键单击基座以获取有关升级的信息."]
 			dependencies: ["088D692E25F62BFD"]
 			id: "1E0561F4B6056A07"
-			tasks: [
-				{
-					id: "27409CC96D264467"
-					type: "item"
-					item: "pedestals:upgradetool"
-				}
-			]
-			rewards: [
-				{
-					id: "1492EB6F600C7E60"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "27409CC96D264467"
+				type: "item"
+				item: "pedestals:upgradetool"
+			}]
+			rewards: [{
+				id: "1492EB6F600C7E60"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.0d
@@ -349,44 +303,40 @@
 			shape: "diamond"
 			dependencies: ["71C0556DED31352E"]
 			id: "2FF647C77E221031"
-			tasks: [
-				{
-					id: "32DA45DD4E4EBFAA"
-					type: "item"
-					title: "存储[--Storages--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/itemtank"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/rftank"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/xptank"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fluidtank"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "32DA45DD4E4EBFAA"
+				type: "item"
+				title: "存储"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/itemtank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rftank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xptank"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidtank"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "61EF9E6576749563"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "61EF9E6576749563"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.0d
@@ -394,50 +344,46 @@
 			shape: "diamond"
 			dependencies: ["71C0556DED31352E"]
 			id: "47E436A4E1C8FD28"
-			tasks: [
-				{
-					id: "60866A9438EDDF6B"
-					type: "item"
-					title: "中继器[--Relays--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/rfrelay"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/xprelay"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fluidrelay"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "60866A9438EDDF6B"
+				type: "item"
+				title: "中继器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/rfrelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xprelay"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidrelay"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "493A5E75C2A183B6"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "493A5E75C2A183B6"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
-			title: "能量传输[--Energy Transfer--]"
+			title: "能量传输"
 			x: -8.0d
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"从方块/机器或插入的物品&c输入能量&f到基座能量网络中。可以将能量发送到 PNE 中其他连接的基座.[--&cImports Energy&f from Blocks/Machines or Inserted Items, into the Pedestal Energy Network (PEN). Can Send Energy To Other Connected Pedestals In the PEN.--]"
+				"从方块/机器或插入的物品&c输入能量&f到基座能量网络中。可以将能量发送到 PNE 中其他连接的基座."
 				""
-				"从基座能量网络&c输出能量&f到插入的物品或连接的方块/机器。无法将能量发送到其他连接的基座.[--&cExports Energy&f from the PEN, into Inserted Items, or Attached Blocks/Machines. Cannot Send Energy to Other Connected Pedestals.--]"
+				"从基座能量网络&c输出能量&f到插入的物品或连接的方块/机器。无法将能量发送到其他连接的基座."
 			]
 			dependencies: ["71C0556DED31352E"]
 			size: 1.6d
@@ -446,33 +392,31 @@
 				{
 					id: "536C7EE286B5C6A5"
 					type: "item"
-					title: "能量输入升级[--Energy Import Upgrade--]"
+					title: "能量输入升级"
 					item: "pedestals:coin/rfimport"
 				}
 				{
 					id: "70DA0B83402BDF34"
 					type: "item"
-					title: "能量输出升级[--Energy Export Upgrade--]"
+					title: "能量输出升级"
 					item: "pedestals:coin/rfexport"
 				}
 			]
-			rewards: [
-				{
-					id: "06EA29A1155437FB"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			rewards: [{
+				id: "06EA29A1155437FB"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
-			title: "物品传输升级[--Item Transportation Upgrade--]"
+			title: "物品传输升级"
 			x: -4.0d
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"从“下方”容器&b将物品&f输入基座物品网络。默认速度是每秒1个物品,但可以提升到每tick64个物品(在 20tps 情况下每秒1280个物品)。[--&bImports items &ffrom the 'below' inventory into the Pedestal Item Network. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps).--]"
+				"从“下方”容器&b将物品&f输入基座物品网络。默认速度是每秒1个物品,但可以提升到每tick64个物品(在 20tps 情况下每秒1280个物品)。"
 				""
-				"从基座物品网络中&b输出物品&f到“底部”容器中。默认速度是每秒1个物品,但可以提升到每tick64个物品(在 20tps 情况下每秒1280个物品)。[--&bExports items&f from the Pedestal Item Network into a 'below' inventory. Default speed is 1 item transferred per second, but can be increased to 64 items per tick (1280 items per second at 20tps).--]"
+				"从基座物品网络中&b输出物品&f到“底部”容器中。默认速度是每秒1个物品,但可以提升到每tick64个物品(在 20tps 情况下每秒1280个物品)。"
 			]
 			dependencies: ["71C0556DED31352E"]
 			size: 1.6d
@@ -481,33 +425,31 @@
 				{
 					id: "27311051BE3D7195"
 					type: "item"
-					title: "物品输入升级[--Item Import Upgrade--]"
+					title: "物品输入升级"
 					item: "pedestals:coin/import"
 				}
 				{
 					id: "670102E4F51C48A8"
 					type: "item"
-					title: "物品输出升级[--Item Export Upgrade--]"
+					title: "物品输出升级"
 					item: "pedestals:coin/export"
 				}
 			]
-			rewards: [
-				{
-					id: "0F6B8F05348AE026"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			rewards: [{
+				id: "0F6B8F05348AE026"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
-			title: "流体传输[--Fluid Transfer--]"
+			title: "流体传输"
 			x: 0.0d
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"从物品(插入基座中)或储罐(下方)&3输入流体&f到基座中。基座中的物品一旦没有流体,将自动发送到连接的基座中.[--&3Imports fluids&f from items (inserted in the pedestal) or tanks (below the pedestal) into the PEN. Items that are in the pedestal, will be automatically sent to a connected pedestal once they are empty of fluid.--]"
+				"从物品(插入基座中)或储罐(下方)&3输入流体&f到基座中。基座中的物品一旦没有流体,将自动发送到连接的基座中."
 				""
-				"通过装满桶或插入基座的物品,或基座下方的储罐,从基座输出流体&3。基座中的物品装满流体后将被自动发送,只要有一个基座,它可以将物品发送到.[--&3Exports fluids&f from the PEN by filling buckets or items inserted in the pedestal, or tanks below the pedestal. Items in the pedestal will be automatically sent once they have been filled with fluid, providing there is a pedestal it can send the item to.--]"
+				"通过装满桶或插入基座的物品,或基座下方的储罐,从基座输出流体&3。基座中的物品装满流体后将被自动发送,只要有一个基座,它可以将物品发送到."
 			]
 			dependencies: ["71C0556DED31352E"]
 			size: 1.6d
@@ -516,163 +458,145 @@
 				{
 					id: "1526CC380D3ABBE0"
 					type: "item"
-					title: "流体输入升级[--Fluid Import Upgrade--]"
+					title: "流体输入升级"
 					item: "pedestals:coin/fluidimport"
 				}
 				{
 					id: "2BFE35CE8FA18FA9"
 					type: "item"
-					title: "流体输出升级[--Fluid Export Upgrade--]"
+					title: "流体输出升级"
 					item: "pedestals:coin/fluidexport"
 				}
 			]
-			rewards: [
-				{
-					id: "4661B6690C8384A0"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			rewards: [{
+				id: "4661B6690C8384A0"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
-			title: "经验输入[--XP Input--]"
+			title: "经验输入"
 			x: 4.0d
 			y: -8.0d
 			shape: "diamond"
 			description: [
-				"与磁铁升级相似,只是它会&a收集xp&f,并将其保存在其内部缓冲中。 它还将从一个与基座相邻(身体与基座相邻)的玩家那里吸收xp。 速度附魔会增加它吸收xp的速度,容量附魔会增加它一次吸收的数量.[--Similar to the Magnet upgrade except it will &acollect xp&f, and hold it in its internal buffer.It will also absorb xp from a player who is colliding (has their body against) with the pedestal with this upgrade.The speed enchant increases how fast it pulls xp and capacity enchant will increase how many levels itll absorb at one time.--]"
+				"与磁铁升级相似,只是它会&a收集xp&f,并将其保存在其内部缓冲中。 它还将从一个与基座相邻(身体与基座相邻)的玩家那里吸收xp。 速度附魔会增加它吸收xp的速度,容量附魔会增加它一次吸收的数量."
 				""
-				"您需要将另一个经验升级(如&b经验储罐&f)连接到此升级中,以便将等级转移出去,因为缓冲最多可存储 30 个等级.[--You need to connect another exp upgrade, like the &bExp Tank&f to this upgrade in order to transfer the levels out, as the buffer maxes at 30 levels of storage.--]"
+				"您需要将另一个经验升级(如&b经验储罐&f)连接到此升级中,以便将等级转移出去,因为缓冲最多可存储 30 个等级."
 				""
-				"&b经验砂轮&f需要其下方有一个库存,此升级将从下方的背包中提取附魔物品,并磨下附魔,将未附魔的物品放在基座中等待移除。 被“移除”的附魔被转换成经验,并将存储在升级的内部缓冲中,可以通过将其连接到另一个消耗或存储经验的经验升级来提取.[--&bExp Grindstone&f requires an inventory below it, this upgrade will pull enchanted items out of the inventory below it and grind the enchant off leaving the unenchanted item in the pedestal to be removed. The enchants that got \"ground\" off are converted into xp and will be stored in the upgrades internal buffer, which can be extracted by connecting it to another exp upgrade that consumes or stores xp.--]"
+				"&b经验砂轮&f需要其下方有一个库存,此升级将从下方的背包中提取附魔物品,并磨下附魔,将未附魔的物品放在基座中等待移除。 被“移除”的附魔被转换成经验,并将存储在升级的内部缓冲中,可以通过将其连接到另一个消耗或存储经验的经验升级来提取."
 			]
 			dependencies: ["71C0556DED31352E"]
 			size: 1.6d
 			min_width: 300
 			id: "07F19EABD2ACC992"
-			tasks: [
-				{
-					id: "7EB96F2D89CC026D"
-					type: "item"
-					title: "经验输入[--XP Input--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/xpmagnet"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/xpgrindstone"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "7EB96F2D89CC026D"
+				type: "item"
+				title: "经验输入"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpmagnet"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpgrindstone"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "1A34C19D8CD29EF5"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "1A34C19D8CD29EF5"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 3.5d
 			y: -6.5d
 			shape: "diamond"
 			description: [
-				"&a装瓶机&f会从“基座下方”容器中提取空瓶,装满,将经验瓶输出到基座.[--&aThe bottler &fwill pull empty bottles from the inventory 'below' the pedestal, fill them, outputting the bottle of experience to the pedestal.--]"
+				"&a装瓶机&f会从“基座下方”容器中提取空瓶,装满,将经验瓶输出到基座."
 				""
-				"&b经验投掷器&f的工作原理类似于物品投掷器,只是它会掉落经验。将其连接到经验源,当其没有由红石充能时,它将在世界中掉落经验球以被拾取.[--&bExp Dropper &fworks similar to the Item Dropper, except it drops xp. Connect it to an exp source and when its not powered by redstone it will drop xp orbs in world to be picked up.--]"
+				"&b经验投掷器&f的工作原理类似于物品投掷器,只是它会掉落经验。将其连接到经验源,当其没有由红石充能时,它将在世界中掉落经验球以被拾取."
 			]
 			dependencies: ["07F19EABD2ACC992"]
 			id: "72CF41807BBA9033"
-			tasks: [
-				{
-					id: "65B5289E356B18C3"
-					type: "item"
-					title: "经验输出[--XP Output--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/xpbottler"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/xpdropper"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "65B5289E356B18C3"
+				type: "item"
+				title: "经验输出"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/xpbottler"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/xpdropper"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3B19FF451C120C32"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "3B19FF451C120C32"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 4.0d
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"&5经验附魔器&f类似于普通的附魔台,该附魔器需要书架,或一些具有附魔力的方块放置在它周围,只是,它可以从堆叠 3 个高的书架中获得附魔力.[--&5Exp Enchanter &fis similar to a normal enchanting table, this enchanter requires book shelves, or some block with enchanting power to be placed around it, the exception is, it can receive enchanting power from book shelves stacked 3 high.--]"
+				"&5经验附魔器&f类似于普通的附魔台,该附魔器需要书架,或一些具有附魔力的方块放置在它周围,只是,它可以从堆叠 3 个高的书架中获得附魔力."
 				""
-				"这意味着一个完全粉碎的附魔基座可以只使用原版书架进行96级的附魔。 附魔师将一直尝试在最大等级的附魔物品,因此如果想将其附魔低于最大附魔设置,则需要一些系统将书架移出范围。 由于这个附魔师在水下工作,附魔师和书架之间的火把不会降低附魔等级.[--This means a fully sorrounded enchanting pedestal can enchant at level 96 using only vanilla book shelves.The enchanter will always try to enchant items at the maximum level it can, so some system to move bookshelves out of range would be needed if one wants to enchant below their maximum enchanting setup. Due to this enchanter working under water, torches between the enchanter and bookshelves do not decrease the enchantment level.--]"
+				"这意味着一个完全粉碎的附魔基座可以只使用原版书架进行96级的附魔。 附魔师将一直尝试在最大等级的附魔物品,因此如果想将其附魔低于最大附魔设置,则需要一些系统将书架移出范围。 由于这个附魔师在水下工作,附魔师和书架之间的火把不会降低附魔等级."
 			]
 			dependencies: ["07F19EABD2ACC992"]
 			min_width: 250
 			id: "1B3C0DDDD3F90F61"
-			tasks: [
-				{
-					id: "63102E9CAF4EC3EA"
-					type: "item"
-					title: "附魔升级[--Enchanter Upgrade--]"
-					item: "pedestals:coin/xpenchanter"
-				}
-			]
-			rewards: [
-				{
-					id: "2193E2B0BFD68330"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "63102E9CAF4EC3EA"
+				type: "item"
+				title: "附魔升级"
+				item: "pedestals:coin/xpenchanter"
+			}]
+			rewards: [{
+				id: "2193E2B0BFD68330"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 4.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["&6经验铁砧&f可以使用存储的经验在“底部”修复库存中的物品,修复成本类似于修补附魔.[--&6Exp anvil &fcan repair items in the inventory 'below' using its stored xp, the repair cost is similar to the mending enchantment.--]"]
+			description: ["&6经验铁砧&f可以使用存储的经验在“底部”修复库存中的物品,修复成本类似于修补附魔."]
 			dependencies: ["07F19EABD2ACC992"]
 			id: "15A70F0575328EAA"
-			tasks: [
-				{
-					id: "58FFAB4FB5A018D4"
-					type: "item"
-					title: "经验铁砧[--XP Anvil--]"
-					item: "pedestals:coin/xpanvil"
-				}
-			]
-			rewards: [
-				{
-					id: "01122B85A57E87D3"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "58FFAB4FB5A018D4"
+				type: "item"
+				title: "经验铁砧"
+				item: "pedestals:coin/xpanvil"
+			}]
+			rewards: [{
+				id: "01122B85A57E87D3"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 2.0d
@@ -684,94 +608,78 @@
 				"07F19EABD2ACC992"
 			]
 			id: "7910805C2F285303"
-			tasks: [
-				{
-					id: "6F7511B86CC72D50"
-					type: "item"
-					title: "流体到经验的转换[--Fluid to XP Conversion--]"
-					item: "pedestals:coin/fluidxpconverter"
-				}
-			]
-			rewards: [
-				{
-					id: "4067978F700FB348"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "6F7511B86CC72D50"
+				type: "item"
+				title: "流体到经验的转换"
+				item: "pedestals:coin/fluidxpconverter"
+			}]
+			rewards: [{
+				id: "4067978F700FB348"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 0.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["&3泵流体从工作区域&f输入到内部的缓冲中。如果基座有物品,它会用提供的方块替换泵空格[--&3Pumps fluids &ffrom its work area and into its internal buffer. If the pedestal has items in it, it will replace the pumped spaces with the provided blocks--]"]
+			description: ["&3泵流体从工作区域&f输入到内部的缓冲中。如果基座有物品,它会用提供的方块替换泵空格"]
 			dependencies: ["0CA6ADB72FE2E00B"]
 			id: "043F0CD98510E950"
-			tasks: [
-				{
-					id: "7F5B08237DEF236A"
-					type: "item"
-					title: "流体泵升级[--Fluid Pump Upgrade--]"
-					item: "pedestals:coin/fluidpump"
-				}
-			]
-			rewards: [
-				{
-					id: "6EE543DF5404AF63"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "7F5B08237DEF236A"
+				type: "item"
+				title: "流体泵升级"
+				item: "pedestals:coin/fluidpump"
+			}]
+			rewards: [{
+				id: "6EE543DF5404AF63"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: 0.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["将流体从内部缓冲放置到世界中.[--Places fluids from its internal buffer into the world.--]"]
+			description: ["将流体从内部缓冲放置到世界中."]
 			dependencies: ["0CA6ADB72FE2E00B"]
 			id: "6BAE87C49ED936A0"
-			tasks: [
-				{
-					id: "049205E38F350711"
-					type: "item"
-					title: "流体排液升级[--Fluid Drain Upgrade--]"
-					item: "pedestals:coin/fluiddrain"
-				}
-			]
-			rewards: [
-				{
-					id: "68E9009711E50432"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "049205E38F350711"
+				type: "item"
+				title: "流体排液升级"
+				item: "pedestals:coin/fluiddrain"
+			}]
+			rewards: [{
+				id: "68E9009711E50432"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -0.5d
 			y: -6.5d
 			shape: "diamond"
 			description: [
-				"需要在基座下方有一个库存,用于空桶输入。 此升级将在该区域寻找牛,并将挤奶它们,将输入箱中的任何桶填满,将满桶放入基座中等待转移出.[--Needs an inventory below the pedestal for empty bucket inputs. This upgrade looks for cows in the area and will milk them, filling any buckts in the input chest, and putting the full buckets in the pedestal to be transferred out.--]"
+				"需要在基座下方有一个库存,用于空桶输入。 此升级将在该区域寻找牛,并将挤奶它们,将输入箱中的任何桶填满,将满桶放入基座中等待转移出."
 				""
-				"升级范围可以扩展具有大型草场的奶牛场,但由于原版牛可以无限挤奶,1头靠近默认范围内的基座的奶牛就是需要的.[--The upgrades range can be extended for dairy farms with large pastures, but due to how vanilla cows can be milked indefinitely, 1 cow near the pedestal at default range is all thats necessary.--]"
+				"升级范围可以扩展具有大型草场的奶牛场,但由于原版牛可以无限挤奶,1头靠近默认范围内的基座的奶牛就是需要的."
 			]
 			dependencies: ["0CA6ADB72FE2E00B"]
 			id: "497463A6D8A0B3CB"
-			tasks: [
-				{
-					id: "4AD367BB08CB9E06"
-					type: "item"
-					title: "挤奶升级[--Milker Upgrade--]"
-					item: "pedestals:coin/milker"
-				}
-			]
-			rewards: [
-				{
-					id: "0ACE19FBE2F4CDEA"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "4AD367BB08CB9E06"
+				type: "item"
+				title: "挤奶升级"
+				item: "pedestals:coin/milker"
+			}]
+			rewards: [{
+				id: "0ACE19FBE2F4CDEA"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -2.0d
@@ -783,60 +691,56 @@
 				"0CA6ADB72FE2E00B"
 			]
 			id: "38BD5E8DF40AC9D6"
-			tasks: [
-				{
-					id: "2FF682BC3B6EA9C4"
-					type: "item"
-					title: "合成升级[--Crafting Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/compactor2"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/compactor3"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/crafter1"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/crafter2"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/crafter3"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fluidcrafter1"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fluidcrafter2"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fluidcrafter3"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "2FF682BC3B6EA9C4"
+				type: "item"
+				title: "合成升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/compactor2"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/compactor3"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/crafter1"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/crafter2"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/crafter3"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidcrafter1"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidcrafter2"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fluidcrafter3"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7CDC9576DCE8423B"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "7CDC9576DCE8423B"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.5d
@@ -844,76 +748,68 @@
 			shape: "diamond"
 			dependencies: ["6F4399BA259FD31B"]
 			id: "167329D561B615D4"
-			tasks: [
-				{
-					id: "6D512E5C8138EC5D"
-					type: "item"
-					title: "农业升级[--Farming Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/planter"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/grower"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/harvester"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/chopper"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/choppershrooms"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "6D512E5C8138EC5D"
+				type: "item"
+				title: "农业升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/planter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/grower"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/harvester"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/chopper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/choppershrooms"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "4AD2559B0593DA39"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "4AD2559B0593DA39"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -4.0d
 			y: -6.0d
 			shape: "diamond"
 			description: [
-				"将其放入基座中以在基座中生成圆石,一旦基座中有一整组,它会缓冲其余的。 最大缓冲量约为 23 亿。 由于基座中已经有一组圆石,你通常不能自己将圆石添加到缓冲中,如果你想在基座中存储圆石(比如当你去挖矿并且有一吨圆石时),你可以使用“Q”键(默认)将圆石放入基座上,或者从你的背包中右键取出,这样它们就会掉在基座上而不是[--Slot this in a pedestal to generate cobblestone in the pedestal, once there is a full stack in the pedestal it will buffer the rest. The maximum amount of buffer is around 2.3 billion. Because there is already a stack in the pedestal you can't add cobble to the buffer yourself normally, if you want to store cobble in the pedestal (like when you've gone mining and have a ton of cobble) you can drop the cobble onto the pedestal using 'Q' key (default) or pulling stacks out of your inventory right infront of the pedestal so they fall on it and not on the ground.--]"
+				"将其放入基座中以在基座中生成圆石,一旦基座中有一整组,它会缓冲其余的。 最大缓冲量约为 23 亿。 由于基座中已经有一组圆石,你通常不能自己将圆石添加到缓冲中,如果你想在基座中存储圆石(比如当你去挖矿并且有一吨圆石时),你可以使用“Q”键(默认)将圆石放入基座上,或者从你的背包中右键取出,这样它们就会掉在基座上而不是"
 				""
-				"使用&5经验铁砧&f,你可以用精准采集附魔,这将产生石头而不是圆石.[--Using the &5Exp Anvil&f you can enchant the upgrade with silktouch, which will generate stone instead of cobble.--]"
+				"使用&5经验铁砧&f,你可以用精准采集附魔,这将产生石头而不是圆石."
 			]
 			dependencies: ["6F4399BA259FD31B"]
 			min_width: 250
 			id: "14B4A0702420E481"
-			tasks: [
-				{
-					id: "1F231C905DAD5EA3"
-					type: "item"
-					title: "圆石发电机升级[--Cobble Generator Upgrade--]"
-					item: "pedestals:coin/cobble"
-				}
-			]
-			rewards: [
-				{
-					id: "714AA4E4809B28A3"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "1F231C905DAD5EA3"
+				type: "item"
+				title: "圆石发电机升级"
+				item: "pedestals:coin/cobble"
+			}]
+			rewards: [{
+				id: "714AA4E4809B28A3"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -4.5d
@@ -921,40 +817,36 @@
 			shape: "diamond"
 			dependencies: ["6F4399BA259FD31B"]
 			id: "32C6A0D15E78114C"
-			tasks: [
-				{
-					id: "4E3F510308D4B14E"
-					type: "item"
-					title: "处理升级[--Manipulation Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/dropper"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/placer"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/breaker"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "4E3F510308D4B14E"
+				type: "item"
+				title: "处理升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/dropper"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/placer"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/breaker"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "5AC3C6C8A7FC1937"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "5AC3C6C8A7FC1937"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -4.5d
@@ -962,177 +854,157 @@
 			shape: "diamond"
 			dependencies: ["6F4399BA259FD31B"]
 			id: "059FAF99484C860F"
-			tasks: [
-				{
-					id: "2F7B191F52EAAFF4"
-					type: "item"
-					title: "怪物农业[--Mob Farming--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/attack"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/fan"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/magnet"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "2F7B191F52EAAFF4"
+				type: "item"
+				title: "怪物农业"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/attack"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/fan"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/magnet"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2FE801CFA7730349"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "2FE801CFA7730349"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -3.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["就像普通的采石场升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料.[--Just like the Normal Quarry Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used.--]"]
+			description: ["就像普通的采石场升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料."]
 			dependencies: ["6F4399BA259FD31B"]
 			id: "5935171F0132CF70"
-			tasks: [
-				{
-					id: "55B9BABC73CB1113"
-					type: "item"
-					title: "采石场升级[--Quarry Upgrade--]"
-					item: "pedestals:coin/quarry"
-				}
-			]
-			rewards: [
-				{
-					id: "0AC3E753EE0EA246"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			tasks: [{
+				id: "55B9BABC73CB1113"
+				type: "item"
+				title: "采石场升级"
+				item: "pedestals:coin/quarry"
+			}]
+			rewards: [{
+				id: "0AC3E753EE0EA246"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -7.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["就像普通的熔炉升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料.[--Just like the Normal Furnace Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used.--]"]
+			description: ["就像普通的熔炉升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料."]
 			dependencies: ["323C2D29AD2483B1"]
 			id: "3A759F5B5FFFD73F"
-			tasks: [
-				{
-					id: "3D7559192EE4F5FF"
-					type: "item"
-					title: "熔炼升级[--Smelting Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/smelter"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/rfsmelter"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "3D7559192EE4F5FF"
+				type: "item"
+				title: "熔炼升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/smelter"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsmelter"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "66DC9E7EA9816449"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "66DC9E7EA9816449"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -8.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["就像普通的粉碎升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料.[--Just like the Normal Crusher Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used.--]"]
+			description: ["就像普通的粉碎升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料."]
 			dependencies: ["323C2D29AD2483B1"]
 			id: "1708C1453DF45949"
-			tasks: [
-				{
-					id: "2BB3E91ED7493B3E"
-					type: "item"
-					title: "粉碎升级[--Crusher Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/crusher"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/rfcrusher"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "2BB3E91ED7493B3E"
+				type: "item"
+				title: "粉碎升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/crusher"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfcrusher"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "18BEC28E66203FC1"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "18BEC28E66203FC1"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -8.5d
 			y: -6.5d
 			shape: "diamond"
-			description: ["就像普通的锯木升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料.[--Just like the Normal Sawmill Upgrade, except you need to connect it to the PEN as it'll consume energy and not require solid fuel to be used.--]"]
+			description: ["就像普通的锯木升级一样,除了你需要把它连接到基座能量网络上,因为它会消耗能量并且不需要使用固体燃料."]
 			dependencies: ["323C2D29AD2483B1"]
 			id: "488E843694678903"
-			tasks: [
-				{
-					id: "7C3DD60B50E88AA7"
-					type: "item"
-					title: "锯木升级[--Sawmill Upgrades--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/sawmill"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/rfsawmill"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "7C3DD60B50E88AA7"
+				type: "item"
+				title: "锯木升级"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/sawmill"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfsawmill"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "5FDACBA174CBDA92"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "5FDACBA174CBDA92"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 		{
 			x: -6.0d
@@ -1141,36 +1013,32 @@
 			hide_dependency_lines: true
 			dependencies: ["323C2D29AD2483B1"]
 			id: "242A0EA1D1F55204"
-			tasks: [
-				{
-					id: "6314A1F5BF66E355"
-					type: "item"
-					title: "FE发电机[--FE Generators--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "pedestals:coin/rffuelgen"
-									Count: 1b
-								}
-								{
-									id: "pedestals:coin/rfexpgen"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "6314A1F5BF66E355"
+				type: "item"
+				title: "FE发电机"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "pedestals:coin/rffuelgen"
+								Count: 1b
+							}
+							{
+								id: "pedestals:coin/rfexpgen"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "642DD12463787F25"
-					type: "random"
-					table_id: 5535491811443382877L
-				}
-			]
+			}]
+			rewards: [{
+				id: "642DD12463787F25"
+				type: "random"
+				table_id: 5535491811443382877L
+			}]
 		}
 	]
 }

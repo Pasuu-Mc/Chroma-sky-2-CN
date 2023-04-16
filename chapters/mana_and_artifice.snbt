@@ -3,7 +3,7 @@
 	group: "258B5ED587988A28"
 	order_index: 1
 	filename: "mana_and_artifice"
-	title: "魔力和工艺[--Mana and Artifice--]"
+	title: "魔力和工艺"
 	icon: "mana-and-artifice:guide_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -122,47 +122,43 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "hexagon"
-			description: ["要开始模组,您&4必须右键单击电钻台&r.[--To start the mod you &4MUST RIGHT CLICK WITH THE BOOK&r.--]"]
+			description: ["要开始模组,您&4必须右键单击电钻台&r."]
 			dependencies: ["22999033333BCA2C"]
 			id: "49766DA502FA3CE3"
-			tasks: [
-				{
-					id: "4B231D4E67358D4C"
-					type: "item"
-					item: "mana-and-artifice:guide_book"
-				}
-			]
-			rewards: [
-				{
-					id: "6CF72F8A6B4F81D9"
-					type: "item"
-					item: "minecraft:lectern"
-				}
-			]
+			tasks: [{
+				id: "4B231D4E67358D4C"
+				type: "item"
+				item: "mana-and-artifice:guide_book"
+			}]
+			rewards: [{
+				id: "6CF72F8A6B4F81D9"
+				type: "item"
+				item: "minecraft:lectern"
+			}]
 		}
 		{
 			x: 0.0d
 			y: -0.5d
 			description: [
-				"Occulus告诉玩家什么等级、物品、法术、仪式,它们已经解锁,以及玩家需要完成什么才能进入下一个等级.[--Occulus tells the player what Tier, Items, Spells, Rituals, they have unlocked and what the player need to complete to advance to the next Tier.--]"
+				"Occulus告诉玩家什么等级、物品、法术、仪式,它们已经解锁,以及玩家需要完成什么才能进入下一个等级."
 				""
-				"您的等级显示在 GUI 的右上角.[--Your Tier is displayed at the top right of the GUI.--]"
+				"您的等级显示在 GUI 的右上角."
 				""
-				"GUI 右侧是一格,可以告诉玩家他们需要完成哪些目标才能进入下一个等级.[--On the right of the GUI is a bar that tells the player what objectives they need to complete to advance to the next Tier.--]"
+				"GUI 右侧是一格,可以告诉玩家他们需要完成哪些目标才能进入下一个等级."
 				""
-				"&5魔法&r:列出所有解锁的法术形状、组件和升级.[--&5Sorcery&r : Lists all of the spell Shapes, Components, and Modifiers that are unlocked.--]"
+				"&5魔法&r:列出所有解锁的法术形状、组件和升级."
 				""
-				"&5仪式&r:列出所有解锁的仪式.[--&5Rituals&r : Lists all of the Rituals that are unlocked.--]"
+				"&5仪式&r:列出所有解锁的仪式."
 				""
-				"&5魔源样板&r:列出所有解锁的魔源样板.[--&5Manaweave Patterns&r : Lists all of the Manaweave Patterns that are unlocked.--]"
+				"&5魔源样板&r:列出所有解锁的魔源样板."
 				""
-				"&5魔力合成&r:列出解锁的魔力祭坛的所有制作配方.[--&5Manaweave Crafting&r : Lists all of the all of the crafting recipes for the Manaweave Altar that are unlocked.--]"
+				"&5魔力合成&r:列出解锁的魔力祭坛的所有制作配方."
 				""
-				"&5印记机&r:列出所有解锁的符文印记样板.[--&5Runescribing&r : Lists all of the Runescribing Patterns that are unlocked.--]"
+				"&5印记机&r:列出所有解锁的符文印记样板."
 				""
-				"&5精炼机&r:列出所有解锁符文的符文.[--&5Runesmithing&r : Lists all of the Runes that are unlocked.--]"
+				"&5精炼机&r:列出所有解锁符文的符文."
 				""
-				"&5附魔&r:列出所有被解锁的附魔.[--&5Enchantments&r : Lists all of the Enchantments that are unlocked.--]"
+				"&5附魔&r:列出所有被解锁的附魔."
 			]
 			dependencies: [
 				"49766DA502FA3CE3"
@@ -171,60 +167,56 @@
 			]
 			min_width: 300
 			id: "4D65C663D6E33AD1"
-			tasks: [
-				{
-					id: "5188E2343B5AE669"
-					type: "item"
-					item: "mana-and-artifice:occulus"
-				}
-			]
-			rewards: [
-				{
-					id: "4078FB7FBE9759B5"
-					type: "item"
-					item: {
-						id: "minecraft:lingering_potion"
-						Count: 1b
-						tag: {
-							Potion: "mana-and-artifice:superior_mana_potion"
-						}
+			tasks: [{
+				id: "5188E2343B5AE669"
+				type: "item"
+				item: "mana-and-artifice:occulus"
+			}]
+			rewards: [{
+				id: "4078FB7FBE9759B5"
+				type: "item"
+				item: {
+					id: "minecraft:lingering_potion"
+					Count: 1b
+					tag: {
+						Potion: "mana-and-artifice:superior_mana_potion"
 					}
 				}
-			]
+			}]
 		}
 		{
-			title: "&61级&7和&62[--&6Tier 1 &7→ &6Tier 2--]"
+			title: "&61级&7和&62"
 			icon: "mana-and-artifice:eldrin_rift"
 			x: 6.0d
 			y: -8.5d
 			description: [
-				"2级:[--Tier 2 :--]"
+				"2级:"
 				""
-				"要进入第2级,你需要执行几个任务,但不是全部,但至少需要 10 个,最多 12 个,你需要:[--To move to Tier 2, you will need to perform several tasks but not all, but a minimum of 10, for a maximum of 12, you will need to: --]"
+				"要进入第2级,你需要执行几个任务,但不是全部,但至少需要 10 个,最多 12 个,你需要:"
 				""
-				"- 施放法术[--• Cast a spell--]"
+				"- 施放法术"
 				""
-				"铸造 罐子(通过 魔力织魔杖 在空中抽取系列的符文,您可以通过使用 ctrl+右键单击来查看组合,您可以通过单击 罐子 下方的符文 右侧的小箭头来选择要绘制的符文)[--• Cast a cantrip (a sequence of symbols drawn in the air via the manaweaving wand, you can see the combinations by doing ctrl+right click you can select the symbols to be drawn by clicking on the little arrows right next to the symbol under the cantrip)--]"
+				"铸造 罐子(通过 魔力织魔杖 在空中抽取系列的符文,您可以通过使用 ctrl+右键单击来查看组合,您可以通过单击 罐子 下方的符文 右侧的小箭头来选择要绘制的符文)"
 				""
-				"制作一个1级仪式(您可以在编码器中看到它们,您只需按照制作中的提示将符文放在地上,然后用纯净的文teum粉右键单击仪式,以查看物品,然后再次右键单击以激活仪式)[--• Make a tier 1 ritual (you can see them in the codex, you just have to put the symbols on the ground as indicated on the craft, to activate the ritual you have to right click with a purified vinteum dust to see the items then right click again to activate the ritual)--]"
+				"制作一个1级仪式(您可以在编码器中看到它们,您只需按照制作中的提示将符文放在地上,然后用纯净的文teum粉右键单击仪式,以查看物品,然后再次右键单击以激活仪式)"
 				""
-				"- 搭建一个魔力祭坛[--• Create a manaweaving altar--]"
+				"- 搭建一个魔力祭坛"
 				""
-				"魔力转换器[--• Create a viteum manaweaving wand--]"
+				"魔力转换器"
 				""
-				"● 制造一个复杂的15级或更复杂的法术[--• Create a spell of complexity 15 or more--]"
+				"● 制造一个复杂的15级或更复杂的法术"
 				""
-				"制作一个刻板[--• Create an inscription table--]"
+				"制作一个刻板"
 				""
-				"用魔力祭坛制作[--• Craft something with a manaweaving altar--]"
+				"用魔力祭坛制作"
 				""
-				"用魔力魔杖画一个符文(在空中绘制时右键单击)[--• Draw a symbol with the manaweaving wand (right click while drawing in the air)--]"
+				"用魔力魔杖画一个符文(在空中绘制时右键单击)"
 				""
-				"达到 15 级的魔法(当您使用魔法时,这个等级会增加)[--• Reach a magic level of 15 (this level will increase as you use magic)--]"
+				"达到 15 级的魔法(当您使用魔法时,这个等级会增加)"
 				""
-				"使用骨羽护符[--• Use a bonefeather charm--]"
+				"使用骨羽护符"
 				""
-				"使用末影羽毛护符[--• Use an enderfeather charm--]"
+				"使用末影羽毛护符"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -238,99 +230,95 @@
 			]
 			min_width: 250
 			id: "13EEC00E8C0E74D3"
-			tasks: [
-				{
-					id: "21949E2CB8FDCE4C"
-					type: "checkmark"
-					title: "到达&5第2层[--Reaching &5Tier 2--]"
-				}
-			]
+			tasks: [{
+				id: "21949E2CB8FDCE4C"
+				type: "checkmark"
+				title: "到达&5第2层"
+			}]
 		}
 		{
-			title: "&62级&7级&r&6级 3[--&6Tier 2 &7→ &6Tier 3--]"
+			title: "&62级&7级&r&6级 3"
 			icon: "mana-and-artifice:eldrin_rift"
 			x: 16.0d
 			y: -8.0d
 			description: [
-				"3级:[--Tier 3 :--]"
+				"3级:"
 				""
-				"要进入第 3 层,你需要执行几个任务,但不是全部,但至少需要 11 个,最多 14 个,你需要:[--To move to Tier 3, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to: --]"
+				"要进入第 3 层,你需要执行几个任务,但不是全部,但至少需要 11 个,最多 14 个,你需要:"
 				""
-				"使用更改仪式为法术添加一个更改器[--• Add a modifier to a spell using the Ritual of Alteration--]"
+				"使用更改仪式为法术添加一个更改器"
 				""
-				"- 制作一台魔法的骨盆[--• Craft a Magic Broom--]"
+				"- 制作一台魔法的骨盆"
 				""
-				"铸一个2级的抽屉[--• Cast a tier 2 cantrip--]"
+				"铸一个2级的抽屉"
 				""
-				"制作一个魔力水晶[--• Craft a Mana Crystal--]"
+				"制作一个魔力水晶"
 				""
-				"制作一个魔力水晶碎片[--• Craft a mana crystal fragment--]"
+				"制作一个魔力水晶碎片"
 				""
-				"制作一个至少拥有 3 个木头或石头部件的建筑[--• Craft a construct with at least 3 wood or stone part--]"
+				"制作一个至少拥有 3 个木头或石头部件的建筑"
 				""
-				"- 制作一个复杂的35级或更多的法术[--• Craft a spell with complexity 35 or more--]"
+				"- 制作一个复杂的35级或更多的法术"
 				""
-				"- 制作一个未燃烧的符文板[--• Craft a unfired Rune plate--]"
+				"- 制作一个未燃烧的符文板"
 				""
-				"使用 6 个生物仪式 中的1 个合成元素方块[--• Craft a elemental mote using using one of the 6 mote ritual--]"
+				"使用 6 个生物仪式 中的1 个合成元素方块"
 				""
-				"具有一个激活的套装奖励(你至少需要佩戴3个法师套装)[--• Have an active set bonus (You will need to wear at least 3 part of the Mage Armor)--]"
+				"具有一个激活的套装奖励(你至少需要佩戴3个法师套装)"
 				""
-				"- 制作一个木炭印记,用符文刻上符文刻上符文铁砧[--• Make a charcoal print of a scribed rune ate the runic anvil--]"
+				"- 制作一个木炭印记,用符文刻上符文刻上符文铁砧"
 				""
-				"● 达到 30 级的魔法[--• Reach magic level 30--]"
+				"● 达到 30 级的魔法"
 				""
-				"- 符文锻造一个符文[--• Runeforge a rune--]"
+				"- 符文锻造一个符文"
 				""
-				"- 符文刻模具[--• Runescribe a rune Pattern--]"
+				"- 符文刻模具"
 			]
 			hide_dependency_lines: true
 			dependencies: ["1AF520BA592D90CD"]
 			min_width: 250
 			id: "4673AA05474E416E"
-			tasks: [
-				{
-					id: "7B4C7C4592917C6E"
-					type: "checkmark"
-					title: "到达&5第3层[--Reaching &5Tier 3--]"
-				}
-			]
+			tasks: [{
+				id: "7B4C7C4592917C6E"
+				type: "checkmark"
+				title: "到达&5第3层"
+			}]
 		}
 		{
-			title: "&6等级3&7&r&6等级4[--&6Tier 3 &7→ &6Tier 4--]"
+			title: "&6等级3&7&r&6等级4"
 			icon: "mana-and-artifice:eldrin_rift"
 			x: 10.5d
 			y: 7.0d
 			description: [
-				"4级:[--Tier 4 :--]"
+				"4级:"
 				""
-				"要升级到4级,你需要执行几个任务,但不是全部,但至少需要 11 个,最多 14 个,你需要:[--To move to Tier 4, you will need to perform several tasks but not all, but a minimum of 11, for a maximum of 14, you will need to:--]"
+				"要升级到4级,你需要执行几个任务,但不是全部,但至少需要 11 个,最多 14 个,你需要:"
 				""
-				"铸一个3级的抽屉[--• Cast a tier 3 cantrip--]"
+				"铸一个3级的抽屉"
 				""
-				"- 完成3级仪式[--• Complete a tier 3 ritual--]"
+				"- 完成3级仪式"
 				""
-				"制作一个至少拥有 3 个铁或金部件的机器[--• Craft a construct with at least 3 iron or gold parts--]"
+				"制作一个至少拥有 3 个铁或金部件的机器"
 				""
-				"- 制作一个复杂的55级或更多的法术[--• Craft a spell with complexity 55 or more--]"
+				"- 制作一个复杂的55级或更多的法术"
 				""
-				"- 制作一个巫师宝珠[--• Craft an Eldritch Orb--]"
+				"- 制作一个巫师宝珠"
 				""
-				"● 在魔力祭坛制作一个来自你的敌人的合成物品[--• Craft an artifact from your faction at the Manaweaving Altar--]"
+				"● 在魔力祭坛制作一个来自你的敌人的合成物品"
 				""
-				"- 用符文铁砧附魔一个物品[--• Enchant an item using the Runic Anvil--]"
+				"- 用符文铁砧附魔一个物品"
 				""
-				"● 找到下界要塞[--• Find a Nether Fortress--]"
+				"● 找到下界要塞"
 				""
-				"● 进行血染染仪式并完成结构[--• Perform a Sanctum Invcation ritual and complete the structure--]"
+				"● 进行血染染仪式并完成结构"
 				""
-				"距离世界10km 生成点[--• Reach 10km away from the world spawn--]"
+				"距离世界10km 生成点"
 				""
-				"- 提升魔法等级:45[--• Reach magic level 45--]"
+				"- 提升魔法等级:45"
 				""
-				"●到达下界[--• Reach the Nether --]"
+				"●到达下界"
 				""
-				"召唤&5凋灵&r[--• Summon a &5Wither&r--]"
+				"召唤&5凋灵&r"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -350,43 +338,41 @@
 			]
 			min_width: 250
 			id: "19C32614D8476285"
-			tasks: [
-				{
-					id: "2D63A37E0E1255CA"
-					type: "checkmark"
-					title: "到达&5第4层[--Reaching &5Tier 4--]"
-				}
-			]
+			tasks: [{
+				id: "2D63A37E0E1255CA"
+				type: "checkmark"
+				title: "到达&5第4层"
+			}]
 		}
 		{
-			title: "&64级&7和&65级[--&6Tier 4 &7→ &6Tier 5--]"
+			title: "&64级&7和&65级"
 			icon: "mana-and-artifice:eldrin_rift"
 			x: 15.0d
 			y: 0.0d
 			description: [
-				"5级:[--Tier 5 :--]"
+				"5级:"
 				""
-				"要进入第5级,你需要执行几个任务,但不是全部,但至少需要 9 个,最多 11 个,你需要:[--To move to Tier 5, you will need to perform several tasks but not all, but a minimum of 9, for a maximum of 11, you will need to: --]"
+				"要进入第5级,你需要执行几个任务,但不是全部,但至少需要 9 个,最多 11 个,你需要:"
 				""
-				"- 铸造4级抽屉[--• Cast a tier 4 cantrip--]"
+				"- 铸造4级抽屉"
 				""
-				"- 制作一个中继通道[--• Craft a Transitory Tunnel--]"
+				"- 制作一个中继通道"
 				""
-				"- 制作一个至少拥有 3 个黑石部件的机器[--• Craft a construct with at least 3 obsidian parts--]"
+				"- 制作一个至少拥有 3 个黑石部件的机器"
 				""
-				"制作一个复杂的 75 级或更多的法术[--• Craft a spell with complexity 75 or more--]"
+				"制作一个复杂的 75 级或更多的法术"
 				""
-				"- 使用符文铁砧附魔具有 III 级或更多附魔的物品[--• Enchant an item with an enchantment of level III or more using the Runic Anvil--]"
+				"- 使用符文铁砧附魔具有 III 级或更多附魔的物品"
 				""
-				"- 杀死末影龙[--• Kill the Ender Dragon--]"
+				"- 杀死末影龙"
 				""
-				"● 获得龙息[--• Obtain Dragon’s Breath--]"
+				"● 获得龙息"
 				""
-				"● 获得abletra[--• Obtain Elytra--]"
+				"● 获得abletra"
 				""
-				"末影魔法(60级)[--• Reach magic level 60--]"
+				"末影魔法(60级)"
 				""
-				"将符文锻造炉升级到 硫磺矿石锻造炉 使用 硫磺矿石护符[--• Upgrade a Runeforge to a Brimstone Forge using a Brimstone Charm--]"
+				"将符文锻造炉升级到 硫磺矿石锻造炉 使用 硫磺矿石护符"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -403,20 +389,18 @@
 				"0D3E0C66CF130ED8"
 			]
 			id: "38EF232690208FB4"
-			tasks: [
-				{
-					id: "0301E3DD744FD467"
-					type: "checkmark"
-					title: "到达&5第5层[--Reaching &5Tier 5--]"
-				}
-			]
+			tasks: [{
+				id: "0301E3DD744FD467"
+				type: "checkmark"
+				title: "到达&5第5层"
+			}]
 		}
 		{
 			x: 11.0d
 			y: 6.0d
 			description: [
-				"Eldrin的祭坛是制作你只需要一种新资源(请查看下一个任务以了解如何找到它)。[--The Eldrin's altar is a new way to craft you will just need a new resource the Wellspring (see the next quest to know how to find it).--]"
-				"您可以查看如何将祭坛放置在&5编码&r中.[--You can see how to place the altar in the &5codex&r.--]"
+				"Eldrin的祭坛是制作你只需要一种新资源(请查看下一个任务以了解如何找到它)。"
+				"您可以查看如何将祭坛放置在&5编码&r中."
 			]
 			dependencies: ["19C32614D8476285"]
 			id: "708365E2F99D6FA3"
@@ -433,74 +417,62 @@
 					count: 8L
 				}
 			]
-			rewards: [
-				{
-					id: "7B2C7F244C00627F"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "7B2C7F244C00627F"
+				type: "random"
+			}]
 		}
 		{
 			x: -1.5d
 			y: -6.5d
 			shape: "hexagon"
-			description: ["要获得&e洗矿机&r,请右键单击&b水&r并按住&6集水机&r.[--To obtain &eVellum&r, right-click on &bWater&r while holding &6Leather&r.--]"]
+			description: ["要获得&e洗矿机&r,请右键单击&b水&r并按住&6集水机&r."]
 			hide_dependency_lines: true
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "3F20415ED705FE0B"
-			tasks: [
-				{
-					id: "1B65433B8677483E"
-					type: "item"
-					item: "mana-and-artifice:vellum"
-				}
-			]
-			rewards: [
-				{
-					id: "614566D75A22359A"
-					type: "item"
-					item: "mana-and-artifice:vellum"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "1B65433B8677483E"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+			}]
+			rewards: [{
+				id: "614566D75A22359A"
+				type: "item"
+				item: "mana-and-artifice:vellum"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
 			y: -7.5d
 			shape: "hexagon"
 			description: [
-				"&1配方表&r是用&5魔力&r和神器&r添加的合成站。用来制作&5魔力&r配方.[--&1The Inscription Table&r is a crafting station added by &5Mana and Artifice&r. It is used to create &5spell&r recipes.--]"
+				"&1配方表&r是用&5魔力&r和神器&r添加的合成站。用来制作&5魔力&r配方."
 				""
-				"&5输入台&r GUI 左上角有 3 个插槽。 最左侧插槽用于&1魔法师墨水&r,中间用于&d Velum&r,右侧用于&d奥术灰烬&r.[--• &5The Inscription Table&r has 3 slots in the top left corner of the GUI. The leftmost slot is for &1Arcanist Ink&r, the middle for &dVellum&r, and the rightmost for &dArcane Ash&r.--]"
+				"&5输入台&r GUI 左上角有 3 个插槽。 最左侧插槽用于&1魔法师墨水&r,中间用于&d Velum&r,右侧用于&d奥术灰烬&r."
 				""
-				"GUI 的左侧是法术选择。 有三种法术选择:&c皮肤&r,&6组件&r,和&e升级&r.[--• On the left of the GUI are spell options. There are three type of spell options: &cShapes&r, &6Components&r, and &eModifiers&r.--]"
+				"GUI 的左侧是法术选择。 有三种法术选择:&c皮肤&r,&6组件&r,和&e升级&r."
 				""
-				"GUI 中间有 5 个插槽,可容纳&d魔符选项&r。 配方可以容纳&c1 形状&r,&61组件&r,和&e3 升级&r。 &c碎片&r 影响着&d术&r的施放方式,例如光束、触摸或自我。 &6 组件&r 影响着&d魔符&r 的功能,例如火力伤害、治疗或挖掘.&e升级&r 影响着&d术&r 的属性,例如[--• There are five slots in the middle of the GUI that hold &dspell options&r. A recipe can hold &c1 Shape&r, &61 Component&r, and &e3 Modifiers&r. &cShapes&r affect how the &dspell&r is cast, such as a beam, by touch, or on one's self. &6Components&r affect what the &dspell&r does, such as fire damage, healing, or digging. &eModifiers&r affect the properties of the &dspell&r, such as extending the range, duration, or potency.--]"
+				"GUI 中间有 5 个插槽,可容纳&d魔符选项&r。 配方可以容纳&c1 形状&r,&61组件&r,和&e3 升级&r。 &c碎片&r 影响着&d术&r的施放方式,例如光束、触摸或自我。 &6 组件&r 影响着&d魔符&r 的功能,例如火力伤害、治疗或挖掘.&e升级&r 影响着&d术&r 的属性,例如"
 				""
-				"单击选项将它们添加到配方中;必须选择至少一个&c形状&r和&6组件&r。要调整&mo化器&r设置,请选择一个&e化器&r,然后单击&e箭头&r,它们看起来会增加或降低所需的属性.[--• Clicking on the options adds them to the recipe; at least one &cshape&r and &6component&r must be selected.To adjust &emodifier&r settings select a &emodifier&r and click on the &eyellow arrows&r that appear to increase or lower the desired property.--]"
+				"单击选项将它们添加到配方中;必须选择至少一个&c形状&r和&6组件&r。要调整&mo化器&r设置,请选择一个&e化器&r,然后单击&e箭头&r,它们看起来会增加或降低所需的属性."
 				""
-				"GUI 的右侧显示&2复杂&r、&b魔力成本&r、&a笔记表成本&r和所需的&3魔法组件&r。每种配方都需要一定的&1魔法墨水&r、&d胶水&r和&d奥术粉末&r。&1魔法师墨水&r具有一个将降低的耐久,而&d Velum 和 Acane Ash&r 被消耗.[--• On the right-hand side of the GUI the &2complexity&r, &bmana cost&r, &ainscription table costs&r and required &3spell components&r are displayed. Each recipe will cost a certain amount of &1Arcanist Ink&r, &dVellum&r, and&d Arcane Ash&r. &1Arcanist Ink&r has a durability that will be lowered, while &dVellum and Arcane Ash&r are consumed.--]"
+				"GUI 的右侧显示&2复杂&r、&b魔力成本&r、&a笔记表成本&r和所需的&3魔法组件&r。每种配方都需要一定的&1魔法墨水&r、&d胶水&r和&d奥术粉末&r。&1魔法师墨水&r具有一个将降低的耐久,而&d Velum 和 Acane Ash&r 被消耗."
 				""
-				"要完成配方,请单击 GUI 顶部的&2绿箭&r。 配方需要时间才能制作,在顶部显示进度条。 完成后,&5输入台&r将&d魔符&r存储在 GUI 的右上角.[--• To finish a recipe click the &2green arrow&r at the top of the GUI. Recipes take time to be crafted, which is shown with a progress bar along the top. When finished &5the Inscription Table&r deposits the &dspell&r recipe in the top-right corner of the GUI.--]"
+				"要完成配方,请单击 GUI 顶部的&2绿箭&r。 配方需要时间才能制作,在顶部显示进度条。 完成后,&5输入台&r将&d魔符&r存储在 GUI 的右上角."
 			]
 			dependencies: ["528078ED845A9B6D"]
 			min_width: 350
 			id: "2BDE562C12CC5DEB"
-			tasks: [
-				{
-					id: "017F8A9B26461902"
-					type: "item"
-					item: "mana-and-artifice:inscription_table"
-				}
-			]
-			rewards: [
-				{
-					id: "20AC098617A258E9"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "017F8A9B26461902"
+				type: "item"
+				item: "mana-and-artifice:inscription_table"
+			}]
+			rewards: [{
+				id: "20AC098617A258E9"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.5d
@@ -524,14 +496,12 @@
 					item: "mana-and-artifice:arcane_compound"
 				}
 			]
-			rewards: [
-				{
-					id: "4A3D7D0DAB89B4FE"
-					type: "item"
-					item: "mana-and-artifice:vinteum_dust"
-					count: 4
-				}
-			]
+			rewards: [{
+				id: "4A3D7D0DAB89B4FE"
+				type: "item"
+				item: "mana-and-artifice:vinteum_dust"
+				count: 4
+			}]
 		}
 		{
 			x: -2.5d
@@ -542,27 +512,23 @@
 				"3F20415ED705FE0B"
 			]
 			id: "528078ED845A9B6D"
-			tasks: [
-				{
-					id: "143A006AC03C044F"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:arcanist_ink"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "143A006AC03C044F"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:arcanist_ink"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "27E2F2942F818A51"
-					type: "item"
-					item: "mana-and-artifice:aum"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "27E2F2942F818A51"
+				type: "item"
+				item: "mana-and-artifice:aum"
+				count: 4
+			}]
 		}
 		{
 			x: -1.0d
@@ -570,126 +536,116 @@
 			shape: "hexagon"
 			dependencies: ["2BDE562C12CC5DEB"]
 			id: "5E72C0CD30B7B124"
-			tasks: [
-				{
-					id: "1BDC95FFA3FE7B47"
-					type: "item"
-					item: "mana-and-artifice:spell_book"
-				}
-			]
-			rewards: [
-				{
-					id: "2CEF9AE1D5A7B591"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:spell"
-						Count: 1b
-						tag: {
-							icon: 359
-							spell: {
-								components: [
-									{
-										attribute_0: "DELAY"
-										value_0: 0.0f
-										num_attributes: 1
-										resource_location: "mana-and-artifice:components/felled_oak"
-									}
-								]
-								overrideAffinity: "UNKNOWN"
-								shape: {
-									attribute_1: "RADIUS"
-									attribute_0: "RANGE"
-									value_0: 3.0f
-									value_1: 0.0f
-									num_attributes: 2
-									resource_location: "mana-and-artifice:shapes/touch"
-								}
-								modifiers: {
-									modifier_2: "mana-and-artifice:empty"
-									modifier_0: "mana-and-artifice:empty"
-									modifier_1: "mana-and-artifice:empty"
-								}
-								mysterious: 0b
+			tasks: [{
+				id: "1BDC95FFA3FE7B47"
+				type: "item"
+				item: "mana-and-artifice:spell_book"
+			}]
+			rewards: [{
+				id: "2CEF9AE1D5A7B591"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:spell"
+					Count: 1b
+					tag: {
+						icon: 359
+						spell: {
+							components: [{
+								attribute_0: "DELAY"
+								value_0: 0.0f
+								num_attributes: 1
+								resource_location: "mana-and-artifice:components/felled_oak"
+							}]
+							overrideAffinity: "UNKNOWN"
+							shape: {
+								attribute_1: "RADIUS"
+								attribute_0: "RANGE"
+								value_0: 3.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:shapes/touch"
 							}
-							ritual_reagent_data: {
-								pattern_count: 3
-								component_items_0: "minecraft:iron_axe"
-								shape_items_count: 4
-								pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
-								pattern_1: "mana-and-artifice:manaweave_patterns/square"
-								pattern_2: "mana-and-artifice:manaweave_patterns/triangle"
-								shape_items_0: "mana-and-artifice:infused_silk"
-								shape_items_3: "mana-and-artifice:vinteum_dust"
-								shape_items_1: "minecraft:feather"
-								component_items_2: "minecraft:logs"
-								shape_items_2: "minecraft:clay"
-								component_items_1: "minecraft:iron_axe"
-								complexity_reagent_count: 2
-								complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
-								component_items_count: 3
-								complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+							modifiers: {
+								modifier_2: "mana-and-artifice:empty"
+								modifier_0: "mana-and-artifice:empty"
+								modifier_1: "mana-and-artifice:empty"
 							}
-							display: {
-								Name: "{\"text\":\"Chop Chop\"}"
-							}
+							mysterious: 0b
+						}
+						ritual_reagent_data: {
+							pattern_count: 3
+							component_items_0: "minecraft:iron_axe"
+							shape_items_count: 4
+							pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
+							pattern_1: "mana-and-artifice:manaweave_patterns/square"
+							pattern_2: "mana-and-artifice:manaweave_patterns/triangle"
+							shape_items_0: "mana-and-artifice:infused_silk"
+							shape_items_3: "mana-and-artifice:vinteum_dust"
+							shape_items_1: "minecraft:feather"
+							component_items_2: "minecraft:logs"
+							shape_items_2: "minecraft:clay"
+							component_items_1: "minecraft:iron_axe"
+							complexity_reagent_count: 2
+							complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
+							component_items_count: 3
+							complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+						}
+						display: {
+							Name: "{\"text\":\"Chop Chop\"}"
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			x: 1.5d
 			y: 1.5d
 			shape: "hexagon"
 			description: [
-				"通量投影仪是用来帮助你自动化通量投影,但为了让它复制新的样板,你需要用通量投影机右键单击.[--The manaweave projector is here to help you automate the manaweaving, but to make it reproduce a new pattern you will need to right click with a manaweaving pattern.--]"
+				"通量投影仪是用来帮助你自动化通量投影,但为了让它复制新的样板,你需要用通量投影机右键单击."
 				""
-				"通关模式可以从特定的商人那里购买:&a流浪术士&r.[--The manaweaving pattern can be bought from a specific trader : &athe wandering wizard&r.--]"
+				"通关模式可以从特定的商人那里购买:&a流浪术士&r."
 				""
-				"&a流浪术士&r可以从流浪术士的&b仪式&r召唤.[--&aThe wandering wizard&r can be summoned from &bthe ritual of wandering wizard&r.--]"
+				"&a流浪术士&r可以从流浪术士的&b仪式&r召唤."
 			]
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "515EF3943ECD7DDB"
-			tasks: [
-				{
-					id: "3E08E5E9C2B894C9"
-					type: "item"
-					title: "通关魔力魔杖[--Manaweaving wand--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:improvised_manaweaver_wand"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
+			tasks: [{
+				id: "3E08E5E9C2B894C9"
+				type: "item"
+				title: "通关魔力魔杖"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:improvised_manaweaver_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:manaweaver_wand_advanced"
-									Count: 1b
+							}
+							{
+								id: "mana-and-artifice:manaweaver_wand_advanced"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:manaweaver_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:manaweaver_wand"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "7B803E1A8A21B7BA"
-					type: "item"
-					item: "mana-and-artifice:manaweave_projector"
-				}
-			]
+			}]
+			rewards: [{
+				id: "7B803E1A8A21B7BA"
+				type: "item"
+				item: "mana-and-artifice:manaweave_projector"
+			}]
 		}
 		{
 			x: -1.5d
@@ -700,42 +656,32 @@
 				"67BC8A5CBAF363F8"
 			]
 			id: "78F051756FD54991"
-			tasks: [
-				{
-					id: "68F9DAC565D488AD"
-					type: "item"
-					item: "mana-and-artifice:runeforge"
-				}
-			]
-			rewards: [
-				{
-					id: "7A560B5907A967FD"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "68F9DAC565D488AD"
+				type: "item"
+				item: "mana-and-artifice:runeforge"
+			}]
+			rewards: [{
+				id: "7A560B5907A967FD"
+				type: "random"
+			}]
 		}
 		{
 			x: 2.5d
 			y: -0.5d
 			shape: "hexagon"
-			description: ["要让你的合成工作将你的物品放入通关模式中并复制所需的模式.[--To make your craft place your item in the manaweaving pattern and reproduce the asked patterns.--]"]
+			description: ["要让你的合成工作将你的物品放入通关模式中并复制所需的模式."]
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "02628A32D083A95D"
-			tasks: [
-				{
-					id: "2A3389FC0CD9820E"
-					type: "item"
-					item: "mana-and-artifice:manaweaving_altar"
-				}
-			]
-			rewards: [
-				{
-					id: "7B8B6472AC0BE5DF"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "2A3389FC0CD9820E"
+				type: "item"
+				item: "mana-and-artifice:manaweaving_altar"
+			}]
+			rewards: [{
+				id: "7B8B6472AC0BE5DF"
+				type: "random"
+			}]
 		}
 		{
 			x: 1.5d
@@ -743,23 +689,19 @@
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "4691A19BAFA54576"
-			tasks: [
-				{
-					id: "345747F3471FC276"
-					type: "item"
-					item: "mana-and-artifice:construct_workbench"
-				}
-			]
+			tasks: [{
+				id: "345747F3471FC276"
+				type: "item"
+				item: "mana-and-artifice:construct_workbench"
+			}]
 			rewards: [
 				{
 					id: "6CB0B5B1ED449F90"
 					type: "random"
-					table_id: 21613284823098451L
 				}
 				{
 					id: "64472B52B0CDC5AE"
 					type: "random"
-					table_id: 7381842975596526002L
 				}
 			]
 		}
@@ -767,71 +709,60 @@
 			x: 6.0d
 			y: -13.5d
 			shape: "hexagon"
-			description: ["此物品是给机械师指令的.[--This item is here to give command to your robot.--]"]
+			description: ["此物品是给机械师指令的."]
 			dependencies: ["6687C08D2F544C4D"]
 			id: "32E4EADD98A8D491"
-			tasks: [
-				{
-					id: "7DDF7A62CEA81CCA"
-					type: "item"
-					item: "mana-and-artifice:lodestar"
-				}
-			]
-			rewards: [
-				{
-					id: "3C536B5E390F56B4"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "7DDF7A62CEA81CCA"
+				type: "item"
+				item: "mana-and-artifice:lodestar"
+			}]
+			rewards: [{
+				id: "3C536B5E390F56B4"
+				type: "random"
+			}]
 		}
 		{
 			x: -8.0d
 			y: -6.0d
 			shape: "hexagon"
 			description: [
-				"&d铁砧&r是用来把铸模转成物品的.[--The &dRunic Anvil&r is here to turn your cast into items.--]"
-				"把铸模放好然后你需要的物品,然后用锤子打开符文铁砧,直到你制作物品.[--Just place your cast then your requested item then hit the runic anvil with your hammer until your item is crafted.--]"
+				"&d铁砧&r是用来把铸模转成物品的."
+				"把铸模放好然后你需要的物品,然后用锤子打开符文铁砧,直到你制作物品."
 			]
 			dependencies: ["3CB541121BAD261F"]
 			id: "489D66AC806D8BF7"
-			tasks: [
-				{
-					id: "04AE63432F2ACB29"
-					type: "item"
-					item: "mana-and-artifice:runic_anvil"
-				}
-			]
-			rewards: [
-				{
-					id: "59C45B600DCBEB16"
-					type: "item"
-					item: "mana-and-artifice:superheated_vinteum_ingot"
-					count: 4
-				}
-			]
+			tasks: [{
+				id: "04AE63432F2ACB29"
+				type: "item"
+				item: "mana-and-artifice:runic_anvil"
+			}]
+			rewards: [{
+				id: "59C45B600DCBEB16"
+				type: "item"
+				item: "mana-and-artifice:superheated_vinteum_ingot"
+				count: 4
+			}]
 		}
 		{
 			x: -7.5d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
-				"使用符文刻印台,你就可以绘制&6路由样板&r[--With the Runescribing table you will be able to draw on a &6Rune Pattern&r--]"
-				"要工作,你需要放置一个锤子和一个来自 mod &5法力和工艺&r 的凿子[--To work you will need to place a hammer and a chisel from the mod &5mana and artifice&r--]"
-				"一些图纸会给你一些样板铸模。你需要它们来制作一些物品.[--Some of your drawings will give you some pattern cast. You will need them to craft some items.--]"
+				"使用符文刻印台,你就可以绘制&6路由样板&r"
+				"要工作,你需要放置一个锤子和一个来自 mod &5法力和工艺&r 的凿子"
+				"一些图纸会给你一些样板铸模。你需要它们来制作一些物品."
 			]
 			dependencies: [
 				"44AF16FDCA3DFE4D"
 				"007BAD2E799D3D20"
 			]
 			id: "2A010874B1F1D042"
-			tasks: [
-				{
-					id: "136FB3B3A26C3BD9"
-					type: "item"
-					item: "mana-and-artifice:runescribing_table"
-				}
-			]
+			tasks: [{
+				id: "136FB3B3A26C3BD9"
+				type: "item"
+				item: "mana-and-artifice:runescribing_table"
+			}]
 			rewards: [
 				{
 					id: "124A48D2E43DC5B8"
@@ -864,20 +795,16 @@
 			hide_dependency_lines: true
 			dependencies: ["78F051756FD54991"]
 			id: "44AF16FDCA3DFE4D"
-			tasks: [
-				{
-					id: "6AFBEBFE734996B3"
-					type: "item"
-					item: "mana-and-artifice:rune_clay_plate"
-				}
-			]
-			rewards: [
-				{
-					id: "4C36556F112DB59A"
-					type: "item"
-					item: "mana-and-artifice:rune_clay_plate"
-				}
-			]
+			tasks: [{
+				id: "6AFBEBFE734996B3"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
+			rewards: [{
+				id: "4C36556F112DB59A"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
 		}
 		{
 			x: -6.0d
@@ -886,20 +813,16 @@
 			hide_dependency_lines: true
 			dependencies: ["78F051756FD54991"]
 			id: "007BAD2E799D3D20"
-			tasks: [
-				{
-					id: "4C3B67E31926A5BE"
-					type: "item"
-					item: "mana-and-artifice:rune_pattern"
-				}
-			]
-			rewards: [
-				{
-					id: "44E85FE087A4040C"
-					type: "item"
-					item: "mana-and-artifice:rune_pattern"
-				}
-			]
+			tasks: [{
+				id: "4C3B67E31926A5BE"
+				type: "item"
+				item: "mana-and-artifice:rune_pattern"
+			}]
+			rewards: [{
+				id: "44E85FE087A4040C"
+				type: "item"
+				item: "mana-and-artifice:rune_pattern"
+			}]
 		}
 		{
 			x: -6.5d
@@ -907,20 +830,16 @@
 			shape: "hexagon"
 			dependencies: ["2A010874B1F1D042"]
 			id: "3CB541121BAD261F"
-			tasks: [
-				{
-					id: "2C0B7EA1A8D96A08"
-					type: "item"
-					item: "chromasky:pattern_mundane_cast_star_shard"
-				}
-			]
-			rewards: [
-				{
-					id: "3B69933945F41920"
-					type: "item"
-					item: "pamhc2trees:starfruititem"
-				}
-			]
+			tasks: [{
+				id: "2C0B7EA1A8D96A08"
+				type: "item"
+				item: "chromasky:pattern_mundane_cast_star_shard"
+			}]
+			rewards: [{
+				id: "3B69933945F41920"
+				type: "item"
+				item: "pamhc2trees:starfruititem"
+			}]
 		}
 		{
 			x: -6.0d
@@ -928,20 +847,16 @@
 			shape: "hexagon"
 			dependencies: ["3CB541121BAD261F"]
 			id: "1C1C756C3EAC95D5"
-			tasks: [
-				{
-					id: "3218D2F7DE090D48"
-					type: "item"
-					item: "chromasky:mundane_cast_star_shard"
-				}
-			]
-			rewards: [
-				{
-					id: "39BBD77900B37E73"
-					type: "item"
-					item: "minecraft:nether_star"
-				}
-			]
+			tasks: [{
+				id: "3218D2F7DE090D48"
+				type: "item"
+				item: "chromasky:mundane_cast_star_shard"
+			}]
+			rewards: [{
+				id: "39BBD77900B37E73"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
 		}
 		{
 			x: -7.0d
@@ -950,20 +865,15 @@
 			hide_dependency_lines: true
 			dependencies: ["1C1C756C3EAC95D5"]
 			id: "25EAB80CD5791A3C"
-			tasks: [
-				{
-					id: "18C27A122019B8CB"
-					type: "item"
-					item: "chromasky:shard_star"
-				}
-			]
-			rewards: [
-				{
-					id: "21A4EA71C8D830CA"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "18C27A122019B8CB"
+				type: "item"
+				item: "chromasky:shard_star"
+			}]
+			rewards: [{
+				id: "21A4EA71C8D830CA"
+				type: "random"
+			}]
 		}
 		{
 			x: -7.5d
@@ -975,20 +885,15 @@
 			]
 			size: 1.5d
 			id: "6FB5DF0B64BAD4B9"
-			tasks: [
-				{
-					id: "18B12513A69832F6"
-					type: "item"
-					item: "astralsorcery:tome"
-				}
-			]
-			rewards: [
-				{
-					id: "0884C9EBDA5C77FF"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "18B12513A69832F6"
+				type: "item"
+				item: "astralsorcery:tome"
+			}]
+			rewards: [{
+				id: "0884C9EBDA5C77FF"
+				type: "random"
+			}]
 		}
 		{
 			x: -8.0d
@@ -997,20 +902,15 @@
 			dependencies: ["57AC8058D7F2828C"]
 			dependency_requirement: "all_started"
 			id: "650C8A3EAF99F7F6"
-			tasks: [
-				{
-					id: "42498958DF76B3EA"
-					type: "item"
-					item: "chromasky:magical_infuse_book"
-				}
-			]
-			rewards: [
-				{
-					id: "1197D5C1C3577DF6"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "42498958DF76B3EA"
+				type: "item"
+				item: "chromasky:magical_infuse_book"
+			}]
+			rewards: [{
+				id: "1197D5C1C3577DF6"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1020,48 +920,39 @@
 			dependencies: ["02628A32D083A95D"]
 			dependency_requirement: "all_started"
 			id: "5549ED33FDF4AEAF"
-			tasks: [
-				{
-					id: "6A08CE817143F9CD"
-					type: "item"
-					item: "chromasky:enderessence"
-				}
-			]
-			rewards: [
-				{
-					id: "372CF6438C4B82ED"
-					type: "item"
-					item: "minecraft:ender_eye"
-				}
-			]
+			tasks: [{
+				id: "6A08CE817143F9CD"
+				type: "item"
+				item: "chromasky:enderessence"
+			}]
+			rewards: [{
+				id: "372CF6438C4B82ED"
+				type: "item"
+				item: "minecraft:ender_eye"
+			}]
 		}
 		{
 			x: 5.0d
 			y: 2.0d
 			shape: "hexagon"
-			subtitle: "远程传送[--Remote Getaway--]"
+			subtitle: "远程传送"
 			description: [
-				"就像&4下界染料&r一样,只是跳进它来访问&5末地&r.[--Same as the &4Nether Painting&r just jump into it to access the &5End&r.--]"
+				"就像&4下界染料&r一样,只是跳进它来访问&5末地&r."
 				""
-				"使用&a/ My Island&r 指令将鼠标悬停在您的岛屿上.[--Use &a/myisland &rcommand to ruturn on your island.--]"
+				"使用&a/ My Island&r 指令将鼠标悬停在您的岛屿上."
 			]
 			hide_dependency_lines: true
 			dependencies: ["5549ED33FDF4AEAF"]
 			id: "0BDA67667CF2B2A3"
-			tasks: [
-				{
-					id: "7F34FA8EAAFCD098"
-					type: "item"
-					item: "dimpaintings:end_painting"
-				}
-			]
-			rewards: [
-				{
-					id: "247DE4FB772FF0E2"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			tasks: [{
+				id: "7F34FA8EAAFCD098"
+				type: "item"
+				item: "dimpaintings:end_painting"
+			}]
+			rewards: [{
+				id: "247DE4FB772FF0E2"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.0d
@@ -1070,26 +961,21 @@
 			hide_dependency_lines: true
 			dependencies: ["02628A32D083A95D"]
 			id: "56CE056754AC2BBF"
-			tasks: [
-				{
-					id: "2896F533E313C043"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:bed_charm"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "2896F533E313C043"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:bed_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "60AAFC7F5050D0A8"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "60AAFC7F5050D0A8"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.5d
@@ -1098,26 +984,21 @@
 			hide_dependency_lines: true
 			dependencies: ["02628A32D083A95D"]
 			id: "3B661CBEB09023A6"
-			tasks: [
-				{
-					id: "793E1CAE1C5064B5"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:fall_charm"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "793E1CAE1C5064B5"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:fall_charm"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3449DE591B180EDA"
-					type: "random"
-					table_id: 7381842975596526002L
-				}
-			]
+			}]
+			rewards: [{
+				id: "3449DE591B180EDA"
+				type: "random"
+			}]
 		}
 		{
 			x: -2.5d
@@ -1125,135 +1006,111 @@
 			shape: "hexagon"
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "32DA82CA3B2CB77E"
-			tasks: [
-				{
-					id: "556CE501A96438E0"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:wizard_chalk"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "556CE501A96438E0"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:wizard_chalk"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "59893C4BFC511601"
-					type: "item"
-					item: "mana-and-artifice:rune_ritual_metal"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "59893C4BFC511601"
+				type: "item"
+				item: "mana-and-artifice:rune_ritual_metal"
+				count: 4
+			}]
 		}
 		{
 			x: 7.0d
 			y: -11.5d
-			description: ["您需要制作更改仪式,下一个选择是您想在您的法术中添加更改之书的增强.[--You need to make the alteration ritual, next select which augment you want to add to your spell with the book of alteration.--]"]
+			description: ["您需要制作更改仪式,下一个选择是您想在您的法术中添加更改之书的增强."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 300
 			id: "06A1EEB14413F998"
-			tasks: [
-				{
-					id: "36BA7C7B1D2A8F5B"
-					type: "item"
-					item: "mana-and-artifice:modifier_book"
-				}
-			]
-			rewards: [
-				{
-					id: "7D0A68F78567F466"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "36BA7C7B1D2A8F5B"
+				type: "item"
+				item: "mana-and-artifice:modifier_book"
+			}]
+			rewards: [{
+				id: "7D0A68F78567F466"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -10.0d
-			description: ["就像吸收漏斗一样工作,只需shift右键单击你想要绑定它的箱子.[--Work like an absorption hopper, just shift right click on the chest you want it to be bound.--]"]
+			description: ["就像吸收漏斗一样工作,只需shift右键单击你想要绑定它的箱子."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "7AEF59123D32D06A"
-			tasks: [
-				{
-					id: "3A35876521D1AFE0"
-					type: "item"
-					item: "mana-and-artifice:magic_broom"
-				}
-			]
-			rewards: [
-				{
-					id: "357B6661323CDCF4"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "3A35876521D1AFE0"
+				type: "item"
+				item: "mana-and-artifice:magic_broom"
+			}]
+			rewards: [{
+				id: "357B6661323CDCF4"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -9.0d
-			description: ["会给你法力恢复的效果[--Give you an effect of mana regen--]"]
+			description: ["会给你法力恢复的效果"]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "1B51595D4FE0E914"
-			tasks: [
-				{
-					id: "4EE9C030679E2367"
-					type: "item"
-					item: "mana-and-artifice:mana_crystal"
-				}
-			]
-			rewards: [
-				{
-					id: "6A74A2E2B0191FB6"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4EE9C030679E2367"
+				type: "item"
+				item: "mana-and-artifice:mana_crystal"
+			}]
+			rewards: [{
+				id: "6A74A2E2B0191FB6"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: -8.0d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "68C465D866121627"
-			tasks: [
-				{
-					id: "1B5E7C61BBE80801"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:mana_crystal_fragment"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "1B5E7C61BBE80801"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:mana_crystal_fragment"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "3F4743712773D650"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "3F4743712773D650"
+				type: "random"
+			}]
 		}
 		{
-			title: "木质/石头结构[--Wooden/Stone Construct--]"
+			title: "木质/石头结构"
 			x: 6.0d
 			y: -11.5d
-			subtitle: "如何制作 101 体力动力[--How Craft a Construct 101--]"
+			subtitle: "如何制作 101 体力动力"
 			description: [
-				"要制作一个结构,你需要:[--To craft a construct you will need:--]"
+				"要制作一个结构,你需要:"
 				""
-				"-结构的每一部分(头部、纹理、左臂、右臂、腿)[---One of each part of the construct (head, torso, left arm, right arm, legs).--]"
+				"-结构的每一部分(头部、纹理、左臂、右臂、腿)"
 				""
-				"-你至少需要8个颜色不同的奇美石水晶.[---You will need at least 8 chimerite crystal the color doesn't matter.--]"
+				"-你至少需要8个颜色不同的奇美石水晶."
 				""
-				"-现在将你的部分放在建造台上.[---Now place your part on the construct workbench.--]"
+				"-现在将你的部分放在建造台上."
 				""
-				"-影响你结构的东西是您选择的元素,对于元素,您需要用法术右键单击,该咒语的属性将复制在您的奇美利特水晶上.[---The thing that influence your construct is the element you choose, for the element you will need to right click with a spell, and the attribute of the spell will be copied on your chimerite crystal.--]"
+				"-影响你结构的东西是您选择的元素,对于元素,您需要用法术右键单击,该咒语的属性将复制在您的奇美利特水晶上."
 				""
-				"-要搭建你的结构,你需要在下一个任务中找到法术&drobot激活&r.[---To build your construct you will need the spell &drobot activation&r that you can find in the next quest.--]"
+				"-要搭建你的结构,你需要在下一个任务中找到法术&drobot激活&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1265,7 +1122,7 @@
 				{
 					id: "5B5AD483A9E07005"
 					type: "item"
-					title: "木头/石头头[--Wooden/Stone head--]"
+					title: "木头/石头头"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1310,7 +1167,7 @@
 				{
 					id: "11C3B4C73D8464B9"
 					type: "item"
-					title: "木质/石头 火把[--Wooden/Stone Torso--]"
+					title: "木质/石头 火把"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1347,7 +1204,7 @@
 				{
 					id: "4A4B95D25E718330"
 					type: "item"
-					title: "木/石左臂[--Wooden/Stone Left Arm--]"
+					title: "木/石左臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1408,7 +1265,7 @@
 				{
 					id: "17E7545EAACD15A2"
 					type: "item"
-					title: "木/石右臂[--Wooden/Stone Right Arm--]"
+					title: "木/石右臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1469,7 +1326,7 @@
 				{
 					id: "39F04CE30F189847"
 					type: "item"
-					title: "木制/石质腿[--Wooden/Stone Legs--]"
+					title: "木制/石质腿"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1504,85 +1361,77 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "4BE6F0BD75EFF436"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "4BE6F0BD75EFF436"
+				type: "random"
+			}]
 		}
 		{
-			title: "粒子[--Mote--]"
+			title: "粒子"
 			x: 5.0d
 			y: -11.5d
 			description: [
-				"如何获得齿轮:[--How to obtain the mote:--]"
+				"如何获得齿轮:"
 				""
-				"-遗忘之地仪式:你需要在仪式附近放置至少 10 个书架,才能让这个仪式正常工作.[---Ritual of Forgotten Lore / Mote of Magic: You will need to place a least 10 bookshelf near the ritual place for make this ritual work.--]"
+				"-遗忘之地仪式:你需要在仪式附近放置至少 10 个书架,才能让这个仪式正常工作."
 				""
-				"-无压风仪式/气动生物:这个仪式必须执行得非常高.[---Ritual of the Untamed Wind / Mote of Air: This ritual must be executed very high.--]"
+				"-无压风仪式/气动生物:这个仪式必须执行得非常高."
 				""
-				"-无穷虚空仪式/末影生物仪式:这个仪式必须在完全黑暗的情况下进行.[---Ritual of the Endless Void / Mote of Ender: This ritual must be executed in complete darkness.--]"
+				"-无穷虚空仪式/末影生物仪式:这个仪式必须在完全黑暗的情况下进行."
 				""
-				"-焦黑地狱仪式 / 火的图腾:需要在下界执行.[---Ritual of the Searing Inferno / Mote of Fire: need to be execute in the nether.--]"
+				"-焦黑地狱仪式 / 火的图腾:需要在下界执行."
 				""
-				"-深海仪式/水板:需要放置在海洋生物群系中.[---Ritual of the Deep Ocean / Mote of Water: Need to be placed in ocean biome.--]"
+				"-深海仪式/水板:需要放置在海洋生物群系中."
 				""
-				"-古代石的仪式/地球的mote:必须把粉笔标记放置在基岩(中心)上.[---Ritual of ancient stone / Mote of Earth: One of the chalk mark must be placed on bedrock (the center one).--]"
+				"-古代石的仪式/地球的mote:必须把粉笔标记放置在基岩(中心)上."
 			]
 			dependencies: ["13EEC00E8C0E74D3"]
 			min_width: 250
 			id: "73C20CE2F47089A3"
-			tasks: [
-				{
-					id: "74B5E20A7F308837"
-					type: "item"
-					title: "粒子[--Mote--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:mote_air"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:mote_earth"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:mote_arcane"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:mote_ender"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:mote_water"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:mote_fire"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "74B5E20A7F308837"
+				type: "item"
+				title: "粒子"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:mote_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_ender"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:mote_fire"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "59C9F740D9EC9AFB"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "59C9F740D9EC9AFB"
+				type: "random"
+			}]
 		}
 		{
-			title: "法师套装[--Mage Armor--]"
+			title: "法师套装"
 			x: 3.5d
 			y: -11.0d
 			dependencies: ["751B41B7BA66644E"]
@@ -1633,146 +1482,138 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "170DD16B7E26AB03"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "170DD16B7E26AB03"
+				type: "random"
+			}]
 		}
 		{
-			title: "木炭印记[--Charcoal print--]"
+			title: "木炭印记"
 			x: 3.5d
 			y: -9.0d
-			description: ["要制作木炭粉,你需要一个符文、一个纸、一个煤。 首先将你的符文放在铁砧上,下一个放在纸上,然后用煤右键单击完成制作.[--To make a charcoal print you need one rune, a paper, a coal. First place your rune on the anvil, next place the paper, and to finish the craft right click with a coal.--]"]
+			description: ["要制作木炭粉,你需要一个符文、一个纸、一个煤。 首先将你的符文放在铁砧上,下一个放在纸上,然后用煤右键单击完成制作."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "5BB34233D6DBEB69"
-			tasks: [
-				{
-					id: "01CA5E4907EE2119"
-					type: "item"
-					title: "符文配方[--Runscribing recipe--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_defense"
-									}
+			tasks: [{
+				id: "01CA5E4907EE2119"
+				type: "item"
+				title: "符文配方"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_defense"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_marking"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_marking"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_ender"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_ender"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_rod"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_rod"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_aura"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_aura"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_claw"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_claw"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_axe"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_axe"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hammer"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hammer"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hips"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_hips"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_torso"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_torso"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_head"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/constructs/runescribe_construct_head"
 								}
-								{
-									id: "mana-and-artifice:runescribing_recipe_paper"
-									Count: 1b
-									tag: {
-										runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_metal_ritual_rune"
-									}
+							}
+							{
+								id: "mana-and-artifice:runescribing_recipe_paper"
+								Count: 1b
+								tag: {
+									runescribe_recipe_id: "mana-and-artifice:runescribing/runescribe_metal_ritual_rune"
 								}
-							]
-						}
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "468F65A771B73EBA"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "468F65A771B73EBA"
+				type: "random"
+			}]
 		}
 		{
-			title: "加入一个派系[--Join a faction--]"
+			title: "加入一个派系"
 			icon: "mana-and-artifice:mark_of_the_nether"
 			x: 9.5d
 			y: -8.5d
 			shape: "circle"
 			description: [
-				"魔力和魔法的主要部分是该方块。 每个方块都为您提供特殊的能力和物品,例如,法术会给你一些和平的法术,恶魔会给你一些破坏性的法术.[--One of the main part of Mana and Artifice is the faction. Each faction gives you specific abilities and items, for example the fey will give some peaceful spells and the Demon will give you some destructive spells.--]"
+				"魔力和魔法的主要部分是该方块。 每个方块都为您提供特殊的能力和物品,例如,法术会给你一些和平的法术,恶魔会给你一些破坏性的法术."
 				""
-				"要加入一个实体,你需要执行一个特定的仪式:[--To Join a Faction you will need to execute a specific ritual :--]"
+				"要加入一个实体,你需要执行一个特定的仪式:"
 				""
-				"- Faerie Comms的仪式:有了这个仪式,你将加入&d Fairie ebcoom&r,你只需要一个额外的&7空气电池&r来与 Aforeie QEI 进行交易.[---Ritual of the Faerie Courts : With this Ritual you will join the &dFaerie faction&r , you will just need an extra &7air mote&r to trade with the fearie queen.--]"
+				"- Faerie Comms的仪式:有了这个仪式,你将加入&d Fairie ebcoom&r,你只需要一个额外的&7空气电池&r来与 Aforeie QEI 进行交易."
 				""
-				"- 寒冷黑暗仪式:你将加入&b亡灵节&r&4&kr&r更难的这个方块,现在你将在太阳中燃烧,你的魔力现在是你的灵魂,它只能通过杀死生物&kr&r来重生.[---Ritual of the Cold Dark : You will join the &bUndead faction&r             &4&kr&r&4WARNING This faction is harder, you will now burn in the sunlight, and your mana is now your soul and it can be only regenerated by killing living things&kr&r--]"
+				"- 寒冷黑暗仪式:你将加入&b亡灵节&r&4&kr&r更难的这个方块,现在你将在太阳中燃烧,你的魔力现在是你的灵魂,它只能通过杀死生物&kr&r来重生."
 				""
-				"-巫师的仪式:你现在将加入&5巫师阵&r.[---Ritual of the wizard's Council : You will now join the &5wizard faction&r.--]"
+				"-巫师的仪式:你现在将加入&5巫师阵&r."
 				""
-				"燃烧地狱仪式:你将成为&4恶魔之军&r的一部分,你只需要一个额外的&6火种地&r.[--Ritual of the Burning Hells : You will be part of &4Satan's Army&r you will just need an extra &6fire mote&r.--]"
+				"燃烧地狱仪式:你将成为&4恶魔之军&r的一部分,你只需要一个额外的&6火种地&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1794,20 +1635,15 @@
 			]
 			min_width: 350
 			id: "1AF520BA592D90CD"
-			tasks: [
-				{
-					id: "64FDA2DD085ECEA6"
-					type: "checkmark"
-					title: "现在你必须加入一个派系了[--You Now  have to join a faction--]"
-				}
-			]
-			rewards: [
-				{
-					id: "49BF59E2FCBA53A0"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "64FDA2DD085ECEA6"
+				type: "checkmark"
+				title: "现在你必须加入一个派系了"
+			}]
+			rewards: [{
+				id: "49BF59E2FCBA53A0"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:manaweaver_wand_advanced"
@@ -1815,20 +1651,15 @@
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "21294FC0C57E5F7B"
-			tasks: [
-				{
-					id: "6371FEE2DD1953F9"
-					type: "checkmark"
-					title: "铸造一个2级的抽屉[--Cast a tier 2 cantrip--]"
-				}
-			]
-			rewards: [
-				{
-					id: "6719189E4214BC12"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "6371FEE2DD1953F9"
+				type: "checkmark"
+				title: "铸造一个2级的抽屉"
+			}]
+			rewards: [{
+				id: "6719189E4214BC12"
+				type: "random"
+			}]
 		}
 		{
 			x: 6.0d
@@ -1839,12 +1670,12 @@
 				{
 					id: "6DD1DC9E965BEF1E"
 					type: "checkmark"
-					title: "制作一个至少拥有 3 个木头或石头部件的建筑[--Craft a construct with at least 3 wood or stone part--]"
+					title: "制作一个至少拥有 3 个木头或石头部件的建筑"
 				}
 				{
 					id: "7AC546585D1C7F08"
 					type: "item"
-					title: "水晶[--Crystal--]"
+					title: "水晶"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1920,70 +1751,66 @@
 					count: 8L
 				}
 			]
-			rewards: [
-				{
-					id: "4B06A96887DF8A40"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:spell"
-						Count: 1b
-						tag: {
-							icon: 2
-							spell: {
-								components: [
-									{
-										attribute_1: "DELAY"
-										attribute_0: "SPEED"
-										value_0: 1.0f
-										value_1: 0.0f
-										num_attributes: 2
-										resource_location: "mana-and-artifice:components/fling"
-									}
-								]
-								overrideAffinity: "UNKNOWN"
-								shape: {
-									attribute_1: "RADIUS"
-									attribute_0: "RANGE"
-									value_0: 3.0f
-									value_1: 0.0f
-									num_attributes: 2
-									resource_location: "mana-and-artifice:shapes/touch"
-								}
-								modifiers: {
-									modifier_2: "mana-and-artifice:empty"
-									modifier_0: "mana-and-artifice:empty"
-									modifier_1: "mana-and-artifice:empty"
-								}
-								mysterious: 0b
+			rewards: [{
+				id: "4B06A96887DF8A40"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:spell"
+					Count: 1b
+					tag: {
+						icon: 2
+						spell: {
+							components: [{
+								attribute_1: "DELAY"
+								attribute_0: "SPEED"
+								value_0: 1.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:components/fling"
+							}]
+							overrideAffinity: "UNKNOWN"
+							shape: {
+								attribute_1: "RADIUS"
+								attribute_0: "RANGE"
+								value_0: 3.0f
+								value_1: 0.0f
+								num_attributes: 2
+								resource_location: "mana-and-artifice:shapes/touch"
 							}
-							ritual_reagent_data: {
-								pattern_count: 4
-								component_items_0: "mana-and-artifice:stone_rune_white"
-								pattern_3: "mana-and-artifice:manaweave_patterns/triangle"
-								shape_items_count: 4
-								pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
-								pattern_1: "mana-and-artifice:manaweave_patterns/square"
-								pattern_2: "mana-and-artifice:manaweave_patterns/circle"
-								shape_items_0: "mana-and-artifice:infused_silk"
-								shape_items_3: "mana-and-artifice:vinteum_dust"
-								component_items_4: "mana-and-artifice:vinteum_dust"
-								component_items_3: "mana-and-artifice:stone_rune_white"
-								shape_items_1: "minecraft:feather"
-								component_items_2: "mana-and-artifice:runesmith_hammer"
-								shape_items_2: "minecraft:clay"
-								component_items_1: "mana-and-artifice:stone_rune_gray"
-								complexity_reagent_count: 2
-								complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
-								component_items_count: 5
-								complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+							modifiers: {
+								modifier_2: "mana-and-artifice:empty"
+								modifier_0: "mana-and-artifice:empty"
+								modifier_1: "mana-and-artifice:empty"
 							}
-							display: {
-								Name: "{\"text\":\"Robot activation\"}"
-							}
+							mysterious: 0b
+						}
+						ritual_reagent_data: {
+							pattern_count: 4
+							component_items_0: "mana-and-artifice:stone_rune_white"
+							pattern_3: "mana-and-artifice:manaweave_patterns/triangle"
+							shape_items_count: 4
+							pattern_0: "mana-and-artifice:manaweave_patterns/triangle"
+							pattern_1: "mana-and-artifice:manaweave_patterns/square"
+							pattern_2: "mana-and-artifice:manaweave_patterns/circle"
+							shape_items_0: "mana-and-artifice:infused_silk"
+							shape_items_3: "mana-and-artifice:vinteum_dust"
+							component_items_4: "mana-and-artifice:vinteum_dust"
+							component_items_3: "mana-and-artifice:stone_rune_white"
+							shape_items_1: "minecraft:feather"
+							component_items_2: "mana-and-artifice:runesmith_hammer"
+							shape_items_2: "minecraft:clay"
+							component_items_1: "mana-and-artifice:stone_rune_gray"
+							complexity_reagent_count: 2
+							complexity_reagent_0: "mana-and-artifice:ritual_focus_minor"
+							component_items_count: 5
+							complexity_reagent_1: "mana-and-artifice:ritual_focus_minor"
+						}
+						display: {
+							Name: "{\"text\":\"Robot activation\"}"
 						}
 					}
 				}
-			]
+			}]
 		}
 		{
 			icon: {
@@ -1997,42 +1824,32 @@
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "4FDA6BA92C248171"
-			tasks: [
-				{
-					id: "4A19C438B13C794A"
-					type: "checkmark"
-					title: "制作一个复杂的35级或更多的法术[--Craft a spell with complexity 35 or more--]"
-				}
-			]
-			rewards: [
-				{
-					id: "76B0AD91605724C5"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4A19C438B13C794A"
+				type: "checkmark"
+				title: "制作一个复杂的35级或更多的法术"
+			}]
+			rewards: [{
+				id: "76B0AD91605724C5"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:greater_mote_arcane"
 			x: 3.5d
 			y: -10.0d
-			description: ["用你的真正等级,唯一具有套装奖励的物品是法师盔甲.[--With your actual tier the only item with a set bonus is the mage armor.--]"]
+			description: ["用你的真正等级,唯一具有套装奖励的物品是法师盔甲."]
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "751B41B7BA66644E"
-			tasks: [
-				{
-					id: "6AA7B809EDEA9D92"
-					type: "checkmark"
-					title: "拥有一个激活的套装奖励[--Have an active set bonus--]"
-				}
-			]
-			rewards: [
-				{
-					id: "27FCAEFCFC59A5DB"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "6AA7B809EDEA9D92"
+				type: "checkmark"
+				title: "拥有一个激活的套装奖励"
+			}]
+			rewards: [{
+				id: "27FCAEFCFC59A5DB"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:greater_mote_fire"
@@ -2040,161 +1857,141 @@
 			y: -5.5d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "69E4431DF3EA08B5"
-			tasks: [
-				{
-					id: "00CC0A40310B821B"
-					type: "checkmark"
-					title: "达到 30 级的魔法[--Reach magic level 30--]"
-				}
-			]
-			rewards: [
-				{
-					id: "5FA017C3F4312878"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "00CC0A40310B821B"
+				type: "checkmark"
+				title: "达到 30 级的魔法"
+			}]
+			rewards: [{
+				id: "5FA017C3F4312878"
+				type: "random"
+			}]
 		}
 		{
 			x: 3.5d
 			y: -7.0d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "5A02C170FCE213E2"
-			tasks: [
-				{
-					id: "038C32CEE3B89F0E"
-					type: "item"
-					item: "mana-and-artifice:rune_clay_plate"
-				}
-			]
-			rewards: [
-				{
-					id: "05549350A4B83206"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "038C32CEE3B89F0E"
+				type: "item"
+				item: "mana-and-artifice:rune_clay_plate"
+			}]
+			rewards: [{
+				id: "05549350A4B83206"
+				type: "random"
+			}]
 		}
 		{
-			title: "符文锻造一个符文[--Runeforge a rune--]"
+			title: "符文锻造一个符文"
 			x: 8.5d
 			y: -7.0d
 			dependencies: ["13EEC00E8C0E74D3"]
 			id: "78EA346149E8ACCF"
-			tasks: [
-				{
-					id: "123D7766B67E9C43"
-					type: "item"
-					title: "符文[--Rune--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:rune_ritual_metal"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_air"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_defense"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_aura"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_marking"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "123D7766B67E9C43"
+				type: "item"
+				title: "符文"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:rune_ritual_metal"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_defense"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_aura"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_marking"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "15CE03FE6C369480"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "15CE03FE6C369480"
+				type: "random"
+			}]
 		}
 		{
-			title: "符文刻刻一个符文样板[--Runescribe a rune Pattern--]"
+			title: "符文刻刻一个符文样板"
 			x: 3.5d
 			y: -8.0d
 			dependencies: ["5A02C170FCE213E2"]
 			id: "75C7B0DE0395829F"
-			tasks: [
-				{
-					id: "03D354CEF1200C4C"
-					type: "item"
-					title: "符文样板[--Rune Pattern--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:rune_pattern_ritual_metal"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_defense"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_air"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_earth"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_water"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_fire"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_ender"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_arcane"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_aura"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:rune_pattern_marking"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "03D354CEF1200C4C"
+				type: "item"
+				title: "符文样板"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:rune_pattern_ritual_metal"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_defense"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_fire"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_ender"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_aura"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:rune_pattern_marking"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "14A11BE841631A2F"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "14A11BE841631A2F"
+				type: "random"
+			}]
 		}
 		{
-			title: "铁/金结构[--Iron/Gold Construct--]"
+			title: "铁/金结构"
 			x: 14.5d
 			y: -10.0d
 			dependencies: ["4673AA05474E416E"]
@@ -2203,7 +2000,7 @@
 				{
 					id: "1144AE95A0BDBB9B"
 					type: "item"
-					title: "头部搭建器[--Head Construct--]"
+					title: "头部搭建器"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2248,7 +2045,7 @@
 				{
 					id: "690ED08F8C469675"
 					type: "item"
-					title: "火把结构[--Torso Construct--]"
+					title: "火把结构"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2285,7 +2082,7 @@
 				{
 					id: "5384B62477E9006C"
 					type: "item"
-					title: "护腿结构[--Legg Construct--]"
+					title: "护腿结构"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2322,7 +2119,7 @@
 				{
 					id: "094C6395CB3D6A36"
 					type: "item"
-					title: "右臂[--Right Arm--]"
+					title: "右臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2383,7 +2180,7 @@
 				{
 					id: "174F7D84C824C9B2"
 					type: "item"
-					title: "左方结构[--Left Construct--]"
+					title: "左方结构"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2442,127 +2239,114 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "4A54A893681F3978"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "4A54A893681F3978"
+				type: "random"
+			}]
 		}
 		{
 			x: 17.5d
 			y: -10.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "20A67FCDDA136BD4"
-			tasks: [
-				{
-					id: "5DF6F963784F1F7C"
-					type: "item"
-					item: {
-						id: "mana-and-artifice:eldritch_orb"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "5DF6F963784F1F7C"
+				type: "item"
+				item: {
+					id: "mana-and-artifice:eldritch_orb"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "6D914C92B8450E32"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "6D914C92B8450E32"
+				type: "random"
+			}]
 		}
 		{
-			title: "场外物品[--Faction Artifact--]"
+			title: "场外物品"
 			x: 15.5d
 			y: -10.5d
 			description: [
-				"每个方都有1级的合成表,这是你可以在你的等级制作的合成表:[--Each faction has a tier one artifact, this are the artifacts that you can craft at your level:--]"
+				"每个方都有1级的合成表,这是你可以在你的等级制作的合成表:"
 				""
-				"巫师理事会:[--Wizard's Council :--]"
+				"巫师理事会:"
 				""
-				"精灵魔力套装[--• Bracelet of Eldrin Power/-Eldrin Sight Unguent--]"
+				"精灵魔力套装"
 				""
-				"Fey:[--Fey:--]"
+				"Fey:"
 				""
-				"● 反毒工具/操纵手杖[--• Bracelet of Antidote/-Bracelet of Trickery--]"
+				"● 反毒工具/操纵手杖"
 				""
-				"恶魔:[--Demons:--]"
+				"恶魔:"
 				""
-				"● 尖刺手杖[--• Emberglow Bracelet--]"
+				"● 尖刺手杖"
 				""
-				"亡灵:[--Undead:--]"
+				"亡灵:"
 				""
-				"[--• Coffin--]"
+				""
 			]
 			dependencies: ["4673AA05474E416E"]
 			min_width: 250
 			id: "0B73493E4A14631C"
-			tasks: [
-				{
-					id: "1D475A93281AE7ED"
-					type: "item"
-					title: "场外物品[--Faction Artifact--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:coffin"
-									Count: 1b
+			tasks: [{
+				id: "1D475A93281AE7ED"
+				type: "item"
+				title: "场外物品"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:coffin"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:emberglow_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:emberglow_bracelet"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								id: "mana-and-artifice:trickery_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:trickery_bracelet"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								id: "mana-and-artifice:antidote_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:antidote_bracelet"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								id: "mana-and-artifice:eldrin_sight_unguent"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:eldrin_sight_unguent"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
+							}
+							{
+								id: "mana-and-artifice:eldrin_bracelet"
+								Count: 1b
+								tag: {
+									Damage: 0
 								}
-								{
-									id: "mana-and-artifice:eldrin_bracelet"
-									Count: 1b
-									tag: {
-										Damage: 0
-									}
-								}
-							]
-						}
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "005278DCC5713916"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "005278DCC5713916"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:manaweaver_wand_advanced"
@@ -2570,20 +2354,15 @@
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "6A900FC819DAB9B1"
-			tasks: [
-				{
-					id: "4513831F5DF816CF"
-					type: "checkmark"
-					title: "铸造1个3级的抽屉[--Cast a tier 3 cantrip--]"
-				}
-			]
-			rewards: [
-				{
-					id: "73FE640ACFDE4BC7"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4513831F5DF816CF"
+				type: "checkmark"
+				title: "铸造1个3级的抽屉"
+			}]
+			rewards: [{
+				id: "73FE640ACFDE4BC7"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:rune_water"
@@ -2591,20 +2370,15 @@
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "1DC2F765C00E4442"
-			tasks: [
-				{
-					id: "53BA6CBC0331D7F2"
-					type: "checkmark"
-					title: "完成3级仪式[--Complete a tier 3 ritual--]"
-				}
-			]
-			rewards: [
-				{
-					id: "2044B78F2F745492"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "53BA6CBC0331D7F2"
+				type: "checkmark"
+				title: "完成3级仪式"
+			}]
+			rewards: [{
+				id: "2044B78F2F745492"
+				type: "random"
+			}]
 		}
 		{
 			icon: {
@@ -2618,52 +2392,40 @@
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "384C55A1EB36E6F0"
-			tasks: [
-				{
-					id: "341642F49B117F21"
-					type: "checkmark"
-					title: "制作一个复杂的55级或更多的法术[--Craft a spell with complexity 55 or more--]"
-				}
-			]
-			rewards: [
-				{
-					id: "6DD6E8E8F4E123D2"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "341642F49B117F21"
+				type: "checkmark"
+				title: "制作一个复杂的55级或更多的法术"
+			}]
+			rewards: [{
+				id: "6DD6E8E8F4E123D2"
+				type: "random"
+			}]
 		}
 		{
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
 				tag: {
-					StoredEnchantments: [
-						{
-							lvl: 1s
-							id: "mana-and-artifice:fireproof"
-						}
-					]
+					StoredEnchantments: [{
+						lvl: 1s
+						id: "mana-and-artifice:fireproof"
+					}]
 				}
 			}
 			x: 16.0d
 			y: -5.5d
 			dependencies: ["4673AA05474E416E"]
 			id: "0CFCC7DD8E6D3E07"
-			tasks: [
-				{
-					id: "4421A6BFB56252FC"
-					type: "checkmark"
-					title: "用符文铁砧附魔一个物品[--Enchant an item using the runic anvil--]"
-				}
-			]
-			rewards: [
-				{
-					id: "2F7169677DCC8B46"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4421A6BFB56252FC"
+				type: "checkmark"
+				title: "用符文铁砧附魔一个物品"
+			}]
+			rewards: [{
+				id: "2F7169677DCC8B46"
+				type: "random"
+			}]
 		}
 		{
 			icon: "minecraft:nether_bricks"
@@ -2671,20 +2433,15 @@
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "0C95E2F5431B2C7D"
-			tasks: [
-				{
-					id: "2FF8EC4707362430"
-					type: "checkmark"
-					title: "找到下界要塞[--Find a nether fortress--]"
-				}
-			]
-			rewards: [
-				{
-					id: "15B53EC905CAE33F"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "2FF8EC4707362430"
+				type: "checkmark"
+				title: "找到下界要塞"
+			}]
+			rewards: [{
+				id: "15B53EC905CAE33F"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:slipstream_generator"
@@ -2692,20 +2449,15 @@
 			y: -6.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "7A5170985B71FE8D"
-			tasks: [
-				{
-					id: "7B92AC0536F021AF"
-					type: "checkmark"
-					title: "进行血染染仪式并完成结构[--Perform a Sanctum Invocation ritual and complete the structure--]"
-				}
-			]
-			rewards: [
-				{
-					id: "1816928DD6CAFA5A"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "7B92AC0536F021AF"
+				type: "checkmark"
+				title: "进行血染染仪式并完成结构"
+			}]
+			rewards: [{
+				id: "1816928DD6CAFA5A"
+				type: "random"
+			}]
 		}
 		{
 			icon: "quark:golden_frog_leg"
@@ -2713,20 +2465,15 @@
 			y: -9.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "408F90A79774C6AC"
-			tasks: [
-				{
-					id: "0B3A4070527504EB"
-					type: "checkmark"
-					title: "到达距离世界 10km 生成点[--Reach 10km away from the world spawn--]"
-				}
-			]
-			rewards: [
-				{
-					id: "21EC63769793A66E"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "0B3A4070527504EB"
+				type: "checkmark"
+				title: "到达距离世界 10km 生成点"
+			}]
+			rewards: [{
+				id: "21EC63769793A66E"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:greater_mote_fire"
@@ -2734,20 +2481,15 @@
 			y: -8.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "4A778795D31679FB"
-			tasks: [
-				{
-					id: "7AC04D6283D52850"
-					type: "checkmark"
-					title: "达到45级的魔法[--Reach magic level 45--]"
-				}
-			]
-			rewards: [
-				{
-					id: "5D4543C53659BAF1"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "7AC04D6283D52850"
+				type: "checkmark"
+				title: "达到45级的魔法"
+			}]
+			rewards: [{
+				id: "5D4543C53659BAF1"
+				type: "random"
+			}]
 		}
 		{
 			icon: "naturesaura:nether_grass"
@@ -2755,20 +2497,15 @@
 			y: -7.0d
 			dependencies: ["4673AA05474E416E"]
 			id: "7C4B633402B3C87D"
-			tasks: [
-				{
-					id: "1F1A3749086948FE"
-					type: "checkmark"
-					title: "到达下界[--Reach the Nether --]"
-				}
-			]
-			rewards: [
-				{
-					id: "322B3E1B647AD37B"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "1F1A3749086948FE"
+				type: "checkmark"
+				title: "到达下界"
+			}]
+			rewards: [{
+				id: "322B3E1B647AD37B"
+				type: "random"
+			}]
 		}
 		{
 			icon: "minecraft:wither_skeleton_skull"
@@ -2776,116 +2513,91 @@
 			y: -10.5d
 			dependencies: ["4673AA05474E416E"]
 			id: "3F63BC271693C52D"
-			tasks: [
-				{
-					id: "58D7C015DCF2765F"
-					type: "checkmark"
-					title: "召唤一个&5凋灵&r[--Summon a &5Wither&r--]"
-				}
-			]
-			rewards: [
-				{
-					id: "2FA9BDA015199742"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "58D7C015DCF2765F"
+				type: "checkmark"
+				title: "召唤一个&5凋灵&r"
+			}]
+			rewards: [{
+				id: "2FA9BDA015199742"
+				type: "random"
+			}]
 		}
 		{
 			x: 10.5d
 			y: 4.5d
-			description: ["只需用它右键单击锻造炉.[--Just right click with it on a forge.--]"]
+			description: ["只需用它右键单击锻造炉."]
 			dependencies: ["1896236FC7BEFF73"]
 			id: "14AE28056311492E"
-			tasks: [
-				{
-					id: "4922F719442B2E29"
-					type: "item"
-					item: "mana-and-artifice:brimstone_charm"
-				}
-			]
-			rewards: [
-				{
-					id: "270E0F898E932DB8"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4922F719442B2E29"
+				type: "item"
+				item: "mana-and-artifice:brimstone_charm"
+			}]
+			rewards: [{
+				id: "270E0F898E932DB8"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: 7.0d
 			dependencies: ["19C32614D8476285"]
 			id: "4CFBAF0BE3395E70"
-			tasks: [
-				{
-					id: "0FC1F50100C24618"
-					type: "item"
-					item: "mana-and-artifice:transitory_tunnel"
-				}
-			]
-			rewards: [
-				{
-					id: "5B4B4F8FFD965B4E"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "0FC1F50100C24618"
+				type: "item"
+				item: "mana-and-artifice:transitory_tunnel"
+			}]
+			rewards: [{
+				id: "5B4B4F8FFD965B4E"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: 6.0d
 			dependencies: ["19C32614D8476285"]
 			id: "3B66257FE4994728"
-			tasks: [
-				{
-					id: "4A1E6403A055D01C"
-					type: "item"
-					item: "minecraft:dragon_breath"
-				}
-			]
-			rewards: [
-				{
-					id: "4F5B64B12AC00D8E"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4A1E6403A055D01C"
+				type: "item"
+				item: "minecraft:dragon_breath"
+			}]
+			rewards: [{
+				id: "4F5B64B12AC00D8E"
+				type: "random"
+			}]
 		}
 		{
 			x: 8.5d
 			y: 8.0d
 			dependencies: ["19C32614D8476285"]
 			id: "1CFC87FC3F6016E1"
-			tasks: [
-				{
-					id: "499EB84AED7F1E3D"
-					type: "item"
-					item: {
-						id: "minecraft:elytra"
-						Count: 1b
-						tag: {
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-462383275
-								-19903110
-								-1433485317
-								-719865307
-							]
-						}
+			tasks: [{
+				id: "499EB84AED7F1E3D"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+						AS_Amulet_Holder: [I;
+							-462383275
+							-19903110
+							-1433485317
+							-719865307
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "05581B9764848135"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "05581B9764848135"
+				type: "random"
+			}]
 		}
 		{
-			title: "黑石结构[--Obsidian Construct--]"
+			title: "黑石结构"
 			x: 12.5d
 			y: 7.0d
 			dependencies: ["19C32614D8476285"]
@@ -2894,7 +2606,7 @@
 				{
 					id: "365EA61A493B2B7C"
 					type: "item"
-					title: "黑石结构头颅[--Obsidian Construct Head--]"
+					title: "黑石结构头颅"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2923,7 +2635,7 @@
 				{
 					id: "5F18C85382A50F5B"
 					type: "item"
-					title: "黑石结构火把[--Obsidian Construct torso--]"
+					title: "黑石结构火把"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2948,7 +2660,7 @@
 				{
 					id: "738C795AE57F7A96"
 					type: "item"
-					title: "黑石结构腿[--Obsidian Construct Leg--]"
+					title: "黑石结构腿"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -2973,7 +2685,7 @@
 				{
 					id: "65ADE8DD089ED130"
 					type: "item"
-					title: "黑石搭建右臂[--Obsidian Construct Right Arm--]"
+					title: "黑石搭建右臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3010,7 +2722,7 @@
 				{
 					id: "435B8AAD280CB989"
 					type: "item"
-					title: "黑石结构左臂[--Obsidian Construct Left Arm--]"
+					title: "黑石结构左臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3045,13 +2757,10 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "04CA7391AFC586BD"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "04CA7391AFC586BD"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:manaweaver_wand_advanced"
@@ -3059,20 +2768,15 @@
 			y: 6.0d
 			dependencies: ["19C32614D8476285"]
 			id: "0D3E0C66CF130ED8"
-			tasks: [
-				{
-					id: "17A012E373B3895F"
-					type: "checkmark"
-					title: "铸造4级抽屉[--Cast a tier 4 cantrip--]"
-				}
-			]
-			rewards: [
-				{
-					id: "1A33A2D632419751"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "17A012E373B3895F"
+				type: "checkmark"
+				title: "铸造4级抽屉"
+			}]
+			rewards: [{
+				id: "1A33A2D632419751"
+				type: "random"
+			}]
 		}
 		{
 			icon: {
@@ -3086,52 +2790,40 @@
 			y: 8.0d
 			dependencies: ["19C32614D8476285"]
 			id: "7C28AB16E293841C"
-			tasks: [
-				{
-					id: "7AF832D3B0F4F347"
-					type: "checkmark"
-					title: "制作一个复杂的 75 级或更多的法术[--Craft a spell with complexity 75 or more--]"
-				}
-			]
-			rewards: [
-				{
-					id: "5B50FCCA036F7A2D"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "7AF832D3B0F4F347"
+				type: "checkmark"
+				title: "制作一个复杂的 75 级或更多的法术"
+			}]
+			rewards: [{
+				id: "5B50FCCA036F7A2D"
+				type: "random"
+			}]
 		}
 		{
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
 				tag: {
-					StoredEnchantments: [
-						{
-							lvl: 4s
-							id: "minecraft:blast_protection"
-						}
-					]
+					StoredEnchantments: [{
+						lvl: 4s
+						id: "minecraft:blast_protection"
+					}]
 				}
 			}
 			x: 11.0d
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
 			id: "0C3736CA1EE060E4"
-			tasks: [
-				{
-					id: "1357C583F38739F1"
-					type: "checkmark"
-					title: "用符文铁砧附魔具有 III 级或更多附魔的物品[--Enchant an item with an enchantment of level III or more using the Runic Anvil--]"
-				}
-			]
-			rewards: [
-				{
-					id: "14EAAF679606378C"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "1357C583F38739F1"
+				type: "checkmark"
+				title: "用符文铁砧附魔具有 III 级或更多附魔的物品"
+			}]
+			rewards: [{
+				id: "14EAAF679606378C"
+				type: "random"
+			}]
 		}
 		{
 			icon: "minecraft:dragon_head"
@@ -3143,7 +2835,7 @@
 				{
 					id: "75834F7B37BA13E4"
 					type: "checkmark"
-					title: "杀死末影龙[--Kill the Ender Dragon--]"
+					title: "杀死末影龙"
 				}
 				{
 					id: "11BF9C240DDD4777"
@@ -3157,13 +2849,10 @@
 					value: 1L
 				}
 			]
-			rewards: [
-				{
-					id: "5BD889E594FA8FC6"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "5BD889E594FA8FC6"
+				type: "random"
+			}]
 		}
 		{
 			icon: "mana-and-artifice:greater_mote_fire"
@@ -3171,32 +2860,27 @@
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
 			id: "5115C86A230AF803"
-			tasks: [
-				{
-					id: "4019109DC2B06280"
-					type: "checkmark"
-					title: "获得60级的魔法[--Reach magic level 60--]"
-				}
-			]
-			rewards: [
-				{
-					id: "44DC825BA7C51D3E"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "4019109DC2B06280"
+				type: "checkmark"
+				title: "获得60级的魔法"
+			}]
+			rewards: [{
+				id: "44DC825BA7C51D3E"
+				type: "random"
+			}]
 		}
 		{
-			title: "钻井棱镜[--Wellsping Prism--]"
+			title: "钻井棱镜"
 			x: 11.5d
 			y: 5.0d
 			description: [
-				"现在,为了将你需要的源质能量设置为上限,每个透镜都为您提供了一个不同的&d魔力&r(&6地球&r,&1水&r等).[--Now to cap the wellspring energy you will need to build a structure on it, each lens provides you a different type of &dmana&r (&6Earth&r, &1Water&r, etc).--]"
+				"现在,为了将你需要的源质能量设置为上限,每个透镜都为您提供了一个不同的&d魔力&r(&6地球&r,&1水&r等)."
 				""
-				"要查看如何搭建这个结构,请阅读编码。[--To see how to build this structure please read the codex.--]"
+				"要查看如何搭建这个结构,请阅读编码。"
 				""
 				" "
-				"&4警告透镜破坏后不能重新掉落&r[--&4Warning the Lens cannot be redrop once broken&r--]"
+				"&4警告透镜破坏后不能重新掉落&r"
 			]
 			dependencies: ["0E996FBAF5DB9C91"]
 			id: "68AA9C78C4049902"
@@ -3204,7 +2888,7 @@
 				{
 					id: "772B74204E770301"
 					type: "item"
-					title: "透镜[--Lens--]"
+					title: "透镜"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3286,20 +2970,17 @@
 					count: 12L
 				}
 			]
-			rewards: [
-				{
-					id: "2A2500720AB2EDBB"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "2A2500720AB2EDBB"
+				type: "random"
+			}]
 		}
 		{
 			x: 10.0d
 			y: 6.0d
 			description: [
-				"要找到一个水晶,你需要喝这个药水,快速的提示你将在&4下界&r中看到更多的水晶,所以快去找它.[--To find a well spring you will need to drink this potion, quick advice you will see more well spring in &4nether&r so go find it.--]"
-				"抛光棒会像指向灌注器的指环一样工作,按住右键单击,它会瞄准它.[--The dowsing Rod will work like a compass always pointing on a wellspring, hold right click and it will targetit on it.--]"
+				"要找到一个水晶,你需要喝这个药水,快速的提示你将在&4下界&r中看到更多的水晶,所以快去找它."
+				"抛光棒会像指向灌注器的指环一样工作,按住右键单击,它会瞄准它."
 			]
 			dependencies: ["708365E2F99D6FA3"]
 			id: "0E996FBAF5DB9C91"
@@ -3321,72 +3002,64 @@
 					item: "mana-and-artifice:wellspring_dowsing_rod"
 				}
 			]
-			rewards: [
-				{
-					id: "5FD7FEF928B6F1C8"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "5FD7FEF928B6F1C8"
+				type: "random"
+			}]
 		}
 		{
-			title: "精灵核心[--Eldrin Conduit--]"
+			title: "精灵核心"
 			x: 9.5d
 			y: 5.0d
 			description: [
-				"既然你的结构已经就位,你需要最后一种物品来使用它,即&5精灵结构&r,但每个精灵结构只能提供一种魔力,以及你拥有的魔力.[--Now that your structure is in place, you need a last item to use it, the &5Eldrin Construct&r but each eldrin construct can only provide one type of mana and only the mana that you have at your disposal.--]"
-				"您可以查看您在&1附魔器中处理的魔力数量[--You can see the amount of mana that you disposed in the &1Occulus--]"
+				"既然你的结构已经就位,你需要最后一种物品来使用它,即&5精灵结构&r,但每个精灵结构只能提供一种魔力,以及你拥有的魔力."
+				"您可以查看您在&1附魔器中处理的魔力数量"
 				" "
-				"&4护甲破坏后不能重新掉落&r[--&4Warning it's cannot be redrop once broken&r--]"
+				"&4护甲破坏后不能重新掉落&r"
 			]
 			dependencies: ["68AA9C78C4049902"]
 			id: "1896236FC7BEFF73"
-			tasks: [
-				{
-					id: "4F20AE17FD493D1F"
-					type: "item"
-					title: "精灵核心[--Eldrin Conduit--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:eldrin_conduit_air"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:eldrin_conduit_earth"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:eldrin_conduit_water"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:eldrin_conduit_fire"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:eldrin_conduit_arcane"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:eldrin_conduit_ender"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "4F20AE17FD493D1F"
+				type: "item"
+				title: "精灵核心"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:eldrin_conduit_air"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_earth"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_water"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_fire"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_arcane"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:eldrin_conduit_ender"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "26B3B94290AC8A99"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "26B3B94290AC8A99"
+				type: "random"
+			}]
 		}
 		{
 			icon: "minecraft:end_stone"
@@ -3394,26 +3067,21 @@
 			y: 9.0d
 			dependencies: ["19C32614D8476285"]
 			id: "47F2FAC62E81DCE2"
-			tasks: [
-				{
-					id: "19D923D9F83E0E25"
-					type: "checkmark"
-					title: "到达末地[--Reach the End--]"
-				}
-			]
-			rewards: [
-				{
-					id: "7CF732467DA9BFC6"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "19D923D9F83E0E25"
+				type: "checkmark"
+				title: "到达末地"
+			}]
+			rewards: [{
+				id: "7CF732467DA9BFC6"
+				type: "random"
+			}]
 		}
 		{
-			title: "战斗盔甲[--Faction armors--]"
+			title: "战斗盔甲"
 			x: 16.0d
 			y: -1.5d
-			subtitle: "怪物受害者[--Faction victim--]"
+			subtitle: "怪物受害者"
 			description: [""]
 			dependencies: ["38EF232690208FB4"]
 			id: "66BC204048F491F4"
@@ -3421,7 +3089,7 @@
 				{
 					id: "38C8EB79B266287B"
 					type: "item"
-					title: "头盔[--Helmet--]"
+					title: "头盔"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3462,7 +3130,7 @@
 				{
 					id: "456C5238B513F158"
 					type: "item"
-					title: "胸甲[--Chestplate--]"
+					title: "胸甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3503,7 +3171,7 @@
 				{
 					id: "10C493320AE188EF"
 					type: "item"
-					title: "护腿[--Leging's--]"
+					title: "护腿"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3544,7 +3212,7 @@
 				{
 					id: "367F0110F2D8AF0A"
 					type: "item"
-					title: "靴子[--Boot--]"
+					title: "靴子"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3583,108 +3251,95 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "273AE2F0FADD2833"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "273AE2F0FADD2833"
+				type: "random"
+			}]
 		}
 		{
-			title: "5级合成表[--Tier 5 artifact--]"
+			title: "5级合成表"
 			x: 16.5d
 			y: 0.0d
 			dependencies: ["38EF232690208FB4"]
 			id: "0581EC1CDB7FB30A"
-			tasks: [
-				{
-					id: "5C563BE1B7B56E85"
-					type: "item"
-					title: "神器[--Artifact--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:arcane_crown"
-									Count: 1b
+			tasks: [{
+				id: "5C563BE1B7B56E85"
+				type: "item"
+				title: "神器"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:arcane_crown"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:hellfire_staff"
+								Count: 1b
+								tag: {
+									Damage: 0
+									spell: { }
 								}
-								{
-									id: "mana-and-artifice:hellfire_staff"
-									Count: 1b
-									tag: {
-										Damage: 0
-										spell: { }
-									}
-								}
-								{
-									id: "mana-and-artifice:cowl_of_consumption"
-									Count: 1b
-								}
-							]
-						}
+							}
+							{
+								id: "mana-and-artifice:cowl_of_consumption"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "1A923EBD15FB5BD9"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "1A923EBD15FB5BD9"
+				type: "random"
+			}]
 		}
 		{
-			title: "碎块号角[--Faction Horns--]"
+			title: "碎块号角"
 			x: 15.0d
 			y: 1.5d
-			subtitle: "给军团召唤!!![--Call The legion!!!--]"
-			description: ["它需要从你的派系中召唤一定数量的基座.[--It will call a certain amount of minion from your faction.--]"]
+			subtitle: "给军团召唤!!!"
+			description: ["它需要从你的派系中召唤一定数量的基座."]
 			dependencies: ["38EF232690208FB4"]
 			id: "3966B9895A5FE883"
-			tasks: [
-				{
-					id: "124D56F38380EA53"
-					type: "item"
-					title: "号角[--Horn--]"
-					item: {
-						id: "itemfilters:or"
-						Count: 1b
-						tag: {
-							items: [
-								{
-									id: "mana-and-artifice:faction_horn_demons"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:faction_horn_fey"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:faction_horn_undead"
-									Count: 1b
-								}
-								{
-									id: "mana-and-artifice:faction_horn_council"
-									Count: 1b
-								}
-							]
-						}
+			tasks: [{
+				id: "124D56F38380EA53"
+				type: "item"
+				title: "号角"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "mana-and-artifice:faction_horn_demons"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_fey"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_undead"
+								Count: 1b
+							}
+							{
+								id: "mana-and-artifice:faction_horn_council"
+								Count: 1b
+							}
+						]
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "2BC61E6E912B4509"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			}]
+			rewards: [{
+				id: "2BC61E6E912B4509"
+				type: "random"
+			}]
 		}
 		{
-			title: "钻石结构[--Diamond Construct--]"
+			title: "钻石结构"
 			x: 14.0d
 			y: -1.5d
 			dependencies: ["38EF232690208FB4"]
@@ -3693,7 +3348,7 @@
 				{
 					id: "772E015399E5BDB7"
 					type: "item"
-					title: "钻石结构头颅[--Diamond Construct Head--]"
+					title: "钻石结构头颅"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3722,7 +3377,7 @@
 				{
 					id: "6BED43F78AEA230B"
 					type: "item"
-					title: "钻石结构鱼箱[--Diamond Construct Torso--]"
+					title: "钻石结构鱼箱"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3747,7 +3402,7 @@
 				{
 					id: "0194487158FFBE7C"
 					type: "item"
-					title: "钻石结构腿[--Diamond Construct Leg--]"
+					title: "钻石结构腿"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3772,7 +3427,7 @@
 				{
 					id: "46BCC343D8CE2B59"
 					type: "item"
-					title: "钻石结构右臂[--Diamond Construct Right Arm--]"
+					title: "钻石结构右臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3809,7 +3464,7 @@
 				{
 					id: "5C36A1CF25EA4A6D"
 					type: "item"
-					title: "钻石结构左臂[--Diamond Construct Left Arm--]"
+					title: "钻石结构左臂"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -3844,13 +3499,10 @@
 					}
 				}
 			]
-			rewards: [
-				{
-					id: "7E80F0996339AFFB"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			rewards: [{
+				id: "7E80F0996339AFFB"
+				type: "random"
+			}]
 		}
 		{
 			x: 4.5d
@@ -3863,48 +3515,39 @@
 				"278CC800303B12A5"
 			]
 			id: "3DE8005B127FFA10"
-			tasks: [
-				{
-					id: "3D0E51514421C8C0"
-					type: "item"
-					item: {
-						id: "matc:tertium_crystal"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "3D0E51514421C8C0"
+				type: "item"
+				item: {
+					id: "matc:tertium_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
 					}
 				}
-			]
-			rewards: [
-				{
-					id: "410EF3783551B762"
-					type: "item"
-					item: "mysticalagriculture:tertium_essence"
-					count: 4
-				}
-			]
+			}]
+			rewards: [{
+				id: "410EF3783551B762"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+				count: 4
+			}]
 		}
 		{
 			x: 13.5d
 			y: 0.0d
-			description: ["要获得这把漂亮的斧子,你需要杀死所有东西的&9奥丁之父&r,可以通过执行&1奥丁召唤仪式&r来召唤他.[--To gain this beautiful axe you need to kill &9Odin Father of All Things&r he can be called by performing &1the ritual of odin call&r.--]"]
+			description: ["要获得这把漂亮的斧子,你需要杀死所有东西的&9奥丁之父&r,可以通过执行&1奥丁召唤仪式&r来召唤他."]
 			dependencies: ["38EF232690208FB4"]
 			id: "5DEEFAD308D713E0"
-			tasks: [
-				{
-					id: "7F15259154A0CE6B"
-					type: "item"
-					item: "mana-and-artifice:allfather_axe"
-				}
-			]
-			rewards: [
-				{
-					id: "04B5F3EEE249B9CD"
-					type: "random"
-					table_id: 21613284823098451L
-				}
-			]
+			tasks: [{
+				id: "7F15259154A0CE6B"
+				type: "item"
+				item: "mana-and-artifice:allfather_axe"
+			}]
+			rewards: [{
+				id: "04B5F3EEE249B9CD"
+				type: "random"
+			}]
 		}
 	]
 }
