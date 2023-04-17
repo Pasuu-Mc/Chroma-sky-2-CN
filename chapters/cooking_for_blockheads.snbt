@@ -3,7 +3,7 @@
 	group: "049115B9B236F83B"
 	order_index: 0
 	filename: "cooking_for_blockheads"
-	title: "为混沌人烹饪"
+	title: "懒人厨房"
 	icon: "cookingforblockheads:cooking_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -20,53 +20,65 @@
 			hide_dependency_lines: true
 			dependencies: ["0AF6257F7F3CB80A"]
 			id: "2036594D686F079A"
-			tasks: [{
-				id: "267C9E3752E8EFAA"
-				type: "item"
-				item: "cookingforblockheads:cooking_table"
-			}]
-			rewards: [{
-				id: "764C158F3FFF3427"
-				type: "item"
-				item: "cfm:red_grill"
-			}]
+			tasks: [
+				{
+					id: "267C9E3752E8EFAA"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+			]
+			rewards: [
+				{
+					id: "764C158F3FFF3427"
+					type: "item"
+					item: "cfm:red_grill"
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: 0.0d
 			shape: "square"
-			description: ["&6熔炉&r允许在多方块厨房中使用熔炼配方,也可以大量熔炼食物."]
+			description: ["&6烤箱&r允许在多方块厨房中使用熔炼配方,也可以大量烘培食物."]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "26C6099D254E34F4"
-			tasks: [{
-				id: "666279DDE7C51AE7"
-				type: "item"
-				item: "cookingforblockheads:oven"
-			}]
-			rewards: [{
-				id: "3A1F1E7B07D774CD"
-				type: "item"
-				item: "minecraft:coal"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "666279DDE7C51AE7"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+			]
+			rewards: [
+				{
+					id: "3A1F1E7B07D774CD"
+					type: "item"
+					item: "minecraft:coal"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -1.0d
 			y: 0.0d
 			shape: "square"
-			description: ["&6水槽&r无限的 水."]
+			description: ["&6水槽&r无限的水."]
 			dependencies: ["7C33AAACA8411A4B"]
 			id: "2D150731595C8979"
-			tasks: [{
-				id: "3A2C657A044E186E"
-				type: "item"
-				item: "cookingforblockheads:sink"
-			}]
-			rewards: [{
-				id: "39E18F3E430C3D87"
-				type: "item"
-				item: "pamhc2foodcore:freshwateritem"
-			}]
+			tasks: [
+				{
+					id: "3A2C657A044E186E"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+			]
+			rewards: [
+				{
+					id: "39E18F3E430C3D87"
+					type: "item"
+					item: "pamhc2foodcore:freshwateritem"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -74,22 +86,26 @@
 			shape: "diamond"
 			dependencies: ["3F97D03C2402B70D"]
 			id: "47935369716C9B45"
-			tasks: [{
-				id: "2C07B0178576EE61"
-				type: "item"
-				item: "cookingforblockheads:tool_rack"
-			}]
-			rewards: [{
-				id: "351587A17C1A0536"
-				type: "item"
-				item: {
-					id: "farmersdelight:iron_knife"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "2C07B0178576EE61"
+					type: "item"
+					item: "cookingforblockheads:tool_rack"
+				}
+			]
+			rewards: [
+				{
+					id: "351587A17C1A0536"
+					type: "item"
+					item: {
+						id: "farmersdelight:iron_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.0d
@@ -100,62 +116,74 @@
 				"3F05D033EBD0710D"
 			]
 			id: "787991D374995417"
-			tasks: [{
-				id: "4239D0CA2098EC2F"
-				type: "item"
-				item: "cookingforblockheads:toaster"
-			}]
-			rewards: [{
-				id: "06F4179230540A4B"
-				type: "item"
-				item: "pamhc2foodcore:toastitem"
-			}]
+			tasks: [
+				{
+					id: "4239D0CA2098EC2F"
+					type: "item"
+					item: "cookingforblockheads:toaster"
+				}
+			]
+			rewards: [
+				{
+					id: "06F4179230540A4B"
+					type: "item"
+					item: "pamhc2foodcore:toastitem"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -1.0d
 			shape: "rsquare"
-			description: ["牛奶可以存储在&6矿罐&r中,然后用桶取出."]
+			description: ["牛奶可以存储在&6奶罐&r中,然后用桶取出."]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "19A3AB8839A43E8F"
-			tasks: [{
-				id: "2CD7DC1FAAF318E7"
-				type: "item"
-				item: "cookingforblockheads:milk_jar"
-			}]
-			rewards: [{
-				id: "2117DA6309FA951B"
-				type: "item"
-				item: "pamhc2foodcore:freshmilkitem"
-			}]
+			tasks: [
+				{
+					id: "2CD7DC1FAAF318E7"
+					type: "item"
+					item: "cookingforblockheads:milk_jar"
+				}
+			]
+			rewards: [
+				{
+					id: "2117DA6309FA951B"
+					type: "item"
+					item: "pamhc2foodcore:freshmilkitem"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: -2.0d
 			shape: "rsquare"
 			description: [
-				"&6罐子中的牛功能与牛奶罐完全相似,同时随着时间的推移还可以自动产生牛奶."
+				"&6罐中牛功能与牛奶罐完全相似,同时随着时间的推移还可以自动产生牛奶."
 				""
 				"这个方块只能通过将一个铁砧放在奶罐顶部的牛顶部来制作."
 			]
 			dependencies: ["19A3AB8839A43E8F"]
 			id: "24184A603A5A8A71"
-			tasks: [{
-				id: "18EC94F1D367DA29"
-				type: "item"
-				item: "cookingforblockheads:cow_jar"
-			}]
-			rewards: [{
-				id: "282F406CDFD4234C"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:cow"
+			tasks: [
+				{
+					id: "18EC94F1D367DA29"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+			]
+			rewards: [
+				{
+					id: "282F406CDFD4234C"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:cow"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.5d
@@ -163,30 +191,36 @@
 			shape: "diamond"
 			dependencies: ["3F97D03C2402B70D"]
 			id: "4F5A3765C02CE8CB"
-			tasks: [{
-				id: "47144805DC27037C"
-				type: "item"
-				item: "cookingforblockheads:spice_rack"
-			}]
-			rewards: [{
-				id: "0F6625A8E7678A15"
-				type: "item"
-				item: "pamhc2crops:spiceleafitem"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "47144805DC27037C"
+					type: "item"
+					item: "cookingforblockheads:spice_rack"
+				}
+			]
+			rewards: [
+				{
+					id: "0F6625A8E7678A15"
+					type: "item"
+					item: "pamhc2crops:spiceleafitem"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&6果冻箱&r可提供 27 个槽位的存储空间,多方块厨房可以访问这些槽位."]
+			description: ["&6水果篮&r可提供27个槽位的存储空间,多方块厨房可以访问这些槽位."]
 			dependencies: ["3F97D03C2402B70D"]
 			id: "1F2E3E432FE0723B"
-			tasks: [{
-				id: "53CE5ABCAE66170D"
-				type: "item"
-				item: "cookingforblockheads:fruit_basket"
-			}]
+			tasks: [
+				{
+					id: "53CE5ABCAE66170D"
+					type: "item"
+					item: "cookingforblockheads:fruit_basket"
+				}
+			]
 			rewards: [
 				{
 					id: "4233E15484A7489A"
@@ -206,20 +240,24 @@
 			x: 0.0d
 			y: 0.0d
 			shape: "square"
-			description: ["&6厨房柜台&r有 27 个槽的存储空间,多方块厨房可以访问这些槽."]
+			description: ["&6厨房柜台&r有27个槽的存储空间,多方块厨房可以访问这些槽."]
 			dependencies: ["7EDF498D2A2487F6"]
 			id: "0B62AADC98AECBE5"
-			tasks: [{
-				id: "74A037FCF6FC338F"
-				type: "item"
-				item: "cookingforblockheads:counter"
-			}]
-			rewards: [{
-				id: "606286D184525057"
-				type: "item"
-				item: "minecraft:sugar"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "74A037FCF6FC338F"
+					type: "item"
+					item: "cookingforblockheads:counter"
+				}
+			]
+			rewards: [
+				{
+					id: "606286D184525057"
+					type: "item"
+					item: "minecraft:sugar"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -227,15 +265,20 @@
 			shape: "square"
 			dependencies: ["7EDF498D2A2487F6"]
 			id: "07C9AB692E93D296"
-			tasks: [{
-				id: "1266FE306F4D2F84"
-				type: "item"
-				item: "cookingforblockheads:corner"
-			}]
-			rewards: [{
-				id: "389C1F5557829DBF"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "1266FE306F4D2F84"
+					type: "item"
+					item: "cookingforblockheads:corner"
+				}
+			]
+			rewards: [
+				{
+					id: "389C1F5557829DBF"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -243,41 +286,49 @@
 			shape: "square"
 			dependencies: ["7EDF498D2A2487F6"]
 			id: "53981ED04D9CE70D"
-			tasks: [{
-				id: "1737358AE1B4F96D"
-				type: "item"
-				item: "cookingforblockheads:cabinet"
-			}]
-			rewards: [{
-				id: "3A8F777AB90E4690"
-				type: "item"
-				item: "pamhc2foodcore:flouritem"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "1737358AE1B4F96D"
+					type: "item"
+					item: "cookingforblockheads:cabinet"
+				}
+			]
+			rewards: [
+				{
+					id: "3A8F777AB90E4690"
+					type: "item"
+					item: "pamhc2foodcore:flouritem"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 0.0d
 			shape: "square"
 			description: [
-				"&6壁炉&r用于存储像箱子一样的物品,可以染色."
+				"&6冰箱&r用于存储像箱子一样的物品,可以染色."
 				""
-				"如果它连接到烹饪桌,玩家可以直接制作食物,以及从炉子中提取的组件."
+				"如果它连接到烹饪桌,从冰箱中提取组成部分，玩家可以直接制作食物."
 				""
 				"垂直放置两个冰箱会将它们组合在一起."
 			]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "4873BB236873D26E"
-			tasks: [{
-				id: "133E11CE6A999554"
-				type: "item"
-				item: "cookingforblockheads:fridge"
-			}]
-			rewards: [{
-				id: "6EF11EB520914436"
-				type: "item"
-				item: "pamhc2foodextended:elderberrysmoothieitem"
-			}]
+			tasks: [
+				{
+					id: "133E11CE6A999554"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
+			rewards: [
+				{
+					id: "6EF11EB520914436"
+					type: "item"
+					item: "pamhc2foodextended:elderberrysmoothieitem"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -288,15 +339,20 @@
 				"26C6099D254E34F4"
 			]
 			id: "011F82F647DB6514"
-			tasks: [{
-				id: "7AF696E583489CF9"
-				type: "item"
-				item: "cookingforblockheads:heating_unit"
-			}]
-			rewards: [{
-				id: "184B2F08C0933729"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7AF696E583489CF9"
+					type: "item"
+					item: "cookingforblockheads:heating_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "184B2F08C0933729"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -307,17 +363,21 @@
 				"4873BB236873D26E"
 			]
 			id: "5ED0C7DF3F03863A"
-			tasks: [{
-				id: "6F674F2FD4FCC11A"
-				type: "item"
-				item: "cookingforblockheads:ice_unit"
-			}]
-			rewards: [{
-				id: "7F2B7588F5D8BE59"
-				type: "item"
-				item: "minecraft:ice"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "6F674F2FD4FCC11A"
+					type: "item"
+					item: "cookingforblockheads:ice_unit"
+				}
+			]
+			rewards: [
+				{
+					id: "7F2B7588F5D8BE59"
+					type: "item"
+					item: "minecraft:ice"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -328,17 +388,21 @@
 				"4873BB236873D26E"
 			]
 			id: "7F936FA2835566F4"
-			tasks: [{
-				id: "7B636DC7102ACF60"
-				type: "item"
-				item: "cookingforblockheads:preservation_chamber"
-			}]
-			rewards: [{
-				id: "136E254BAB0900DF"
-				type: "item"
-				item: "farmersdelight:chicken_cuts"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "7B636DC7102ACF60"
+					type: "item"
+					item: "cookingforblockheads:preservation_chamber"
+				}
+			]
+			rewards: [
+				{
+					id: "136E254BAB0900DF"
+					type: "item"
+					item: "farmersdelight:chicken_cuts"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -346,15 +410,20 @@
 			shape: "hexagon"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "36251EB8F9480A4C"
-			tasks: [{
-				id: "4B6DB7E69257B4B1"
-				type: "item"
-				item: "cookingforblockheads:recipe_book"
-			}]
-			rewards: [{
-				id: "1783D1AC53ADC440"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "4B6DB7E69257B4B1"
+					type: "item"
+					item: "cookingforblockheads:recipe_book"
+				}
+			]
+			rewards: [
+				{
+					id: "1783D1AC53ADC440"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -362,15 +431,20 @@
 			shape: "hexagon"
 			dependencies: ["36251EB8F9480A4C"]
 			id: "0AF6257F7F3CB80A"
-			tasks: [{
-				id: "7A72BFE3F0F36B06"
-				type: "item"
-				item: "cookingforblockheads:crafting_book"
-			}]
-			rewards: [{
-				id: "1E047B5BA4FA9ED6"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7A72BFE3F0F36B06"
+					type: "item"
+					item: "cookingforblockheads:crafting_book"
+				}
+			]
+			rewards: [
+				{
+					id: "1E047B5BA4FA9ED6"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 	]
 }
