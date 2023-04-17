@@ -555,7 +555,7 @@
 			x: -7.0d
 			y: -3.0d
 			shape: "hexagon"
-			description: ["每 15 ticks 转移 8 个物品."]
+			description: ["每15ticks转移8个物品."]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "47FD87C40EF62ABB"
 			tasks: [
@@ -577,7 +577,7 @@
 			x: -7.0d
 			y: -2.0d
 			shape: "hexagon"
-			description: ["每 10 ticks 转移 16 个物品."]
+			description: ["每10ticks转移16个物品."]
 			dependencies: ["47FD87C40EF62ABB"]
 			id: "7D7D7DC63E4C2F0A"
 			tasks: [
@@ -599,7 +599,7 @@
 			x: -7.0d
 			y: -1.0d
 			shape: "hexagon"
-			description: ["每 5 ticks 转移 32 个物品."]
+			description: ["每5ticks转移32个物品."]
 			dependencies: ["7D7D7DC63E4C2F0A"]
 			id: "08C40E34FE7E24CE"
 			tasks: [
@@ -721,7 +721,7 @@
 			x: 5.0d
 			y: -4.0d
 			shape: "square"
-			description: ["一个 3x3x3 的箱子。"]
+			description: ["一个3x3x3的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -748,7 +748,7 @@
 			x: 5.0d
 			y: -3.0d
 			shape: "square"
-			description: ["一个 5x5x5 的箱子。"]
+			description: ["一个5x5x5的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -775,7 +775,7 @@
 			x: 5.0d
 			y: -2.0d
 			shape: "square"
-			description: ["一个 7x7x7 的箱子."]
+			description: ["一个7x7x7的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -802,7 +802,7 @@
 			x: 5.0d
 			y: -1.0d
 			shape: "square"
-			description: ["9x9x9的箱子。"]
+			description: ["一个9x9x9的箱子。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -829,7 +829,7 @@
 			x: 5.0d
 			y: 0.0d
 			shape: "square"
-			description: ["一个 11x11x11 的箱子."]
+			description: ["一个11x11x11的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -856,7 +856,7 @@
 			x: 5.0d
 			y: 1.0d
 			shape: "square"
-			description: ["一个 13x13x13 的箱子."]
+			description: ["一个13x13x13的箱子."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6705F141D138C325"
@@ -1169,7 +1169,7 @@
 		{
 			x: -10.0d
 			y: -4.0d
-			description: ["一次最多可以放置 9 个方块!"]
+			description: ["一次最多可以放置9个方块!"]
 			dependencies: ["793F6D3707268AFB"]
 			id: "6ED11CD6BDBD5ABF"
 			tasks: [
@@ -1198,7 +1198,7 @@
 		{
 			x: -10.0d
 			y: -3.0d
-			description: ["一次最多可以放置 27 个方块!"]
+			description: ["一次最多可以放置27个方块!"]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "3E26238C4EBD0434"
 			tasks: [
@@ -1256,7 +1256,7 @@
 		{
 			x: -10.0d
 			y: -1.0d
-			description: ["一次最多可以放置 1024 个方块!"]
+			description: ["一次最多可以放置1024个方块!"]
 			dependencies: ["088D692E25F62BFD"]
 			id: "29C488DD8A1CF337"
 			tasks: [
@@ -1804,11 +1804,11 @@
 			y: 0.0d
 			shape: "diamond"
 			description: [
-				"&e磨制&r扩展了您在游戏中使用的方块类型."
+				"&eChipped&r扩展了您在游戏中使用的方块类型."
 				""
 				"该模组提供2000多个独特的建筑方块."
 				""
-				"破碎和切石机的工作方式相同."
+				"Chipped和切石机的工作方式相同."
 			]
 			id: "53FCCB40B318331E"
 			tasks: [

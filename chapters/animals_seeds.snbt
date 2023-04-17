@@ -46,23 +46,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "3F9B8259D27E86F3"
-			tasks: [{
-				id: "086AB07FF1BD0F42"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:bee"
+			tasks: [
+				{
+					id: "086AB07FF1BD0F42"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:bee"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "7152E8E8EB805DFD"
-				type: "item"
-				item: "minecraft:honeycomb"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "7152E8E8EB805DFD"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -70,23 +74,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "580E5D89A0B70236"
-			tasks: [{
-				id: "42005EF08004D48E"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:chicken"
+			tasks: [
+				{
+					id: "42005EF08004D48E"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:chicken"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6B20BE680F46C243"
-				type: "item"
-				item: "minecraft:feather"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "6B20BE680F46C243"
+					type: "item"
+					item: "minecraft:feather"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -94,23 +102,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "1815273C8DC71304"
-			tasks: [{
-				id: "5A3DD8F58FDFC8CF"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:cow"
+			tasks: [
+				{
+					id: "5A3DD8F58FDFC8CF"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:cow"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0E6748922356636B"
-				type: "item"
-				item: "minecraft:leather"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "0E6748922356636B"
+					type: "item"
+					item: "minecraft:leather"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 2.0d
@@ -118,23 +130,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "43F29BB71CF27B40"
-			tasks: [{
-				id: "68C36DE3BCB76FC1"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:pig"
+			tasks: [
+				{
+					id: "68C36DE3BCB76FC1"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:pig"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1D99759ACE5AB80B"
-				type: "item"
-				item: "quark:tallow"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "1D99759ACE5AB80B"
+					type: "item"
+					item: "quark:tallow"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -142,23 +158,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "59602C17CE7298A0"
-			tasks: [{
-				id: "6DBBEF7D3A1AE5C3"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:rabbit"
+			tasks: [
+				{
+					id: "6DBBEF7D3A1AE5C3"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:rabbit"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5A4223BC53923CF5"
-				type: "item"
-				item: "minecraft:rabbit_hide"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "5A4223BC53923CF5"
+					type: "item"
+					item: "minecraft:rabbit_hide"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -166,23 +186,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "4E7708F607129E79"
-			tasks: [{
-				id: "7A28AD78CA94389B"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:sheep"
+			tasks: [
+				{
+					id: "7A28AD78CA94389B"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:sheep"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3EBCF9CB8088336D"
-				type: "item"
-				item: "minecraft:white_wool"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "3EBCF9CB8088336D"
+					type: "item"
+					item: "minecraft:white_wool"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -190,23 +214,27 @@
 			shape: "rsquare"
 			dependencies: ["0C1760A0E6D5AF4C"]
 			id: "4FB196575E712982"
-			tasks: [{
-				id: "4C0BE9838D429FF9"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:villager"
+			tasks: [
+				{
+					id: "4C0BE9838D429FF9"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:villager"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6B9D058741F069F9"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "6B9D058741F069F9"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -214,23 +242,27 @@
 			shape: "rsquare"
 			dependencies: ["0ABA29AAB5DCD885"]
 			id: "15B15DBDE784EA1B"
-			tasks: [{
-				id: "359ACEF5A716D2FC"
-				type: "item"
-				item: {
-					id: "animalcrops:anemonemal"
-					Count: 1b
-					tag: {
-						entity: "minecraft:squid"
+			tasks: [
+				{
+					id: "359ACEF5A716D2FC"
+					type: "item"
+					item: {
+						id: "animalcrops:anemonemal"
+						Count: 1b
+						tag: {
+							entity: "minecraft:squid"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1427B6E0E32C695B"
-				type: "item"
-				item: "minecraft:ink_sac"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "1427B6E0E32C695B"
+					type: "item"
+					item: "minecraft:ink_sac"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -238,23 +270,27 @@
 			shape: "rsquare"
 			dependencies: ["0C1760A0E6D5AF4C"]
 			id: "0858178E539369B4"
-			tasks: [{
-				id: "18DD403C6C8F3E91"
-				type: "item"
-				item: {
-					id: "animalcrops:anemonemal"
-					Count: 1b
-					tag: {
-						entity: "minecraft:turtle"
+			tasks: [
+				{
+					id: "18DD403C6C8F3E91"
+					type: "item"
+					item: {
+						id: "animalcrops:anemonemal"
+						Count: 1b
+						tag: {
+							entity: "minecraft:turtle"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0422C1BA27A96D3A"
-				type: "item"
-				item: "minecraft:scute"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "0422C1BA27A96D3A"
+					type: "item"
+					item: "minecraft:scute"
+					count: 4
+				}
+			]
 		}
 	]
 }

@@ -183,7 +183,7 @@
 			x: 2.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["每20ticks制作1 个圆石."]
+			description: ["每20ticks制作1个圆石."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4DE1E7A69AD51402"

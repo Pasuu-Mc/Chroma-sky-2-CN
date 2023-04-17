@@ -13,25 +13,29 @@
 			y: -3.0d
 			shape: "rsquare"
 			description: [
-				"酿造机:"
-				"1. 准备一个桶和至少4个空的啤酒杯,通过右键单击桶打开酿造菜单."
-				"2. 将材料放入桶中(材料的顺序并不重要,例如,在下方的Gif中浮出苹果和小麦的位置获得相同的啤酒效果)。"
-				"3. 一旦你决定了要酿制哪些啤酒,把杯子放进去然后开始酿造."
-				"... 转动.."
-				"5. 放下舱门!"
+				"酿造啤酒:"
+				"1.准备一个桶和至少4个空的啤酒杯,通过右键单击桶打开酿造菜单."
+				"2.将材料放入桶中(材料的顺序并不重要,例如,在下方的Gif中浮出苹果和小麦的位置获得相同的啤酒效果)。"
+				"3.一旦你决定了要酿制哪些啤酒,把杯子放进去然后开始酿造."
+				"4...酿造.."
+				"5.干杯!"
 			]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "7DFEF9DC460FA215"
-			tasks: [{
-				id: "240E5E96F7D7C20A"
-				type: "item"
-				item: "drinkbeer:beer_barrel"
-			}]
-			rewards: [{
-				id: "7703B8E6AC038F51"
-				type: "item"
-				item: "drinkbeer:beer_barrel"
-			}]
+			tasks: [
+				{
+					id: "240E5E96F7D7C20A"
+					type: "item"
+					item: "drinkbeer:beer_barrel"
+				}
+			]
+			rewards: [
+				{
+					id: "7703B8E6AC038F51"
+					type: "item"
+					item: "drinkbeer:beer_barrel"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -39,18 +43,22 @@
 			shape: "rsquare"
 			dependencies: ["3F05D033EBD0710D"]
 			id: "77A289EC4D4E7263"
-			tasks: [{
-				id: "2F91576F9DE10882"
-				type: "item"
-				item: "drinkbeer:empty_beer_mug"
-				count: 8L
-			}]
-			rewards: [{
-				id: "042D0D274ECACB07"
-				type: "item"
-				item: "drinkbeer:empty_beer_mug"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "2F91576F9DE10882"
+					type: "item"
+					item: "drinkbeer:empty_beer_mug"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "042D0D274ECACB07"
+					type: "item"
+					item: "drinkbeer:empty_beer_mug"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -58,16 +66,20 @@
 			shape: "square"
 			dependencies: ["3F97D03C2402B70D"]
 			id: "72091CADBB064FF3"
-			tasks: [{
-				id: "6229A0563026C509"
-				type: "item"
-				item: "drinkbeer:recipe_board_package"
-			}]
-			rewards: [{
-				id: "38F5DE9DF76AF5F2"
-				type: "item"
-				item: "drinkbeer:golden_call_bell"
-			}]
+			tasks: [
+				{
+					id: "6229A0563026C509"
+					type: "item"
+					item: "drinkbeer:recipe_board_package"
+				}
+			]
+			rewards: [
+				{
+					id: "38F5DE9DF76AF5F2"
+					type: "item"
+					item: "drinkbeer:golden_call_bell"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -80,15 +92,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "04D3D8A6713EA496"
-			tasks: [{
-				id: "2036AB5256BC9EEC"
-				type: "item"
-				item: "drinkbeer:beer_mug"
-			}]
-			rewards: [{
-				id: "1A7487EE35ADFB21"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "2036AB5256BC9EEC"
+					type: "item"
+					item: "drinkbeer:beer_mug"
+				}
+			]
+			rewards: [
+				{
+					id: "1A7487EE35ADFB21"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -101,15 +118,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "0771EA1A1A64DEE3"
-			tasks: [{
-				id: "05604F6D169BC04F"
-				type: "item"
-				item: "drinkbeer:beer_mug_blaze_stout"
-			}]
-			rewards: [{
-				id: "2181235F259686B7"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "05604F6D169BC04F"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_stout"
+				}
+			]
+			rewards: [
+				{
+					id: "2181235F259686B7"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -122,15 +144,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "689849870CD3F3DF"
-			tasks: [{
-				id: "1A21A0C3C86E1655"
-				type: "item"
-				item: "drinkbeer:beer_mug_blaze_milk_stout"
-			}]
-			rewards: [{
-				id: "4FB9E409E5BBA64C"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "1A21A0C3C86E1655"
+					type: "item"
+					item: "drinkbeer:beer_mug_blaze_milk_stout"
+				}
+			]
+			rewards: [
+				{
+					id: "4FB9E409E5BBA64C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -143,15 +170,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "15E54ACCB49EB200"
-			tasks: [{
-				id: "2E283372160C9A12"
-				type: "item"
-				item: "drinkbeer:beer_mug_apple_lambic"
-			}]
-			rewards: [{
-				id: "17795BC50497D959"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "2E283372160C9A12"
+					type: "item"
+					item: "drinkbeer:beer_mug_apple_lambic"
+				}
+			]
+			rewards: [
+				{
+					id: "17795BC50497D959"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -164,15 +196,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "5615D15B9F77D98A"
-			tasks: [{
-				id: "3A6B38D225765525"
-				type: "item"
-				item: "drinkbeer:beer_mug_sweet_berry_kriek"
-			}]
-			rewards: [{
-				id: "10C382B5C73310CC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "3A6B38D225765525"
+					type: "item"
+					item: "drinkbeer:beer_mug_sweet_berry_kriek"
+				}
+			]
+			rewards: [
+				{
+					id: "10C382B5C73310CC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -185,15 +222,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "6A11920D5F2A8FB5"
-			tasks: [{
-				id: "4671D3A6F66AA3A4"
-				type: "item"
-				item: "drinkbeer:beer_mug_haars_icey_pale_lager"
-			}]
-			rewards: [{
-				id: "37F430D993908771"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "4671D3A6F66AA3A4"
+					type: "item"
+					item: "drinkbeer:beer_mug_haars_icey_pale_lager"
+				}
+			]
+			rewards: [
+				{
+					id: "37F430D993908771"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -206,15 +248,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "6FAB2AFB78E08098"
-			tasks: [{
-				id: "5711EDC5B6F30A77"
-				type: "item"
-				item: "drinkbeer:beer_mug_pumpkin_kvass"
-			}]
-			rewards: [{
-				id: "7400A2F5B36CE463"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "5711EDC5B6F30A77"
+					type: "item"
+					item: "drinkbeer:beer_mug_pumpkin_kvass"
+				}
+			]
+			rewards: [
+				{
+					id: "7400A2F5B36CE463"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -227,15 +274,20 @@
 				"72091CADBB064FF3"
 			]
 			id: "1E38D903E2DC9C00"
-			tasks: [{
-				id: "231DB4B31B09311D"
-				type: "item"
-				item: "drinkbeer:beer_mug_night_howl_kvass"
-			}]
-			rewards: [{
-				id: "086AF0C5FD8E9D55"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "231DB4B31B09311D"
+					type: "item"
+					item: "drinkbeer:beer_mug_night_howl_kvass"
+				}
+			]
+			rewards: [
+				{
+					id: "086AF0C5FD8E9D55"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 	]
 }

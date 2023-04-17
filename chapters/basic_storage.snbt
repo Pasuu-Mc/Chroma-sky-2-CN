@@ -279,7 +279,7 @@
 		{
 			x: 2.0d
 			y: -1.0d
-			description: ["将抽屉的存储量增加 2 ."]
+			description: ["将其安装到抽屉的存储量增加 2 ."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "7405B83D0ADAC9FE"
 			tasks: [
@@ -384,7 +384,7 @@
 		{
 			x: 3.0d
 			y: -2.5d
-			description: ["此升级将抽屉容量上的任何物品发送到虚空中,以不再被看到."]
+			description: ["此升级将抽屉容量上的任何物品发送到虚空中,你再也看不到了."]
 			dependencies: ["5C6387836A9F6896"]
 			id: "339A4351EEA4BBCD"
 			tasks: [
@@ -537,7 +537,7 @@
 		{
 			x: 3.0d
 			y: -1.5d
-			description: ["此升级会高亮被储存的方块/物品,对于夜晚效果更好!"]
+			description: ["此升级会高亮被储存的方块/物品,对于夜晚,效果更好!"]
 			dependencies: ["5C6387836A9F6896"]
 			id: "34E11B1C3B3443D6"
 			tasks: [
