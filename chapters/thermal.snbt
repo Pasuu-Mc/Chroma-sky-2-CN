@@ -538,7 +538,7 @@
 			y: 9.0d
 			shape: "rsquare"
 			subtitle: "小心手"
-			description: ["将原木切割成木板并重新处理木质物品。非常适合用树来做."]
+			description: ["将原木切割成木板并重新处理木质物品。对充分利用树木非常有用."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1B9AFBFD62DBF237"
@@ -678,7 +678,7 @@
 			y: 6.0d
 			shape: "rsquare"
 			subtitle: "压印"
-			description: ["挤压和变形物品。可以使用制造模具来决定输出."]
+			description: ["挤压和改变物品。可以使用制造模具来决定输出."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1B9AFBFD62DBF237"
@@ -982,7 +982,7 @@
 			y: 2.5d
 			shape: "diamond"
 			subtitle: "用熔岩产生 FE"
-			description: ["为了用这台&4能源炉&r产生能量,你必须在中方放入熔岩."]
+			description: ["为了用这台&4能源炉&r产生能量,你必须在里边放入熔岩."]
 			dependencies: ["4B00EE6E2C55BA82"]
 			id: "7796D8EF75102EB9"
 			tasks: [

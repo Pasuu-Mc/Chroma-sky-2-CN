@@ -3,7 +3,7 @@
 	group: "049115B9B236F83B"
 	order_index: 1
 	filename: "pams_harvestcraft"
-	title: "Pam的收割宝珠"
+	title: "潘马斯农场"
 	icon: "pamhc2foodcore:basichamburgeritem"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false

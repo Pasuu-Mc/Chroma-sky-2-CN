@@ -15,7 +15,7 @@
 			shape: "diamond"
 			subtitle: "新的冒险"
 			description: [
-				"&k&bchroma&r 欢迎来到Chroma Sky 2!&b&kchroma&r"
+				"&k&bchroma&r欢迎来到Chroma Sky 2!&b&kchroma&r"
 				""
 				"这个整合包是新生的&6SkyBlock&r,是&bChroma-Sky&r的后期。在这个整合包中,许多配方已经改变以管理好平衡。我们甚至创建了一些新的机器来提高你的生存能力."
 				"甚至为创造物品、自定义物品、自定义流体、新机械等新的配方,甚至更多帮助您完成旅程!"
@@ -344,7 +344,7 @@
 			shape: "diamond"
 			subtitle: "如何激活&6FTB Ultimine&r?"
 			description: [
-				"为了获得&b FTBUltimine,你必须解锁&3基础资源&r,然后用&6Ultimine&r右键单击。当你完成后,请查看&9欢迎Chroma-Sky-2&r任务中的&5遗失饰品&r任务."
+				"为了获得&bFTBUltimine&3,你必须解锁基础资源&r,然后用&6Ultimine&r右键单击。当你完成后,请查看&9欢迎Chroma-Sky-2&r任务中的&5遗失饰品&r任务."
 				""
 				"&5玩家的&rGUI可以用&l&cR&r键(默认)打开."
 			]
