@@ -13,182 +13,214 @@
 			y: -0.5d
 			shape: "diamond"
 			description: [
-				"村民物品可以通过潜行或右键单击村民或按 V(默认)键获得."
+				"村民可以通过潜行或右键单击村民或按V(默认)键获得."
 				""
-				"村民物品可以通过右键单击地面来放置."
+				"村民可以通过右键单击地面来放置."
 				""
 				"至少你不需要在山下找到它."
 			]
 			size: 1.5d
 			id: "69E0345D5A3BBA38"
-			tasks: [{
-				id: "3B4EF87950D8ACA6"
-				type: "item"
-				item: "easy_villagers:villager"
-			}]
-			rewards: [{
-				id: "613C94FCF156F646"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:villager"
+			tasks: [
+				{
+					id: "3B4EF87950D8ACA6"
+					type: "item"
+					item: "easy_villagers:villager"
+				}
+			]
+			rewards: [
+				{
+					id: "613C94FCF156F646"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:villager"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["商人块允许与村民交易,而不需要保护村民。 该块还允许村民在非工作时间中填充。村民的填充时间不取决于任何外部来源,例如白天/夜晚或维度."]
+			description: ["村民交易所允许与村民交易,而不需要保护村民。该块还允许村民在非工作时间中填充。村民的填充时间不取决于任何外部来源,例如白天/夜晚或维度."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "342B3DD82822DC35"
-			tasks: [{
-				id: "373FE8EEF1C3B08F"
-				type: "item"
-				item: "easy_villagers:trader"
-			}]
-			rewards: [{
-				id: "529596AAACB8134E"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "373FE8EEF1C3B08F"
+					type: "item"
+					item: "easy_villagers:trader"
+				}
+			]
+			rewards: [
+				{
+					id: "529596AAACB8134E"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["自动交易器的工作原理与交易器完全相似,只是它会自动为您交易物品。 你也可以自动将物品放入并用漏斗将物品取出."]
+			description: ["自动交易所的工作原理与交易所完全相似,只是它会自动为您交易物品。你也可以自动将物品放入并用漏斗将物品取出."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "7B25AFFD8C770A6C"
-			tasks: [{
-				id: "044035CC69D98EF2"
-				type: "item"
-				item: "easy_villagers:auto_trader"
-			}]
-			rewards: [{
-				id: "5EF47FD5EE612D9F"
-				type: "item"
-				item: "minecraft:emerald"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "044035CC69D98EF2"
+					type: "item"
+					item: "easy_villagers:auto_trader"
+				}
+			]
+			rewards: [
+				{
+					id: "5EF47FD5EE612D9F"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["农夫块在同一个方块中包含一个完整的作物农场。 这有助于减少延迟并节省空间."]
+			description: ["农场是在同一个方块中包含一个完整的作物农场。这有助于减少延迟并节省空间."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "154CE0DD795E57C2"
-			tasks: [{
-				id: "7000BE975423FC75"
-				type: "item"
-				item: "easy_villagers:farmer"
-			}]
-			rewards: [{
-				id: "218E06C71168E745"
-				type: "item"
-				item: "minecraft:wheat"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "7000BE975423FC75"
+					type: "item"
+					item: "easy_villagers:farmer"
+				}
+			]
+			rewards: [
+				{
+					id: "218E06C71168E745"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["繁殖器通过放置食物来产生村民。 这也可以帮助减少延迟,节省空间,以及很多气恼."]
+			description: ["繁殖所通过放置食物来产生村民。这也可以帮助减少延迟,节省空间,以及很多挫折."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "3C3C023DAD1FF329"
-			tasks: [{
-				id: "2E8470233853A886"
-				type: "item"
-				item: "easy_villagers:breeder"
-			}]
-			rewards: [{
-				id: "5CCABACA07E40DF6"
-				type: "item"
-				item: "minecraft:carrot"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "2E8470233853A886"
+					type: "item"
+					item: "easy_villagers:breeder"
+				}
+			]
+			rewards: [
+				{
+					id: "5CCABACA07E40DF6"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["转换机将村民转化为僵尸村民,然后治疗他们,使从治愈村民那里放置更好的交易的玩家能够这样做。 这个方块需要一台金苹果,任何类型的虚弱药水,村民需要大约5分钟才能转成怪物。"]
+			description: ["转换所将村民转化为僵尸村民,然后治疗他们,使从治愈村民那里获得更便宜的交易。这个方块需要一个金苹果,任何类型的虚弱药水,村民需要大约需要5分钟才能转成怪物。"]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "56194F5EEDAE9181"
-			tasks: [{
-				id: "4CC93DD36DB303CC"
-				type: "item"
-				item: "easy_villagers:converter"
-			}]
-			rewards: [{
-				id: "5DEEA9A6EFF9DB10"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
+			tasks: [
+				{
+					id: "4CC93DD36DB303CC"
+					type: "item"
+					item: "easy_villagers:converter"
+				}
+			]
+			rewards: [
+				{
+					id: "5DEEA9A6EFF9DB10"
+					type: "item"
+					item: "minecraft:golden_apple"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 1.0d
 			shape: "diamond"
-			description: ["铁质农场方块在同一个方块中包含一个完整的铁质农场。每四分钟产生一个铁锭。 这通常每分钟产生一个铁锭."]
+			description: ["铁农场方块是在同一个方块中包含一个完整的铁农场。每四分钟产生一个铁傀儡。平均每分钟产生一个铁锭."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "529341319CA7AF2F"
-			tasks: [{
-				id: "4E182D86C260F7A8"
-				type: "item"
-				item: "easy_villagers:iron_farm"
-			}]
-			rewards: [{
-				id: "42E70AB47E9AD736"
-				type: "item"
-				item: "minecraft:poppy"
-			}]
+			tasks: [
+				{
+					id: "4E182D86C260F7A8"
+					type: "item"
+					item: "easy_villagers:iron_farm"
+				}
+			]
+			rewards: [
+				{
+					id: "42E70AB47E9AD736"
+					type: "item"
+					item: "minecraft:poppy"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 1.5d
 			shape: "diamond"
-			description: ["繁殖器可以增加村民的生长速度."]
+			description: ["培育所可以增加村民的生长速度."]
 			dependencies: [
 				"47A4D81697C274A3"
 				"0C1760A0E6D5AF4C"
 			]
 			id: "6595523BFE3FDE67"
-			tasks: [{
-				id: "1DB75A72F71C025A"
-				type: "item"
-				item: "easy_villagers:incubator"
-			}]
-			rewards: [{
-				id: "6D012DE5F7672CED"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1DB75A72F71C025A"
+					type: "item"
+					item: "easy_villagers:incubator"
+				}
+			]
+			rewards: [
+				{
+					id: "6D012DE5F7672CED"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 4
+				}
+			]
 		}
 		{
 			icon: "minecraft:emerald"
@@ -196,25 +228,29 @@
 			y: 2.5d
 			shape: "diamond"
 			description: [
-				"当寻找好交易时,您总是需要移除村民工作站,以重置他们的交易。 交易循环按钮会解决这个问题。 如果村民之前没有交易,您可以只需按住它并自动重置交易."
+				"当寻找更好的交易时,你总是需要移除村民工作站,以重置他们的交易。交易循环按钮会解决这个问题。如果村民之前没有交易,您可以只需按住它并自动重置交易."
 				""
-				"或者,您可以使用 C (默认情况下) 键来循环交易."
+				"或者,您可以使用C(默认情况下)键来循环交易."
 				""
 				"这对普通村民也管用."
 			]
 			hide_dependency_lines: true
 			dependencies: ["342B3DD82822DC35"]
 			id: "01F1C546339F7BC2"
-			tasks: [{
-				id: "647EC8CE7E3A668B"
-				type: "checkmark"
-				title: "交易机体"
-			}]
-			rewards: [{
-				id: "35BED5C9467B03C7"
-				type: "item"
-				item: "minecraft:emerald"
-			}]
+			tasks: [
+				{
+					id: "647EC8CE7E3A668B"
+					type: "checkmark"
+					title: "交易循环"
+				}
+			]
+			rewards: [
+				{
+					id: "35BED5C9467B03C7"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+			]
 		}
 	]
 }

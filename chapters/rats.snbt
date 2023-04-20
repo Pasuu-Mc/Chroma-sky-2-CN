@@ -3,7 +3,7 @@
 	group: "258B5ED587988A28"
 	order_index: 3
 	filename: "rats"
-	title: "鼠"
+	title: "老鼠"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -20,19 +20,21 @@
 			shape: "rsquare"
 			subtitle: "垃圾制造器"
 			description: [
-				"当用手持可放置物品右键单击时,垃圾可以“填充”类似于堆肥炉."
+				"当用手持可放置物品右键单击时,垃圾可以“填充”类似于堆肥桶."
 				""
-				"在 6 个方块中,下一个右键单击会释放一个&c的垃圾块&r,然后可以放置或用来制作."
+				"使用6个方块后,下一个右键单击会释放一个&c垃圾块r,可以放置或用来合成."
 				""
-				"破坏时,垃圾块也可以掉落塑料废料,可以烧制它们来获得小块干橡胶."
+				"破坏时,垃圾块也可以掉落塑料废品,可以烧制它们来获得小块干橡胶."
 			]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "6E32CBE4300414BA"
-			tasks: [{
-				id: "6475A7F3C56B1B9F"
-				type: "item"
-				item: "rats:trash_can"
-			}]
+			tasks: [
+				{
+					id: "6475A7F3C56B1B9F"
+					type: "item"
+					item: "rats:trash_can"
+				}
+			]
 			rewards: [
 				{
 					id: "23E21DC8971B6BBF"
@@ -52,30 +54,34 @@
 			x: 5.5d
 			y: 3.0d
 			description: [
-				"在黑暗中,垃圾会从它上面生成鼠子."
+				"在黑暗中,垃圾会从它上面生成老鼠."
 				""
 				"垃圾可用于制作多种变体,生成不同类型的生物."
 			]
 			dependencies: ["6E32CBE4300414BA"]
 			id: "10670EB26DC9CCAA"
-			tasks: [{
-				id: "6EC2CBC16B2E3FD2"
-				type: "item"
-				item: "rats:garbage_pile"
-				count: 8L
-			}]
-			rewards: [{
-				id: "4045B34608CFAD84"
-				type: "item"
-				item: "rats:garbage_pile"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "6EC2CBC16B2E3FD2"
+					type: "item"
+					item: "rats:garbage_pile"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "4045B34608CFAD84"
+					type: "item"
+					item: "rats:garbage_pile"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 6.0d
 			description: [
-				"&e曲奇&r是用奶酪块制作的物品."
+				"&e奶酪&r是用奶酪块制作的物品."
 				""
 				"奶酪用来驯服老鼠."
 				""
@@ -83,60 +89,72 @@
 			]
 			dependencies: ["70326FBA1D606DB4"]
 			id: "49C443050019B6F5"
-			tasks: [{
-				id: "6FF8FFA7149A544E"
-				type: "item"
-				item: "rats:cheese"
-				count: 8L
-			}]
-			rewards: [{
-				id: "38046D1D33F9E643"
-				type: "item"
-				item: "rats:cheese"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "6FF8FFA7149A544E"
+					type: "item"
+					item: "rats:cheese"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "38046D1D33F9E643"
+					type: "item"
+					item: "rats:cheese"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 6.0d
-			description: ["&e卷轴站&f用于制作奶酪和自动化奶酪生产."]
+			description: ["&e凝乳台&f用于制作奶酪和自动化奶酪生产."]
 			dependencies: ["49C443050019B6F5"]
 			id: "0A44B9BD42686234"
-			tasks: [{
-				id: "4B73A679694C652B"
-				type: "item"
-				item: "rats:auto_curdler"
-			}]
-			rewards: [{
-				id: "197AD5E4CF31B963"
-				type: "item"
-				item: "rats:block_of_cheese"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "4B73A679694C652B"
+					type: "item"
+					item: "rats:auto_curdler"
+				}
+			]
+			rewards: [
+				{
+					id: "197AD5E4CF31B963"
+					type: "item"
+					item: "rats:block_of_cheese"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: 2.5d
 			shape: "square"
 			subtitle: "你需要净化你的空间"
-			description: ["&4羊毛球&r是用来把鼠转成鼠王的物品."]
+			description: ["&4污渍球&r是用来把老鼠转成鼠王的物品."]
 			hide_dependency_lines: true
 			dependencies: ["30AD8D8704C2612E"]
 			id: "43A847C36252ADAA"
-			tasks: [{
-				id: "79C2F3D66AC8D230"
-				type: "item"
-				item: "rats:filth_corruption"
-			}]
-			rewards: [{
-				id: "051A02199662343F"
-				type: "item"
-				item: "rats:filth"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "79C2F3D66AC8D230"
+					type: "item"
+					item: "rats:filth_corruption"
+				}
+			]
+			rewards: [
+				{
+					id: "051A02199662343F"
+					type: "item"
+					item: "rats:filth"
+					count: 2
+				}
+			]
 		}
 		{
-			title: "&4杀死王者&r"
+			title: "&4杀死国王&r"
 			icon: {
 				id: "rats:rat_king_crown"
 				Count: 1b
@@ -149,11 +167,11 @@
 			shape: "square"
 			subtitle: "国王和女王"
 			description: [
-				"鼠王会生成并扔给玩家攻击."
+				"鼠王会生成老鼠并扔给玩家进行攻击."
 				""
-				"如果你杀死了鼠王,你可以驯服它投掷的鼠."
+				"如果你杀死了鼠王,你可以驯服它投掷的老鼠."
 				""
-				"如果你杀死了鼠王,你会得到污泥、鼠王王王和纠缠的老鼠尾部."
+				"如果你杀死了鼠王,你会得到污渍、鼠王皇冠和缠结老鼠尾."
 			]
 			dependencies: ["43A847C36252ADAA"]
 			id: "3E5822ED43D30E11"
@@ -181,46 +199,52 @@
 					value: 1L
 				}
 			]
-			rewards: [{
-				id: "569003DD411A7535"
-				type: "item"
-				item: {
-					id: "curios:crown"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "569003DD411A7535"
+					type: "item"
+					item: {
+						id: "curios:crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
-			title: "&8切割之堆&r"
+			title: "&8瘟疫的呼唤&r"
 			x: 2.0d
 			y: 2.5d
 			shape: "square"
-			subtitle: "我认为你看到什么了,药水"
+			subtitle: "我想你看错医生了"
 			description: [
-				"&8污泥宝典&r是用来生成黑死亡的物品."
+				"&8瘟疫古卷&r是用来生成黑死神的物品."
 				""
-				"它可以作为杀死污泥鼠或与污泥药师交易的稀有掉落物获得."
+				"它可以作为杀死疫鼠或与瘟疫医生交易的稀有掉落物获得."
 			]
 			id: "112618C4DB588CEA"
-			tasks: [{
-				id: "43237B923584EA5D"
-				type: "item"
-				item: "rats:plague_tome"
-			}]
-			rewards: [{
-				id: "606531460D1A1E85"
-				type: "item"
-				item: {
-					id: "rats:plague_doctor_mask"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "43237B923584EA5D"
+					type: "item"
+					item: "rats:plague_tome"
+				}
+			]
+			rewards: [
+				{
+					id: "606531460D1A1E85"
+					type: "item"
+					item: {
+						id: "rats:plague_doctor_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "&8死神杀手&r"
@@ -236,11 +260,11 @@
 			shape: "square"
 			subtitle: "充满希望,他没有连接到守护者"
 			description: [
-				"&8黑死亡者&r是一个Boss生物,召唤很多其他生物来保护它,散布瘟干,对它范围内的任何生物造成伤害."
+				"&8黑死神&r是一个Boss生物,召唤很多其他生物来保护它,传播瘟疫,对它范围内的任何生物造成伤害."
 				""
-				"巫师被闪电击中时,黑死神会生成."
+				"瘟疫医生被闪电击中时,黑死神便会生成."
 				""
-				"或者,您可以右键单击带有幻梦宝典的粉碎药,可以将它们进行交易以获得绿宝石."
+				"或者,您可以右键单击带有瘟疫古卷的瘟疫医生."
 			]
 			dependencies: ["112618C4DB588CEA"]
 			id: "397F9C540B1C13DB"
@@ -268,16 +292,19 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "3445DEDA2C0C0C48"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3445DEDA2C0C0C48"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
-			title: "&b鼠标升级:基础"
+			title: "&b老鼠升级:基础"
 			x: 5.5d
 			y: -1.5d
-			description: ["&b鼠标升级:基础&r是没有特殊功能的鼠标升级,而不是用来合成更高级的鼠标升级."]
+			description: ["&b老鼠升级:基础&r是没有特殊功能的老鼠升级,相反，它被用作合成更高级老鼠升级的原料."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0C1760A0E6D5AF4C"
@@ -285,16 +312,20 @@
 			]
 			size: 2.3d
 			id: "33332A77A21B5CDE"
-			tasks: [{
-				id: "34D53BC039C95C54"
-				type: "item"
-				item: "rats:rat_upgrade_basic"
-			}]
-			rewards: [{
-				id: "74E632A97D1D24D2"
-				type: "item"
-				item: "rats:rat_upgrade_basic"
-			}]
+			tasks: [
+				{
+					id: "34D53BC039C95C54"
+					type: "item"
+					item: "rats:rat_upgrade_basic"
+				}
+			]
+			rewards: [
+				{
+					id: "74E632A97D1D24D2"
+					type: "item"
+					item: "rats:rat_upgrade_basic"
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -303,107 +334,127 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "3ED53C2579857476"
-			tasks: [{
-				id: "7CAC0529E20871C3"
-				type: "item"
-				item: "rats:rat_upgrade_jury_rigged"
-			}]
-			rewards: [{
-				id: "73CC32A77E88144E"
-				type: "item"
-				item: "rats:rat_upgrade_basic"
-			}]
+			tasks: [
+				{
+					id: "7CAC0529E20871C3"
+					type: "item"
+					item: "rats:rat_upgrade_jury_rigged"
+				}
+			]
+			rewards: [
+				{
+					id: "73CC32A77E88144E"
+					type: "item"
+					item: "rats:rat_upgrade_basic"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: -4.5d
-			description: ["&b鼠标升级:速度&r是鼠标升级,以鼠标移动速度翻倍."]
+			description: ["&b老鼠升级:速度&r是老鼠升级,让老鼠移动速度翻倍."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "15936D51DC51D53B"
-			tasks: [{
-				id: "2FC91505835BF5B5"
-				type: "item"
-				item: "rats:rat_upgrade_speed"
-			}]
-			rewards: [{
-				id: "7E6DD1DD80B22199"
-				type: "item"
-				item: "rats:rat_upgrade_speed"
-			}]
+			tasks: [
+				{
+					id: "2FC91505835BF5B5"
+					type: "item"
+					item: "rats:rat_upgrade_speed"
+				}
+			]
+			rewards: [
+				{
+					id: "7E6DD1DD80B22199"
+					type: "item"
+					item: "rats:rat_upgrade_speed"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -3.0d
 			shape: "diamond"
-			description: ["&b鼠标升级:盘子&r将允许鼠一次转移一整组物品。 通常情况下,不进行此升级的鼠只会一次转移一个物品."]
+			description: ["&b老鼠升级:托盘&r将允许老鼠一次转移一整组物品。通常情况下,不进行此升级的鼠只会一次转移一个物品."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "63AC5A302BFFA94A"
-			tasks: [{
-				id: "6DE0FDCAA0B6E122"
-				type: "item"
-				item: "rats:rat_upgrade_platter"
-			}]
-			rewards: [{
-				id: "5660DE9EE13CDC72"
-				type: "item"
-				item: "minecraft:iron_block"
-			}]
+			tasks: [
+				{
+					id: "6DE0FDCAA0B6E122"
+					type: "item"
+					item: "rats:rat_upgrade_platter"
+				}
+			]
+			rewards: [
+				{
+					id: "5660DE9EE13CDC72"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+			]
 		}
 		{
 			x: 8.0d
 			y: -2.0d
-			description: ["&b鼠标升级:生命值&r为鼠提供 20 个生命值."]
+			description: ["&b老鼠升级:生命值&r为鼠提供20点生命值."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "39529A319B833D0E"
-			tasks: [{
-				id: "20820A2884A90DBD"
-				type: "item"
-				item: "rats:rat_upgrade_health"
-			}]
-			rewards: [{
-				id: "5E62CA3F981A5A5E"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:healing"
+			tasks: [
+				{
+					id: "20820A2884A90DBD"
+					type: "item"
+					item: "rats:rat_upgrade_health"
+				}
+			]
+			rewards: [
+				{
+					id: "5E62CA3F981A5A5E"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:healing"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 4.0d
 			y: -3.0d
-			description: ["&b鼠体升级:盔甲&r提供一只10级的鼠体套装."]
+			description: ["&b鼠体升级:护甲&r提供老鼠10级的基础护甲."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0655BE6E1126B404"
-			tasks: [{
-				id: "28FF1262951F053B"
-				type: "item"
-				item: "rats:rat_upgrade_armor"
-			}]
-			rewards: [{
-				id: "39F562026C3943BF"
-				type: "item"
-				item: {
-					id: "immersiveengineering:shield"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-					ForgeCaps: {
-						Parent: {
-							Size: 2
-							Items: [ ]
+			tasks: [
+				{
+					id: "28FF1262951F053B"
+					type: "item"
+					item: "rats:rat_upgrade_armor"
+				}
+			]
+			rewards: [
+				{
+					id: "39F562026C3943BF"
+					type: "item"
+					item: {
+						id: "immersiveengineering:shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.5d
@@ -411,46 +462,54 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4DE56E1826FD58C4"
-			tasks: [{
-				id: "5F4AB51A39665D0D"
-				type: "item"
-				item: "rats:rat_upgrade_bow"
-			}]
-			rewards: [{
-				id: "6A7165AD5A87CFE7"
-				type: "item"
-				item: {
-					id: "minecraft:crossbow"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5F4AB51A39665D0D"
+					type: "item"
+					item: "rats:rat_upgrade_bow"
+				}
+			]
+			rewards: [
+				{
+					id: "6A7165AD5A87CFE7"
+					type: "item"
+					item: {
+						id: "minecraft:crossbow"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.0d
 			y: 0.0d
 			description: [
-				"鼠是熔岩和火的印记"
-				"鼠会点燃敌人"
-				"&b40 鼠生命值"
-				"&b4 鼠子攻击"
+				"老鼠对火焰免疫和防火"
+				"老鼠会点燃敌人"
+				"&b40点生命值"
+				"&b4点老鼠攻击"
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "314F84795BEF9325"
-			tasks: [{
-				id: "289B586F4AE628C1"
-				type: "item"
-				item: "rats:rat_upgrade_demon"
-			}]
-			rewards: [{
-				id: "03EDFBDB38438FC4"
-				type: "item"
-				item: "rats:blue_cheese"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "289B586F4AE628C1"
+					type: "item"
+					item: "rats:rat_upgrade_demon"
+				}
+			]
+			rewards: [
+				{
+					id: "03EDFBDB38438FC4"
+					type: "item"
+					item: "rats:blue_cheese"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -458,22 +517,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "7A7D88EA3225BBAD"
-			tasks: [{
-				id: "6ECAD9EC39E47E08"
-				type: "item"
-				item: "rats:rat_upgrade_strength"
-			}]
-			rewards: [{
-				id: "1B308E583F02BCE2"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_strength"
+			tasks: [
+				{
+					id: "6ECAD9EC39E47E08"
+					type: "item"
+					item: "rats:rat_upgrade_strength"
+				}
+			]
+			rewards: [
+				{
+					id: "1B308E583F02BCE2"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.5d
@@ -481,78 +544,90 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4DEABFD3150E4473"
-			tasks: [{
-				id: "3F5314B3E855B3BB"
-				type: "item"
-				item: "rats:rat_upgrade_warrior"
-			}]
-			rewards: [{
-				id: "776783579AF0F8D7"
-				type: "item"
-				item: "minecraft:diamond_block"
-			}]
+			tasks: [
+				{
+					id: "3F5314B3E855B3BB"
+					type: "item"
+					item: "rats:rat_upgrade_warrior"
+				}
+			]
+			rewards: [
+				{
+					id: "776783579AF0F8D7"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -3.5d
 			description: [
-				"装备后,它会叠加&b鼠标升级:战斗之神&r会大幅增加鼠基数。升级会给鼠提供:"
+				"装备后,它会叠加&b老鼠升级:战神&r会大幅增加老鼠基数。升级会给老鼠提供:"
 				""
-				"500 只鼠生命值"
-				"50级的鼠甲"
-				"50 点鼠攻击"
+				"500点老鼠生命值"
+				"50点的基础老鼠护甲"
+				"50点老鼠攻击"
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "00A88420E23273C9"
-			tasks: [{
-				id: "50E58F86CC196BC2"
-				type: "item"
-				item: "rats:rat_upgrade_god"
-			}]
-			rewards: [{
-				id: "47FD027E6FCCE463"
-				type: "item"
-				item: "minecraft:nether_star"
-			}]
+			tasks: [
+				{
+					id: "50E58F86CC196BC2"
+					type: "item"
+					item: "rats:rat_upgrade_god"
+				}
+			]
+			rewards: [
+				{
+					id: "47FD027E6FCCE463"
+					type: "item"
+					item: "minecraft:nether_star"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["此升级允许鼠充当加速熔炉,并允许您烹饪 3 个新食物、 Fofit Byaldi、马铃薯炉 和 线性奶酪."]
+			description: ["此升级允许老鼠充当加速熔炉,并允许您烹饪3个新食物，鼠王杂烩、马铃薯克尼什馅饼和奶酪条."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "25F63E33E4FBBB00"
-			tasks: [{
-				id: "55038199DB1FBDF9"
-				type: "item"
-				item: "rats:rat_upgrade_chef"
-			}]
-			rewards: [{
-				id: "3843BFD6C39B4211"
-				type: "item"
-				item: {
-					id: "rats:chef_toque"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "55038199DB1FBDF9"
+					type: "item"
+					item: "rats:rat_upgrade_chef"
+				}
+			]
+			rewards: [
+				{
+					id: "3843BFD6C39B4211"
+					type: "item"
+					item: {
+						id: "rats:chef_toque"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.0d
 			y: -1.0d
 			description: [
-				"合成升级允许鼠自动为您制作物品."
+				"合成升级允许老鼠自动为您制作物品."
 				""
-				"安装后,鼠必须站到鼠工作台顶部."
+				"安装后,老鼠必须站到老鼠工作台顶部."
 				""
-				"放在鼠标合成台顶部后,右键单击鼠标将打开一个用于管理制作的菜单."
+				"放在老鼠合成台顶部后,右键单击老鼠将打开一个用于管理制作的菜单."
 				""
-				"左上角的箱子是你想要制作的物品的位置."
+				"左上角的槽是你想要制作的物品的位置."
 				""
-				"右上角的箱子是制作物品的地方."
+				"右上角的槽是制作物品的地方."
 				""
 				"“所需物品”行是您将看到需要制作物品的地方,但请注意,该数量没有指定."
 				""
@@ -561,19 +636,23 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "49111BD553B9E6B6"
-			tasks: [{
-				id: "0528A1C4519090D6"
-				type: "item"
-				item: "rats:rat_upgrade_crafting"
-			}]
-			rewards: [{
-				id: "606987610F00F6A8"
-				type: "item"
-				item: "rats:rat_crafting_table"
-			}]
+			tasks: [
+				{
+					id: "0528A1C4519090D6"
+					type: "item"
+					item: "rats:rat_upgrade_crafting"
+				}
+			]
+			rewards: [
+				{
+					id: "606987610F00F6A8"
+					type: "item"
+					item: "rats:rat_crafting_table"
+				}
+			]
 		}
 		{
-			title: "鼠标过滤器"
+			title: "老鼠过滤器"
 			x: 5.5d
 			y: -3.5d
 			hide_dependency_lines: true
@@ -599,12 +678,14 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "31322E06DB31980F"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "31322E06DB31980F"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -612,17 +693,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "154CEF57E41988BC"
-			tasks: [{
-				id: "499B5A774AA0DB5C"
-				type: "item"
-				item: "rats:rat_upgrade_replanter"
-			}]
-			rewards: [{
-				id: "6F6E8557C00CCFA8"
-				type: "item"
-				item: "minecraft:wheat_seeds"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "499B5A774AA0DB5C"
+					type: "item"
+					item: "rats:rat_upgrade_replanter"
+				}
+			]
+			rewards: [
+				{
+					id: "6F6E8557C00CCFA8"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -630,40 +715,48 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "626FBB525C4FBF3D"
-			tasks: [{
-				id: "09A8EB311AE65E25"
-				type: "item"
-				item: "rats:rat_upgrade_flight"
-			}]
-			rewards: [{
-				id: "4F1F162671924BBE"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "cyclic:levitation"
+			tasks: [
+				{
+					id: "09A8EB311AE65E25"
+					type: "item"
+					item: "rats:rat_upgrade_flight"
+				}
+			]
+			rewards: [
+				{
+					id: "4F1F162671924BBE"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "cyclic:levitation"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -1.5d
-			description: ["使鼠具有呼吸火和飞行的能力(可能受到它的朋友 mod 冰和火的鼓舞)。 鼠会使用这些能力完成它的任务."]
+			description: ["赋予老鼠喷火和飞行的能力(可能受到它的朋友mod冰火传说的启发)。老鼠会使用这些能力完成它的任务."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5815DDD4ECAB800E"
-			tasks: [{
-				id: "62A75908283E6C4E"
-				type: "item"
-				item: "rats:rat_upgrade_dragon"
-			}]
-			rewards: [{
-				id: "3A0B623ECA0EDD52"
-				type: "item"
-				item: "rats:dragon_wing"
-			}]
+			tasks: [
+				{
+					id: "62A75908283E6C4E"
+					type: "item"
+					item: "rats:rat_upgrade_dragon"
+				}
+			]
+			rewards: [
+				{
+					id: "3A0B623ECA0EDD52"
+					type: "item"
+					item: "rats:dragon_wing"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -671,58 +764,70 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "54F8865DE030B9FD"
-			tasks: [{
-				id: "65F26B017F1D54DE"
-				type: "item"
-				item: "rats:rat_upgrade_bee"
-			}]
-			rewards: [{
-				id: "7DFAAFC23A6C4EA3"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:bee"
+			tasks: [
+				{
+					id: "65F26B017F1D54DE"
+					type: "item"
+					item: "rats:rat_upgrade_bee"
+				}
+			]
+			rewards: [
+				{
+					id: "7DFAAFC23A6C4EA3"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:bee"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 8.0d
 			y: -5.0d
-			description: ["&b鼠标升级:水生生物将鼠的外观更改为类似于水下生物."]
+			description: ["&b老鼠升级:水性&r将老鼠的外观更改为类似于水下生物."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0F884FADF97EEB1B"
-			tasks: [{
-				id: "1901AC638038DCF8"
-				type: "item"
-				item: "rats:rat_upgrade_aquatic"
-			}]
-			rewards: [{
-				id: "7BDDA87FCFBA110C"
-				type: "item"
-				item: "rats:fish_barrel"
-			}]
+			tasks: [
+				{
+					id: "1901AC638038DCF8"
+					type: "item"
+					item: "rats:rat_upgrade_aquatic"
+				}
+			]
+			rewards: [
+				{
+					id: "7BDDA87FCFBA110C"
+					type: "item"
+					item: "rats:fish_barrel"
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: -6.0d
-			description: ["&b鼠标升级: 末影&r 装备时会给它提供多个新功能,所有功能都类似于末影人."]
+			description: ["&b老鼠升级: 末影&r装备时会给它提供多个新功能,所有功能都类似于末影人."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6FBB3E96867C037E"
-			tasks: [{
-				id: "744F8AA8250274EC"
-				type: "item"
-				item: "rats:rat_upgrade_ender"
-			}]
-			rewards: [{
-				id: "3A81FABE08042F06"
-				type: "item"
-				item: "minecraft:ender_eye"
-			}]
+			tasks: [
+				{
+					id: "744F8AA8250274EC"
+					type: "item"
+					item: "rats:rat_upgrade_ender"
+				}
+			]
+			rewards: [
+				{
+					id: "3A81FABE08042F06"
+					type: "item"
+					item: "minecraft:ender_eye"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -730,46 +835,54 @@
 			description: [
 				"与白名单升级一起使用才能正常工作."
 				""
-				"要掉落橡木树,请将橡木原木放入白色列表中。设置储物点也会导致采木机将收获的原木收集到任何容器中."
+				"想要掉落橡木,请将橡树原木放入白名单中。设置储物点会将伐木工收获的原木储存到任何容器中."
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "006725A9140F8726"
-			tasks: [{
-				id: "717BF2AB3B755E08"
-				type: "item"
-				item: "rats:rat_upgrade_lumberjack"
-			}]
-			rewards: [{
-				id: "71423C82146981D3"
-				type: "item"
-				item: {
-					id: "projectred-exploration:ruby_axe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "717BF2AB3B755E08"
+					type: "item"
+					item: "rats:rat_upgrade_lumberjack"
+				}
+			]
+			rewards: [
+				{
+					id: "71423C82146981D3"
+					type: "item"
+					item: {
+						id: "projectred-exploration:ruby_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.0d
 			y: -3.0d
-			description: ["&b鼠标升级:当鼠被设置为“挖掘”指令时,鼠标可以尝试开采列表中的目标方块."]
+			description: ["&b老鼠升级:挖掘&r当老鼠被设置为“采收”指令时,老鼠可以尝试开采列表中的目标方块."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "18100177AA2F8DD4"
-			tasks: [{
-				id: "7D4E36326A48B842"
-				type: "item"
-				item: "rats:rat_upgrade_miner_ore"
-			}]
-			rewards: [{
-				id: "2E37400E8BC5733F"
-				type: "item"
-				item: "minecraft:iron_ore"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "7D4E36326A48B842"
+					type: "item"
+					item: "rats:rat_upgrade_miner_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "2E37400E8BC5733F"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -777,26 +890,30 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "516ECACDBDEBD9EA"
-			tasks: [{
-				id: "0E5D19C854D5C997"
-				type: "item"
-				item: {
-					id: "rats:rat_upgrade_miner"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "10320707427762FB"
-				type: "item"
-				item: {
-					id: "tconstruct:pickaxe_head"
-					Count: 1b
-					tag: {
-						Material: "mysticalagradditions:tertium"
+			tasks: [
+				{
+					id: "0E5D19C854D5C997"
+					type: "item"
+					item: {
+						id: "rats:rat_upgrade_miner"
+						Count: 1b
+						tag: { }
 					}
 				}
-			}]
+			]
+			rewards: [
+				{
+					id: "10320707427762FB"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe_head"
+						Count: 1b
+						tag: {
+							Material: "mysticalagradditions:tertium"
+						}
+					}
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -804,130 +921,154 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1CB724BEE7143CF1"
-			tasks: [{
-				id: "35A8D241C2C169DB"
-				type: "item"
-				item: "rats:rat_upgrade_quarry"
-			}]
-			rewards: [{
-				id: "361B0A29DE65501D"
-				type: "item"
-				item: "rats:rat_quarry"
-			}]
+			tasks: [
+				{
+					id: "35A8D241C2C169DB"
+					type: "item"
+					item: "rats:rat_upgrade_quarry"
+				}
+			]
+			rewards: [
+				{
+					id: "361B0A29DE65501D"
+					type: "item"
+					item: "rats:rat_quarry"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -4.0d
-			description: ["必须在白名单升级的传动中使用."]
+			description: ["必须与白名单升级一起使用."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4541273502074A7D"
-			tasks: [{
-				id: "5BE46112963F4C72"
-				type: "item"
-				item: "rats:rat_upgrade_farmer"
-			}]
-			rewards: [{
-				id: "62A2C15B9EA45B17"
-				type: "item"
-				item: {
-					id: "projectred-exploration:peridot_hoe"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5BE46112963F4C72"
+					type: "item"
+					item: "rats:rat_upgrade_farmer"
+				}
+			]
+			rewards: [
+				{
+					id: "62A2C15B9EA45B17"
+					type: "item"
+					item: {
+						id: "projectred-exploration:peridot_hoe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: -5.0d
 			description: [
-				"&b鼠标升级:动物繁殖器&r可以让拿着食物的老鼠繁殖动物."
-				"鼠的指令需要设置在鼠门中“硬化”来繁殖动物."
-				"鼠会从箱子或类似存储的容器中拾取食物,它会使用奶酪手杖."
+				"&b老鼠升级:动物饲养员&r可以让拿着食物的老鼠繁殖动物."
+				"老鼠的指令需要设置在老鼠中“采收”来繁殖动物."
+				"使用奶酪手杖，让老鼠从箱子或类似存储的容器中拾取食物."
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "35B38D26FA54DF47"
-			tasks: [{
-				id: "37490B1B0040E112"
-				type: "item"
-				item: "rats:rat_upgrade_breeder"
-			}]
-			rewards: [{
-				id: "5828F19118521214"
-				type: "item"
-				item: "minecraft:wheat"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "37490B1B0040E112"
+					type: "item"
+					item: "rats:rat_upgrade_breeder"
+				}
+			]
+			rewards: [
+				{
+					id: "5828F19118521214"
+					type: "item"
+					item: "minecraft:wheat"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -4.5d
-			description: ["确保你的鼠靠近水。使用奶酪手杖给鼠一个家用箱子。一旦鼠有家用箱子,你可以将鼠设置为“腐化”,鼠将开始钓鱼。一旦鼠抓住鱼,它会将鱼放入其家用箱子中."]
+			description: ["确保你的老鼠靠近水。使用奶酪手杖给老鼠一个家用箱子。一旦老鼠有家用箱子,你可以将鼠设置为“采收”,老鼠将开始钓鱼。一旦老鼠抓住鱼,它会将鱼放入其家用箱子中."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "507E1585F2D054D0"
-			tasks: [{
-				id: "4CD00F8AF16F88B5"
-				type: "item"
-				item: "rats:rat_upgrade_fisherman"
-			}]
-			rewards: [{
-				id: "5436AA2226F10831"
-				type: "item"
-				item: {
-					id: "minecraft:fishing_rod"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4CD00F8AF16F88B5"
+					type: "item"
+					item: "rats:rat_upgrade_fisherman"
+				}
+			]
+			rewards: [
+				{
+					id: "5436AA2226F10831"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 8.0d
 			y: -1.0d
-			subtitle: "下界合金"
-			description: ["将鼠标放置在任何方块上方或下方会加速缓冲板的移相器 大约是 5 倍."]
+			subtitle: "加速火把"
+			description: ["将老鼠放置在任何方块上方或下方会Ⅹtick加速，大约是 5 倍."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "55A5B95F91530F0B"
-			tasks: [{
-				id: "55019E5D7F9EB4EA"
-				type: "item"
-				item: "rats:rat_upgrade_tick_accelerator"
-			}]
-			rewards: [{
-				id: "2CDAF57A0BD1EB29"
-				type: "item"
-				item: "supplementaries:clock_block"
-			}]
+			tasks: [
+				{
+					id: "55019E5D7F9EB4EA"
+					type: "item"
+					item: "rats:rat_upgrade_tick_accelerator"
+				}
+			]
+			rewards: [
+				{
+					id: "2CDAF57A0BD1EB29"
+					type: "item"
+					item: "supplementaries:clock_block"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["&b鼠标升级: Asbesto-Rat&r 将允许鼠体不受到火焰、熔岩或岩浆的伤害."]
+			description: ["&b老鼠升级:石棉老鼠&r将允许老鼠不受到火焰、熔岩或岩浆的伤害."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "60612FD534689BC7"
-			tasks: [{
-				id: "61E3CC3B602BE616"
-				type: "item"
-				item: "rats:rat_upgrade_asbestos"
-			}]
-			rewards: [{
-				id: "4BD002ED311454DF"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:fire_resistance"
+			tasks: [
+				{
+					id: "61E3CC3B602BE616"
+					type: "item"
+					item: "rats:rat_upgrade_asbestos"
+				}
+			]
+			rewards: [
+				{
+					id: "4BD002ED311454DF"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 8.0d
@@ -935,22 +1076,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "674BD52EF431FABF"
-			tasks: [{
-				id: "240095EF8B560BE9"
-				type: "item"
-				item: "rats:rat_upgrade_underwater"
-			}]
-			rewards: [{
-				id: "44A95585362B13B3"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:water_breathing"
+			tasks: [
+				{
+					id: "240095EF8B560BE9"
+					type: "item"
+					item: "rats:rat_upgrade_underwater"
+				}
+			]
+			rewards: [
+				{
+					id: "44A95585362B13B3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:water_breathing"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 3.5d
@@ -963,16 +1108,20 @@
 				"60612FD534689BC7"
 			]
 			id: "73ADFED1E73ED5DC"
-			tasks: [{
-				id: "373CA9C6DE6A15D5"
-				type: "item"
-				item: "rats:rat_upgrade_damage_protection"
-			}]
-			rewards: [{
-				id: "1AB40EE15A884A90"
-				type: "item"
-				item: "rats:feathery_wing"
-			}]
+			tasks: [
+				{
+					id: "373CA9C6DE6A15D5"
+					type: "item"
+					item: "rats:rat_upgrade_damage_protection"
+				}
+			]
+			rewards: [
+				{
+					id: "1AB40EE15A884A90"
+					type: "item"
+					item: "rats:feathery_wing"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -980,45 +1129,53 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4E8407453512E902"
-			tasks: [{
-				id: "5E43460B8D6CEBC9"
-				type: "item"
-				item: "rats:rat_upgrade_poison"
-			}]
-			rewards: [{
-				id: "36366D8631DD995E"
-				type: "item"
-				item: {
-					id: "minecraft:splash_potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:weakness"
+			tasks: [
+				{
+					id: "5E43460B8D6CEBC9"
+					type: "item"
+					item: "rats:rat_upgrade_poison"
+				}
+			]
+			rewards: [
+				{
+					id: "36366D8631DD995E"
+					type: "item"
+					item: {
+						id: "minecraft:splash_potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:weakness"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.0d
 			y: -5.0d
 			description: [
-				"&b鼠标升级:基础能量传输&r允许有此升级的鼠一次传输最多100kRF."
+				"&b老鼠升级:基础能量传输&r允许有此升级的老鼠一次传输最多100kRF."
 				""
-				"可以转移RF和 RE."
+				"可以转移RF和RE."
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "4C929F99BC362343"
-			tasks: [{
-				id: "52BEE9243A2C00BB"
-				type: "item"
-				item: "rats:rat_upgrade_basic_energy"
-			}]
-			rewards: [{
-				id: "3F3137BA470EA7A5"
-				type: "item"
-				item: "pipez:energy_pipe"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "52BEE9243A2C00BB"
+					type: "item"
+					item: "rats:rat_upgrade_basic_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "3F3137BA470EA7A5"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1026,17 +1183,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "0B55828AE7AFCE2F"
-			tasks: [{
-				id: "6BDE733433D633BB"
-				type: "item"
-				item: "rats:rat_upgrade_ore_doubling"
-			}]
-			rewards: [{
-				id: "7D6AB872A2E1D531"
-				type: "item"
-				item: "minecraft:gold_ore"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "6BDE733433D633BB"
+					type: "item"
+					item: "rats:rat_upgrade_ore_doubling"
+				}
+			]
+			rewards: [
+				{
+					id: "7D6AB872A2E1D531"
+					type: "item"
+					item: "minecraft:gold_ore"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1044,17 +1205,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6B35B2029116C6E7"
-			tasks: [{
-				id: "544ADCBC91F23EB3"
-				type: "item"
-				item: "rats:rat_upgrade_advanced_energy"
-			}]
-			rewards: [{
-				id: "79CEDD382AF436EC"
-				type: "item"
-				item: "pipez:energy_pipe"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "544ADCBC91F23EB3"
+					type: "item"
+					item: "rats:rat_upgrade_advanced_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "79CEDD382AF436EC"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -1062,17 +1227,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6E538A7FC3A5A163"
-			tasks: [{
-				id: "08DCB24F35C6D60C"
-				type: "item"
-				item: "rats:rat_upgrade_elite_energy"
-			}]
-			rewards: [{
-				id: "717874ED42660A6A"
-				type: "item"
-				item: "pipez:energy_pipe"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "08DCB24F35C6D60C"
+					type: "item"
+					item: "rats:rat_upgrade_elite_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "717874ED42660A6A"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 8
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -1080,17 +1249,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "2035DE8F68CE076B"
-			tasks: [{
-				id: "446D1943FCCB2FB9"
-				type: "item"
-				item: "rats:rat_upgrade_extreme_energy"
-			}]
-			rewards: [{
-				id: "23916129C3BC7291"
-				type: "item"
-				item: "pipez:energy_pipe"
-				count: 32
-			}]
+			tasks: [
+				{
+					id: "446D1943FCCB2FB9"
+					type: "item"
+					item: "rats:rat_upgrade_extreme_energy"
+				}
+			]
+			rewards: [
+				{
+					id: "23916129C3BC7291"
+					type: "item"
+					item: "pipez:energy_pipe"
+					count: 32
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -1098,16 +1271,20 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "51C6A89735458C6E"
-			tasks: [{
-				id: "33ACE2055F9565BD"
-				type: "item"
-				item: "rats:rat_upgrade_bucket"
-			}]
-			rewards: [{
-				id: "6B178F3DFAA324F1"
-				type: "item"
-				item: "minecraft:bucket"
-			}]
+			tasks: [
+				{
+					id: "33ACE2055F9565BD"
+					type: "item"
+					item: "rats:rat_upgrade_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "6B178F3DFAA324F1"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -1115,33 +1292,39 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6FA25E7505D18DAC"
-			tasks: [{
-				id: "7F8A09FC5B4F8AF2"
-				type: "item"
-				item: "rats:rat_upgrade_big_bucket"
-			}]
+			tasks: [
+				{
+					id: "7F8A09FC5B4F8AF2"
+					type: "item"
+					item: "rats:rat_upgrade_big_bucket"
+				}
+			]
 		}
 		{
 			x: 4.5d
 			y: -5.5d
 			description: [
-				"设置收割时,鼠会挤奶牛."
-				"鼠标会转移液体而不是物品."
-				"鼠一次会转移 1000mb."
+				"设置收集时,老鼠会挤牛奶."
+				"老老鼠会转移液体而不是物品."
+				"老鼠一次会转移1000mb."
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "757BC67D95335A75"
-			tasks: [{
-				id: "1902A348CE0E5DBF"
-				type: "item"
-				item: "rats:rat_upgrade_milker"
-			}]
-			rewards: [{
-				id: "4FC0ABA6C667F9D4"
-				type: "item"
-				item: "pamhc2foodcore:cookiesandmilkitem"
-			}]
+			tasks: [
+				{
+					id: "1902A348CE0E5DBF"
+					type: "item"
+					item: "rats:rat_upgrade_milker"
+				}
+			]
+			rewards: [
+				{
+					id: "4FC0ABA6C667F9D4"
+					type: "item"
+					item: "pamhc2foodcore:cookiesandmilkitem"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -1149,22 +1332,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "30DBD37FC42F8CA4"
-			tasks: [{
-				id: "10134EC42F601806"
-				type: "item"
-				item: "rats:rat_upgrade_shears"
-			}]
-			rewards: [{
-				id: "28C69ED814724D04"
-				type: "item"
-				item: {
-					id: "minecraft:shears"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "10134EC42F601806"
+					type: "item"
+					item: "rats:rat_upgrade_shears"
+				}
+			]
+			rewards: [
+				{
+					id: "28C69ED814724D04"
+					type: "item"
+					item: {
+						id: "minecraft:shears"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.0d
@@ -1172,17 +1359,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "47954AEB31526AFE"
-			tasks: [{
-				id: "0C4C33E6D9E81016"
-				type: "item"
-				item: "rats:rat_upgrade_tnt"
-			}]
-			rewards: [{
-				id: "192D9D1555906F26"
-				type: "item"
-				item: "minecraft:tnt"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "0C4C33E6D9E81016"
+					type: "item"
+					item: "rats:rat_upgrade_tnt"
+				}
+			]
+			rewards: [
+				{
+					id: "192D9D1555906F26"
+					type: "item"
+					item: "minecraft:tnt"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -1190,17 +1381,21 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5D2A308D346DF7A5"
-			tasks: [{
-				id: "7DAE1ECA9AB76CC5"
-				type: "item"
-				item: "rats:rat_upgrade_tnt_survivor"
-			}]
-			rewards: [{
-				id: "1D86D5417D77E347"
-				type: "item"
-				item: "rats:charged_creeper_chunk"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "7DAE1ECA9AB76CC5"
+					type: "item"
+					item: "rats:rat_upgrade_tnt_survivor"
+				}
+			]
+			rewards: [
+				{
+					id: "1D86D5417D77E347"
+					type: "item"
+					item: "rats:charged_creeper_chunk"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1208,57 +1403,69 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "46D260903F5F3AE2"
-			tasks: [{
-				id: "1CDA64D116A05B82"
-				type: "item"
-				item: "rats:rat_upgrade_placer"
-			}]
-			rewards: [{
-				id: "3DE8B23CC589F543"
-				type: "item"
-				item: "minecraft:coal_ore"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1CDA64D116A05B82"
+					type: "item"
+					item: "rats:rat_upgrade_placer"
+				}
+			]
+			rewards: [
+				{
+					id: "3DE8B23CC589F543"
+					type: "item"
+					item: "minecraft:coal_ore"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 6.5d
 			y: -2.5d
 			description: [
-				"鼠会受到伤害而不是它的主人,只有在一定距离内才能受到伤害."
+				"只有在一定距离内，老鼠会代替主人承受伤害."
 				""
-				"伤害在使用此升级的多只鼠之间平衡分配."
+				"伤害在使用此升级的多只老鼠之间平衡分配."
 			]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "48C4BB857F884C1C"
-			tasks: [{
-				id: "6A835D749AEFAFDD"
-				type: "item"
-				item: "rats:rat_upgrade_voodoo"
-			}]
-			rewards: [{
-				id: "5F7B43DD719ED669"
-				type: "item"
-				item: "rats:plague_stew"
-			}]
+			tasks: [
+				{
+					id: "6A835D749AEFAFDD"
+					type: "item"
+					item: "rats:rat_upgrade_voodoo"
+				}
+			]
+			rewards: [
+				{
+					id: "5F7B43DD719ED669"
+					type: "item"
+					item: "rats:plague_stew"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["将宝石放入鼠食箱中。一旦鼠开始吃掉宝石,宝石就会变成切割版本."]
+			description: ["将宝石放入老鼠的食物槽中。一旦老鼠开始吃掉宝石,宝石就会变成切割版本."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6F6E39CCF94FE7FC"
-			tasks: [{
-				id: "1C4A6AFD2ABD063D"
-				type: "item"
-				item: "rats:rat_upgrade_gemcutter"
-			}]
-			rewards: [{
-				id: "05D650A6DB0A593C"
-				type: "item"
-				item: "minecraft:stonecutter"
-			}]
+			tasks: [
+				{
+					id: "1C4A6AFD2ABD063D"
+					type: "item"
+					item: "rats:rat_upgrade_gemcutter"
+				}
+			]
+			rewards: [
+				{
+					id: "05D650A6DB0A593C"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -1266,25 +1473,31 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5B5573AA2CAB580E"
-			tasks: [{
-				id: "4CF212894695AE0F"
-				type: "item"
-				item: "rats:rat_upgrade_enchanter"
-			}]
-			rewards: [{
-				id: "5054679B77B0F15E"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "minecraft:unbreaking"
-						}]
+			tasks: [
+				{
+					id: "4CF212894695AE0F"
+					type: "item"
+					item: "rats:rat_upgrade_enchanter"
+				}
+			]
+			rewards: [
+				{
+					id: "5054679B77B0F15E"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.0d
@@ -1292,35 +1505,43 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1A1021FCCEC6E596"
-			tasks: [{
-				id: "18E481885AC61325"
-				type: "item"
-				item: "rats:rat_upgrade_disenchanter"
-			}]
-			rewards: [{
-				id: "7FD3EFDEF076ECE7"
-				type: "item"
-				item: "tombstone:book_of_disenchantment"
-			}]
+			tasks: [
+				{
+					id: "18E481885AC61325"
+					type: "item"
+					item: "rats:rat_upgrade_disenchanter"
+				}
+			]
+			rewards: [
+				{
+					id: "7FD3EFDEF076ECE7"
+					type: "item"
+					item: "tombstone:book_of_disenchantment"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: -1.0d
-			description: ["升级可以让你的鼠有无限的食物."]
+			description: ["该升级可以让你的老鼠基本上拥有无限的食物."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6E2CFB7CD7BA9821"
-			tasks: [{
-				id: "1D01376CA47DA458"
-				type: "item"
-				item: "rats:rat_upgrade_carrat"
-			}]
-			rewards: [{
-				id: "410239EF7FC52C6F"
-				type: "item"
-				item: "rats:assorted_vegetables"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1D01376CA47DA458"
+					type: "item"
+					item: "rats:rat_upgrade_carrat"
+				}
+			]
+			rewards: [
+				{
+					id: "410239EF7FC52C6F"
+					type: "item"
+					item: "rats:assorted_vegetables"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -1328,46 +1549,54 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "115E2618540D9C15"
-			tasks: [{
-				id: "5B6D10046FB285E7"
-				type: "item"
-				item: "rats:rat_upgrade_no_flute"
-			}]
-			rewards: [{
-				id: "090937ACBC9D4556"
-				type: "item"
-				item: {
-					id: "supplementaries:flute"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "5B6D10046FB285E7"
+					type: "item"
+					item: "rats:rat_upgrade_no_flute"
+				}
+			]
+			rewards: [
+				{
+					id: "090937ACBC9D4556"
+					type: "item"
+					item: {
+						id: "supplementaries:flute"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 7.5d
 			y: -5.5d
-			description: ["&b鼠标升级:天使&r将允许装备了升级的鼠重生。与所有鼠标升级一样,它可以通过将其放入鼠门中升级插槽中来应用于鼠标."]
+			description: ["&b老鼠升级:天使&r将允许装备了升级的老鼠重生。与所有老鼠升级一样,它可以通过将其放入老鼠升级插槽中来应用于老鼠."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "2A5315B60A7F7506"
-			tasks: [{
-				id: "103459F1FEC21B47"
-				type: "item"
-				item: "rats:rat_upgrade_angel"
-			}]
-			rewards: [{
-				id: "6BC34628D2D0027C"
-				type: "item"
-				item: {
-					id: "rats:halo_hat"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "103459F1FEC21B47"
+					type: "item"
+					item: "rats:rat_upgrade_angel"
+				}
+			]
+			rewards: [
+				{
+					id: "6BC34628D2D0027C"
+					type: "item"
+					item: {
+						id: "rats:halo_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 6.5d
@@ -1375,16 +1604,20 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1C2A0D0C8D8C4AD6"
-			tasks: [{
-				id: "36DB40C535CE2CDA"
-				type: "item"
-				item: "rats:rat_upgrade_undead"
-			}]
-			rewards: [{
-				id: "13CBD522AFAA187D"
-				type: "item"
-				item: "minecraft:skeleton_skull"
-			}]
+			tasks: [
+				{
+					id: "36DB40C535CE2CDA"
+					type: "item"
+					item: "rats:rat_upgrade_undead"
+				}
+			]
+			rewards: [
+				{
+					id: "13CBD522AFAA187D"
+					type: "item"
+					item: "minecraft:skeleton_skull"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -1392,22 +1625,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1F736EA92495D846"
-			tasks: [{
-				id: "66E93FEC956F470E"
-				type: "item"
-				item: "rats:rat_upgrade_basic_mount"
-			}]
-			rewards: [{
-				id: "1077722E9F38F2D0"
-				type: "item"
-				item: {
-					id: "minecraft:carrot_on_a_stick"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "66E93FEC956F470E"
+					type: "item"
+					item: "rats:rat_upgrade_basic_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "1077722E9F38F2D0"
+					type: "item"
+					item: {
+						id: "minecraft:carrot_on_a_stick"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 4.0d
@@ -1415,22 +1652,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "5B9FD82E253939CD"
-			tasks: [{
-				id: "5723770775560A63"
-				type: "item"
-				item: "rats:rat_upgrade_chicken_mount"
-			}]
-			rewards: [{
-				id: "6E092E550E001286"
-				type: "item"
-				item: {
-					id: "animalcrops:seeds"
-					Count: 1b
-					tag: {
-						entity: "minecraft:chicken"
+			tasks: [
+				{
+					id: "5723770775560A63"
+					type: "item"
+					item: "rats:rat_upgrade_chicken_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "6E092E550E001286"
+					type: "item"
+					item: {
+						id: "animalcrops:seeds"
+						Count: 1b
+						tag: {
+							entity: "minecraft:chicken"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
@@ -1438,11 +1679,13 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "56CAC567CE097D76"
-			tasks: [{
-				id: "58E6115EBBCD910A"
-				type: "item"
-				item: "rats:rat_upgrade_golem_mount"
-			}]
+			tasks: [
+				{
+					id: "58E6115EBBCD910A"
+					type: "item"
+					item: "rats:rat_upgrade_golem_mount"
+				}
+			]
 			rewards: [
 				{
 					id: "40278BEF42F35D8F"
@@ -1463,16 +1706,20 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "1C0C9C7A78948C37"
-			tasks: [{
-				id: "2B29FE2CB7A2F23D"
-				type: "item"
-				item: "rats:rat_upgrade_strider_mount"
-			}]
-			rewards: [{
-				id: "33347F20312FD966"
-				type: "item"
-				item: "minecraft:saddle"
-			}]
+			tasks: [
+				{
+					id: "2B29FE2CB7A2F23D"
+					type: "item"
+					item: "rats:rat_upgrade_strider_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "33347F20312FD966"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+			]
 		}
 		{
 			x: 7.0d
@@ -1480,22 +1727,26 @@
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "725F91C8220F0EA5"
-			tasks: [{
-				id: "4BCDDCBB89795FF2"
-				type: "item"
-				item: "rats:rat_upgrade_beast_mount"
-			}]
-			rewards: [{
-				id: "27F4C63DCEE8612B"
-				type: "item"
-				item: "minecraft:saddle"
-			}]
+			tasks: [
+				{
+					id: "4BCDDCBB89795FF2"
+					type: "item"
+					item: "rats:rat_upgrade_beast_mount"
+				}
+			]
+			rewards: [
+				{
+					id: "27F4C63DCEE8612B"
+					type: "item"
+					item: "minecraft:saddle"
+				}
+			]
 		}
 		{
-			title: "&e合成机"
+			title: "&e奶酪制作"
 			x: 5.5d
 			y: 5.5d
-			description: ["一个奶酪块可以通过使用奶桶与空的大锅交互制成."]
+			description: ["一个奶酪块可以通过使用奶桶与空的炼药锅交互制成."]
 			dependencies: ["3F05D033EBD0710D"]
 			id: "70326FBA1D606DB4"
 			tasks: [
@@ -1510,11 +1761,13 @@
 					item: "rats:block_of_cheese"
 				}
 			]
-			rewards: [{
-				id: "00BEC14008D8937E"
-				type: "item"
-				item: "minecraft:milk_bucket"
-			}]
+			rewards: [
+				{
+					id: "00BEC14008D8937E"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1528,32 +1781,40 @@
 			]
 			hide: true
 			id: "30B465FCD9E4CC28"
-			tasks: [{
-				id: "585E0B6D56A66969"
-				type: "item"
-				item: "rats:confit_byaldi"
-			}]
-			rewards: [{
-				id: "3293F97E915A68BA"
-				type: "item"
-				item: "rats:confit_byaldi"
-			}]
+			tasks: [
+				{
+					id: "585E0B6D56A66969"
+					type: "item"
+					item: "rats:confit_byaldi"
+				}
+			]
+			rewards: [
+				{
+					id: "3293F97E915A68BA"
+					type: "item"
+					item: "rats:confit_byaldi"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["&6高级菜板&r是一种由各种菜制成的物品."]
+			description: ["&6什锦蔬菜&r是一种由各种菜制成的物品."]
 			id: "19322ECDAF4F422A"
-			tasks: [{
-				id: "0FE55235C6D6604A"
-				type: "item"
-				item: "rats:assorted_vegetables"
-			}]
-			rewards: [{
-				id: "47271CDC982FE997"
-				type: "item"
-				item: "rats:assorted_vegetables"
-			}]
+			tasks: [
+				{
+					id: "0FE55235C6D6604A"
+					type: "item"
+					item: "rats:assorted_vegetables"
+				}
+			]
+			rewards: [
+				{
+					id: "47271CDC982FE997"
+					type: "item"
+					item: "rats:assorted_vegetables"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -1566,16 +1827,20 @@
 			]
 			hide: true
 			id: "2852D5D738710810"
-			tasks: [{
-				id: "7D409E64DA03568A"
-				type: "item"
-				item: "rats:potato_kinishes"
-			}]
-			rewards: [{
-				id: "76EE67975338874B"
-				type: "item"
-				item: "rats:potato_kinishes"
-			}]
+			tasks: [
+				{
+					id: "7D409E64DA03568A"
+					type: "item"
+					item: "rats:potato_kinishes"
+				}
+			]
+			rewards: [
+				{
+					id: "76EE67975338874B"
+					type: "item"
+					item: "rats:potato_kinishes"
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1586,16 +1851,20 @@
 				"4A6725B54DD382E1"
 			]
 			id: "6ABF2E67C99C6B5B"
-			tasks: [{
-				id: "112F7D37182D2980"
-				type: "item"
-				item: "rats:centipede"
-			}]
-			rewards: [{
-				id: "23766F0B6D74F8D0"
-				type: "item"
-				item: "rats:centipede"
-			}]
+			tasks: [
+				{
+					id: "112F7D37182D2980"
+					type: "item"
+					item: "rats:centipede"
+				}
+			]
+			rewards: [
+				{
+					id: "23766F0B6D74F8D0"
+					type: "item"
+					item: "rats:centipede"
+				}
+			]
 		}
 		{
 			x: 10.5d
@@ -1606,31 +1875,39 @@
 				"0A489C5E8EDE6E9C"
 			]
 			id: "4A6725B54DD382E1"
-			tasks: [{
-				id: "1E7DEA84AAA13D9C"
-				type: "item"
-				item: "rats:little_black_worm"
-			}]
-			rewards: [{
-				id: "02152307E698A1ED"
-				type: "item"
-				item: "rats:little_black_worm"
-			}]
+			tasks: [
+				{
+					id: "1E7DEA84AAA13D9C"
+					type: "item"
+					item: "rats:little_black_worm"
+				}
+			]
+			rewards: [
+				{
+					id: "02152307E698A1ED"
+					type: "item"
+					item: "rats:little_black_worm"
+				}
+			]
 		}
 		{
 			x: 0.5d
 			y: -0.5d
 			id: "1223C7BBA4EBEA0E"
-			tasks: [{
-				id: "1CD5BB172BEABD50"
-				type: "item"
-				item: "rats:potato_pancake"
-			}]
-			rewards: [{
-				id: "2121FD3200B94904"
-				type: "item"
-				item: "rats:potato_pancake"
-			}]
+			tasks: [
+				{
+					id: "1CD5BB172BEABD50"
+					type: "item"
+					item: "rats:potato_pancake"
+				}
+			]
+			rewards: [
+				{
+					id: "2121FD3200B94904"
+					type: "item"
+					item: "rats:potato_pancake"
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -1638,44 +1915,52 @@
 			hide_dependency_lines: true
 			dependencies: ["6F6E39CCF94FE7FC"]
 			id: "0A489C5E8EDE6E9C"
-			tasks: [{
-				id: "6E6A6F7C8295F36B"
-				type: "item"
-				item: "rats:little_black_squash_balls"
-			}]
-			rewards: [{
-				id: "4BAEC0CF3C2940E5"
-				type: "item"
-				item: "rats:little_black_squash_balls"
-			}]
+			tasks: [
+				{
+					id: "6E6A6F7C8295F36B"
+					type: "item"
+					item: "rats:little_black_squash_balls"
+				}
+			]
+			rewards: [
+				{
+					id: "4BAEC0CF3C2940E5"
+					type: "item"
+					item: "rats:little_black_squash_balls"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 7.0d
 			subtitle: "你将做我想要你做的"
 			description: [
-				"&e奶酪手杖&r的主要目的就是配置鼠的指令和行为."
+				"&e奶酪魔杖&r的主要目的就是配置老鼠的指令和行为."
 				""
 			]
 			hide_dependency_lines: true
 			dependencies: ["49C443050019B6F5"]
 			size: 1.5d
 			id: "439E821334E5AF3D"
-			tasks: [{
-				id: "3FFD4F034311FE47"
-				type: "item"
-				item: {
-					id: "rats:cheese_stick"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "3FFD4F034311FE47"
+					type: "item"
+					item: {
+						id: "rats:cheese_stick"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "1A8BACD88865721A"
-				type: "item"
-				item: "minecraft:barrel"
-				count: 2
-			}]
+			]
+			rewards: [
+				{
+					id: "1A8BACD88865721A"
+					type: "item"
+					item: "minecraft:barrel"
+					count: 2
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -1683,127 +1968,155 @@
 			hide_dependency_lines: true
 			dependencies: ["25F63E33E4FBBB00"]
 			id: "1F3A35EE8F687480"
-			tasks: [{
-				id: "4E54457C0DDDCFA1"
-				type: "item"
-				item: "rats:string_cheese"
-			}]
-			rewards: [{
-				id: "022EF3B8F2D33C46"
-				type: "item"
-				item: "rats:string_cheese"
-			}]
+			tasks: [
+				{
+					id: "4E54457C0DDDCFA1"
+					type: "item"
+					item: "rats:string_cheese"
+				}
+			]
+			rewards: [
+				{
+					id: "022EF3B8F2D33C46"
+					type: "item"
+					item: "rats:string_cheese"
+				}
+			]
 		}
 		{
 			x: 11.0d
 			y: -2.0d
 			description: [
-				"食物提供 4 个完整的食物,8 个完全饱和."
-				"它通过在两块面包之间放一只熟鼠来制作."
+				"该食物提供4个饥饿值,8个饱食度."
+				"它通过在两块面包之间放一只烤老鼠肉来制作."
 			]
 			dependencies: ["2223601AC03DCF73"]
 			id: "1B87DB25EB725162"
-			tasks: [{
-				id: "68D043E2DE567109"
-				type: "item"
-				item: "rats:rat_burger"
-			}]
-			rewards: [{
-				id: "3DC04C197AD7FA41"
-				type: "item"
-				item: "rats:rat_burger"
-			}]
+			tasks: [
+				{
+					id: "68D043E2DE567109"
+					type: "item"
+					item: "rats:rat_burger"
+				}
+			]
+			rewards: [
+				{
+					id: "3DC04C197AD7FA41"
+					type: "item"
+					item: "rats:rat_burger"
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: -2.5d
-			description: ["烹饪鼠是烹饪鼠获得的食物."]
+			description: ["烤老鼠肉是烹饪生老鼠获得的食物."]
 			id: "2223601AC03DCF73"
-			tasks: [{
-				id: "21EE18F9B81AEB0D"
-				type: "item"
-				item: "rats:cooked_rat"
-			}]
-			rewards: [{
-				id: "4ADB4BF9280CFE8F"
-				type: "item"
-				item: "rats:nether_cheese"
-			}]
+			tasks: [
+				{
+					id: "21EE18F9B81AEB0D"
+					type: "item"
+					item: "rats:cooked_rat"
+				}
+			]
+			rewards: [
+				{
+					id: "4ADB4BF9280CFE8F"
+					type: "item"
+					item: "rats:nether_cheese"
+				}
+			]
 		}
 		{
 			x: 3.5d
 			y: -4.5d
-			description: ["&b鼠标升级:祭坛鼠粒可以随机掉落小硬币,也可以在任何时间杀死敌人."]
+			description: ["&b老鼠升级:贵族鼠&r可以随机掉落小硬币,也可以在任何时间杀死敌人."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "27E3F0C640DBD7C0"
-			tasks: [{
-				id: "30DB4B53EB2D61BC"
-				type: "item"
-				item: "rats:rat_upgrade_aristocrat"
-			}]
-			rewards: [{
-				id: "5BF2E1F5137A91F4"
-				type: "item"
-				item: {
-					id: "rats:top_hat"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "30DB4B53EB2D61BC"
+					type: "item"
+					item: "rats:rat_upgrade_aristocrat"
+				}
+			]
+			rewards: [
+				{
+					id: "5BF2E1F5137A91F4"
+					type: "item"
+					item: {
+						id: "rats:top_hat"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 5.0d
 			y: 3.5d
 			dependencies: ["10670EB26DC9CCAA"]
 			id: "300703C88A2C313A"
-			tasks: [{
-				id: "1C7B5D4ABBCA0917"
-				type: "item"
-				item: "rats:cursed_garbage"
-			}]
-			rewards: [{
-				id: "7476D2BFC31345FD"
-				type: "item"
-				item: "rats:cursed_garbage"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1C7B5D4ABBCA0917"
+					type: "item"
+					item: "rats:cursed_garbage"
+				}
+			]
+			rewards: [
+				{
+					id: "7476D2BFC31345FD"
+					type: "item"
+					item: "rats:cursed_garbage"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 4.0d
 			dependencies: ["10670EB26DC9CCAA"]
 			id: "30AD8D8704C2612E"
-			tasks: [{
-				id: "6A719682B031503F"
-				type: "item"
-				item: "rats:compressed_garbage"
-			}]
-			rewards: [{
-				id: "1BC3D33E1F0B096F"
-				type: "item"
-				item: "rats:compressed_garbage"
-			}]
+			tasks: [
+				{
+					id: "6A719682B031503F"
+					type: "item"
+					item: "rats:compressed_garbage"
+				}
+			]
+			rewards: [
+				{
+					id: "1BC3D33E1F0B096F"
+					type: "item"
+					item: "rats:compressed_garbage"
+				}
+			]
 		}
 		{
 			x: 6.0d
 			y: 3.5d
 			dependencies: ["10670EB26DC9CCAA"]
 			id: "358C536818B4B6F9"
-			tasks: [{
-				id: "306BA92F38444739"
-				type: "item"
-				item: "rats:purified_garbage"
-				count: 8L
-			}]
-			rewards: [{
-				id: "18DD28AE2B46A23E"
-				type: "item"
-				item: "rats:purified_garbage"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "306BA92F38444739"
+					type: "item"
+					item: "rats:purified_garbage"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "18DD28AE2B46A23E"
+					type: "item"
+					item: "rats:purified_garbage"
+					count: 4
+				}
+			]
 		}
 	]
 }
