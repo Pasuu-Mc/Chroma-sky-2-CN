@@ -13,17 +13,21 @@
 			y: 0.5d
 			dependencies: ["2C562B816E58084C"]
 			id: "17F440A8AFB2D790"
-			tasks: [{
-				id: "1EB0CD2D3C446B25"
-				type: "advancement"
-				advancement: "apotheosis:spawner/root"
-				criterion: ""
-			}]
-			rewards: [{
-				id: "2083EE1C13827766"
-				type: "item"
-				item: "minecraft:zombie_spawn_egg"
-			}]
+			tasks: [
+				{
+					id: "1EB0CD2D3C446B25"
+					type: "advancement"
+					advancement: "apotheosis:spawner/root"
+					criterion: ""
+				}
+			]
+			rewards: [
+				{
+					id: "2083EE1C13827766"
+					type: "item"
+					item: "minecraft:zombie_spawn_egg"
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -31,17 +35,21 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "0CD809E61CBF155A"
-			tasks: [{
-				id: "1E6A49B39E049BC7"
-				type: "item"
-				item: "apotheosis:hellshelf"
-			}]
-			rewards: [{
-				id: "19382C8DA15C4CB3"
-				type: "item"
-				item: "minecraft:blaze_rod"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1E6A49B39E049BC7"
+					type: "item"
+					item: "apotheosis:hellshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "19382C8DA15C4CB3"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -2.0d
@@ -49,25 +57,31 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "454D38F803CF5F51"
-			tasks: [{
-				id: "02EA7E115AFCEC5E"
-				type: "item"
-				item: "apotheosis:blazing_hellshelf"
-			}]
-			rewards: [{
-				id: "189CC97FC1341E94"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "apotheosis:hell_infusion"
-						}]
+			tasks: [
+				{
+					id: "02EA7E115AFCEC5E"
+					type: "item"
+					item: "apotheosis:blazing_hellshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "189CC97FC1341E94"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "apotheosis:hell_infusion"
+								}
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -2.0d
@@ -75,25 +89,31 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "52D1DE37C65275C1"
-			tasks: [{
-				id: "30913AA719FCFAB8"
-				type: "item"
-				item: "apotheosis:glowing_hellshelf"
-			}]
-			rewards: [{
-				id: "4251E43058704124"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "apotheosis:hell_infusion"
-						}]
+			tasks: [
+				{
+					id: "30913AA719FCFAB8"
+					type: "item"
+					item: "apotheosis:glowing_hellshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "4251E43058704124"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "apotheosis:hell_infusion"
+								}
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -3.0d
@@ -101,16 +121,20 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "469F76C433E3539B"
-			tasks: [{
-				id: "50930DB786FFAEE3"
-				type: "item"
-				item: "apotheosis:seashelf"
-			}]
-			rewards: [{
-				id: "785455D1F282586D"
-				type: "item"
-				item: "minecraft:pufferfish_bucket"
-			}]
+			tasks: [
+				{
+					id: "50930DB786FFAEE3"
+					type: "item"
+					item: "apotheosis:seashelf"
+				}
+			]
+			rewards: [
+				{
+					id: "785455D1F282586D"
+					type: "item"
+					item: "minecraft:pufferfish_bucket"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -118,25 +142,31 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "1B0F068BB061A255"
-			tasks: [{
-				id: "2B179348523AC701"
-				type: "item"
-				item: "apotheosis:crystal_seashelf"
-			}]
-			rewards: [{
-				id: "071951D256EEED5D"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "apotheosis:sea_infusion"
-						}]
+			tasks: [
+				{
+					id: "2B179348523AC701"
+					type: "item"
+					item: "apotheosis:crystal_seashelf"
+				}
+			]
+			rewards: [
+				{
+					id: "071951D256EEED5D"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "apotheosis:sea_infusion"
+								}
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -3.0d
@@ -144,25 +174,31 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "4AF87DEA14DE4AB9"
-			tasks: [{
-				id: "655724090A98739A"
-				type: "item"
-				item: "apotheosis:heart_seashelf"
-			}]
-			rewards: [{
-				id: "657A011C73F193E5"
-				type: "item"
-				item: {
-					id: "minecraft:enchanted_book"
-					Count: 1b
-					tag: {
-						StoredEnchantments: [{
-							lvl: 3s
-							id: "apotheosis:sea_infusion"
-						}]
+			tasks: [
+				{
+					id: "655724090A98739A"
+					type: "item"
+					item: "apotheosis:heart_seashelf"
+				}
+			]
+			rewards: [
+				{
+					id: "657A011C73F193E5"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "apotheosis:sea_infusion"
+								}
+							]
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -4.0d
@@ -170,17 +206,21 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "673CC85D8AB9F163"
-			tasks: [{
-				id: "5434063582C8A600"
-				type: "item"
-				item: "apotheosis:endshelf"
-			}]
-			rewards: [{
-				id: "3C1A152CA4EC319E"
-				type: "item"
-				item: "minecraft:dragon_breath"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "5434063582C8A600"
+					type: "item"
+					item: "apotheosis:endshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "3C1A152CA4EC319E"
+					type: "item"
+					item: "minecraft:dragon_breath"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -188,16 +228,20 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "763FB9D99B6C684B"
-			tasks: [{
-				id: "5041D6666F93E1E4"
-				type: "item"
-				item: "apotheosis:draconic_endshelf"
-			}]
-			rewards: [{
-				id: "506AF9508CE60FA9"
-				type: "item"
-				item: "minecraft:dragon_head"
-			}]
+			tasks: [
+				{
+					id: "5041D6666F93E1E4"
+					type: "item"
+					item: "apotheosis:draconic_endshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "506AF9508CE60FA9"
+					type: "item"
+					item: "minecraft:dragon_head"
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -205,16 +249,20 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "15A038F7F307DF73"
-			tasks: [{
-				id: "787250FC8C3E97F3"
-				type: "item"
-				item: "apotheosis:pearl_endshelf"
-			}]
-			rewards: [{
-				id: "258F10F2113C13B0"
-				type: "item"
-				item: "krate:shulker_upgrade"
-			}]
+			tasks: [
+				{
+					id: "787250FC8C3E97F3"
+					type: "item"
+					item: "apotheosis:pearl_endshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "258F10F2113C13B0"
+					type: "item"
+					item: "krate:shulker_upgrade"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -222,17 +270,21 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "171000C03FE9CD4E"
-			tasks: [{
-				id: "654BA071990E232D"
-				type: "item"
-				item: "apotheosis:beeshelf"
-			}]
-			rewards: [{
-				id: "130E38DA84E0B9D0"
-				type: "item"
-				item: "minecraft:honeycomb"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "654BA071990E232D"
+					type: "item"
+					item: "apotheosis:beeshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "130E38DA84E0B9D0"
+					type: "item"
+					item: "minecraft:honeycomb"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -240,17 +292,21 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "30859E4F41FB35AD"
-			tasks: [{
-				id: "1829763BE3D2AF2C"
-				type: "item"
-				item: "apotheosis:melonshelf"
-			}]
-			rewards: [{
-				id: "7217B58312D4E048"
-				type: "item"
-				item: "minecraft:melon"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1829763BE3D2AF2C"
+					type: "item"
+					item: "apotheosis:melonshelf"
+				}
+			]
+			rewards: [
+				{
+					id: "7217B58312D4E048"
+					type: "item"
+					item: "minecraft:melon"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -258,11 +314,13 @@
 			shape: "pentagon"
 			dependencies: ["2C562B816E58084C"]
 			id: "713B7976ABBA3F91"
-			tasks: [{
-				id: "2860805FB11F8EA6"
-				type: "item"
-				item: "apotheosis:enchantment_library"
-			}]
+			tasks: [
+				{
+					id: "2860805FB11F8EA6"
+					type: "item"
+					item: "apotheosis:enchantment_library"
+				}
+			]
 			rewards: [
 				{
 					id: "61FE40D6FD31CE11"
@@ -271,10 +329,12 @@
 						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:fortune"
-							}]
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:fortune"
+								}
+							]
 						}
 					}
 				}
@@ -285,10 +345,12 @@
 						id: "minecraft:enchanted_book"
 						Count: 1b
 						tag: {
-							StoredEnchantments: [{
-								lvl: 3s
-								id: "minecraft:looting"
-							}]
+							StoredEnchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:looting"
+								}
+							]
 						}
 					}
 				}
@@ -300,17 +362,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "45CF715D44DAD5A0"
-			tasks: [{
-				id: "6DFD9A674F2C3AE0"
-				type: "item"
-				item: "apotheosis:null_book"
-				count: 6L
-			}]
-			rewards: [{
-				id: "5D6DBE6EB4E4DE0D"
-				type: "item"
-				item: "apotheosis:null_book"
-			}]
+			tasks: [
+				{
+					id: "6DFD9A674F2C3AE0"
+					type: "item"
+					item: "apotheosis:null_book"
+					count: 6L
+				}
+			]
+			rewards: [
+				{
+					id: "5D6DBE6EB4E4DE0D"
+					type: "item"
+					item: "apotheosis:null_book"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -318,17 +384,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "03C5F39D32DAF638"
-			tasks: [{
-				id: "122236451CF20FB5"
-				type: "item"
-				item: "apotheosis:armor_head_book"
-				count: 5L
-			}]
-			rewards: [{
-				id: "13D0BCCF719CB51F"
-				type: "item"
-				item: "apotheosis:armor_head_book"
-			}]
+			tasks: [
+				{
+					id: "122236451CF20FB5"
+					type: "item"
+					item: "apotheosis:armor_head_book"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "13D0BCCF719CB51F"
+					type: "item"
+					item: "apotheosis:armor_head_book"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -336,17 +406,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "16F45B27E53A6F20"
-			tasks: [{
-				id: "293BDE8261ABA91C"
-				type: "item"
-				item: "apotheosis:armor_chest_book"
-				count: 8L
-			}]
-			rewards: [{
-				id: "4A2F886560B9AF67"
-				type: "item"
-				item: "apotheosis:armor_chest_book"
-			}]
+			tasks: [
+				{
+					id: "293BDE8261ABA91C"
+					type: "item"
+					item: "apotheosis:armor_chest_book"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "4A2F886560B9AF67"
+					type: "item"
+					item: "apotheosis:armor_chest_book"
+				}
+			]
 		}
 		{
 			x: -7.0d
@@ -354,17 +428,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "51B9164856481CCA"
-			tasks: [{
-				id: "5C8C1A17CDF02A52"
-				type: "item"
-				item: "apotheosis:armor_legs_book"
-				count: 7L
-			}]
-			rewards: [{
-				id: "247013506540DEE0"
-				type: "item"
-				item: "apotheosis:armor_legs_book"
-			}]
+			tasks: [
+				{
+					id: "5C8C1A17CDF02A52"
+					type: "item"
+					item: "apotheosis:armor_legs_book"
+					count: 7L
+				}
+			]
+			rewards: [
+				{
+					id: "247013506540DEE0"
+					type: "item"
+					item: "apotheosis:armor_legs_book"
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -372,17 +450,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "2D641BEEDBEE1A43"
-			tasks: [{
-				id: "4D34ED83D208DFCE"
-				type: "item"
-				item: "apotheosis:armor_feet_book"
-				count: 4L
-			}]
-			rewards: [{
-				id: "6BB3116572E53FC6"
-				type: "item"
-				item: "apotheosis:armor_feet_book"
-			}]
+			tasks: [
+				{
+					id: "4D34ED83D208DFCE"
+					type: "item"
+					item: "apotheosis:armor_feet_book"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "6BB3116572E53FC6"
+					type: "item"
+					item: "apotheosis:armor_feet_book"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -390,17 +472,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "33745A802C197BB4"
-			tasks: [{
-				id: "5B83DA207183D136"
-				type: "item"
-				item: "apotheosis:weapon_book"
-				count: 2L
-			}]
-			rewards: [{
-				id: "53EABA17585E4731"
-				type: "item"
-				item: "apotheosis:weapon_book"
-			}]
+			tasks: [
+				{
+					id: "5B83DA207183D136"
+					type: "item"
+					item: "apotheosis:weapon_book"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "53EABA17585E4731"
+					type: "item"
+					item: "apotheosis:weapon_book"
+				}
+			]
 		}
 		{
 			x: -6.0d
@@ -408,17 +494,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "0D01F6C1C88BE7FA"
-			tasks: [{
-				id: "548FC130E2D97902"
-				type: "item"
-				item: "apotheosis:digger_book"
-				count: 3L
-			}]
-			rewards: [{
-				id: "1EA51CACA8837603"
-				type: "item"
-				item: "apotheosis:digger_book"
-			}]
+			tasks: [
+				{
+					id: "548FC130E2D97902"
+					type: "item"
+					item: "apotheosis:digger_book"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "1EA51CACA8837603"
+					type: "item"
+					item: "apotheosis:digger_book"
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -426,17 +516,21 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "4CEE2A3D8DA44F3A"
-			tasks: [{
-				id: "3D47F801AB870745"
-				type: "item"
-				item: "apotheosis:fishing_rod_book"
-				count: 2L
-			}]
-			rewards: [{
-				id: "3B45A6E40BE3BB30"
-				type: "item"
-				item: "apotheosis:fishing_rod_book"
-			}]
+			tasks: [
+				{
+					id: "3D47F801AB870745"
+					type: "item"
+					item: "apotheosis:fishing_rod_book"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "3B45A6E40BE3BB30"
+					type: "item"
+					item: "apotheosis:fishing_rod_book"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -444,49 +538,61 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "23B24106E0F85E6C"
-			tasks: [{
-				id: "5D992C21408ED906"
-				type: "item"
-				item: "apotheosis:bow_book"
-				count: 3L
-			}]
-			rewards: [{
-				id: "376D73128FE411FA"
-				type: "item"
-				item: "apotheosis:bow_book"
-			}]
+			tasks: [
+				{
+					id: "5D992C21408ED906"
+					type: "item"
+					item: "apotheosis:bow_book"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "376D73128FE411FA"
+					type: "item"
+					item: "apotheosis:bow_book"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 0.5d
 			id: "2C562B816E58084C"
-			tasks: [{
-				id: "36107F1FF2DEF1BB"
-				type: "item"
-				item: "minecraft:enchanting_table"
-			}]
-			rewards: [{
-				id: "25531FDE54EFFD6B"
-				type: "item"
-				item: "minecraft:bookshelf"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "36107F1FF2DEF1BB"
+					type: "item"
+					item: "minecraft:enchanting_table"
+				}
+			]
+			rewards: [
+				{
+					id: "25531FDE54EFFD6B"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 2.0d
 			dependencies: ["491A2C391B3F7CAC"]
 			id: "28B3AF0E480074EC"
-			tasks: [{
-				id: "507F0E7D2F6787CA"
-				type: "item"
-				item: "apotheosis:common_shard"
-			}]
-			rewards: [{
-				id: "702DC272B53DCA07"
-				type: "item"
-				item: "apotheosis:common_shard"
-			}]
+			tasks: [
+				{
+					id: "507F0E7D2F6787CA"
+					type: "item"
+					item: "apotheosis:common_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "702DC272B53DCA07"
+					type: "item"
+					item: "apotheosis:common_shard"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -494,79 +600,100 @@
 			description: [""]
 			dependencies: ["491A2C391B3F7CAC"]
 			id: "12512F4BB716C162"
-			tasks: [{
-				id: "6AD43709BE3D3B56"
-				type: "item"
-				item: "apotheosis:uncommon_shard"
-			}]
-			rewards: [{
-				id: "4E4F25E504C6C244"
-				type: "item"
-				item: "apotheosis:uncommon_shard"
-			}]
+			tasks: [
+				{
+					id: "6AD43709BE3D3B56"
+					type: "item"
+					item: "apotheosis:uncommon_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "4E4F25E504C6C244"
+					type: "item"
+					item: "apotheosis:uncommon_shard"
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 3.0d
 			dependencies: ["491A2C391B3F7CAC"]
 			id: "3144FCC6A1244D37"
-			tasks: [{
-				id: "6AC7A18608B08AAC"
-				type: "item"
-				item: "apotheosis:rare_shard"
-			}]
-			rewards: [{
-				id: "7B1DA36E09595EFF"
-				type: "item"
-				item: "apotheosis:rare_shard"
-			}]
+			tasks: [
+				{
+					id: "6AC7A18608B08AAC"
+					type: "item"
+					item: "apotheosis:rare_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "7B1DA36E09595EFF"
+					type: "item"
+					item: "apotheosis:rare_shard"
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 4.0d
 			dependencies: ["491A2C391B3F7CAC"]
 			id: "2F7D69997BDFB5A6"
-			tasks: [{
-				id: "69AF05FB1FFD20F5"
-				type: "item"
-				item: "apotheosis:epic_shard"
-			}]
-			rewards: [{
-				id: "7F159F007EA3AA1F"
-				type: "item"
-				item: "apotheosis:epic_shard"
-			}]
+			tasks: [
+				{
+					id: "69AF05FB1FFD20F5"
+					type: "item"
+					item: "apotheosis:epic_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "7F159F007EA3AA1F"
+					type: "item"
+					item: "apotheosis:epic_shard"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 4.0d
 			dependencies: ["491A2C391B3F7CAC"]
 			id: "29536E4FAA825A2E"
-			tasks: [{
-				id: "60BDCD19511FB8DB"
-				type: "item"
-				item: "apotheosis:mythic_shard"
-			}]
-			rewards: [{
-				id: "2FD6EDC423C8500F"
-				type: "item"
-				item: "apotheosis:mythic_shard"
-			}]
+			tasks: [
+				{
+					id: "60BDCD19511FB8DB"
+					type: "item"
+					item: "apotheosis:mythic_shard"
+				}
+			]
+			rewards: [
+				{
+					id: "2FD6EDC423C8500F"
+					type: "item"
+					item: "apotheosis:mythic_shard"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 3.0d
 			dependencies: ["3A520D98DB566C24"]
 			id: "491A2C391B3F7CAC"
-			tasks: [{
-				id: "55798B8FCF46506E"
-				type: "item"
-				item: "minecraft:soul_campfire"
-			}]
-			rewards: [{
-				id: "62C6571755873108"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "55798B8FCF46506E"
+					type: "item"
+					item: "minecraft:soul_campfire"
+				}
+			]
+			rewards: [
+				{
+					id: "62C6571755873108"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -574,18 +701,22 @@
 			shape: "square"
 			dependencies: ["2C562B816E58084C"]
 			id: "0EC2642FF4FCA580"
-			tasks: [{
-				id: "0870CEBC7D60ABA6"
-				type: "item"
-				item: "apotheosis:scrap_tome"
-				count: 8L
-			}]
-			rewards: [{
-				id: "45F79D4F0E1FB225"
-				type: "item"
-				item: "apotheosis:scrap_tome"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "0870CEBC7D60ABA6"
+					type: "item"
+					item: "apotheosis:scrap_tome"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "45F79D4F0E1FB225"
+					type: "item"
+					item: "apotheosis:scrap_tome"
+					count: 8
+				}
+			]
 		}
 	]
 }

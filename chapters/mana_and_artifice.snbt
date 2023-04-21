@@ -122,7 +122,7 @@
 			x: -1.5d
 			y: -2.5d
 			shape: "hexagon"
-			description: ["要开始模组,您&4必须右键单击书&r."]
+			description: ["要开始模组,你&4必须右键单击书&r."]
 			dependencies: ["22999033333BCA2C"]
 			id: "49766DA502FA3CE3"
 			tasks: [
@@ -646,7 +646,7 @@
 				""
 				"织魔图样可以从特定的商人那里购买:&a游荡巫师&r."
 				""
-				"&a游荡巫师&r可以从游荡巫师&b仪式&r召唤."
+				"&a游荡巫师&r可以从&b游荡巫师仪式&r召唤."
 			]
 			dependencies: ["4D65C663D6E33AD1"]
 			id: "515EF3943ECD7DDB"
@@ -3175,7 +3175,7 @@
 				{
 					id: "4019109DC2B06280"
 					type: "checkmark"
-					title: "获得60级的魔法"
+					title: "达到60级的魔法"
 				}
 			]
 			rewards: [

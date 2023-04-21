@@ -22,7 +22,7 @@
 			description: [
 				"当用手持可放置物品右键单击时,垃圾可以“填充”类似于堆肥桶."
 				""
-				"使用6个方块后,下一个右键单击会释放一个&c垃圾块r,可以放置或用来合成."
+				"使用6个方块后,下一个右键单击会释放一个&c垃圾块&r,可以放置或用来合成."
 				""
 				"破坏时,垃圾块也可以掉落塑料废品,可以烧制它们来获得小块干橡胶."
 			]
@@ -397,7 +397,7 @@
 		{
 			x: 8.0d
 			y: -2.0d
-			description: ["&b老鼠升级:生命值&r为鼠提供20点生命值."]
+			description: ["&b老鼠升级:生命值&r为老鼠提供20点生命值."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "39529A319B833D0E"
@@ -566,7 +566,7 @@
 				"装备后,它会叠加&b老鼠升级:战神&r会大幅增加老鼠基数。升级会给老鼠提供:"
 				""
 				"500点老鼠生命值"
-				"50点的基础老鼠护甲"
+				"50级基础老鼠护甲"
 				"50点老鼠攻击"
 			]
 			hide_dependency_lines: true
@@ -810,7 +810,7 @@
 		{
 			x: 5.0d
 			y: -6.0d
-			description: ["&b老鼠升级: 末影&r装备时会给它提供多个新功能,所有功能都类似于末影人."]
+			description: ["&b老鼠升级:末影&r装备时会给它提供多个新功能,所有功能都类似于末影人."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "6FBB3E96867C037E"
@@ -1023,7 +1023,7 @@
 			x: 8.0d
 			y: -1.0d
 			subtitle: "加速火把"
-			description: ["将老鼠放置在任何方块上方或下方会Ⅹtick加速，大约是 5 倍."]
+			description: ["将老鼠放置在任何方块上方或下方会Ⅹtick加速，大约是5倍速度."]
 			hide_dependency_lines: true
 			dependencies: ["33332A77A21B5CDE"]
 			id: "55A5B95F91530F0B"

@@ -3,7 +3,7 @@
 	group: "73390EDA98890AC0"
 	order_index: 0
 	filename: "mini_utilities"
-	title: "小型实用设备"
+	title: "迷你实用设备"
 	icon: "miniutilities:the_final_opinium_core"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,32 +13,40 @@
 			y: -1.5d
 			dependencies: ["6376580B13B6EEC9"]
 			id: "4F7C495127675673"
-			tasks: [{
-				id: "29B77E5181FCF717"
-				type: "item"
-				item: "miniutilities:cursed_earth"
-			}]
-			rewards: [{
-				id: "4A8F6B0C057EB05B"
-				type: "item"
-				item: "chromasky:drop_of_darkness"
-			}]
+			tasks: [
+				{
+					id: "29B77E5181FCF717"
+					type: "item"
+					item: "miniutilities:cursed_earth"
+				}
+			]
+			rewards: [
+				{
+					id: "4A8F6B0C057EB05B"
+					type: "item"
+					item: "chromasky:drop_of_darkness"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -1.5d
 			dependencies: ["6376580B13B6EEC9"]
 			id: "0ED361E2AEF63ACA"
-			tasks: [{
-				id: "5ABFB22AF1CDA1AE"
-				type: "item"
-				item: "miniutilities:blessed_earth"
-			}]
-			rewards: [{
-				id: "4F58767E2052AB43"
-				type: "item"
-				item: "chromasky:drop_of_peacefulless"
-			}]
+			tasks: [
+				{
+					id: "5ABFB22AF1CDA1AE"
+					type: "item"
+					item: "miniutilities:blessed_earth"
+				}
+			]
+			rewards: [
+				{
+					id: "4F58767E2052AB43"
+					type: "item"
+					item: "chromasky:drop_of_peacefulless"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -48,15 +56,20 @@
 				"4F7C495127675673"
 			]
 			id: "7445D93B7DC8F87B"
-			tasks: [{
-				id: "351B8ACC6E01ADAD"
-				type: "item"
-				item: "miniutilities:blursed_earth"
-			}]
-			rewards: [{
-				id: "2098F730BC8ABA22"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "351B8ACC6E01ADAD"
+					type: "item"
+					item: "miniutilities:blursed_earth"
+				}
+			]
+			rewards: [
+				{
+					id: "2098F730BC8ABA22"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -67,16 +80,20 @@
 				"5B6ABB98D391C9A5"
 			]
 			id: "180A11DC5CDCAB8E"
-			tasks: [{
-				id: "3BFEA43A749F4C20"
-				type: "item"
-				item: "miniutilities:stone_drum"
-			}]
-			rewards: [{
-				id: "62D7B781961DB608"
-				type: "item"
-				item: "minecraft:smooth_stone"
-			}]
+			tasks: [
+				{
+					id: "3BFEA43A749F4C20"
+					type: "item"
+					item: "miniutilities:stone_drum"
+				}
+			]
+			rewards: [
+				{
+					id: "62D7B781961DB608"
+					type: "item"
+					item: "minecraft:smooth_stone"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -84,16 +101,20 @@
 			shape: "diamond"
 			dependencies: ["180A11DC5CDCAB8E"]
 			id: "321F16F05F2120C5"
-			tasks: [{
-				id: "08650906E2C0C499"
-				type: "item"
-				item: "miniutilities:iron_drum"
-			}]
-			rewards: [{
-				id: "15C02B42210352A0"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
+			tasks: [
+				{
+					id: "08650906E2C0C499"
+					type: "item"
+					item: "miniutilities:iron_drum"
+				}
+			]
+			rewards: [
+				{
+					id: "15C02B42210352A0"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -101,16 +122,20 @@
 			shape: "diamond"
 			dependencies: ["321F16F05F2120C5"]
 			id: "3AD8EE3A79A6D652"
-			tasks: [{
-				id: "04344E788F63B334"
-				type: "item"
-				item: "miniutilities:reinforced_large_drum"
-			}]
-			rewards: [{
-				id: "770D279D0C5C61CB"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "04344E788F63B334"
+					type: "item"
+					item: "miniutilities:reinforced_large_drum"
+				}
+			]
+			rewards: [
+				{
+					id: "770D279D0C5C61CB"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -118,16 +143,20 @@
 			shape: "diamond"
 			dependencies: ["3AD8EE3A79A6D652"]
 			id: "38AA42D8F2B409B3"
-			tasks: [{
-				id: "750536C1A3DFF8BE"
-				type: "item"
-				item: "miniutilities:netherite_reinforced_drum"
-			}]
-			rewards: [{
-				id: "0BC299773B449B9A"
-				type: "item"
-				item: "minecraft:ancient_debris"
-			}]
+			tasks: [
+				{
+					id: "750536C1A3DFF8BE"
+					type: "item"
+					item: "miniutilities:netherite_reinforced_drum"
+				}
+			]
+			rewards: [
+				{
+					id: "0BC299773B449B9A"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -139,16 +168,20 @@
 				"797DD36F60AB5256"
 			]
 			id: "693341DBEC999C06"
-			tasks: [{
-				id: "2F524971134A326A"
-				type: "item"
-				item: "miniutilities:unstable_drum"
-			}]
-			rewards: [{
-				id: "2C0F9358F8C70F3C"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
+			tasks: [
+				{
+					id: "2F524971134A326A"
+					type: "item"
+					item: "miniutilities:unstable_drum"
+				}
+			]
+			rewards: [
+				{
+					id: "2C0F9358F8C70F3C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
 		}
 		{
 			x: -1.0d
@@ -156,22 +189,26 @@
 			shape: "diamond"
 			dependencies: ["3F97D03C2402B70D"]
 			id: "1326B54AD6674ED2"
-			tasks: [{
-				id: "1B44F3D37401390A"
-				type: "item"
-				item: "miniutilities:wooden_spikes"
-			}]
-			rewards: [{
-				id: "243808C61BCA94C1"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1B44F3D37401390A"
+					type: "item"
+					item: "miniutilities:wooden_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "243808C61BCA94C1"
+					type: "item"
+					item: {
+						id: "minecraft:wooden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -0.5d
@@ -179,22 +216,26 @@
 			shape: "diamond"
 			dependencies: ["1326B54AD6674ED2"]
 			id: "57777A8FC63D161A"
-			tasks: [{
-				id: "084A5B3E8FB32F6C"
-				type: "item"
-				item: "miniutilities:iron_spikes"
-			}]
-			rewards: [{
-				id: "07A58A101CFFDFF9"
-				type: "item"
-				item: {
-					id: "minecraft:iron_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "084A5B3E8FB32F6C"
+					type: "item"
+					item: "miniutilities:iron_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "07A58A101CFFDFF9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.0d
@@ -202,22 +243,26 @@
 			shape: "diamond"
 			dependencies: ["57777A8FC63D161A"]
 			id: "567259767C30DC44"
-			tasks: [{
-				id: "636AA7FFA7431A79"
-				type: "item"
-				item: "miniutilities:gold_spikes"
-			}]
-			rewards: [{
-				id: "403A2619C9A41A4F"
-				type: "item"
-				item: {
-					id: "minecraft:golden_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "636AA7FFA7431A79"
+					type: "item"
+					item: "miniutilities:gold_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "403A2619C9A41A4F"
+					type: "item"
+					item: {
+						id: "minecraft:golden_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 0.5d
@@ -225,22 +270,26 @@
 			shape: "diamond"
 			dependencies: ["567259767C30DC44"]
 			id: "64ACC0027C3F18E3"
-			tasks: [{
-				id: "15B6902A7FCFD71A"
-				type: "item"
-				item: "miniutilities:diamond_spikes"
-			}]
-			rewards: [{
-				id: "5DCA45DC581701A3"
-				type: "item"
-				item: {
-					id: "minecraft:diamond_sword"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "15B6902A7FCFD71A"
+					type: "item"
+					item: "miniutilities:diamond_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "5DCA45DC581701A3"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 1.0d
@@ -248,48 +297,60 @@
 			shape: "diamond"
 			dependencies: ["64ACC0027C3F18E3"]
 			id: "711EC9C2696557A7"
-			tasks: [{
-				id: "0A0CEC208726177C"
-				type: "item"
-				item: "miniutilities:netherite_spikes"
-			}]
-			rewards: [{
-				id: "706A8FC1A4FCDA4C"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
+			tasks: [
+				{
+					id: "0A0CEC208726177C"
+					type: "item"
+					item: "miniutilities:netherite_spikes"
+				}
+			]
+			rewards: [
+				{
+					id: "706A8FC1A4FCDA4C"
+					type: "item"
+					item: "minecraft:netherite_ingot"
+				}
+			]
 		}
 		{
 			x: -6.5d
 			y: 3.5d
 			dependencies: ["1B69AF5509A2B907"]
 			id: "4686340A08833AA0"
-			tasks: [{
-				id: "4ECD29201496A782"
-				type: "item"
-				item: "miniutilities:mechanical_miner"
-			}]
-			rewards: [{
-				id: "4A2386BA9F54CAEB"
-				type: "item"
-				item: "ftbjarmod:cast_iron_ingot"
-			}]
+			tasks: [
+				{
+					id: "4ECD29201496A782"
+					type: "item"
+					item: "miniutilities:mechanical_miner"
+				}
+			]
+			rewards: [
+				{
+					id: "4A2386BA9F54CAEB"
+					type: "item"
+					item: "ftbjarmod:cast_iron_ingot"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 5.0d
 			dependencies: ["088D692E25F62BFD"]
 			id: "7475E8751BF9C82F"
-			tasks: [{
-				id: "67E9375C61D33B16"
-				type: "item"
-				item: "miniutilities:mechanical_placer"
-			}]
-			rewards: [{
-				id: "32E2CB217DA9FDB7"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "67E9375C61D33B16"
+					type: "item"
+					item: "miniutilities:mechanical_placer"
+				}
+			]
+			rewards: [
+				{
+					id: "32E2CB217DA9FDB7"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -8.0d
@@ -303,16 +364,20 @@
 				"4686340A08833AA0"
 			]
 			id: "707F1AC2BC329338"
-			tasks: [{
-				id: "2D44CFA648426F8D"
-				type: "item"
-				item: "miniutilities:quantum_quarry"
-			}]
-			rewards: [{
-				id: "21B633D49E966957"
-				type: "item"
-				item: "miniutilities:emerald_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "2D44CFA648426F8D"
+					type: "item"
+					item: "miniutilities:quantum_quarry"
+				}
+			]
+			rewards: [
+				{
+					id: "21B633D49E966957"
+					type: "item"
+					item: "miniutilities:emerald_opinium_core"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -321,16 +386,20 @@
 			dependencies: ["3F05D033EBD0710D"]
 			size: 2.0d
 			id: "68AD871D6B5A0B54"
-			tasks: [{
-				id: "48B6483691D97992"
-				type: "item"
-				item: "miniutilities:solar_panel"
-			}]
-			rewards: [{
-				id: "5C7335B7AB75BB3B"
-				type: "item"
-				item: "miniutilities:ender_tile"
-			}]
+			tasks: [
+				{
+					id: "48B6483691D97992"
+					type: "item"
+					item: "miniutilities:solar_panel"
+				}
+			]
+			rewards: [
+				{
+					id: "5C7335B7AB75BB3B"
+					type: "item"
+					item: "miniutilities:ender_tile"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -339,16 +408,20 @@
 			dependencies: ["3F05D033EBD0710D"]
 			size: 2.0d
 			id: "2D5D1C540C159BB0"
-			tasks: [{
-				id: "63C8E181454BB7B0"
-				type: "item"
-				item: "miniutilities:lunar_panel"
-			}]
-			rewards: [{
-				id: "521EA5F8F7CC3003"
-				type: "item"
-				item: "miniutilities:chorus_tile"
-			}]
+			tasks: [
+				{
+					id: "63C8E181454BB7B0"
+					type: "item"
+					item: "miniutilities:lunar_panel"
+				}
+			]
+			rewards: [
+				{
+					id: "521EA5F8F7CC3003"
+					type: "item"
+					item: "miniutilities:chorus_tile"
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -361,16 +434,20 @@
 			]
 			size: 2.0d
 			id: "5725A183087CD84C"
-			tasks: [{
-				id: "1B72577CCC3D77EB"
-				type: "item"
-				item: "miniutilities:solar_panel_controller"
-			}]
-			rewards: [{
-				id: "171040635FA05D37"
-				type: "item"
-				item: "miniutilities:gold_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "1B72577CCC3D77EB"
+					type: "item"
+					item: "miniutilities:solar_panel_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "171040635FA05D37"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+			]
 		}
 		{
 			x: -6.5d
@@ -381,16 +458,20 @@
 				"1B0F2D9BD2106AA7"
 			]
 			id: "59A3C58F91234A58"
-			tasks: [{
-				id: "121855A08BE9C968"
-				type: "item"
-				item: "miniutilities:laser_hub"
-			}]
-			rewards: [{
-				id: "461067529B63561D"
-				type: "item"
-				item: "miniutilities:emerald_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "121855A08BE9C968"
+					type: "item"
+					item: "miniutilities:laser_hub"
+				}
+			]
+			rewards: [
+				{
+					id: "461067529B63561D"
+					type: "item"
+					item: "miniutilities:emerald_opinium_core"
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -401,46 +482,60 @@
 				"321AFD3A1679E8E0"
 			]
 			id: "66EA4109B1E9CD93"
-			tasks: [{
-				id: "552F4D29769946FC"
-				type: "item"
-				item: "miniutilities:laser_port"
-			}]
-			rewards: [{
-				id: "516E20BBA8982191"
-				type: "item"
-				item: "miniutilities:iron_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "552F4D29769946FC"
+					type: "item"
+					item: "miniutilities:laser_port"
+				}
+			]
+			rewards: [
+				{
+					id: "516E20BBA8982191"
+					type: "item"
+					item: "miniutilities:iron_opinium_core"
+				}
+			]
 		}
 		{
 			x: -8.0d
 			y: 0.0d
 			dependencies: ["0D0125950C81816E"]
 			id: "18D3F5D8262222DB"
-			tasks: [{
-				id: "6071E20125D79F76"
-				type: "item"
-				item: "miniutilities:ender_lily_seeds"
-			}]
-			rewards: [{
-				id: "3A1605C73CAFD789"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "6071E20125D79F76"
+					type: "item"
+					item: "miniutilities:ender_lily_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "3A1605C73CAFD789"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -9.5d
 			y: 3.5d
 			dependencies: ["5457F53E1DBA6A03"]
 			id: "1F3DE28F407F98AA"
-			tasks: [{
-				id: "674FC462AEBF576C"
-				type: "item"
-				item: "miniutilities:flame_lily_seeds"
-			}]
-			rewards: [{
-				id: "353F669D21B7D079"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "674FC462AEBF576C"
+					type: "item"
+					item: "miniutilities:flame_lily_seeds"
+				}
+			]
+			rewards: [
+				{
+					id: "353F669D21B7D079"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 0.0d
@@ -456,11 +551,13 @@
 			]
 			size: 3.0d
 			id: "3E4BA3D4A5E36CA2"
-			tasks: [{
-				id: "5DCC9ABC95C12E7F"
-				type: "item"
-				item: "miniutilities:angel_ring"
-			}]
+			tasks: [
+				{
+					id: "5DCC9ABC95C12E7F"
+					type: "item"
+					item: "miniutilities:angel_ring"
+				}
+			]
 			rewards: [
 				{
 					id: "672519D1D16A21DE"
@@ -470,6 +567,7 @@
 				{
 					id: "77274318895EC282"
 					type: "random"
+					table_id: 4299163432040672592L
 				}
 			]
 		}
@@ -479,16 +577,20 @@
 			shape: "square"
 			dependencies: ["797DD36F60AB5256"]
 			id: "46D62EF0BDC145F9"
-			tasks: [{
-				id: "398A8C417AD2EFCB"
-				type: "item"
-				item: "miniutilities:unstable_helmet"
-			}]
-			rewards: [{
-				id: "253366A8E96BEFC2"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "398A8C417AD2EFCB"
+					type: "item"
+					item: "miniutilities:unstable_helmet"
+				}
+			]
+			rewards: [
+				{
+					id: "253366A8E96BEFC2"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -496,16 +598,20 @@
 			shape: "square"
 			dependencies: ["797DD36F60AB5256"]
 			id: "33B3F3C0C7F03B70"
-			tasks: [{
-				id: "70227FFBAC1E456D"
-				type: "item"
-				item: "miniutilities:unstable_chestplate"
-			}]
-			rewards: [{
-				id: "49907EC3E380B52D"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "70227FFBAC1E456D"
+					type: "item"
+					item: "miniutilities:unstable_chestplate"
+				}
+			]
+			rewards: [
+				{
+					id: "49907EC3E380B52D"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -513,16 +619,20 @@
 			shape: "square"
 			dependencies: ["797DD36F60AB5256"]
 			id: "2D903588BD32EA2C"
-			tasks: [{
-				id: "3DD8B9277ACAC045"
-				type: "item"
-				item: "miniutilities:unstable_leggings"
-			}]
-			rewards: [{
-				id: "01803D59502C5961"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "3DD8B9277ACAC045"
+					type: "item"
+					item: "miniutilities:unstable_leggings"
+				}
+			]
+			rewards: [
+				{
+					id: "01803D59502C5961"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -530,16 +640,20 @@
 			shape: "square"
 			dependencies: ["797DD36F60AB5256"]
 			id: "32C45B83157361AC"
-			tasks: [{
-				id: "480E64BD46FA17FC"
-				type: "item"
-				item: "miniutilities:unstable_boots"
-			}]
-			rewards: [{
-				id: "4542F7821FA1B30B"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "480E64BD46FA17FC"
+					type: "item"
+					item: "miniutilities:unstable_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "4542F7821FA1B30B"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -547,16 +661,20 @@
 			shape: "square"
 			dependencies: ["20BCDE9BEC4E4609"]
 			id: "1BEE7BEFA5351690"
-			tasks: [{
-				id: "543A13B33C0618B8"
-				type: "item"
-				item: "miniutilities:infused_chestplate"
-			}]
-			rewards: [{
-				id: "57E8C40C178EFE20"
-				type: "item"
-				item: "miniutilities:experience_pearl"
-			}]
+			tasks: [
+				{
+					id: "543A13B33C0618B8"
+					type: "item"
+					item: "miniutilities:infused_chestplate"
+				}
+			]
+			rewards: [
+				{
+					id: "57E8C40C178EFE20"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -564,16 +682,20 @@
 			shape: "square"
 			dependencies: ["20BCDE9BEC4E4609"]
 			id: "3CF569F98344C27C"
-			tasks: [{
-				id: "2866DDF013E19792"
-				type: "item"
-				item: "miniutilities:infused_helmet"
-			}]
-			rewards: [{
-				id: "21F446F49DF37B02"
-				type: "item"
-				item: "miniutilities:experience_pearl"
-			}]
+			tasks: [
+				{
+					id: "2866DDF013E19792"
+					type: "item"
+					item: "miniutilities:infused_helmet"
+				}
+			]
+			rewards: [
+				{
+					id: "21F446F49DF37B02"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -581,16 +703,20 @@
 			shape: "square"
 			dependencies: ["20BCDE9BEC4E4609"]
 			id: "0122620B32460BCF"
-			tasks: [{
-				id: "3EDD9A3E20EDF608"
-				type: "item"
-				item: "miniutilities:infused_leggings"
-			}]
-			rewards: [{
-				id: "7505F16BCE593228"
-				type: "item"
-				item: "miniutilities:experience_pearl"
-			}]
+			tasks: [
+				{
+					id: "3EDD9A3E20EDF608"
+					type: "item"
+					item: "miniutilities:infused_leggings"
+				}
+			]
+			rewards: [
+				{
+					id: "7505F16BCE593228"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -598,128 +724,160 @@
 			shape: "square"
 			dependencies: ["20BCDE9BEC4E4609"]
 			id: "434502B290B01AAF"
-			tasks: [{
-				id: "22A4C59BB07D5408"
-				type: "item"
-				item: "miniutilities:infused_boots"
-			}]
-			rewards: [{
-				id: "7DBEB997472C3438"
-				type: "item"
-				item: "miniutilities:experience_pearl"
-			}]
+			tasks: [
+				{
+					id: "22A4C59BB07D5408"
+					type: "item"
+					item: "miniutilities:infused_boots"
+				}
+			]
+			rewards: [
+				{
+					id: "7DBEB997472C3438"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 1.0d
 			dependencies: ["3F05D033EBD0710D"]
 			id: "7A1941B35D3A6350"
-			tasks: [{
-				id: "520AA159585904FC"
-				type: "item"
-				item: "miniutilities:iron_opinium_core"
-			}]
-			rewards: [{
-				id: "169F6B7408D30A2A"
-				type: "item"
-				item: "minecraft:coal"
-			}]
+			tasks: [
+				{
+					id: "520AA159585904FC"
+					type: "item"
+					item: "miniutilities:iron_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "169F6B7408D30A2A"
+					type: "item"
+					item: "minecraft:coal"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 2.5d
 			dependencies: ["7A1941B35D3A6350"]
 			id: "373682D1505E0930"
-			tasks: [{
-				id: "18E0EFE52EA7D06E"
-				type: "item"
-				item: "miniutilities:gold_opinium_core"
-			}]
-			rewards: [{
-				id: "0377E2BA44DDEBD7"
-				type: "item"
-				item: "miniutilities:iron_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "18E0EFE52EA7D06E"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "0377E2BA44DDEBD7"
+					type: "item"
+					item: "miniutilities:iron_opinium_core"
+				}
+			]
 		}
 		{
 			x: 3.0d
 			y: 4.0d
 			dependencies: ["373682D1505E0930"]
 			id: "78374C71C941FA54"
-			tasks: [{
-				id: "05E330532A79D85F"
-				type: "item"
-				item: "miniutilities:diamond_opinium_core"
-			}]
-			rewards: [{
-				id: "776FF591CF05C121"
-				type: "item"
-				item: "miniutilities:gold_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "05E330532A79D85F"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "776FF591CF05C121"
+					type: "item"
+					item: "miniutilities:gold_opinium_core"
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 5.5d
 			dependencies: ["78374C71C941FA54"]
 			id: "3DC5527E95FA74A0"
-			tasks: [{
-				id: "709543D7F3B573DB"
-				type: "item"
-				item: "miniutilities:netherite_opinium_core"
-			}]
-			rewards: [{
-				id: "7595F113C3EBC010"
-				type: "item"
-				item: "miniutilities:diamond_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "709543D7F3B573DB"
+					type: "item"
+					item: "miniutilities:netherite_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "7595F113C3EBC010"
+					type: "item"
+					item: "miniutilities:diamond_opinium_core"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: 5.5d
 			dependencies: ["3DC5527E95FA74A0"]
 			id: "1B0F2D9BD2106AA7"
-			tasks: [{
-				id: "251AFCB370B414B0"
-				type: "item"
-				item: "miniutilities:emerald_opinium_core"
-			}]
-			rewards: [{
-				id: "5C023404B84B080C"
-				type: "item"
-				item: "miniutilities:netherite_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "251AFCB370B414B0"
+					type: "item"
+					item: "miniutilities:emerald_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "5C023404B84B080C"
+					type: "item"
+					item: "miniutilities:netherite_opinium_core"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: 5.5d
 			dependencies: ["1B0F2D9BD2106AA7"]
 			id: "68902D36609C9705"
-			tasks: [{
-				id: "040343383EF7BA33"
-				type: "item"
-				item: "miniutilities:chorus_opinium_core"
-			}]
-			rewards: [{
-				id: "65ABF06A0CFDE6DA"
-				type: "item"
-				item: "miniutilities:emerald_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "040343383EF7BA33"
+					type: "item"
+					item: "miniutilities:chorus_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "65ABF06A0CFDE6DA"
+					type: "item"
+					item: "miniutilities:emerald_opinium_core"
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: 4.0d
 			dependencies: ["68902D36609C9705"]
 			id: "20CFA5D846746039"
-			tasks: [{
-				id: "186A36AB30B57CCE"
-				type: "item"
-				item: "miniutilities:experience_opinium_core"
-			}]
-			rewards: [{
-				id: "257AB2F612DF0E24"
-				type: "item"
-				item: "miniutilities:chorus_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "186A36AB30B57CCE"
+					type: "item"
+					item: "miniutilities:experience_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "257AB2F612DF0E24"
+					type: "item"
+					item: "miniutilities:chorus_opinium_core"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -729,16 +887,20 @@
 				"797DD36F60AB5256"
 			]
 			id: "087A934C57319C29"
-			tasks: [{
-				id: "51F7FF2D8FA7C8F0"
-				type: "item"
-				item: "miniutilities:nether_star_opinium_core"
-			}]
-			rewards: [{
-				id: "08C2C319F66A7572"
-				type: "item"
-				item: "miniutilities:experience_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "51F7FF2D8FA7C8F0"
+					type: "item"
+					item: "miniutilities:nether_star_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "08C2C319F66A7572"
+					type: "item"
+					item: "miniutilities:experience_opinium_core"
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -748,32 +910,40 @@
 				"797DD36F60AB5256"
 			]
 			id: "1B2D59CF0C8BAEC9"
-			tasks: [{
-				id: "762BC3184A929993"
-				type: "item"
-				item: "miniutilities:the_final_opinium_core"
-			}]
-			rewards: [{
-				id: "725ACB8411E61777"
-				type: "item"
-				item: "miniutilities:nether_star_opinium_core"
-			}]
+			tasks: [
+				{
+					id: "762BC3184A929993"
+					type: "item"
+					item: "miniutilities:the_final_opinium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "725ACB8411E61777"
+					type: "item"
+					item: "miniutilities:nether_star_opinium_core"
+				}
+			]
 		}
 		{
 			x: 0.0d
 			y: -2.0d
 			dependencies: ["243FA1E08B56689C"]
 			id: "0CD840F613B5EB4A"
-			tasks: [{
-				id: "466935C3CFC3AFE9"
-				type: "item"
-				item: "miniutilities:angel_block"
-			}]
-			rewards: [{
-				id: "787CEB7A076D5DEA"
-				type: "item"
-				item: "miniutilities:angel_block"
-			}]
+			tasks: [
+				{
+					id: "466935C3CFC3AFE9"
+					type: "item"
+					item: "miniutilities:angel_block"
+				}
+			]
+			rewards: [
+				{
+					id: "787CEB7A076D5DEA"
+					type: "item"
+					item: "miniutilities:angel_block"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -781,16 +951,20 @@
 			hide_dependency_lines: true
 			dependencies: ["1B2D59CF0C8BAEC9"]
 			id: "6AB69C17FE7685BD"
-			tasks: [{
-				id: "144AF79003F12155"
-				type: "item"
-				item: "miniutilities:kikoku"
-			}]
-			rewards: [{
-				id: "108C601B8EB2CBAA"
-				type: "item"
-				item: "dummmmmmy:target_dummy_placer"
-			}]
+			tasks: [
+				{
+					id: "144AF79003F12155"
+					type: "item"
+					item: "miniutilities:kikoku"
+				}
+			]
+			rewards: [
+				{
+					id: "108C601B8EB2CBAA"
+					type: "item"
+					item: "dummmmmmy:target_dummy_placer"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -801,16 +975,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "644B90D480DBD144"
-			tasks: [{
-				id: "5ED080991A24F4FE"
-				type: "item"
-				item: "miniutilities:healing_axe"
-			}]
-			rewards: [{
-				id: "020FC38E1CEE3CBA"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "5ED080991A24F4FE"
+					type: "item"
+					item: "miniutilities:healing_axe"
+				}
+			]
+			rewards: [
+				{
+					id: "020FC38E1CEE3CBA"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -821,16 +999,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "68EF42C9EC565A20"
-			tasks: [{
-				id: "0EC45DC4502F5E7C"
-				type: "item"
-				item: "miniutilities:reversing_hoe"
-			}]
-			rewards: [{
-				id: "15C5E5005324D13A"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "0EC45DC4502F5E7C"
+					type: "item"
+					item: "miniutilities:reversing_hoe"
+				}
+			]
+			rewards: [
+				{
+					id: "15C5E5005324D13A"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -841,16 +1023,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "6BEF8160A1947E31"
-			tasks: [{
-				id: "686BB35DAECFD08E"
-				type: "item"
-				item: "miniutilities:destruction_pickaxe"
-			}]
-			rewards: [{
-				id: "2A42B240E0A14161"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "686BB35DAECFD08E"
+					type: "item"
+					item: "miniutilities:destruction_pickaxe"
+				}
+			]
+			rewards: [
+				{
+					id: "2A42B240E0A14161"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 6.0d
@@ -861,16 +1047,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "361A89CCFB5040DF"
-			tasks: [{
-				id: "5993B610B9942F32"
-				type: "item"
-				item: "miniutilities:precision_shears"
-			}]
-			rewards: [{
-				id: "11A965FAB631A8EB"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "5993B610B9942F32"
+					type: "item"
+					item: "miniutilities:precision_shears"
+				}
+			]
+			rewards: [
+				{
+					id: "11A965FAB631A8EB"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -881,16 +1071,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "411B5CD02A0F556D"
-			tasks: [{
-				id: "29BA8A57E63D79FF"
-				type: "item"
-				item: "miniutilities:erosion_shovel"
-			}]
-			rewards: [{
-				id: "0F6A20B245773FCD"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "29BA8A57E63D79FF"
+					type: "item"
+					item: "miniutilities:erosion_shovel"
+				}
+			]
+			rewards: [
+				{
+					id: "0F6A20B245773FCD"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 9.0d
@@ -901,16 +1095,20 @@
 				"243FA1E08B56689C"
 			]
 			id: "24227FAFBAE971C3"
-			tasks: [{
-				id: "052C17AB04E5FA9B"
-				type: "item"
-				item: "miniutilities:etheric_sword"
-			}]
-			rewards: [{
-				id: "2AD15D38FAA246D8"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			tasks: [
+				{
+					id: "052C17AB04E5FA9B"
+					type: "item"
+					item: "miniutilities:etheric_sword"
+				}
+			]
+			rewards: [
+				{
+					id: "2AD15D38FAA246D8"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: -1.5d
@@ -919,22 +1117,26 @@
 			hide_dependency_lines: false
 			dependencies: ["3F05D033EBD0710D"]
 			id: "797DD36F60AB5256"
-			tasks: [{
-				id: "0393A8E141F38439"
-				type: "item"
-				item: {
-					id: "miniutilities:unstable_ingot"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0393A8E141F38439"
+					type: "item"
+					item: {
+						id: "miniutilities:unstable_ingot"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5553BEA3E9CF4900"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
+			]
+			rewards: [
+				{
+					id: "5553BEA3E9CF4900"
+					type: "item"
+					item: "minecraft:diamond"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -942,16 +1144,20 @@
 			shape: "octagon"
 			description: ["&a经验珍珠&r是用&5经验收割机&r附魔杀死一个生物时获得的."]
 			id: "20BCDE9BEC4E4609"
-			tasks: [{
-				id: "072D804B6319A82C"
-				type: "item"
-				item: "miniutilities:experience_pearl"
-			}]
-			rewards: [{
-				id: "053008D1D2EC0411"
-				type: "item"
-				item: "miniutilities:experience_pearl_1x"
-			}]
+			tasks: [
+				{
+					id: "072D804B6319A82C"
+					type: "item"
+					item: "miniutilities:experience_pearl"
+				}
+			]
+			rewards: [
+				{
+					id: "053008D1D2EC0411"
+					type: "item"
+					item: "miniutilities:experience_pearl_1x"
+				}
+			]
 		}
 	]
 }
