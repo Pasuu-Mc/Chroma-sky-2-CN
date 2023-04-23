@@ -13,17 +13,21 @@
 			y: -8.0d
 			dependencies: ["3A520D98DB566C24"]
 			id: "13F91C2C4EBE7565"
-			tasks: [{
-				id: "1127A9709BD0489F"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-			}]
-			rewards: [{
-				id: "44D61A899CD39378"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "1127A9709BD0489F"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+				}
+			]
+			rewards: [
+				{
+					id: "44D61A899CD39378"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -19.5d
@@ -31,21 +35,26 @@
 			description: ["你可以在下界的星辉结构中找到星图."]
 			dependencies: ["13F91C2C4EBE7565"]
 			id: "2EDE9D3CB4DCBDED"
-			tasks: [{
-				id: "0CEB14A543882B9B"
-				type: "item"
-				item: {
-					id: "astralsorcery:constellation_paper"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "0CEB14A543882B9B"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "4BE84C5DF81A6B37"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "4BE84C5DF81A6B37"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			icon: "astralsorcery:altar_discovery"
@@ -60,17 +69,21 @@
 			dependencies: ["0B67CBE199F4E4D9"]
 			size: 3.0d
 			id: "4629A552492B890B"
-			tasks: [{
-				id: "0788A2E88CA764C0"
-				type: "item"
-				item: "astralsorcery:altar_discovery"
-			}]
-			rewards: [{
-				id: "4B3B9374BAAED623"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "0788A2E88CA764C0"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+			]
+			rewards: [
+				{
+					id: "4B3B9374BAAED623"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -16.5d
@@ -81,16 +94,20 @@
 			dependencies: ["4629A552492B890B"]
 			size: 3.0d
 			id: "13C3047AC4A33314"
-			tasks: [{
-				id: "2C3C20A182757150"
-				type: "item"
-				item: "astralsorcery:altar_attunement"
-			}]
-			rewards: [{
-				id: "47A2D85BC742B2B3"
-				type: "item"
-				item: "astralsorcery:liquid_starlight_bucket"
-			}]
+			tasks: [
+				{
+					id: "2C3C20A182757150"
+					type: "item"
+					item: "astralsorcery:altar_attunement"
+				}
+			]
+			rewards: [
+				{
+					id: "47A2D85BC742B2B3"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+			]
 		}
 		{
 			x: -10.5d
@@ -101,11 +118,13 @@
 			dependencies: ["13C3047AC4A33314"]
 			size: 3.0d
 			id: "62FFB55E9CF351CE"
-			tasks: [{
-				id: "67DBCBA33DCEE3AC"
-				type: "item"
-				item: "astralsorcery:altar_constellation"
-			}]
+			tasks: [
+				{
+					id: "67DBCBA33DCEE3AC"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+			]
 			rewards: [
 				{
 					id: "55D7182D7032FA39"
@@ -133,11 +152,13 @@
 			dependencies: ["62FFB55E9CF351CE"]
 			size: 3.0d
 			id: "47814EBAB3AEBA79"
-			tasks: [{
-				id: "2F9193C5F6A21E4E"
-				type: "item"
-				item: "astralsorcery:altar_radiance"
-			}]
+			tasks: [
+				{
+					id: "2F9193C5F6A21E4E"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+			]
 			rewards: [
 				{
 					id: "1E722551516383B5"
@@ -169,21 +190,23 @@
 			y: -11.0d
 			shape: "diamond"
 			description: [
-				"它用于结晶石、星辉水晶和(与星辉星座一起调整时)玩家进一步制作、仪式或升级."
+				"它用于水晶石、天辉水晶和(当调整到明亮的星座时)玩家进一步制作、仪式或升级."
 				""
-				"在完成以下章节中描述的结构之后,必须把光辉中继器放置在粘黑大理石上,将祭坛绑定到特定的星座上."
+				"在完成以下章节中描述的结构之后,必须把星辉转继器放置在炭黑大理石上,将祭坛绑定到特定的星座上."
 				""
-				"这些中继器的位置可以在星座在天空中时显示,玩家将星图握在任意手中时显示;放置中继器的方块将发射黑暗蓝粒子."
+				"当星座在天空中，玩家双手拿着星图时，可以显示这些转继器的位置;放置转继器的方块将发出黑暗蓝粒子."
 				""
-				"当共振祭坛完全搭建成水晶石时,可以把星辉水晶扔到祭坛上来凝聚它们."
+				"当共振祭坛完全搭建成时,可以把水晶石和天辉水晶扔到祭坛上来凝聚它们."
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "66C53CA36AD3422B"
-			tasks: [{
-				id: "72E7AACF0814B7C2"
-				type: "item"
-				item: "astralsorcery:attunement_altar"
-			}]
+			tasks: [
+				{
+					id: "72E7AACF0814B7C2"
+					type: "item"
+					item: "astralsorcery:attunement_altar"
+				}
+			]
 			rewards: [
 				{
 					id: "63BA0DD00E7F539E"
@@ -210,16 +233,20 @@
 			shape: "diamond"
 			dependencies: ["7E5C6859951B0E01"]
 			id: "0FC2D90E094EAB11"
-			tasks: [{
-				id: "4382DFBC0013B20C"
-				type: "item"
-				item: "astralsorcery:resonating_gem"
-			}]
-			rewards: [{
-				id: "4AA9177E1EADDB79"
-				type: "item"
-				item: "astralsorcery:liquid_starlight_bucket"
-			}]
+			tasks: [
+				{
+					id: "4382DFBC0013B20C"
+					type: "item"
+					item: "astralsorcery:resonating_gem"
+				}
+			]
+			rewards: [
+				{
+					id: "4AA9177E1EADDB79"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+			]
 		}
 		{
 			x: -15.5d
@@ -227,17 +254,21 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "72B4E47B1464CBE3"
-			tasks: [{
-				id: "4DF1A32364A202AE"
-				type: "item"
-				item: "astralsorcery:glass_lens"
-			}]
-			rewards: [{
-				id: "769FD8F7F17529B4"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "4DF1A32364A202AE"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+			]
+			rewards: [
+				{
+					id: "769FD8F7F17529B4"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -245,17 +276,21 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "4D50629E4CE06298"
-			tasks: [{
-				id: "4E99763C2260AB34"
-				type: "item"
-				item: "astralsorcery:parchment"
-			}]
-			rewards: [{
-				id: "001F034E8AA44420"
-				type: "item"
-				item: "minecraft:paper"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "4E99763C2260AB34"
+					type: "item"
+					item: "astralsorcery:parchment"
+				}
+			]
+			rewards: [
+				{
+					id: "001F034E8AA44420"
+					type: "item"
+					item: "minecraft:paper"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -17.0d
@@ -263,38 +298,46 @@
 			shape: "diamond"
 			dependencies: ["3CB1ECAEC29FBEC8"]
 			id: "39E5C481897E7320"
-			tasks: [{
-				id: "21B52D85514CA067"
-				type: "item"
-				item: "astralsorcery:starmetal_ingot"
-			}]
-			rewards: [{
-				id: "55DDCDF17D2150FF"
-				type: "item"
-				item: "astralsorcery:starmetal_ingot"
-			}]
+			tasks: [
+				{
+					id: "21B52D85514CA067"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "55DDCDF17D2150FF"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
 		}
 		{
 			x: -16.5d
 			y: -4.5d
 			shape: "diamond"
 			description: [
-				"在地上放入一个&1星辉金属锭&r,手持装备的&4星辉切割工具&r左键&r."
+				"在地上放一个&1星辉锭&r,手持装备的&4星辉锭切割工具&r左键&r."
 				""
 				"然后,这个锭会变成星尘,可以从地上拾取."
 			]
 			dependencies: ["39E5C481897E7320"]
 			id: "2FB5F19F9E49B197"
-			tasks: [{
-				id: "06841E4B8E65C070"
-				type: "item"
-				item: "astralsorcery:stardust"
-			}]
-			rewards: [{
-				id: "0E94CA27AC167E15"
-				type: "item"
-				item: "astralsorcery:stardust"
-			}]
+			tasks: [
+				{
+					id: "06841E4B8E65C070"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+			]
+			rewards: [
+				{
+					id: "0E94CA27AC167E15"
+					type: "item"
+					item: "astralsorcery:stardust"
+				}
+			]
 		}
 		{
 			x: -16.0d
@@ -302,17 +345,21 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "2A81EE63D66671F4"
-			tasks: [{
-				id: "1FC21222EFE717FE"
-				type: "item"
-				item: "astralsorcery:nocturnal_powder"
-			}]
-			rewards: [{
-				id: "5ED88746BA363436"
-				type: "item"
-				item: "astralsorcery:nocturnal_powder"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "1FC21222EFE717FE"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "5ED88746BA363436"
+					type: "item"
+					item: "astralsorcery:nocturnal_powder"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -17.5d
@@ -320,17 +367,21 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "1EE4F846B5C920BF"
-			tasks: [{
-				id: "1F8FCC7D016786EA"
-				type: "item"
-				item: "astralsorcery:illumination_powder"
-			}]
-			rewards: [{
-				id: "15FF2A186A4E7A8B"
-				type: "item"
-				item: "astralsorcery:illumination_powder"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "1F8FCC7D016786EA"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+				}
+			]
+			rewards: [
+				{
+					id: "15FF2A186A4E7A8B"
+					type: "item"
+					item: "astralsorcery:illumination_powder"
+					count: 16
+				}
+			]
 		}
 		{
 			x: -16.0d
@@ -338,16 +389,20 @@
 			shape: "diamond"
 			dependencies: ["5AF41D8E497E6D5F"]
 			id: "4EA89F8BC2F34D1D"
-			tasks: [{
-				id: "03B8C523C8AD9842"
-				type: "item"
-				item: "astralsorcery:rock_crystal_ore"
-			}]
-			rewards: [{
-				id: "74745C222E6C0747"
-				type: "item"
-				item: "astralsorcery:rock_crystal_ore"
-			}]
+			tasks: [
+				{
+					id: "03B8C523C8AD9842"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "74745C222E6C0747"
+					type: "item"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+			]
 		}
 		{
 			x: -17.5d
@@ -356,36 +411,44 @@
 			hide_dependency_lines: true
 			dependencies: ["4629A552492B890B"]
 			id: "3CB1ECAEC29FBEC8"
-			tasks: [{
-				id: "4143F673BFB9A228"
-				type: "item"
-				item: "astralsorcery:starmetal_ore"
-			}]
-			rewards: [{
-				id: "615D9B5BCB9B4A14"
-				type: "item"
-				item: "astralsorcery:starmetal_ingot"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "4143F673BFB9A228"
+					type: "item"
+					item: "astralsorcery:starmetal_ore"
+				}
+			]
+			rewards: [
+				{
+					id: "615D9B5BCB9B4A14"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+					count: 4
+				}
+			]
 		}
 		{
 			x: -15.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["它用来激活星辉魔法的合成台和星能灌注器."]
+			description: ["它用来激活星辉魔法的合成台和星能注入器."]
 			dependencies: ["4629A552492B890B"]
 			id: "5AF41D8E497E6D5F"
-			tasks: [{
-				id: "18CE5F3C492ED4E2"
-				type: "item"
-				item: "astralsorcery:wand"
-			}]
-			rewards: [{
-				id: "0D5103154AA5B27A"
-				type: "item"
-				item: "astralsorcery:aquamarine"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "18CE5F3C492ED4E2"
+					type: "item"
+					item: "astralsorcery:wand"
+				}
+			]
+			rewards: [
+				{
+					id: "0D5103154AA5B27A"
+					type: "item"
+					item: "astralsorcery:aquamarine"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -15.5d
@@ -393,22 +456,26 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "64CC2057AF89DC02"
-			tasks: [{
-				id: "496566ADF7064D22"
-				type: "item"
-				item: {
-					id: "astralsorcery:chisel"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "496566ADF7064D22"
+					type: "item"
+					item: {
+						id: "astralsorcery:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3F006B8406C342A3"
-				type: "item"
-				item: "astralsorcery:starmetal_ingot"
-			}]
+			]
+			rewards: [
+				{
+					id: "3F006B8406C342A3"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+			]
 		}
 		{
 			x: -15.0d
@@ -419,23 +486,25 @@
 				""
 				"如果已经有一个光源,它会被移除."
 				""
-				"Shift右键单击一个方块时,它会将其变成一个坚不可摧的半导体方块。 Shift右键单击一个半导体方块时将其恢复到之前的状态."
+				"Shift右键单击一个方块时,它会将其变成一个坚不可摧的半透明方块。Shift右键单击一个半透明方块时将其恢复到之前的状态."
 				""
-				"魔杖可以使用任何染料制作,以更改放置的光源的颜色."
+				"魔杖可以使用任何染料制作,以更改放置光源的颜色."
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "27D048A6864628CC"
-			tasks: [{
-				id: "1BDC6B6F158ED381"
-				type: "item"
-				item: {
-					id: "astralsorcery:illumination_wand"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "1BDC6B6F158ED381"
+					type: "item"
+					item: {
+						id: "astralsorcery:illumination_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "475EAD3FF52ACBE9"
@@ -459,23 +528,22 @@
 				""
 				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块."
 				""
-				"在使用魔杖的同时,潜行右键单击世界上的方块,将其设置为要放置的模板方块."
-				""
-				""
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "713929DF8E2D89FA"
-			tasks: [{
-				id: "43DA5F5D50E27C65"
-				type: "item"
-				item: {
-					id: "astralsorcery:architect_wand"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "43DA5F5D50E27C65"
+					type: "item"
+					item: {
+						id: "astralsorcery:architect_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "3BE839694265B408"
@@ -497,17 +565,19 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "1A0C689BE78DDBE2"
-			tasks: [{
-				id: "5C58A92156A3AF11"
-				type: "item"
-				item: {
-					id: "astralsorcery:exchange_wand"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "5C58A92156A3AF11"
+					type: "item"
+					item: {
+						id: "astralsorcery:exchange_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "1A01FF33C695F450"
@@ -526,14 +596,16 @@
 			x: -17.0d
 			y: -13.5d
 			shape: "diamond"
-			description: ["当玩家用魔杖右键单击时,他们会被拉向他们寻找的方向."]
+			description: ["当玩家用魔杖右键单击时,他们会被拉向他们所看的方向."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "39C6B50124D42720"
-			tasks: [{
-				id: "04F6BCAB37737FD8"
-				type: "item"
-				item: "astralsorcery:grapple_wand"
-			}]
+			tasks: [
+				{
+					id: "04F6BCAB37737FD8"
+					type: "item"
+					item: "astralsorcery:grapple_wand"
+				}
+			]
 			rewards: [
 				{
 					id: "30344C0640E50DFD"
@@ -554,17 +626,19 @@
 			shape: "diamond"
 			dependencies: ["13C3047AC4A33314"]
 			id: "72369CC4DAEA2600"
-			tasks: [{
-				id: "651367C040E66A40"
-				type: "item"
-				item: {
-					id: "astralsorcery:blink_wand"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "651367C040E66A40"
+					type: "item"
+					item: {
+						id: "astralsorcery:blink_wand"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "493C5502F8009678"
@@ -583,19 +657,23 @@
 			x: -18.0d
 			y: -7.0d
 			shape: "diamond"
-			description: ["夜行在室外右键单击时会显示夜空之星的查看,星座之星在其中排出."]
+			description: ["在夜间户外单击鼠标右键可以看到夜空中的恒星，其中星座的恒星尤为突出."]
 			dependencies: ["4629A552492B890B"]
 			id: "3C875390A73994D5"
-			tasks: [{
-				id: "1188A9E75F2FC0E9"
-				type: "item"
-				item: "astralsorcery:hand_telescope"
-			}]
-			rewards: [{
-				id: "29AED17B5C644B02"
-				type: "item"
-				item: "astralsorcery:glass_lens"
-			}]
+			tasks: [
+				{
+					id: "1188A9E75F2FC0E9"
+					type: "item"
+					item: "astralsorcery:hand_telescope"
+				}
+			]
+			rewards: [
+				{
+					id: "29AED17B5C644B02"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -603,18 +681,20 @@
 			shape: "diamond"
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "2E1A9FC4FC870DF0"
-			tasks: [{
-				id: "483E4B566883908B"
-				type: "item"
-				item: {
-					id: "astralsorcery:infused_glass"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
-						Damage: 0
+			tasks: [
+				{
+					id: "483E4B566883908B"
+					type: "item"
+					item: {
+						id: "astralsorcery:infused_glass"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+							Damage: 0
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "6DE2CF5099DA34A8"
@@ -638,14 +718,16 @@
 			x: -18.0d
 			y: -11.5d
 			shape: "diamond"
-			description: ["它用同调水晶石或天体水晶来影响其周围的区域。 下面列出星座及其特定的效果."]
+			description: ["它用共鸣水晶石或天辉水晶石来影响其周围的区域。下面列出了星座及其特定的效果."]
 			dependencies: ["13C3047AC4A33314"]
 			id: "746A7EE37E8E8A0D"
-			tasks: [{
-				id: "628ACF1B2D513D81"
-				type: "item"
-				item: "astralsorcery:ritual_pedestal"
-			}]
+			tasks: [
+				{
+					id: "628ACF1B2D513D81"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+			]
 			rewards: [
 				{
 					id: "27846308E5A38CA9"
@@ -673,11 +755,13 @@
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "7E5C6859951B0E01"
-			tasks: [{
-				id: "660B13401F6D81B6"
-				type: "item"
-				item: "astralsorcery:infuser"
-			}]
+			tasks: [
+				{
+					id: "660B13401F6D81B6"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+			]
 			rewards: [
 				{
 					id: "74CE25C6D69B9FB6"
@@ -719,11 +803,13 @@
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "2D36C42031376EA3"
-			tasks: [{
-				id: "3CAFB0F8CE9649BD"
-				type: "item"
-				item: "astralsorcery:chalice"
-			}]
+			tasks: [
+				{
+					id: "3CAFB0F8CE9649BD"
+					type: "item"
+					item: "astralsorcery:chalice"
+				}
+			]
 			rewards: [
 				{
 					id: "43AC4B2A3FD35120"
@@ -743,38 +829,46 @@
 			x: -18.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["它用于产生星能液。 它只能容纳两个桶的星能液。 为了产生,必须在它上方放置一个海蓝宝石或水晶石."]
+			description: ["它用于产生星能液。 它只能容纳两个桶的星能液。为了生产,必须在它上方放置一个海蓝宝石或水晶石."]
 			dependencies: ["4629A552492B890B"]
 			id: "0A9A2C121E1687EA"
-			tasks: [{
-				id: "34C7121A11CE0EF1"
-				type: "item"
-				item: "astralsorcery:well"
-			}]
-			rewards: [{
-				id: "6F6A92C42904B222"
-				type: "item"
-				item: "astralsorcery:liquid_starlight_bucket"
-			}]
+			tasks: [
+				{
+					id: "34C7121A11CE0EF1"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+			]
+			rewards: [
+				{
+					id: "6F6A92C42904B222"
+					type: "item"
+					item: "astralsorcery:liquid_starlight_bucket"
+				}
+			]
 		}
 		{
 			x: -15.5d
 			y: -11.0d
 			shape: "diamond"
-			description: ["它用于发现明亮和暗黑的星座,只要获得适当的星图。"]
+			description: ["它用于发现明亮和暗淡的星座,前提是获得适当的星图。"]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3DD78732FEC19A3B"
-			tasks: [{
-				id: "6E504B45A89E6042"
-				type: "item"
-				item: "astralsorcery:telescope"
-			}]
-			rewards: [{
-				id: "5960D3EEA7A50242"
-				type: "item"
-				item: "minecraft:gold_ingot"
-				count: 2
-			}]
+			tasks: [
+				{
+					id: "6E504B45A89E6042"
+					type: "item"
+					item: "astralsorcery:telescope"
+				}
+			]
+			rewards: [
+				{
+					id: "5960D3EEA7A50242"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 2
+				}
+			]
 		}
 		{
 			x: -9.5d
@@ -787,11 +881,13 @@
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "3F609DCAB4F3DE55"
-			tasks: [{
-				id: "1C3A7EFA50B9BA3C"
-				type: "item"
-				item: "astralsorcery:observatory"
-			}]
+			tasks: [
+				{
+					id: "1C3A7EFA50B9BA3C"
+					type: "item"
+					item: "astralsorcery:observatory"
+				}
+			]
 			rewards: [
 				{
 					id: "6CF4537EBFDDBC51"
@@ -830,11 +926,13 @@
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "63E1B2CBCAF13DF2"
-			tasks: [{
-				id: "4E56697C90B563F3"
-				type: "item"
-				item: "astralsorcery:refraction_table"
-			}]
+			tasks: [
+				{
+					id: "4E56697C90B563F3"
+					type: "item"
+					item: "astralsorcery:refraction_table"
+				}
+			]
 			rewards: [
 				{
 					id: "4308C38812DD5929"
@@ -863,11 +961,13 @@
 			description: [""]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "6D4A4E324E1C0E53"
-			tasks: [{
-				id: "02DA08F1F4D083DD"
-				type: "item"
-				item: "astralsorcery:tree_beacon"
-			}]
+			tasks: [
+				{
+					id: "02DA08F1F4D083DD"
+					type: "item"
+					item: "astralsorcery:tree_beacon"
+				}
+			]
 			rewards: [
 				{
 					id: "337C2F33FC5675C6"
@@ -886,28 +986,30 @@
 			y: -10.5d
 			shape: "diamond"
 			description: [
-				"它用来将玩家传送到其他天体传送门."
+				"它用来将玩家传送到其他天辉星门."
 				""
-				"当结构(下方的建筑)搭建正确时,靠近传送门会让玩家周围的区域笼罩在平古的夜空中."
+				"当结构(下方的建筑)搭建正确时,靠近传送门会让玩家周围的区域逐渐变暗，笼罩在黑暗的夜空中."
 				""
-				"可以传送到星辉传送门的星辉传送门,在星辉世界中用更大的黄星描述."
+				"可以传送到天辉星门中在星空背景下被描绘成更大的黄色恒星的天辉星门中."
 				""
 				"潜行或按住右键单击可以将玩家在几秒后传送到该传送门"
 				""
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "46C48AA4C777EA44"
-			tasks: [{
-				id: "7B78CB0D34A680D6"
-				type: "item"
-				item: {
-					id: "astralsorcery:celestial_gateway"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "7B78CB0D34A680D6"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "3F6334FAF0741155"
@@ -946,11 +1048,13 @@
 			]
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "144249D46BDAA7A7"
-			tasks: [{
-				id: "3292B76D17A59D0C"
-				type: "item"
-				item: "astralsorcery:fountain"
-			}]
+			tasks: [
+				{
+					id: "3292B76D17A59D0C"
+					type: "item"
+					item: "astralsorcery:fountain"
+				}
+			]
 			rewards: [
 				{
 					id: "596A0B25C69CC22F"
@@ -978,11 +1082,13 @@
 			shape: "diamond"
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "0E782F6D0EB27390"
-			tasks: [{
-				id: "010E8D65D0790BCA"
-				type: "item"
-				item: "astralsorcery:fountain_prime_liquid"
-			}]
+			tasks: [
+				{
+					id: "010E8D65D0790BCA"
+					type: "item"
+					item: "astralsorcery:fountain_prime_liquid"
+				}
+			]
 			rewards: [
 				{
 					id: "5C51E78BC2E32311"
@@ -1016,11 +1122,13 @@
 			shape: "diamond"
 			dependencies: ["47814EBAB3AEBA79"]
 			id: "7E0016ECEB521664"
-			tasks: [{
-				id: "3E0562991210D79A"
-				type: "item"
-				item: "astralsorcery:fountain_prime_vortex"
-			}]
+			tasks: [
+				{
+					id: "3E0562991210D79A"
+					type: "item"
+					item: "astralsorcery:fountain_prime_vortex"
+				}
+			]
 			rewards: [
 				{
 					id: "6F8FCF50C0D5CB25"
@@ -1053,24 +1161,28 @@
 			description: [
 				"它可以用来给星辉合成台提供更多的星能(或任何升级),设置聚能祭坛的目标星座,或者为星辉祭坛提供物品."
 				""
-				"当放置在多方块结构中时(如下图所示),并通透天空并放入玻璃透镜时,光辉中继器会给它周围16格半径内最近的星能合成台(或任何升级)提供更多的星能."
+				"当放置在多方块结构中时(如下图所示),通透的天空并放入玻璃透镜时,星辉转继器会给它周围16格半径内最近的星辉合成台(或任何升级)提供更多的星能."
 				""
-				"在 16 个方块半径内进行多个中继器会减少效果."
+				"在16个方块半径内放置多个转继器会递减效应."
 				""
-				"放置在灰黑大理石上的彩虹祭坛周围时,在制作时会显示中继器,显示一个物品的图纸,以继续制作."
+				"当放置在炭黑大理石上的五彩祭坛周围时,在制作过程中会显示转继器,显示一个物品的图纸,以方便继续制作."
 			]
 			dependencies: ["4629A552492B890B"]
 			id: "0853D7AF14502242"
-			tasks: [{
-				id: "24FEC9CCF9E32FF5"
-				type: "item"
-				item: "astralsorcery:spectral_relay"
-			}]
-			rewards: [{
-				id: "5636D7A001E55174"
-				type: "item"
-				item: "astralsorcery:glass_lens"
-			}]
+			tasks: [
+				{
+					id: "24FEC9CCF9E32FF5"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "5636D7A001E55174"
+					type: "item"
+					item: "astralsorcery:glass_lens"
+				}
+			]
 		}
 		{
 			x: -11.0d
@@ -1083,17 +1195,19 @@
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "4BF1A4BEDE69C8AA"
-			tasks: [{
-				id: "1DF24FFEB1547D45"
-				type: "item"
-				item: {
-					id: "astralsorcery:prism"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "1DF24FFEB1547D45"
+					type: "item"
+					item: {
+						id: "astralsorcery:prism"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "4887168F183BF6ED"
@@ -1130,17 +1244,19 @@
 			]
 			dependencies: ["13C3047AC4A33314"]
 			id: "3B9339C64369C08A"
-			tasks: [{
-				id: "13364BCFBE12F9D0"
-				type: "item"
-				item: {
-					id: "astralsorcery:lens"
-					Count: 1b
-					tag: {
-						astralsorcery: { }
+			tasks: [
+				{
+					id: "13364BCFBE12F9D0"
+					type: "item"
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
 					}
 				}
-			}]
+			]
 			rewards: [
 				{
 					id: "0C1E2BC6AB261BCC"
@@ -1161,18 +1277,22 @@
 			shape: "diamond"
 			dependencies: ["4629A552492B890B"]
 			id: "0E563D6824D4A0A8"
-			tasks: [{
-				id: "03AF12EF3DAE96A2"
-				type: "item"
-				item: "astralsorcery:black_marble_raw"
-				count: 8L
-			}]
-			rewards: [{
-				id: "356075EE944042DF"
-				type: "item"
-				item: "astralsorcery:black_marble_raw"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "03AF12EF3DAE96A2"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "356075EE944042DF"
+					type: "item"
+					item: "astralsorcery:black_marble_raw"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -9.0d
@@ -1185,16 +1305,20 @@
 			]
 			dependencies: ["62FFB55E9CF351CE"]
 			id: "5CD01CC064448ABE"
-			tasks: [{
-				id: "2629AB8FC5447811"
-				type: "item"
-				item: "astralsorcery:ritual_link"
-			}]
-			rewards: [{
-				id: "762E4576995CADAF"
-				type: "item"
-				item: "astralsorcery:ritual_link"
-			}]
+			tasks: [
+				{
+					id: "2629AB8FC5447811"
+					type: "item"
+					item: "astralsorcery:ritual_link"
+				}
+			]
+			rewards: [
+				{
+					id: "762E4576995CADAF"
+					type: "item"
+					item: "astralsorcery:ritual_link"
+				}
+			]
 		}
 		{
 			title: "&b自动彩虹祭坛"
@@ -1327,20 +1451,22 @@
 			description: [
 				"要开始星辉,你必须前往末地,找到岛上隐藏的不同结构."
 				""
-				"要开始星辉,你必须制作一个&d聚能水晶&r。要让它用&b以太气体&r将&b8水晶石&r放入溶解室中."
+				"要开始星辉,你必须制作一个&d聚能水晶&r。为了制作它，将&b以太气体&r与&b8水晶石&r一起放入化学溶解室中."
 				""
-				"在 JEI 中检查水晶石的用途以查看配方."
+				"在JEI中检查水晶石的用途以查看配方."
 			]
 			dependencies: [
 				"0BDA67667CF2B2A3"
 				"0990C82D9CE73CAF"
 			]
 			id: "0B67CBE199F4E4D9"
-			tasks: [{
-				id: "14890DA075202246"
-				type: "checkmark"
-				title: "开始星辉魔法"
-			}]
+			tasks: [
+				{
+					id: "14890DA075202246"
+					type: "checkmark"
+					title: "开始星辉魔法"
+				}
+			]
 			rewards: [
 				{
 					id: "425BF55BD90D7186"
@@ -1365,23 +1491,27 @@
 				"558E5F0EFD894D61"
 			]
 			id: "20D1BA0606138A0D"
-			tasks: [{
-				id: "7DDB57D5343F89AD"
-				type: "item"
-				item: {
-					id: "matc:imperium_crystal"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7DDB57D5343F89AD"
+					type: "item"
+					item: {
+						id: "matc:imperium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "759605BB6C7920BC"
-				type: "item"
-				item: "mysticalagriculture:imperium_ingot"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "759605BB6C7920BC"
+					type: "item"
+					item: "mysticalagriculture:imperium_ingot"
+					count: 4
+				}
+			]
 		}
 	]
 }
