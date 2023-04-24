@@ -1,6 +1,6 @@
 {
 	id: "2C0CC2E5D2418137"
-	order_index: 7
+	order_index: 16
 	title: "&d奇点"
 	icon: "extendedcrafting:ultimate_singularity"
 	loot_size: 1
@@ -24,7 +24,9 @@
 				}
 			}
 		}
-		{ item: "extendedcrafting:ultimate_singularity" }
+		{
+			item: "extendedcrafting:ultimate_singularity"
+		}
 		{
 			item: {
 				id: "extendedcrafting:singularity"
