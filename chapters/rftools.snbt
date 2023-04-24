@@ -13,7 +13,7 @@
 			y: -3.5d
 			shape: "octagon"
 			description: [
-				"这个&3扳手&r可以用&6RF工具&r做很多事情"
+				"这个&3扳手&r可以对&6RF工具&r做很多事情"
 				""
 				"当你用它右键单击&6RF工具&r的机器时,你可以设置&b输入&r和&4输出&r"
 				""
@@ -435,7 +435,7 @@
 			y: -4.5d
 			shape: "hexagon"
 			subtitle: "RF工具手册"
-			description: ["这本书可以就一些&bRF工具&r的机器或物品提供有用的信息"]
+			description: ["这本书可以对一些&bRF工具&r的机器或物品提供有用的信息"]
 			dependencies: ["31D5F89946C7CA5C"]
 			id: "6B3CA233ED3AB935"
 			tasks: [
@@ -784,11 +784,11 @@
 			shape: "hexagon"
 			subtitle: "生成生物"
 			description: [
-				"要生成生物,你必须制作三个光束."
+				"要生成生物,你必须制作三个投影仪."
 				""
 				"这个&c注射器&r必须填满怪物的精华(注意:龙是不能生成的)"
 				""
-				"每个光束必须装满一个单独的物品."
+				"每个投影仪必须装满一个单独的物品."
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "607AA739B26FA148"
@@ -856,11 +856,11 @@
 			x: 0.5d
 			y: 0.5d
 			shape: "diamond"
-			subtitle: "制作烈焰棒"
+			subtitle: "制作充能烈焰棒"
 			description: [
-				"使用一些能量,你就可以制作一些&6烈焰棒&r"
+				"使用一些能量,你就可以制作一些&6充能烈焰棒&r"
 				""
-				"只需放入9个,它们将会转化"
+				"只需要放入9个,它们将会自动转化"
 			]
 			dependencies: ["18345F991AFEEF63"]
 			id: "0C051B4D0DB0D3E0"
@@ -886,9 +886,9 @@
 			shape: "diamond"
 			subtitle: "灌注充能烈焰棒"
 			description: [
-				"一旦你制作了&6烈焰棒&r,你可以用一些&b维度碎片&r充能它们"
+				"一旦你制作了&6充能烈焰棒&r,你可以用一些&b维度碎片&r灌注它们"
 				""
-				"插入一个棒和碎片,然后让配方工作吧."
+				"插入一个棒和碎片,然后让配方运行吧."
 				""
 				"一旦你这样做了,这个&b灌注&r&6充能烈焰棒&r会比一个&6充能烈焰棒&r产生更多的RF"
 			]
@@ -913,11 +913,11 @@
 			x: 1.0d
 			y: 1.0d
 			shape: "diamond"
-			subtitle: "用&6烈焰棒&r产生RF"
+			subtitle: "用&6充能烈焰棒&r产生RF"
 			description: [
 				"正如我们在最后一个任务中看到的那样"
 				""
-				"只需插入你的&b充能&r&6充能棒&r并产生一些RF!"
+				"只需插入你的&b灌注&r&6充能烈焰棒&r并产生一些RF!"
 			]
 			dependencies: ["7C9E5CF4B29B5F0D"]
 			id: "772D1176C3CD602A"
@@ -1324,7 +1324,7 @@
 			x: 2.5d
 			y: -0.5d
 			shape: "diamond"
-			description: ["3级:8个合成表"]
+			description: ["3级:八个合成表"]
 			dependencies: ["6231B50255715C83"]
 			id: "1C03FA173D7A81FB"
 			tasks: [
