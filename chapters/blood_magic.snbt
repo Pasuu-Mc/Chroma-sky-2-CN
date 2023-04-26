@@ -29,43 +29,52 @@
 			]
 			size: 1.5d
 			id: "0DB48A26E11F0114"
-			tasks: [{
-				id: "75260777F56D7404"
-				type: "item"
-				item: "bloodmagic:altar"
-			}]
-			rewards: [{
-				id: "30E9914618598A78"
-				type: "item"
-				item: "chromasky:3x_compressed_stone"
-			}]
+			tasks: [
+				{
+					id: "75260777F56D7404"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+			]
+			rewards: [
+				{
+					id: "30E9914618598A78"
+					type: "item"
+					item: "chromasky:3x_compressed_stone"
+				}
+			]
 		}
 		{
 			x: -1.5d
 			y: -1.5d
 			subtitle: "炼金术"
 			description: [
-				"&4&l炼金术桌&r可以为玩家提供好的东西."
+				"&4&l炼金术桌&r可以为玩家提供更好的东西."
 				""
-				"你可以在 JEI 上查看配方!"
+				"你可以在JEI上查看配方!"
 				""
 				"更好的是,它可以自动化!"
-				"只需根据 GUI 上的配方输入,然后在桌子下方提取."
+				"只需根据GUI上的配方输入,然后在桌子下方提取."
 				""
-				"确保正确使用&a血之宝珠&r否则你会有惊喜的"
+				"确保正确使用&a气血宝珠&r否则你将会得到惊喜"
 				""
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "7F47CF0B2B6119BC"
-			tasks: [{
-				id: "2307A0F5C121C842"
-				type: "item"
-				item: "bloodmagic:alchemytable"
-			}]
-			rewards: [{
-				id: "1A2D925BD364ED0A"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "2307A0F5C121C842"
+					type: "item"
+					item: "bloodmagic:alchemytable"
+				}
+			]
+			rewards: [
+				{
+					id: "1A2D925BD364ED0A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -74,38 +83,47 @@
 			description: ["这些&8奥术粉尘&r可以进行一种交换。把粉尘放在地上,然后把需要的两件物品放在地上(请按照JEI显示的顺序)"]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "7234EDC19FB08166"
-			tasks: [{
-				id: "767FC5C0E419DF8A"
-				type: "item"
-				item: {
-					id: "bloodmagic:arcaneashes"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "767FC5C0E419DF8A"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0956BCF4E0F24864"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "0956BCF4E0F24864"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -1.5d
-			subtitle: "血给血神"
+			subtitle: "血祭血神"
 			dependencies: ["0DB48A26E11F0114"]
 			id: "07B16F39EF24C5E8"
-			tasks: [{
-				id: "5A38E3DF350DE569"
-				type: "item"
-				item: "bloodmagic:life_essence_bucket"
-			}]
-			rewards: [{
-				id: "2F03220E088639C9"
-				type: "item"
-				item: "bloodmagic:life_essence_bucket"
-			}]
+			tasks: [
+				{
+					id: "5A38E3DF350DE569"
+					type: "item"
+					item: "bloodmagic:life_essence_bucket"
+				}
+			]
+			rewards: [
+				{
+					id: "2F03220E088639C9"
+					type: "item"
+					item: "bloodmagic:life_essence_bucket"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -114,21 +132,26 @@
 			description: [
 				"这是您可以使用&b恶魔意志&r或&8地狱魂石&r的锻造炉"
 				""
-				"正如&7恶魔意志&r任务中所说,每种合成都需要特定的质量."
+				"正如&7恶魔意志&r任务中所说,每种合成都需要特定的品质."
 				""
-				"您最好检查&cJEI&r以了解需要什么效率."
+				"您最好检查&cJEI&r以了解需要什么品质."
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "1C885DCACA1EC327"
-			tasks: [{
-				id: "05D72A7736374B57"
-				type: "item"
-				item: "bloodmagic:soulforge"
-			}]
-			rewards: [{
-				id: "17291050D1C4F28E"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "05D72A7736374B57"
+					type: "item"
+					item: "bloodmagic:soulforge"
+				}
+			]
+			rewards: [
+				{
+					id: "17291050D1C4F28E"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 2.5d
@@ -136,54 +159,67 @@
 			subtitle: "第一个宝珠"
 			dependencies: ["0DB48A26E11F0114"]
 			id: "7408F8F1AD902D52"
-			tasks: [{
-				id: "1F639253797627A8"
-				type: "item"
-				item: "bloodmagic:weakbloodorb"
-			}]
-			rewards: [{
-				id: "068A680336D72B70"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "1F639253797627A8"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+			]
+			rewards: [
+				{
+					id: "068A680336D72B70"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -1.5d
 			subtitle: "黑暗灵魂"
 			description: [
-				"一旦你得到那个&8投网&r,你必须把它扔给一个攻击性生物,例如僵尸或骷髅或任何你喜欢的东西."
+				"一旦你得到那个&8投网&r,你必须把它扔给一个带攻击性的生物,例如僵尸或骷髅或任何你喜欢的东西."
 				""
-				"完成后,如果你足够幸运,小怪身上会出现一些白色药水效果,你必须杀死它才能获得&4恶魔意志&r."
+				"完成后,如果你足够幸运,怪物身上会出现一些白色药水效果,你必须杀死它才能获得&4恶魔意志&r."
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			id: "46C51346F06DCE1E"
-			tasks: [{
-				id: "27B5DB363E65D97C"
-				type: "item"
-				item: "bloodmagic:soulsnare"
-			}]
-			rewards: [{
-				id: "45B8C2FEDF17EA62"
-				type: "item"
-				item: "bloodmagic:soulsnare"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "27B5DB363E65D97C"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+				}
+			]
+			rewards: [
+				{
+					id: "45B8C2FEDF17EA62"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -3.0d
 			dependencies: ["0DB48A26E11F0114"]
 			id: "5188EC1BF58C53AE"
-			tasks: [{
-				id: "3D0FE976287AFA45"
-				type: "item"
-				item: "bloodmagic:blankslate"
-			}]
-			rewards: [{
-				id: "6125966C9776F6B9"
-				type: "item"
-				item: "bloodmagic:blankslate"
-			}]
+			tasks: [
+				{
+					id: "3D0FE976287AFA45"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+			]
+			rewards: [
+				{
+					id: "6125966C9776F6B9"
+					type: "item"
+					item: "bloodmagic:blankslate"
+				}
+			]
 		}
 		{
 			title: "血之祭坛第二层"
@@ -208,17 +244,21 @@
 			dependencies: ["0DB48A26E11F0114"]
 			size: 1.5d
 			id: "4E2EBC93FBE004C0"
-			tasks: [{
-				id: "0C55C63C81FFC57B"
-				type: "item"
-				item: "bloodmagic:blankrune"
-				count: 8L
-			}]
-			rewards: [{
-				id: "1AC4B057AE251276"
-				type: "item"
-				item: "bloodmagic:life_essence_bucket"
-			}]
+			tasks: [
+				{
+					id: "0C55C63C81FFC57B"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "1AC4B057AE251276"
+					type: "item"
+					item: "bloodmagic:life_essence_bucket"
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -230,31 +270,40 @@
 				"5693A4D9D9206449"
 			]
 			id: "0CA75CA8046315B6"
-			tasks: [{
-				id: "3022C3D16B435802"
-				type: "item"
-				item: "bloodmagic:daggerofsacrifice"
-			}]
-			rewards: [{
-				id: "0DF4F5C1E1447AC2"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "3022C3D16B435802"
+					type: "item"
+					item: "bloodmagic:daggerofsacrifice"
+				}
+			]
+			rewards: [
+				{
+					id: "0DF4F5C1E1447AC2"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.0d
 			y: 1.5d
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "49FA91CAAB120631"
-			tasks: [{
-				id: "651FE2037B0A2E70"
-				type: "item"
-				item: "bloodmagic:reinforcedslate"
-			}]
-			rewards: [{
-				id: "2A52ABBCEDE7CE97"
-				type: "item"
-				item: "bloodmagic:reinforcedslate"
-			}]
+			tasks: [
+				{
+					id: "651FE2037B0A2E70"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+				}
+			]
+			rewards: [
+				{
+					id: "2A52ABBCEDE7CE97"
+					type: "item"
+					item: "bloodmagic:reinforcedslate"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -262,15 +311,20 @@
 			subtitle: "血之宝珠 II"
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "42BD78F424A0A430"
-			tasks: [{
-				id: "6874019CC4001F54"
-				type: "item"
-				item: "bloodmagic:apprenticebloodorb"
-			}]
-			rewards: [{
-				id: "1AAE9269F766E8F5"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "6874019CC4001F54"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+			]
+			rewards: [
+				{
+					id: "1AAE9269F766E8F5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "血之祭坛第三层"
@@ -310,25 +364,33 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "1DCF885124BBCA7F"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1DCF885124BBCA7F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: -1.5d
 			dependencies: ["643221D07E10181E"]
 			id: "30C4B1967B040C9C"
-			tasks: [{
-				id: "7A06373A744D26EC"
-				type: "item"
-				item: "bloodmagic:magicianbloodorb"
-			}]
-			rewards: [{
-				id: "18FE94B476C394EC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7A06373A744D26EC"
+					type: "item"
+					item: "bloodmagic:magicianbloodorb"
+				}
+			]
+			rewards: [
+				{
+					id: "18FE94B476C394EC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -340,46 +402,60 @@
 				"67F7FAD67A9B654B"
 			]
 			id: "5E87C2601FE97FF1"
-			tasks: [{
-				id: "7A983039EF376B08"
-				type: "item"
-				item: "bloodmagic:ritualdiviner"
-			}]
-			rewards: [{
-				id: "3D8E41D289A8376C"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7A983039EF376B08"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+			]
+			rewards: [
+				{
+					id: "3D8E41D289A8376C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: -1.0d
 			dependencies: ["643221D07E10181E"]
 			id: "40BF29176669399A"
-			tasks: [{
-				id: "565BE90062AFB195"
-				type: "item"
-				item: "bloodmagic:infusedslate"
-			}]
-			rewards: [{
-				id: "5B86E761734D31B7"
-				type: "item"
-				item: "bloodmagic:infusedslate"
-			}]
+			tasks: [
+				{
+					id: "565BE90062AFB195"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+				}
+			]
+			rewards: [
+				{
+					id: "5B86E761734D31B7"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: -1.0d
 			dependencies: ["643221D07E10181E"]
 			id: "6DDFDB20CE7DA9FE"
-			tasks: [{
-				id: "37B7FE1384E2DE1A"
-				type: "item"
-				item: "bloodmagic:activationcrystalweak"
-			}]
-			rewards: [{
-				id: "333CFD776F90CF41"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "37B7FE1384E2DE1A"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [
+				{
+					id: "333CFD776F90CF41"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "血之祭坛第四层"
@@ -419,41 +495,53 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "0D28B45A193440B6"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "0D28B45A193440B6"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 4.0d
 			dependencies: ["3096464B66060A9D"]
 			id: "1D3E29B535A0EDC7"
-			tasks: [{
-				id: "5C8AF480513E0774"
-				type: "item"
-				item: "bloodmagic:masterbloodorb"
-			}]
-			rewards: [{
-				id: "385C4B6DF1897F6D"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "5C8AF480513E0774"
+					type: "item"
+					item: "bloodmagic:masterbloodorb"
+				}
+			]
+			rewards: [
+				{
+					id: "385C4B6DF1897F6D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 5.0d
 			dependencies: ["3096464B66060A9D"]
 			id: "6077AB5BB795BD9C"
-			tasks: [{
-				id: "55773AC52C7B5F3C"
-				type: "item"
-				item: "bloodmagic:demonslate"
-			}]
-			rewards: [{
-				id: "6FA20746045287EE"
-				type: "item"
-				item: "bloodmagic:demonslate"
-			}]
+			tasks: [
+				{
+					id: "55773AC52C7B5F3C"
+					type: "item"
+					item: "bloodmagic:demonslate"
+				}
+			]
+			rewards: [
+				{
+					id: "6FA20746045287EE"
+					type: "item"
+					item: "bloodmagic:demonslate"
+				}
+			]
 		}
 		{
 			title: "血之祭坛第五阶"
@@ -486,26 +574,33 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "1809463DC650449D"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1809463DC650449D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.020578231292518d
 			y: 6.680272108843546d
 			dependencies: ["5FEAE6ACEADD47AE"]
 			id: "16ECE876428DB73E"
-			tasks: [{
-				id: "4206BCE40C95AE5C"
-				type: "item"
-				item: "bloodmagic:etherealslate"
-			}]
-			rewards: [{
-				id: "7EE0CA2624E805B7"
-				type: "item"
-				item: "bloodmagic:etherealslate"
-			}]
+			tasks: [
+				{
+					id: "4206BCE40C95AE5C"
+					type: "item"
+					item: "bloodmagic:etherealslate"
+				}
+			]
+			rewards: [
+				{
+					id: "7EE0CA2624E805B7"
+					type: "item"
+					item: "bloodmagic:etherealslate"
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -516,109 +611,133 @@
 				""
 				"品质代表意志的耐久度."
 				""
-				"使用锻造炉制作的每一件物品都需要特定的质量以及特定的&8地狱魂石&r"
+				"使用锻造炉制作的每一件物品都需要特定的品质以及特定的&8地狱魂石&r"
 			]
 			dependencies: ["46C51346F06DCE1E"]
 			id: "4ED39B97513B3D90"
-			tasks: [{
-				id: "0D48CD1ECABEE487"
-				type: "item"
-				item: "bloodmagic:basemonstersoul"
-			}]
-			rewards: [{
-				id: "6813B41FCD79A4D8"
-				type: "item"
-				item: {
-					id: "bloodmagic:basemonstersoul"
-					Count: 1b
-					tag: {
-						souls: 5.0d
+			tasks: [
+				{
+					id: "0D48CD1ECABEE487"
+					type: "item"
+					item: "bloodmagic:basemonstersoul"
+				}
+			]
+			rewards: [
+				{
+					id: "6813B41FCD79A4D8"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: -0.5d
 			y: -4.5d
 			dependencies: ["4ED39B97513B3D90"]
 			id: "5D25F533B794CC1E"
-			tasks: [{
-				id: "7C2ADC02710758F4"
-				type: "item"
-				item: {
-					id: "bloodmagic:soulgempetty"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7C2ADC02710758F4"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "139B9CEF944BD10A"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "139B9CEF944BD10A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -6.0d
 			dependencies: ["5D25F533B794CC1E"]
 			id: "30AB3F561815FD7B"
-			tasks: [{
-				id: "09081C84AC9EFCF6"
-				type: "item"
-				item: {
-					id: "bloodmagic:soulgemlesser"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "09081C84AC9EFCF6"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemlesser"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "406D1ABC1ED95BE0"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "406D1ABC1ED95BE0"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -7.5d
 			dependencies: ["30AB3F561815FD7B"]
 			id: "3711076A8C63021E"
-			tasks: [{
-				id: "4F4BB1CE08540A20"
-				type: "item"
-				item: {
-					id: "bloodmagic:soulgemcommon"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "4F4BB1CE08540A20"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemcommon"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "6B8901AB8B30F6AB"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6B8901AB8B30F6AB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -0.5d
 			y: -9.0d
 			dependencies: ["3711076A8C63021E"]
 			id: "2B6E923A2DD9D9F7"
-			tasks: [{
-				id: "7961C8994AC79544"
-				type: "item"
-				item: {
-					id: "bloodmagic:soulgemgreater"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "7961C8994AC79544"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemgreater"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "57F79C6821EFA02C"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "57F79C6821EFA02C"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "感知物品"
 			x: 1.0d
 			y: -4.5d
 			subtitle: "它不是坚不可摧的"
-			description: ["只需说明,&3感知之剑&r可以代替使用投网以获得&7恶魔意志&r。只需确保你的背包中某处有&5地狱魂石&r"]
+			description: ["事先说明,&3感知之剑&r可以代替使用投网以获得&7恶魔意志&r。只需确保你的背包中某处有&5地狱魂石&r"]
 			dependencies: ["5D25F533B794CC1E"]
 			id: "48FE3E73DDB45DAE"
 			tasks: [
@@ -678,10 +797,13 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "3B229FBC25EEB19C"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3B229FBC25EEB19C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.0d
@@ -691,15 +813,20 @@
 				"1F025F3352C90FF8"
 			]
 			id: "0C39EA4BEDF891E1"
-			tasks: [{
-				id: "24C8B9F946F6F683"
-				type: "item"
-				item: "bloodmagic:ritualdivinerdusk"
-			}]
-			rewards: [{
-				id: "528C7F9954F32914"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "24C8B9F946F6F683"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+			]
+			rewards: [
+				{
+					id: "528C7F9954F32914"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "活体套装"
@@ -757,47 +884,54 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "1ADEDCF1183F8B78"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1ADEDCF1183F8B78"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: 0.0d
 			subtitle: "伤害自己而不是其他"
 			description: [
-				"血魔法的目标是用你理解的血来生存!"
+				"血魔法的目标是用你所理解的血来生存!"
 				""
 				"在很长一段时间内,你将使用自己的血液来开始和探索这个模组."
 				""
-				"这把&4牺牲匕首&r会帮你获得生命。 不要太伤害自己,否则你的灵魂将直接属于恶魔."
+				"这把&4牺牲匕首&r会帮你获得血。不要太过伤害自己,否则你的灵魂将直接归顺于恶魔."
 				""
 			]
 			dependencies: ["0F612F5A82310C1F"]
 			id: "78A69A7B685E29FB"
-			tasks: [{
-				id: "1808100EE7081F5B"
-				type: "item"
-				item: {
-					id: "bloodmagic:sacrificialdagger"
-					Count: 1b
-					tag: {
-						sacrifice: 0b
+			tasks: [
+				{
+					id: "1808100EE7081F5B"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: {
+							sacrifice: 0b
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "2B5ABD55D2DAB346"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:strong_regeneration"
+			]
+			rewards: [
+				{
+					id: "2B5ABD55D2DAB346"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:strong_regeneration"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 2.5d
@@ -818,10 +952,13 @@
 					count: 36L
 				}
 			]
-			rewards: [{
-				id: "5A1469AEE2C1ADF8"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5A1469AEE2C1ADF8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "恶魔装置"
@@ -841,10 +978,13 @@
 					item: "bloodmagic:demoncrystallizer"
 				}
 			]
-			rewards: [{
-				id: "7A370F6CBED6AD85"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7A370F6CBED6AD85"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			icon: {
@@ -860,24 +1000,29 @@
 			description: [
 				"血染知书会帮你完成血魔法."
 				"这本书将解释如何设置最好的血之祭坛以及如何正确使用它."
-				"这就是我们把它给它的原因:光闪发光地:(也因为我们很友善,但不要告诉任何人!)"
+				"这就是我们给它的原因:微微一笑:(也因为我们很友善,但不要告诉任何人!)"
 			]
 			id: "0F612F5A82310C1F"
-			tasks: [{
-				id: "3180592EE0650299"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
+			tasks: [
+				{
+					id: "3180592EE0650299"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5A86406CD905C66F"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "5A86406CD905C66F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -897,17 +1042,21 @@
 			]
 			dependencies: ["643221D07E10181E"]
 			id: "452D06A5F2021FE0"
-			tasks: [{
-				id: "6E96D8B0A70A6CFC"
-				type: "item"
-				item: "bloodmagic:masterritualstone"
-			}]
-			rewards: [{
-				id: "2831E21645CBF5F2"
-				type: "item"
-				item: "bloodmagic:ritualstone"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "6E96D8B0A70A6CFC"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+			]
+			rewards: [
+				{
+					id: "2831E21645CBF5F2"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 4
+				}
+			]
 		}
 		{
 			title: "和风之唤"
@@ -925,16 +1074,20 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "7A2221A9A8FBEE44"
-			tasks: [{
-				id: "760908A277351257"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "1F2A09356F94DC62"
-				type: "item"
-				item: "quark:oak_chest"
-			}]
+			tasks: [
+				{
+					id: "760908A277351257"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "1F2A09356F94DC62"
+					type: "item"
+					item: "quark:oak_chest"
+				}
+			]
 		}
 		{
 			title: "碎晶裂纹"
@@ -957,15 +1110,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "009DD7F63AD952B7"
-			tasks: [{
-				id: "04F704DB3E6AC062"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "2FACF1B20386AD05"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "04F704DB3E6AC062"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "2FACF1B20386AD05"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "精灵号的焦点"
@@ -988,15 +1146,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "69CEEB4B7AD134CA"
-			tasks: [{
-				id: "60D1720C2D72ED2B"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "43A34CB9CE24EE37"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "60D1720C2D72ED2B"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "43A34CB9CE24EE37"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "收获之月"
@@ -1019,17 +1182,21 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4B740F8597D6916C"
-			tasks: [{
-				id: "1BBD71F51025D734"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "186D44262694BCA3"
-				type: "item"
-				item: "minecraft:carrot"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "1BBD71F51025D734"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "186D44262694BCA3"
+					type: "item"
+					item: "minecraft:carrot"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "结晶共振"
@@ -1053,15 +1220,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4A4974AB0C32B67D"
-			tasks: [{
-				id: "405B34622441D9FD"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "0C53A4ACB65AAE2F"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "405B34622441D9FD"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "0C53A4ACB65AAE2F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "生活进化仪式"
@@ -1083,15 +1255,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "49E215BC72FD13CB"
-			tasks: [{
-				id: "28D605706B34DD12"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "19492DDB30E52C9A"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "28D605706B34DD12"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "19492DDB30E52C9A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "磁铁仪式"
@@ -1113,15 +1290,20 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "425E4EB468AFEA1E"
-			tasks: [{
-				id: "03726A51E80BBAEE"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "562A94DB94D3158A"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "03726A51E80BBAEE"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "562A94DB94D3158A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "重生仪式"
@@ -1144,15 +1326,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "138B4AF29E48424C"
-			tasks: [{
-				id: "5898BAEB4FF22D72"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "1BEA2F8C2704B4E8"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "5898BAEB4FF22D72"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "1BEA2F8C2704B4E8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "碎矿者仪式"
@@ -1175,15 +1362,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "5167B34BB813D921"
-			tasks: [{
-				id: "615F21C6BEBAB70E"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "4C88564905E9B555"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "615F21C6BEBAB70E"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "4C88564905E9B555"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "发酵刀仪式"
@@ -1207,22 +1399,26 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "3A7B56D36E832388"
-			tasks: [{
-				id: "4686CC5098DC3A6F"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "4B5C8051651966F3"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:long_regeneration"
+			tasks: [
+				{
+					id: "4686CC5098DC3A6F"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "4B5C8051651966F3"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			title: "满水之仪式"
@@ -1242,16 +1438,20 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "311236BDFB9D3A47"
-			tasks: [{
-				id: "0A48C939B8088E05"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "2D3CBC64DD40A22C"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
+			tasks: [
+				{
+					id: "0A48C939B8088E05"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "2D3CBC64DD40A22C"
+					type: "item"
+					item: "minecraft:water_bucket"
+				}
+			]
 		}
 		{
 			title: "绿丛仪式"
@@ -1272,17 +1472,21 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "48DDDF9EA9D5F046"
-			tasks: [{
-				id: "50235550BFBFE48D"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "3A0CCDA8B3B2B837"
-				type: "item"
-				item: "minecraft:bone_meal"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "50235550BFBFE48D"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "3A0CCDA8B3B2B837"
+					type: "item"
+					item: "minecraft:bone_meal"
+					count: 8
+				}
+			]
 		}
 		{
 			title: "牧羊人仪式"
@@ -1305,15 +1509,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "0C67F3F6BEB619C3"
-			tasks: [{
-				id: "54524263561FC814"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "07B863A3D2B66A1F"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "54524263561FC814"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "07B863A3D2B66A1F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "下界夜曲"
@@ -1333,16 +1542,20 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "00935023E0E209D5"
-			tasks: [{
-				id: "395E75473A8C8638"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "1185E1E56A14A76A"
-				type: "item"
-				item: "minecraft:lava_bucket"
-			}]
+			tasks: [
+				{
+					id: "395E75473A8C8638"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "1185E1E56A14A76A"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
 		}
 		{
 			title: "净灵之音"
@@ -1366,15 +1579,20 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "4CC9F130D1EFE108"
-			tasks: [{
-				id: "66060062EC2BA205"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "61D2C0D4880188C8"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "66060062EC2BA205"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "61D2C0D4880188C8"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "苦恼之井"
@@ -1398,142 +1616,152 @@
 			]
 			dependencies: ["0C39EA4BEDF891E1"]
 			id: "03E87D29319C3B30"
-			tasks: [{
-				id: "20C2CB674BBA9777"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "446E027031C56AA7"
-				type: "item"
-				item: {
-					id: "industrialforegoing:mob_imprisonment_tool"
-					Count: 1b
-					tag: {
-						Brain: {
-							memories: { }
-						}
-						HurtByTimestamp: 0
-						ForgeData: { }
-						CanJoinRaid: 1b
-						Attributes: [
-							{
-								Base: 0.25d
-								Name: "minecraft:generic.movement_speed"
+			tasks: [
+				{
+					id: "20C2CB674BBA9777"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "446E027031C56AA7"
+					type: "item"
+					item: {
+						id: "industrialforegoing:mob_imprisonment_tool"
+						Count: 1b
+						tag: {
+							Brain: {
+								memories: { }
 							}
-							{
-								Base: 16.0d
-								Modifiers: [{
-									Operation: 1
-									UUID: [I;
-										-1057324008
-										-613006152
-										-1361682475
-										547341087
+							HurtByTimestamp: 0
+							ForgeData: { }
+							CanJoinRaid: 1b
+							Attributes: [
+								{
+									Base: 0.25d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 16.0d
+									Modifiers: [
+										{
+											Operation: 1
+											UUID: [I;
+												-1057324008
+												-613006152
+												-1361682475
+												547341087
+											]
+											Amount: 0.012665056871089625d
+											Name: "Random spawn bonus"
+										}
 									]
-									Amount: 0.012665056871089625d
-									Name: "Random spawn bonus"
-								}]
-								Name: "minecraft:generic.follow_range"
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+							]
+							PatrolLeader: 0b
+							Invulnerable: 0b
+							FallFlying: 0b
+							PortalCooldown: 0
+							AbsorptionAmount: 0.0f
+							FallDistance: 0.0f
+							CanUpdate: 1b
+							DeathTime: 0s
+							BoundingBox: [
+								240.19999998807907d
+								105.0d
+								5084.199999988079d
+								240.80000001192093d
+								106.95000004768372d
+								5084.800000011921d
+							]
+							ForgeCaps: {
+								"mana-and-artifice:pfx_capability": {
+									flags: 0L
+								}
+								"citadel:extended_entity_data_citadel": { }
+								"mekanism:radiation": {
+									radiation: "1.0E-7d"
+								}
 							}
-							{
-								Base: 0.08d
-								Name: "forge:entity_gravity"
-							}
-						]
-						PatrolLeader: 0b
-						Invulnerable: 0b
-						FallFlying: 0b
-						PortalCooldown: 0
-						AbsorptionAmount: 0.0f
-						FallDistance: 0.0f
-						CanUpdate: 1b
-						DeathTime: 0s
-						BoundingBox: [
-							240.19999998807907d
-							105.0d
-							5084.199999988079d
-							240.80000001192093d
-							106.95000004768372d
-							5084.800000011921d
-						]
-						ForgeCaps: {
-							"mana-and-artifice:pfx_capability": {
-								flags: 0L
-							}
-							"citadel:extended_entity_data_citadel": { }
-							"mekanism:radiation": {
-								radiation: "1.0E-7d"
-							}
+							HandDropChances: [
+								0.085f
+								0.085f
+							]
+							PersistenceRequired: 0b
+							UUID: [I;
+								1878693736
+								-1806349511
+								-1383854953
+								1499725539
+							]
+							Patrolling: 0b
+							Motion: [
+								0.0d
+								-0.0784000015258789d
+								0.0d
+							]
+							Health: 26.0f
+							KubeJSPersistentData: { }
+							LeftHanded: 0b
+							Air: 300s
+							OnGround: 1b
+							CitadelData: { }
+							Rotation: [
+								17.953741f
+								0.0f
+							]
+							HandItems: [
+								{ }
+								{ }
+							]
+							Wave: 0
+							ArmorDropChances: [
+								0.085f
+								0.085f
+								0.085f
+								0.085f
+							]
+							Pos: [
+								240.5d
+								105.0d
+								5084.5d
+							]
+							Fire: -1s
+							ArmorItems: [
+								{ }
+								{ }
+								{ }
+								{ }
+							]
+							CanPickUpLoot: 0b
+							HurtTime: 0s
+							entity: "minecraft:witch"
+							ActiveEffects: [
+								{
+									Ambient: 1b
+									CurativeItems: [
+										{
+											id: "minecraft:milk_bucket"
+											Count: 1b
+										}
+									]
+									ShowIcon: 1b
+									ShowParticles: 1b
+									Duration: 98
+									Id: 10b
+									Amplifier: 1b
+								}
+							]
 						}
-						HandDropChances: [
-							0.085f
-							0.085f
-						]
-						PersistenceRequired: 0b
-						UUID: [I;
-							1878693736
-							-1806349511
-							-1383854953
-							1499725539
-						]
-						Patrolling: 0b
-						Motion: [
-							0.0d
-							-0.0784000015258789d
-							0.0d
-						]
-						Health: 26.0f
-						KubeJSPersistentData: { }
-						LeftHanded: 0b
-						Air: 300s
-						OnGround: 1b
-						CitadelData: { }
-						Rotation: [
-							17.953741f
-							0.0f
-						]
-						HandItems: [
-							{ }
-							{ }
-						]
-						Wave: 0
-						ArmorDropChances: [
-							0.085f
-							0.085f
-							0.085f
-							0.085f
-						]
-						Pos: [
-							240.5d
-							105.0d
-							5084.5d
-						]
-						Fire: -1s
-						ArmorItems: [
-							{ }
-							{ }
-							{ }
-							{ }
-						]
-						CanPickUpLoot: 0b
-						HurtTime: 0s
-						entity: "minecraft:witch"
-						ActiveEffects: [{
-							Ambient: 1b
-							CurativeItems: [{
-								id: "minecraft:milk_bucket"
-								Count: 1b
-							}]
-							ShowIcon: 1b
-							ShowParticles: 1b
-							Duration: 98
-							Id: 10b
-							Amplifier: 1b
-						}]
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 12.0d
@@ -1541,21 +1769,26 @@
 			subtitle: "阿凡达"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "72112206FF4353B7"
-			tasks: [{
-				id: "01C926DD596B8EA2"
-				type: "item"
-				item: {
-					id: "bloodmagic:airscribetool"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "01C926DD596B8EA2"
+					type: "item"
+					item: {
+						id: "bloodmagic:airscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "26C59EB44FD5C877"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "26C59EB44FD5C877"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1563,21 +1796,26 @@
 			subtitle: "着火了!"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "73E2EB707D5D66AB"
-			tasks: [{
-				id: "770E46276097C23B"
-				type: "item"
-				item: {
-					id: "bloodmagic:firescribetool"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "770E46276097C23B"
+					type: "item"
+					item: {
+						id: "bloodmagic:firescribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "42D6F9DF0F60F13D"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "42D6F9DF0F60F13D"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1585,21 +1823,26 @@
 			subtitle: "海王"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "67F7FAD67A9B654B"
-			tasks: [{
-				id: "2FAE18BB0D05050A"
-				type: "item"
-				item: {
-					id: "bloodmagic:waterscribetool"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "2FAE18BB0D05050A"
+					type: "item"
+					item: {
+						id: "bloodmagic:waterscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "44944B9AC193628F"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "44944B9AC193628F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1607,21 +1850,26 @@
 			subtitle: "泰拉之力"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "55245EA5424CF806"
-			tasks: [{
-				id: "476E7224D86F03AD"
-				type: "item"
-				item: {
-					id: "bloodmagic:earthscribetool"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "476E7224D86F03AD"
+					type: "item"
+					item: {
+						id: "bloodmagic:earthscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3CAB06DAF2974098"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "3CAB06DAF2974098"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 12.0d
@@ -1629,21 +1877,26 @@
 			subtitle: "黑暗召唤"
 			dependencies: ["452D06A5F2021FE0"]
 			id: "1F025F3352C90FF8"
-			tasks: [{
-				id: "51A756268AD1EE37"
-				type: "item"
-				item: {
-					id: "bloodmagic:duskscribetool"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "51A756268AD1EE37"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "412278EB1D69B814"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "412278EB1D69B814"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			title: "隐域之刃"
@@ -1664,15 +1917,20 @@
 			]
 			dependencies: ["5E87C2601FE97FF1"]
 			id: "7C6A74A42FFF3CB3"
-			tasks: [{
-				id: "04819D32FC4C48B0"
-				type: "checkmark"
-				title: "仪式搭建"
-			}]
-			rewards: [{
-				id: "3344FE887669CF52"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "04819D32FC4C48B0"
+					type: "checkmark"
+					title: "仪式搭建"
+				}
+			]
+			rewards: [
+				{
+					id: "3344FE887669CF52"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 20.5d
@@ -1685,16 +1943,20 @@
 				"1C885DCACA1EC327"
 			]
 			id: "0972DA566D31F61C"
-			tasks: [{
-				id: "43C9801DB06F052A"
-				type: "item"
-				item: "bloodmagic:simplekey"
-			}]
-			rewards: [{
-				id: "735BBCC3F134F00E"
-				type: "item"
-				item: "bloodmagic:simplekey"
-			}]
+			tasks: [
+				{
+					id: "43C9801DB06F052A"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+			]
+			rewards: [
+				{
+					id: "735BBCC3F134F00E"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+			]
 		}
 		{
 			icon: {
@@ -1732,10 +1994,13 @@
 					dimension: "bloodmagic:dungeon"
 				}
 			]
-			rewards: [{
-				id: "6546BC9A977A8C06"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "6546BC9A977A8C06"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 21.5d
@@ -1752,206 +2017,245 @@
 			dependencies: ["195589B926F6EC61"]
 			min_width: 300
 			id: "094E53A4DBFB3D59"
-			tasks: [{
-				id: "1BB85502B588136E"
-				type: "item"
-				item: "bloodmagic:weak_tau"
-			}]
-			rewards: [{
-				id: "11319697C78860A4"
-				type: "item"
-				item: "bloodmagic:weak_tau"
-			}]
+			tasks: [
+				{
+					id: "1BB85502B588136E"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+				}
+			]
+			rewards: [
+				{
+					id: "11319697C78860A4"
+					type: "item"
+					item: "bloodmagic:weak_tau"
+				}
+			]
 		}
 		{
 			x: -5.5d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "更好的骨粉"
-			description: ["&2绿丛的印记&r 是一种有多种用途的物品。 印记将使用你的&c灵魂网络&r的&4LP&r使用 150 &4LP&r 喂食并种植周围的植物。 但是,如果你shift右键单击,它将使用 150 &4 LP&r 每5 秒在你周围种植一次植物."]
+			description: ["&2绿丛印记&r是一种有多种用途的物品。印记将使用你的&c灵魂网络&r的&4LP&r，使用150&4LP&r喂食并种植周围的植物。但是,如果你shift右键单击,它将使用150&4LP&r每5秒在你周围种植一次植物."]
 			dependencies: ["27283317A072FFE4"]
 			id: "59BB64057330233E"
-			tasks: [{
-				id: "15670527D14930DC"
-				type: "item"
-				item: {
-					id: "bloodmagic:growthsigil"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
+			tasks: [
+				{
+					id: "15670527D14930DC"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: {
+							binding: {
+								name: "Noli_666"
+								id: [I;
+									-1473269377
+									973752737
+									-1456830272
+									-117663136
+								]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "1EE134CD0CAC9A80"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "1EE134CD0CAC9A80"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -4.0d
 			y: -4.5d
 			shape: "diamond"
-			subtitle: "为恶魔存储"
-			description: ["&6占卜印记&r将允许您查看您的当前精华等级。 这个数量是您在 &4血之魔法&r“网络”中存储的LP数量."]
+			subtitle: "恶魔存储"
+			description: ["&6占卜印记&r将允许您查看您的当前实质等级。这个数量是你在&4血之魔法&r“网络”中存储的LP数量."]
 			dependencies: ["7234EDC19FB08166"]
 			size: 2.0d
 			id: "27283317A072FFE4"
-			tasks: [{
-				id: "62320AB5A59E0ADA"
-				type: "item"
-				item: {
-					id: "bloodmagic:divinationsigil"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
+			tasks: [
+				{
+					id: "62320AB5A59E0ADA"
+					type: "item"
+					item: {
+						id: "bloodmagic:divinationsigil"
+						Count: 1b
+						tag: {
+							binding: {
+								name: "Noli_666"
+								id: [I;
+									-1473269377
+									973752737
+									-1456830272
+									-117663136
+								]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "44E95E5CD9C07CD5"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "44E95E5CD9C07CD5"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -5.0d
 			y: -4.0d
 			shape: "diamond"
 			subtitle: "更好的熔岩桶"
-			description: ["&c岩浆印记&r允许你用简单的右键单击在世界任何地方放置&4岩浆&r."]
+			description: ["&c熔岩印记&r允许你用简单的右键单击在世界任何地方放置&4熔岩&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "597ECFD080B7D481"
-			tasks: [{
-				id: "19DE247577A14978"
-				type: "item"
-				item: {
-					id: "bloodmagic:lavasigil"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
+			tasks: [
+				{
+					id: "19DE247577A14978"
+					type: "item"
+					item: {
+						id: "bloodmagic:lavasigil"
+						Count: 1b
+						tag: {
+							binding: {
+								name: "Noli_666"
+								id: [I;
+									-1473269377
+									973752737
+									-1456830272
+									-117663136
+								]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "34B41EF83B4350F0"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "34B41EF83B4350F0"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -4.5d
 			y: -3.5d
 			shape: "diamond"
-			subtitle: "缓降不包含"
-			description: ["以每次使用消耗&450LP&r为代价将你扔向所面向的方向。不提供掉落羽毛或相同的效果。在冒险之前请确保有足够的&4LP&r"]
+			subtitle: "不包含缓降"
+			description: ["以每次使用消耗&450LP&r为代价将你扔向所面向的方向。不提供摔落保护或相同的效果。在冒险之前请确保有足够的&4LP&r"]
 			dependencies: ["27283317A072FFE4"]
 			id: "6C87226860C9C0B8"
-			tasks: [{
-				id: "41E476D9F1717291"
-				type: "item"
-				item: "bloodmagic:airsigil"
-			}]
-			rewards: [{
-				id: "7B329E234AE4BCCC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "41E476D9F1717291"
+					type: "item"
+					item: "bloodmagic:airsigil"
+				}
+			]
+			rewards: [
+				{
+					id: "7B329E234AE4BCCC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -5.0d
 			shape: "diamond"
 			subtitle: "对于采矿者......或者其他"
-			description: ["&6血灯印记&r允许你向着一个方向发射一个&c血之光&r。当它击中一个方块时,它会产生一个几乎隐形的光源,产生&410 LP&r."]
+			description: ["&6血光印记&r允许你向着一个方向发射一道&c血光&r。当它击中一个方块时,它会产生一个几乎隐形的光源,消耗&410LP&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "1437ACC295F2A177"
-			tasks: [{
-				id: "0002E84BDD3CA1DF"
-				type: "item"
-				item: {
-					id: "bloodmagic:bloodlightsigil"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "0002E84BDD3CA1DF"
+					type: "item"
+					item: {
+						id: "bloodmagic:bloodlightsigil"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "6E64050BAF1DAF60"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6E64050BAF1DAF60"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: -5.5d
 			shape: "diamond"
 			subtitle: "印记背包"
-			description: ["&6置物印记&r一次最多可以容纳 5 个&8 Sigils&r。 这可以将它们一起激活."]
+			description: ["&6集持印记&r一次最多可以容纳5个&8印记&r。这可以将它们一起激活."]
 			dependencies: ["27283317A072FFE4"]
 			id: "05CC4C4E53AA8A27"
-			tasks: [{
-				id: "7762991CB9EA27E8"
-				type: "item"
-				item: {
-					id: "bloodmagic:sigilofholding"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
+			tasks: [
+				{
+					id: "7762991CB9EA27E8"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofholding"
+						Count: 1b
+						tag: {
+							binding: {
+								name: "Noli_666"
+								id: [I;
+									-1473269377
+									973752737
+									-1456830272
+									-117663136
+								]
+							}
+							Items: [ ]
+							leastSig: -5555057992100273270L
+							mostSig: 6946956967779650298L
 						}
-						Items: [ ]
-						leastSig: -5555057992100273270L
-						mostSig: 6946956967779650298L
 					}
 				}
-			}]
-			rewards: [{
-				id: "1CCA2C08EE994454"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "1CCA2C08EE994454"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: -4.5d
 			shape: "diamond"
 			subtitle: "无限水"
-			description: ["&1水印记&r将为你的&c灵魂网络&r产生100&4LP&r的&b水源&r."]
+			description: ["&1水之印记&r将使用你&c灵魂网络&r100&4LP&r来生成&b水源&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "76A86D0765DB47C4"
-			tasks: [{
-				id: "1E5CC0AD45B3048C"
-				type: "item"
-				item: "bloodmagic:watersigil"
-			}]
-			rewards: [{
-				id: "034FD7D9515AE55B"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "1E5CC0AD45B3048C"
+					type: "item"
+					item: "bloodmagic:watersigil"
+				}
+			]
+			rewards: [
+				{
+					id: "034FD7D9515AE55B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -5.0d
@@ -1961,91 +2265,111 @@
 			description: ["&5虚空印记&r将破坏任何流体源,每个方块消耗&450 LP&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "0DD3FCE7D1995FCE"
-			tasks: [{
-				id: "61EE0B71926B18CA"
-				type: "item"
-				item: {
-					id: "bloodmagic:voidsigil"
-					Count: 1b
-					tag: {
-						binding: {
-							name: "Noli_666"
-							id: [I;
-								-1473269377
-								973752737
-								-1456830272
-								-117663136
-							]
+			tasks: [
+				{
+					id: "61EE0B71926B18CA"
+					type: "item"
+					item: {
+						id: "bloodmagic:voidsigil"
+						Count: 1b
+						tag: {
+							binding: {
+								name: "Noli_666"
+								id: [I;
+									-1473269377
+									973752737
+									-1456830272
+									-117663136
+								]
+							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "787D7632E10AD86F"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "787D7632E10AD86F"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -3.0d
 			y: -4.0d
 			shape: "diamond"
-			subtitle: "大豆"
-			description: ["将玩家的物品拾取范围提高至 7 个方块。 激活时消耗 & 450 LP&r."]
+			subtitle: "磁石圈"
+			description: ["将玩家的物品拾取范围提高至7个方块。激活时消耗&450LP&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "7C3C2623D77EC240"
-			tasks: [{
-				id: "70FE9FEBE1BA2975"
-				type: "item"
-				item: {
-					id: "bloodmagic:sigilofmagnetism"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "70FE9FEBE1BA2975"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofmagnetism"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "203A8365A0DC1F6A"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "203A8365A0DC1F6A"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: -3.5d
 			shape: "diamond"
 			subtitle: "更好的占卜印记"
-			description: ["&5探险家印记&r是一个更好的&1占卜印记&r。它将显示玩家的&6灵魂网络&r中的&4LP&r数量以及有关你的&c血之祭坛&r的更多信息"]
+			description: ["&5先知印记&r是一个更好的&1占卜印记&r。它将显示玩家的&6灵魂网络&r中的&4LP&r数量以及有关你&c血之祭坛&r的更多信息"]
 			dependencies: ["27283317A072FFE4"]
 			id: "3C4CE244775F1141"
-			tasks: [{
-				id: "05D4172CC4BB2BAC"
-				type: "item"
-				item: "bloodmagic:seersigil"
-			}]
-			rewards: [{
-				id: "586678BD123BFFDC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "05D4172CC4BB2BAC"
+					type: "item"
+					item: "bloodmagic:seersigil"
+				}
+			]
+			rewards: [
+				{
+					id: "586678BD123BFFDC"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: -4.5d
 			y: -5.5d
 			shape: "diamond"
 			subtitle: "挖洞!"
-			description: ["&5快速采矿机印记&r是一款印记,会产生&6烈焰&r药水效果。每 5 秒消耗 &4100 LP&r."]
+			description: ["&5速掘印记&r是一个印记,会产生&6急迫&r药水效果。每5秒消耗&4100LP&r."]
 			dependencies: ["27283317A072FFE4"]
 			id: "5F99AECC82A64843"
-			tasks: [{
-				id: "37EC3DBF19DE0439"
-				type: "item"
-				item: {
-					id: "bloodmagic:miningsigil"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "37EC3DBF19DE0439"
+					type: "item"
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "3F204225DBDDAD5B"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "3F204225DBDDAD5B"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -2055,16 +2379,20 @@
 			description: ["&b尖刺符文&r会增加&4血之祭坛&r的所有制作操作。每个符文增加 20%."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "04259AEE1B76B118"
-			tasks: [{
-				id: "2E392B537FDB6A89"
-				type: "item"
-				item: "bloodmagic:speedrune"
-			}]
-			rewards: [{
-				id: "3F52AE0543456873"
-				type: "item"
-				item: "bloodmagic:speedrune"
-			}]
+			tasks: [
+				{
+					id: "2E392B537FDB6A89"
+					type: "item"
+					item: "bloodmagic:speedrune"
+				}
+			]
+			rewards: [
+				{
+					id: "3F52AE0543456873"
+					type: "item"
+					item: "bloodmagic:speedrune"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -2074,16 +2402,20 @@
 			description: ["&c献祭仪式&r通过从非玩家实体那里获取生命精华&r,增加了&4&l血之祭坛&r获得的生命精华&r。每个符文都有 +10% 的奖励."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "5602F5BEC3857DF0"
-			tasks: [{
-				id: "3E26DB5EA5B25EFF"
-				type: "item"
-				item: "bloodmagic:sacrificerune"
-			}]
-			rewards: [{
-				id: "438E7C7F10AA1035"
-				type: "item"
-				item: "bloodmagic:sacrificerune"
-			}]
+			tasks: [
+				{
+					id: "3E26DB5EA5B25EFF"
+					type: "item"
+					item: "bloodmagic:sacrificerune"
+				}
+			]
+			rewards: [
+				{
+					id: "438E7C7F10AA1035"
+					type: "item"
+					item: "bloodmagic:sacrificerune"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -2093,16 +2425,20 @@
 			description: ["&6献祭仪式&r通过使用玩家生命值的方式增加&4生命精华&r在&4&l血之祭坛&r中获得的&4生命精华&r。每个符文都有 +10% 的奖励."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "75799BECAD6DDD52"
-			tasks: [{
-				id: "25DD8054EBA91B80"
-				type: "item"
-				item: "bloodmagic:selfsacrificerune"
-			}]
-			rewards: [{
-				id: "561DD81EE1602CF3"
-				type: "item"
-				item: "bloodmagic:selfsacrificerune"
-			}]
+			tasks: [
+				{
+					id: "25DD8054EBA91B80"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune"
+				}
+			]
+			rewards: [
+				{
+					id: "561DD81EE1602CF3"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune"
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -2112,16 +2448,20 @@
 			description: ["&2移动符文&r会增加&4生命精华&r在抽入和从外部储罐抽出时进入和输出祭坛的流速."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "68DDBCBB99B228E3"
-			tasks: [{
-				id: "57695519515ED6ED"
-				type: "item"
-				item: "bloodmagic:dislocationrune"
-			}]
-			rewards: [{
-				id: "263A24318185E3D4"
-				type: "item"
-				item: "bloodmagic:dislocationrune"
-			}]
+			tasks: [
+				{
+					id: "57695519515ED6ED"
+					type: "item"
+					item: "bloodmagic:dislocationrune"
+				}
+			]
+			rewards: [
+				{
+					id: "263A24318185E3D4"
+					type: "item"
+					item: "bloodmagic:dislocationrune"
+				}
+			]
 		}
 		{
 			x: 3.0d
@@ -2131,16 +2471,20 @@
 			description: ["&6容量核心&r将&4&l血之祭坛&r的容量增加每个符文 +20%."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "1C73B88CAF77D053"
-			tasks: [{
-				id: "3533D797D7DA986D"
-				type: "item"
-				item: "bloodmagic:altarcapacityrune"
-			}]
-			rewards: [{
-				id: "714E9158354DE5DE"
-				type: "item"
-				item: "bloodmagic:altarcapacityrune"
-			}]
+			tasks: [
+				{
+					id: "3533D797D7DA986D"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune"
+				}
+			]
+			rewards: [
+				{
+					id: "714E9158354DE5DE"
+					type: "item"
+					item: "bloodmagic:altarcapacityrune"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -2150,16 +2494,20 @@
 			description: ["&b宝珠的红金&r会增加&4&l血之祭坛&r中的&4血之祭坛&r的容量,每符文在祭坛中增加 +2%."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "3A7C76C4432291A1"
-			tasks: [{
-				id: "4E72AE6B87A5013F"
-				type: "item"
-				item: "bloodmagic:orbcapacityrune"
-			}]
-			rewards: [{
-				id: "0E7D2F3C94B47068"
-				type: "item"
-				item: "bloodmagic:orbcapacityrune"
-			}]
+			tasks: [
+				{
+					id: "4E72AE6B87A5013F"
+					type: "item"
+					item: "bloodmagic:orbcapacityrune"
+				}
+			]
+			rewards: [
+				{
+					id: "0E7D2F3C94B47068"
+					type: "item"
+					item: "bloodmagic:orbcapacityrune"
+				}
+			]
 		}
 		{
 			x: 4.0d
@@ -2169,16 +2517,20 @@
 			description: ["&a充能符文&r当&4&l血之祭坛&r没有制作或填充宝珠时,会从祭坛中反弹&4LP&r为内部的缓冲充能。放置物品时,它会瞬间消耗并使用存储的&4LP&r。这个系统为每个&620ticks&r充能,每&b加速符文&r可减少1个ticks。祭坛可以处理的最大充电是&41000 LP&r."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "506C96312A58392F"
-			tasks: [{
-				id: "3998817BE3B9229A"
-				type: "item"
-				item: "bloodmagic:chargingrune"
-			}]
-			rewards: [{
-				id: "2D930F2C45F0E326"
-				type: "item"
-				item: "bloodmagic:chargingrune"
-			}]
+			tasks: [
+				{
+					id: "3998817BE3B9229A"
+					type: "item"
+					item: "bloodmagic:chargingrune"
+				}
+			]
+			rewards: [
+				{
+					id: "2D930F2C45F0E326"
+					type: "item"
+					item: "bloodmagic:chargingrune"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -2188,16 +2540,20 @@
 			description: ["&b加速符文&r会增加几个操作的速率。它会减少每个符文的1tick."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "1AE5B0990623A524"
-			tasks: [{
-				id: "56B745C5520D772D"
-				type: "item"
-				item: "bloodmagic:accelerationrune"
-			}]
-			rewards: [{
-				id: "4BDBE48C38E89A36"
-				type: "item"
-				item: "bloodmagic:accelerationrune"
-			}]
+			tasks: [
+				{
+					id: "56B745C5520D772D"
+					type: "item"
+					item: "bloodmagic:accelerationrune"
+				}
+			]
+			rewards: [
+				{
+					id: "4BDBE48C38E89A36"
+					type: "item"
+					item: "bloodmagic:accelerationrune"
+				}
+			]
 		}
 		{
 			x: 4.5d
@@ -2207,48 +2563,54 @@
 			description: ["&4增强容量红石&r会将&4&l烈焰祭坛&r的容量增加每个符文+7.5%。它们仅在普通&n能力符文&r之后才能应用."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "466A3116027899E8"
-			tasks: [{
-				id: "4F2F66FE1A6C2BC2"
-				type: "item"
-				item: "bloodmagic:bettercapacityrune"
-			}]
-			rewards: [{
-				id: "1D5A36B4362EE9FE"
-				type: "item"
-				item: "bloodmagic:bettercapacityrune"
-			}]
+			tasks: [
+				{
+					id: "4F2F66FE1A6C2BC2"
+					type: "item"
+					item: "bloodmagic:bettercapacityrune"
+				}
+			]
+			rewards: [
+				{
+					id: "1D5A36B4362EE9FE"
+					type: "item"
+					item: "bloodmagic:bettercapacityrune"
+				}
+			]
 		}
 		{
 			x: 4.0d
 			y: -3.0d
 			description: [
-				"&6致密祭坛&r是一个多方块结构,可以通过在&4&n血之祭坛&r中自我离魂来提高你的血量。 通过在你的设置附近站动,它会平息你在这个区域中的灵魂基础,允许你增加LP。 基本的 T1 设置是祭坛本身,你必须将其放置在任何地方(3x3 设置方块),并在祭坛的5格半径内保留。 虽然祭坛在工作,它将改变你的 &8 牺牲匕首&r 并使它变空。 现在你可以右键单击"
-				"有关稳定的详细信息:根据区域的总&2 奇点&r,您将在&4&n血之祭坛&r中添加的&cLP&r获得奖励。 当你用&e占卜印记&r或&e查看印记&r悬停你的&6致密祭坛&r时,它将显示你设置的&2奇点&r和在献祭时获得的%奖励。 (1 LP + 奖励/100). 要增加奇点&r,你必须放置通往你的&6致密祭坛&r的"
-				"通道方块的每个新的“指环”都遵循一套规则:"
-				"-同一个指环上的所有路由方块必须位于同一个 y 层"
-				"-下一个路由方块的指环可能不会比上一个指环高或低5格."
-				"- 路由方块上方相同等级或最多两个方块的方块指向&2特殊性&r"
-				"每种类型的路由方块的功能都受到距离限制."
-				"木质> 3 个指环"
-				"石头> 5个指环"
-				"破旧的石头> 7 个指环"
-				"黑石> 9 个指环."
-				"哪些方块被计为增加&2特殊性&r?"
-				"在&6致密祭坛&r范围内的植物、作物、树木、土块(泥土、草等)、水、火和熔岩。生命精华、下界炉岩、胡萝卜、小麦、下界烤瓶、甜菜根、树叶、原木、火和草也得到计数。必须注意,&2 速率奖励&r 取决于你的祭坛的大小."
+				"&6熏香祭坛&r是一个多方块结构,可以通过在&4&n血之祭坛&r中自我牺牲来提高血液的生成。通过在你的设置附近站动,它会让你的灵魂平静下来,因为该区域的&2静谧&r将允许你增加LP。基本的T1设置是祭坛本身,你必须将其放置在任何地方(3x3设置方块),并保持在祭坛半径5个方块以内。祭坛在工作时,它将改变你的&8牺牲匕首&r并使其更加闪亮。你现在可以在祭坛附近右键单击，一次牺牲90%的生命"
+				"有关静谧的详细信息:根据区域的总&2静谧&r,您将在&4&n血之祭坛&r中添加的&cLP&r获得奖励。当你用&e占卜印记&r或&e先知印记&r悬停你的&6熏香祭坛&r时,它将显示你设置的&2静谧&r和在献祭时获得的%奖励。(1LP+奖励/100). 要增加其&2静谧&r,你必须放置在通往你的&6熏香祭坛&r的通道.这些通道需要从3组不同的&8铺路石&r方块(比如&d木制路面&r)中搭建"
+				"通道方块的每个新的“环形”都遵循一套规则:"
+				"-同一个环形上的所有路径方块必须位于同一个y层"
+				"-路径块的下一个环形可以比上一个环形高或低不超过5个方块."
+				"-相同级别的方块或路径方块之上最多两个方块的环形计数计入总的&2静谧&r"
+				"每种类型的路径方块的功能都受到距离限制."
+				"木质>3个环形"
+				"石头>5个环形"
+				"碎石>7个环形"
+				"黑曜石>9个环形."
+				"哪些方块被计为增加&2静谧&r?"
+				"在&6熏香祭坛&r范围内的植物、作物、树木、土块(泥土、草等)、水、火和熔岩。生命源质、下界岩、泥土、农田、土豆、胡萝卜、小麦、下界疣、甜菜根、树叶、原木、火和草也得到计数。需要注意的是,&2静谧奖励&r取决于你的祭坛的大小."
 				"下面是上限:"
-				"*没有路由: 20%"
-				"* 木质通道: 60%"
-				"*石径:120%"
-				"*黑石(NEI:300%)"
+				"*没有路面: 20%"
+				"*木制路面: 60%"
+				"*石质路面:120%"
+				"*黑曜石(NYI):300%)"
 			]
 			dependencies: ["3E5C9FF001D2E7F8"]
 			min_width: 450
 			id: "03A35A2B780BAC1C"
-			tasks: [{
-				id: "008C8F60E137AF91"
-				type: "checkmark"
-				title: "关于&6致密祭坛&r的信息"
-			}]
+			tasks: [
+				{
+					id: "008C8F60E137AF91"
+					type: "checkmark"
+					title: "关于&6熏香祭坛&r的信息"
+				}
+			]
 		}
 		{
 			title: "自动血之祭坛第1部分"
@@ -2258,24 +2620,24 @@
 			shape: "gear"
 			subtitle: "对于一个部件来说太大了"
 			description: [
-				"要开始用&6主机械&r自动化血之祭坛,你必须把控制器屏幕面向向外放置,由于手动限制,它会在图中转动."
-				"该多方块将需要以下块:"
+				"要开始用&6Masterful-Machinery&r自动化血之祭坛,你必须把控制器屏幕面向向外放置,由于手动限制,它在图中被翻转过."
+				"该多方块将需要以下方块:"
 				"-541&8磨制黑石"
-				"- 313&8磨制黑石楼梯"
-				"- 110&8磨制黑石墙"
+				"-313&8磨制黑石楼梯"
+				"-110&8磨制黑石墙"
 				"-42个&8磨制黑石台阶"
-				"- 26&8磨制黑石"
+				"-26&8錾制磨制黑石"
 				"-36个&5下界合金块"
-				"- 28个&b加速符文"
-				"- 16&c容量增强的转速"
-				"-16&4容量核心"
-				"-16个&1杂质符文"
-				"- 8个&6献祭之宝石"
-				"- 13个&4大血石砖"
+				"-28个&b促速符文"
+				"-16&c超容符文"
+				"-16&4增容符文"
+				"-16个&1速度符文"
+				"-8个&6献祭符文"
+				"-13个&4大血石砖"
 				"-13个&9灵魂灯笼"
 				"-4个&3信标"
 				"-4个&e荧石"
-				"-4个&4红色玻璃板"
+				"-4个&4红色染色玻璃板"
 			]
 			dependencies: ["0DB48A26E11F0114"]
 			size: 2.0d
@@ -2379,10 +2741,13 @@
 					count: 4L
 				}
 			]
-			rewards: [{
-				id: "1C9869C2A6F5A3A6"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1C9869C2A6F5A3A6"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "自动血之祭坛第2部分"
@@ -2427,11 +2792,13 @@
 					item: "minecraft:hopper"
 				}
 			]
-			rewards: [{
-				id: "36BE96957C1490F5"
-				type: "item"
-				item: "bloodmagic:weakbloodshard"
-			}]
+			rewards: [
+				{
+					id: "36BE96957C1490F5"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
 		}
 		{
 			title: "我搭建了自动血之祭坛!"
@@ -2442,7 +2809,7 @@
 			description: [
 				"现在你可以自动化&4&l血魔法&r了!"
 				""
-				"通过&4 Abadakor r 结构!"
+				"通过&4MrAbadakor&r结构!"
 			]
 			dependencies: [
 				"064E59AD8FC91AA2"
@@ -2450,36 +2817,42 @@
 			]
 			size: 3.0d
 			id: "51F3DE19F22C28AA"
-			tasks: [{
-				id: "73354DCC5EB23FC7"
-				type: "checkmark"
-				title: "我搭建了自动血之祭坛!"
-			}]
-			rewards: [{
-				id: "201AD75D6EEC2624"
-				type: "item"
-				item: {
-					id: "minecraft:player_head"
-					Count: 1b
-					tag: {
-						SkullOwner: {
-							Id: [I;
-								1251022748
-								354765776
-								-1280107759
-								1772851314
-							]
-							Properties: {
-								textures: [{
-									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0MzgyMTc0OTIwNSwKICAicHJvZmlsZUlkIiA6ICI0YTkxMTc5YzE1MjU0YmQwYjNiMzFiMTE2OWFiOTA3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckFiYWRha29yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YmMxNWYzYzBkZmRlZjFmZTFhNzVjMzM5Y2JhMDU5YmY5YzRhZWUxNzFlN2JiZjkyYjhhZDMwZWQyZTIyZjgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
-									Signature: "YooYUQG1aCvJgA/HJLq4jEk6Td3FyH6eiuLNZVkx73AOtoQqn4G6BDb5Y+EI7A/eUJrtrSrcUQjiI8iWWtwht6ZOcaZFg8RoTy6WPz5mpFeZOtIkghi14wOqFuKjOvQvvSJ9MxUotk4/vzzSMbS9pyYt1wGNR7mPIeZ1kiOwC2bljpPXVlOLPi/478r+9fSMBZ8aLSWcs5lHInvEuQ1/d7hGMW1HKw/YaVvzpCeyWSaReDgOj5utJ4xpzgdjRWOlUK+XX6XzMADJdL0LcW8MNeDu5nEnwhpkg4MZHch/2zSNGzmJ71PCTFBPBYfS4z9mUhuPQP1ORF4g5B108VjOsjXEO96FsVhRLzErlWLlWHTO0xeZh910ps/WOw7zFF7uEM5eKJXmE3jNUbaLyba/LczTcR/LisC7TaizV6HLsuER63HI3c8tEhbU/D1xxjmKbpXgB201CpkOAMb5Nx+xlmrIH2loeYkrc3dewry+Th8ySalJsHQgFbUdvS3RmTINEY10Vj1KFJWdhl6wC/DtqiYxhavBvYa3AoZDJZwXQrwxup9jn9Nk0Pm87Orv3vpR8jlSpGwMoTFcdqGjomD54g0eGGSS9BjdA9TgSeTHQUa+xrKIf6ssSkQ5twHTsPHzPNRNq0s8mZ8pTxlJfpn0/cKOhP5uTzijQ1kxO6RIYBs="
-								}]
+			tasks: [
+				{
+					id: "73354DCC5EB23FC7"
+					type: "checkmark"
+					title: "我搭建了自动血之祭坛!"
+				}
+			]
+			rewards: [
+				{
+					id: "201AD75D6EEC2624"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									1251022748
+									354765776
+									-1280107759
+									1772851314
+								]
+								Properties: {
+									textures: [
+										{
+											Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0MzgyMTc0OTIwNSwKICAicHJvZmlsZUlkIiA6ICI0YTkxMTc5YzE1MjU0YmQwYjNiMzFiMTE2OWFiOTA3MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNckFiYWRha29yIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1YmMxNWYzYzBkZmRlZjFmZTFhNzVjMzM5Y2JhMDU5YmY5YzRhZWUxNzFlN2JiZjkyYjhhZDMwZWQyZTIyZjgiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+											Signature: "YooYUQG1aCvJgA/HJLq4jEk6Td3FyH6eiuLNZVkx73AOtoQqn4G6BDb5Y+EI7A/eUJrtrSrcUQjiI8iWWtwht6ZOcaZFg8RoTy6WPz5mpFeZOtIkghi14wOqFuKjOvQvvSJ9MxUotk4/vzzSMbS9pyYt1wGNR7mPIeZ1kiOwC2bljpPXVlOLPi/478r+9fSMBZ8aLSWcs5lHInvEuQ1/d7hGMW1HKw/YaVvzpCeyWSaReDgOj5utJ4xpzgdjRWOlUK+XX6XzMADJdL0LcW8MNeDu5nEnwhpkg4MZHch/2zSNGzmJ71PCTFBPBYfS4z9mUhuPQP1ORF4g5B108VjOsjXEO96FsVhRLzErlWLlWHTO0xeZh910ps/WOw7zFF7uEM5eKJXmE3jNUbaLyba/LczTcR/LisC7TaizV6HLsuER63HI3c8tEhbU/D1xxjmKbpXgB201CpkOAMb5Nx+xlmrIH2loeYkrc3dewry+Th8ySalJsHQgFbUdvS3RmTINEY10Vj1KFJWdhl6wC/DtqiYxhavBvYa3AoZDJZwXQrwxup9jn9Nk0Pm87Orv3vpR8jlSpGwMoTFcdqGjomD54g0eGGSS9BjdA9TgSeTHQUa+xrKIf6ssSkQ5twHTsPHzPNRNq0s8mZ8pTxlJfpn0/cKOhP5uTzijQ1kxO6RIYBs="
+										}
+									]
+								}
+								Name: "MrAbadakor"
 							}
-							Name: "MrAbadakor"
 						}
 					}
 				}
-			}]
+			]
 		}
 		{
 			x: 21.5d
@@ -2504,27 +2877,33 @@
 					}
 				}
 			]
-			rewards: [{
-				id: "0E5D6C43786B977C"
-				type: "item"
-				item: "bloodmagic:infusedslate"
-			}]
+			rewards: [
+				{
+					id: "0E5D6C43786B977C"
+					type: "item"
+					item: "bloodmagic:infusedslate"
+				}
+			]
 		}
 		{
 			x: 21.5d
 			y: -5.0d
 			dependencies: ["2C4F5F3EA7FE05EC"]
 			id: "65BCF1AC99ABAE8E"
-			tasks: [{
-				id: "530844DE570235FF"
-				type: "item"
-				item: "bloodmagic:weakbloodshard"
-			}]
-			rewards: [{
-				id: "57097F93BC4E3F77"
-				type: "item"
-				item: "bloodmagic:weakbloodshard"
-			}]
+			tasks: [
+				{
+					id: "530844DE570235FF"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
+			rewards: [
+				{
+					id: "57097F93BC4E3F77"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+			]
 		}
 		{
 			x: -2.5d
@@ -2535,23 +2914,27 @@
 				"2888ACD6C2BDB508"
 			]
 			id: "25EBA82EBB05631E"
-			tasks: [{
-				id: "615B1AC8F6DC18C7"
-				type: "item"
-				item: {
-					id: "matc:supremium_crystal"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "615B1AC8F6DC18C7"
+					type: "item"
+					item: {
+						id: "matc:supremium_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "00F8B7F492CA4BFE"
-				type: "item"
-				item: "mysticalagriculture:supremium_ingot"
-				count: 4
-			}]
+			]
+			rewards: [
+				{
+					id: "00F8B7F492CA4BFE"
+					type: "item"
+					item: "mysticalagriculture:supremium_ingot"
+					count: 4
+				}
+			]
 		}
 	]
 }
