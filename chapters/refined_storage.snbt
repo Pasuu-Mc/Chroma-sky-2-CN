@@ -171,7 +171,7 @@
 			x: 22.5d
 			y: -3.5d
 			shape: "diamond"
-			description: ["&b输入总线&f从方块前面的库存中输入物品或液体,并将其插入存储网络(如果有空间)。"]
+			description: ["&b输入面板&f从方块前面的库存中输入物品或液体,并将其抽入存储网络(如果有空间)。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"197009F06C64D6E6"
@@ -198,7 +198,7 @@
 			x: 23.5d
 			y: -3.5d
 			shape: "diamond"
-			description: ["&b输出口&f从存储网络中提取物品或液体,并将其插入前面的库存或储罐中."]
+			description: ["&b输出面板&f从存储网络中提取物品或液体,并将其插入前面的库存或储罐中."]
 			hide_dependency_lines: true
 			dependencies: [
 				"197009F06C64D6E6"
@@ -225,7 +225,7 @@
 			x: 23.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b 外部存储&r 是一个为存储网络提供存储设备前面的库存或流体储罐的方块."]
+			description: ["&b外部存储&r是一个为存储网络提供存储设备前面的库存或流体储罐的方块."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -254,7 +254,7 @@
 			x: 24.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b结构器&r从世界存储网络中放置物品或流体."]
+			description: ["&b成型面板&r从存储网络中放置物品或流体到世界."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -282,7 +282,7 @@
 			x: 22.0d
 			y: -4.0d
 			shape: "diamond"
-			description: ["&b破坏器&r销毁它前面的方块或液体并将掉落物放入存储网络中."]
+			description: ["&b破坏面板&r销毁它前面的方块或液体并将掉落物放入存储网络中."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -524,7 +524,7 @@
 			description: [
 				"&b合成仓&r是一个用样板合成物品的方块。可以使用速度升级来提高制作速度."
 				""
-				"可以容纳81个模具."
+				"可以容纳81个样板."
 			]
 			hide_dependency_lines: true
 			dependencies: ["641C986AF1E5788A"]
@@ -708,7 +708,7 @@
 				""
 				"要激活无线终端,玩家必须右键单击控制器上的无线终端."
 				""
-				"要使用无线终端,物品需要Forge能量。你必须在一个从另一个模组为物品充电的方块中为它充电."
+				"要使用无线终端,物品需要FE能量。你必须在一个从另一个模组为物品充电的方块中为它充电."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -763,7 +763,7 @@
 			x: 23.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["用&b无线合成监控器&r,玩家可以从任何地方查看制作的东西."]
+			description: ["用&b无线合成监控器&r,玩家可以从任何地方查看正在制作的东西."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4795E76B96170846"
@@ -818,9 +818,9 @@
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"&b无线传输器&r用于将信号发送到精致存储的无线网络中物品."
+				"&b无线发送器&r用于将信号发送到精致存储的无线网络中物品."
 				""
-				"默认范围是 16 个方块,但可以通过范围升级进行升级."
+				"默认范围是16个方块,但可以通过范围升级进行升级."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -933,7 +933,7 @@
 			x: 14.5d
 			y: -9.0d
 			shape: "diamond"
-			description: ["&b 4k 存储部件&r 用于制作 4k 存储磁盘."]
+			description: ["&b4k存储元件&r用于制作4k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"43AC302D806DFECF"
@@ -960,7 +960,7 @@
 			x: 15.0d
 			y: -9.5d
 			shape: "diamond"
-			description: ["&b 16k 存储部件&r 用于制作 16k 存储磁盘."]
+			description: ["&b16k存储元件&r用于制作16k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"0343844DF10E4A80"
@@ -1067,7 +1067,7 @@
 			x: 21.5d
 			y: -9.0d
 			shape: "diamond"
-			description: ["&b4096k流体存储部件&r用于制作4096k 流体存储磁盘."]
+			description: ["&b4096k流体存储元件&r用于制作4096k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"58A9D7D7EFE97810"
@@ -1339,7 +1339,7 @@
 			y: -4.5d
 			shape: "diamond"
 			description: [
-				"&b堆叠升级&r通过一次使用1组物品而不是1组物品来提高物品或流体的传输速度."
+				"&b堆叠升级&r将通过使用整个堆叠（64个物品）而不是每次使用1个物品来提高物品或流体传输速度."
 				""
 				"它可以与速度升级结合使用,使设备更快地进入下一个插槽."
 			]
@@ -1366,9 +1366,9 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b合成升级&r将在设备中使用的物品需要但不需要时排出制作任务."
+				"&b合成升级&r当设备中使用的物品需要但不没有时，将安排制作任务."
 				""
-				"使用此升级,此设备绘制的 FE/t 数量将增加."
+				"使用此升级,此设备使用的FE/t数量将增加."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1715,7 +1715,7 @@
 			x: 15.5d
 			y: -8.0d
 			shape: "diamond"
-			description: ["&b 1024k 存储部件&r 用于制作 1024k 存储磁盘."]
+			description: ["&b1024k存储元件&r用于制作1024k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"621924A7F5263C46"
@@ -1742,7 +1742,7 @@
 			x: 15.0d
 			y: -7.5d
 			shape: "diamond"
-			description: ["&b4096k存储部件&r用于制作4096k存储磁盘."]
+			description: ["&b4096k存储元件&r用于制作4096k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4BF4FDFD04A7E19D"
@@ -1769,7 +1769,7 @@
 			x: 14.5d
 			y: -8.0d
 			shape: "diamond"
-			description: ["&b 16384k 存储部件&r 用于制作 16384k 存储磁盘."]
+			description: ["&b16384k存储元件&r用于制作16384k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"181DEB1EEE5FEA2B"
@@ -1796,7 +1796,7 @@
 			x: 22.0d
 			y: -8.5d
 			shape: "diamond"
-			description: ["&b16384k 流体存储部件&r 用于制作 16384k 流体存储磁盘."]
+			description: ["&b16384k流体存储元件&r用于制作16384k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"75386F834699DB09"
@@ -1877,7 +1877,7 @@
 			x: 20.5d
 			y: -8.0d
 			shape: "diamond"
-			description: ["&b 1048576k 流体存储部件&r 用于制作 1048576k 流体存储磁盘."]
+			description: ["&b1048576k流体存储元件&r用于制作1048576k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -1905,9 +1905,9 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"&b精准采集升级&r使破坏者对它破坏的方块使用精准采集."
+				"&b精准采集升级&r使破坏时对它破坏的方块使用精准采集."
 				""
-				"使用此升级,此设备绘制的 FE/t 数量将增加."
+				"使用此升级,此设备使用的FE/t数量将增加."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1935,14 +1935,14 @@
 			y: -4.0d
 			shape: "diamond"
 			description: [
-				"&b时运升级&r可以让破坏机在破坏的方块上使用一定的等级(取决于您拥有的时运升级)."
+				"&b时运升级&r可以让破坏时在破坏的方块上使用一定的等级(取决于您拥有的时运升级)."
 				""
-				"此升级有 3 种版本:"
-				"”时运1"
-				"时运2"
-				"”时运3"
+				"此升级有3种版本:"
+				"--→时运1"
+				"--→时运2"
+				"--→时运3"
 				""
-				"使用此升级,此设备绘制的 FE/t 数量将增加."
+				"使用此升级,此设备使用的FE/t数量将增加."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -1990,13 +1990,13 @@
 			y: -3.5d
 			shape: "diamond"
 			description: [
-				"&b控制器升级&r可插入输出口中,以将某些物品或液体储存在连接的库存中."
+				"&b调节升级&r可插入输出口中,以将某些物品或液体储存在连接的库存中."
 				""
 				"它将尝试通过使用存储网络中的物品或流体来保持连接的库存。"
 				""
-				"此外,管理器升级可以与合成升级结合,在存储网络的库存用完时开始自动制作任务."
+				"此外,调节升级可以与合成升级结合,在存储网络的库存用完时开始自动制作任务."
 				""
-				"使用此升级,此设备绘制的 FE/t 数量将增加."
+				"使用此升级,此设备使用的FE/t数量将增加."
 			]
 			hide_dependency_lines: true
 			dependencies: [
