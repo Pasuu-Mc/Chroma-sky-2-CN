@@ -41,7 +41,7 @@
 			x: 2.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["&b充能熔炉&f是使用能量而不是燃料来&6烧物品&f的&5电炉&f基础."]
+			description: ["&b充能冶炼炉&f是基础&5电炉&f，使用能量而不是燃料来&6烧物品&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -96,7 +96,7 @@
 			x: 4.5d
 			y: 2.0d
 			shape: "diamond"
-			description: ["&b粉碎机&f将碎块粉碎成&e污泥粉&f、锭粉&e粉&f和生物物质粉碎成&e生物燃料&f."]
+			description: ["&b粉碎机&f将碎块粉碎成&e污浊粉&f、锭粉碎成&e粉&f和生物物质粉碎成&e生物燃料&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -107,7 +107,7 @@
 				{
 					id: "458F69E53CF89E02"
 					type: "item"
-					title: "碎矿者"
+					title: "粉碎机"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -266,7 +266,7 @@
 			description: [
 				"这台机器用能量提取某些方块和矿石的&6粉尘&r,这是生产不同类型工具的必要条件。 不要与&6粉碎机&f混淆,这台机器相当于其他模组的粉碎机."
 				""
-				"也可以把煤或木炭变成&2压缩碳&r、红石变成&2压缩红石&r、钻石变成&2压缩钻石&r和强化黑石粉变成&2压缩黑石&r,这些都用于&6冶金灌注机&f."
+				"也可以把煤或木炭变成&2压缩碳&r、红石变成&2压缩红石&r、钻石变成&2压缩钻石&r和强化黑曜石粉变成&2压缩黑曜石&r,这些都用于&6冶金灌注机&f."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -434,7 +434,7 @@
 			x: 3.5d
 			y: 3.0d
 			shape: "diamond"
-			description: ["&b冶金灌注机&f是通用机械科技树的第一步。&b冶金灌注机&f是一台用来生产&a钢锭&f、&a青铜锭&f、&a富集合金&f和&a黑石锭&f的机器."]
+			description: ["&b冶金灌注机&f是通用机械科技树的第一步。&b冶金灌注机&f是一台用来生产&a钢锭&f、&a青铜锭&f、&a富集合金&f和&a黑曜石锭&f的机器."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -489,7 +489,7 @@
 			x: 4.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["&b压缩机&f用于从强化黑石粉中制造&a精炼黑石锭&f和从荧石粉中制造&a荧石锭&f."]
+			description: ["&b锇压缩机&f用于从强化黑曜石粉中制造&a强化黑曜石锭&f和从荧石粉中制造&a荧石锭&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -2781,7 +2781,7 @@
 			x: 4.0d
 			y: 5.0d
 			shape: "diamond"
-			description: ["&b气体升级&f允许你&e提高允许它的通用机械机器的气体使用效率&f."]
+			description: ["&b气体升级&f允许你&e提高可以使用该升级的通用机械机器的气体使用效率&f."]
 			hide_dependency_lines: true
 			dependencies: ["7C096F70E21229EC"]
 			id: "7F1532926A140454"
@@ -2985,7 +2985,7 @@
 			x: 4.0d
 			y: -5.0d
 			shape: "diamond"
-			description: ["&b化学溶解室&f是&c5矿石处理装置&f中的第一台机器。它使用硫酸将&6原矿石&f转成&6沙拉浆&f."]
+			description: ["&b化学溶解室&f是&cx5矿石处理装置&f中的第一台机器。它使用硫酸将&6原矿石&f转成&6浆液&f."]
 			hide_dependency_lines: true
 			dependencies: [
 				"06975DA1C012F61B"
@@ -3072,7 +3072,7 @@
 			x: 3.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&b加压反应室&f主要用于制作&1基座&f(用于制作高密度聚乙烯丸),&1高密度聚乙烯丸&f(用于制作高密度聚乙烯片),以及&1乙烯&f(在燃气发电机中是一种高效的燃料来源)。"]
+			description: ["&b加压反应室&f主要用于制作&1基片&f(用于制作高密度聚乙烯丸),&1高密度聚乙烯丸&f(用于制作高密度聚乙烯片),以及&1乙烯&f(在燃气发电机中是一种高效的燃料来源)。"]
 			hide_dependency_lines: true
 			dependencies: [
 				"59BACDF85CF0148A"
@@ -3103,13 +3103,13 @@
 			y: -5.5d
 			shape: "diamond"
 			description: [
-				"&b回旋式气液转换机&f用于以 1:1 的速率在液体和气体之间转换物质."
+				"&b回旋式气液转换机&f用于以1:1的速率在液体和气体之间转换物质."
 				""
 				"它有两个模式:"
 				""
-				"&6蒸发&f,将液体变成气体"
+				"&6液体蒸发&f,将液体变成气体"
 				""
-				"&6气动&f,将气体变成液体"
+				"&6气体冷凝&f,将气体变成液体"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -3138,7 +3138,7 @@
 			x: 3.5d
 			y: -5.5d
 			shape: "diamond"
-			description: ["&b电解分离器&f将一定的直流电流体发送到流体中,使流体中的原子破坏其绑定。电解过程用于从一些相当普通的流体中&e制造一些非常有用的气体&f."]
+			description: ["&b电解分离器&f将一定的直流电发送到流体中,使流体中的原子断裂。电解过程用于从一些相当普通的流体中&e制造一些非常有用的气体&f."]
 			hide_dependency_lines: true
 			dependencies: ["7C096F70E21229EC"]
 			id: "4F8C204321F0FE50"
@@ -4407,7 +4407,7 @@
 			y: 13.5d
 			shape: "diamond"
 			description: [
-				"&b注魔单元&r可安装在 Meka套装头盔上以移除手动喂食的需求."
+				"&b营养注射单元&r可安装在Meka套装头盔上以移除手动喂食的需求."
 				""
 				"安装后,Meka套装头盔将有一个内部存储的营养膏(128,000mb)."
 			]
@@ -4438,9 +4438,9 @@
 			y: 15.0d
 			shape: "diamond"
 			description: [
-				"&b喷气背包单元&r是允许你的Meka套装具有喷气背包功能的模块."
+				"&b喷气背包单元&r是允许你的Meka套装具有喷气背包功能的单元."
 				""
-				"安装后,Meka套装机将拥有一个氢(48,000mb)的内部存储空间."
+				"安装后,Meka套装将拥有一个氢(48,000mb)的内部存储空间."
 				""
 				"喷气背包单元最好配上电解呼吸单元。 这样做可以让水下或雨中收集氢."
 			]
@@ -4470,7 +4470,7 @@
 			x: 4.5d
 			y: 14.5d
 			shape: "diamond"
-			description: ["&b查看增强单元&r可安装在 Meka套装头盔上以提升夜视效果."]
+			description: ["&b视觉增强单元&r可安装在Meka套装头盔上以提升夜视效果."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4498,7 +4498,7 @@
 			x: 3.0d
 			y: 15.0d
 			shape: "diamond"
-			description: ["&b太阳能充电单元&r是在直接接触太阳时为你的Meka套装充电的模块."]
+			description: ["&b太阳能充电单元&r是在直接接触太阳时为你的Meka套装充电的单元."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4526,7 +4526,7 @@
 			y: 14.0d
 			shape: "diamond"
 			description: [
-				"&b攻击扩展单元&r是一个可以将 Melee 攻击扩展到玩家和怪物的模块."
+				"&b攻击增强单元&r是一个可以将Melee提升对玩家或生物的近战攻击伤害的单元."
 				""
 				"它只能应用于Meka工具."
 			]
@@ -4556,7 +4556,7 @@
 			x: 2.5d
 			y: 14.5d
 			shape: "diamond"
-			description: ["&b水之提升单元&r是允许您爬过最多 2 个方块的模块。 当您按住左键控制并跳跃时,它也允许您跳得更高( 极光+空栏)."]
+			description: ["&b液压推进单元&r是允许您攀爬最多2个方块的单元。当您按住左键控制并跳跃时,它也允许您跳得更高(LCrtl+空格键)."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4584,9 +4584,9 @@
 			y: 15.5d
 			shape: "diamond"
 			description: [
-				"&b青金石提升单元&r是允许您提高锻造速度和跳跃距离的模块."
+				"&b动力助推单元&r是允许您提高奔跑速度和跳跃距离的单元."
 				""
-				"它可以从 0.0 体力提升 配置为  0f 体力提升 。 请注意,你的饥饿消耗也会增加."
+				"它可以从0.0奔跑提升配置为0.5奔跑提升。请注意,你的饥饿消耗也会增加."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4614,7 +4614,7 @@
 			x: 3.5d
 			y: 15.5d
 			shape: "diamond"
-			description: ["&b辐射计单元&r是在右下角的HUD中显示辐射量的模块."]
+			description: ["&b放射量测定器单元&r是在右下角的HUD中显示辐射量的单元."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4641,7 +4641,7 @@
 			x: 3.0d
 			y: 16.0d
 			shape: "diamond"
-			description: ["&b挖掘升级单元&r是一个模块,如果添加到 Meka工具箱中,会增加所有方块的采矿速度."]
+			description: ["&b挖掘升级单元&r是一个单元,如果添加到Meka工具箱中,会提高所有方块的挖掘速度."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4669,10 +4669,10 @@
 			y: 16.5d
 			shape: "diamond"
 			description: [
-				"&b电解性呼吸单元&r是允许你在水下呼吸的模块."
+				"&b电解呼吸单元&r是允许你在水下呼吸的单元."
 				""
 				""
-				"此外,如果将喷气背包安装在Meka套装上,它将自动开始为它的氢供应提供燃料,同时在雨中水下或水外."
+				"此外,如果将喷气背包安装在Meka套装上,它将在水下或雨中自动开始为氢气供应加燃料."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4701,9 +4701,9 @@
 			y: 14.5d
 			shape: "diamond"
 			description: [
-				"&b重力升级单元&r是允许用户使用创造飞行的模块."
+				"&b重力调节单元&r是允许用户使用创造飞行的单元."
 				""
-				"如果Meka护甲套装器还安装了喷气背包单元,如果重力升级单元被启用,喷气背包单元将被自动禁用,反之亦然."
+				"如果Meka护甲套装还安装了喷气背包单元,如果重力调节单元被启用,喷气背包单元将被自动禁用,反之亦然."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4732,7 +4732,7 @@
 			x: 4.5d
 			y: 13.5d
 			shape: "diamond"
-			description: ["&b矿脉开采单元&r允许快速开采矿石和快速砍树."]
+			description: ["&b矿脉挖掘单元&r允许快速开采矿石和快速砍树."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4760,12 +4760,12 @@
 			y: 15.5d
 			shape: "diamond"
 			description: [
-				"&b农业单元&r是一个应用于 Meka工具的模块。 它为工具提供几种农业功能,最多可以叠加4个."
+				"&b耕种单元&r是一个应用于Meka工具的单元。它为工具提供几种农业功能,最多可以叠加4个."
 				""
-				"农业单元解锁了Meka工具中的以下能力:"
-				"土"
-				"- 采木机"
-				"土粉碎"
+				"耕种单元解锁了Meka工具中的以下能力:"
+				"•土壤耕种"
+				"•原木剥离"
+				"•土壤平整"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4820,7 +4820,7 @@
 			x: 2.0d
 			y: 14.0d
 			shape: "diamond"
-			description: ["&b充能分配单元&r是为所有  MekaSit 盔甲 正确分配能量的模块。 正常情况下,如果你将太阳能充能单元安装在你的 MekaSit 头盔上,只有头盔将获得其产生的能量。 安装充能分配单元后,产生的能量将平衡地在所有 MekaSit 盔甲中分配."]
+			description: ["&b充能分配单元&r是为所有 MekaSit盔甲正确分配能量的单元。正常情况下,如果你将太阳能充能单元安装在你的MekaSit头盔上,只有头盔将获得其产生的能量。安装充能分配单元后,产生的能量将平衡地在所有MekaSit盔甲中分配."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4847,7 +4847,7 @@
 			x: 2.0d
 			y: 15.0d
 			shape: "diamond"
-			description: ["&b能量单元&r是将选定的Meka盔甲的当前能量容量翻倍的模块."]
+			description: ["&b能量单元&r是将选定的Meka盔甲的当前能量容量翻倍的单元."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4875,7 +4875,7 @@
 			x: 2.5d
 			y: 16.5d
 			shape: "diamond"
-			description: ["&b精准采集单元&r是通用机械的模块,安装在Meka工具上,为工具提供了精准采集附魔的属性."]
+			description: ["&b精准采集单元&r是通用机械的单元,安装在Meka工具上,为工具提供了精准采集附魔的属性."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4902,7 +4902,7 @@
 			x: 2.5d
 			y: 15.5d
 			shape: "diamond"
-			description: ["&b护盾单元&r是允许你的Meka盔甲与不同的防辐射套装一起使用的模块."]
+			description: ["&b辐射屏蔽单元&r是允许你的Meka盔甲与不同的防辐射套装一起使用的单元."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -4930,9 +4930,9 @@
 			y: 16.0d
 			shape: "diamond"
 			description: [
-				"&b磁力吸引单元&r 是一个用于 Mekasift 靴子的模块."
+				"&b磁力吸引单元&r 是一个用于 Mekasift 靴子的单元."
 				""
-				"当物品裂变法文说“[单元]使用强大的磁力将远处的物品吸引到玩家身上时”,您可以在一双靴子上安装最多 4 个."
+				"当物品字体文本描述“[单元]使用强大的磁力将远处的物品吸引到玩家身上”,您可以在一双靴子上安装最多4个."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -4960,7 +4960,7 @@
 			x: 4.0d
 			y: 16.0d
 			shape: "diamond"
-			description: ["&b凝固净化单元&r是可以保护玩家免受某些药水效果的模块,包括有益的、中性且敌对的药水效果."]
+			description: ["&b吸入净化单元&r是可以保护玩家免受某些药水效果的单元,包括有益的、中性且敌对的药水效果."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6BE52EF19D6EEA0B"
@@ -5042,7 +5042,7 @@
 			x: 3.0d
 			y: -6.0d
 			shape: "diamond"
-			description: ["&b电泵&r用于从世界的储罐或储罐中抽取液体."]
+			description: ["&b电动泵&r用于从世界的储层或储罐中抽取液体."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7C096F70E21229EC"

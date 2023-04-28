@@ -146,7 +146,7 @@
 			description: [
 				"&b线缆&r用于连接设备到控制器."
 				""
-				"线缆并不总是需要的,只要设备在任何方向相邻,将建立连接."
+				"线缆并不总是需要的,只要设备在任何方向相邻,将会建立连接."
 			]
 			hide_dependency_lines: true
 			dependencies: ["49149CE5DB8F85F0"]
@@ -410,7 +410,7 @@
 			description: [
 				"&b合成仓&r是一个用样板合成物品的方块。可以使用速度升级来提高制作速度."
 				""
-				"可以容纳 9 个样板."
+				"可以容纳9个样板."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -443,7 +443,7 @@
 			description: [
 				"&b合成仓&r是一个用样板合成物品的方块。可以使用速度升级来提高制作速度."
 				""
-				"可以容纳 27 个样板."
+				"可以容纳27个样板."
 			]
 			hide_dependency_lines: true
 			dependencies: ["6639CE9C42A43276"]
@@ -708,7 +708,7 @@
 				""
 				"要激活无线终端,玩家必须右键单击控制器上的无线终端."
 				""
-				"要使用无线终端,物品需要FE能量。你必须在一个从另一个模组为物品充电的方块中为它充电."
+				"要使用无线终端,物品需要FE能量。你必须在从另一个模组为物品充电的方块中为它充电."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -818,7 +818,7 @@
 			y: 0.5d
 			shape: "diamond"
 			description: [
-				"&b无线发送器&r用于将信号发送到精致存储的无线网络中物品."
+				"&b无线发送器&r用于将物品信号发送到精致存储的无线网络中."
 				""
 				"默认范围是16个方块,但可以通过范围升级进行升级."
 			]
@@ -907,7 +907,7 @@
 			x: 14.0d
 			y: -8.5d
 			shape: "diamond"
-			description: ["&b1k存储组件&r用于制作1k存储磁盘."]
+			description: ["&b1k存储元件&r用于制作1k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6B4B2CB11433F7D3"
@@ -987,7 +987,7 @@
 			x: 20.0d
 			y: -8.5d
 			shape: "diamond"
-			description: ["&b64k流体存储组件&r用于制作64k 流体存储磁盘."]
+			description: ["&b64k流体存储元件&r用于制作64k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"49149CE5DB8F85F0"
@@ -1013,7 +1013,7 @@
 			x: 20.5d
 			y: -9.0d
 			shape: "diamond"
-			description: ["&b 256k 流体存储组件&r 用于制作 256k 流体存储磁盘."]
+			description: ["&b256k流体存储元件&r用于制作256k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"43AC302D806DFECF"
@@ -1040,7 +1040,7 @@
 			x: 21.0d
 			y: -9.5d
 			shape: "diamond"
-			description: ["&b 1024k 流体存储组件&r 用于制作 1024k 流体存储磁盘."]
+			description: ["&b1024k流体存储元件&r用于制作1024k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"5AE2DC1B1714FD5E"
@@ -1366,7 +1366,7 @@
 			y: -5.0d
 			shape: "diamond"
 			description: [
-				"&b合成升级&r当设备中使用的物品需要但不没有时，将安排制作任务."
+				"&b合成升级&r当设备中使用的物品需要但没有时，将安排制作任务."
 				""
 				"使用此升级,此设备使用的FE/t数量将增加."
 			]
@@ -1688,7 +1688,7 @@
 			x: 16.0d
 			y: -8.5d
 			shape: "diamond"
-			description: ["&b256k存储组件&r用于制作 256k存储磁盘."]
+			description: ["&b256k存储元件&r用于制作256k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"7B33F5B6CE1418C5"
@@ -1823,7 +1823,7 @@
 			x: 21.5d
 			y: -8.0d
 			shape: "diamond"
-			description: ["&b65536k 流体存储组件&r 用于制作 65536k 流体存储磁盘."]
+			description: ["&b65536k流体存储元件&r用于制作65536k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"58A9D7D7EFE97810"
@@ -1850,7 +1850,7 @@
 			x: 21.0d
 			y: -7.5d
 			shape: "diamond"
-			description: ["&b 262144k 流体存储组件&r 用于制作 262144k 流体存储磁盘."]
+			description: ["&b262144k流体存储元件&r用于制作262144k流体存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"105F1F3A7BD1D3B5"
@@ -2023,7 +2023,7 @@
 			x: 15.5d
 			y: -9.0d
 			shape: "diamond"
-			description: ["&b64k存储组件&r用于制作64k存储磁盘."]
+			description: ["&b64k存储元件&r用于制作64k存储磁盘."]
 			hide_dependency_lines: true
 			dependencies: [
 				"58A9D7D7EFE97810"
