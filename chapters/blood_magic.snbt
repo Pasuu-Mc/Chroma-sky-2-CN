@@ -2399,7 +2399,7 @@
 			y: 4.5d
 			shape: "diamond"
 			subtitle: "伤害他人"
-			description: ["&c献祭符文&r通过从非玩家实体那里获取&4生命精华&r,增加了在&4&l血之祭坛&r中获得的&4生命精华&r。每个符文都有+10%的奖励."]
+			description: ["&c献祭符文&r通过从非玩家实体那里获取&4生命源质&r,增加了在&4&l血之祭坛&r中获得的&4生命源质&r。每个符文都有+10%的奖励."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "5602F5BEC3857DF0"
 			tasks: [
@@ -2422,7 +2422,7 @@
 			y: 3.5d
 			shape: "diamond"
 			subtitle: "这会很困难的"
-			description: ["&6牺牲符文&r通过使用玩家生命值的方式增加在&4&l血之祭坛&r中获得的&4生命精华&r。每个符文都有+10%的奖励."]
+			description: ["&6牺牲符文&r通过使用玩家生命值的方式增加在&4&l血之祭坛&r中获得的&4生命源质&r。每个符文都有+10%的奖励."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "75799BECAD6DDD52"
 			tasks: [
@@ -2445,7 +2445,7 @@
 			y: 3.5d
 			shape: "diamond"
 			subtitle: "自动化"
-			description: ["&2转位符文&r会增加&4生命精华&r在抽入和从外部储罐抽出时进入和输出祭坛的流速."]
+			description: ["&2转位符文&r会增加&4生命源质&r在抽入和从外部储罐抽出时进入和输出祭坛的流速."]
 			dependencies: ["4E2EBC93FBE004C0"]
 			id: "68DDBCBB99B228E3"
 			tasks: [
@@ -2599,7 +2599,7 @@
 				"*没有路面: 20%"
 				"*木制路面: 60%"
 				"*石质路面:120%"
-				"*黑曜石(NYI):300%)"
+				"*黑曜石(NYI):300%"
 			]
 			dependencies: ["3E5C9FF001D2E7F8"]
 			min_width: 450
