@@ -266,7 +266,7 @@
 			description: [
 				"这台机器用能量提取某些方块和矿石的&6粉尘&r,这是生产不同类型工具的必要条件。 不要与&6粉碎机&f混淆,这台机器相当于其他模组的粉碎机."
 				""
-				"也可以把煤或木炭变成&2压缩碳&r、红石变成&2压缩红石&r、钻石变成&2压缩钻石&r和强化黑曜石粉变成&2压缩黑曜石&r,这些都用于&6冶金灌注机&f."
+				"也可以把煤或木炭变成&2富集碳&r、红石变成&2富集红石&r、钻石变成&2富集钻石&r和强化黑曜石粉变成&2富集强化黑曜石&r,这些都用于&6冶金灌注机&f."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -322,7 +322,7 @@
 			x: 2.0d
 			y: 2.5d
 			shape: "diamond"
-			description: ["&b提纯仓&f使用&7氧气&f将矿石和碎片提纯成&e碎块&f。每个矿石合成 3 个碎块,而每个碎片仅产生一个碎块."]
+			description: ["&b提纯仓&f使用&7氧气&f将矿石和碎片提纯成&e碎块&f。每个矿石形成3个碎块,而每个碎片仅产生一个碎块."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"
@@ -869,9 +869,9 @@
 			y: -2.0d
 			shape: "diamond"
 			description: [
-				"&b喷火者&f是一种使用氢气作为燃料的远程武器."
+				"&b火焰喷射器&f是一种使用氢气作为燃料的远程武器."
 				""
-				"&4打开!!!!!"
+				"&4开火!!!!!"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -898,7 +898,7 @@
 			x: 7.5d
 			y: -0.5d
 			shape: "diamond"
-			description: ["&b自由跑者&f是一种可以让玩家自动爬上 1 个方块注入的物品,以及只要有电,防止摔落伤害的物品。 摔落会减少物品的电量,具体取决于掉落的速度."]
+			description: ["&b自由助跑器&f是一种可以让玩家自动爬上1个方块注入的物品,以及只要有电,就可以防止摔落伤害的物品。摔落会减少物品的电量,具体取决于掉落的速度."]
 			hide_dependency_lines: true
 			dependencies: [
 				"1D31D6AA2E4EDAB7"
@@ -926,7 +926,7 @@
 			x: 6.5d
 			y: -1.5d
 			shape: "diamond"
-			description: ["&b玻璃面罩&f是一种实用头盔,与潜水罐一起在水下呼吸."]
+			description: ["&b潜水面罩&f是一种实用头盔,与潜水罐一起在水下呼吸."]
 			hide_dependency_lines: true
 			dependencies: [
 				"59BACDF85CF0148A"
@@ -1025,7 +1025,7 @@
 			x: 8.0d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b熔融喷气背包&f是喷气背包的升级版本。它提供&e12点盔甲值&f,提供比&5保护IV&f的&9钻石胸甲&f更好的保护."]
+			description: ["&b装甲喷气背包&f是喷气背包的升级版本。它提供&e12点盔甲值&f,提供比&5保护IV&f的&9钻石胸甲&f更好的保护."]
 			hide_dependency_lines: true
 			dependencies: [
 				"513BF2810C8C4F3D"
@@ -1941,7 +1941,7 @@
 			x: 12.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&b加压管&f用于运输气体."]
+			description: ["&b加压管道&f用于运输气体."]
 			hide_dependency_lines: true
 			dependencies: ["0CB4DD1292B29613"]
 			id: "08E34D87EC8C7942"
@@ -1965,7 +1965,7 @@
 			x: 13.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&b加压管&f用于运输气体."]
+			description: ["&b加压管道&f用于运输气体."]
 			hide_dependency_lines: true
 			dependencies: ["08E34D87EC8C7942"]
 			id: "78E8F3E82B9CB58D"
@@ -1989,7 +1989,7 @@
 			x: 14.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&b加压管&f用于运输气体."]
+			description: ["&b加压管道&f用于运输气体."]
 			hide_dependency_lines: true
 			dependencies: ["78E8F3E82B9CB58D"]
 			id: "62993F7D0D6642BB"
@@ -2013,7 +2013,7 @@
 			x: 15.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["&b加压管&f用于运输气体."]
+			description: ["&b加压管道&f用于运输气体."]
 			hide_dependency_lines: true
 			dependencies: ["62993F7D0D6642BB"]
 			id: "03DA2B09BC1B4603"
@@ -2832,7 +2832,7 @@
 			x: 9.5d
 			y: 4.0d
 			shape: "diamond"
-			description: ["&b数字型采矿机&f是通用机械的大小&9采矿机&f。 然而,这台机器与其它机器不同,因为它“神奇地传送”开采的方块到它的背包中."]
+			description: ["&b数字型采矿机&f是通用机械的大型&9采矿机&f。 然而,这台机器与其它机器不同,因为它“神奇地传送”开采的方块到它的背包中."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6B9523CB62DB39EE"
@@ -2890,7 +2890,7 @@
 			y: 4.5d
 			shape: "diamond"
 			description: [
-				"&b传送门&f与传送机框架一起用来搭建传送门."
+				"&b传送机&f与传送框架一起用来搭建传送门."
 				""
 				"用&b传送框架&f和传送机一起可以创建一个传送门."
 				""
@@ -3350,7 +3350,7 @@
 			x: 13.5d
 			y: -1.0d
 			shape: "diamond"
-			description: ["&b动能储罐&f合成多方块结构,即动力储罐,一个&e流体存储&f结构,可以容纳大量的单种流体."]
+			description: ["&b动能储罐&f合成多方块结构,即动态储罐,一个&e流体存储&f结构,可以容纳大量的单种流体."]
 			hide_dependency_lines: true
 			dependencies: ["0CB4DD1292B29613"]
 			id: "26E1F373CBE76C0E"
@@ -4005,7 +4005,7 @@
 			x: 13.5d
 			y: -4.5d
 			shape: "diamond"
-			description: ["&b涡轮机外壳&f是用来制造&c工业涡轮机&f多方块结构的抗压外壳."]
+			description: ["&b涡轮外壳&f是用来制造&c工业蒸汽涡轮&f多方块结构的抗压外壳."]
 			hide_dependency_lines: true
 			dependencies: ["0CB4DD1292B29613"]
 			id: "7900EAC043EAA8B0"
@@ -4155,9 +4155,9 @@
 			y: 9.5d
 			shape: "diamond"
 			description: [
-				"&bQIO驱动器&r是一个包含 QIO 驱动器并将其内容无线传输到 QIO 其他设备方块."
+				"&bQIO驱动器阵列&r是一个包含QIO驱动器并将其内容无线传输到QIO其他设备方块."
 				""
-				"为了工作,驱动器组必须设置为频率."
+				"为了工作,驱动器阵列必须设置为一个频率."
 			]
 			hide_dependency_lines: true
 			dependencies: ["76CA9B4B4D139E35"]
@@ -4327,7 +4327,7 @@
 			x: 10.0d
 			y: 12.5d
 			shape: "diamond"
-			description: ["一台用来通过存储的颜料小心地给方块和物品上色的机器."]
+			description: ["一台用来通过存储的颜料仔细地给方块和物品上色的机器."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6F2326323EF33A63"

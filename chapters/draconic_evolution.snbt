@@ -43,17 +43,21 @@
 				"22999033333BCA2C"
 			]
 			id: "4414ABE1D7822C6E"
-			tasks: [{
-				id: "4C687C384DD4E570"
-				type: "item"
-				item: "draconicevolution:draconium_dust"
-			}]
-			rewards: [{
-				id: "5367CBA9D3A7695F"
-				type: "item"
-				item: "draconicevolution:draconium_dust"
-				count: 16
-			}]
+			tasks: [
+				{
+					id: "4C687C384DD4E570"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+				}
+			]
+			rewards: [
+				{
+					id: "5367CBA9D3A7695F"
+					type: "item"
+					item: "draconicevolution:draconium_dust"
+					count: 16
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -61,17 +65,21 @@
 			shape: "hexagon"
 			dependencies: ["4414ABE1D7822C6E"]
 			id: "41AC0B64728398AF"
-			tasks: [{
-				id: "230606F6780411FC"
-				type: "item"
-				item: "draconicevolution:draconium_ingot"
-			}]
-			rewards: [{
-				id: "640AE652A75C09B3"
-				type: "item"
-				item: "draconicevolution:draconium_ingot"
-				count: 4
-			}]
+			tasks: [
+				{
+					id: "230606F6780411FC"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "640AE652A75C09B3"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+					count: 4
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -85,16 +93,20 @@
 			]
 			size: 1.5d
 			id: "3DEE79B6C18743BB"
-			tasks: [{
-				id: "34D62E02F41EA0F6"
-				type: "item"
-				item: "draconicevolution:draconium_core"
-			}]
-			rewards: [{
-				id: "79B1CB25B026202D"
-				type: "item"
-				item: "draconicevolution:draconium_core"
-			}]
+			tasks: [
+				{
+					id: "34D62E02F41EA0F6"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+			]
+			rewards: [
+				{
+					id: "79B1CB25B026202D"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -103,16 +115,20 @@
 			dependencies: ["3DEE79B6C18743BB"]
 			size: 1.5d
 			id: "7BDE44B2EBB9F092"
-			tasks: [{
-				id: "33245DEAA6821188"
-				type: "item"
-				item: "draconicevolution:wyvern_core"
-			}]
-			rewards: [{
-				id: "214AAC6C2D4F7CAC"
-				type: "item"
-				item: "draconicevolution:wyvern_core"
-			}]
+			tasks: [
+				{
+					id: "33245DEAA6821188"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+			]
+			rewards: [
+				{
+					id: "214AAC6C2D4F7CAC"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -121,16 +137,20 @@
 			dependencies: ["7BDE44B2EBB9F092"]
 			size: 1.5d
 			id: "186003E81B3E64B4"
-			tasks: [{
-				id: "01155059C5D4D993"
-				type: "item"
-				item: "draconicevolution:awakened_core"
-			}]
-			rewards: [{
-				id: "450E0D170D056484"
-				type: "item"
-				item: "draconicevolution:awakened_core"
-			}]
+			tasks: [
+				{
+					id: "01155059C5D4D993"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+				}
+			]
+			rewards: [
+				{
+					id: "450E0D170D056484"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -142,16 +162,20 @@
 			]
 			size: 1.5d
 			id: "30CC45BC745EFC5C"
-			tasks: [{
-				id: "6ABEDD6263DA9F85"
-				type: "item"
-				item: "draconicevolution:chaotic_core"
-			}]
-			rewards: [{
-				id: "50916ABA8FAEF379"
-				type: "item"
-				item: "draconicevolution:chaotic_core"
-			}]
+			tasks: [
+				{
+					id: "6ABEDD6263DA9F85"
+					type: "item"
+					item: "draconicevolution:chaotic_core"
+				}
+			]
+			rewards: [
+				{
+					id: "50916ABA8FAEF379"
+					type: "item"
+					item: "draconicevolution:chaotic_core"
+				}
+			]
 		}
 		{
 			x: 0.5d
@@ -165,16 +189,20 @@
 				"2F98FC6EB3FD8756"
 			]
 			id: "48A4816FD2732B2F"
-			tasks: [{
-				id: "5B69281F37E5A547"
-				type: "item"
-				item: "draconicevolution:awakened_draconium_block"
-			}]
-			rewards: [{
-				id: "4A25A709CA4C758E"
-				type: "item"
-				item: "draconicevolution:awakened_draconium_block"
-			}]
+			tasks: [
+				{
+					id: "5B69281F37E5A547"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+				}
+			]
+			rewards: [
+				{
+					id: "4A25A709CA4C758E"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+				}
+			]
 		}
 		{
 			x: 1.0d
@@ -183,16 +211,20 @@
 			description: ["你可以杀死末影龙来获得&6龙之心&r."]
 			dependencies: ["0BDA67667CF2B2A3"]
 			id: "723F46202A76C7FB"
-			tasks: [{
-				id: "50E3BCDCACCE2DE2"
-				type: "item"
-				item: "draconicevolution:dragon_heart"
-			}]
-			rewards: [{
-				id: "3F442E1A4E16D3F8"
-				type: "item"
-				item: "draconicevolution:dragon_heart"
-			}]
+			tasks: [
+				{
+					id: "50E3BCDCACCE2DE2"
+					type: "item"
+					item: "draconicevolution:dragon_heart"
+				}
+			]
+			rewards: [
+				{
+					id: "3F442E1A4E16D3F8"
+					type: "item"
+					item: "draconicevolution:dragon_heart"
+				}
+			]
 		}
 		{
 			x: 1.5d
@@ -200,51 +232,59 @@
 			shape: "hexagon"
 			dependencies: ["48A4816FD2732B2F"]
 			id: "5347872ED95C0D38"
-			tasks: [{
-				id: "6BD114F95114E6E7"
-				type: "item"
-				item: "draconicevolution:awakened_draconium_ingot"
-			}]
-			rewards: [{
-				id: "6626761A16AA137B"
-				type: "item"
-				item: "draconicevolution:awakened_draconium_ingot"
-			}]
+			tasks: [
+				{
+					id: "6BD114F95114E6E7"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "6626761A16AA137B"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+				}
+			]
 		}
 		{
 			x: 2.0d
 			y: 19.0d
 			shape: "hexagon"
 			description: [
-				"击败混沌守卫者后,您可以在混沌岛中拿起&8混沌碎片&r."
+				"击败混沌守卫者后,您可以在混沌岛中拾起&8混沌碎片&r."
 				""
-				"混沌岛每10000个方块放置一次."
+				"混沌岛每10000个方块出现一次."
 			]
 			dependencies: ["0BDA67667CF2B2A3"]
 			id: "02B88561BFA79370"
-			tasks: [{
-				id: "0AD476F8B524EA7A"
-				type: "item"
-				item: "draconicevolution:chaos_shard"
-				count: 5L
-			}]
-			rewards: [{
-				id: "749B1D520A88F986"
-				type: "item"
-				item: "draconicevolution:large_chaos_frag"
-				count: 5
-			}]
+			tasks: [
+				{
+					id: "0AD476F8B524EA7A"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "749B1D520A88F986"
+					type: "item"
+					item: "draconicevolution:large_chaos_frag"
+					count: 5
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 14.5d
 			shape: "hexagon"
 			description: [
-				"&d融合核心&r是多方块融合装置的核心."
+				"&d聚合核心&r是多方块聚合装置的核心."
 				""
 				"它用于容纳合成的核心物品."
 				""
-				"它通过按 GUI 上的按钮或红石信号来制作."
+				"它通过按GUI上的按钮或红石信号来制作."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -253,24 +293,29 @@
 			]
 			size: 1.5d
 			id: "7D1F2293C1E1979A"
-			tasks: [{
-				id: "7710EF3E28788D2B"
-				type: "item"
-				item: "draconicevolution:crafting_core"
-			}]
-			rewards: [{
-				id: "0C0157B77711A7F8"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7710EF3E28788D2B"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+			rewards: [
+				{
+					id: "0C0157B77711A7F8"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 14.5d
 			shape: "gear"
 			description: [
-				"&d龙聚变注入器&r是聚变制作中使用的注入器的第一层."
+				"&d基础注入器&r是聚合制作中使用的注入器的第一层."
 				""
-				"你必须至少将&c两个方块&r放置在距离聚变核心的地方,一面最多可放置&c3x3&r."
+				"你必须距离聚合核心至少&c两个方块&r的地方放置,一面最多可放置&c3x3&r."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -279,77 +324,97 @@
 				"5C396355C35FF855"
 			]
 			id: "794CE36A9EBCC151"
-			tasks: [{
-				id: "71940CD5973FE314"
-				type: "item"
-				item: "draconicevolution:basic_crafting_injector"
-			}]
-			rewards: [{
-				id: "70218DB1F760F605"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "71940CD5973FE314"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+				}
+			]
+			rewards: [
+				{
+					id: "70218DB1F760F605"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 16.0d
 			shape: "gear"
-			description: ["&d飞龙聚变注入器&r是聚变制作中使用的聚变注入器的第二层,是使用聚变合成制成的."]
+			description: ["&d飞龙注入器&r是聚合制作中使用的聚合注入器的第二层,是使用聚合合成制成的."]
 			dependencies: ["794CE36A9EBCC151"]
 			id: "2F98FC6EB3FD8756"
-			tasks: [{
-				id: "6318EEF5E0E7D167"
-				type: "item"
-				item: "draconicevolution:wyvern_crafting_injector"
-			}]
-			rewards: [{
-				id: "1490B696D16FFBAC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "6318EEF5E0E7D167"
+					type: "item"
+					item: "draconicevolution:wyvern_crafting_injector"
+				}
+			]
+			rewards: [
+				{
+					id: "1490B696D16FFBAC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 17.5d
 			shape: "gear"
-			description: ["&d神龙聚变注入器&r是聚变制作中使用的聚变注入器的第三层,是使用聚变合成制成的."]
+			description: ["&d神龙注入器&r是聚合制作中使用的聚合注入器的第三层,是使用聚合合成制成的."]
 			dependencies: ["2F98FC6EB3FD8756"]
 			id: "30D4F6F9F3D6EAB9"
-			tasks: [{
-				id: "4A8E9996058D59F6"
-				type: "item"
-				item: "draconicevolution:awakened_crafting_injector"
-			}]
-			rewards: [{
-				id: "67CCDC3026B8CCA2"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "4A8E9996058D59F6"
+					type: "item"
+					item: "draconicevolution:awakened_crafting_injector"
+				}
+			]
+			rewards: [
+				{
+					id: "67CCDC3026B8CCA2"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 19.0d
 			shape: "gear"
-			description: ["&d混沌注入器&r是聚变制作中使用的聚变注入器的第四级也是最后一层,是使用聚变制作制成的."]
+			description: ["&d混沌注入器&r是聚合制作中使用的聚合注入器的第四级也是最后一层,是使用聚合制作制成的."]
 			dependencies: ["30D4F6F9F3D6EAB9"]
 			id: "5E8C6F0D7FCAAEA9"
-			tasks: [{
-				id: "31BF02F226F133D7"
-				type: "item"
-				item: "draconicevolution:chaotic_crafting_injector"
-			}]
-			rewards: [{
-				id: "51BF87D6127C7CBE"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "31BF02F226F133D7"
+					type: "item"
+					item: "draconicevolution:chaotic_crafting_injector"
+				}
+			]
+			rewards: [
+				{
+					id: "51BF87D6127C7CBE"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 16.0d
 			shape: "hexagon"
 			description: [
-				"&d箱子碎片&r是神龙进化的新盔甲."
+				"&d飞龙护胸&r是龙之进化的新盔甲."
 				""
-				"你可以在上方的饰品槽或饰品槽中装上它."
+				"你可以在上方的身体饰品槽或饰品栏中装上它."
 				""
-				"&d飞龙宝箱碎片&r有模块的&56x5&r的网格."
+				"&d双足飞龙护胸&r具有&56x5&r的模块网格."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -359,41 +424,46 @@
 			]
 			size: 1.5d
 			id: "4B8E2064C4224291"
-			tasks: [{
-				id: "50A5004ABF208DA6"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_chestpiece"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-314780621
-									-968932777
-									-2123877049
-									2137137479
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "50A5004ABF208DA6"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-314780621
+										-968932777
+										-2123877049
+										2137137479
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0F5CC35DF1B6966A"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "0F5CC35DF1B6966A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 17.5d
 			shape: "hexagon"
-			description: ["&d神龙宝箱碎片&r有模块的&58x6&r的网格."]
+			description: ["&d神龙护胸&r具有&58x6&r的模块网格."]
 			hide_dependency_lines: true
 			dependencies: [
 				"4B8E2064C4224291"
@@ -403,41 +473,46 @@
 			]
 			size: 1.5d
 			id: "23F3B70F657CB028"
-			tasks: [{
-				id: "15EE37466DE87294"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_chestpiece"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-198309178
-									1124287799
-									-1647907713
-									-444005416
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "15EE37466DE87294"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-198309178
+										1124287799
+										-1647907713
+										-444005416
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "07A39B3C9BF6D26D"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "07A39B3C9BF6D26D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 7.0d
 			y: 19.0d
 			shape: "hexagon"
-			description: ["&d混沌箱子碎片&r有模块的&510x8&r的网格."]
+			description: ["&d混沌护胸&r具有&510x8&r的模块网格."]
 			hide_dependency_lines: true
 			dependencies: [
 				"23F3B70F657CB028"
@@ -447,46 +522,51 @@
 			]
 			size: 1.5d
 			id: "26E0E2666DD03580"
-			tasks: [{
-				id: "0309A48BE4C3BC98"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_chestpiece"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-35981246
-									1910065371
-									-1939062808
-									297779094
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "0309A48BE4C3BC98"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-35981246
+										1910065371
+										-1939062808
+										297779094
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "2DD395EC7062153D"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "2DD395EC7062153D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -2.5d
 			y: 12.0d
 			shape: "diamond"
 			description: [
-				"&b高级传送器&r 是一个存储大量传送点的设备."
+				"&b高级传送符咒&r是一个存储大量传送点的设备."
 				""
 				"&6shift右键单击&r来记录你的传送点,你可以重命名它并锁定它."
 				""
-				"&b高级传送仪&r使用末影珍珠作为燃料."
+				"&b高级传送符咒&r使用末影珍珠作为燃料."
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -496,26 +576,31 @@
 				"41AC0B64728398AF"
 			]
 			id: "3F07BE747490BD05"
-			tasks: [{
-				id: "07490592CE2E430A"
-				type: "item"
-				item: {
-					id: "draconicevolution:advanced_dislocator"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "07490592CE2E430A"
+					type: "item"
+					item: {
+						id: "draconicevolution:advanced_dislocator"
+						Count: 1b
+						tag: { }
+					}
 				}
-			}]
-			rewards: [{
-				id: "1CE4C3BBF618B0E4"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "1CE4C3BBF618B0E4"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 11.0d
-			subtitle: "巨人!"
+			subtitle: "嗖嗖!"
 			description: [
-				"&d传送器&r用于传送你."
+				"&d传送符咒&r用于传送你."
 				""
 				"&6shift右键单击&r以设置传送位置,然后你可以&6右键单击&r将其传送到位置(在任何维度中工作)."
 			]
@@ -525,545 +610,615 @@
 				"57DBDBDE8D06C2AF"
 			]
 			id: "6E06971F3F472AF9"
-			tasks: [{
-				id: "208FBD7594572032"
-				type: "item"
-				item: {
-					id: "draconicevolution:dislocator"
-					Count: 1b
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "208FBD7594572032"
+					type: "item"
+					item: {
+						id: "draconicevolution:dislocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6A53446DA37091EB"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6A53446DA37091EB"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 11.0d
 			description: [
-				"&d传送带基座允许放置传送带."
+				"&d传送符咒基座允许放置传送符咒."
 				""
-				"然后右键单击基座以传送到传送器保存的位置."
+				"然后右键单击基座以传送到传送符咒保存的位置."
 			]
 			dependencies: ["57DBDBDE8D06C2AF"]
 			id: "038CE16EC0D008CF"
-			tasks: [{
-				id: "78F469DDF0003A7F"
-				type: "item"
-				item: "draconicevolution:dislocator_pedestal"
-			}]
-			rewards: [{
-				id: "3AD7ADB5F6A7E4F4"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "78F469DDF0003A7F"
+					type: "item"
+					item: "draconicevolution:dislocator_pedestal"
+				}
+			]
+			rewards: [
+				{
+					id: "3AD7ADB5F6A7E4F4"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 16.0d
 			shape: "square"
-			description: ["&d飞龙弓&r有模块的&54x4&r的网格."]
+			description: ["&d双足飞龙弓&r具有&54x4&r的模块网格."]
 			dependencies: ["2F98FC6EB3FD8756"]
 			id: "56312E4EFCCF5CF6"
-			tasks: [{
-				id: "4CAAED8485548436"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-526685370
-									1766805218
-									-2019470731
-									-232607724
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "4CAAED8485548436"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-526685370
+										1766805218
+										-2019470731
+										-232607724
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6B636937EB273577"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6B636937EB273577"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 17.5d
 			shape: "square"
-			description: ["&d神龙弓&r有模块的&56x5&r的网格."]
+			description: ["&d神龙弓&r具有&56x5&r的模块网格."]
 			dependencies: [
 				"56312E4EFCCF5CF6"
 				"30D4F6F9F3D6EAB9"
 			]
 			id: "0D16E71E4E3C21D7"
-			tasks: [{
-				id: "4F5B428706C4A833"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1099695692
-									600853834
-									-1286638189
-									504371752
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "4F5B428706C4A833"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1099695692
+										600853834
+										-1286638189
+										504371752
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "30735055E4B2E92E"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "30735055E4B2E92E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 8.5d
 			y: 19.0d
 			shape: "square"
-			description: ["&d混沌弓&r有模块的&58x6&r的网格."]
+			description: ["&d混沌弓&r具有&58x6&r的模块网格."]
 			dependencies: [
 				"0D16E71E4E3C21D7"
 				"5E8C6F0D7FCAAEA9"
 			]
 			id: "22777815DBDA5CFB"
-			tasks: [{
-				id: "22D6485892C95C48"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_bow"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1060164666
-									-1395831008
-									-1569332271
-									-1844231176
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "22D6485892C95C48"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_bow"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1060164666
+										-1395831008
+										-1569332271
+										-1844231176
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0228D3375C120459"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "0228D3375C120459"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: 16.0d
 			shape: "square"
-			description: ["&d飞龙之剑&r有模块的&54x4&r的网格."]
+			description: ["&d双足飞龙剑&r具有&54x4&r的模块网格."]
 			dependencies: ["2F98FC6EB3FD8756"]
 			id: "3456DE9307F84925"
-			tasks: [{
-				id: "21B0C7D6FFFE3ACD"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_sword"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1811504325
-									1561805946
-									-1160417083
-									1696152094
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "21B0C7D6FFFE3ACD"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_sword"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1811504325
+										1561805946
+										-1160417083
+										1696152094
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "055F04B4AFA30792"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "055F04B4AFA30792"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: 17.5d
 			shape: "square"
-			description: ["&d神龙之剑&r有模块的&56x5&r的网格."]
+			description: ["&d神龙剑&r具有&56x5&r的模块网格."]
 			dependencies: [
 				"3456DE9307F84925"
 				"30D4F6F9F3D6EAB9"
 			]
 			id: "0E22D494BB7DA7C7"
-			tasks: [{
-				id: "431A098C9CEFE486"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_sword"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									1177073214
-									-371375836
-									-1368801414
-									1066612165
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "431A098C9CEFE486"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_sword"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1177073214
+										-371375836
+										-1368801414
+										1066612165
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0B92179647E0F2A0"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "0B92179647E0F2A0"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
 			y: 19.0d
 			shape: "square"
-			description: ["&d混沌之剑&r有模块的&58x6&r的网格."]
+			description: ["&d混沌剑&r具有&58x6&r的模块网格."]
 			dependencies: [
 				"0E22D494BB7DA7C7"
 				"5E8C6F0D7FCAAEA9"
 			]
 			id: "7C689DD87E836201"
-			tasks: [{
-				id: "70CDCB4659BE9813"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_sword"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1991938178
-									-140555573
-									-1524801236
-									2054035337
-								]
-								modules: [ ]
-								properties: { }
-							}
-							energy: {
-								energy: 0L
+			tasks: [
+				{
+					id: "70CDCB4659BE9813"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_sword"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1991938178
+										-140555573
+										-1524801236
+										2054035337
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "661507E4F2C13547"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "661507E4F2C13547"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: 16.0d
 			shape: "square"
-			description: ["&d飞龙镐&r有模块的&54x4&r的网格."]
+			description: ["&d双足飞龙镐&r具有&54x4&r的模块网格."]
 			dependencies: ["2F98FC6EB3FD8756"]
 			id: "0B5516A84DC9138E"
-			tasks: [{
-				id: "5D15B9C11BAB5572"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_pickaxe"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-771155307
-									1010715190
-									-1246247619
-									1180349441
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "5D15B9C11BAB5572"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_pickaxe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-771155307
+										1010715190
+										-1246247619
+										1180349441
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "70D0C8C53CE1B3B1"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "70D0C8C53CE1B3B1"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: 17.5d
 			shape: "square"
-			description: ["&d神龙镐&r有模块的&56x5&r的网格."]
+			description: ["&d神龙镐&r具有&56x5&r的模块网格."]
 			dependencies: [
 				"0B5516A84DC9138E"
 				"30D4F6F9F3D6EAB9"
 			]
 			id: "05D3378A9E18DA8A"
-			tasks: [{
-				id: "28299DA5F2D4695E"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_pickaxe"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1338576426
-									1933659746
-									-1294160311
-									1350732479
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "28299DA5F2D4695E"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_pickaxe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1338576426
+										1933659746
+										-1294160311
+										1350732479
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "32B01ABC91E3795A"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "32B01ABC91E3795A"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: 19.0d
 			shape: "square"
-			description: ["&d混沌镐&r有模块的&58x6&r的网格."]
+			description: ["&d混沌镐&r具有&58x6&r的模块网格."]
 			dependencies: [
 				"05D3378A9E18DA8A"
 				"5E8C6F0D7FCAAEA9"
 			]
 			id: "2382E81E30018750"
-			tasks: [{
-				id: "364414A2CE630511"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_pickaxe"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1496280734
-									765216274
-									-1901495614
-									2038767703
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "364414A2CE630511"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_pickaxe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1496280734
+										765216274
+										-1901495614
+										2038767703
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6FE62797E10AE053"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6FE62797E10AE053"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
 			y: 16.0d
 			shape: "square"
-			description: ["&d飞龙铲&r有模块的&54x4&r的网格."]
+			description: ["&d双足飞龙铲&r具有&54x4&r的模块网格."]
 			dependencies: ["2F98FC6EB3FD8756"]
 			id: "7D86B0E9C0399246"
-			tasks: [{
-				id: "4ED4292D2F8E71F2"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_shovel"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1774379770
-									-1263252478
-									-1164211957
-									307026243
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "4ED4292D2F8E71F2"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_shovel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1774379770
+										-1263252478
+										-1164211957
+										307026243
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "003FA4E49780A708"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "003FA4E49780A708"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
 			y: 17.5d
 			shape: "square"
-			description: ["&d神龙铲&r有模块的&56x5&r的网格."]
+			description: ["&d神龙铲&r具有&56x5&r的模块网格."]
 			dependencies: [
 				"7D86B0E9C0399246"
 				"30D4F6F9F3D6EAB9"
 			]
 			id: "049C87C85C93CDC2"
-			tasks: [{
-				id: "7FDE5F7D522DB924"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_shovel"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									695203866
-									-434223988
-									-2008643676
-									1411803472
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "7FDE5F7D522DB924"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_shovel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										695203866
+										-434223988
+										-2008643676
+										1411803472
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "50DA0C982D01A1DC"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "50DA0C982D01A1DC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
 			y: 19.0d
 			shape: "square"
-			description: ["&d混沌铲&r有模块的&58x6&r的网格."]
+			description: ["&d混沌铲&r具有&58x6&r的模块网格."]
 			dependencies: [
 				"049C87C85C93CDC2"
 				"5E8C6F0D7FCAAEA9"
 			]
 			id: "455A3CAA897731A8"
-			tasks: [{
-				id: "614D989B943B0214"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_shovel"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									1026034558
-									-1360182966
-									-1690752874
-									-413980274
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "614D989B943B0214"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_shovel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1026034558
+										-1360182966
+										-1690752874
+										-413980274
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3202697226BF7CCF"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "3202697226BF7CCF"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: 17.5d
 			shape: "octagon"
-			description: ["&d神龙之杖&r有模块的&58x6&r的网格."]
+			description: ["&d神龙之力权杖&r具有&58x6&r的模块网格."]
 			dependencies: [
 				"049C87C85C93CDC2"
 				"05D3378A9E18DA8A"
@@ -1072,46 +1227,51 @@
 			]
 			size: 1.5d
 			id: "698671248A4A56D2"
-			tasks: [{
-				id: "68724E3C8573E995"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_staff"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-614092634
-									-864073959
-									-1531938746
-									-262768114
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "68724E3C8573E995"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-614092634
+										-864073959
+										-1531938746
+										-262768114
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "3AEFE7C22D2ACBB9"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "3AEFE7C22D2ACBB9"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 13.0d
 			y: 19.0d
 			shape: "octagon"
-			description: ["&d混沌之力杖&r有模块的&510x8&r的网格."]
+			description: ["&d混沌之力权杖&r具有&510x8&r的模块网格."]
 			dependencies: [
 				"455A3CAA897731A8"
 				"2382E81E30018750"
@@ -1120,45 +1280,50 @@
 			]
 			size: 1.5d
 			id: "7A46209F3EFBCBC1"
-			tasks: [{
-				id: "00FB83966A16D2D6"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_staff"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1458342413
-									140397524
-									-1713524258
-									-1256205110
-								]
-								modules: [ ]
-								properties: {
-									mining_speed: {
-										hud: 1b
-										value: 1.0d
+			tasks: [
+				{
+					id: "00FB83966A16D2D6"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1458342413
+										140397524
+										-1713524258
+										-1256205110
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "5B7DFDFE9206D536"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "5B7DFDFE9206D536"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
 			y: 16.0d
-			description: ["&d飞龙电容装配机&r有模块的&54x4&r的电容."]
+			description: ["&d双足飞龙电容&r具有&54x4&r的模块电容."]
 			hide_dependency_lines: true
 			dependencies: [
 				"41AC0B64728398AF"
@@ -1166,155 +1331,170 @@
 				"2F98FC6EB3FD8756"
 			]
 			id: "1144C79D6AFB58A5"
-			tasks: [{
-				id: "0CC0A4D2E7A2CDD3"
-				type: "item"
-				item: {
-					id: "draconicevolution:wyvern_capacitor"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									-1611343373
-									-794999979
-									-2019798660
-									-279284291
-								]
-								modules: [ ]
-								properties: {
-									charge_main: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_armor: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
+			tasks: [
+				{
+					id: "0CC0A4D2E7A2CDD3"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_capacitor"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-1611343373
+										-794999979
+										-2019798660
+										-279284291
+									]
+									modules: [ ]
+									properties: {
+										charge_main: {
+											hud: 1b
+										}
+										charge_curios: {
+											hud: 1b
+										}
+										charge_hot_bar: {
+											hud: 1b
+										}
+										charge_armor: {
+											hud: 1b
+										}
+										charge_held_item: {
+											hud: 1b
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "6166D9ED9798E3FE"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "6166D9ED9798E3FE"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
 			y: 17.5d
-			description: ["&d神龙电容(神龙电容)&r有模块的&56x5&r的网格."]
+			description: ["&d神龙电容&r具有&56x5&r的模块网格."]
 			dependencies: ["1144C79D6AFB58A5"]
 			id: "357943ECF5E58743"
-			tasks: [{
-				id: "74154B964BE959AB"
-				type: "item"
-				item: {
-					id: "draconicevolution:draconic_capacitor"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									2131703770
-									-139441400
-									-1721591607
-									-278333905
-								]
-								modules: [ ]
-								properties: {
-									charge_main: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_armor: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
+			tasks: [
+				{
+					id: "74154B964BE959AB"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_capacitor"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										2131703770
+										-139441400
+										-1721591607
+										-278333905
+									]
+									modules: [ ]
+									properties: {
+										charge_main: {
+											hud: 1b
+										}
+										charge_curios: {
+											hud: 1b
+										}
+										charge_hot_bar: {
+											hud: 1b
+										}
+										charge_armor: {
+											hud: 1b
+										}
+										charge_held_item: {
+											hud: 1b
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "25E95AE38A283936"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "25E95AE38A283936"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 14.5d
 			y: 19.0d
-			description: ["&d混沌电容&r有模块的&58x6&r的电容."]
+			description: ["&d混沌电容&r具有&58x6&r的模块电容."]
 			dependencies: ["357943ECF5E58743"]
 			id: "52B84CFBBF1F5C3D"
-			tasks: [{
-				id: "4DE87ED85C5F319F"
-				type: "item"
-				item: {
-					id: "draconicevolution:chaotic_capacitor"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							module_host: {
-								provider_id: [I;
-									1531251522
-									1184514569
-									-2005122767
-									-1115993171
-								]
-								modules: [ ]
-								properties: {
-									charge_main: {
-										hud: 1b
-									}
-									charge_curios: {
-										hud: 1b
-									}
-									charge_hot_bar: {
-										hud: 1b
-									}
-									charge_armor: {
-										hud: 1b
-									}
-									charge_held_item: {
-										hud: 1b
+			tasks: [
+				{
+					id: "4DE87ED85C5F319F"
+					type: "item"
+					item: {
+						id: "draconicevolution:chaotic_capacitor"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1531251522
+										1184514569
+										-2005122767
+										-1115993171
+									]
+									modules: [ ]
+									properties: {
+										charge_main: {
+											hud: 1b
+										}
+										charge_curios: {
+											hud: 1b
+										}
+										charge_hot_bar: {
+											hud: 1b
+										}
+										charge_armor: {
+											hud: 1b
+										}
+										charge_held_item: {
+											hud: 1b
+										}
 									}
 								}
-							}
-							energy: {
-								energy: 0L
+								energy: {
+									energy: 0L
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "0CDC589CDC0A2F7E"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "0CDC589CDC0A2F7E"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -4.0d
@@ -1327,40 +1507,50 @@
 				"47A4D81697C274A3"
 			]
 			id: "6A1308B1983DBBC3"
-			tasks: [{
-				id: "59E4A3C7C730B99F"
-				type: "item"
-				item: "draconicevolution:generator"
-			}]
-			rewards: [{
-				id: "2710AB1E5B3FF270"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "59E4A3C7C730B99F"
+					type: "item"
+					item: "draconicevolution:generator"
+				}
+			]
+			rewards: [
+				{
+					id: "2710AB1E5B3FF270"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: 12.5d
-			description: ["&d物品传送器&r是具有 8 个方块的磁铁."]
+			description: ["&d物品传送符咒&r是具有8个方块的磁铁."]
 			hide_dependency_lines: true
 			dependencies: [
 				"6E06971F3F472AF9"
 				"41AC0B64728398AF"
 			]
 			id: "636050D700FFCD24"
-			tasks: [{
-				id: "5EFB8A025B8EA23B"
-				type: "item"
-				item: "draconicevolution:magnet"
-			}]
-			rewards: [{
-				id: "1171584B32909C81"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "5EFB8A025B8EA23B"
+					type: "item"
+					item: "draconicevolution:magnet"
+				}
+			]
+			rewards: [
+				{
+					id: "1171584B32909C81"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 12.5d
-			description: ["&d觉醒物品传送器&r是物品传送器的升级,范围为 32 个方块."]
+			description: ["&d高级物品传送符咒&r是物品传送符咒的升级,范围为32个方块."]
 			hide_dependency_lines: true
 			dependencies: [
 				"636050D700FFCD24"
@@ -1368,21 +1558,26 @@
 				"41AC0B64728398AF"
 			]
 			id: "2EB5954D88AC7C58"
-			tasks: [{
-				id: "644372A39B618648"
-				type: "item"
-				item: "draconicevolution:advanced_magnet"
-			}]
-			rewards: [{
-				id: "13D7FD4CD884998C"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "644372A39B618648"
+					type: "item"
+					item: "draconicevolution:advanced_magnet"
+				}
+			]
+			rewards: [
+				{
+					id: "13D7FD4CD884998C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: 11.0d
 			shape: "diamond"
-			description: ["&d模块核心&r是所有模块的基础,用于你的神龙进化物品."]
+			description: ["&d模块核心&r是所有模块的基础,用于你的龙之进化物品."]
 			hide_dependency_lines: true
 			dependencies: [
 				"41AC0B64728398AF"
@@ -1392,17 +1587,21 @@
 			]
 			size: 2.0d
 			id: "2671EB0D79269F64"
-			tasks: [{
-				id: "6A062CF59AF03A70"
-				type: "item"
-				item: "draconicevolution:module_core"
-			}]
-			rewards: [{
-				id: "175B06AAF3CFDFEF"
-				type: "item"
-				item: "draconicevolution:module_core"
-				count: 8
-			}]
+			tasks: [
+				{
+					id: "6A062CF59AF03A70"
+					type: "item"
+					item: "draconicevolution:module_core"
+				}
+			]
+			rewards: [
+				{
+					id: "175B06AAF3CFDFEF"
+					type: "item"
+					item: "draconicevolution:module_core"
+					count: 8
+				}
+			]
 		}
 		{
 			x: -3.5d
@@ -1415,15 +1614,20 @@
 				"3DEE79B6C18743BB"
 			]
 			id: "66820FD25D19C2AD"
-			tasks: [{
-				id: "4FB5E7A373B7AFE5"
-				type: "item"
-				item: "draconicevolution:crystal_binder"
-			}]
-			rewards: [{
-				id: "541A70F8E0D8BB0D"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "4FB5E7A373B7AFE5"
+					type: "item"
+					item: "draconicevolution:crystal_binder"
+				}
+			]
+			rewards: [
+				{
+					id: "541A70F8E0D8BB0D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "基础能量运输"
@@ -1431,11 +1635,11 @@
 			y: 10.0d
 			shape: "diamond"
 			description: [
-				"&d能量中继水晶&r用于在 I/O水晶和能量水晶之间合成中继器,它可以存储 4M RF,具有 8 个链接,具有 32 个方块的范围."
+				"&d能量中继水晶&r用于在I/O水晶和能量水晶之间合成中继器,它可以存储4MRF,具有8个链接,具有32个方块的范围."
 				""
-				"&d基础能量I/O水晶&r可以存储 4M RF,具有两个链接,具有 32 个方块的范围."
+				"&d基础能量I/O水晶&r可以存储4MRF,具有2个链接,具有32个方块的范围."
 				""
-				"&d基础无线能量水晶&ris用于无线为机器供电,可以存储 4M RF,具有 4 个链接,可以提供 16 台无线能量水晶的RF,并且有128 个方块."
+				"&d基础无线能量水晶&ris用于无线为机器供电,可以存储4MRF,具有4个链接,可以提供16台无线能量水晶的RF,并且有128个方块."
 			]
 			hide_dependency_lines: true
 			dependencies: ["66820FD25D19C2AD"]
@@ -1457,10 +1661,13 @@
 					item: "draconicevolution:basic_wireless_crystal"
 				}
 			]
-			rewards: [{
-				id: "79337266A7AD4645"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "79337266A7AD4645"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "飞龙能量传输"
@@ -1468,11 +1675,11 @@
 			y: 10.5d
 			shape: "diamond"
 			description: [
-				"&d飞龙能量中继水晶&r用于在 I/O 水晶和能量水晶之间合成中继器,它可以存储 16M RF,具有 16 个链接,具有 64 个方块的范围."
+				"&d飞龙能量中继水晶&r用于在I/O水晶和能量水晶之间合成中继器,它可以存储16MRF,具有16个链接,具有64个方块的范围."
 				""
-				"&d飞龙能量I/O水晶&r可以存储 16M RF,具有 3 个链接,具有 64 个方块的范围."
+				"&d飞龙能量I/O水晶&r可以存储16MRF,具有3个链接,具有64个方块的范围."
 				""
-				"&d飞龙无线能量水晶&r用于为机器无限充电,它可以存储 16M RF,具有 8 个链接,它可以为 32 台机器提供无线RF,并且有128 个方块的范围."
+				"&d飞龙无线能量水晶&r用于为机器无限充电,它可以存储16MRF,具有8个链接,它可以为32台机器提供无线RF,并且有128个方块的范围."
 			]
 			hide_dependency_lines: true
 			dependencies: ["21337C88E810A987"]
@@ -1494,10 +1701,13 @@
 					item: "draconicevolution:wyvern_wireless_crystal"
 				}
 			]
-			rewards: [{
-				id: "705BBE6BF2A63F25"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "705BBE6BF2A63F25"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "神龙能量运输"
@@ -1505,11 +1715,11 @@
 			y: 10.5d
 			shape: "diamond"
 			description: [
-				"&d神龙能量中继水晶&r用于在 I/O水晶和能量水晶之间进行中继,它可以存储 64M RF,具有 32 个链接,具有 128 个方块的范围."
+				"&d神龙能量中继水晶&r用于在I/O水晶和能量水晶之间进行中继,它可以存储64MRF,具有32个链接,具有128个方块的范围."
 				""
-				"&d神龙能量I/O水晶&r可以存储 64M RF,有 4 个链接,具有 128 个方块的范围."
+				"&d神龙能量I/O水晶&r可以存储64MRF,有4个链接,具有128个方块的范围."
 				""
-				"&d神龙无线能量水晶&r用于无线为机器供电,它可以存储64M RF,有 16 个链接,它可以为64 台机器提供无线RF,并且有128 个方块的范围."
+				"&d神龙无线能量水晶&r用于无线为机器供电,它可以存储64MRF,有16个链接,它可以为64台机器提供无线RF,并且有128个方块的范围."
 			]
 			hide_dependency_lines: true
 			dependencies: ["26E0A88FEF2D485A"]
@@ -1531,17 +1741,20 @@
 					item: "draconicevolution:draconic_wireless_crystal"
 				}
 			]
-			rewards: [{
-				id: "45D93D459A4FA899"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "45D93D459A4FA899"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -2.0d
 			y: 11.5d
 			shape: "diamond"
 			description: [
-				"&d能量转换器&r用于更快地为你的神龙物品充电."
+				"&d能量注入器&r用于更快地为你的神龙物品充电."
 				""
 				"你可以给里面的4个物品或方块充电."
 			]
@@ -1551,23 +1764,28 @@
 				"41AC0B64728398AF"
 			]
 			id: "41C21364F8E173F9"
-			tasks: [{
-				id: "7FAF7112DD6C9342"
-				type: "item"
-				item: "draconicevolution:energy_transfuser"
-			}]
-			rewards: [{
-				id: "4CDABC9214791356"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7FAF7112DD6C9342"
+					type: "item"
+					item: "draconicevolution:energy_transfuser"
+				}
+			]
+			rewards: [
+				{
+					id: "4CDABC9214791356"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -3.5d
 			y: 12.0d
 			shape: "diamond"
-			subtitle: "杀死2000!"
+			subtitle: "杀死2000个!"
 			description: [
-				"&d生物磨床&r用于用强大的过滤器杀死生物."
+				"&d怪物磨床&r用于用强大的穿透杀死生物."
 				""
 				"你可以更改Aoe的大小."
 				"您可以定义它是否收集物品和/或经验."
@@ -1583,21 +1801,26 @@
 				"41AC0B64728398AF"
 			]
 			id: "6FFF587823D1632E"
-			tasks: [{
-				id: "07AD80497B231A17"
-				type: "item"
-				item: "draconicevolution:grinder"
-			}]
-			rewards: [{
-				id: "1636EA2CD64C4170"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "07AD80497B231A17"
+					type: "item"
+					item: "draconicevolution:grinder"
+				}
+			]
+			rewards: [
+				{
+					id: "1636EA2CD64C4170"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.0d
 			y: 10.5d
 			shape: "diamond"
-			description: ["&d能量模块&r用于增加你的东西的能量."]
+			description: ["&d能量模块&r用于增加你的能量."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "25A9D26C83B360D6"
 			tasks: [
@@ -1622,10 +1845,13 @@
 					item: "draconicevolution:chaotic_energy_module"
 				}
 			]
-			rewards: [{
-				id: "15AF797309B519D9"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "15AF797309B519D9"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -1656,10 +1882,13 @@
 					item: "draconicevolution:chaotic_speed_module"
 				}
 			]
-			rewards: [{
-				id: "7F2E79BAC7DE9A95"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "7F2E79BAC7DE9A95"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.5d
@@ -1690,10 +1919,13 @@
 					item: "draconicevolution:chaotic_damage_module"
 				}
 			]
-			rewards: [{
-				id: "4429E861415D2613"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4429E861415D2613"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 9.5d
@@ -1724,17 +1956,20 @@
 					item: "draconicevolution:chaotic_aoe_module"
 				}
 			]
-			rewards: [{
-				id: "606E96BF688C2557"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "606E96BF688C2557"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
-			title: "弹射速度模块"
+			title: "弹射物伤害模块"
 			x: 8.5d
 			y: 11.0d
 			shape: "diamond"
-			description: ["&d投影速度模块&r用于增加射箭的速度."]
+			description: ["&d弹射物伤害模块&r用于增加射箭的速度."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "66D3BB3C1DAFD589"
 			tasks: [
@@ -1754,17 +1989,20 @@
 					item: "draconicevolution:chaotic_proj_velocity_module"
 				}
 			]
-			rewards: [{
-				id: "1CAE6458F6029CC9"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1CAE6458F6029CC9"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
-			title: "弹射精准模块"
+			title: "弹射物精度模块"
 			x: 9.5d
 			y: 13.0d
 			shape: "diamond"
-			description: ["&d弹射精准模块&r用于提高弓的精度."]
+			description: ["&d弹射物精度模块&r用于提高弓的精度."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "5A6C1C19CB67CF09"
 			tasks: [
@@ -1784,17 +2022,20 @@
 					item: "draconicevolution:chaotic_proj_accuracy_module"
 				}
 			]
-			rewards: [{
-				id: "172321551073904F"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "172321551073904F"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
-			title: "投影重力单元"
+			title: "弹射物重力补偿模块"
 			x: 10.5d
 			y: 10.0d
 			shape: "diamond"
-			description: ["&d弹射重力反应模块&r用于使你的弓更直直,因此更远的射线."]
+			description: ["&d弹射物重力补偿模块&r用于使你的弓射的更直,因此射的更远."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "1A6D9F79DEF0AA22"
 			tasks: [
@@ -1814,18 +2055,21 @@
 					item: "draconicevolution:chaotic_proj_grav_comp_module"
 				}
 			]
-			rewards: [{
-				id: "5BD1F46BD1DB23A4"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5BD1F46BD1DB23A4"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
-			title: "弹射穿透模块"
+			title: "弹射物破防模块"
 			x: 9.0d
 			y: 11.5d
 			shape: "diamond"
 			subtitle: "穿透护甲!"
-			description: ["&d弹射穿透模块&r用于在射箭时穿透盔甲,有时你甚至可以穿过目标并可能击中其他目标."]
+			description: ["&d弹射物破防模块&r用于在射箭时穿透盔甲,有时你甚至可以穿过目标并击中其他目标."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "75C30C2FF55A9533"
 			tasks: [
@@ -1845,10 +2089,13 @@
 					item: "draconicevolution:chaotic_proj_penetration_module"
 				}
 			]
-			rewards: [{
-				id: "3FDB2F6483E9F95C"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3FDB2F6483E9F95C"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "弹射物伤害模块"
@@ -1875,10 +2122,13 @@
 					item: "draconicevolution:chaotic_proj_damage_module"
 				}
 			]
-			rewards: [{
-				id: "25BE0F7B03C6B4C4"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "25BE0F7B03C6B4C4"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 11.0d
@@ -1888,33 +2138,43 @@
 			description: ["&d自动火焰模块&r,用于在你的弓上添加自动火焰."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "54E3E916D4F42BA3"
-			tasks: [{
-				id: "5A78964F02798386"
-				type: "item"
-				item: "draconicevolution:wyvern_auto_fire_module"
-			}]
-			rewards: [{
-				id: "1DA454BB10131F29"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "5A78964F02798386"
+					type: "item"
+					item: "draconicevolution:wyvern_auto_fire_module"
+				}
+			]
+			rewards: [
+				{
+					id: "1DA454BB10131F29"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.5d
 			y: 9.0d
 			shape: "diamond"
 			subtitle: "再见末影人!"
-			description: ["&d弹射物免疫加速模块&r用于在你想射死末影人时移除末影人的传送."]
+			description: ["&d弹射物免疫传送模块&r用于在你想射死末影人时移除末影人的传送."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "151574B262D18C44"
-			tasks: [{
-				id: "188B38F15B3F3105"
-				type: "item"
-				item: "draconicevolution:draconic_proj_anti_immune_module"
-			}]
-			rewards: [{
-				id: "2E24E26452367CCC"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "188B38F15B3F3105"
+					type: "item"
+					item: "draconicevolution:draconic_proj_anti_immune_module"
+				}
+			]
+			rewards: [
+				{
+					id: "2E24E26452367CCC"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "护盾控制模块"
@@ -1941,10 +2201,13 @@
 					item: "draconicevolution:chaotic_shield_control_module"
 				}
 			]
-			rewards: [{
-				id: "29709FBAA42C2871"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "29709FBAA42C2871"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "护盾容量模块"
@@ -1971,10 +2234,13 @@
 					item: "draconicevolution:chaotic_shield_capacity_module"
 				}
 			]
-			rewards: [{
-				id: "3693EFBC725398CA"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "3693EFBC725398CA"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "大型护盾容量模块"
@@ -2002,17 +2268,20 @@
 					item: "draconicevolution:chaotic_large_shield_capacity_module"
 				}
 			]
-			rewards: [{
-				id: "618FD5E9231C3D4B"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "618FD5E9231C3D4B"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "护盾恢复模块"
 			x: 10.0d
 			y: 12.5d
 			shape: "diamond"
-			description: ["&d护盾恢复模块&r 允许你增加护盾对宝箱的充能."]
+			description: ["&d护盾恢复模块&r可以让你提高胸甲的护盾充能能力."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "5C9C903FC9672E84"
 			tasks: [
@@ -2032,27 +2301,35 @@
 					item: "draconicevolution:chaotic_shield_recovery_module"
 				}
 			]
-			rewards: [{
-				id: "36FC73C4271F4685"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "36FC73C4271F4685"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.0d
 			y: 9.5d
 			shape: "diamond"
-			description: ["&d山地步骤模块&r为您提供台阶帮助的能力."]
+			description: ["&d自动跳跃模块&r为您提供跨步帮助的能力."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "706098A73A2DF519"
-			tasks: [{
-				id: "6D95B21F155913E0"
-				type: "item"
-				item: "draconicevolution:wyvern_hill_step_module"
-			}]
-			rewards: [{
-				id: "7EC541B6942706B1"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "6D95B21F155913E0"
+					type: "item"
+					item: "draconicevolution:wyvern_hill_step_module"
+				}
+			]
+			rewards: [
+				{
+					id: "7EC541B6942706B1"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -2083,10 +2360,13 @@
 					item: "draconicevolution:chaotic_jump_module"
 				}
 			]
-			rewards: [{
-				id: "1744C5990630B2B5"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "1744C5990630B2B5"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "飞行模块"
@@ -2095,7 +2375,7 @@
 			shape: "diamond"
 			subtitle: "比精灵好"
 			description: [
-				"&d飞行模块&r在你的箱子上为你提供了一个 abletra."
+				"&d飞行模块&r在你的护胸上为你提供了一个鞘翅."
 				""
 				"通过解锁&6神龙飞行模块&r你就可以有&e创造飞行&r."
 			]
@@ -2118,10 +2398,13 @@
 					item: "draconicevolution:chaotic_flight_module"
 				}
 			]
-			rewards: [{
-				id: "22B370EF66DB087D"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "22B370EF66DB087D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "不死模块"
@@ -2129,7 +2412,7 @@
 			y: 11.5d
 			shape: "diamond"
 			subtitle: "坚不可摧?"
-			description: ["&d耐久模块&r基本是一个可以安装在宝箱上的图腾."]
+			description: ["&d不死模块&r基本是一个可以安装在护胸上的图腾."]
 			dependencies: ["2671EB0D79269F64"]
 			id: "7C29C48445E62700"
 			tasks: [
@@ -2149,10 +2432,13 @@
 					item: "draconicevolution:chaotic_undying_module"
 				}
 			]
-			rewards: [{
-				id: "146919A6E38AA879"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "146919A6E38AA879"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 8.0d
@@ -2178,10 +2464,13 @@
 					item: "draconicevolution:draconic_auto_feed_module"
 				}
 			]
-			rewards: [{
-				id: "5247AFABB352370D"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "5247AFABB352370D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			title: "神龙能量存储"
@@ -2189,50 +2478,50 @@
 			y: 11.0d
 			shape: "diamond"
 			description: [
-				"&d龙之能存储&r用于存储大量能量."
+				"&d神龙能量存储&r用于存储大量能量."
 				""
 				"&d能量核心&r位于龙之球的中心."
 				""
 				"&d能量塔&r用于输入或提取能量。要工作,需要在高空或下方放置一个玻璃块来激活它."
 				""
 				"&d能量核心稳定器&r是用来稳定你的神龙球&r的."
-				"它需要从你的神龙球最多 8 个方块和 1 个方块分钟距离."
+				"它需要距离你的神龙球最多8个方块，最小1个方块."
 				""
-				"&d1级&r(可以存储45.5M RF):"
-				"4 能量稳定器"
+				"&d第1级&r(可以存储45.5M RF):"
+				"•4个能量核心稳定器"
 				""
-				"&d2级&r(可以存储 273M RF):"
-				"- 6个龙块"
-				"4 能量核心稳定器"
+				"&d第2级&r(可以存储273M RF):"
+				"•6个龙块"
+				"•4个能量核心稳定器"
 				""
-				"&d第3级&r(可以存储 1.6G RF):"
-				"- 26个龙块"
-				"4 能量核心稳定器"
+				"&d第3级&r(可以存储1.6G RF):"
+				"•26个龙块"
+				"•4个能量核心稳定器"
 				""
-				"&d4级&r(可以存储 9.8 G RF):"
-				"- 54个龙块"
-				"- 26个红石块"
-				"4 能量核心稳定器"
+				"&d第4级&r(可以存储9.8G RF):"
+				"•54个龙块"
+				"•26个红石块"
+				"•4个能量核心稳定器"
 				""
-				"&d5级&r(可以存储593G RF):"
-				"- 90个龙块"
-				"- 80个红石块"
-				"36 能量核心稳定器"
+				"&d第5级&r(可以存储59.3G RF):"
+				"•90个龙块"
+				"•80个红石块"
+				"•36个能量核心稳定器"
 				""
-				"&d6级&r(可以存储 356 G RF):"
-				"- 150个龙块"
-				"- 128个红石块"
-				"36 能量核心稳定器"
+				"&d第6级&r(可以存储356 G RF):"
+				"•150个龙块"
+				"•128个红石块"
+				"•36个能量核心稳定器"
 				""
-				"&d7级&r(可以存储 2.14T RF):"
-				"- 210个龙块"
-				"- 328个红石块"
-				"36 能量核心稳定器"
+				"&d第7级&r(可以存储2.14T RF):"
+				"•210个龙块"
+				"•328个红石块"
+				"•36个能量核心稳定器"
 				""
-				"&d8级&r(可以存储9,223,372,036,854,775,807 RF)"
-				"- 378个觉醒龙块"
-				"- 786个龙块"
-				"36 能量核心稳定器"
+				"&d第8级&r(可以存储►9,223,372,036,854,775,807 RF)"
+				"•378个觉醒龙块"
+				"•786个龙块"
+				"•36个能量核心稳定器"
 			]
 			hide_dependency_lines: true
 			dependencies: ["186003E81B3E64B4"]
@@ -2258,10 +2547,13 @@
 					count: 36L
 				}
 			]
-			rewards: [{
-				id: "4A615506BEF0A54D"
-				type: "random"
-			}]
+			rewards: [
+				{
+					id: "4A615506BEF0A54D"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: -3.0d
@@ -2274,15 +2566,20 @@
 				"41AC0B64728398AF"
 			]
 			id: "6AC5532E18C98BD6"
-			tasks: [{
-				id: "79EEE458E66BAABC"
-				type: "item"
-				item: "draconicevolution:draconium_chest"
-			}]
-			rewards: [{
-				id: "3833AFABD9A73B84"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "79EEE458E66BAABC"
+					type: "item"
+					item: "draconicevolution:draconium_chest"
+				}
+			]
+			rewards: [
+				{
+					id: "3833AFABD9A73B84"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 10.0d
@@ -2297,15 +2594,20 @@
 			]
 			size: 1.5d
 			id: "3E3E6D8AE0C84623"
-			tasks: [{
-				id: "7E3744B8C6BE2694"
-				type: "item"
-				item: "mysticalagriculture:master_infusion_crystal"
-			}]
-			rewards: [{
-				id: "2691343DA52FB352"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "7E3744B8C6BE2694"
+					type: "item"
+					item: "mysticalagriculture:master_infusion_crystal"
+				}
+			]
+			rewards: [
+				{
+					id: "2691343DA52FB352"
+					type: "random"
+					table_id: 4299163432040672592L
+				}
+			]
 		}
 		{
 			x: 5.5d
@@ -2317,16 +2619,20 @@
 				"2F98FC6EB3FD8756"
 			]
 			id: "55D81FC1DF3D3780"
-			tasks: [{
-				id: "7672CDC261C8A508"
-				type: "item"
-				item: "ftb-power-pots:power_pot_mk1"
-			}]
-			rewards: [{
-				id: "43D43AC371BF8B4A"
-				type: "item"
-				item: "ftbjarmod:cast_iron_block"
-			}]
+			tasks: [
+				{
+					id: "7672CDC261C8A508"
+					type: "item"
+					item: "ftb-power-pots:power_pot_mk1"
+				}
+			]
+			rewards: [
+				{
+					id: "43D43AC371BF8B4A"
+					type: "item"
+					item: "ftbjarmod:cast_iron_block"
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -2338,17 +2644,21 @@
 				"2F98FC6EB3FD8756"
 			]
 			id: "0D084299F0365818"
-			tasks: [{
-				id: "3FAE4ABFD1008E33"
-				type: "item"
-				item: "ftb-power-pots:power_pot_mk2"
-			}]
-			rewards: [{
-				id: "303571DA1B93F5EE"
-				type: "item"
-				item: "powah:crystal_blazing"
-				count: 7
-			}]
+			tasks: [
+				{
+					id: "3FAE4ABFD1008E33"
+					type: "item"
+					item: "ftb-power-pots:power_pot_mk2"
+				}
+			]
+			rewards: [
+				{
+					id: "303571DA1B93F5EE"
+					type: "item"
+					item: "powah:crystal_blazing"
+					count: 7
+				}
+			]
 		}
 		{
 			x: 7.5d
@@ -2360,17 +2670,21 @@
 				"30D4F6F9F3D6EAB9"
 			]
 			id: "2A42B4B5527D80A1"
-			tasks: [{
-				id: "793393CF5326945D"
-				type: "item"
-				item: "ftb-power-pots:power_pot_mk3"
-			}]
-			rewards: [{
-				id: "10FFB0A83FA4DD37"
-				type: "item"
-				item: "powah:crystal_niotic"
-				count: 7
-			}]
+			tasks: [
+				{
+					id: "793393CF5326945D"
+					type: "item"
+					item: "ftb-power-pots:power_pot_mk3"
+				}
+			]
+			rewards: [
+				{
+					id: "10FFB0A83FA4DD37"
+					type: "item"
+					item: "powah:crystal_niotic"
+					count: 7
+				}
+			]
 		}
 		{
 			x: 8.5d
@@ -2382,36 +2696,45 @@
 				"5E8C6F0D7FCAAEA9"
 			]
 			id: "5CD4A8C2DE68C676"
-			tasks: [{
-				id: "6C4476C6003AE27B"
-				type: "item"
-				item: "ftb-power-pots:power_pot_mk4"
-			}]
-			rewards: [{
-				id: "60977C46248D9D93"
-				type: "item"
-				item: "draconicevolution:draconium_block"
-			}]
+			tasks: [
+				{
+					id: "6C4476C6003AE27B"
+					type: "item"
+					item: "ftb-power-pots:power_pot_mk4"
+				}
+			]
+			rewards: [
+				{
+					id: "60977C46248D9D93"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+				}
+			]
 		}
 		{
 			x: 5.5d
 			y: 22.0d
 			shape: "rsquare"
-			description: ["&6烈焰网&r比&b钻石网&r好,它会给你&7ingots&r而不是&7粉笔&r."]
+			description: ["&6烈焰网&r比&b钻石网&r好,它会给你&7锭&r而不是&7碎块&r."]
 			dependencies: [
 				"2F98FC6EB3FD8756"
 				"22999033333BCA2C"
 			]
 			id: "1FF3B466A3BEA8E9"
-			tasks: [{
-				id: "0EFEB105D827DAED"
-				type: "item"
-				item: "ftbsluice:blazing_mesh"
-			}]
-			rewards: [{
-				id: "64B1A69106701B80"
-				type: "random"
-			}]
+			tasks: [
+				{
+					id: "0EFEB105D827DAED"
+					type: "item"
+					item: "ftbsluice:blazing_mesh"
+				}
+			]
+			rewards: [
+				{
+					id: "64B1A69106701B80"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -2424,25 +2747,30 @@
 				"363DFF147DD06B8E"
 			]
 			id: "0CAA8B9BBB9750CF"
-			tasks: [{
-				id: "0DD24514D3E600F6"
-				type: "item"
-				item: {
-					id: "ftbsluice:empowered_sluice"
-					Count: 1b
-					tag: {
-						BlockEntityTag: {
-							Energy: {
-								energy: 0
+			tasks: [
+				{
+					id: "0DD24514D3E600F6"
+					type: "item"
+					item: {
+						id: "ftbsluice:empowered_sluice"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								Energy: {
+									energy: 0
+								}
 							}
 						}
 					}
 				}
-			}]
-			rewards: [{
-				id: "205B0992F2CF9356"
-				type: "random"
-			}]
+			]
+			rewards: [
+				{
+					id: "205B0992F2CF9356"
+					type: "random"
+					table_id: 7381842975596526002L
+				}
+			]
 		}
 	]
 }
