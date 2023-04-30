@@ -3,7 +3,7 @@
 	group: "5D61CD9450FCE349"
 	order_index: 2
 	filename: "draconic_evolution"
-	title: "龙之进化"
+	title: "龙之研究"
 	icon: {
 		id: "draconicevolution:chaotic_staff"
 		Count: 1b
@@ -410,7 +410,7 @@
 			y: 16.0d
 			shape: "hexagon"
 			description: [
-				"&d飞龙护胸&r是龙之进化的新盔甲."
+				"&d飞龙护胸&r是龙之研究的新盔甲."
 				""
 				"你可以在上方的身体饰品槽或饰品栏中装上它."
 				""
@@ -1577,7 +1577,7 @@
 			x: 10.0d
 			y: 11.0d
 			shape: "diamond"
-			description: ["&d模块核心&r是所有模块的基础,用于你的龙之进化物品."]
+			description: ["&d模块核心&r是所有模块的基础,用于你的龙之研究物品."]
 			hide_dependency_lines: true
 			dependencies: [
 				"41AC0B64728398AF"
