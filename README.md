@@ -1,5 +1,5 @@
-# Chroma-sky-2-quest-CN V1.0.9
-一些任务汉化  未完成
+# Chroma-sky-2-CN V1.0.9
+一些汉化
 
 需要最少6.5RAM启动。
 
