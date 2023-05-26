@@ -6,11 +6,7 @@
 	loot_size: 1
 	use_title: true
 	rewards: [
-		{
-			item: "immersiveengineering:treated_wood_horizontal"
-		}
-		{
-			item: "mekanism:ingot_steel"
-		}
+		{ item: "immersiveengineering:treated_wood_horizontal" }
+		{ item: "mekanism:ingot_steel" }
 	]
 }

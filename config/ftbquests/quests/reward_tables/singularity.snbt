@@ -24,9 +24,7 @@
 				}
 			}
 		}
-		{
-			item: "extendedcrafting:ultimate_singularity"
-		}
+		{ item: "extendedcrafting:ultimate_singularity" }
 		{
 			item: {
 				id: "extendedcrafting:singularity"

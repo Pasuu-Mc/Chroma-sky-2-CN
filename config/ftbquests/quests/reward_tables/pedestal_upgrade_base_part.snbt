@@ -6,17 +6,9 @@
 	loot_size: 1
 	use_title: true
 	rewards: [
-		{
-			item: "minecraft:gold_block"
-		}
-		{
-			item: "powah:energized_steel_block"
-		}
-		{
-			item: "immersiveengineering:circuit_board"
-		}
-		{
-			item: "industrialforegoing:pink_slime_ingot"
-		}
+		{ item: "minecraft:gold_block" }
+		{ item: "powah:energized_steel_block" }
+		{ item: "immersiveengineering:circuit_board" }
+		{ item: "industrialforegoing:pink_slime_ingot" }
 	]
 }

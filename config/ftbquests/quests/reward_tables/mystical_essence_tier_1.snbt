@@ -6,10 +6,12 @@
 	loot_size: 1
 	use_title: true
 	rewards: [
-		{
-			item: "mysticalagriculture:ice_essence"
-			count: 16
-			random_bonus: 4}
-		}
+		{ item: "mysticalagriculture:air_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:earth_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:water_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:stone_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:dirt_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:wood_essence", count: 16, random_bonus: 4 }
+		{ item: "mysticalagriculture:ice_essence", count: 16, random_bonus: 4 }
 	]
 }
